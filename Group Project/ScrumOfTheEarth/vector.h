@@ -2,6 +2,7 @@
 #define VECTOR_H
 #include <algorithm> // std::copy
 
+//test commit
 using std::copy;
 
 namespace myStd
