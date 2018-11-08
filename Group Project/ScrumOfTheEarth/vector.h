@@ -27,7 +27,7 @@ namespace myStd
       explicit vector(int s) : size_v{0}, elem{new T[s]}, space{s}  // alternate constructor
       {
           for (int i = 0; i < size_v; ++i)
-            elem[i] = T(0); // elements are initialized
+            elem[i] = T(); // elements are initialized
       }
       vector(const vector &src) : size_v{src.size_v}, elem{new T[src.size_v]}, space{src.space} // copy constructor
       {
@@ -87,7 +87,7 @@ namespace myStd
       {
         reserve(newsize);
         for (int i = size_v; i < newsize; ++i)
-            elem[i] = T(0); // initialize new elements
+            elem[i] = T(); // initialize new elements
         size_v = newsize;
       }
 
