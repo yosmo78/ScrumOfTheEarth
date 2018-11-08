@@ -7,7 +7,7 @@ using std::copy;
 
 namespace myStd
 {
-  template <Type T>
+  template <typename T>
   class vector
   {
     /*
@@ -27,11 +27,17 @@ namespace myStd
       explicit vector(int s) : size_v{0}, elem{new T[s]}, space{s}  // alternate constructor
       {
           for (int i = 0; i < size_v; ++i)
-            elem[i] = T(0); // elements are initialized
+            elem[i] = T(); // elements are initialized
       }
       vector(const vector &src) : size_v{src.size_v}, elem{new T[src.size_v]}, space{src.space} // copy constructor
       {
           copy(src.elem, src.elem + size_v, elem); // copy elements - std::copy() algorithm
+      }
+
+      vector( vector &&src) : size_v{src.size_v}, elem{src.elem}, space{src.space} // move constructor
+      {
+          src.elem = nullptr;  //make sure src does not delete elem when destructor is called
+          src.size_v = 0;
       }
 
       vector &operator=(const vector &src) // copy assignment
@@ -41,7 +47,18 @@ namespace myStd
         delete[] elem;                            // deallocate old space
         elem = p;                                 // now we can reset elem
         size_v = src.size_v;
+        space = src.space;
         return *this;  // return a self-reference
+      }
+
+      vector& operator=(vector &&src)
+      {
+          elem = src.elem;//steal array
+          size_v = src.size_v;
+          space = src.space;
+          src.elem = nullptr;//set array to nullptr in order to not delete it
+          return *this;//return self-reference
+
       }
 
       ~vector() {
@@ -70,7 +87,7 @@ namespace myStd
       {
         reserve(newsize);
         for (int i = size_v; i < newsize; ++i)
-            elem[i] = T(0); // initialize new elements
+            elem[i] = T(); // initialize new elements
         size_v = newsize;
       }
 
@@ -84,7 +101,7 @@ namespace myStd
 
             reserve(2 * space); // get more space
             if (size_v == space) //if still equal
-                return 0; //bad alloc out of memory
+                return ; //bad alloc out of memory
         }
         elem[size_v] = d;       // add d at end
         ++size_v;               // increase the size (size_v is the number of elements)
@@ -96,10 +113,10 @@ namespace myStd
         // never decrease allocation
         // allocate new space
         if(newalloc <= space)
-           return 0; //exit func if new space is < or ==
+           return ; //exit func if new space is < or ==
         T* tmp = new(std::nothrow) T[newalloc];
         if(!tmp) //check if bad_alloc
-            return 0; //if bad alloc return with old vector
+            return ; //if bad alloc return with old vector
         copy(elem,elem+size_v,tmp);
         delete [] elem;
         elem = tmp;
