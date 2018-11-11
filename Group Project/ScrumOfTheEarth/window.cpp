@@ -25,5 +25,11 @@ void Window::on_pushButton_clicked()
 
 void Window::on_PassText_returnPressed()
 {
-
+    //copy from on_pushButton_clicked()
+    QString username = ui->UserText->text();
+    QString password = ui->PassText->text();
+    if(username != "admin" || password != "admin")
+    {
+        QMessageBox::warning(this,"Login","You have entered an incorrect password!");
+    }
 }
