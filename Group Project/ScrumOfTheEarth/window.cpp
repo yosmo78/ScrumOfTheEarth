@@ -12,3 +12,13 @@ Window::~Window()
 {
     delete ui;
 }
+
+void Window::on_pushButton_clicked()
+{
+
+}
+
+void Window::on_PassText_returnPressed()
+{
+
+}
