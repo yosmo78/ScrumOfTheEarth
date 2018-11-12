@@ -1,19 +1,16 @@
-#ifndef RECTANGLE_H
-#define RECTANGLE_H
+#ifndef SQUARE_H
+#define SQUARE_H
 #include "shape.h"
 
-class Rectangle : public Shape
+class Square : public Shape
 {
-    Q_OBJECT
-   public:
-    Rectangle();
+public:
+    Square();
 
-    QPoint getCornerPoint(){return CornerPoint;} //Rectangle specific
-    void setCornerPoint(QPoint p1){CornerPoint = p1;} //Rectangle specific
-    int getLength(){return lenght;} //Rectangle specific
-    void setLenght(int l){lenght = l;} //Rectangle specific
-    int getWidth(){return width;} //Rectangle specific
-    void setWidth(int w){width = w;} //Rectangle specific
+    QPoint getCornerPoint(){return CornerPoint;} //Square specific
+    void setCornerPoint(QPoint p1){CornerPoint = p1;} //Square specific
+    int getLength(){return lenght;} //Square specific
+    void setLenght(int l){lenght = l;} //Square specific
     Qt::GlobalColor getPenColor() {return penColor;}
     Qt::GlobalColor getBrushColor(){return brushColor;}
     void setPenColor(Qt::GlobalColor pc){penColor = pc;}
@@ -30,9 +27,8 @@ class Rectangle : public Shape
     void setPenWidth(int pw){penWidth = pw;}
     QPainter& getPainter(){return painter;}
    private:
-    QPoint CornerPoint; //Rectangle specific
-    int lenght; //Rectangle specific
-    int width; //Rectangle specific
+    QPoint CornerPoint; //Square specific
+    int lenght; //Square specific
     Qt::GlobalColor penColor;
     Qt::GlobalColor brushColor;
     Qt::PenStyle penStyle;
@@ -43,4 +39,4 @@ class Rectangle : public Shape
     QPainter painter;
 };
 
-#endif // RECTANGLE_H
+#endif // SQUARE_H
