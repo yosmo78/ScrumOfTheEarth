@@ -1,19 +1,16 @@
-#ifndef RECTANGLE_H
-#define RECTANGLE_H
+#ifndef CIRCLE_H
+#define CIRCLE_H
 #include "shape.h"
 
-class Rectangle : public Shape
+class Circle : public Shape
 {
     Q_OBJECT
-
    public:
-    Rectangle();
-    QPoint getCornerPoint(){return CornerPoint;} //Rectangle specific
-    void setCornerPoint(QPoint p1){CornerPoint = p1;} //Rectangle specific
-    int getLength(){return lenght;} //Rectangle specific
-    void setLenght(int l){lenght = l;} //Rectangle specific
-    int getWidth(){return width;} //Rectangle specific
-    void setWidth(int w){width = w;} //Rectangle specific
+    Circle();//line specific
+    QPoint getPoint1(){return point;} //circle specific
+    int getRadius(){return radius;}//circle specific
+    void setPoint1(QPoint p1){point = p1;} //circle specific
+    void setPoint2(int r){radius = r;} //circle specific
     Qt::GlobalColor getPenColor() {return penColor;}
     Qt::GlobalColor getBrushColor(){return brushColor;}
     void setPenColor(Qt::GlobalColor pc){penColor = pc;}
@@ -30,9 +27,8 @@ class Rectangle : public Shape
     void setPenWidth(int pw){penWidth = pw;}
     QPainter& getPainter(){return painter;}
    private:
-    QPoint CornerPoint; //Rectangle specific
-    int lenght; //Rectangle specific
-    int width; //Rectangle specific
+    QPoint point;
+    int radius;
     Qt::GlobalColor penColor;
     Qt::GlobalColor brushColor;
     Qt::PenStyle penStyle;
@@ -43,4 +39,4 @@ class Rectangle : public Shape
     QPainter painter;
 };
 
-#endif // RECTANGLE_H
+#endif // CIRCLE_H
