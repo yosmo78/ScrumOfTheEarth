@@ -26,7 +26,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         window.cpp \
-    rectangle.cpp
+    rectangle.cpp \
+    square.cpp
 
 HEADERS += \
         window.h \
@@ -34,6 +35,7 @@ HEADERS += \
     shape.h \
     rectangle.h \
     line.h \
+    square.h
 
 
 FORMS += \
