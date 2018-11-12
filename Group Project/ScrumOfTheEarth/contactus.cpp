@@ -6,7 +6,10 @@ ContactUs::ContactUs(QWidget *parent) :
     ui(new Ui::ContactUs)
 {
     ui->setupUi(this);
-    Qpixmap pic("");
+    char relPath[] = "/ScrumOfTheEarth/Group Project/ScrumOfTheEarth/SCRUM LOGO.jpg";
+    size_t relPathSize = strlen(relPath);
+    char * absPath = getcwd(relPath,relPathSize);
+    QPixmap pic(absPath);
     ui->label->setPixmap(pic);
 }
 
