@@ -30,7 +30,8 @@ SOURCES += \
 HEADERS += \
         window.h \
     vector.h \
-    shape.h
+    shape.h \
+    line.h
 
 FORMS += \
         window.ui
