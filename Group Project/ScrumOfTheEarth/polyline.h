@@ -1,19 +1,15 @@
-#ifndef RECTANGLE_H
-#define RECTANGLE_H
+#ifndef POLYLINE_H
+#define POLYLINE_H
+#include "vector.h"
 #include "shape.h"
 
-class Rectangle : public Shape
+class Polyline: public Shape
 {
     Q_OBJECT
-
-   public:
-    Rectangle();
-    QPoint getCornerPoint(){return CornerPoint;} //Rectangle specific
-    void setCornerPoint(QPoint p1){CornerPoint = p1;} //Rectangle specific
-    int getLength(){return lenght;} //Rectangle specific
-    void setLenght(int l){lenght = l;} //Rectangle specific
-    int getWidth(){return width;} //Rectangle specific
-    void setWidth(int w){width = w;} //Rectangle specific
+  public:
+    Polyline();
+    vector<QPoint> getPoints(){return points;} //polyline specific
+    void setPoint1(vector<QPoint> pts){points = pts;} //polyline specific
     Qt::GlobalColor getPenColor() {return penColor;}
     Qt::GlobalColor getBrushColor(){return brushColor;}
     void setPenColor(Qt::GlobalColor pc){penColor = pc;}
@@ -29,10 +25,8 @@ class Rectangle : public Shape
     int getPenWidth(){return penWidth;}
     void setPenWidth(int pw){penWidth = pw;}
     QPainter& getPainter(){return painter;}
-   private:
-    QPoint CornerPoint; //Rectangle specific
-    int lenght; //Rectangle specific
-    int width; //Rectangle specific
+  private:
+    myStd::vector<QPoint> points;
     Qt::GlobalColor penColor;
     Qt::GlobalColor brushColor;
     Qt::PenStyle penStyle;
@@ -43,4 +37,4 @@ class Rectangle : public Shape
     QPainter painter;
 };
 
-#endif // RECTANGLE_H
+#endif // POLYLINE_H

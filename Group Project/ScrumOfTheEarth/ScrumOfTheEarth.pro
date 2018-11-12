@@ -27,8 +27,10 @@ SOURCES += \
         main.cpp \
         window.cpp \
     rectangle.cpp \
-    contactus.cpp \
     square.cpp \
+    polygon.cpp \
+    contactus.cpp \
+
 
 HEADERS += \
         window.h \
@@ -39,8 +41,9 @@ HEADERS += \
     circle.h \
     ellipse.h \
     contactus.h \
-    square.h
-
+    square.h \
+    polyline.h \
+    polygon.h \
 
 
 FORMS += \

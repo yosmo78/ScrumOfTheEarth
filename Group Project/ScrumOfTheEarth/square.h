@@ -4,9 +4,10 @@
 
 class Square : public Shape
 {
-public:
-    Square();
+    Q_OBJECT
 
+   public:
+    Square();
     QPoint getCornerPoint(){return CornerPoint;} //Square specific
     void setCornerPoint(QPoint p1){CornerPoint = p1;} //Square specific
     int getLength(){return lenght;} //Square specific
@@ -19,7 +20,7 @@ public:
     void setPenStyle(Qt::PenStyle ps){penStyle = ps;}
     Qt::PenCapStyle getPenCapStyle() {return penCapStyle;}
     void setPenCapStyle(Qt::PenCapStyle pcs){ penCapStyle = pcs;}
-     Qt::PenJoinStyle getPenJoinStyle(){return penJoinStyle;}
+    Qt::PenJoinStyle getPenJoinStyle(){return penJoinStyle;}
     void setPenJoinStyle(Qt::PenJoinStyle pjs){penJoinStyle = pjs;}
     Qt::BrushStyle getBrushStyle(){return brushStyle;}
     void setBrushStyle(Qt::BrushStyle bs){brushStyle = bs;}
