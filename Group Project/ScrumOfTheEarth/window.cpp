@@ -21,6 +21,10 @@ void Window::on_pushButton_clicked()
     {
         QMessageBox::warning(this,"Login","You have entered an incorrect password!");
     }
+    else
+    {
+        hide();
+    }
 }
 
 void Window::on_PassText_returnPressed()
@@ -31,5 +35,9 @@ void Window::on_PassText_returnPressed()
     if(username != "admin" || password != "admin")
     {
         QMessageBox::warning(this,"Login","You have entered an incorrect password!");
+    }
+    else
+    {
+        hide();
     }
 }
