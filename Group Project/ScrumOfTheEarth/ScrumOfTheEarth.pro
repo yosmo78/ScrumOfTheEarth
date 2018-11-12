@@ -34,6 +34,7 @@ HEADERS += \
     shape.h \
     rectangle.h \
     line.h \
+    polyline.h
 
 
 FORMS += \
