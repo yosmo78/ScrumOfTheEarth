@@ -1,19 +1,15 @@
-#ifndef RECTANGLE_H
-#define RECTANGLE_H
+#ifndef POLYGON_H
+#define POLYGON_H
 #include "shape.h"
 
-class Rectangle : public Shape
+class Polygon : public Shape
 {
     Q_OBJECT
-
    public:
-    Rectangle();
-    QPoint getCornerPoint(){return CornerPoint;} //Rectangle specific
-    void setCornerPoint(QPoint p1){CornerPoint = p1;} //Rectangle specific
-    int getLength(){return lenght;} //Rectangle specific
-    void setLenght(int l){lenght = l;} //Rectangle specific
-    int getWidth(){return width;} //Rectangle specific
-    void setWidth(int w){width = w;} //Rectangle specific
+    Polygon();
+    QPoint getPoint(int i){return polyPoint[i];} //Polygon specific
+    void setVector(vector<QPoint> v){polyPoint = v;} //Polygon specific
+    void setPoint(QPoint p, int i){polyPoint[i] = p;} //Polygon specific
     Qt::GlobalColor getPenColor() {return penColor;}
     Qt::GlobalColor getBrushColor(){return brushColor;}
     void setPenColor(Qt::GlobalColor pc){penColor = pc;}
@@ -30,9 +26,7 @@ class Rectangle : public Shape
     void setPenWidth(int pw){penWidth = pw;}
     QPainter& getPainter(){return painter;}
    private:
-    QPoint CornerPoint; //Rectangle specific
-    int lenght; //Rectangle specific
-    int width; //Rectangle specific
+    vector<QPoint> polyPoint; //Polygon specific
     Qt::GlobalColor penColor;
     Qt::GlobalColor brushColor;
     Qt::PenStyle penStyle;
@@ -43,4 +37,4 @@ class Rectangle : public Shape
     QPainter painter;
 };
 
-#endif // RECTANGLE_H
+#endif // POLYGON_H

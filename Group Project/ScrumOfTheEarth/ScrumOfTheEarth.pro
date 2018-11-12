@@ -26,7 +26,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         window.cpp \
-    rectangle.cpp
+    rectangle.cpp \
+    square.cpp \
+    polygon.cpp \
+    contactus.cpp \
+
 
 HEADERS += \
         window.h \
@@ -34,8 +38,14 @@ HEADERS += \
     shape.h \
     rectangle.h \
     line.h \
-    polyline.h
+    polyline.h \
+    square.h \
+    polygon.h \
+    circle.h \
+    ellipse.h \
+    contactus.h \
 
 
 FORMS += \
-        window.ui
+        window.ui \
+    contactus.ui
