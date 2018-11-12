@@ -29,7 +29,8 @@ SOURCES += \
 
 HEADERS += \
         window.h \
-    vector.h
+    vector.h \
+    shape.h
 
 FORMS += \
         window.ui
