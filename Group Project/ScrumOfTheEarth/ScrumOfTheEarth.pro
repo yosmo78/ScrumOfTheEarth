@@ -36,16 +36,11 @@ HEADERS += \
     shape.h \
     rectangle.h \
     line.h \
-<<<<<<< HEAD
-    circle.h
-=======
-<<<<<<< HEAD
-    ellipse.h
-=======
+    circle.h \
+    ellipse.h \
     contactus.h \
-    square.h \
->>>>>>> 46d525055d7a95e5eab30812b94b0395308b0829
->>>>>>> 6201801924c6c32ad9ba248c78212b65086618df
+    square.h
+
 
 
 FORMS += \

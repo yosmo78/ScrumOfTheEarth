@@ -5,12 +5,13 @@ ContactUs::ContactUs(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::ContactUs)
 {
-    ui->setupUi(this);
-    char relPath[] = "/ScrumOfTheEarth/Group Project/ScrumOfTheEarth/SCRUM LOGO.jpg";
+    char relPath[] = "/Group Project/ScrumOfTheEarth/SCRUM LOGO.jpg";
     size_t relPathSize = strlen(relPath);
-    char * absPath = getcwd(relPath,relPathSize);
+    char * absPath = getcwd(relPath,100*relPathSize);
     QPixmap pic(absPath);
     ui->label->setPixmap(pic);
+    ui->setupUi(this);
+
 }
 
 ContactUs::~ContactUs()

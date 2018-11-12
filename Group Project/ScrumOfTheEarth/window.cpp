@@ -41,3 +41,9 @@ void Window::on_PassText_returnPressed()
         hide();
     }
 }
+
+void Window::on_Contact_clicked()
+{
+    contactus = new ContactUs(this);
+    contactus->show();
+}
