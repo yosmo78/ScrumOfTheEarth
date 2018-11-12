@@ -27,7 +27,8 @@ SOURCES += \
         main.cpp \
         window.cpp \
     rectangle.cpp \
-    square.cpp
+    square.cpp \
+    polygon.cpp
 
 HEADERS += \
         window.h \
@@ -35,7 +36,8 @@ HEADERS += \
     shape.h \
     rectangle.h \
     line.h \
-    square.h
+    square.h \
+    polygon.h
 
 
 FORMS += \
