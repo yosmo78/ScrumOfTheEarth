@@ -8,8 +8,8 @@ class Polyline: public Shape
     Q_OBJECT
   public:
     Polyline();
-    vector<QPoint> getPoints(){return points;} //polyline specific
-    void setPoint1(vector<QPoint> pts){points = pts;} //polyline specific
+    myStd::vector<QPoint> getPoints(){return points;} //polyline specific
+    void setPoints(myStd::vector<QPoint> pts){points = pts;} //polyline specific
     Qt::GlobalColor getPenColor() {return penColor;}
     Qt::GlobalColor getBrushColor(){return brushColor;}
     void setPenColor(Qt::GlobalColor pc){penColor = pc;}

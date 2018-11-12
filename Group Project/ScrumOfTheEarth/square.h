@@ -1,6 +1,7 @@
 #ifndef SQUARE_H
 #define SQUARE_H
 #include "shape.h"
+#include "vector.h"
 
 class Square : public Shape
 {
@@ -10,8 +11,8 @@ class Square : public Shape
     Square();
     QPoint getCornerPoint(){return CornerPoint;} //Square specific
     void setCornerPoint(QPoint p1){CornerPoint = p1;} //Square specific
-    int getLength(){return lenght;} //Square specific
-    void setLenght(int l){lenght = l;} //Square specific
+    int getLength(){return length;} //Square specific
+    void setLength(int l){length = l;} //Square specific
     Qt::GlobalColor getPenColor() {return penColor;}
     Qt::GlobalColor getBrushColor(){return brushColor;}
     void setPenColor(Qt::GlobalColor pc){penColor = pc;}
@@ -29,7 +30,7 @@ class Square : public Shape
     QPainter& getPainter(){return painter;}
    private:
     QPoint CornerPoint; //Square specific
-    int lenght; //Square specific
+    int length; //Square specific
     Qt::GlobalColor penColor;
     Qt::GlobalColor brushColor;
     Qt::PenStyle penStyle;

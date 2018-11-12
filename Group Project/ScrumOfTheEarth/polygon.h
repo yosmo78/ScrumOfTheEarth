@@ -1,6 +1,7 @@
 #ifndef POLYGON_H
 #define POLYGON_H
 #include "shape.h"
+#include "vector.h"
 
 class Polygon : public Shape
 {
@@ -8,7 +9,7 @@ class Polygon : public Shape
    public:
     Polygon();
     QPoint getPoint(int i){return polyPoint[i];} //Polygon specific
-    void setVector(vector<QPoint> v){polyPoint = v;} //Polygon specific
+    void setVector(myStd::vector<QPoint> v){polyPoint = v;} //Polygon specific
     void setPoint(QPoint p, int i){polyPoint[i] = p;} //Polygon specific
     Qt::GlobalColor getPenColor() {return penColor;}
     Qt::GlobalColor getBrushColor(){return brushColor;}
@@ -26,7 +27,7 @@ class Polygon : public Shape
     void setPenWidth(int pw){penWidth = pw;}
     QPainter& getPainter(){return painter;}
    private:
-    vector<QPoint> polyPoint; //Polygon specific
+    myStd::vector<QPoint> polyPoint; //Polygon specific
     Qt::GlobalColor penColor;
     Qt::GlobalColor brushColor;
     Qt::PenStyle penStyle;
