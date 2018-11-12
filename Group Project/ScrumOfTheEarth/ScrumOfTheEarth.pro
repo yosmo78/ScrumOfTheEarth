@@ -30,6 +30,7 @@ SOURCES += \
     square.cpp \
     polygon.cpp \
     contactus.cpp \
+    text.cpp
 
 
 HEADERS += \
@@ -43,6 +44,7 @@ HEADERS += \
     circle.h \
     ellipse.h \
     contactus.h \
+    text.h
 
 
 FORMS += \
