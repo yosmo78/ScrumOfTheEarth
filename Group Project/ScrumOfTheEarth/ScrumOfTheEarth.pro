@@ -39,14 +39,15 @@ HEADERS += \
     shape.h \
     rectangle.h \
     line.h \
-    square.h \
-    polygon.h \
     circle.h \
     ellipse.h \
     contactus.h \
-    text.h
+    square.h \
+    polyline.h \
+    polygon.h \
+    text.h \
 
 
 FORMS += \
         window.ui \
-    contactus.ui
+   contactus.ui

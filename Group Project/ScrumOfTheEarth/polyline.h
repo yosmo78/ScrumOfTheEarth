@@ -1,16 +1,15 @@
-#ifndef POLYGON_H
-#define POLYGON_H
-#include "shape.h"
+#ifndef POLYLINE_H
+#define POLYLINE_H
 #include "vector.h"
+#include "shape.h"
 
-class Polygon : public Shape
+class Polyline: public Shape
 {
     Q_OBJECT
-   public:
-    Polygon();
-    QPoint getPoint(int i){return polyPoint[i];} //Polygon specific
-    void setVector(myStd::vector<QPoint> v){polyPoint = v;} //Polygon specific
-    void setPoint(QPoint p, int i){polyPoint[i] = p;} //Polygon specific
+  public:
+    Polyline();
+    myStd::vector<QPoint> getPoints(){return points;} //polyline specific
+    void setPoints(myStd::vector<QPoint> pts){points = pts;} //polyline specific
     Qt::GlobalColor getPenColor() {return penColor;}
     Qt::GlobalColor getBrushColor(){return brushColor;}
     void setPenColor(Qt::GlobalColor pc){penColor = pc;}
@@ -26,8 +25,8 @@ class Polygon : public Shape
     int getPenWidth(){return penWidth;}
     void setPenWidth(int pw){penWidth = pw;}
     QPainter& getPainter(){return painter;}
-   private:
-    myStd::vector<QPoint> polyPoint; //Polygon specific
+  private:
+    myStd::vector<QPoint> points;
     Qt::GlobalColor penColor;
     Qt::GlobalColor brushColor;
     Qt::PenStyle penStyle;
@@ -38,4 +37,4 @@ class Polygon : public Shape
     QPainter painter;
 };
 
-#endif // POLYGON_H
+#endif // POLYLINE_H

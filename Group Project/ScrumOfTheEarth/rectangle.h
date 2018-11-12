@@ -1,6 +1,7 @@
 #ifndef RECTANGLE_H
 #define RECTANGLE_H
 #include "shape.h"
+#include "vector.h"
 
 class Rectangle : public Shape
 {
@@ -10,8 +11,8 @@ class Rectangle : public Shape
     Rectangle();
     QPoint getCornerPoint(){return CornerPoint;} //Rectangle specific
     void setCornerPoint(QPoint p1){CornerPoint = p1;} //Rectangle specific
-    int getLength(){return lenght;} //Rectangle specific
-    void setLenght(int l){lenght = l;} //Rectangle specific
+    int getLength(){return length;} //Rectangle specific
+    void setLength(int l){length = l;} //Rectangle specific
     int getWidth(){return width;} //Rectangle specific
     void setWidth(int w){width = w;} //Rectangle specific
     Qt::GlobalColor getPenColor() {return penColor;}
@@ -31,7 +32,7 @@ class Rectangle : public Shape
     QPainter& getPainter(){return painter;}
    private:
     QPoint CornerPoint; //Rectangle specific
-    int lenght; //Rectangle specific
+    int length; //Rectangle specific
     int width; //Rectangle specific
     Qt::GlobalColor penColor;
     Qt::GlobalColor brushColor;
