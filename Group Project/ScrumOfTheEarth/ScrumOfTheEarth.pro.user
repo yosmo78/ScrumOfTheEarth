@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<<<<<<< HEAD
-<!-- Written by QtCreator 4.3.1, 2018-11-11T17:40:17. -->
-=======
-<!-- Written by QtCreator 4.3.1, 2018-11-11T17:07:37. -->
->>>>>>> 3ebb06308c59b218e2ddab9a8043dcee886d61b0
+<!-- Written by QtCreator 4.3.1, 2018-11-11T18:19:34. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -310,8 +306,8 @@
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">ScrumOfTheEarth</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/cs1c/Desktop/hw2/ScrumOfTheEarth/Group Project/ScrumOfTheEarth/ScrumOfTheEarth.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">ScrumOfTheEarth2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/cs1c/hw/ScrumOfTheEarth/Group Project/ScrumOfTheEarth/ScrumOfTheEarth.pro</value>
     <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">ScrumOfTheEarth.pro</value>
