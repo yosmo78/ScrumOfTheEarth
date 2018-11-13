@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.3.1, 2018-11-13T10:28:09. -->
+<!-- Written by QtCreator 4.7.2, 2018-11-13T10:03:35. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -308,6 +308,11 @@
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">ScrumOfTheEarth</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">ScrumOfTheEarth2</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/cs1c/hw/ScrumOfTheEarth/Group Project/ScrumOfTheEarth/ScrumOfTheEarth.pro</value>
+<!--
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/Users/brendansakamoto/Desktop/CS 1C/ScrumOfTheEarth/Group Project/ScrumOfTheEarth/ScrumOfTheEarth.pro</value>
+    <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseDyldImageSuffix">false</value>
+-->
     <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">ScrumOfTheEarth.pro</value>

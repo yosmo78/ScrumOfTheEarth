@@ -25,7 +25,7 @@ class Ui_ContactUs
 {
 public:
     QLabel *label;
-    QWidget *widget;
+    QWidget *layoutWidget;
     QVBoxLayout *verticalLayout;
     QLabel *label_3;
     QLabel *label_2;
@@ -37,19 +37,20 @@ public:
         ContactUs->resize(400, 300);
         label = new QLabel(ContactUs);
         label->setObjectName(QStringLiteral("label"));
-        label->setGeometry(QRect(10, 10, 381, 201));
-        widget = new QWidget(ContactUs);
-        widget->setObjectName(QStringLiteral("widget"));
-        widget->setGeometry(QRect(10, 250, 220, 42));
-        verticalLayout = new QVBoxLayout(widget);
+        label->setGeometry(QRect(10, 10, 381, 231));
+        label->setPixmap(QPixmap(QString::fromUtf8("SCRUM LOGO.png")));
+        layoutWidget = new QWidget(ContactUs);
+        layoutWidget->setObjectName(QStringLiteral("layoutWidget"));
+        layoutWidget->setGeometry(QRect(10, 250, 220, 42));
+        verticalLayout = new QVBoxLayout(layoutWidget);
         verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
-        label_3 = new QLabel(widget);
+        label_3 = new QLabel(layoutWidget);
         label_3->setObjectName(QStringLiteral("label_3"));
 
         verticalLayout->addWidget(label_3);
 
-        label_2 = new QLabel(widget);
+        label_2 = new QLabel(layoutWidget);
         label_2->setObjectName(QStringLiteral("label_2"));
 
         verticalLayout->addWidget(label_2);
@@ -63,7 +64,7 @@ public:
     void retranslateUi(QDialog *ContactUs)
     {
         ContactUs->setWindowTitle(QApplication::translate("ContactUs", "Dialog", Q_NULLPTR));
-        label->setText(QApplication::translate("ContactUs", "TextLabel", Q_NULLPTR));
+        label->setText(QString());
         label_3->setText(QApplication::translate("ContactUs", "Email: SrumOfTheEarth@gmail.com", Q_NULLPTR));
         label_2->setText(QApplication::translate("ContactUs", "Phone: (949) 715-2749", Q_NULLPTR));
     } // retranslateUi
