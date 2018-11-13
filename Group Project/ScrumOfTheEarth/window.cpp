@@ -44,6 +44,7 @@ void Window::on_PassText_returnPressed()
 
 void Window::on_Contact_clicked()
 {
+    hide();
     contactus = new ContactUs(this);
     contactus->show();
 }
