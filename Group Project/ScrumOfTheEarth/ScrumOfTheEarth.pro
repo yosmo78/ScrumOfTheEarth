@@ -30,7 +30,8 @@ SOURCES += \
     square.cpp \
     polygon.cpp \
     contactus.cpp \
-    text.cpp
+    text.cpp \
+    shape_parser.cpp
 
 
 HEADERS += \
