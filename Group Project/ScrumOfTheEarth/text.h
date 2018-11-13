@@ -19,7 +19,7 @@ class Text : public Shape
     void setGlobalColor(Qt::GlobalColor gc){textColor = gc;} //Text specific
     Qt::AlignmentFlag getAlignmentFlag(){return textAlignment;} //Text specific
     void setAlignmentFlag(Qt::AlignmentFlag af){textAlignment = af;} //Text specific
-    int getTextPointSize(){return testPointSize;} //Text specific
+    int getTextPointSize(){return textPointSize;} //Text specific
     void setTextPointSize(int ts){textPointSize = ts;} //Text specific
     QString getTextFontFamily(){return textFontFamily;} //Text specific
     void setTextFontFamily(QString tff){textFontFamily = tff;} //Text specific
