@@ -12,12 +12,8 @@ ContactUs::ContactUs(QWidget *parent) :
 //   char * ptr = realpath(path,buf);
 //    QPixmap pic(buf);
     ui->setupUi(this);
-<<<<<<< HEAD
 //    ui->label->setPixmap(pic);
-=======
-  //  ui->label->setPixmap(pic);
 
->>>>>>> c2839df643fcadadaeae011562d22945393b0836
 }
 
 ContactUs::~ContactUs()

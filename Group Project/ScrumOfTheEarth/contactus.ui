@@ -19,7 +19,7 @@
   height:40px;
 }</string>
   </property>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="Log_label">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -46,14 +46,14 @@
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="QLabel" name="label_3">
+     <widget class="QLabel" name="phone_label">
       <property name="text">
        <string>Email: SrumOfTheEarth@gmail.com</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QLabel" name="label_2">
+     <widget class="QLabel" name="email_label">
       <property name="text">
        <string>Phone: (949) 715-2749</string>
       </property>
