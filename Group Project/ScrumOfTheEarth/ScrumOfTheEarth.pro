@@ -51,3 +51,6 @@ HEADERS += \
 FORMS += \
         window.ui \
    contactus.ui
+
+RESOURCES += \
+    logo.qrc

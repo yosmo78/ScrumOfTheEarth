@@ -13,6 +13,12 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">img.resize {
+  width:200px;
+  height:40px;
+}</string>
+  </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
@@ -22,11 +28,11 @@
      <height>231</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/img/SCRUM LOGO.jpg)</string>
+   </property>
    <property name="text">
     <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap>SCRUM LOGO.png</pixmap>
    </property>
   </widget>
   <widget class="QWidget" name="layoutWidget">
