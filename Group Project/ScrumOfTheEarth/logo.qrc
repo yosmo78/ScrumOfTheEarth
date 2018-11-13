@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>SCRUM LOGO.jpg</file>
+    </qresource>
+</RCC>
