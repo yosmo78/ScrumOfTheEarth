@@ -32,7 +32,8 @@ SOURCES += \
     contactus.cpp \
     text.cpp \
     shape_parser.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    circle.cpp
 
 
 HEADERS += \
