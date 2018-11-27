@@ -29,6 +29,7 @@ class Rectangle : public Shape
     void setBrushStyle(Qt::BrushStyle bs){brushStyle = bs;}
     int getPenWidth(){return penWidth;}
     void setPenWidth(int pw){penWidth = pw;}
+    virtual void draw();
    private:
     QPoint CornerPoint; //Rectangle specific
     int length; //Rectangle specific

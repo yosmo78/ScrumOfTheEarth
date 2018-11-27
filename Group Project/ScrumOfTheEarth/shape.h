@@ -2,6 +2,8 @@
 #define SHAPE_H
 #include <QPainter>
 #include <QObject>
+#include "vector.h"
+
 
 class Shape: public QObject
 {
@@ -19,4 +21,5 @@ class Shape: public QObject
         QPainter painter;
 };
 
+void shape_parser(myStd::vector<Shape*>& vec, QPaintDevice* pptr, const char* filename);
 #endif // SHAPE_H

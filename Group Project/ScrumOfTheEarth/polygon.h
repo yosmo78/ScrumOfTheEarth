@@ -25,6 +25,7 @@ class Polygon : public Shape
     void setBrushStyle(Qt::BrushStyle bs){brushStyle = bs;}
     int getPenWidth(){return penWidth;}
     void setPenWidth(int pw){penWidth = pw;}
+    virtual void draw();
    private:
     myStd::vector<QPoint> polyPoint; //Polygon specific
     Qt::GlobalColor penColor;

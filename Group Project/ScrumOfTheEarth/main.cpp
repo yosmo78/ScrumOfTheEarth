@@ -4,10 +4,7 @@
 #include <fstream>
 #include <string>
 #include <sstream>
-#include "vector.h"
-#include "shape.h"
 
-static myStd::vector<Shape*> shapes;//global vector to draw shapes from
 
 using namespace std;
 
