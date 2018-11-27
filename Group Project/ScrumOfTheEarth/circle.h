@@ -25,7 +25,6 @@ class Circle : public Shape
     void setBrushStyle(Qt::BrushStyle bs){brushStyle = bs;}
     int getPenWidth(){return penWidth;}
     void setPenWidth(int pw){penWidth = pw;}
-    QPainter& getPainter(){return painter;}
    private:
     QPoint point;
     int radius;
@@ -36,7 +35,7 @@ class Circle : public Shape
     Qt::PenJoinStyle penJoinStyle;
     Qt::BrushStyle brushStyle;
     int penWidth;
-    QPainter painter;
+
 };
 
 #endif // CIRCLE_H

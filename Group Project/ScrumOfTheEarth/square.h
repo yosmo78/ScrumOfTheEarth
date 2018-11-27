@@ -8,7 +8,7 @@ class Square : public Shape
     Q_OBJECT
 
    public:
-    Square();
+    Square(QPaintDevice*, unsigned int, int, int, int, Qt::GlobalColor, Qt::GlobalColor, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle, Qt::BrushStyle, int);
     QPoint getCornerPoint(){return CornerPoint;} //Square specific
     void setCornerPoint(QPoint p1){CornerPoint = p1;} //Square specific
     int getLength(){return length;} //Square specific
@@ -27,7 +27,7 @@ class Square : public Shape
     void setBrushStyle(Qt::BrushStyle bs){brushStyle = bs;}
     int getPenWidth(){return penWidth;}
     void setPenWidth(int pw){penWidth = pw;}
-    QPainter& getPainter(){return painter;}
+    virtual void draw();
    private:
     QPoint CornerPoint; //Square specific
     int length; //Square specific
@@ -38,7 +38,6 @@ class Square : public Shape
     Qt::PenJoinStyle penJoinStyle;
     Qt::BrushStyle brushStyle;
     int penWidth;
-    QPainter painter;
 };
 
 #endif // SQUARE_H

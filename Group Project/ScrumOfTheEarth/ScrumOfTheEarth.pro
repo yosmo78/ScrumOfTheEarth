@@ -48,7 +48,8 @@ HEADERS += \
     polyline.h \
     polygon.h \
     text.h \
-    mainwindow.h
+    mainwindow.h \
+    renderarea.h
 
 
 FORMS += \
