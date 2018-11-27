@@ -50,8 +50,7 @@ HEADERS += \
     polygon.h \
     text.h \
     mainwindow.h \
-    renderarea.h \
-    globalvec.h
+    renderarea.h
 
 
 FORMS += \

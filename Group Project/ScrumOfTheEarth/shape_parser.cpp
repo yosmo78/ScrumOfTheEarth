@@ -7,7 +7,7 @@
 
 using namespace std;
 
-void shape_parser(myStd::vector<Shape*>& vec, QPaintDevice* pptr, const char* filename)//the paint device will be the renderarea
+void shape_parser(myStd::vector<Shape*>& vec, const char* filename)//the paint device will be the renderarea
 {
   int shapeID = 99999;
   string shapeType = "nullptr";

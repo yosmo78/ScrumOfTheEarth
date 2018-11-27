@@ -8,7 +8,7 @@ class Rectangle : public Shape
     Q_OBJECT
 
    public:
-    Rectangle(QPaintDevice*, unsigned int, int, int, int, int, Qt::GlobalColor, Qt::GlobalColor, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle, Qt::BrushStyle, int);
+    Rectangle(unsigned int, int, int, int, int, Qt::GlobalColor, Qt::GlobalColor, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle, Qt::BrushStyle, int);
     QPoint getCornerPoint(){return CornerPoint;} //Rectangle specific
     void setCornerPoint(QPoint p1){CornerPoint = p1;} //Rectangle specific
     int getLength(){return length;} //Rectangle specific
@@ -29,7 +29,7 @@ class Rectangle : public Shape
     void setBrushStyle(Qt::BrushStyle bs){brushStyle = bs;}
     int getPenWidth(){return penWidth;}
     void setPenWidth(int pw){penWidth = pw;}
-    virtual void draw();
+    virtual void draw(QPainter &);
    private:
     QPoint CornerPoint; //Rectangle specific
     int length; //Rectangle specific
