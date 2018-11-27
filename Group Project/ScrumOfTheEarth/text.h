@@ -41,7 +41,6 @@ class Text : public Shape
     void setBrushStyle(Qt::BrushStyle bs){brushStyle = bs;}
     int getPenWidth(){return penWidth;}
     void setPenWidth(int pw){penWidth = pw;}
-    QPainter& getPainter(){return painter;}
    private:
     QPoint CornerPoint; //Text specific
     int length; //Text specific
@@ -60,7 +59,6 @@ class Text : public Shape
     Qt::PenJoinStyle penJoinStyle;
     Qt::BrushStyle brushStyle;
     int penWidth;
-    QPainter painter;
 };
 
 #endif // TEXT_H

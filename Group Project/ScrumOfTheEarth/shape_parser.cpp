@@ -2,10 +2,12 @@
 #include <sstream>
 #include <iostream>
 #include <string>
+#include "vector.h"
+#include "shape.h"
 
 using namespace std;
 
-void shape_parser()
+void shape_parser(myStd::vector<Shape*>& vec, QPaintDevice* pptr)
 {
   int shapeID = 99999;
   string shapeType = "nullptr";
