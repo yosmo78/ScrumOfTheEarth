@@ -23,6 +23,8 @@ private slots:
 
     void on_Contact_clicked();
 
+    void on_GuestLogin_clicked();
+
 private:
     Ui::Window *ui;
     ContactUs * contactus;

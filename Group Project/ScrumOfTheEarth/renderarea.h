@@ -16,12 +16,11 @@ class RenderArea : public QWidget
   protected:
     void paintEvent(QPaintEvent* event) override
     {
-        QPainter nothing(this);
+        QPainter nothing(this); //qt best practice
         //nothing.drawLine(QPointF(),QPointF(qreal(60),qreal(60)));
       Shape ** ptr =  shapesList.begin();
       for(int i = 0; i < shapesList.size(); ++i)
       {
-          std::cerr << ptr[i];
           ptr[i]->draw(nothing);
       }
     }

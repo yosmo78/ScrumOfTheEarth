@@ -5,8 +5,8 @@
 #include "square.h"
 #include <iostream>
 
-MainWindow::MainWindow(QWidget *parent) :
-    QMainWindow(parent),
+MainWindow::MainWindow(QWidget *parent, bool admin) :
+    QMainWindow(parent), isAdmin(admin),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
@@ -20,8 +20,8 @@ MainWindow::~MainWindow()
 void MainWindow::on_FileButton_clicked()
 {
     //ask for file. If exists, clear vector and render are, call shape parser, and call paint event
-   // QString text = QInputDialog::getText(this, tr("File Input"), tr("File Name:"), QLineEdit::Normal);
-    //shape_parser(shapesList, ui->widget, text.toLocal8Bit().toStdString().c_str());
+    file = QInputDialog::getText(this, tr("Open File"), tr("File Name with extension:"), QLineEdit::Normal);
+    //shape_parser(shapesList, file.toLocal8Bit().toStdString().c_str());
     Shape * ptr = new Square(0,0,0,40,Qt::blue,Qt::black,Qt::SolidLine,Qt::FlatCap,Qt::MiterJoin,Qt::SolidPattern,5);
     ui->widget->shapesList.push_back(ptr);
     ui->widget->update();

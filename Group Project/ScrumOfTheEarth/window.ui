@@ -96,7 +96,7 @@
       <string>Scrum of the Earth</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_2">
+    <widget class="QPushButton" name="GuestLogin">
      <property name="geometry">
       <rect>
        <x>210</x>
