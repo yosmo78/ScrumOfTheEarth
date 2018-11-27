@@ -188,6 +188,45 @@ namespace myStd
         --size_v;
         return p;
       }
+
+      void deallocPtrData()  //if type it pointer to data
+      {
+          iterator tmp;
+          for(int i = 0;i < size_v; ++i)
+          {
+              tmp = *(elem+i);
+              delete tmp;
+          }
+
+      }
+
+      void deallocPtrArrayData() //if type is dynamic arrays
+      {
+          iterator tmp;
+          for(int i = 0;i < size_v; ++i)
+          {
+              tmp = *(elem+i);
+              delete [] tmp;
+          }
+      }
+
+      void deleteList()
+      {
+          deallocPtrData();
+          delete[] elem; // destructor
+          space = 0;
+          size_v =0;
+          elem = NULL;
+      }
+
+      void deleteArrayList()
+      {
+          deallocPtrArrayData();
+          delete[] elem; // destructor
+          space = 0;
+          size_v =0;
+          elem = NULL;
+      }
   };
 }
 
