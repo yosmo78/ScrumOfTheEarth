@@ -24,6 +24,8 @@ void Window::on_pushButton_clicked()
     else
     {
         hide();
+        mainwindow = new MainWindow(this);
+        mainwindow->show();
     }
 }
 
@@ -40,7 +42,8 @@ void Window::on_PassText_returnPressed()
     else
     {
         hide();
-
+        mainwindow = new MainWindow(this);
+        mainwindow->show();
     }
 }
 

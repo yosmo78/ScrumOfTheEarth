@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 #include "contactus.h"
-
+#include "mainwindow.h"
 namespace Ui {
 class Window;
 }
@@ -26,6 +26,7 @@ private slots:
 private:
     Ui::Window *ui;
     ContactUs * contactus;
+    MainWindow * mainwindow;
 };
 
 #endif // WINDOW_H
