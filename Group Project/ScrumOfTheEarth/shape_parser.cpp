@@ -35,7 +35,9 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename)//the paint d
   ifstream fin;
 
   fin.open(filename);
-
+  if(!fin.fail())
+  {
+    vec.deleteList(); //clear out vector
   while(getline(fin, skip, ':') && fin >> shapeID)
   {
 
@@ -357,6 +359,8 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename)//the paint d
       ss.clear();
 
       i = 0;
+    }
   }
   fin.close();
+
 }

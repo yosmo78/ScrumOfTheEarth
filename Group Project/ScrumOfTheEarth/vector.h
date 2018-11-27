@@ -191,7 +191,7 @@ namespace myStd
 
       void deallocPtrData()  //if type it pointer to data
       {
-          iterator tmp;
+          T tmp;
           for(int i = 0;i < size_v; ++i)
           {
               tmp = *(elem+i);
@@ -202,7 +202,7 @@ namespace myStd
 
       void deallocPtrArrayData() //if type is dynamic arrays
       {
-          iterator tmp;
+          T tmp;
           for(int i = 0;i < size_v; ++i)
           {
               tmp = *(elem+i);

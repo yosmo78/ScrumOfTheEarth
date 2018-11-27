@@ -20,6 +20,8 @@ private slots:
 
     void on_FileButton_clicked();
 
+    void on_Save_clicked();
+
 private:
     Ui::MainWindow *ui;
     bool isAdmin;

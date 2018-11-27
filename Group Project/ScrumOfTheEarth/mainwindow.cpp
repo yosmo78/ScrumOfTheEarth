@@ -4,9 +4,10 @@
 #include "shape.h"
 #include "square.h"
 #include <iostream>
+#include <QMessageBox>
 
 MainWindow::MainWindow(QWidget *parent, bool admin) :
-    QMainWindow(parent), isAdmin(admin),
+   isAdmin(admin), QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
@@ -20,9 +21,26 @@ MainWindow::~MainWindow()
 void MainWindow::on_FileButton_clicked()
 {
     //ask for file. If exists, clear vector and render are, call shape parser, and call paint event
-    file = QInputDialog::getText(this, tr("Open File"), tr("File Name with extension:"), QLineEdit::Normal);
-    //shape_parser(shapesList, file.toLocal8Bit().toStdString().c_str());
-    Shape * ptr = new Square(0,0,0,40,Qt::blue,Qt::black,Qt::SolidLine,Qt::FlatCap,Qt::MiterJoin,Qt::SolidPattern,5);
-    ui->widget->shapesList.push_back(ptr);
-    ui->widget->update();
+    bool ok;
+    file = QInputDialog::getText(this, tr("Open File"), tr("File Name with extension:"), QLineEdit::Normal, QString(), &ok);
+    if(ok)
+    {
+     // shape_parser(ui->widget->shapesList, file.toLocal8Bit().toStdString().c_str());
+      Shape * ptr = new Square(0,0,0,40,Qt::blue,Qt::black,Qt::SolidLine,Qt::FlatCap,Qt::MiterJoin,Qt::SolidPattern,5);
+      ui->widget->shapesList.push_back(ptr);
+      ui->widget->update();
+    }
+}
+
+void MainWindow::on_Save_clicked()
+{
+    if(isAdmin)
+    {
+
+
+    }
+    else
+    {
+        QMessageBox::warning(this,"Save","Access denied. Login as admin");
+    }
 }
