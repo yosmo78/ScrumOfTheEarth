@@ -26,6 +26,7 @@ void Window::on_pushButton_clicked()
         hide();
         mainwindow = new MainWindow(this);
         mainwindow->show();
+
     }
 }
 

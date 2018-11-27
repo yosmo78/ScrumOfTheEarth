@@ -7,7 +7,7 @@
 
 using namespace std;
 
-void shape_parser(myStd::vector<Shape*>& vec, QPaintDevice* pptr)
+void shape_parser(myStd::vector<Shape*>& vec, QPaintDevice* pptr, const char* filename)//the paint device will be the renderarea
 {
   int shapeID = 99999;
   string shapeType = "nullptr";
@@ -34,7 +34,7 @@ void shape_parser(myStd::vector<Shape*>& vec, QPaintDevice* pptr)
 
   ifstream fin;
 
-  fin.open("inputFile.txt");
+  fin.open(filename);
 
   while(getline(fin, skip, ':') && fin >> shapeID)
   {
@@ -358,4 +358,5 @@ void shape_parser(myStd::vector<Shape*>& vec, QPaintDevice* pptr)
 
       i = 0;
   }
+  fin.close();
 }
