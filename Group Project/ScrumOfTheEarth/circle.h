@@ -6,7 +6,7 @@ class Circle : public Shape
 {
     Q_OBJECT
    public:
-    Circle();//line specific
+    Circle(unsigned int i, int x, int y, int r, Qt::GlobalColor pc, Qt::GlobalColor bc, Qt::PenStyle ps, Qt::PenCapStyle pcs, Qt::PenJoinStyle pjs, Qt::BrushStyle bs, int pw);//line specific
     QPoint getPoint1(){return point;} //circle specific
     int getRadius(){return radius;}//circle specific
     void setPoint1(QPoint p1){point = p1;} //circle specific
@@ -25,6 +25,7 @@ class Circle : public Shape
     void setBrushStyle(Qt::BrushStyle bs){brushStyle = bs;}
     int getPenWidth(){return penWidth;}
     void setPenWidth(int pw){penWidth = pw;}
+    void draw(QPainter & paint);
    private:
     QPoint point;
     int radius;
