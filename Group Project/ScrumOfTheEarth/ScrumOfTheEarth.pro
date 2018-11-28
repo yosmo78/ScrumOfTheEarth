@@ -36,7 +36,8 @@ SOURCES += \
     circle.cpp \
     ellipse.cpp \
     line.cpp \
-    polyline.cpp
+    polyline.cpp \
+    shape_saver.cpp
 
 
 HEADERS += \
