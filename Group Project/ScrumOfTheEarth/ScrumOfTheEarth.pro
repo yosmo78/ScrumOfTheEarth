@@ -33,7 +33,9 @@ SOURCES += \
     text.cpp \
     shape_parser.cpp \
     mainwindow.cpp \
-    circle.cpp
+    circle.cpp \
+    ellipse.cpp \
+    line.cpp
 
 
 HEADERS += \

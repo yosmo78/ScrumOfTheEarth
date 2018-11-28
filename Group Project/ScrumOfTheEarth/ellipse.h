@@ -7,7 +7,7 @@ class Ellipse : public Shape
     Q_OBJECT
 
     public:
-        Ellipse();
+        Ellipse(unsigned int, int, int, int, int, Qt::GlobalColor, Qt::GlobalColor, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle, Qt::BrushStyle, int);
         QPoint getTopLeft(){return point;}
         int getMajorAxis(){return major;}
         int getMinorAxis(){return minor;}
@@ -28,10 +28,11 @@ class Ellipse : public Shape
         void setBrushStyle(Qt::BrushStyle bs){brushStyle = bs;}
         int getPenWidth(){return penWidth;}
         void setPenWidth(int pw){penWidth = pw;}
+        virtual void draw(QPainter & paint);
     private:
         QPoint point;
-        int major;
-        int minor;
+        int major;//a
+        int minor;//b
         Qt::GlobalColor penColor;
         Qt::GlobalColor brushColor;
         Qt::PenStyle penStyle;
