@@ -7,7 +7,7 @@
 
 using namespace std;
 
-void shape_parser(myStd::vector<Shape*>& vec, const char* filename)//the paint device will be the renderarea
+void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//the paint device will be the renderarea
 {
   int shapeID = 99999;
   string shapeType = "nullptr";
@@ -37,6 +37,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename)//the paint d
   fin.open(filename);
   if(!fin.fail())
   {
+    ok = true;
     vec.deleteList(); //clear out vector
   while(getline(fin, skip, ':') && fin >> shapeID)
   {
@@ -360,6 +361,10 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename)//the paint d
 
       i = 0;
     }
+  }
+  else
+  {
+      ok = false;//file did not open
   }
   fin.close();
 
