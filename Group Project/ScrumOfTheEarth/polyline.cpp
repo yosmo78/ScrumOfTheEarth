@@ -19,5 +19,5 @@ void Polyline::draw(QPainter & paint)
           paint.drawLine(tmp[index], tmp[index+1]);
       }
   }
-  paint.drawText(minX+ (maxX/2 - 3 * std::to_string(getShapeId()).length()), maxY - 5,QString::fromStdString(std::to_string(getShapeId())));
+  paint.drawText(minX+ (maxX/2 - 3 * std::to_string(getShapeId()).length()), maxY - penWidth,QString::fromStdString(std::to_string(getShapeId())));
 }
