@@ -9,11 +9,11 @@ class Ellipse : public Shape
     public:
         Ellipse(unsigned int, int, int, int, int, Qt::GlobalColor, Qt::GlobalColor, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle, Qt::BrushStyle, int);
         QPoint getTopLeft(){return point;}
-        int getMajorAxis(){return major;}
-        int getMinorAxis(){return minor;}
+        int getMajorAxis(){return semimajor;}
+        int getMinorAxis(){return semiminor;}
         void setTopLeft(QPoint p){point = p;}
-        void setMajorAxis(int j){major = j;}
-        void setMinorAxis(int n){minor = n;}
+        void setMajorAxis(int j){semimajor = j;}
+        void setMinorAxis(int n){semiminor = n;}
         Qt::GlobalColor getPenColor() {return penColor;}
         Qt::GlobalColor getBrushColor(){return brushColor;}
         void setPenColor(Qt::GlobalColor pc){penColor = pc;}
@@ -31,8 +31,8 @@ class Ellipse : public Shape
         virtual void draw(QPainter & paint);
     private:
         QPoint point;
-        int major;//a
-        int minor;//b
+        int semimajor;//a
+        int semiminor;//b
         Qt::GlobalColor penColor;
         Qt::GlobalColor brushColor;
         Qt::PenStyle penStyle;
