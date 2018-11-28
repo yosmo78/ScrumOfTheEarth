@@ -35,7 +35,8 @@ SOURCES += \
     mainwindow.cpp \
     circle.cpp \
     ellipse.cpp \
-    line.cpp
+    line.cpp \
+    polyline.cpp
 
 
 HEADERS += \
