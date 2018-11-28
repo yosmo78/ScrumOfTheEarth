@@ -19,5 +19,5 @@ class Shape: public QObject
         unsigned int id;
 };
 
-void shape_parser(myStd::vector<Shape*>& vec, const char* filename);
+void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok);
 #endif // SHAPE_H
