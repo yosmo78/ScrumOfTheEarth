@@ -6,8 +6,10 @@ Circle::Circle(unsigned int i, int x, int y, int r, Qt::GlobalColor pc, Qt::Glob
 void Circle::draw(QPainter & paint)
 {
     QBrush b(brushColor,brushStyle);
-    QPen pen(b,qreal(penWidth),penStyle,penCapStyle,penJoinStyle);
+    QBrush p(penColor);
+    QPen pen(p,qreal(penWidth),penStyle,penCapStyle,penJoinStyle);
     paint.setPen(pen);
+    paint.setBrush(b);
     paint.drawEllipse(point,radius,radius);
     paint.drawText(point.x() + (radius/4 - 3 * (std::to_string(getShapeId()).size())), point.y()-(radius)-penWidth,QString::fromStdString(std::to_string(getShapeId())));
 }

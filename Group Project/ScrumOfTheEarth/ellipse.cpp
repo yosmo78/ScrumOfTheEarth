@@ -4,9 +4,11 @@ Ellipse::Ellipse(unsigned int i, int x, int y, int a, int b, Qt::GlobalColor pc,
 
 void Ellipse::draw(QPainter & paint)
 {
- QBrush b(brushColor,brushStyle);
- QPen pen(b,qreal(penWidth),penStyle,penCapStyle,penJoinStyle);
- paint.setPen(pen);
- paint.drawEllipse(QRect(point, QSize(semimajor*2, semiminor*2) ));
- paint.drawText(point.x() + (semimajor - 3 * std::to_string(getShapeId()).length()), point.y()-penWidth ,QString::fromStdString(std::to_string(getShapeId())));
+    QBrush b(brushColor,brushStyle);
+    QBrush p(penColor);
+    QPen pen(p,qreal(penWidth),penStyle,penCapStyle,penJoinStyle);
+    paint.setPen(pen);
+    paint.setBrush(b);
+    paint.drawEllipse(QRect(point, QSize(semimajor*2, semiminor*2) ));
+    paint.drawText(point.x() + (semimajor - 3 * std::to_string(getShapeId()).length()), point.y()-penWidth ,QString::fromStdString(std::to_string(getShapeId())));
 }
