@@ -12,6 +12,7 @@ void Text::draw(QPainter & paint)
  paint.setPen(pen);
 
  QFont newfont(textFontFamily,textPointSize,textFontWeight);
+ newfont.setStyle(textFontStyle);
  QFont oldfont = paint.font();
  paint.setFont(newfont);
  paint.drawText(CornerPoint.x(),CornerPoint.y(), width, length, textAlignment, textString);
