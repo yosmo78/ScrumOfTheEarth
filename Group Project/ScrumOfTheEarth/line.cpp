@@ -1,12 +1,12 @@
 #include "line.h"
 
-Line::Line(unsigned int i, int x1, int y1, int x2, int y2, Qt::GlobalColor pc, Qt::GlobalColor bc, Qt::PenStyle ps, Qt::PenCapStyle pcs, Qt::PenJoinStyle pjs, Qt::BrushStyle bs, int pw):
-    Shape(i), point1(x1, y1), point2(x2,y2), penColor(pc), brushColor(bc),penStyle(ps),penCapStyle(pcs),penJoinStyle(pjs),brushStyle(bs),penWidth(pw){}
+Line::Line(unsigned int i, int x1, int y1, int x2, int y2, Qt::GlobalColor pc, Qt::PenStyle ps, Qt::PenCapStyle pcs, Qt::PenJoinStyle pjs,  int pw):
+    Shape(i), point1(x1, y1), point2(x2,y2), penColor(pc),penStyle(ps),penCapStyle(pcs),penJoinStyle(pjs),penWidth(pw){}
 void Line::draw(QPainter & paint)
 {
- QBrush b(brushColor,brushStyle);
+ QBrush b(penColor);
  QPen pen(b,qreal(penWidth),penStyle,penCapStyle,penJoinStyle);
- paint.setPen(pen);
+ pen.setColor(penColor);
 
  paint.drawLine(point1, point2);
  int lftx;

@@ -7,8 +7,11 @@ Square::Square(unsigned int i, int x, int y, int l, Qt::GlobalColor pc, Qt::Glob
  void Square::draw(QPainter & paint)
 {
   QBrush b(brushColor,brushStyle);
-  QPen pen(b,qreal(penWidth),penStyle,penCapStyle,penJoinStyle);
+  QBrush p(penColor);
+  QPen pen(p,qreal(penWidth),penStyle,penCapStyle,penJoinStyle);
   paint.setPen(pen);
+  paint.setBrush(b);
   paint.drawRect(QRect(CornerPoint, QSize(length, length) ));
   paint.drawText(CornerPoint.x() + (length/2 - 3 * std::to_string(getShapeId()).length()), CornerPoint.y() - 5,QString::fromStdString(std::to_string(getShapeId())));
+
 }
