@@ -8,5 +8,5 @@ void Ellipse::draw(QPainter & paint)
  QPen pen(b,qreal(penWidth),penStyle,penCapStyle,penJoinStyle);
  paint.setPen(pen);
  paint.drawEllipse(QRect(point, QSize(semimajor*2, semiminor*2) ));
- paint.drawText(point.x() + (semimajor - 3 * std::to_string(getShapeId()).length()), point.y() - 2*semiminor,QString::fromStdString(std::to_string(getShapeId())));
+ paint.drawText(point.x() + (semimajor - 3 * std::to_string(getShapeId()).length()), point.y()-penWidth ,QString::fromStdString(std::to_string(getShapeId())));
 }
