@@ -26,7 +26,7 @@ void MainWindow::on_FileButton_clicked()
     if(ok)
     {
      // shape_parser(ui->widget->shapesList, file.toLocal8Bit().toStdString().c_str());
-      Shape * ptr = new Square(0,0,0,40,Qt::blue,Qt::black,Qt::SolidLine,Qt::FlatCap,Qt::MiterJoin,Qt::SolidPattern,5);
+      Shape * ptr = new Square(1500,15,20,40,Qt::blue,Qt::black,Qt::SolidLine,Qt::FlatCap,Qt::MiterJoin,Qt::SolidPattern,5);
       ui->widget->shapesList.push_back(ptr);
       ui->widget->update();
     }

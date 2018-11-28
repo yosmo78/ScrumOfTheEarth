@@ -10,5 +10,5 @@ Square::Square(unsigned int i, int x, int y, int l, Qt::GlobalColor pc, Qt::Glob
   QPen pen(b,qreal(penWidth),penStyle,penCapStyle,penJoinStyle);
   paint.setPen(pen);
   paint.drawRect(QRect(CornerPoint, QSize(length, length) ));
-
+  paint.drawText(CornerPoint.x() + (length/2 - 3 * std::to_string(getShapeId()).length()), CornerPoint.y() - 5,QString::fromStdString(std::to_string(getShapeId())));
 }
