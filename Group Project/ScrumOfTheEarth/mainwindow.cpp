@@ -3,6 +3,7 @@
 #include <QInputDialog>
 #include "shape.h"
 #include "square.h"
+#include "circle.h"
 #include <iostream>
 #include <QMessageBox>
 
@@ -27,7 +28,9 @@ void MainWindow::on_FileButton_clicked()
     {
      // shape_parser(ui->widget->shapesList, file.toLocal8Bit().toStdString().c_str());
       Shape * ptr = new Square(1500,15,20,40,Qt::blue,Qt::black,Qt::SolidLine,Qt::FlatCap,Qt::MiterJoin,Qt::SolidPattern,5);
+      Shape * cptr = new Circle(12000,100,100,10,Qt::red,Qt::red,Qt::SolidLine,Qt::FlatCap,Qt::MiterJoin,Qt::SolidPattern,2);
       ui->widget->shapesList.push_back(ptr);
+      ui->widget->shapesList.push_back(cptr);
       ui->widget->update();
     }
 }

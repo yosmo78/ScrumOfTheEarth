@@ -9,5 +9,5 @@ void Circle::draw(QPainter & paint)
     QPen pen(b,qreal(penWidth),penStyle,penCapStyle,penJoinStyle);
     paint.setPen(pen);
     paint.drawEllipse(point,radius,radius);
-    paint.drawText(point,QString::fromStdString(std::to_string(getShapeId())));
+    paint.drawText(point.x() + (radius/4 - 3 * (std::to_string(getShapeId()).size())), point.y()-(radius),QString::fromStdString(std::to_string(getShapeId())));
 }
