@@ -6,7 +6,7 @@ class Line : public Shape
 {
     Q_OBJECT
    public:
-    Line();//line specific
+    Line(unsigned int, int, int, int, int, Qt::GlobalColor, Qt::GlobalColor, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle, Qt::BrushStyle, int);//line specific
     QPoint getPoint1(){return point1;} //line specific
     QPoint getPoint2(){return point2;} //line specific
     void setPoint1(QPoint p1){point1 = p1;} //line specific
@@ -25,6 +25,7 @@ class Line : public Shape
     void setBrushStyle(Qt::BrushStyle bs){brushStyle = bs;}
     int getPenWidth(){return penWidth;}
     void setPenWidth(int pw){penWidth = pw;}
+    virtual void draw(QPainter & paint);
    private:
     QPoint point1; //line specific
     QPoint point2; //line specific
