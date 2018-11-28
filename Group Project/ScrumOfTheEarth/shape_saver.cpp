@@ -22,7 +22,12 @@ void shape_saver(myStd::vector<Shape*>& vec, const char* filename)
     fin.open(filename);
     if(!fin.fail())
     {
+        myStd::vector<Shape*>::const_iterator tmp = vec.begin();
+        for(int i = 0;i < vec.size() ;++i)
+        {
 
+            tmp[i]->getShapeId();
+        }
     }
     fin.close();
 }
