@@ -13,18 +13,38 @@
 #include <map>
 #include <iostream>
 
-std::string qtColors[9]         = {"white","black","red","green","blue","cyan","magenta","yellow","gray"};
-std::string penStyles[6]        = {"NoPen","SolidLine","DashLine","DotLine","DashDotLine","DashDotDotLine"};
-std::string penCapStyles[3]     = {"FlatCap","SquareCap","RoundCap"};
-std::string penJoinStyles[3]    = {"MiterJoin","BevelJoin","RoundJoin"};
-std::string brushStyles[4]      = {"SolidPattern","HorPattern","VerPattern","NoBrush"};
-std::string textAlignments[5]   = {"AlignLeft","AlignRight","AlignTop","AlignBottom","AlignCenter"};
-std::string textFontFamilies[4] = {"Comic Sans MS","Courier","Helvetica","Times"};
-std::string textFontStyles[3]   = {"StyleNormal","StyleItalic","StyleOblique"};
-std::string textFontWeights[4]  = {"Thin","Light","Normal","Bold"};
+
 
 void shape_saver(myStd::vector<Shape*>& vec, const char* filename)
 {
+    std::string qtColors[]         = {"color0","color1","black","white","darkGray","gray","lightGray","red","green","blue","cyan","magenta","yellow","darkRed","darkGreen","darkBlue","darkCyan","darkMagenta","darkYellow","transparent"};
+    std::string penStyles[]        = {"NoPen","SolidLine","DashLine","DotLine","DashDotLine","DashDotDotLine","CustomDashLine"};
+    std::string penCapStyles[0x21] = {"FlatCap"};
+    penCapStyles[0x10] = "SqaureCap";
+    penCapStyles[0x20] = "RoundCap";
+    std::string penJoinStyles[0x81]= {"MiterJoin"};
+    penJoinStyles[0x40] = "BevelJoin";
+    penJoinStyles[0x80] = "RoundJoin";
+    std::string brushStyles[]      = {"NoBrush","SolidPattern","Dense1Pattern","Dense2Pattern","Dense3Pattern","Dense4Pattern","Dense5Pattern","Dense6Pattern","Dense7Pattern","HorPattern","VerPattern","CrossPattern","BDiagPattern","FDiagPattern","DiagCrossPattern","LinearGradientPattern","RadialGradientPattern","ConicalGradientPattern","","","","","","","TexturePattern"};
+    std::string textAlignments[0x0085]; //check these later,
+    textAlignments[0x0001] = "AlignLeft";
+    textAlignments[0x0002] = "AlignRight";
+    textAlignments[0x0004] = "AlignHCenter";
+    textAlignments[0x0008] = "AlignJustify";
+    textAlignments[0x0020] = "AlignTop";
+    textAlignments[0x0040] = "AlignBottom";
+    textAlignments[0x0080] = "AlignVCenter";
+    textAlignments[0x0004|0x0080] = "AlignCenter";
+    std::string textFontStyles[]   = {"StyleNormal","StyleItalic","StyleOblique"};
+    std::string textFontWeights[99];
+    textFontWeights[25] = "Light";
+    textFontWeights[50] = "Normal";
+    textFontWeights[63] = "DemiBold";
+    textFontWeights[75] = "Bold";
+    textFontWeights[87] = "Black";
+
+
+
     std::map<int, std::string> typeMap;
     typeMap[Square::getStaticType()]    = "Square";
     typeMap[Rectangle::getStaticType()] = "Rectangle";
