@@ -9,6 +9,8 @@ class Polygon : public Shape
    public:
     Polygon(unsigned int, myStd::vector<QPoint>, Qt::GlobalColor, Qt::GlobalColor, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle, Qt::BrushStyle, int);
     QPoint getPoint(int i){return polyPoint[i];} //Polygon specific
+    QPoint * getPolyPoints(){return polyPoint.begin();}
+    int getNumOfPoints() {return polyPoint.size();}
     void setVector(myStd::vector<QPoint> v){polyPoint = v;} //Polygon specific
     void setPoint(QPoint p, int i){polyPoint[i] = p;} //Polygon specific
     Qt::GlobalColor getPenColor() {return penColor;}
