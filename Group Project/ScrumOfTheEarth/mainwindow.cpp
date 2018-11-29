@@ -71,3 +71,29 @@ void MainWindow::on_Save_clicked()
         QMessageBox::warning(this,"Save","Access denied. Login as admin");
     }
 }
+
+void MainWindow::on_AddShape_clicked()
+{
+    if(isAdmin)
+    {
+
+    }
+    else
+    {
+        QMessageBox::warning(this,"Add Shape","Access denied. Login as admin");
+
+    }
+}
+
+void MainWindow::on_DeleteShape_clicked()
+{
+    if(isAdmin)
+    {
+
+    }
+    else
+    {
+        QMessageBox::warning(this,"Delete Shape","Access denied. Login as admin");
+
+    }
+}

@@ -19,8 +19,9 @@ private slots:
 
 
     void on_FileButton_clicked();
-
     void on_Save_clicked();
+    void on_AddShape_clicked();
+    void on_DeleteShape_clicked();
 
 private:
     Ui::MainWindow *ui;
