@@ -31,6 +31,7 @@ class Rectangle : public Shape
     void setPenWidth(int pw){penWidth = pw;}
     virtual void draw(QPainter &);
     virtual int getType(){return 2;}
+    static int getStaticType(){return 2;}
    private:
     QPoint CornerPoint; //Rectangle specific
     int length; //Rectangle specific

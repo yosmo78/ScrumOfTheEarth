@@ -27,6 +27,7 @@ class Circle : public Shape
     void setPenWidth(int pw){penWidth = pw;}
     void draw(QPainter & paint);
     virtual int getType(){return 4;}
+    static int getStaticType(){return 4;}
    private:
     QPoint point;
     int radius;

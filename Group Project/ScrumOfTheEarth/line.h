@@ -23,6 +23,7 @@ class Line : public Shape
     void setPenWidth(int pw){penWidth = pw;}
     virtual void draw(QPainter & paint);
     virtual int getType(){return 6;}
+    static int getStaticType(){return 6;}
    private:
     QPoint point1; //line specific
     QPoint point2; //line specific

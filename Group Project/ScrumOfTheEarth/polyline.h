@@ -23,6 +23,7 @@ class Polyline: public Shape
     void setPenWidth(int pw){penWidth = pw;}
     virtual void draw(QPainter&);
     virtual int getType(){return 7;}
+    static int getStaticType(){return 7;}
   private:
     myStd::vector<QPoint> points;
     Qt::GlobalColor penColor;

@@ -29,6 +29,7 @@ class Polygon : public Shape
     void setPenWidth(int pw){penWidth = pw;}
     virtual void draw(QPainter&);
     virtual int getType(){return 3;}
+    static int getStaticType(){return 3;}
    private:
     myStd::vector<QPoint> polyPoint; //Polygon specific
     Qt::GlobalColor penColor;

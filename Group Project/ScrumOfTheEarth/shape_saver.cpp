@@ -1,3 +1,4 @@
+#include "shape.h"
 #include "square.h"
 #include "rectangle.h"
 #include "line.h"
@@ -24,15 +25,15 @@ std::string textFontWeights[4]  = {"Thin","Light","Normal","Bold"};
 
 void shape_saver(myStd::vector<Shape*>& vec, const char* filename)
 {
-    std::map<const std::string, std::string> typeMap;
-    typeMap[typeid(const Square).name()]    = "Square";
-    typeMap[typeid(const Rectangle).name()] = "Rectangle";
-    typeMap[typeid(const Line).name()]      = "Line";
-    typeMap[typeid(const Circle).name()]    = "Circle";
-    typeMap[typeid(const Ellipse).name()]   = "Ellipse";
-    typeMap[typeid(const Polygon).name()]   = "Polygon";
-    typeMap[typeid(const Polyline).name()]  = "Polyline";
-    typeMap[typeid(const Text).name()]      = "Text";
+    std::map<int, std::string> typeMap;
+    typeMap[Square::getStaticType()]    = "Square";
+    typeMap[Rectangle::getStaticType()] = "Rectangle";
+    typeMap[Line::getStaticType()]      = "Line";
+    typeMap[Circle::getStaticType()]    = "Circle";
+    typeMap[Ellipse::getStaticType()]   = "Ellipse";
+    typeMap[Polygon::getStaticType()]   = "Polygon";
+    typeMap[Polyline::getStaticType()]  = "Polyline";
+    typeMap[Text::getStaticType()]      = "Text";
 
 
     std::ofstream fout;
@@ -50,13 +51,10 @@ void shape_saver(myStd::vector<Shape*>& vec, const char* filename)
         for(int i = 0;i < vec.size() ;++i)
         {
             fout << '\n';
-            fout << "ShapeId: "<<tmp[i]->getShapeId() << '\n';
-            fout << "ShapeType: " << typeMap[typeid(**tmp).name()]<< '\n';
-            std::cerr << typeid(**tmp).name() << std::endl;
-            std::cerr << typeid(Rectangle).name() << std::endl;
-            std::cerr << typeid(Square).name() << std::endl;
+            fout << "ShapeId: "<<(*tmp)->getShapeId() << '\n';
+            fout << "ShapeType: " << typeMap[(**tmp).getType()]<< '\n';
             fout << "ShapeDimensions: ";
-            if(typeid(**tmp).name() == typeid(const Square).name())
+            if((**tmp).getType() == Square::getStaticType())
             {
               Square * sptr = dynamic_cast<Square *>(*tmp);
               fout << sptr->getCornerPoint().x() << ", " << sptr->getCornerPoint().y()
@@ -70,7 +68,7 @@ void shape_saver(myStd::vector<Shape*>& vec, const char* filename)
               fout << "BrushColor: " << qtColors[sptr->getBrushColor()] << '\n';
               fout << "BrushStyle: " << brushStyles[sptr->getBrushStyle()] << '\n';
             }
-            else if(typeid(**tmp).name() == typeid(const Rectangle).name())
+            else if((**tmp).getType() == Rectangle::getStaticType())
             {
               Rectangle * rptr = dynamic_cast<Rectangle *> (*tmp);
               fout << rptr->getCornerPoint().x() << ", " << rptr->getCornerPoint().y()
@@ -83,7 +81,7 @@ void shape_saver(myStd::vector<Shape*>& vec, const char* filename)
               fout << "BrushColor: " << qtColors[rptr->getBrushColor()] << '\n';
               fout << "BrushStyle: " << brushStyles[rptr->getBrushStyle()] << '\n';
             }
-            else if(typeid(**tmp).name() == typeid(const Line).name())
+            else if((**tmp).getType() == Line::getStaticType())
             {
               Line * lptr = dynamic_cast<Line *> (*tmp);
               fout << lptr->getPoint1().x() << ", " << lptr->getPoint1().y()
@@ -94,7 +92,7 @@ void shape_saver(myStd::vector<Shape*>& vec, const char* filename)
               fout << "PenCapStyle: " << penCapStyles[lptr->getPenCapStyle()] << '\n';
               fout << "PenJoinStyle: " << penJoinStyles[lptr->getPenJoinStyle()] << '\n';
             }
-            else if(typeid(**tmp).name() == typeid(const Circle).name())
+            else if((**tmp).getType() == Circle::getStaticType())
             {
               Circle * cptr = dynamic_cast<Circle *> (*tmp);
               fout << cptr->getPoint1().x() << ", " << cptr->getPoint1().y()
@@ -108,7 +106,7 @@ void shape_saver(myStd::vector<Shape*>& vec, const char* filename)
               fout << "BrushColor: " << qtColors[cptr->getBrushColor()] << '\n';
               fout << "BrushStyle: " << brushStyles[cptr->getBrushStyle()] << '\n';
             }
-            else if(typeid(**tmp).name() == typeid(const Ellipse).name())
+            else if((**tmp).getType() == Ellipse::getStaticType())
             {
               Ellipse * eptr = dynamic_cast<Ellipse *> (*tmp);
               fout << eptr->getTopLeft().x() << ", " << eptr->getTopLeft().y()
@@ -121,7 +119,7 @@ void shape_saver(myStd::vector<Shape*>& vec, const char* filename)
               fout << "BrushColor: " << qtColors[eptr->getBrushColor()] << '\n';
               fout << "BrushStyle: " << brushStyles[eptr->getBrushStyle()] << '\n';
             }
-            else if(typeid(**tmp).name() == typeid(const Polygon).name())
+            else if((**tmp).getType() == Polygon::getStaticType())
             {
               Polygon * pptr = dynamic_cast<Polygon *> (*tmp);
               for(int i = 0; i < pptr->getNumOfPoints();++i)
@@ -137,7 +135,7 @@ void shape_saver(myStd::vector<Shape*>& vec, const char* filename)
               fout << "BrushColor: " << qtColors[pptr->getBrushColor()] << '\n';
               fout << "BrushStyle: " << brushStyles[pptr->getBrushStyle()] << '\n';
             }
-            else if(typeid(**tmp).name() == typeid(const Polyline).name())
+            else if((**tmp).getType() == Polyline::getStaticType())
             {
               Polyline * pptr = dynamic_cast<Polyline *> (*tmp);
               for(int i = 0; i < pptr->getNumOfPoints();++i)
@@ -151,7 +149,7 @@ void shape_saver(myStd::vector<Shape*>& vec, const char* filename)
               fout << "PenCapStyle: " << penCapStyles[pptr->getPenCapStyle()] << '\n';
               fout << "PenJoinStyle: " << penJoinStyles[pptr->getPenJoinStyle()] << '\n';
             }
-            else if(typeid(**tmp).name() == typeid(const Text).name())
+            else if((**tmp).getType() == Text::getStaticType())
             {
               Text * tptr = dynamic_cast<Text *> (*tmp);
               fout << tptr->getCornerPoint().x() << ", "<< tptr->getCornerPoint().y()
@@ -171,6 +169,7 @@ void shape_saver(myStd::vector<Shape*>& vec, const char* filename)
                 fout2 << "Invalid Shape trying to write to file\n";
                 fout2.close();
             }
+            ++tmp;
         }
     }
     fout.close();

@@ -30,6 +30,7 @@ class Ellipse : public Shape
         void setPenWidth(int pw){penWidth = pw;}
         virtual void draw(QPainter & paint);
         virtual int getType(){return 5;}
+        static int getStaticType(){return 5;}
     private:
         QPoint point;
         int semimajor;//a
