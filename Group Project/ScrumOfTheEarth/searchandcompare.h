@@ -4,6 +4,8 @@
 #include "vector.h"
 #include "shape.h"
 bool cmpId(Shape* s1, Shape* s2); //checks to see if first shape is greater than second shape
+bool cmpArea(Shape* s1, Shape* s2);
+bool cmpPeri(Shape* s1, Shape* s2);
 
 int findShape(myStd::vector<Shape*>, unsigned int);
 
