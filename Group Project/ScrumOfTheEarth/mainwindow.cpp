@@ -18,6 +18,7 @@ MainWindow::MainWindow(QWidget *parent, bool admin) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    ui->Tables->setStyleSheet("QTabBar::tab {width: 263px;}");
 }
 
 MainWindow::~MainWindow()

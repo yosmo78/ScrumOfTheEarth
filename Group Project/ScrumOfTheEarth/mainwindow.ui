@@ -20,7 +20,7 @@
       <x>0</x>
       <y>30</y>
       <width>801</width>
-      <height>241</height>
+      <height>271</height>
      </rect>
     </property>
    </widget>
@@ -79,8 +79,8 @@
    <widget class="QTabWidget" name="Tables">
     <property name="geometry">
      <rect>
-      <x>6</x>
-      <y>279</y>
+      <x>0</x>
+      <y>310</y>
       <width>791</width>
       <height>241</height>
      </rect>
