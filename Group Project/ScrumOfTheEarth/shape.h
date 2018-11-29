@@ -14,6 +14,7 @@ class Shape: public QObject
         unsigned int getShapeId(){return id;}
         virtual void draw(QPainter &) = 0;
         Shape(unsigned int i): id(i){}
+        virtual int getType() = 0;
         virtual ~Shape(){}
     private:
         unsigned int id;

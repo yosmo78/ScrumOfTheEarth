@@ -28,6 +28,7 @@ class Text : public Shape
     QFont::Weight getTextFontWeight(){return textFontWeight;} //Text specific
     void setTextFontWeight(QFont::Weight tfw){textFontWeight = tfw;} //Text specific
     virtual void draw(QPainter&);
+    virtual int getType(){return 8;}
    private:
     QPoint CornerPoint; //Text specific
     int length; //Text specific
