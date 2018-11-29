@@ -12,6 +12,7 @@
 #include <iostream>
 #include <QMessageBox>
 
+
 MainWindow::MainWindow(QWidget *parent, bool admin) :
    isAdmin(admin), QMainWindow(parent),
     ui(new Ui::MainWindow)
@@ -64,7 +65,7 @@ void MainWindow::on_Save_clicked()
     if(isAdmin)
     {
 
-
+        shape_saver(ui->widget->shapesList,"output.txt");
     }
     else
     {

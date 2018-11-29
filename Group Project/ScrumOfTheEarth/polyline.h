@@ -10,6 +10,7 @@ class Polyline: public Shape
     Polyline(unsigned int, myStd::vector<QPoint>&, Qt::GlobalColor, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle, int);
     myStd::vector<QPoint>& getPoints(){return points;} //polyline specific
     void setPoints(const myStd::vector<QPoint>& pts){points = pts;} //polyline specific
+    int getNumOfPoints(){return points.size();}
     Qt::GlobalColor getPenColor() {return penColor;}
     void setPenColor(Qt::GlobalColor pc){penColor = pc;}
     Qt::PenStyle getPenStyle(){return penStyle;}
