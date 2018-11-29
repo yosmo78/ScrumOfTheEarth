@@ -37,7 +37,8 @@ SOURCES += \
     ellipse.cpp \
     line.cpp \
     polyline.cpp \
-    shape_saver.cpp
+    shape_saver.cpp \
+    searchandcompare.cpp
 
 
 HEADERS += \

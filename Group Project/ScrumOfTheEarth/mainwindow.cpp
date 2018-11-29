@@ -7,10 +7,10 @@
 #include "ellipse.h"
 #include "polygon.h"
 #include "line.h"
-#include "vector.h"
 #include <QPoint>
 #include <iostream>
 #include <QMessageBox>
+#include "searchandcompare.h"
 
 
 MainWindow::MainWindow(QWidget *parent, bool admin) :
@@ -88,9 +88,21 @@ void MainWindow::on_AddShape_clicked()
 
 void MainWindow::on_DeleteShape_clicked()
 {
-    if(isAdmin)
+    if(isAdmin)//check to see if user has admin status
     {
+       bool ok = false;
+       int id = QInputDialog::getInt(this,tr("Delete Shape"),tr("Enter id of shape to delete:"),0,0,2147483647,1, &ok);
+       if(ok)//check to see if user clicked cancel or not
+       {
+         int position = findShape(ui->widget->shapesList, id);
+         if(position >= ui->widget->shapesList.size())//check to see if id even exists
+         {
+             delete &ui->widget->shapesList[position];//delete shape
+             ui->widget->shapesList.erase(ui->widget->shapesList.begin() + position);//delete position in vector
+             ui->widget->update();
+         }
 
+       }
     }
     else
     {
