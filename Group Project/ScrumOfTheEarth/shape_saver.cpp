@@ -59,7 +59,6 @@ void shape_saver(myStd::vector<Shape*>& vec, const char* filename)
               Square * sptr = dynamic_cast<Square *>(*tmp);
               fout << sptr->getCornerPoint().x() << ", " << sptr->getCornerPoint().y()
                    << ", "<< sptr->getLength() << '\n';
-
               fout << "PenColor: " << qtColors[sptr->getPenColor()] << '\n';
               fout << "PenWidth: " << sptr->getPenWidth() <<'\n';
               fout << "PenStyle: " << penStyles[sptr->getPenStyle()] << '\n';

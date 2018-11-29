@@ -3,9 +3,9 @@
 
 #include "vector.h"
 #include "shape.h"
-bool cmpId(Shape* s1, Shape* s2){return s1->getShapeId()>s2->getShapeId();}//checks to see if first shape is greater than second shape
+bool cmpId(Shape* s1, Shape* s2); //checks to see if first shape is greater than second shape
 
-int findShape(myStd::vector<Shape*> vec, int);
+int findShape(myStd::vector<Shape*>, unsigned int);
 
 template <typename T>
 void selection_sort(myStd::vector<T> &vec, bool(*cmp)(T, T))//cmp returns true if object one is greater/smaller than object 2. Pass in vector and cmp function name to use
