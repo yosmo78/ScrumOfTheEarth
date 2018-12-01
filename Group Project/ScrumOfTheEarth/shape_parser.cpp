@@ -2,10 +2,12 @@
 #include <sstream>
 #include <iostream>
 #include <string>
+#include "vector.h"
+#include "shape.h"
 
 using namespace std;
 
-void shape_parser()
+void shape_parser(myStd::vector<Shape*>& vec, const char* filename)//the paint device will be the renderarea
 {
   int shapeID = 99999;
   string shapeType = "nullptr";
@@ -32,7 +34,7 @@ void shape_parser()
 
   ifstream fin;
 
-  fin.open("inputFile.txt");
+  fin.open(filename);
 
   while(getline(fin, skip, ':') && fin >> shapeID)
   {
@@ -356,4 +358,5 @@ void shape_parser()
 
       i = 0;
   }
+  fin.close();
 }

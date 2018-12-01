@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 #include "contactus.h"
-
+#include "mainwindow.h"
 namespace Ui {
 class Window;
 }
@@ -23,9 +23,12 @@ private slots:
 
     void on_Contact_clicked();
 
+    void on_GuestLogin_clicked();
+
 private:
     Ui::Window *ui;
     ContactUs * contactus;
+    MainWindow * mainwindow;
 };
 
 #endif // WINDOW_H

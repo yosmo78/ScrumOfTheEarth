@@ -31,7 +31,9 @@ SOURCES += \
     polygon.cpp \
     contactus.cpp \
     text.cpp \
-    shape_parser.cpp
+    shape_parser.cpp \
+    mainwindow.cpp \
+    circle.cpp
 
 
 HEADERS += \
@@ -47,11 +49,16 @@ HEADERS += \
     polyline.h \
     polygon.h \
     text.h \
+    mainwindow.h \
+    renderarea.h
 
 
 FORMS += \
         window.ui \
-   contactus.ui
+   contactus.ui \
+    mainwindow.ui
 
 RESOURCES += \
     logo.qrc
+
+DISTFILES +=

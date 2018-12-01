@@ -7,7 +7,7 @@ class Polygon : public Shape
 {
     Q_OBJECT
    public:
-    Polygon();
+    Polygon(unsigned int, myStd::vector<QPoint>, Qt::GlobalColor, Qt::GlobalColor, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle, Qt::BrushStyle, int);
     QPoint getPoint(int i){return polyPoint[i];} //Polygon specific
     void setVector(myStd::vector<QPoint> v){polyPoint = v;} //Polygon specific
     void setPoint(QPoint p, int i){polyPoint[i] = p;} //Polygon specific
@@ -25,7 +25,7 @@ class Polygon : public Shape
     void setBrushStyle(Qt::BrushStyle bs){brushStyle = bs;}
     int getPenWidth(){return penWidth;}
     void setPenWidth(int pw){penWidth = pw;}
-    QPainter& getPainter(){return painter;}
+    virtual void draw(QPainter&);
    private:
     myStd::vector<QPoint> polyPoint; //Polygon specific
     Qt::GlobalColor penColor;
@@ -35,7 +35,6 @@ class Polygon : public Shape
     Qt::PenJoinStyle penJoinStyle;
     Qt::BrushStyle brushStyle;
     int penWidth;
-    QPainter painter;
 };
 
 #endif // POLYGON_H

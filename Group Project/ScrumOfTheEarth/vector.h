@@ -1,7 +1,7 @@
 #ifndef VECTOR_H
 #define VECTOR_H
 #include <algorithm> // std::copy
-
+#include <iostream> //delete this
 //test commit
 using std::copy;
 
@@ -104,7 +104,7 @@ namespace myStd
                 return ; //bad alloc out of memory
         }
         elem[size_v] = d;       // add d at end
-        ++size_v;               // increase the size (size_v is the number of elements)
+        ++size_v;               // increase the size (size_v is the number of elements)w
       }
 
       void reserve(int newalloc)
@@ -117,7 +117,7 @@ namespace myStd
         T* tmp = new(std::nothrow) T[newalloc];
         if(!tmp) //check if bad_alloc
             return ; //if bad alloc return with old vector
-        copy(elem,elem+size_v,tmp);
+        if(elem != NULL) copy(elem,elem+size_v,tmp);
         delete [] elem;
         elem = tmp;
         tmp = nullptr;
@@ -187,6 +187,45 @@ namespace myStd
         //delete (end() - 1);
         --size_v;
         return p;
+      }
+
+      void deallocPtrData()  //if type it pointer to data
+      {
+          iterator tmp;
+          for(int i = 0;i < size_v; ++i)
+          {
+              tmp = *(elem+i);
+              delete tmp;
+          }
+
+      }
+
+      void deallocPtrArrayData() //if type is dynamic arrays
+      {
+          iterator tmp;
+          for(int i = 0;i < size_v; ++i)
+          {
+              tmp = *(elem+i);
+              delete [] tmp;
+          }
+      }
+
+      void deleteList()
+      {
+          deallocPtrData();
+          delete[] elem; // destructor
+          space = 0;
+          size_v =0;
+          elem = NULL;
+      }
+
+      void deleteArrayList()
+      {
+          deallocPtrArrayData();
+          delete[] elem; // destructor
+          space = 0;
+          size_v =0;
+          elem = NULL;
       }
   };
 }

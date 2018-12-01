@@ -24,6 +24,9 @@ void Window::on_pushButton_clicked()
     else
     {
         hide();
+        mainwindow = new MainWindow(this, true);
+        mainwindow->show();
+
     }
 }
 
@@ -40,7 +43,8 @@ void Window::on_PassText_returnPressed()
     else
     {
         hide();
-
+        mainwindow = new MainWindow(this, true);
+        mainwindow->show();
     }
 }
 
@@ -48,4 +52,11 @@ void Window::on_Contact_clicked()
 {
     contactus = new ContactUs(this);
     contactus->show();
+}
+
+void Window::on_GuestLogin_clicked()
+{
+  hide();
+  mainwindow = new MainWindow(this, false);
+  mainwindow->show();
 }
