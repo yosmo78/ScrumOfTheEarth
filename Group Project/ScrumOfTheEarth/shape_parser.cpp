@@ -41,30 +41,6 @@ enum GC
     transparent
 };
 
-//enum BC
-//{
-//    color0,
-//    color1,
-//    black,
-//    white,
-//    darkGray,
-//    gray,
-//    lightGray,
-//    red,
-//    green,
-//    blue,
-//    cyan,
-//    magenta,
-//    yellow,
-//    darkRed,
-//    darkGreen,
-//    darkBlue,
-//    darkCyan,
-//    darkMagenta,
-//    darkYellow,
-//    transparent
-//};
-
 enum PS
 {
     NoPen,
@@ -157,7 +133,8 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 
 
 
-  GC gc = color0;
+  GC pc = color0;
+  GC bc = color0;
   PS ps= NoPen;
   PCS pcs = FlatCap;
   PJS pjs = MiterJoin;
@@ -230,7 +207,9 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
           getline(fin, skip, ' ');
           getline(fin, penJoinStyle);
 
-          shape = new Line(shapeID, shapeDemensions[0], shapeDemensions[1], shapeDemensions[2], shapeDemensions[3], Qt::GlobalColor(gc), Qt::PenStyle(ps), Qt::PenCapStyle(pcs), Qt::PenJoinStyle(pjs), penWidth);
+          shape = new Line(shapeID, shapeDemensions[0], shapeDemensions[1], shapeDemensions[2], shapeDemensions[3], Qt::GlobalColor(pc), Qt::PenStyle(ps), Qt::PenCapStyle(pcs), Qt::PenJoinStyle(pjs), penWidth);
+
+          ui->widget->shapesList.push_back(shape);
 
           cout << "Line" << endl; // Init. Line OBJ
       }
@@ -262,7 +241,9 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
           getline(fin, skip, ' ');
           getline(fin, penJoinStyle);
 
-//          shape = new Polyline(shapeID,shapeDemensions[0],shapeDemensions[1],shapeDemensions[2], Qt::GlobalColor(gc), Qt::GlobalColor(gc), Qt::PenStyle(ps), Qt::PenCapStyle(pcs), Qt::PenJoinStyle(pjs), Qt::BrushStyle(bs), penWidth);
+//          shape = new Polyline(shapeID,ADD VECTOR FOR ALL POINTS, Qt::GlobalColor(pc), Qt::PenStyle(ps), Qt::PenCapStyle(pcs), Qt::PenJoinStyle(pjs), penWidth);
+
+          ui->widget->shapesList.push_back(shape);
 
           cout << "Polyline" << endl; // Init. Polyine OBJ
       }
@@ -300,7 +281,9 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
           getline(fin, skip, ' ');
           getline(fin, brushStyle);
 
-//          shape = new Polygon(shapeID,shapeDemensions[0],shapeDemensions[1],shapeDemensions[2], Qt::GlobalColor(gc), Qt::GlobalColor(gc), Qt::PenStyle(ps), Qt::PenCapStyle(pcs), Qt::PenJoinStyle(pjs), Qt::BrushStyle(bs), penWidth);
+//          shape = new Polygon(shapeID, ADD VECTOR FOR ALL POINTS IN, Qt::GlobalColor(pc), Qt::GlobalColor(bc), Qt::PenStyle(ps), Qt::PenCapStyle(pcs), Qt::PenJoinStyle(pjs), Qt::BrushStyle(bs), penWidth);
+
+          ui->widget->shapesList.push_back(shape);
 
           cout << "Polygon" << endl; // Init. Polygon OBJ
       }
@@ -338,7 +321,9 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
           getline(fin, skip, ' ');
           getline(fin, brushStyle);
 
-          shape = new Rectangle(shapeID, shapeDemensions[0], shapeDemensions[1], shapeDemensions[2], shapeDemensions[3] ,Qt::GlobalColor(gc), Qt::GlobalColor(gc), Qt::PenStyle(ps), Qt::PenCapStyle(pcs), Qt::PenJoinStyle(pjs), Qt::BrushStyle(bs), penWidth);
+          shape = new Rectangle(shapeID, shapeDemensions[0], shapeDemensions[1], shapeDemensions[2], shapeDemensions[3] ,Qt::GlobalColor(pc), Qt::GlobalColor(bc), Qt::PenStyle(ps), Qt::PenCapStyle(pcs), Qt::PenJoinStyle(pjs), Qt::BrushStyle(bs), penWidth);
+
+          ui->widget->shapesList.push_back(shape);
 
           cout << "Rectangle" << endl; // Init. Rectangle OBJ
       }
@@ -376,9 +361,9 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
           getline(fin, skip, ' ');
           getline(fin, brushStyle);
 
-          shape = new Square(shapeID,shapeDemensions[0],shapeDemensions[1],shapeDemensions[2], Qt::GlobalColor(gc), Qt::GlobalColor(gc), Qt::PenStyle(ps), Qt::PenCapStyle(pcs), Qt::PenJoinStyle(pjs), Qt::BrushStyle(bs), penWidth);
+          shape = new Square(shapeID,shapeDemensions[0],shapeDemensions[1],shapeDemensions[2], Qt::GlobalColor(pc), Qt::GlobalColor(bc), Qt::PenStyle(ps), Qt::PenCapStyle(pcs), Qt::PenJoinStyle(pjs), Qt::BrushStyle(bs), penWidth);
 
-          shapesList.push_back(shape);
+          ui->widget->shapesList.push_back(shape);
 
           cout << "Square" << endl; // Init. Square OBJ
       }
@@ -416,7 +401,9 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
           getline(fin, skip, ' ');
           getline(fin, brushStyle);
 
-          shape = new Ellipse(shapeID,shapeDemensions[0],shapeDemensions[1],shapeDemensions[2], shapeDemensions[3], Qt::GlobalColor(gc), Qt::GlobalColor(gc), Qt::PenStyle(ps), Qt::PenCapStyle(pcs), Qt::PenJoinStyle(pjs), Qt::BrushStyle(bs), penWidth);
+          shape = new Ellipse(shapeID,shapeDemensions[0],shapeDemensions[1],shapeDemensions[2], shapeDemensions[3], Qt::GlobalColor(pc), Qt::GlobalColor(bc), Qt::PenStyle(ps), Qt::PenCapStyle(pcs), Qt::PenJoinStyle(pjs), Qt::BrushStyle(bs), penWidth);
+
+          ui->widget->shapesList.push_back(shape);
 
           cout << "Ellipse" << endl; // Init. Ellipse OBJ
       }
@@ -454,7 +441,9 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
           getline(fin, skip, ' ');
           getline(fin, brushStyle);
 
-          shape = new Circle(shapeID,shapeDemensions[0],shapeDemensions[1],shapeDemensions[2], Qt::GlobalColor(gc), Qt::GlobalColor(gc), Qt::PenStyle(ps), Qt::PenCapStyle(pcs), Qt::PenJoinStyle(pjs), Qt::BrushStyle(bs), penWidth);
+          shape = new Circle(shapeID,shapeDemensions[0],shapeDemensions[1],shapeDemensions[2], Qt::GlobalColor(pc), Qt::GlobalColor(bc), Qt::PenStyle(ps), Qt::PenCapStyle(pcs), Qt::PenJoinStyle(pjs), Qt::BrushStyle(bs), penWidth);
+
+          ui->widget->shapesList.push_back(shape);
 
           cout << "Circle" << endl; // Init. Circle OBJ
       }
@@ -494,7 +483,9 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
           getline(fin, textFontWeight);
 
 
-          shape = new Text(shapeID, shapeDemensions[0], shapeDemensions[1], shapeDemensions[2], shapeDemensions[3], textString, Qt::GlobalColor(gc), Qt::AlignmentFlag(ta), textPointSize, textFontFamily, QFont::Style(fs), QFont::Weight(fw));
+          shape = new Text(shapeID, shapeDemensions[0], shapeDemensions[1], shapeDemensions[2], shapeDemensions[3], textString, Qt::GlobalColor(pc), Qt::AlignmentFlag(ta), textPointSize, textFontFamily, QFont::Style(fs), QFont::Weight(fw));
+
+          ui->widget->shapesList.push_back(shape);
 
           cout << "Text" << endl; // Init. Text OBJ
       }
