@@ -28,6 +28,8 @@ class Square : public Shape
     int getPenWidth(){return penWidth;}
     void setPenWidth(int pw){penWidth = pw;}
     virtual void draw(QPainter&);
+    virtual int getType(){return 1;}
+    static int getStaticType(){return 1;}
    private:
     QPoint CornerPoint; //Square specific
     int length; //Square specific

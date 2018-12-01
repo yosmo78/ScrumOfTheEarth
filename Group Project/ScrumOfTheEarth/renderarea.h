@@ -17,6 +17,9 @@ class RenderArea : public QWidget
     void paintEvent(QPaintEvent* event) override
     {
         QPainter nothing(this); //qt best practice
+        nothing.setBrush(QBrush(Qt::white));//clear the canvas
+        nothing.drawRect(rect());           //with the color white
+
         //nothing.drawLine(QPointF(),QPointF(qreal(60),qreal(60)));
       Shape ** ptr =  shapesList.begin();
       for(int i = 0; i < shapesList.size(); ++i)

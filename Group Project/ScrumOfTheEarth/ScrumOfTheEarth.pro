@@ -33,7 +33,12 @@ SOURCES += \
     text.cpp \
     shape_parser.cpp \
     mainwindow.cpp \
-    circle.cpp
+    circle.cpp \
+    ellipse.cpp \
+    line.cpp \
+    polyline.cpp \
+    shape_saver.cpp \
+    searchandcompare.cpp
 
 
 HEADERS += \
@@ -50,7 +55,8 @@ HEADERS += \
     polygon.h \
     text.h \
     mainwindow.h \
-    renderarea.h
+    renderarea.h \
+    searchandcompare.h
 
 
 FORMS += \

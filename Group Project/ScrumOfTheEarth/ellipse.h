@@ -7,13 +7,13 @@ class Ellipse : public Shape
     Q_OBJECT
 
     public:
-        Ellipse();
+        Ellipse(unsigned int, int, int, int, int, Qt::GlobalColor, Qt::GlobalColor, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle, Qt::BrushStyle, int);
         QPoint getTopLeft(){return point;}
-        int getMajorAxis(){return major;}
-        int getMinorAxis(){return minor;}
+        int getMajorAxis(){return semimajor;}
+        int getMinorAxis(){return semiminor;}
         void setTopLeft(QPoint p){point = p;}
-        void setMajorAxis(int j){major = j;}
-        void setMinorAxis(int n){minor = n;}
+        void setMajorAxis(int j){semimajor = j;}
+        void setMinorAxis(int n){semiminor = n;}
         Qt::GlobalColor getPenColor() {return penColor;}
         Qt::GlobalColor getBrushColor(){return brushColor;}
         void setPenColor(Qt::GlobalColor pc){penColor = pc;}
@@ -28,10 +28,13 @@ class Ellipse : public Shape
         void setBrushStyle(Qt::BrushStyle bs){brushStyle = bs;}
         int getPenWidth(){return penWidth;}
         void setPenWidth(int pw){penWidth = pw;}
+        virtual void draw(QPainter & paint);
+        virtual int getType(){return 5;}
+        static int getStaticType(){return 5;}
     private:
         QPoint point;
-        int major;
-        int minor;
+        int semimajor;//a
+        int semiminor;//b
         Qt::GlobalColor penColor;
         Qt::GlobalColor brushColor;
         Qt::PenStyle penStyle;

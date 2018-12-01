@@ -5,8 +5,10 @@ Rectangle::Rectangle(unsigned int i, int x, int y, int l, int w, Qt::GlobalColor
 
 void Rectangle::draw(QPainter & paint)
 {
- QBrush b(brushColor,brushStyle);
- QPen pen(b,qreal(penWidth),penStyle,penCapStyle,penJoinStyle);
- paint.setPen(pen);
- paint.drawRect(QRect(CornerPoint, QSize(width, length) ));
+  QBrush b(brushColor,brushStyle);
+  QBrush p(penColor);
+  QPen pen(p,qreal(penWidth),penStyle,penCapStyle,penJoinStyle);
+  paint.setPen(pen);
+  paint.setBrush(b);
+  paint.drawRect(QRect(CornerPoint, QSize(width, length) ));
 }
