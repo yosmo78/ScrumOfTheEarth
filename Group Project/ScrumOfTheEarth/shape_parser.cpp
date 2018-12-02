@@ -1,129 +1,131 @@
-#include <fstream>
-#include <sstream>
-#include <iostream>
-#include <string>
-#include "vector.h"
-#include "shape.h"
-#include "square.h"
-#include "rectangle.h"
-#include "circle.h"
-#include "ellipse.h"
-#include "polygon.h"
-#include "polyline.h"
-#include "line.h"
-#include "text.h"
+//#include <fstream>
+//#include <sstream>
+//#include <iostream>
+//#include <string>
+//#include "vector.h"
+//#include "shape.h"
+//#include "square.h"
+//#include "rectangle.h"
+//#include "circle.h"
+//#include "ellipse.h"
+//#include "polygon.h"
+//#include "polyline.h"
+//#include "line.h"
+//#include "text.h"
 
-#include <QColor>
-#include <QString>
+//#include <QColor>
+//#include <QString>
+
+#include "shape_parser.h"
 
 using namespace std;
 
-enum GC
-{
-    color0,
-    color1,
-    black,
-    white,
-    darkGray,
-    gray,
-    lightGray,
-    red,
-    green,
-    blue,
-    cyan,
-    magenta,
-    yellow,
-    darkRed,
-    darkGreen,
-    darkBlue,
-    darkCyan,
-    darkMagenta,
-    darkYellow,
-    transparent
-};
+//enum GC
+//{
+//    color0,
+//    color1,
+//    black,
+//    white,
+//    darkGray,
+//    gray,
+//    lightGray,
+//    red,
+//    green,
+//    blue,
+//    cyan,
+//    magenta,
+//    yellow,
+//    darkRed,
+//    darkGreen,
+//    darkBlue,
+//    darkCyan,
+//    darkMagenta,
+//    darkYellow,
+//    transparent
+//};
 
-enum PS
-{
-    NoPen,
-    SolidLine,
-    DashLine,
-    DotLine,
-    DashDotLine,
-    DashDotDotLine,
-    CustomDashLine
-};
+//enum PS
+//{
+//    NoPen,
+//    SolidLine,
+//    DashLine,
+//    DotLine,
+//    DashDotLine,
+//    DashDotDotLine,
+//    CustomDashLine
+//};
 
-enum PCS
-{
-    FlatCap,
-    SquareCap,
-    RoundCap
-};
+//enum PCS
+//{
+//    FlatCap,
+//    SquareCap,
+//    RoundCap
+//};
 
-enum PJS
-{
-    MiterJoin,
-    BevelJoin,
-    RoundJoin,
-    SvgMiterJoin
-};
+//enum PJS
+//{
+//    MiterJoin,
+//    BevelJoin,
+//    RoundJoin,
+//    SvgMiterJoin
+//};
 
-enum BS
-{
-    NoBrush,
-    SolidPattern,
-    Dense1Pattern,
-    Dense2Pattern,
-    Dense3Pattern,
-    Dense4Pattern,
-    Dense5Pattern,
-    Dense6Pattern,
-    Dense7Pattern,
-    HorPattern,
-    VerPattern,
-    CrossPattern,
-    BDiagPattern,
-    FDiagPattern,
-    DiagCrossPattern,
-    LinearGradientPattern,
-    ConicalGradientPattern,
-    RadicalGradientPattern,
-    TexturePattern
-};
+//enum BS
+//{
+//    NoBrush,
+//    SolidPattern,
+//    Dense1Pattern,
+//    Dense2Pattern,
+//    Dense3Pattern,
+//    Dense4Pattern,
+//    Dense5Pattern,
+//    Dense6Pattern,
+//    Dense7Pattern,
+//    HorPattern,
+//    VerPattern,
+//    CrossPattern,
+//    BDiagPattern,
+//    FDiagPattern,
+//    DiagCrossPattern,
+//    LinearGradientPattern,
+//    ConicalGradientPattern,
+//    RadicalGradientPattern,
+//    TexturePattern
+//};
 
-enum TA
-{
-    AlignLeft = 1,
-    AlignRight = 2,
-    AlignHCenter = 4,
-    AlignHustify = 8,
-    AlignAbsolute = 10,
+//enum TA
+//{
+//    AlignLeft = 1,
+//    AlignRight = 2,
+//    AlignHCenter = 4,
+//    AlignHustify = 8,
+//    AlignAbsolute = 10,
 
-    AlignTop = 20,
-    AlignBotom = 40,
-    AlignVCenter = 80,
-    AlignBaseline = 100
-};
+//    AlignTop = 20,
+//    AlignBotom = 40,
+//    AlignVCenter = 80,
+//    AlignBaseline = 100
+//};
 
-enum FS
-{
-    StyleNormal,
-    StyleItalic,
-    StyleOblique
-};
+//enum FS
+//{
+//    StyleNormal,
+//    StyleItalic,
+//    StyleOblique
+//};
 
-enum FW
-{
-    Thin = 0,
-    ExtraLight = 12,
-    Light = 25,
-    Normal = 50,
-    Medium = 57,
-    DemiBold = 63,
-    Bold = 75,
-    ExtraBold = 81,
-    Black = 87
-};
+//enum FW
+//{
+//    Thin = 0,
+//    ExtraLight = 12,
+//    Light = 25,
+//    Normal = 50,
+//    Medium = 57,
+//    DemiBold = 63,
+//    Bold = 75,
+//    ExtraBold = 81,
+//    Black = 87
+//};
 
 
 
@@ -132,17 +134,15 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 
   Shape * shape = nullptr;
 
-
-
-  GC pc = color0;
-  GC bc = color0;
-  PS ps = NoPen;
-  PCS pcs = FlatCap;
-  PJS pjs = MiterJoin;
-  BS bs = NoBrush;
-  TA ta = AlignLeft;
-  FS fs = StyleNormal;
-  FW fw = Normal;
+//  GC pc = color0;
+//  GC bc = color0;
+//  PS ps = NoPen;
+//  PCS pcs = FlatCap;
+//  PJS pjs = MiterJoin;
+//  BS bs = NoBrush;
+//  TA ta = AlignLeft;
+//  FS fs = StyleNormal;
+//  FW fw = Normal;
 
   unsigned int shapeID = 99999;
   string shapeType = "nullptr";
@@ -181,6 +181,8 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
   while(getline(fin, skip, ':') && fin >> shapeID)
   {
 
+      cout << "JIIIIDJDIJWIJDIJQDIJWDIJIJDWIJWDIJWIIWJ";
+
       getline(fin, skip, ' ');
       getline(fin, shapeType);
 
@@ -212,9 +214,9 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
           getline(fin, skip, ' ');
           getline(fin, penJoinStyle);
 
-          shape = new Line(shapeID, shapeDemensions[0], shapeDemensions[1], shapeDemensions[2], shapeDemensions[3], Qt::GlobalColor(pc), Qt::PenStyle(ps), Qt::PenCapStyle(pcs), Qt::PenJoinStyle(pjs), penWidth);
+          shape = new Line(shapeID, shapeDemensions[0], shapeDemensions[1], shapeDemensions[2], shapeDemensions[3], convertColor(penColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), penWidth);
 
-//          ui->widget->shapesList.push_back(shape);
+//          ShapesList.push_back(shape);
           vec.push_back(shape);
 
           cout << "Line" << endl; // Init. Line OBJ
@@ -258,7 +260,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
           getline(fin, skip, ' ');
           getline(fin, penJoinStyle);
 
-          shape = new Polyline(shapeID, dimensions, Qt::GlobalColor(pc), Qt::PenStyle(ps), Qt::PenCapStyle(pcs), Qt::PenJoinStyle(pjs), penWidth);
+          shape = new Polyline(shapeID, dimensions, convertColor(penColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), penWidth);
 
 //          ui->widget->shapesList.push_back(shape);
           vec.push_back(shape);
@@ -308,7 +310,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
           getline(fin, skip, ' ');
           getline(fin, brushStyle);
 
-          shape = new Polygon(shapeID, dimensions, Qt::GlobalColor(pc), Qt::GlobalColor(bc), Qt::PenStyle(ps), Qt::PenCapStyle(pcs), Qt::PenJoinStyle(pjs), Qt::BrushStyle(bs), penWidth);
+          shape = new Polygon(shapeID, dimensions, convertColor(penColor), convertColor(brushColor), convertPenStyle(penStyle),convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), convertBrushStyle(brushStyle), penWidth);
 
 //          ui->widget->shapesList.push_back(shape);
           vec.push_back(shape);
@@ -349,7 +351,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
           getline(fin, skip, ' ');
           getline(fin, brushStyle);
 
-          shape = new Rectangle(shapeID, shapeDemensions[0], shapeDemensions[1], shapeDemensions[2], shapeDemensions[3] ,Qt::GlobalColor(pc), Qt::GlobalColor(bc), Qt::PenStyle(ps), Qt::PenCapStyle(pcs), Qt::PenJoinStyle(pjs), Qt::BrushStyle(bs), penWidth);
+          shape = new Rectangle(shapeID, shapeDemensions[0], shapeDemensions[1], shapeDemensions[2], shapeDemensions[3] ,convertColor(penColor), convertColor(brushColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), convertBrushStyle(brushStyle), penWidth);
 
 //          ui->widget->shapesList.push_back(shape);
           vec.push_back(shape);
@@ -390,7 +392,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
           getline(fin, skip, ' ');
           getline(fin, brushStyle);
 
-          shape = new Square(shapeID,shapeDemensions[0],shapeDemensions[1],shapeDemensions[2], Qt::GlobalColor(pc), Qt::GlobalColor(bc), Qt::PenStyle(ps), Qt::PenCapStyle(pcs), Qt::PenJoinStyle(pjs), Qt::BrushStyle(bs), penWidth);
+          shape = new Square(shapeID,shapeDemensions[0],shapeDemensions[1],shapeDemensions[2], convertColor(penColor), convertColor(brushColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), convertBrushStyle(brushStyle), penWidth);
 
 //          ui->widget->shapesList.push_back(shape);
           vec.push_back(shape);
@@ -431,7 +433,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
           getline(fin, skip, ' ');
           getline(fin, brushStyle);
 
-          shape = new Ellipse(shapeID,shapeDemensions[0],shapeDemensions[1],shapeDemensions[2], shapeDemensions[3], Qt::GlobalColor(pc), Qt::GlobalColor(bc), Qt::PenStyle(ps), Qt::PenCapStyle(pcs), Qt::PenJoinStyle(pjs), Qt::BrushStyle(bs), penWidth);
+          shape = new Ellipse(shapeID,shapeDemensions[0],shapeDemensions[1],shapeDemensions[2], shapeDemensions[3], convertColor(penColor), convertColor(brushColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), convertBrushStyle(brushStyle), penWidth);
 
 //          ui->widget->shapesList.push_back(shape);
           vec.push_back(shape);
@@ -472,7 +474,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
           getline(fin, skip, ' ');
           getline(fin, brushStyle);
 
-          shape = new Circle(shapeID,shapeDemensions[0],shapeDemensions[1],shapeDemensions[2], Qt::GlobalColor(pc), Qt::GlobalColor(bc), Qt::PenStyle(ps), Qt::PenCapStyle(pcs), Qt::PenJoinStyle(pjs), Qt::BrushStyle(bs), penWidth);
+          shape = new Circle(shapeID,shapeDemensions[0],shapeDemensions[1],shapeDemensions[2], convertColor(penColor), convertColor(brushColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), convertBrushStyle(brushStyle), penWidth);
 
 //          ui->widget->shapesList.push_back(shape);
           vec.push_back(shape);
@@ -516,7 +518,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
           getline(fin, skip, ' ');
           getline(fin, textFontWeight);
 
-          shape = new Text(shapeID, shapeDemensions[0], shapeDemensions[1], shapeDemensions[2], shapeDemensions[3], textString, Qt::GlobalColor(pc), Qt::AlignmentFlag(ta), textPointSize, textFontFamily, QFont::Style(fs), QFont::Weight(fw));
+          shape = new Text(shapeID, shapeDemensions[0], shapeDemensions[1], shapeDemensions[2], shapeDemensions[3], textString, convertColor(penColor), convertAlignment(textAlignment), textPointSize, textFontFamily, convertStyle(textFontStyle), convertWeight(textFontWeight));
 
 //          ui->widget->shapesList.push_back(shape);
           vec.push_back(shape);
@@ -564,3 +566,153 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
   fin.close();
 
 }
+
+Qt::GlobalColor convertColor(const string &str)
+{
+    if (str == "white")
+    {
+        return Qt::white;
+    }
+    else if (str == "black")
+    {
+        return Qt::black;
+    }
+    else if (str == "red")
+    {
+        return Qt::red;
+    }
+    else if (str == "green")
+    {
+        return Qt::green;
+    }
+    else if (str == "blue")
+    {
+        return Qt::blue;
+    }
+    else if (str == "cyan")
+    {
+        return Qt::cyan;
+    }
+    else if (str == "magenta")
+    {
+        return Qt::magenta;
+    }
+    else if (str == "yellow")
+    {
+        return Qt::yellow;
+    }
+    else if (str == "gray")
+    {
+        return Qt::gray;
+    }
+    else
+    {
+        return Qt::black;
+    }
+}
+
+
+Qt::PenStyle convertPenStyle(const string &str)
+{
+    if (str == "NoPen")
+        return Qt::NoPen;
+    else if (str == "SolidLine")
+        return Qt::SolidLine;
+    else if (str == "DashLine")
+        return Qt::DashLine;
+    else if (str == "DotLine")
+        return Qt::DotLine;
+    else if (str == "DashDotLine")
+        return Qt::DashDotLine;
+    else if (str == "DashDotDotLine")
+        return Qt::DashDotDotLine;
+    else
+        return Qt::NoPen;
+}
+
+
+Qt::PenCapStyle convertPenCapStyle(const string &str)
+{
+    if (str == "FlatCap")
+        return Qt::FlatCap;
+    else if (str == "SquareCap")
+        return Qt::SquareCap;
+    else if (str == "RoundCap")
+        return Qt::RoundCap;
+    else
+        return Qt::FlatCap;
+}
+
+
+Qt::PenJoinStyle convertPenJoinStyle(const string &str)
+{
+    if (str == "MiterJoin")
+        return Qt::MiterJoin;
+    else if (str == "BevelJoin")
+        return Qt::BevelJoin;
+    else if (str == "RoundJoin")
+        return Qt::RoundJoin;
+    else
+        return Qt::MiterJoin;
+}
+
+
+Qt::BrushStyle convertBrushStyle(const string &str)
+{
+    if (str == "SolidPattern")
+        return Qt::SolidPattern;
+    else if (str == "HorPattern")
+        return Qt::HorPattern;
+    else if (str == "VerPattern")
+        return Qt::VerPattern;
+    else if (str == "NoBrush")
+        return Qt::NoBrush;
+    else
+        return Qt::SolidPattern;
+}
+
+
+Qt::AlignmentFlag convertAlignment(const string &str)
+{
+    if (str == "AlignLeft")
+        return Qt::AlignLeft;
+
+    else if (str == "AlignRight")
+        return Qt::AlignRight;
+
+    else if (str == "AlignTop")
+        return Qt::AlignTop;
+
+    else if (str == "AlignBottom")
+        return Qt::AlignBottom;
+
+    else if (str == "AlignCenter")
+        return Qt::AlignCenter;
+}
+
+
+QFont::Style convertStyle(const string &str)
+{
+    if (str == "StyleNormal")
+        return QFont::StyleNormal;
+    else if (str == "StyleItalic")
+        return QFont::StyleItalic;
+    else if (str == "StyleOblique")
+        return QFont::StyleOblique;
+    else
+        return QFont::StyleNormal;
+}
+
+
+QFont::Weight convertWeight(const string &str)
+{
+    if (str == "Thin")
+        return QFont::Thin;
+    else if (str == "Light")
+        return QFont::Light;
+    else if (str == "Normal")
+        return QFont::Normal;
+    else if (str == "Bold")
+        return QFont::Bold;
+}
+
