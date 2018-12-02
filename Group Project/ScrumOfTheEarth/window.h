@@ -4,6 +4,8 @@
 #include <QMainWindow>
 #include "contactus.h"
 #include "mainwindow.h"
+#include <string>
+
 namespace Ui {
 class Window;
 }
@@ -25,7 +27,7 @@ private slots:
 
     void on_GuestLogin_clicked();
 
-    bool Check_Admin(string file, string username, string password);
+    bool Check_Admin(std::string, std::string, std::string);
 private:
     Ui::Window *ui;
     ContactUs * contactus;
