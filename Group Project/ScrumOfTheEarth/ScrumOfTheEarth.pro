@@ -56,7 +56,8 @@ HEADERS += \
     text.h \
     mainwindow.h \
     renderarea.h \
-    searchandcompare.h
+    searchandcompare.h \
+    shape_parser.h
 
 
 FORMS += \
