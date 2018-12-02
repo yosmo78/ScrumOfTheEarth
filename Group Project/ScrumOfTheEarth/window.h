@@ -25,6 +25,7 @@ private slots:
 
     void on_GuestLogin_clicked();
 
+    bool Check_Admin(string file, string username, string password);
 private:
     Ui::Window *ui;
     ContactUs * contactus;
