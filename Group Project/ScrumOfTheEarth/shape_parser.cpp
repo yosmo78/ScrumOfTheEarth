@@ -181,8 +181,6 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
   while(getline(fin, skip, ':') && fin >> shapeID)
   {
 
-      cout << "JIIIIDJDIJWIJDIJQDIJWDIJIJDWIJWDIJWIIWJ";
-
       getline(fin, skip, ' ');
       getline(fin, shapeType);
 
