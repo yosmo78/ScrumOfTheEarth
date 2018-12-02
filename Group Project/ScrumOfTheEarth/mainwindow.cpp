@@ -38,7 +38,7 @@ void MainWindow::on_FileButton_clicked()
       if(fileok)
       {
 
-<<<<<<< HEAD
+
 //        Shape * ptr = new Square(1500,15,20,40,Qt::blue,Qt::black,Qt::SolidLine,Qt::FlatCap,Qt::MiterJoin,Qt::SolidPattern,5);
 //        myStd::vector<QPoint> tst;
 //        tst.push_back(QPoint(500,125));
@@ -75,7 +75,7 @@ void MainWindow::on_FileButton_clicked()
       else
       {
           QMessageBox::warning(this,"Open File","File failed to open");
-<<<<<<< HEAD
+
       }
 =======
      }
