@@ -25,6 +25,6 @@ bool Window::Check_Admin(string file, string username, string password)
     }
     fin.ignore(1000, '\n');
   }
-
+  fin.close();
   return admin;
 }

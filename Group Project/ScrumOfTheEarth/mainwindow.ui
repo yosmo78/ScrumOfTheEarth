@@ -95,16 +95,46 @@
      <attribute name="title">
       <string>ID</string>
      </attribute>
+     <widget class="QTableWidget" name="IDtable">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>1</y>
+        <width>781</width>
+        <height>201</height>
+       </rect>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="Area">
      <attribute name="title">
       <string>Area</string>
      </attribute>
+     <widget class="QTableWidget" name="Areatable">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>1</y>
+        <width>781</width>
+        <height>201</height>
+       </rect>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="Peri">
      <attribute name="title">
       <string>Perimeter</string>
      </attribute>
+     <widget class="QTableWidget" name="PerimeterTable">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>1</y>
+        <width>781</width>
+        <height>211</height>
+       </rect>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>
