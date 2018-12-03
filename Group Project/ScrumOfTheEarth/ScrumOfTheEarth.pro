@@ -38,7 +38,8 @@ SOURCES += \
     line.cpp \
     polyline.cpp \
     shape_saver.cpp \
-    searchandcompare.cpp
+    searchandcompare.cpp \
+    admin_check.cpp
 
 
 HEADERS += \
