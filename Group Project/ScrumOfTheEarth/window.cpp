@@ -17,7 +17,7 @@ void Window::on_pushButton_clicked()
 {
     QString username = ui->UserText->text();
     QString password = ui->PassText->text();
-    if(username != "admin" || password != "admin")
+    if(!Check_Admin(QString("admin_list.txt").toStdString(), username.toStdString(), password.toStdString()))
     {
         QMessageBox::warning(this,"Login","You have entered an incorrect password!");
     }

@@ -3,7 +3,7 @@
 #include <fstream>
 using namespace std;
 
-Window::Check_Admin(string file, string username, string password)
+bool Window::Check_Admin(string file, string username, string password)
 {
   string adminPassword;
   string adminUser;
