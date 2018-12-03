@@ -1,6 +1,7 @@
 
 #include "window.h" //not 100% sure what header file to use
 #include <fstream>
+#include <iostream>
 using namespace std;
 
 bool Window::Check_Admin(string file, string username, string password)
@@ -9,21 +10,17 @@ bool Window::Check_Admin(string file, string username, string password)
   string adminUser;
   ifstream fin;
   bool admin = false;
-  bool found = false;
-
   fin.open(file.c_str());
-
-  while((!fin.eof()) && (!found)) {
-    getline(fin, adminUser);
-    getline(fin, adminPassword);
-
-    if(adminUser == username) {
-      if(adminPassword == password) {
-        admin = true;
-        found = true;
+  while(getline(fin,adminUser))
+  {
+      getline(fin,adminPassword);
+      fin.ignore(1,'\n');
+      if(adminUser == username) {
+        if(adminPassword == password) {
+           admin = true;
+           break;
+        }
       }
-    }
-    fin.ignore(1000, '\n');
   }
   fin.close();
   return admin;
