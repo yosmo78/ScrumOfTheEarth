@@ -39,7 +39,8 @@ SOURCES += \
     polyline.cpp \
     shape_saver.cpp \
     searchandcompare.cpp \
-    admin_check.cpp
+    admin_check.cpp \
+    pop_table.cpp
 
 
 HEADERS += \
@@ -58,7 +59,8 @@ HEADERS += \
     mainwindow.h \
     renderarea.h \
     searchandcompare.h \
-    shape_parser.h
+    shape_parser.h \
+    pop_table.h
 
 
 FORMS += \
