@@ -28,7 +28,6 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
     int size = vec.size();
     for(int i = 0; i < size; ++i)
     {
-        std::cerr << vec[i]->getShapeId();
         switch(vec[i]->getType())
         {
             case (1):   nitem = new QTableWidgetItem(QString("Square"));//square

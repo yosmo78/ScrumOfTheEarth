@@ -107,6 +107,8 @@ void MainWindow::on_DeleteShape_clicked()
              delete ui->widget->shapesList[position];//delete shape
              ui->widget->shapesList.erase(ui->widget->shapesList.begin() + position);//delete position in vector
              ui->widget->update();
+             fill_table((ui->IDtable), ui->widget->shapesList);
+
          }
 
        }
