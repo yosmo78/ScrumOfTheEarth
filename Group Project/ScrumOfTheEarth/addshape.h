@@ -4,6 +4,7 @@
 #include "shape.h"
 #include <QMainWindow>
 
+
 namespace Ui {
 class AddShape;
 }
@@ -22,6 +23,7 @@ private slots:
 private:
     Ui::AddShape *ui;
     myStd::vector<Shape *> * vecPointer;
+    QWidget * wptr;
 };
 
 #endif // ADDSHAPE_H
