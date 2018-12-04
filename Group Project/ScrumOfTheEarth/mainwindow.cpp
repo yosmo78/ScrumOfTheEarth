@@ -12,6 +12,7 @@
 #include <iostream>
 #include <QMessageBox>
 #include "searchandcompare.h"
+#include "pop_table.h"
 
 #include <string>
 
@@ -57,7 +58,9 @@ void MainWindow::on_FileButton_clicked()
         //ui->widget->shapesList.push_back(eptr);
         //ui->widget->shapesList.push_back(pptr);
         //ui->widget->shapesList.push_back(lptr);
+
         ui->widget->update();
+        fill_table((ui->IDtable), ui->widget->shapesList);
 
       }
       else
@@ -110,6 +113,8 @@ void MainWindow::on_DeleteShape_clicked()
              delete ui->widget->shapesList[position];//delete shape
              ui->widget->shapesList.erase(ui->widget->shapesList.begin() + position);//delete position in vector
              ui->widget->update();
+             fill_table((ui->IDtable), ui->widget->shapesList);
+
          }
 
        }

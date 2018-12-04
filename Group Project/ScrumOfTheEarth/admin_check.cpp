@@ -9,8 +9,6 @@ bool Window::Check_Admin(string file, string username, string password)
   string adminUser;
   ifstream fin;
   bool admin = false;
-  bool found = false;
-
   fin.open(file.c_str());
 
   while((!fin.eof()) && (!found))

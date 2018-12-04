@@ -40,7 +40,8 @@ SOURCES += \
     shape_saver.cpp \
     searchandcompare.cpp \
     admin_check.cpp \
-    pop_table.cpp
+    pop_table.cpp \
+    create_login_file.cpp
 
 
 HEADERS += \

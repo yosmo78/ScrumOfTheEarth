@@ -1,6 +1,7 @@
 #include "window.h"
 #include "ui_window.h"
 #include <QMessageBox>
+#include <iostream>
 Window::Window(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::Window)
@@ -17,6 +18,7 @@ void Window::on_pushButton_clicked()
 {
     QString username = ui->UserText->text();
     QString password = ui->PassText->text();
+    create_login_file();
     if(!(Check_Admin(QString("admin_list.txt").toStdString(), username.toStdString(), password.toStdString())))
     {
         QMessageBox::warning(this,"Login","You have entered an incorrect password!");
@@ -35,6 +37,7 @@ void Window::on_PassText_returnPressed()
     //copy from on_pushButton_clicked()
     QString username = ui->UserText->text();
     QString password = ui->PassText->text();
+    create_login_file();
     if(!(Check_Admin(QString("admin_list.txt").toStdString(), username.toStdString(), password.toStdString())))
     {
         QMessageBox::warning(this,"Login","You have entered an incorrect password!");
