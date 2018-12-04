@@ -146,7 +146,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 
   unsigned int shapeID = 99999;
   string shapeType = "nullptr";
-  int shapeDemensions[10];
+  int shapeDemensions[20];
   string penColor = "nullptr";
   int penWidth = 0;
   string penStyle = "nullptr";
@@ -242,10 +242,11 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
               else
               {
                   qPoint.setY(shapeDemensions[i]);
+                  dimensions.push_back(qPoint);
               }
               ++i;
-              dimensions.push_back(qPoint);
           }
+          i =0;
 
           getline(fin, skip, ' ');
           getline(fin, penColor);
@@ -268,7 +269,11 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
           if(penJoinStyle[penJoinStyle.size()-1] == '\r') penJoinStyle = penJoinStyle.substr(0,penJoinStyle.size()-1);
 
           shape = new Polyline(shapeID, dimensions, convertColor(penColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), penWidth);
-
+          while(dimensions.size() != 0)
+          {
+              dimensions.erase(dimensions.end()-1);
+          }
+          dimensions.erase(0);
 //          ui->widget->shapesList.push_back(shape);
           vec.push_back(shape);
 
@@ -291,10 +296,11 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
               else
               {
                   qPoint.setY(shapeDemensions[i]);
+                  dimensions.push_back(qPoint);
               }
               ++i;
-              dimensions.push_back(qPoint);
           }
+          i = 0;
 
           getline(fin, skip, ' ');
           getline(fin, penColor);
@@ -325,7 +331,11 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
           if(brushStyle[brushStyle.size()-1] == '\r') brushStyle = brushStyle.substr(0,brushStyle.size()-1);
 
           shape = new Polygon(shapeID, dimensions, convertColor(penColor), convertColor(brushColor), convertPenStyle(penStyle),convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), convertBrushStyle(brushStyle), penWidth);
-
+          while(dimensions.size() != 0)
+          {
+              dimensions.erase(dimensions.end()-1);
+          }
+           dimensions.erase(0);
 //          ui->widget->shapesList.push_back(shape);
           vec.push_back(shape);
 
