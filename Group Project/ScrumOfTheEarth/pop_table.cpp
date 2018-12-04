@@ -46,7 +46,7 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
     tble->setRowCount(0);//clears all rows
     tble->setRowCount(vec.size());
     tble->setColumnCount(0);//clears all columns
-    tble->setColumnCount(8);
+    tble->setColumnCount(14);
     tble->setHorizontalHeaderItem(0, new QTableWidgetItem(QString("Shape Type")));
     tble->setHorizontalHeaderItem(1, new QTableWidgetItem(QString("Shape Id")));
     tble->setHorizontalHeaderItem(2, new QTableWidgetItem(QString("Dimensions")));
@@ -54,7 +54,13 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
     tble->setHorizontalHeaderItem(4, new QTableWidgetItem(QString("Pen/Font Style")));
     tble->setHorizontalHeaderItem(5, new QTableWidgetItem(QString("Pen Cap Style")));
     tble->setHorizontalHeaderItem(6, new QTableWidgetItem(QString("Pen Join Style")));
-    tble->setHorizontalHeaderItem(7, new QTableWidgetItem(QString("Brush Color")));
+    tble->setHorizontalHeaderItem(7, new QTableWidgetItem(QString("Pen Width/Point Size")));
+    tble->setHorizontalHeaderItem(8, new QTableWidgetItem(QString("Brush Color")));
+    tble->setHorizontalHeaderItem(9, new QTableWidgetItem(QString("Brush Style")));
+    tble->setHorizontalHeaderItem(10, new QTableWidgetItem(QString("Text String")));
+    tble->setHorizontalHeaderItem(11, new QTableWidgetItem(QString("Text Alignment")));
+    tble->setHorizontalHeaderItem(12, new QTableWidgetItem(QString("Font Family")));
+    tble->setHorizontalHeaderItem(13, new QTableWidgetItem(QString("Font Weight")));
     tble->showGrid();
     QTableWidgetItem* nitem;
     int size = vec.size();
@@ -86,15 +92,27 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
                         tble->setItem(i,5,nitem);
                         nitem = new QTableWidgetItem(QString(penJoinStyles[sptr->getPenJoinStyle()].c_str()));//Pen Join Style
                         tble->setItem(i,6,nitem);
-                        nitem = new QTableWidgetItem(QString(qtColors[sptr->getBrushColor()].c_str()));//Brush Color
+                        nitem = new QTableWidgetItem(QString(((std::string("Width: ") +std::to_string(sptr->getPenWidth())).c_str())));//Pen Width
                         tble->setItem(i,7,nitem);
+                        nitem = new QTableWidgetItem(QString(qtColors[sptr->getBrushColor()].c_str()));//Brush Color
+                        tble->setItem(i,8,nitem);
+                        nitem = new QTableWidgetItem(QString(brushStyles[sptr->getBrushStyle()].c_str()));//Brush Style
+                        tble->setItem(i,9,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Text String
+                        tble->setItem(i,10,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Text Alignment
+                        tble->setItem(i,11,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Text Font Family
+                        tble->setItem(i,12,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Font Weight
+                        tble->setItem(i,13,nitem);
                         break;
             case (2):   nitem = new QTableWidgetItem(QString("Rectangle"));//rect
                         tble->setItem(i,0,nitem);
                         nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
                         tble->setItem(i,1,nitem);
                         rptr = dynamic_cast<Rectangle *> (vec[i]);
-                        nitem = new QTableWidgetItem(QString((std::string("X: ") +std::to_string(rptr->getCornerPoint().x()) + std::string(" Y: ") +std::to_string(rptr->getCornerPoint().y())+std::string("Width: ") + std::to_string(rptr->getWidth())+ std::string(" Length: ") +std::to_string(rptr->getLength())).c_str()));
+                        nitem = new QTableWidgetItem(QString((std::string("X: ") +std::to_string(rptr->getCornerPoint().x()) + std::string(" Y: ") +std::to_string(rptr->getCornerPoint().y())+std::string(" Width: ") + std::to_string(rptr->getWidth())+ std::string(" Length: ") +std::to_string(rptr->getLength())).c_str()));
                         tble->setItem(i,2,nitem);
                         nitem = new QTableWidgetItem(QString(qtColors[rptr->getPenColor()].c_str()));//Pen Color
                         tble->setItem(i,3,nitem);
@@ -104,8 +122,20 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
                         tble->setItem(i,5,nitem);
                         nitem = new QTableWidgetItem(QString(penJoinStyles[rptr->getPenJoinStyle()].c_str()));//Pen Join Style
                         tble->setItem(i,6,nitem);
-                        nitem = new QTableWidgetItem(QString(qtColors[rptr->getBrushColor()].c_str()));//Brush Color
+                        nitem = new QTableWidgetItem(QString(((std::string("Width: ") +std::to_string(rptr->getPenWidth())).c_str())));
                         tble->setItem(i,7,nitem);
+                        nitem = new QTableWidgetItem(QString(qtColors[rptr->getBrushColor()].c_str()));//Brush Color
+                        tble->setItem(i,8,nitem);
+                        nitem = new QTableWidgetItem(QString(brushStyles[rptr->getBrushStyle()].c_str()));//Brush Style
+                        tble->setItem(i,9,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Text String
+                        tble->setItem(i,10,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Text Alignment
+                        tble->setItem(i,11,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Text Font Family
+                        tble->setItem(i,12,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Font Weight
+                        tble->setItem(i,13,nitem);
                         break;
             case (3):   nitem = new QTableWidgetItem(QString("Polygon"));//polygon
                         tble->setItem(i,0,nitem);
@@ -127,15 +157,27 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
                         tble->setItem(i,5,nitem);
                         nitem = new QTableWidgetItem(QString(penJoinStyles[pptr->getPenJoinStyle()].c_str()));//Pen Join Style
                         tble->setItem(i,6,nitem);
-                        nitem = new QTableWidgetItem(QString(qtColors[pptr->getBrushColor()].c_str()));//Brush Color
+                        nitem = new QTableWidgetItem(QString(((std::string("Width: ") +std::to_string(pptr->getPenWidth())).c_str())));
                         tble->setItem(i,7,nitem);
+                        nitem = new QTableWidgetItem(QString(qtColors[pptr->getBrushColor()].c_str()));//Brush Color
+                        tble->setItem(i,8,nitem);
+                        nitem = new QTableWidgetItem(QString(brushStyles[pptr->getBrushStyle()].c_str()));//Brush Style
+                        tble->setItem(i,9,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Text String
+                        tble->setItem(i,10,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Text Alignment
+                        tble->setItem(i,11,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Text Font Family
+                        tble->setItem(i,12,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Font Weight
+                        tble->setItem(i,13,nitem);
                         break;
             case (4):   nitem = new QTableWidgetItem(QString("Circle"));//circle
                         tble->setItem(i,0,nitem);
                         nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
                         tble->setItem(i,1,nitem);
                         cptr = dynamic_cast<Circle *> (vec[i]);
-                        nitem = new QTableWidgetItem(QString(((std::string("X: ") +std::to_string(cptr->getPoint1().x()) + std::string(" Y: ") +std::to_string(cptr->getPoint1().y())+std::string("Radius: ") +std::to_string(cptr->getRadius())).c_str())));
+                        nitem = new QTableWidgetItem(QString(((std::string("X: ") +std::to_string(cptr->getPoint1().x()) + std::string(" Y: ") +std::to_string(cptr->getPoint1().y())+std::string(" Radius: ") +std::to_string(cptr->getRadius())).c_str())));
                         tble->setItem(i,2,nitem);
                         nitem = new QTableWidgetItem(QString(qtColors[cptr->getPenColor()].c_str()));//Pen Color
                         tble->setItem(i,3,nitem);
@@ -145,15 +187,27 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
                         tble->setItem(i,5,nitem);
                         nitem = new QTableWidgetItem(QString(penJoinStyles[cptr->getPenJoinStyle()].c_str()));//Pen Join Style
                         tble->setItem(i,6,nitem);
-                        nitem = new QTableWidgetItem(QString(qtColors[cptr->getBrushColor()].c_str()));//Brush Color
+                        nitem = new QTableWidgetItem(QString(((std::string("Width: ") +std::to_string(cptr->getPenWidth())).c_str())));
                         tble->setItem(i,7,nitem);
+                        nitem = new QTableWidgetItem(QString(qtColors[cptr->getBrushColor()].c_str()));//Brush Color
+                        tble->setItem(i,8,nitem);
+                        nitem = new QTableWidgetItem(QString(brushStyles[cptr->getBrushStyle()].c_str()));//Brush Style
+                        tble->setItem(i,9,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Text String
+                        tble->setItem(i,10,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Text Alignment
+                        tble->setItem(i,11,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Text Font Family
+                        tble->setItem(i,12,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Font Weight
+                        tble->setItem(i,13,nitem);
                         break;
             case (5):   nitem = new QTableWidgetItem(QString("Ellipse"));//ellipse
                         tble->setItem(i,0,nitem);
                         nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
                         tble->setItem(i,1,nitem);
                         eptr = dynamic_cast<Ellipse *> (vec[i]);
-                        nitem = new QTableWidgetItem(QString((std::string("X: ") +std::to_string(eptr->getTopLeft().x()) + std::string(" Y: ") +std::to_string(eptr->getTopLeft().y())+std::string("Semimajor: ") + std::to_string(eptr->getMajorAxis())+ std::string(" Semiminor: ") +std::to_string(eptr->getMinorAxis())).c_str()));
+                        nitem = new QTableWidgetItem(QString((std::string("X: ") +std::to_string(eptr->getTopLeft().x()) + std::string(" Y: ") +std::to_string(eptr->getTopLeft().y())+std::string(" Semimajor: ") + std::to_string(eptr->getMajorAxis())+ std::string(" Semiminor: ") +std::to_string(eptr->getMinorAxis())).c_str()));
                         tble->setItem(i,2,nitem);
                         nitem = new QTableWidgetItem(QString(qtColors[eptr->getPenColor()].c_str()));//Pen Color
                         tble->setItem(i,3,nitem);
@@ -163,8 +217,20 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
                         tble->setItem(i,5,nitem);
                         nitem = new QTableWidgetItem(QString(penJoinStyles[eptr->getPenJoinStyle()].c_str()));//Pen Join Style
                         tble->setItem(i,6,nitem);
-                        nitem = new QTableWidgetItem(QString(qtColors[eptr->getBrushColor()].c_str()));//Brush Color
+                        nitem = new QTableWidgetItem(QString(((std::string("Width: ") +std::to_string(eptr->getPenWidth())).c_str())));//pen width
                         tble->setItem(i,7,nitem);
+                        nitem = new QTableWidgetItem(QString(qtColors[eptr->getBrushColor()].c_str()));//Brush Color
+                        tble->setItem(i,8,nitem);
+                        nitem = new QTableWidgetItem(QString(brushStyles[eptr->getBrushStyle()].c_str()));//Brush Style
+                        tble->setItem(i,9,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Text String
+                        tble->setItem(i,10,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Text Alignment
+                        tble->setItem(i,11,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Text Font Family
+                        tble->setItem(i,12,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Font Weight
+                        tble->setItem(i,13,nitem);
                         break;
             case (6):   nitem = new QTableWidgetItem(QString("Line"));//Line
                         tble->setItem(i,0,nitem);
@@ -181,8 +247,20 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
                         tble->setItem(i,5,nitem);
                         nitem = new QTableWidgetItem(QString(penJoinStyles[lptr->getPenJoinStyle()].c_str()));//Pen Join Style
                         tble->setItem(i,6,nitem);
-                        nitem = new QTableWidgetItem(QString(""));//Brush Color
+                        nitem = new QTableWidgetItem(QString(((std::string("Width: ") +std::to_string(lptr->getPenWidth())).c_str())));
                         tble->setItem(i,7,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Brush Color
+                        tble->setItem(i,8,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Brush Style
+                        tble->setItem(i,9,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Text String
+                        tble->setItem(i,10,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Text Alignment
+                        tble->setItem(i,11,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Text Font Family
+                        tble->setItem(i,12,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Font Weight
+                        tble->setItem(i,13,nitem);
                         break;
             case (7):   nitem = new QTableWidgetItem(QString("Polyline"));//polyline
                         tble->setItem(i,0,nitem);
@@ -204,15 +282,27 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
                         tble->setItem(i,5,nitem);
                         nitem = new QTableWidgetItem(QString(penJoinStyles[Pptr->getPenJoinStyle()].c_str()));//Pen Join Style
                         tble->setItem(i,6,nitem);
-                        nitem = new QTableWidgetItem(QString(""));//Brush Color
+                        nitem = new QTableWidgetItem(QString(((std::string("Width: ") +std::to_string(Pptr->getPenWidth())).c_str())));
                         tble->setItem(i,7,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Brush Color
+                        tble->setItem(i,8,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Brush Style
+                        tble->setItem(i,9,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Text String
+                        tble->setItem(i,10,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Text Alignment
+                        tble->setItem(i,11,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Text Font Family
+                        tble->setItem(i,12,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Font Weight
+                        tble->setItem(i,13,nitem);
                         break;
             case (8):   nitem = new QTableWidgetItem(QString("text"));//text
                         tble->setItem(i,0,nitem);
                         nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
                         tble->setItem(i,1,nitem);
                         tptr = dynamic_cast<Text *> (vec[i]);
-                        nitem = new QTableWidgetItem(QString((std::string("X: ") +std::to_string(tptr->getCornerPoint().x()) + std::string(" Y: ") +std::to_string(tptr->getCornerPoint().y())+std::string("Width: ") + std::to_string(tptr->getWidth())+ std::string(" Length: ") +std::to_string(tptr->getLength())).c_str()));
+                        nitem = new QTableWidgetItem(QString((std::string("X: ") +std::to_string(tptr->getCornerPoint().x()) + std::string(" Y: ") +std::to_string(tptr->getCornerPoint().y())+std::string(" Width: ") + std::to_string(tptr->getWidth())+ std::string(" Length: ") +std::to_string(tptr->getLength())).c_str()));
                         tble->setItem(i,2,nitem);
                         nitem = new QTableWidgetItem(QString(qtColors[tptr->getGlobalColor()].c_str()));//Pen Color
                         tble->setItem(i,3,nitem);
@@ -222,8 +312,20 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
                         tble->setItem(i,5,nitem);
                         nitem = new QTableWidgetItem(QString(""));//Pen Join Style
                         tble->setItem(i,6,nitem);
-                        nitem = new QTableWidgetItem(QString(""));//Brush Color
+                        nitem = new QTableWidgetItem(QString(((std::string("Width: ") +std::to_string(tptr->getTextPointSize())).c_str())));//Point Size
                         tble->setItem(i,7,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Brush Color
+                        tble->setItem(i,8,nitem);
+                        nitem = new QTableWidgetItem(QString(""));//Brush Style
+                        tble->setItem(i,9,nitem);
+                        nitem = new QTableWidgetItem(QString(tptr->getTextString()));//Text String
+                        tble->setItem(i,10,nitem);
+                        nitem = new QTableWidgetItem(QString(textAlignments[tptr->getAlignmentFlag()].c_str()));//Text Alignment
+                        tble->setItem(i,11,nitem);
+                        nitem = new QTableWidgetItem(QString(tptr->getTextFontFamily().toStdString().c_str()));//Font Family
+                        tble->setItem(i,12,nitem);
+                        nitem = new QTableWidgetItem(QString(textFontWeights[tptr->getTextFontWeight()].c_str()));//Font Weight
+                        tble->setItem(i,13,nitem);
                         break;
         }
     }

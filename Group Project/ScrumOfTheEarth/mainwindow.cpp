@@ -26,6 +26,7 @@ MainWindow::MainWindow(QWidget *parent, bool admin) :
 {
     ui->setupUi(this);
     ui->Tables->setStyleSheet("QTabBar::tab {width: 263px;}");
+    addshape = NULL;
 }
 
 MainWindow::~MainWindow()
@@ -45,8 +46,8 @@ void MainWindow::on_FileButton_clicked()
       shape_parser(ui->widget->shapesList, file.toStdString().c_str(), fileok);
       if(fileok)
       {
-
-      /*  Shape * ptr = new Square(1500,15,20,40,Qt::blue,Qt::black,Qt::SolidLine,Qt::FlatCap,Qt::MiterJoin,Qt::SolidPattern,5);
+/*
+        Shape * ptr = new Square(1500,15,20,40,Qt::blue,Qt::black,Qt::SolidLine,Qt::FlatCap,Qt::MiterJoin,Qt::SolidPattern,5);
         myStd::vector<QPoint> tst;
         tst.push_back(QPoint(500,125));
         tst.push_back(QPoint(510,150));
@@ -60,9 +61,11 @@ void MainWindow::on_FileButton_clicked()
         ui->widget->shapesList.push_back(eptr);
         ui->widget->shapesList.push_back(pptr);
         ui->widget->shapesList.push_back(lptr);
-      */
+*/
         ui->widget->update();
-        fill_table((ui->IDtable), ui->widget->shapesList);
+        myStd::vector<Shape*> cpy = ui->widget->shapesList;//copy the shapes list
+        selection_sort(cpy, cmpId);//sort the list by id
+        fill_table((ui->IDtable), cpy);//populate the table with sorted list
 
       }
       else
@@ -93,6 +96,8 @@ void MainWindow::on_AddShape_clicked()
     if(isAdmin)
     {
 
+        addshape = new AddShape(this,ui->widget->shapesList);
+        addshape->show();
     }
     else
     {
@@ -115,7 +120,9 @@ void MainWindow::on_DeleteShape_clicked()
              delete ui->widget->shapesList[position];//delete shape
              ui->widget->shapesList.erase(ui->widget->shapesList.begin() + position);//delete position in vector
              ui->widget->update();
-             fill_table((ui->IDtable), ui->widget->shapesList);
+             myStd::vector<Shape*> cpy = ui->widget->shapesList;//copy the shapes list
+             selection_sort(cpy, cmpId);//sort the list
+             fill_table((ui->IDtable), cpy);//populate the table with sorted list
 
          }
 
