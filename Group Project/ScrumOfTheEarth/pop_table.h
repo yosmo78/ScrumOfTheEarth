@@ -4,7 +4,8 @@
 #include <QTableWidget>
 #include "shape.h"
 
-void pop_table(QTableWidget*, myStd::vector<Shape*>);//fills table with all parameters and area and perimeter
+void pop_Atable(QTableWidget*, myStd::vector<Shape*>);//fills table with area
+void pop_Ptable(QTableWidget*, myStd::vector<Shape*>);//fills table with perimeter
 void fill_table(QTableWidget*, myStd::vector<Shape*>);//fills table up with all parameters
 
 

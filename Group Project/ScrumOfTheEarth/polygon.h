@@ -47,7 +47,8 @@ class Polygon : public Shape
         avgHeight = (it[i].y()+polyPoint.begin()->y())/2;
         width = polyPoint.begin()->x()-it[i].x();
         area += avgHeight * width;
-        return area;
+
+        return fabs(area);
     }
     virtual double getPerimeter()
     {
