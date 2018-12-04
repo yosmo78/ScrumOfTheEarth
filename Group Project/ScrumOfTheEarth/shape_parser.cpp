@@ -183,11 +183,13 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 
       getline(fin, skip, ' ');
       getline(fin, shapeType);
+      if(shapeType[shapeType.size()-1] == '\r') shapeType = shapeType.substr(0,shapeType.size()-1);
 
       if(shapeType == "Line")
       {
           getline(fin, skip, ' ');
           getline(fin, skip);
+          if(skip[skip.size()-1] == '\r') skip = skip.substr(0,skip.size()-1);
           ss.str(skip);
 
           while(getline(ss, skip, ','))
