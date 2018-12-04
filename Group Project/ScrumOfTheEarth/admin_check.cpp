@@ -10,23 +10,20 @@ bool Window::Check_Admin(string file, string username, string password)
   ifstream fin;
   bool admin = false;
   fin.open(file.c_str());
-
-  while((!fin.eof()) && (!found))
+  while(getline(fin,adminUser))
   {
-    getline(fin, adminUser);
-    getline(fin, adminPassword);
-
+    getline(fin,adminPassword);
+    fin.ignore('\n');
     if(adminUser == username)
     {
-      if(adminPassword == password)
-      {
-        admin = true;
-        found = true;
-      }
+        if(adminPassword == password)
+        {
+            admin = true;
+            break;
+        }
     }
-
-    fin.ignore(1000, '\n');
   }
+
   fin.close();
   return admin;
 }

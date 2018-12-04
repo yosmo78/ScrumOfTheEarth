@@ -79,8 +79,8 @@ void MainWindow::on_Save_clicked()
 {
     if(isAdmin)
     {
-
-        shape_saver(ui->widget->shapesList,"output.txt");
+        //will overwrite openfile
+        shape_saver(ui->widget->shapesList,file.toLocal8Bit().toStdString().c_str());
     }
     else
     {
