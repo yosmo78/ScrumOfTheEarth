@@ -137,7 +137,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
           {
               dimensions.erase(dimensions.end()-1);
           }
-          dimensions.erase(0);
+//          dimensions.erase(0);
 
           vec.push_back(shape);
 
