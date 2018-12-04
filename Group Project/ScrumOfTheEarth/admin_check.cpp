@@ -13,7 +13,7 @@ bool Window::Check_Admin(string file, string username, string password)
   while(getline(fin,adminUser))
   {
     getline(fin,adminPassword);
-    fin.ignore('\n');
+    fin.ignore(1,'\n');
     if(adminUser == username)
     {
         if(adminPassword == password)

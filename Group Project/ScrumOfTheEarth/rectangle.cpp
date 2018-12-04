@@ -11,4 +11,6 @@ void Rectangle::draw(QPainter & paint)
   paint.setPen(pen);
   paint.setBrush(b);
   paint.drawRect(QRect(CornerPoint, QSize(width, length) ));
+  paint.drawText(CornerPoint.x() + (width/2 - 3 * std::to_string(getShapeId()).length()), CornerPoint.y() - 5,QString::fromStdString(std::to_string(getShapeId())));
+
 }

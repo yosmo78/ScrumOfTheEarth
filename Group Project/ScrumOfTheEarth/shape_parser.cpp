@@ -549,13 +549,16 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 
           getline(fin, skip, ' ');
           getline(fin, textStdString);
+          if(textStdString[textStdString.size()-1] == '\r') textStdString = textStdString.substr(0,textStdString.size()-1);
           textString = QString::fromStdString(textStdString);
 
           getline(fin, skip, ' ');
           getline(fin, textColor);
+          if(textColor[textColor.size()-1] == '\r') textColor = textColor.substr(0,textColor.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, textAlignment);
+          if(textAlignment[textAlignment.size()-1] == '\r') textAlignment = textAlignment.substr(0,textAlignment.size()-1);
 
           getline(fin, skip, ' ');
   //			getline(fin, textPointSize);
@@ -563,13 +566,16 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 
           getline(fin, skip, ' ');
           getline(fin, textFontFamilyStr);
+          if(textFontFamilyStr[textFontFamilyStr.size()-1] == '\r') textFontFamilyStr = textFontFamilyStr.substr(0,textFontFamilyStr.size()-1);
           textFontFamily = QString::fromStdString(textFontFamilyStr);
 
           getline(fin, skip, ' ');
           getline(fin, textFontStyle);
+          if(textFontStyle[textFontStyle.size()-1] == '\r') textFontStyle = textFontStyle.substr(0,textFontStyle.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, textFontWeight);
+          if(textFontWeight[textFontWeight.size()-1] == '\r') textFontWeight = textFontWeight.substr(0,textFontWeight.size()-1);
 
           shape = new Text(shapeID, shapeDemensions[0], shapeDemensions[1], shapeDemensions[2], shapeDemensions[3], textString, convertColor(penColor), convertAlignment(textAlignment), textPointSize, textFontFamily, convertStyle(textFontStyle), convertWeight(textFontWeight));
 

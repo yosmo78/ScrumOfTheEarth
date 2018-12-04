@@ -21,5 +21,6 @@ void Polygon::draw(QPainter& paint)
      if(tmp[index].y() < minY) minY = tmp[index].y();
  }
  //std::cerr << minY << maxY;
+ //paint.drawText((((minX+ maxX)/2) - 3 * std::to_string(getShapeId()).length()), minY - penWidth,QString::fromStdString(std::to_string(getShapeId())));
  paint.drawText(((minX+maxX)/2)-(3*std::to_string(getShapeId()).length()), maxY -(maxY-minY) ,QString::fromStdString(std::to_string(getShapeId())));
 }
