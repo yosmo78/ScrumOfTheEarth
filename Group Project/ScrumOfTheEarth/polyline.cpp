@@ -1,4 +1,5 @@
 #include "polyline.h"
+#include <iostream>
 Polyline::Polyline(unsigned int i,myStd::vector<QPoint>& vec , Qt::GlobalColor pc, Qt::PenStyle ps, Qt::PenCapStyle pcs, Qt::PenJoinStyle pjs,  int pw):
     Shape(i),points(vec), penColor(pc),penStyle(ps),penCapStyle(pcs),penJoinStyle(pjs),penWidth(pw){}
 void Polyline::draw(QPainter & paint)
@@ -19,5 +20,5 @@ void Polyline::draw(QPainter & paint)
           paint.drawLine(tmp[index], tmp[index+1]);
       }
   }
-  paint.drawText(minX+ (maxX/2 - 3 * std::to_string(getShapeId()).length()), maxY - penWidth,QString::fromStdString(std::to_string(getShapeId())));
+  paint.drawText((((minX+ maxX)/2) - 3 * std::to_string(getShapeId()).length()), minY - penWidth,QString::fromStdString(std::to_string(getShapeId())));
 }
