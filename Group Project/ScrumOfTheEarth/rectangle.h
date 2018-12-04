@@ -32,6 +32,8 @@ class Rectangle : public Shape
     virtual void draw(QPainter &);
     virtual int getType(){return 2;}
     static int getStaticType(){return 2;}
+    virtual double getArea(){return (double)length*width;}
+    virtual double getPerimeter(){return (double)(2*length + 2*width);}
    private:
     QPoint CornerPoint; //Rectangle specific
     int length; //Rectangle specific

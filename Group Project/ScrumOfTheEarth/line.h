@@ -1,7 +1,7 @@
 #ifndef LINE_H
 #define LINE_H
 #include "shape.h"
-
+#include <cmath>
 class Line : public Shape
 {
     Q_OBJECT
@@ -24,6 +24,7 @@ class Line : public Shape
     virtual void draw(QPainter & paint);
     virtual int getType(){return 6;}
     static int getStaticType(){return 6;}
+    virtual double getPerimeter(){return std::sqrt(((point1.x()-point2.x())*(point1.x()-point2.x()))+((point1.y()-point2.y())*(point1.y()-point2.y())));}
    private:
     QPoint point1; //line specific
     QPoint point2; //line specific
