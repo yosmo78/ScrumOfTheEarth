@@ -3,7 +3,7 @@ ShapeId: 1
 ShapeType: Line
 ShapeDimensions: 20, 90, 100, 20
 PenColor: blue
-PenWidth: 2
+PenWidth: 100
 PenStyle: DashDotLine
 PenCapStyle: FlatCap
 PenJoinStyle: MiterJoin
@@ -82,3 +82,5 @@ TextPointSize: 10
 TextFontFamily: Comic Sans MS
 TextFontStyle: FlatCap
 TextFontWeight: Normal
+
+

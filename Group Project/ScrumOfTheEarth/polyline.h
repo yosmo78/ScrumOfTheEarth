@@ -32,7 +32,7 @@ class Polyline: public Shape
         int i = 0;
         for(; i < (points.size()-1); ++i)
         {
-           perimeter += std::sqrt(((it[i].x()-it[i+1].x())*((it[i].x()-it[i+1].x()))+((it[i].y()-it[i+1].y())*(it[i].y()-it[i+1].y()))));
+//           perimeter += std::sqrt(((it[i].x()-it[i+1].x())*((it[i].x()-it[i+1].x()))+((it[i].y()-it[i+1].y())*(it[i].y()-it[i+1].y()))));
         }
         return perimeter;
     }
