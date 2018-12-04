@@ -18,8 +18,8 @@ class Shape: public QObject
         Shape& operator=(const Shape&) = delete ;//disable copy assignment
         bool operator==(const Shape& s2){return id == s2.id;}
         bool operator<(const Shape& s2){return id<s2.id;}
-        virtual int getArea(){return 0;}//Shapes default to having 0 area. Shapes that have >0 have to overload
-        virtual int getPerimeter(){return 0;}
+        virtual double getArea(){return 0;}//Shapes default to having 0 area. Shapes that have >0 have to overload
+        virtual double getPerimeter(){return 0;}
         virtual int getType() = 0;
         virtual ~Shape(){}
     private:

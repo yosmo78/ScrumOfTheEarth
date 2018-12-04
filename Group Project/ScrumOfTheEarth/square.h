@@ -30,6 +30,8 @@ class Square : public Shape
     virtual void draw(QPainter&);
     virtual int getType(){return 1;}
     static int getStaticType(){return 1;}
+    virtual double getArea(){return (double)length*length;}
+    virtual double getPerimeter(){return (double)(4*length);}
    private:
     QPoint CornerPoint; //Square specific
     int length; //Square specific

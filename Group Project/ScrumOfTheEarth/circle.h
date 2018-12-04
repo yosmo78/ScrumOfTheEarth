@@ -28,6 +28,8 @@ class Circle : public Shape
     void draw(QPainter & paint);
     virtual int getType(){return 4;}
     static int getStaticType(){return 4;}
+    virtual double getArea(){return 3.14159265359*radius*radius;}
+    virtual double getPerimeter(){return 3.14159265359*2*radius;}
    private:
     QPoint point;
     int radius;

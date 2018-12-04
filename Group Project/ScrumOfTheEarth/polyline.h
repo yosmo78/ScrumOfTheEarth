@@ -24,6 +24,18 @@ class Polyline: public Shape
     virtual void draw(QPainter&);
     virtual int getType(){return 7;}
     static int getStaticType(){return 7;}
+    virtual double getPerimeter()
+    {
+        myStd::vector<QPoint>::iterator it = points.begin();
+        if(points.size() == 0) return 0;
+        double perimeter = 0;
+        int i = 0;
+        for(; i < (points.size()-1); ++i)
+        {
+           perimeter += std::sqrt(((it[i].x()-it[i+1].x())*((it[i].x()-it[i+1].x()))+((it[i].y()-it[i+1].y())*(it[i].y()-it[i+1].y()))));
+        }
+        return perimeter;
+    }
   private:
     myStd::vector<QPoint> points;
     Qt::GlobalColor penColor;

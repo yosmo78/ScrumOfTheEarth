@@ -1,7 +1,7 @@
 #ifndef ELLIPSE_H
 #define ELLIPSE_H
 #include "shape.h"
-
+#include <cmath>
 class Ellipse : public Shape
 {
     Q_OBJECT
@@ -31,6 +31,8 @@ class Ellipse : public Shape
         virtual void draw(QPainter & paint);
         virtual int getType(){return 5;}
         static int getStaticType(){return 5;}
+        virtual double getArea(){return 3.14159265359*semimajor*semiminor;}
+        virtual double getPerimeter(){return 3.14159265359*(3*(2*semimajor+2*semiminor)-(std::sqrt((3*(2*semimajor)+(2*semiminor))*((2*semimajor)+3*(2*semiminor)))));}
     private:
         QPoint point;
         int semimajor;//a

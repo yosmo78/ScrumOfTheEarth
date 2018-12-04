@@ -2,7 +2,7 @@
 #define POLYGON_H
 #include "shape.h"
 #include "vector.h"
-
+#include <cmath>
 class Polygon : public Shape
 {
     Q_OBJECT
@@ -30,6 +30,38 @@ class Polygon : public Shape
     virtual void draw(QPainter&);
     virtual int getType(){return 3;}
     static int getStaticType(){return 3;}
+    virtual double getArea()
+    {
+        myStd::vector<QPoint>::iterator it = polyPoint.begin();
+        if(polyPoint.size() == 0) return 0;
+        double area = 0;
+        int i = 0;
+        double avgHeight = 0,width = 0;
+        for(; i < (polyPoint.size()-1); ++i)
+        {
+            avgHeight = 0; width = 0;
+            avgHeight = (it[i].y()+it[i+1].y())/2;
+            width = it[i+1].x()-it[i].x();
+            area += avgHeight * width;
+        }
+        avgHeight = (it[i].y()+polyPoint.begin()->y())/2;
+        width = polyPoint.begin()->x()-it[i].x();
+        area += avgHeight * width;
+        return area;
+    }
+    virtual double getPerimeter()
+    {
+        myStd::vector<QPoint>::iterator it = polyPoint.begin();
+        if(polyPoint.size() == 0) return 0;
+        double perimeter = 0;
+        int i = 0;
+        for(; i < (polyPoint.size()-1); ++i)
+        {
+           perimeter += std::sqrt(((it[i].x()-it[i+1].x())*((it[i].x()-it[i+1].x()))+((it[i].y()-it[i+1].y())*(it[i].y()-it[i+1].y()))));
+        }
+        perimeter += std::sqrt(((it[i].x()-polyPoint.begin()->x())*((it[i].x()-polyPoint.begin()->x()))+((it[i].y()-polyPoint.begin()->y())*(it[i].y()-polyPoint.begin()->y()))));
+        return perimeter;
+    }
    private:
     myStd::vector<QPoint> polyPoint; //Polygon specific
     Qt::GlobalColor penColor;
