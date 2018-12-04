@@ -16,8 +16,12 @@ public:
     explicit AddShape(QWidget *parent,myStd::vector<Shape *> &);
     ~AddShape();
 
+private slots:
+    void on_AddSquare_clicked();
+
 private:
     Ui::AddShape *ui;
+    myStd::vector<Shape *> * vecPointer;
 };
 
 #endif // ADDSHAPE_H
