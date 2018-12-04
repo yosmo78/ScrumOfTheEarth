@@ -55,6 +55,7 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
     QTableWidgetItem* nitem;
     int size = vec.size();
     Square * sptr;
+    Rectangle * rptr;
     for(int i = 0; i < size; ++i)
     {
         switch(vec[i]->getType())
@@ -71,6 +72,9 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
                         tble->setItem(i,0,nitem);
                         nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
                         tble->setItem(i,1,nitem);
+                        rptr = dynamic_cast<Rectangle *> (vec[i]);
+                        nitem = new QTableWidgetItem(QString((std::string("W: ") + std::to_string(rptr->getWidth())+ std::string("L: ") +std::to_string(rptr->getLength())).c_str()));
+                        tble->setItem(i,2,nitem);
                         break;
             case (3):  nitem = new QTableWidgetItem(QString("Polygon"));//polygon
                        tble->setItem(i,0,nitem);
