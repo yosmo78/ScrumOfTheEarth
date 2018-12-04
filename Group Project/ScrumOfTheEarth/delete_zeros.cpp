@@ -1,6 +1,6 @@
 #include "delete_zeros.h"
 
-void delete_Azeros(myStd::vector<Shape*> vec)
+void delete_Azeros(myStd::vector<Shape*>& vec)
 {
     for(int i = 0; i < vec.size(); ++i)
     {
@@ -11,7 +11,7 @@ void delete_Azeros(myStd::vector<Shape*> vec)
         }
     }
 }
-void delete_Pzeros(myStd::vector<Shape*> vec)
+void delete_Pzeros(myStd::vector<Shape*>& vec)
 {
     for(int i = 0; i < vec.size(); ++i)
     {
