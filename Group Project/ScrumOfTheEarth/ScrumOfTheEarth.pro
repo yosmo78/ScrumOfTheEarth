@@ -43,6 +43,7 @@ SOURCES += \
     pop_table.cpp \
     create_login_file.cpp \
     addshape.cpp \
+    delete_zeros.cpp \
     getstrings.cpp
 
 
@@ -65,6 +66,7 @@ HEADERS += \
     shape_parser.h \
     pop_table.h \
     addshape.h \
+    delete_zeros.h \
     getstrings.h
 
 
