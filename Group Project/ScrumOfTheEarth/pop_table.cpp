@@ -94,7 +94,7 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
                         nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
                         tble->setItem(i,1,nitem);
                         rptr = dynamic_cast<Rectangle *> (vec[i]);
-                        nitem = new QTableWidgetItem(QString((std::string("X: ") +std::to_string(rptr->getCornerPoint().x()) + std::string(" Y: ") +std::to_string(rptr->getCornerPoint().y())+std::string("Width: ") + std::to_string(rptr->getWidth())+ std::string(" Length: ") +std::to_string(rptr->getLength())).c_str()));
+                        nitem = new QTableWidgetItem(QString((std::string("X: ") +std::to_string(rptr->getCornerPoint().x()) + std::string(" Y: ") +std::to_string(rptr->getCornerPoint().y())+std::string(" Width: ") + std::to_string(rptr->getWidth())+ std::string(" Length: ") +std::to_string(rptr->getLength())).c_str()));
                         tble->setItem(i,2,nitem);
                         nitem = new QTableWidgetItem(QString(qtColors[rptr->getPenColor()].c_str()));//Pen Color
                         tble->setItem(i,3,nitem);
@@ -135,7 +135,7 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
                         nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
                         tble->setItem(i,1,nitem);
                         cptr = dynamic_cast<Circle *> (vec[i]);
-                        nitem = new QTableWidgetItem(QString(((std::string("X: ") +std::to_string(cptr->getPoint1().x()) + std::string(" Y: ") +std::to_string(cptr->getPoint1().y())+std::string("Radius: ") +std::to_string(cptr->getRadius())).c_str())));
+                        nitem = new QTableWidgetItem(QString(((std::string("X: ") +std::to_string(cptr->getPoint1().x()) + std::string(" Y: ") +std::to_string(cptr->getPoint1().y())+std::string(" Radius: ") +std::to_string(cptr->getRadius())).c_str())));
                         tble->setItem(i,2,nitem);
                         nitem = new QTableWidgetItem(QString(qtColors[cptr->getPenColor()].c_str()));//Pen Color
                         tble->setItem(i,3,nitem);
@@ -153,7 +153,7 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
                         nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
                         tble->setItem(i,1,nitem);
                         eptr = dynamic_cast<Ellipse *> (vec[i]);
-                        nitem = new QTableWidgetItem(QString((std::string("X: ") +std::to_string(eptr->getTopLeft().x()) + std::string(" Y: ") +std::to_string(eptr->getTopLeft().y())+std::string("Semimajor: ") + std::to_string(eptr->getMajorAxis())+ std::string(" Semiminor: ") +std::to_string(eptr->getMinorAxis())).c_str()));
+                        nitem = new QTableWidgetItem(QString((std::string("X: ") +std::to_string(eptr->getTopLeft().x()) + std::string(" Y: ") +std::to_string(eptr->getTopLeft().y())+std::string(" Semimajor: ") + std::to_string(eptr->getMajorAxis())+ std::string(" Semiminor: ") +std::to_string(eptr->getMinorAxis())).c_str()));
                         tble->setItem(i,2,nitem);
                         nitem = new QTableWidgetItem(QString(qtColors[eptr->getPenColor()].c_str()));//Pen Color
                         tble->setItem(i,3,nitem);
@@ -212,7 +212,7 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
                         nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
                         tble->setItem(i,1,nitem);
                         tptr = dynamic_cast<Text *> (vec[i]);
-                        nitem = new QTableWidgetItem(QString((std::string("X: ") +std::to_string(tptr->getCornerPoint().x()) + std::string(" Y: ") +std::to_string(tptr->getCornerPoint().y())+std::string("Width: ") + std::to_string(tptr->getWidth())+ std::string(" Length: ") +std::to_string(tptr->getLength())).c_str()));
+                        nitem = new QTableWidgetItem(QString((std::string("X: ") +std::to_string(tptr->getCornerPoint().x()) + std::string(" Y: ") +std::to_string(tptr->getCornerPoint().y())+std::string(" Width: ") + std::to_string(tptr->getWidth())+ std::string(" Length: ") +std::to_string(tptr->getLength())).c_str()));
                         tble->setItem(i,2,nitem);
                         nitem = new QTableWidgetItem(QString(qtColors[tptr->getGlobalColor()].c_str()));//Pen Color
                         tble->setItem(i,3,nitem);
