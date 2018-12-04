@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1002</width>
+    <height>800</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,8 +19,8 @@
      <rect>
       <x>0</x>
       <y>30</y>
-      <width>801</width>
-      <height>271</height>
+      <width>1001</width>
+      <height>500</height>
      </rect>
     </property>
    </widget>
@@ -79,14 +79,14 @@
    <widget class="QTabWidget" name="Tables">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>310</y>
-      <width>791</width>
-      <height>241</height>
+      <x>10</x>
+      <y>540</y>
+      <width>981</width>
+      <height>211</height>
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>2</number>
     </property>
     <property name="tabBarAutoHide">
      <bool>false</bool>
@@ -98,10 +98,10 @@
      <widget class="QTableWidget" name="IDtable">
       <property name="geometry">
        <rect>
-        <x>5</x>
+        <x>-5</x>
         <y>1</y>
-        <width>781</width>
-        <height>201</height>
+        <width>991</width>
+        <height>181</height>
        </rect>
       </property>
      </widget>
@@ -113,10 +113,10 @@
      <widget class="QTableWidget" name="Areatable">
       <property name="geometry">
        <rect>
-        <x>5</x>
+        <x>-5</x>
         <y>1</y>
-        <width>781</width>
-        <height>201</height>
+        <width>991</width>
+        <height>181</height>
        </rect>
       </property>
      </widget>
@@ -128,10 +128,10 @@
      <widget class="QTableWidget" name="PerimeterTable">
       <property name="geometry">
        <rect>
-        <x>5</x>
+        <x>-5</x>
         <y>1</y>
-        <width>781</width>
-        <height>211</height>
+        <width>991</width>
+        <height>181</height>
        </rect>
       </property>
      </widget>
@@ -143,7 +143,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>1002</width>
      <height>22</height>
     </rect>
    </property>
