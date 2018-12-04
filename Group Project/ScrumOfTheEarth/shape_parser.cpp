@@ -217,7 +217,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 //          ShapesList.push_back(shape);
           vec.push_back(shape);
 
-          cout << "Line" << endl; // Init. Line OBJ
+//          cout << "Line" << endl; // Init. Line OBJ
       }
       else if( shapeType == "Polyline")
       {
@@ -240,8 +240,6 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
               dimensions.push_back(qPoint);
           }
 
-
-
           getline(fin, skip, ' ');
           getline(fin, penColor);
 
@@ -263,7 +261,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 //          ui->widget->shapesList.push_back(shape);
           vec.push_back(shape);
 
-          cout << "Polyline" << endl; // Init. Polyine OBJ
+//          cout << "Polyline" << endl; // Init. Polyine OBJ
       }
       else if(shapeType == "Polygon")
       {
@@ -313,7 +311,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 //          ui->widget->shapesList.push_back(shape);
           vec.push_back(shape);
 
-          cout << "Polygon" << endl; // Init. Polygon OBJ
+//          cout << "Polygon" << endl; // Init. Polygon OBJ
       }
       else if(shapeType == "Rectangle")
       {
@@ -354,7 +352,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 //          ui->widget->shapesList.push_back(shape);
           vec.push_back(shape);
 
-          cout << "Rectangle" << endl; // Init. Rectangle OBJ
+//          cout << "Rectangle" << endl; // Init. Rectangle OBJ
       }
       else if(shapeType == "Square")
       {
@@ -395,7 +393,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 //          ui->widget->shapesList.push_back(shape);
           vec.push_back(shape);
 
-          cout << "Square" << endl; // Init. Square OBJ
+//          cout << "Square" << endl; // Init. Square OBJ
       }
       else if(shapeType == "Ellipse")
       {
@@ -436,7 +434,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 //          ui->widget->shapesList.push_back(shape);
           vec.push_back(shape);
 
-          cout << "Ellipse" << endl; // Init. Ellipse OBJ
+//          cout << "Ellipse" << endl; // Init. Ellipse OBJ
       }
       else if(shapeType == "Circle")
       {
@@ -477,7 +475,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 //          ui->widget->shapesList.push_back(shape);
           vec.push_back(shape);
 
-          cout << "Circle" << endl; // Init. Circle OBJ
+//          cout << "Circle" << endl; // Init. Circle OBJ
       }
       else if(shapeType == "Text")
       {
@@ -521,35 +519,33 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 //          ui->widget->shapesList.push_back(shape);
           vec.push_back(shape);
 
-          cout << "Text" << endl; // Init. Text OBJ
+//          cout << "Text" << endl; // Init. Text OBJ
       }
 
+//      cout << "ShapeID: " << shapeID << endl;
+//      cout << "ShapeType: " << shapeType << endl;
+//      cout << "ShapeDimensions: ";
+//      for(int a = 0; a < i; a++)
+//      {
+//          if(a < i)
+//          {
+//              cout << shapeDemensions[a] << ", ";
+//          }
+//          else
+//          {
+//              cout << shapeDemensions[a];
+//          }
 
-      cout << "ShapeID: " << shapeID << endl;
-      cout << "ShapeType: " << shapeType << endl;
-      cout << "ShapeDimensions: ";
-      for(int a = 0; a < i; a++)
-      {
-          if(a < i)
-          {
-              cout << shapeDemensions[a] << ", ";
-          }
-          else
-          {
-              cout << shapeDemensions[a];
-          }
-
-      }
-      cout << endl;
-      cout << "PenColor: " << penColor << endl;
-      cout << "PenWidth: " << penWidth << endl;
-      cout << "PenStyle: " << penStyle << endl;
-      cout << "PenCapStyle: " << penCapStyle << endl;
-      cout << "penJoinStyle: " << penJoinStyle << endl;
-      cout << "BrushColor: " << brushColor << endl;
-      cout << "BrushStyle: " << brushStyle << endl;
-      cout << endl << endl;
-
+//      }
+//      cout << endl;
+//      cout << "PenColor: " << penColor << endl;
+//      cout << "PenWidth: " << penWidth << endl;
+//      cout << "PenStyle: " << penStyle << endl;
+//      cout << "PenCapStyle: " << penCapStyle << endl;
+//      cout << "penJoinStyle: " << penJoinStyle << endl;
+//      cout << "BrushColor: " << brushColor << endl;
+//      cout << "BrushStyle: " << brushStyle << endl;
+//      cout << endl << endl;
 
       ss.str();
       ss.clear();
