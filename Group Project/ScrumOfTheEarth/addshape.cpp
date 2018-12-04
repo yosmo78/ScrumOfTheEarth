@@ -9,6 +9,7 @@ AddShape::AddShape(QWidget *parent,myStd::vector<Shape *> & shapes) :
 {
     ui->setupUi(this);
     vecPointer = &shapes;
+    wptr = parent;
 }
 
 AddShape::~AddShape()
@@ -34,6 +35,6 @@ void AddShape::on_AddSquare_clicked()
     shape = new Square(shapeID,x,y,length, convertColor(penColor), convertColor(brushColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), convertBrushStyle(brushStyle), penWidth);
     vecPointer->push_back(shape);
     hide();
-    update();
+    wptr->update();
 }
 

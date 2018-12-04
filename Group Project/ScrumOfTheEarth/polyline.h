@@ -2,6 +2,7 @@
 #define POLYLINE_H
 #include "vector.h"
 #include "shape.h"
+#include <cmath>
 
 class Polyline: public Shape
 {
