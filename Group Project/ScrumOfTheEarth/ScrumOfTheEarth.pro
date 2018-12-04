@@ -42,7 +42,8 @@ SOURCES += \
     admin_check.cpp \
     pop_table.cpp \
     create_login_file.cpp \
-    addshape.cpp
+    addshape.cpp \
+    delete_zeros.cpp
 
 
 HEADERS += \
@@ -63,7 +64,8 @@ HEADERS += \
     searchandcompare.h \
     shape_parser.h \
     pop_table.h \
-    addshape.h
+    addshape.h \
+    delete_zeros.h
 
 
 FORMS += \

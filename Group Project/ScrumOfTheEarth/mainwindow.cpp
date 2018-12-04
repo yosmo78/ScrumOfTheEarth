@@ -66,6 +66,8 @@ void MainWindow::on_FileButton_clicked()
         myStd::vector<Shape*> cpy = ui->widget->shapesList;//copy the shapes list
         selection_sort(cpy, cmpId);//sort the list by id
         fill_table((ui->IDtable), cpy);//populate the table with sorted list
+        cpy = ui->widget->shapesList;
+        selection_sort(cpy, cmpArea);
 
       }
       else
