@@ -15,19 +15,25 @@ void selection_sort(myStd::vector<T> &vec, bool(*cmp)(T, T))//cmp returns true i
   myStd::vector<T> temp;
   int size = vec.size();
   T smallest;
+  int smallIndex;
+  T swap;
   for(int i = 0; i < size; ++i)
   {
-      smallest = vec[i];//element at i is smallest
-      for(int j = i + 1; j < size; ++j)//loop to find smallest
+      smallest = vec[i];
+      smallIndex = i;
+      for(int j = i+1;j < size; ++j)
       {
-          if(cmp(smallest, vec[j]))
+          if(cmp(smallest, vec[j]))//search for smallest value
           {
-              smallest = vec[j];//if element j is smaller, than smallest becomes element at j
+            smallest = vec[j];
+            smallIndex = j;
           }
       }
-      temp.push_back(smallest);//push smallest into temp vector
+      swap = vec[i];//swaps contents of two values
+      vec[i] = vec[smallIndex];
+      vec[smallIndex] = swap;
   }
-  vec = temp;
+
 };
 
 #endif // SEARCHANDCOMPARE_H
