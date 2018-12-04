@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="Square">
      <attribute name="title">
@@ -358,9 +358,9 @@
      <widget class="QLineEdit" name="PenWidth">
       <property name="geometry">
        <rect>
-        <x>70</x>
+        <x>80</x>
         <y>60</y>
-        <width>81</width>
+        <width>71</width>
         <height>25</height>
        </rect>
       </property>
@@ -471,6 +471,61 @@
      <attribute name="title">
       <string>Rectangle</string>
      </attribute>
+     <widget class="QComboBox" name="RPenColors">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>10</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>white</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>black</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>red</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>green</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>blue</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>cyan</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>magenta</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>yellow</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gray</string>
+       </property>
+      </item>
+     </widget>
     </widget>
     <widget class="QWidget" name="Circle">
      <attribute name="title">

@@ -46,3 +46,103 @@ std::string getColor(int color)
     }
     return brushColor;
 }
+
+std::string getPenCapStyle(int pcs)
+{
+    std::string pc = "FlatCap";
+    switch(pcs)
+    {
+      case 0: pc = "FlatCap";
+        break;
+      case 1: pc = "SquareCap";
+        break;
+      case 2: pc = "RoundCap";
+        break;
+    }
+
+    return pc;
+}
+
+std::string getPenJoinStyle(int pjs)
+{
+    std::string pc = "MiterJoin";
+    switch(pjs)
+    {
+      case 0: pc = "MiterJoin";
+        break;
+      case 1: pc = "BevelJoin";
+        break;
+      case 2: pc = "RoundJoin";
+        break;
+    }
+
+    return pc;
+}
+
+std::string getBrushStyle(int bs)
+{
+    std::string pc = "SolidPattern";
+    switch(bs)
+    {
+      case 0: pc = "SolidPattern";
+        break;
+      case 1: pc = "HorPattern";
+        break;
+      case 2: pc = "VerPattern";
+        break;
+      case 3: pc = "NoBrush";
+        break;
+    }
+    return pc;
+}
+
+std::string getTextAlignment(int ta)
+{
+    std::string pc = "AlignLeft";
+    switch(ta)
+    {
+      case 0: pc = "AlignLeft";
+        break;
+      case 1: pc = "AlignRight";
+        break;
+      case 2: pc = "AlignTop";
+        break;
+      case 3: pc = "AlignBottom";
+        break;
+      case 4: pc = "AlignCenter";
+        break;
+    }
+    return pc;
+}
+
+std::string getFontStyle(int fs)
+{
+    std::string pc = "StyleNormal";
+    switch(fs)
+    {
+      case 0: pc = "StyleNormal";
+        break;
+      case 1: pc = "StyleItalic";
+        break;
+      case 2: pc = "StyleOblique";
+        break;
+    }
+    return pc;
+}
+
+std::string getFontWeight(int fw)
+{
+    std::string pc = "Thin";
+    switch(fw)
+    {
+      case 0: pc = "Thin";
+        break;
+      case 1: pc = "Light";
+        break;
+      case 2: pc = "Normal";
+        break;
+      case 3: pc = "Bold";
+        break;
+    }
+    return pc;
+}

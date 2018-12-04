@@ -16,11 +16,11 @@ bool Window::Check_Admin(string file, string username, string password)
     fin.ignore(1,'\n');
     if(adminUser == username)
     {
-        if(adminPassword == password)
-        {
-            admin = true;
-            break;
-        }
+      if(adminPassword == password)
+      {
+        admin = true;
+        break;
+      }
     }
   }
 
