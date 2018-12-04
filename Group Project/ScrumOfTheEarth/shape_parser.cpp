@@ -211,7 +211,6 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 
           getline(fin, skip, ' ');
           getline(fin, penJoinStyle);
-
           shape = new Line(shapeID, shapeDemensions[0], shapeDemensions[1], shapeDemensions[2], shapeDemensions[3], convertColor(penColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), penWidth);
 
 //          ShapesList.push_back(shape);
@@ -255,7 +254,6 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 
           getline(fin, skip, ' ');
           getline(fin, penJoinStyle);
-
           shape = new Polyline(shapeID, dimensions, convertColor(penColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), penWidth);
 
 //          ui->widget->shapesList.push_back(shape);
@@ -305,7 +303,6 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 
           getline(fin, skip, ' ');
           getline(fin, brushStyle);
-
           shape = new Polygon(shapeID, dimensions, convertColor(penColor), convertColor(brushColor), convertPenStyle(penStyle),convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), convertBrushStyle(brushStyle), penWidth);
 
 //          ui->widget->shapesList.push_back(shape);
