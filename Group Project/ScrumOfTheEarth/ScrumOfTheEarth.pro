@@ -41,7 +41,8 @@ SOURCES += \
     searchandcompare.cpp \
     admin_check.cpp \
     pop_table.cpp \
-    create_login_file.cpp
+    create_login_file.cpp \
+    addshape.cpp
 
 
 HEADERS += \
@@ -61,13 +62,16 @@ HEADERS += \
     renderarea.h \
     searchandcompare.h \
     shape_parser.h \
-    pop_table.h
+    pop_table.h \
+    addshape.h
 
 
 FORMS += \
         window.ui \
    contactus.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    addshape.ui
+
 
 RESOURCES += \
     logo.qrc

@@ -1,6 +1,6 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
-
+#include "addshape.h"
 #include <QMainWindow>
 
 namespace Ui {
@@ -25,6 +25,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    AddShape * addshape;
     bool isAdmin;
     QString file;
 };

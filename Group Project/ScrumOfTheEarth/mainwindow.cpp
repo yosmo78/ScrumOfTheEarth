@@ -26,6 +26,7 @@ MainWindow::MainWindow(QWidget *parent, bool admin) :
 {
     ui->setupUi(this);
     ui->Tables->setStyleSheet("QTabBar::tab {width: 263px;}");
+    addshape = NULL;
 }
 
 MainWindow::~MainWindow()
@@ -95,6 +96,8 @@ void MainWindow::on_AddShape_clicked()
     if(isAdmin)
     {
 
+        addshape = new AddShape(this,ui->widget->shapesList);
+        addshape->show();
     }
     else
     {
