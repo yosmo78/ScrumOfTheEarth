@@ -49,11 +49,11 @@ void MainWindow::on_FileButton_clicked()
         Shape * cptr = new Circle(12000,100,100,10,Qt::red,Qt::red,Qt::SolidLine,Qt::FlatCap,Qt::MiterJoin,Qt::SolidPattern,2);
         Shape * eptr = new Ellipse(17000,150,150,10,15,Qt::red,Qt::red,Qt::SolidLine,Qt::FlatCap,Qt::MiterJoin,Qt::SolidPattern,2);
         Shape * lptr = new Line(300,100,100, 50,50, Qt::green, Qt::SolidLine, Qt::FlatCap, Qt::MiterJoin, 5);
-        //ui->widget->shapesList.push_back(ptr);
-        //ui->widget->shapesList.push_back(cptr);
-        //ui->widget->shapesList.push_back(eptr);
-        //ui->widget->shapesList.push_back(pptr);
-        //ui->widget->shapesList.push_back(lptr);
+        ui->widget->shapesList.push_back(ptr);
+        ui->widget->shapesList.push_back(cptr);
+        ui->widget->shapesList.push_back(eptr);
+        ui->widget->shapesList.push_back(pptr);
+        ui->widget->shapesList.push_back(lptr);
         ui->widget->update();
         fill_table((ui->IDtable), ui->widget->shapesList);
 
