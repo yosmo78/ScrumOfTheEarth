@@ -11,7 +11,10 @@ class RenderArea : public QWidget
 
   public:
     RenderArea(QWidget* parent): QWidget(parent){setBackgroundRole(QPalette::Base); setAutoFillBackground(true);}
-    virtual ~RenderArea(){}
+    virtual ~RenderArea()
+    {
+        shapesList.deallocPtrData();//delete all of the shapes
+    }
     myStd::vector<Shape*> shapesList;//global vector to draw shapes
   protected:
     void paintEvent(QPaintEvent* event) override

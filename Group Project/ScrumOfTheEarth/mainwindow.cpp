@@ -14,6 +14,7 @@
 #include "searchandcompare.h"
 #include "pop_table.h"
 #include <QFileDialog>
+#include "delete_zeros.h"
 
 #include <string>
 
@@ -68,6 +69,12 @@ void MainWindow::on_FileButton_clicked()
         fill_table((ui->IDtable), cpy);//populate the table with sorted list
         cpy = ui->widget->shapesList;
         selection_sort(cpy, cmpArea);
+        delete_Azeros(cpy);
+        pop_Atable(ui->Areatable, cpy);
+        cpy = ui->widget->shapesList;
+        selection_sort(cpy, cmpPeri);
+        delete_Pzeros(cpy);
+        pop_Ptable(ui->PerimeterTable, cpy);
 
       }
       else
@@ -125,6 +132,14 @@ void MainWindow::on_DeleteShape_clicked()
              myStd::vector<Shape*> cpy = ui->widget->shapesList;//copy the shapes list
              selection_sort(cpy, cmpId);//sort the list
              fill_table((ui->IDtable), cpy);//populate the table with sorted list
+             cpy = ui->widget->shapesList;//copies shape list
+             selection_sort(cpy, cmpArea);//sort it by area
+             delete_Azeros(cpy);//take shapes out with zero area
+             pop_Atable(ui->Areatable, cpy);//populate the table
+             cpy = ui->widget->shapesList;//copy shape list
+             selection_sort(cpy, cmpPeri);//sort it by perimeter
+             delete_Pzeros(cpy);//take shapes out with zero perimeter
+             pop_Ptable(ui->PerimeterTable, cpy);//fill table with the copy
 
          }
 
