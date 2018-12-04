@@ -9,7 +9,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 
   unsigned int shapeID = 99999;
   string shapeType = "nullptr";
-  int shapeDemensions[10];
+  int shapeDemensions[20];
   string penColor = "nullptr";
   int penWidth = 0;
   string penStyle = "nullptr";
@@ -63,6 +63,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 
           getline(fin, skip, ' ');
           getline(fin, penColor);
+          if(penColor[penColor.size()-1] == '\r') penColor = penColor.substr(0,penColor.size()-1);
 
           getline(fin, skip, ':');
           fin >> penWidth;
@@ -70,12 +71,16 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 
           getline(fin, skip, ' ');
           getline(fin, penStyle);
+          if(penStyle[penStyle.size()-1] == '\r') penStyle = penStyle.substr(0,penStyle.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, penCapStyle);
+          if(penCapStyle[penCapStyle.size()-1] == '\r') penCapStyle = penCapStyle.substr(0,penCapStyle.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, penJoinStyle);
+
+          if(penJoinStyle[penJoinStyle.size()-1] == '\r') penJoinStyle = penJoinStyle.substr(0,penJoinStyle.size()-1);
 
           shape = new Line(shapeID, shapeDemensions[0], shapeDemensions[1], shapeDemensions[2], shapeDemensions[3], convertColor(penColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), penWidth);
 
@@ -86,6 +91,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
       {
           getline(fin, skip, ' ');
           getline(fin, skip);
+          if(skip[skip.size()-1] == '\r') skip = skip.substr(0,skip.size()-1);
           ss.str(skip);
 
           while(getline(ss, skip, ','))
@@ -98,27 +104,40 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
               else
               {
                   qPoint.setY(shapeDemensions[i]);
+                  dimensions.push_back(qPoint);
               }
               ++i;
-              dimensions.push_back(qPoint);
           }
+          i =0;
 
           getline(fin, skip, ' ');
           getline(fin, penColor);
+          if(penColor[penColor.size()-1] == '\r') penColor = penColor.substr(0,penColor.size()-1);
 
           getline(fin, skip, ':');
           fin >> penWidth;
 
           getline(fin, skip, ' ');
           getline(fin, penStyle);
+          if(penStyle[penStyle.size()-1] == '\r') penStyle = penStyle.substr(0,penStyle.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, penCapStyle);
+          if(penCapStyle[penCapStyle.size()-1] == '\r') penCapStyle = penCapStyle.substr(0,penCapStyle.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, penJoinStyle);
 
           shape = new Polyline(shapeID, dimensions, convertColor(penColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), penWidth);
+
+          if(penJoinStyle[penJoinStyle.size()-1] == '\r') penJoinStyle = penJoinStyle.substr(0,penJoinStyle.size()-1);
+
+          shape = new Polyline(shapeID, dimensions, convertColor(penColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), penWidth);
+          while(dimensions.size() != 0)
+          {
+              dimensions.erase(dimensions.end()-1);
+          }
+          dimensions.erase(0);
 
           vec.push_back(shape);
 
@@ -127,6 +146,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
       {
           getline(fin, skip, ' ');
           getline(fin, skip);
+          if(skip[skip.size()-1] == '\r') skip = skip.substr(0,skip.size()-1);
           ss.str(skip);
 
           while(getline(ss, skip, ','))
@@ -139,33 +159,48 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
               else
               {
                   qPoint.setY(shapeDemensions[i]);
+                  dimensions.push_back(qPoint);
               }
               ++i;
-              dimensions.push_back(qPoint);
           }
+          i = 0;
 
           getline(fin, skip, ' ');
           getline(fin, penColor);
+          if(penColor[penColor.size()-1] == '\r') penColor = penColor.substr(0,penColor.size()-1);
 
           getline(fin, skip, ':');
           fin >> penWidth;
 
           getline(fin, skip, ' ');
           getline(fin, penStyle);
+          if(penStyle[penStyle.size()-1] == '\r') penStyle = penStyle.substr(0,penStyle.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, penCapStyle);
+          if(penCapStyle[penCapStyle.size()-1] == '\r') penCapStyle = penCapStyle.substr(0,penCapStyle.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, penJoinStyle);
+          if(penJoinStyle[penJoinStyle.size()-1] == '\r') penJoinStyle = penJoinStyle.substr(0,penJoinStyle.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, brushColor);
+          if(brushColor[brushColor.size()-1] == '\r') brushColor = brushColor.substr(0,brushColor.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, brushStyle);
 
           shape = new Polygon(shapeID, dimensions, convertColor(penColor), convertColor(brushColor), convertPenStyle(penStyle),convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), convertBrushStyle(brushStyle), penWidth);
+
+          if(brushStyle[brushStyle.size()-1] == '\r') brushStyle = brushStyle.substr(0,brushStyle.size()-1);
+
+          shape = new Polygon(shapeID, dimensions, convertColor(penColor), convertColor(brushColor), convertPenStyle(penStyle),convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), convertBrushStyle(brushStyle), penWidth);
+          while(dimensions.size() != 0)
+          {
+              dimensions.erase(dimensions.end()-1);
+          }
+           dimensions.erase(0);
 
           vec.push_back(shape);
 
@@ -174,6 +209,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
       {
           getline(fin, skip, ' ');
           getline(fin, skip);
+          if(skip[skip.size()-1] == '\r') skip = skip.substr(0,skip.size()-1);
           ss.str(skip);
 
           while(getline(ss, skip, ','))
@@ -184,24 +220,30 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 
           getline(fin, skip, ' ');
           getline(fin, penColor);
+          if(penColor[penColor.size()-1] == '\r') penColor = penColor.substr(0,penColor.size()-1);
 
           getline(fin, skip, ':');
           fin >> penWidth;
 
           getline(fin, skip, ' ');
           getline(fin, penStyle);
+          if(penStyle[penStyle.size()-1] == '\r') penStyle = penStyle.substr(0,penStyle.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, penCapStyle);
+          if(penCapStyle[penCapStyle.size()-1] == '\r') penCapStyle = penCapStyle.substr(0,penCapStyle.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, penJoinStyle);
+          if(penJoinStyle[penJoinStyle.size()-1] == '\r') penJoinStyle = penJoinStyle.substr(0,penJoinStyle.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, brushColor);
+          if(brushColor[brushColor.size()-1] == '\r') brushColor = brushColor.substr(0,brushColor.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, brushStyle);
+          if(brushStyle[brushStyle.size()-1] == '\r') brushStyle = brushStyle.substr(0,brushStyle.size()-1);
 
           shape = new Rectangle(shapeID, shapeDemensions[0], shapeDemensions[1], shapeDemensions[2], shapeDemensions[3] ,convertColor(penColor), convertColor(brushColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), convertBrushStyle(brushStyle), penWidth);
 
@@ -212,6 +254,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
       {
           getline(fin, skip, ' ');
           getline(fin, skip);
+          if(skip[skip.size()-1] == '\r') skip = skip.substr(0,skip.size()-1);
           ss.str(skip);
 
           while(getline(ss, skip, ','))
@@ -222,24 +265,30 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 
           getline(fin, skip, ' ');
           getline(fin, penColor);
+          if(penColor[penColor.size()-1] == '\r') penColor = penColor.substr(0,penColor.size()-1);
 
           getline(fin, skip, ':');
           fin >> penWidth;
 
           getline(fin, skip, ' ');
           getline(fin, penStyle);
+          if(penStyle[penStyle.size()-1] == '\r') penStyle = penStyle.substr(0,penStyle.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, penCapStyle);
+          if(penCapStyle[penCapStyle.size()-1] == '\r') penCapStyle = penCapStyle.substr(0,penCapStyle.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, penJoinStyle);
+          if(penJoinStyle[penJoinStyle.size()-1] == '\r') penJoinStyle = penJoinStyle.substr(0,penJoinStyle.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, brushColor);
+          if(brushColor[brushColor.size()-1] == '\r') brushColor = brushColor.substr(0,brushColor.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, brushStyle);
+          if(brushStyle[brushStyle.size()-1] == '\r') brushStyle = brushStyle.substr(0,brushStyle.size()-1);
 
           shape = new Square(shapeID,shapeDemensions[0],shapeDemensions[1],shapeDemensions[2], convertColor(penColor), convertColor(brushColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), convertBrushStyle(brushStyle), penWidth);
 
@@ -250,6 +299,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
       {
           getline(fin, skip, ' ');
           getline(fin, skip);
+          if(skip[skip.size()-1] == '\r') skip = skip.substr(0,skip.size()-1);
           ss.str(skip);
 
           while(getline(ss, skip, ','))
@@ -260,24 +310,30 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 
           getline(fin, skip, ' ');
           getline(fin, penColor);
+          if(penColor[penColor.size()-1] == '\r') penColor = penColor.substr(0,penColor.size()-1);
 
           getline(fin, skip, ':');
           fin >> penWidth;
 
           getline(fin, skip, ' ');
           getline(fin, penStyle);
+          if(penStyle[penStyle.size()-1] == '\r') penStyle = penStyle.substr(0,penStyle.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, penCapStyle);
+          if(penCapStyle[penCapStyle.size()-1] == '\r') penCapStyle = penCapStyle.substr(0,penCapStyle.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, penJoinStyle);
+          if(penJoinStyle[penJoinStyle.size()-1] == '\r') penJoinStyle = penJoinStyle.substr(0,penJoinStyle.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, brushColor);
+          if(brushColor[brushColor.size()-1] == '\r') brushColor = brushColor.substr(0,brushColor.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, brushStyle);
+          if(brushStyle[brushStyle.size()-1] == '\r') brushStyle = brushStyle.substr(0,brushStyle.size()-1);
 
           shape = new Ellipse(shapeID,shapeDemensions[0],shapeDemensions[1],shapeDemensions[2], shapeDemensions[3], convertColor(penColor), convertColor(brushColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), convertBrushStyle(brushStyle), penWidth);
 
@@ -288,6 +344,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
       {
           getline(fin, skip, ' ');
           getline(fin, skip);
+          if(skip[skip.size()-1] == '\r') skip = skip.substr(0,skip.size()-1);
           ss.str(skip);
 
           while(getline(ss, skip, ','))
@@ -298,24 +355,30 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 
           getline(fin, skip, ' ');
           getline(fin, penColor);
+          if(penColor[penColor.size()-1] == '\r') penColor = penColor.substr(0,penColor.size()-1);
 
           getline(fin, skip, ':');
           fin >> penWidth;
 
           getline(fin, skip, ' ');
           getline(fin, penStyle);
+          if(penStyle[penStyle.size()-1] == '\r') penStyle = penStyle.substr(0,penStyle.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, penCapStyle);
+          if(penCapStyle[penCapStyle.size()-1] == '\r') penCapStyle = penCapStyle.substr(0,penCapStyle.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, penJoinStyle);
+          if(penJoinStyle[penJoinStyle.size()-1] == '\r') penJoinStyle = penJoinStyle.substr(0,penJoinStyle.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, brushColor);
+          if(brushColor[brushColor.size()-1] == '\r') brushColor = brushColor.substr(0,brushColor.size()-1);
 
           getline(fin, skip, ' ');
           getline(fin, brushStyle);
+          if(brushStyle[brushStyle.size()-1] == '\r') brushStyle = brushStyle.substr(0,brushStyle.size()-1);
 
           shape = new Circle(shapeID,shapeDemensions[0],shapeDemensions[1],shapeDemensions[2], convertColor(penColor), convertColor(brushColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), convertBrushStyle(brushStyle), penWidth);
 
@@ -327,6 +390,7 @@ void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok)//t
 
           getline(fin, skip, ' ');
           getline(fin, skip);
+          if(skip[skip.size()-1] == '\r') skip = skip.substr(0,skip.size()-1);
           ss.str(skip);
 
           while(getline(ss, skip, ','))
