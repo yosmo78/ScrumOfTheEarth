@@ -19,8 +19,6 @@
 #include "circle.h"
 #include "text.h"
 
-
-
 using namespace std;
 
 Qt::GlobalColor convertColor(const string&);
