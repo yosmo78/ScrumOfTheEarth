@@ -28,6 +28,8 @@ private slots:
     void on_GuestLogin_clicked();
 
     bool Check_Admin(std::string, std::string, std::string);
+
+    void create_login_file();
 private:
     Ui::Window *ui;
     ContactUs * contactus;

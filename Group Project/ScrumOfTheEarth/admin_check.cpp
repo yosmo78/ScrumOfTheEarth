@@ -1,7 +1,6 @@
 
 #include "window.h" //not 100% sure what header file to use
 #include <fstream>
-#include <iostream>
 using namespace std;
 
 bool Window::Check_Admin(string file, string username, string password)
