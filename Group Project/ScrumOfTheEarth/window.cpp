@@ -2,6 +2,7 @@
 #include "ui_window.h"
 #include <QMessageBox>
 #include <iostream>
+#include <QFile>
 Window::Window(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::Window)

@@ -12,6 +12,7 @@
 #include <QMessageBox>
 #include "searchandcompare.h"
 #include "pop_table.h"
+#include <QFileDialog>
 
 
 MainWindow::MainWindow(QWidget *parent, bool admin) :
@@ -31,8 +32,9 @@ void MainWindow::on_FileButton_clicked()
 {
     //ask for file. If exists, clear vector and render are, call shape parser, and call paint event
     bool ok;
-    file = QInputDialog::getText(this, tr("Open File"), tr("File Name with extension:"), QLineEdit::Normal, QString(), &ok);
-    if(ok)
+    //file = QInputDialog::getText(this, tr("Open File"), tr("File Name with extension:"), QLineEdit::Normal, QString(), &ok);
+    file = QFileDialog::getOpenFileName(this,tr("Open File"),"/","Text file (*.txt)");
+    if(!file.isEmpty() && !file.isNull())
     {
       bool fileok;
       shape_parser(ui->widget->shapesList, file.toLocal8Bit().toStdString().c_str(), fileok);
