@@ -11,10 +11,160 @@
 #include <iostream>
 #include <string>
 
-void pop_table(QTableWidget* tble, myStd::vector<Shape*> vec)
+void pop_Atable(QTableWidget* tble, myStd::vector<Shape*> vec)
 {
+    tble->setRowCount(0);//clears all rows
+    tble->setRowCount(vec.size());
+    tble->setColumnCount(0);//clears all columns
+    tble->setColumnCount(3);
+    tble->setHorizontalHeaderItem(0, new QTableWidgetItem(QString("Shape Type")));
+    tble->setHorizontalHeaderItem(1, new QTableWidgetItem(QString("Shape Id")));
+    tble->setHorizontalHeaderItem(2, new QTableWidgetItem(QString("Area")));
 
+    QTableWidgetItem* nitem;
+    int size = vec.size();
+
+    for(int i = 0; i < size; ++i)
+    {
+        switch(vec[i]->getType())
+        {
+            case (1):   nitem = new QTableWidgetItem(QString("Square"));//square
+                        tble->setItem(i,0,nitem);
+                        nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
+                        tble->setItem(i,1,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getArea())).c_str()));
+                        tble->setItem(i,2,nitem);
+                        break;
+            case (2):   nitem = new QTableWidgetItem(QString("Rectangle"));//rect
+                        tble->setItem(i,0,nitem);
+                        nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
+                        tble->setItem(i,1,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getArea())).c_str()));
+                        tble->setItem(i,2,nitem);
+                        break;
+            case (3):   nitem = new QTableWidgetItem(QString("Polygon"));//polygon
+                        tble->setItem(i,0,nitem);
+                        nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
+                        tble->setItem(i,1,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getArea())).c_str()));
+                        tble->setItem(i,2,nitem);
+                        break;
+            case (4):   nitem = new QTableWidgetItem(QString("Circle"));//circle
+                        tble->setItem(i,0,nitem);
+                        nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
+                        tble->setItem(i,1,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getArea())).c_str()));
+                        tble->setItem(i,2,nitem);
+                        break;
+            case (5):   nitem = new QTableWidgetItem(QString("Ellipse"));//ellipse
+                        tble->setItem(i,0,nitem);
+                        nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
+                        tble->setItem(i,1,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getArea())).c_str()));
+                        tble->setItem(i,2,nitem);
+                        break;
+            case (6):   nitem = new QTableWidgetItem(QString("Line"));//Line
+                        tble->setItem(i,0,nitem);
+                        nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
+                        tble->setItem(i,1,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getArea())).c_str()));
+                        tble->setItem(i,2,nitem);
+                        break;
+            case (7):   nitem = new QTableWidgetItem(QString("Polyline"));//polyline
+                        tble->setItem(i,0,nitem);
+                        nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
+                        tble->setItem(i,1,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getArea())).c_str()));
+                        tble->setItem(i,2,nitem);
+                        break;
+            case (8):   nitem = new QTableWidgetItem(QString("text"));//text
+                        tble->setItem(i,0,nitem);
+                        nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
+                        tble->setItem(i,1,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getArea())).c_str()));
+                        tble->setItem(i,2,nitem);
+                        break;
+        }
+    }
+
+ }
+    void pop_Ptable(QTableWidget* tble, myStd::vector<Shape*> vec)
+    {
+        tble->setRowCount(0);//clears all rows
+        tble->setRowCount(vec.size());
+        tble->setColumnCount(0);//clears all columns
+        tble->setColumnCount(3);
+        tble->setHorizontalHeaderItem(0, new QTableWidgetItem(QString("Shape Type")));
+        tble->setHorizontalHeaderItem(1, new QTableWidgetItem(QString("Shape Id")));
+        tble->setHorizontalHeaderItem(2, new QTableWidgetItem(QString("Perimeter")));
+
+        QTableWidgetItem* nitem;
+        int size = vec.size();
+
+        for(int i = 0; i < size; ++i)
+        {
+            switch(vec[i]->getType())
+            {
+                case (1):   nitem = new QTableWidgetItem(QString("Square"));//square
+                            tble->setItem(i,0,nitem);
+                            nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
+                            tble->setItem(i,1,nitem);
+                            nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getPerimeter())).c_str()));
+                            tble->setItem(i,2,nitem);
+                            break;
+                case (2):   nitem = new QTableWidgetItem(QString("Rectangle"));//rect
+                            tble->setItem(i,0,nitem);
+                            nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
+                            tble->setItem(i,1,nitem);
+                            nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getPerimeter())).c_str()));
+                            tble->setItem(i,2,nitem);
+                            break;
+                case (3):   nitem = new QTableWidgetItem(QString("Polygon"));//polygon
+                            tble->setItem(i,0,nitem);
+                            nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
+                            tble->setItem(i,1,nitem);
+                            nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getPerimeter())).c_str()));
+                            tble->setItem(i,2,nitem);
+                            break;
+                case (4):   nitem = new QTableWidgetItem(QString("Circle"));//circle
+                            tble->setItem(i,0,nitem);
+                            nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
+                            tble->setItem(i,1,nitem);
+                            nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getPerimeter())).c_str()));
+                            tble->setItem(i,2,nitem);
+                            break;
+                case (5):   nitem = new QTableWidgetItem(QString("Ellipse"));//ellipse
+                            tble->setItem(i,0,nitem);
+                            nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
+                            tble->setItem(i,1,nitem);
+                            nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getPerimeter())).c_str()));
+                            tble->setItem(i,2,nitem);
+                            break;
+                case (6):   nitem = new QTableWidgetItem(QString("Line"));//Line
+                            tble->setItem(i,0,nitem);
+                            nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
+                            tble->setItem(i,1,nitem);
+                            nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getPerimeter())).c_str()));
+                            tble->setItem(i,2,nitem);
+                            break;
+                case (7):   nitem = new QTableWidgetItem(QString("Polyline"));//polyline
+                            tble->setItem(i,0,nitem);
+                            nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
+                            tble->setItem(i,1,nitem);
+                            nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getPerimeter())).c_str()));
+                            tble->setItem(i,2,nitem);
+                            break;
+                case (8):   nitem = new QTableWidgetItem(QString("text"));//text
+                            tble->setItem(i,0,nitem);
+                            nitem = new QTableWidgetItem(QString(std::to_string(vec[i]->getShapeId()).c_str()));//id
+                            tble->setItem(i,1,nitem);
+                            nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getPerimeter())).c_str()));
+                            tble->setItem(i,2,nitem);
+                            break;
+            }
+        }
 }//fills table with all parameters and area and perimeter
+
 void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up with all parameters
 {
     std::string qtColors[]         = {"color0","color1","black","white","darkGray","gray","lightGray","red","green","blue","cyan","magenta","yellow","darkRed","darkGreen","darkBlue","darkCyan","darkMagenta","darkYellow","transparent"};
@@ -46,7 +196,7 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
     tble->setRowCount(0);//clears all rows
     tble->setRowCount(vec.size());
     tble->setColumnCount(0);//clears all columns
-    tble->setColumnCount(14);
+    tble->setColumnCount(16);
     tble->setHorizontalHeaderItem(0, new QTableWidgetItem(QString("Shape Type")));
     tble->setHorizontalHeaderItem(1, new QTableWidgetItem(QString("Shape Id")));
     tble->setHorizontalHeaderItem(2, new QTableWidgetItem(QString("Dimensions")));
@@ -61,6 +211,8 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
     tble->setHorizontalHeaderItem(11, new QTableWidgetItem(QString("Text Alignment")));
     tble->setHorizontalHeaderItem(12, new QTableWidgetItem(QString("Font Family")));
     tble->setHorizontalHeaderItem(13, new QTableWidgetItem(QString("Font Weight")));
+    tble->setHorizontalHeaderItem(14, new QTableWidgetItem(QString("Area")));
+    tble->setHorizontalHeaderItem(15, new QTableWidgetItem(QString("Perimeter")));
     tble->showGrid();
     QTableWidgetItem* nitem;
     int size = vec.size();
@@ -106,6 +258,10 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
                         tble->setItem(i,12,nitem);
                         nitem = new QTableWidgetItem(QString(""));//Font Weight
                         tble->setItem(i,13,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getArea())).c_str()));
+                        tble->setItem(i,14,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getPerimeter())).c_str()));
+                        tble->setItem(i,15,nitem);
                         break;
             case (2):   nitem = new QTableWidgetItem(QString("Rectangle"));//rect
                         tble->setItem(i,0,nitem);
@@ -136,6 +292,10 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
                         tble->setItem(i,12,nitem);
                         nitem = new QTableWidgetItem(QString(""));//Font Weight
                         tble->setItem(i,13,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getArea())).c_str()));
+                        tble->setItem(i,14,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getPerimeter())).c_str()));
+                        tble->setItem(i,15,nitem);
                         break;
             case (3):   nitem = new QTableWidgetItem(QString("Polygon"));//polygon
                         tble->setItem(i,0,nitem);
@@ -171,6 +331,10 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
                         tble->setItem(i,12,nitem);
                         nitem = new QTableWidgetItem(QString(""));//Font Weight
                         tble->setItem(i,13,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getArea())).c_str()));
+                        tble->setItem(i,14,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getPerimeter())).c_str()));
+                        tble->setItem(i,15,nitem);
                         break;
             case (4):   nitem = new QTableWidgetItem(QString("Circle"));//circle
                         tble->setItem(i,0,nitem);
@@ -201,6 +365,10 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
                         tble->setItem(i,12,nitem);
                         nitem = new QTableWidgetItem(QString(""));//Font Weight
                         tble->setItem(i,13,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getArea())).c_str()));
+                        tble->setItem(i,14,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getPerimeter())).c_str()));
+                        tble->setItem(i,15,nitem);
                         break;
             case (5):   nitem = new QTableWidgetItem(QString("Ellipse"));//ellipse
                         tble->setItem(i,0,nitem);
@@ -231,6 +399,10 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
                         tble->setItem(i,12,nitem);
                         nitem = new QTableWidgetItem(QString(""));//Font Weight
                         tble->setItem(i,13,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getArea())).c_str()));
+                        tble->setItem(i,14,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getPerimeter())).c_str()));
+                        tble->setItem(i,15,nitem);
                         break;
             case (6):   nitem = new QTableWidgetItem(QString("Line"));//Line
                         tble->setItem(i,0,nitem);
@@ -261,6 +433,10 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
                         tble->setItem(i,12,nitem);
                         nitem = new QTableWidgetItem(QString(""));//Font Weight
                         tble->setItem(i,13,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getArea())).c_str()));
+                        tble->setItem(i,14,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getPerimeter())).c_str()));
+                        tble->setItem(i,15,nitem);
                         break;
             case (7):   nitem = new QTableWidgetItem(QString("Polyline"));//polyline
                         tble->setItem(i,0,nitem);
@@ -296,6 +472,10 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
                         tble->setItem(i,12,nitem);
                         nitem = new QTableWidgetItem(QString(""));//Font Weight
                         tble->setItem(i,13,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getArea())).c_str()));
+                        tble->setItem(i,14,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getPerimeter())).c_str()));
+                        tble->setItem(i,15,nitem);
                         break;
             case (8):   nitem = new QTableWidgetItem(QString("text"));//text
                         tble->setItem(i,0,nitem);
@@ -326,6 +506,10 @@ void fill_table(QTableWidget* tble, myStd::vector<Shape*> vec)//fills table up w
                         tble->setItem(i,12,nitem);
                         nitem = new QTableWidgetItem(QString(textFontWeights[tptr->getTextFontWeight()].c_str()));//Font Weight
                         tble->setItem(i,13,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getArea())).c_str()));
+                        tble->setItem(i,14,nitem);
+                        nitem = new QTableWidgetItem(QString((std::to_string(vec[i]->getPerimeter())).c_str()));
+                        tble->setItem(i,15,nitem);
                         break;
         }
     }
