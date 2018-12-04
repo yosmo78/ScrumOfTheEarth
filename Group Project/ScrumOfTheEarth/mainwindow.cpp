@@ -11,6 +11,7 @@
 #include <iostream>
 #include <QMessageBox>
 #include "searchandcompare.h"
+#include "pop_table.h"
 
 
 MainWindow::MainWindow(QWidget *parent, bool admin) :
@@ -54,6 +55,7 @@ void MainWindow::on_FileButton_clicked()
         //ui->widget->shapesList.push_back(pptr);
         //ui->widget->shapesList.push_back(lptr);
         ui->widget->update();
+        fill_table((ui->IDtable), ui->widget->shapesList);
 
       }
       else
