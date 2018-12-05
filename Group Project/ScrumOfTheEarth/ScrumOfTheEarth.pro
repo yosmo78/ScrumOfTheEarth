@@ -44,7 +44,8 @@ SOURCES += \
     create_login_file.cpp \
     addshape.cpp \
     delete_zeros.cpp \
-    getstrings.cpp
+    getstrings.cpp \
+    moveshape.cpp
 
 
 HEADERS += \
@@ -67,14 +68,16 @@ HEADERS += \
     pop_table.h \
     addshape.h \
     delete_zeros.h \
-    getstrings.h
+    getstrings.h \
+    moveshape.h
 
 
 FORMS += \
         window.ui \
    contactus.ui \
     mainwindow.ui \
-    addshape.ui
+    addshape.ui \
+    moveshape.ui
 
 
 RESOURCES += \
