@@ -8,13 +8,24 @@ class MainWindow;
 namespace Ui {
 class AddShape;
 }
-
+//! \class AddShape
+/*!
+ * AddShape window class
+*/
 class AddShape : public QMainWindow
 {
     Q_OBJECT
 
 public:
+    /*!
+     *
+     * This function will instantiate an AddWindow for adding a
+     * new shape to the shape vector
+    */
     explicit AddShape(QWidget *parent,myStd::vector<Shape *> &, bool &);
+     /*!
+     * This function will destroy AddWindow
+    */
     ~AddShape();
 
 private slots:
@@ -23,9 +34,9 @@ signals:
     void update_Window();
 
 private:
-    Ui::AddShape *ui;
-    myStd::vector<Shape *> * vecPointer;
-    bool* var;
+    Ui::AddShape *ui; /*!< AddShape pointer ui */
+    myStd::vector<Shape *> * vecPointer; /*!< Vector pointer vecPointer*/
+    bool* var; /*!< Bool pointer var*/
 };
 
 #endif // ADDSHAPE_H
