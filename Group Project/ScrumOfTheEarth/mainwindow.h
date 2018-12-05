@@ -24,6 +24,8 @@ private slots:
     void on_AddShape_clicked();
     void on_DeleteShape_clicked();
 
+    void on_checkBox_clicked();
+
 private:
     Ui::MainWindow *ui;
     AddShape * addshape;

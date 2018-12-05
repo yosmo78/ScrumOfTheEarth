@@ -28,6 +28,7 @@ MainWindow::MainWindow(QWidget *parent, bool admin) :
     ui->setupUi(this);
     ui->Tables->setStyleSheet("QTabBar::tab {width: 263px;}");
     addshape = NULL;
+    ui->widget->setShowId(true);
 }
 
 MainWindow::~MainWindow()
@@ -158,3 +159,9 @@ void MainWindow::on_DeleteShape_clicked()
     }
 }
 
+
+void MainWindow::on_checkBox_clicked()
+{
+    ui->widget->setShowId(!ui->widget->getShowId());
+    ui->widget->update();
+}

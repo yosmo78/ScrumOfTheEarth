@@ -27,7 +27,7 @@ class Square : public Shape
     void setBrushStyle(Qt::BrushStyle bs){brushStyle = bs;}
     int getPenWidth(){return penWidth;}
     void setPenWidth(int pw){penWidth = pw;}
-    virtual void draw(QPainter&);
+    virtual void draw(QPainter&,bool);
     virtual int getType(){return 1;}
     static int getStaticType(){return 1;}
     virtual double getArea(){return (double)length*length;}

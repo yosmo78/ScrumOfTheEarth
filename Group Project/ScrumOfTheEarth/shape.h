@@ -12,7 +12,7 @@ class Shape: public QObject
     public:
         void setShapeId(unsigned int i){id =i;}
         unsigned int getShapeId(){return id;}
-        virtual void draw(QPainter &) = 0;
+        virtual void draw(QPainter &, bool) = 0;
         Shape(unsigned int i): id(i){}
         Shape(const Shape&) = delete;//disable copy constructor
         Shape& operator=(const Shape&) = delete ;//disable copy assignment

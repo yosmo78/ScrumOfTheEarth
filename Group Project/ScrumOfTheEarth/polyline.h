@@ -22,7 +22,7 @@ class Polyline: public Shape
     void setPenJoinStyle(Qt::PenJoinStyle pjs){penJoinStyle = pjs;}
     int getPenWidth(){return penWidth;}
     void setPenWidth(int pw){penWidth = pw;}
-    virtual void draw(QPainter&);
+    virtual void draw(QPainter&,bool);
     virtual int getType(){return 7;}
     static int getStaticType(){return 7;}
     virtual double getPerimeter()

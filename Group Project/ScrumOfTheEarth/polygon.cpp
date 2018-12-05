@@ -2,7 +2,7 @@
 #include <iostream>
 Polygon::Polygon(unsigned int i, myStd::vector<QPoint> vec, Qt::GlobalColor pc, Qt::GlobalColor bc, Qt::PenStyle ps, Qt::PenCapStyle pcs, Qt::PenJoinStyle pjs, Qt::BrushStyle bs, int pw):
     Shape(i), polyPoint(vec),penColor(pc), brushColor(bc),penStyle(ps),penCapStyle(pcs),penJoinStyle(pjs),brushStyle(bs),penWidth(pw){}
-void Polygon::draw(QPainter& paint)
+void Polygon::draw(QPainter& paint, bool Id)
 {
  QBrush b(brushColor,brushStyle);
  QBrush p(penColor);
@@ -22,5 +22,8 @@ void Polygon::draw(QPainter& paint)
  }
  //std::cerr << minY << maxY;
  //paint.drawText((((minX+ maxX)/2) - 3 * std::to_string(getShapeId()).length()), minY - penWidth,QString::fromStdString(std::to_string(getShapeId())));
- paint.drawText(((minX+maxX)/2)-(3*std::to_string(getShapeId()).length()), maxY -(maxY-minY) ,QString::fromStdString(std::to_string(getShapeId())));
+ if(Id)
+ {
+     paint.drawText(((minX+maxX)/2)-(3*std::to_string(getShapeId()).length()), maxY -(maxY-minY) ,QString::fromStdString(std::to_string(getShapeId())));
+ }
 }
