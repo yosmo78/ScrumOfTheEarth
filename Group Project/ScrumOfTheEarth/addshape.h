@@ -35,6 +35,10 @@ private slots:
      * Will add a square to our shape list
      */
     void on_AddSquare_clicked();
+    void on_RAddRectangle_clicked();
+
+    void on_CAddCircle_clicked();
+
 signals:
     /*!
      * This will call an update in the window when emitted
