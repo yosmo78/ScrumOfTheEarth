@@ -100,12 +100,18 @@ void MainWindow::on_Save_clicked()
     }
 }
 
+void MainWindow::update_window()
+{
+    ui->widget->update();
+}
+
 void MainWindow::on_AddShape_clicked()
 {
     if(isAdmin)
     {
-
-        addshape = new AddShape(this,ui->widget->shapesList);
+        bool ok = true;
+        addshape = new AddShape(this,ui->widget->shapesList, ok);
+        connect(addshape,SIGNAL(update_Window()),this,SLOT(update_window()));
         addshape->show();
     }
     else
