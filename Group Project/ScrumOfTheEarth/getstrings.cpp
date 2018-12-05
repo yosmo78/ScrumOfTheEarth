@@ -1,4 +1,7 @@
 #include "getstrings.h"
+
+//throw in the text conversion segments
+
 std::string getPenStyle(int ps)
 {
     std::string penStyle = "NoPen";
@@ -98,7 +101,7 @@ std::string getBrushStyle(int bs)
 
 std::string getTextAlignment(int ta)
 {
-    std::string pc = "AlignLeft";
+    std::string pc = "";
     switch(ta)
     {
       case 0: pc = "AlignLeft";
@@ -112,12 +115,13 @@ std::string getTextAlignment(int ta)
       case 4: pc = "AlignCenter";
         break;
     }
+    if(pc == "") throw 5;
     return pc;
 }
 
 std::string getFontStyle(int fs)
 {
-    std::string pc = "StyleNormal";
+    std::string pc = "";
     switch(fs)
     {
       case 0: pc = "StyleNormal";
@@ -127,12 +131,13 @@ std::string getFontStyle(int fs)
       case 2: pc = "StyleOblique";
         break;
     }
+    if(pc == "") throw 5;
     return pc;
 }
 
 std::string getFontWeight(int fw)
 {
-    std::string pc = "Thin";
+    std::string pc = "";
     switch(fw)
     {
       case 0: pc = "Thin";
@@ -144,5 +149,6 @@ std::string getFontWeight(int fw)
       case 3: pc = "Bold";
         break;
     }
+    if(pc == "") throw 5;
     return pc;
 }
