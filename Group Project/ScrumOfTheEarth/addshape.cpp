@@ -3,6 +3,9 @@
 #include "shape_parser.h"
 #include "getstrings.h"
 
+//try catch blocks in the instantiate text segment
+
+
 AddShape::AddShape(QWidget *parent,myStd::vector<Shape *> & shapes, bool & ok) :
     QMainWindow(parent),
     ui(new Ui::AddShape)
@@ -209,9 +212,32 @@ void AddShape::on_LAddLine_clicked()
 
 void AddShape::on_TAddText_clicked()
 {
-    std::string textFontStyle = getFontStyle(ui->TFontStyle->currentIndex());
-    std::string textFontWeight = getFontWeight(ui->TFontWeight->currentIndex());
-    std::string textAlignment = getTextAlignment(ui->TTextAlignment->currentIndex());
+    std::string textFontStyle;
+    try
+    {
+        textFontStyle = getFontStyle(ui->TFontStyle->currentIndex());
+    }
+    catch(...)
+    {
+        textFontStyle = "StyleNormal";
+    }
+    std::string textFontWeight;
+    try
+    {
+        textFontWeight = getFontWeight(ui->TFontWeight->currentIndex());
+    }
+    catch(...)
+    {
+        textFontWeight = "Thin";
+    }
+    std::string textAlignment;
+    try{
+        textAlignment = getTextAlignment(ui->TTextAlignment->currentIndex());
+    }
+    catch(...)
+    {
+        textAlignment = "AlignLeft";
+    }
     QString textFontFamily = ui->TFontFamily->text();
     int textPointSize = atoi(ui->TPointSize->text().toStdString().c_str());
     std::string penColor = getColor(ui->TTextColor->currentIndex());

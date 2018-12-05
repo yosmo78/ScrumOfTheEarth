@@ -1,9 +1,11 @@
 #ifndef VECTOR_H
 #define VECTOR_H
 #include <algorithm> // std::copy
-#include <iostream> //delete this
-//test commit
+
+
 using std::copy;
+
+//This is the templated class required in the instructions
 
 namespace myStd
 {
