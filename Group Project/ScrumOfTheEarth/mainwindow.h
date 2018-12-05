@@ -14,7 +14,8 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = nullptr, bool admin = false);
     ~MainWindow();
-
+public slots:
+    void update_window();
 private slots:
 
 
