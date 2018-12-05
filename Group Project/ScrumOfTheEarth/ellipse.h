@@ -28,7 +28,7 @@ class Ellipse : public Shape
         void setBrushStyle(Qt::BrushStyle bs){brushStyle = bs;}
         int getPenWidth(){return penWidth;}
         void setPenWidth(int pw){penWidth = pw;}
-        virtual void draw(QPainter & paint);
+        virtual void draw(QPainter & paint,bool);
         virtual int getType(){return 5;}
         static int getStaticType(){return 5;}
         virtual double getArea(){return 3.14159265359*semimajor*semiminor;}

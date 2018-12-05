@@ -3,13 +3,13 @@
 #include "shape_parser.h"
 #include "getstrings.h"
 
-AddShape::AddShape(QWidget *parent,myStd::vector<Shape *> & shapes) :
+AddShape::AddShape(QWidget *parent,myStd::vector<Shape *> & shapes, bool & ok) :
     QMainWindow(parent),
     ui(new Ui::AddShape)
 {
     ui->setupUi(this);
     vecPointer = &shapes;
-    wptr = parent;
+    var = &ok;
 }
 
 AddShape::~AddShape()
@@ -35,6 +35,7 @@ void AddShape::on_AddSquare_clicked()
     shape = new Square(shapeID,x,y,length, convertColor(penColor), convertColor(brushColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), convertBrushStyle(brushStyle), penWidth);
     vecPointer->push_back(shape);
     hide();
-    wptr->update();
+    *var = false;
+    emit update_Window();
 }
 

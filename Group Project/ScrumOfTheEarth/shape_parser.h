@@ -1,3 +1,5 @@
+/*! \file */
+
 #ifndef SHAPE_PARSER_H
 #define SHAPE_PARSER_H
 
@@ -36,5 +38,10 @@ Qt::AlignmentFlag convertAlignment(const string &);
 QFont::Style convertStyle(const string &);
 
 QFont::Weight convertWeight(const string &str);
+
+/*!
+ *  \fn Populates a vector of shape pointers from a given file
+ */
+void shape_parser(myStd::vector<Shape*>& vec, const char* filename, bool &ok);
 
 #endif // SHAPE_PARSER_H

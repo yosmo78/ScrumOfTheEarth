@@ -14,7 +14,8 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = nullptr, bool admin = false);
     ~MainWindow();
-
+public slots:
+    void update_window();
 private slots:
 
 
@@ -22,6 +23,8 @@ private slots:
     void on_Save_clicked();
     void on_AddShape_clicked();
     void on_DeleteShape_clicked();
+
+    void on_checkBox_clicked();
 
 private:
     Ui::MainWindow *ui;

@@ -21,7 +21,7 @@ class Line : public Shape
     void setPenJoinStyle(Qt::PenJoinStyle pjs){penJoinStyle = pjs;}
     int getPenWidth(){return penWidth;}
     void setPenWidth(int pw){penWidth = pw;}
-    virtual void draw(QPainter & paint);
+    virtual void draw(QPainter & paint,bool);
     virtual int getType(){return 6;}
     static int getStaticType(){return 6;}
     virtual double getPerimeter(){return std::sqrt(((point1.x()-point2.x())*(point1.x()-point2.x()))+((point1.y()-point2.y())*(point1.y()-point2.y())));}

@@ -27,7 +27,7 @@ class Polygon : public Shape
     void setBrushStyle(Qt::BrushStyle bs){brushStyle = bs;}
     int getPenWidth(){return penWidth;}
     void setPenWidth(int pw){penWidth = pw;}
-    virtual void draw(QPainter&);
+    virtual void draw(QPainter&,bool);
     virtual int getType(){return 3;}
     static int getStaticType(){return 3;}
     virtual double getArea()
