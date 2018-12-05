@@ -41,6 +41,14 @@ private slots:
 
     void on_EAddEllipse_clicked();
 
+    void on_GAddPolygon_clicked();
+
+    void on_PAddPolyline_clicked();
+
+    void on_LAddLine_clicked();
+
+    void on_TAddText_clicked();
+
 signals:
     /*!
      * This will call an update in the window when emitted

@@ -105,6 +105,17 @@ void MainWindow::on_Save_clicked()
 void MainWindow::update_window()
 {
     ui->widget->update();
+    myStd::vector<Shape*> cpy = ui->widget->shapesList;//copy the shapes list
+    selection_sort(cpy, cmpId);//sort the list
+    fill_table((ui->IDtable), cpy);//populate the table with sorted list
+    cpy = ui->widget->shapesList;//copies shape list
+    selection_sort(cpy, cmpArea);//sort it by area
+    delete_Azeros(cpy);//take shapes out with zero area
+    pop_Atable(ui->Areatable, cpy);//populate the table
+    cpy = ui->widget->shapesList;//copy shape list
+    selection_sort(cpy, cmpPeri);//sort it by perimeter
+    delete_Pzeros(cpy);//take shapes out with zero perimeter
+    pop_Ptable(ui->PerimeterTable, cpy);//fill table with the copy
 }
 
 void MainWindow::on_AddShape_clicked()

@@ -109,3 +109,122 @@ void AddShape::on_EAddEllipse_clicked()
     *var = false;
     emit update_Window();
 }
+
+void AddShape::on_GAddPolygon_clicked()
+{
+    std::string penColor = getColor(ui->GPenColors->currentIndex());
+    std::string penStyle = getPenStyle(ui->GPenStyles->currentIndex());
+    std::string penCapStyle = getPenCapStyle(ui->GPenCapStyles->currentIndex());
+    std::string penJoinStyle = getPenJoinStyle(ui->GPenJoinStyles->currentIndex());
+    std::string brushColor = getColor(ui->GBrushColors->currentIndex());
+    std::string brushStyle = getBrushStyle(ui->GBrushStyles->currentIndex());
+    int penWidth = atoi(ui->GPenWidth->text().toStdString().c_str());
+    int shapeID = atoi(ui->GShapeID->text().toStdString().c_str());
+    std::string skip = ui->GPoints->text().toStdString();
+    stringstream ss;
+    ss.str(skip);
+    int i = 0,vari;
+    QPoint qPoint;
+    myStd::vector<QPoint> dimensions;
+    while(getline(ss, skip, ','))
+    {
+        vari = stoi(skip);
+        if(i % 2 == 0)
+        {
+            qPoint.setX(vari);
+        }
+        else
+        {
+            qPoint.setY(vari);
+            dimensions.push_back(qPoint);
+        }
+        ++i;
+    }
+
+    Shape * shape = NULL;
+    shape = new Polygon(shapeID,dimensions,convertColor(penColor), convertColor(brushColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), convertBrushStyle(brushStyle), penWidth);
+    vecPointer->push_back(shape);
+    hide();
+    *var = false;
+    emit update_Window();
+}
+
+
+void AddShape::on_PAddPolyline_clicked()
+{
+    std::string penColor = getColor(ui->PPenColors->currentIndex());
+    std::string penStyle = getPenStyle(ui->PPenStyles->currentIndex());
+    std::string penCapStyle = getPenCapStyle(ui->PPenCapStyles->currentIndex());
+    std::string penJoinStyle = getPenJoinStyle(ui->PPenJoinStyles->currentIndex());
+    int penWidth = atoi(ui->PPenWidth->text().toStdString().c_str());
+    int shapeID = atoi(ui->PShapeID->text().toStdString().c_str());
+    std::string skip = ui->PPoints->text().toStdString();
+    stringstream ss;
+    ss.str(skip);
+    int i = 0,vari;
+    QPoint qPoint;
+    myStd::vector<QPoint> dimensions;
+    while(getline(ss, skip, ','))
+    {
+        vari = stoi(skip);
+        if(i % 2 == 0)
+        {
+            qPoint.setX(vari);
+        }
+        else
+        {
+            qPoint.setY(vari);
+            dimensions.push_back(qPoint);
+        }
+        ++i;
+    }
+
+    Shape * shape = NULL;
+    shape = new Polyline(shapeID,dimensions,convertColor(penColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), penWidth);
+    vecPointer->push_back(shape);
+    hide();
+    *var = false;
+    emit update_Window();
+}
+
+void AddShape::on_LAddLine_clicked()
+{
+    std::string penColor = getColor(ui->LPenColors->currentIndex());
+    std::string penStyle = getPenStyle(ui->LPenStyles->currentIndex());
+    std::string penCapStyle = getPenCapStyle(ui->LPenCapStyles->currentIndex());
+    std::string penJoinStyle = getPenJoinStyle(ui->LPenJoinStyles->currentIndex());
+    int penWidth = atoi(ui->LPenWidth->text().toStdString().c_str());
+    int shapeID = atoi(ui->LShapeID->text().toStdString().c_str());
+    int p1x = atoi(ui->LPoint1x->text().toStdString().c_str());
+    int p1y = atoi(ui->LPoint1y->text().toStdString().c_str());
+    int p2x = atoi(ui->LPoint2x->text().toStdString().c_str());
+    int p2y = atoi(ui->LPoint2y->text().toStdString().c_str());
+    Shape * shape = NULL;
+    shape = new Line(shapeID,p1x,p1y,p2x,p2y,convertColor(penColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), penWidth);
+    vecPointer->push_back(shape);
+    hide();
+    *var = false;
+    emit update_Window();
+}
+
+void AddShape::on_TAddText_clicked()
+{
+    std::string textFontStyle = getFontStyle(ui->TFontStyle->currentIndex());
+    std::string textFontWeight = getFontWeight(ui->TFontWeight->currentIndex());
+    std::string textAlignment = getTextAlignment(ui->TTextAlignment->currentIndex());
+    QString textFontFamily = ui->TFontFamily->text();
+    int textPointSize = atoi(ui->TPointSize->text().toStdString().c_str());
+    std::string penColor = getColor(ui->TTextColor->currentIndex());
+    QString textString = ui->TString->text();
+    int shapeID = atoi(ui->TShapeID->text().toStdString().c_str());
+    int shape1 = atoi(ui->TShapeDimensionOne->text().toStdString().c_str());
+    int shape2 = atoi(ui->TShapeDimensionTwo->text().toStdString().c_str());
+    int shape3 = atoi(ui->TShapeDimensionThree->text().toStdString().c_str());
+    int shape4 = atoi(ui->TShapeDimensionFour->text().toStdString().c_str());
+    Shape * shape = NULL;
+    shape = new Text(shapeID, shape1, shape2, shape3, shape4, textString, convertColor(penColor), convertAlignment(textAlignment), textPointSize, textFontFamily, convertStyle(textFontStyle), convertWeight(textFontWeight));
+    vecPointer->push_back(shape);
+    hide();
+    *var = false;
+    emit update_Window();
+}
