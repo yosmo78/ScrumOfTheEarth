@@ -29,8 +29,14 @@ public:
     ~AddShape();
 
 private slots:
+    /*!
+     * Will add a square to our shape list
+     */
     void on_AddSquare_clicked();
 signals:
+    /*!
+     * This will call an update in the window when emitted
+     */
     void update_Window();
 
 private:
