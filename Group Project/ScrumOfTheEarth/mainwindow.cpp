@@ -1,3 +1,4 @@
+/*! \file */
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <QInputDialog>
@@ -9,7 +10,7 @@
 #include "polyline.h"
 #include "line.h"
 #include <QPoint>
-#include <iostream>
+#include "shape_parser.h"
 #include <QMessageBox>
 #include "searchandcompare.h"
 #include "pop_table.h"
