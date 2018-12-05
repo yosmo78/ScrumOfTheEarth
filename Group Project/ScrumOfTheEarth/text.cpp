@@ -15,7 +15,7 @@ void Text::draw(QPainter & paint)
  newfont.setStyle(textFontStyle);
  QFont oldfont = paint.font();
  paint.setFont(newfont);
- paint.drawText(CornerPoint.x(),CornerPoint.y(), width, length, textAlignment, textString);
+ paint.drawText(CornerPoint.x(), CornerPoint.y(), length, width, textAlignment, textString);
  paint.setFont(oldfont);
  paint.drawText(CornerPoint.x() + (length/2 - 3 * std::to_string(getShapeId()).length()), CornerPoint.y() - 5,QString::fromStdString(std::to_string(getShapeId())));
 
