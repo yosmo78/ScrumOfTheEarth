@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>7</number>
     </property>
     <widget class="QWidget" name="Square">
      <attribute name="title">
@@ -349,7 +349,7 @@
       <property name="geometry">
        <rect>
         <x>540</x>
-        <y>50</y>
+        <y>60</y>
         <width>113</width>
         <height>25</height>
        </rect>
@@ -474,7 +474,7 @@
      <widget class="QComboBox" name="RPenColors">
       <property name="geometry">
        <rect>
-        <x>60</x>
+        <x>70</x>
         <y>10</y>
         <width>72</width>
         <height>25</height>
@@ -526,36 +526,2771 @@
        </property>
       </item>
      </widget>
+     <widget class="QLabel" name="RPenColorLabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Color</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="RPenWidthLabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>61</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Width</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="RPenWidth">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>50</y>
+        <width>71</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="RLengthLabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>41</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Length </string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="RLengthInput">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>80</y>
+        <width>81</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="RPenStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>10</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Style</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="RBrushColorLabel">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>40</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Brush Color</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="RPenStyles">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>10</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>NoPen</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SolidLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DashLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DotLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DashDotLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DashDotDotLine</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="RBrushColors">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>40</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>white</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>black</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>red</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>green</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>blue</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>cyan</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>magenta</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>yellow</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gray</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="RxLabel">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>80</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>x Position</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="RxData">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>80</y>
+        <width>61</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="RWidthLabel">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>80</y>
+        <width>51</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Width</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="RWidthInput">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>80</y>
+        <width>101</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="RyLabel">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>80</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>y Position</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="RyData">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>80</y>
+        <width>61</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="RPenCapStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>10</y>
+        <width>81</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Cap Style</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="RPenCapStyles">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>10</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>FlatCap</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SquareCap</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>RoundCap</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="RBrushStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>40</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Brush Style</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="RBrushStyles">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>40</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>SolidPattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>HorPattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VerPattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>NoBrush</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="RPenJoinStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>10</y>
+        <width>81</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Join Style</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="RPenJoinStyles">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>10</y>
+        <width>91</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>MiterJoin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BevelJoin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>RoundJoin</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="RShapeLabel">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>40</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Shape ID</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="RShapeID">
+      <property name="geometry">
+       <rect>
+        <x>572</x>
+        <y>40</y>
+        <width>91</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="RAddRectangle">
+      <property name="geometry">
+       <rect>
+        <x>589</x>
+        <y>80</y>
+        <width>91</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add Rectangle</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="Circle">
      <attribute name="title">
       <string>Circle</string>
      </attribute>
+     <widget class="QLabel" name="CBrushColorLabel">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>40</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Brush Color</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="CBrushColors">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>40</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>white</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>black</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>red</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>green</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>blue</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>cyan</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>magenta</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>yellow</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gray</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="CPenJoinStyles">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>10</y>
+        <width>91</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>MiterJoin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BevelJoin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>RoundJoin</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="CPenJoinStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>10</y>
+        <width>81</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Join Style</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="CPenColorLabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Color</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="CPenColors">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>10</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>white</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>black</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>red</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>green</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>blue</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>cyan</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>magenta</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>yellow</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gray</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLineEdit" name="CShapeID">
+      <property name="geometry">
+       <rect>
+        <x>572</x>
+        <y>40</y>
+        <width>91</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="CPenCapStyles">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>10</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>FlatCap</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SquareCap</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>RoundCap</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLineEdit" name="CPenWidth">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>50</y>
+        <width>71</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="CPenStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>10</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Style</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="CShapeLabel">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>40</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Shape ID</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="CBrushStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>40</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Brush Style</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="CBrushStyles">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>40</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>SolidPattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>HorPattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VerPattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>NoBrush</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="CPenWidthLabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>61</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Width</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="CPenStyles">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>10</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>NoPen</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SolidLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DashLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DotLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DashDotLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DashDotDotLine</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="CPenCapStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>10</y>
+        <width>81</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Cap Style</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="CyLabel">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>90</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>y Position</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="CxLabel">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>90</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>x Position</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="CyData">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>90</y>
+        <width>61</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="CxData">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>90</y>
+        <width>61</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="CRadiusLabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>41</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Radius</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="CRadiusInput">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>90</y>
+        <width>71</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="CAddCircle">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>90</y>
+        <width>80</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add Circle</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="Ellipse">
      <attribute name="title">
       <string>Ellipse</string>
      </attribute>
+     <widget class="QLabel" name="EBrushColorLabel">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>40</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Brush Color</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="EBrushColors">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>40</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>white</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>black</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>red</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>green</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>blue</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>cyan</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>magenta</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>yellow</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gray</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="EPenJoinStyles">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>10</y>
+        <width>91</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>MiterJoin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BevelJoin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>RoundJoin</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="EPenJoinStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>10</y>
+        <width>81</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Join Style</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="EPenColorLabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Color</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="EPenColors">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>10</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>white</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>black</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>red</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>green</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>blue</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>cyan</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>magenta</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>yellow</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gray</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLineEdit" name="EShapeID">
+      <property name="geometry">
+       <rect>
+        <x>572</x>
+        <y>40</y>
+        <width>91</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="EPenCapStyles">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>10</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>FlatCap</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SquareCap</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>RoundCap</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLineEdit" name="EPenWidth">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>50</y>
+        <width>71</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="EPenStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>10</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Style</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="EShapeLabel">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>40</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Shape ID</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="EBrushStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>40</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Brush Style</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="EBrushStyles">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>40</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>SolidPattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>HorPattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VerPattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>NoBrush</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="EPenWidthLabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>61</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Width</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="EPenStyles">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>10</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>NoPen</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SolidLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DashLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DotLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DashDotLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DashDotDotLine</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="EPenCapStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>10</y>
+        <width>81</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Cap Style</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="EyLabel">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>90</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>y Position</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="EWidthLabel">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>90</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Semi Minor</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="ExLabel">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>90</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>x Position</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="EyData">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>90</y>
+        <width>61</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="ELengthLabel">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>90</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Semi Major</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="EWidthInput">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>80</y>
+        <width>81</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="ELengthInput">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>90</y>
+        <width>71</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="ExData">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>90</y>
+        <width>61</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="EAddEllipse">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>90</y>
+        <width>80</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add Ellipse</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="Polygon">
      <attribute name="title">
       <string>Polygon</string>
      </attribute>
+     <widget class="QLabel" name="GBrushStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>318</x>
+        <y>50</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Brush Style</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="GPenStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>158</x>
+        <y>20</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Style</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="GPenJoinStyles">
+      <property name="geometry">
+       <rect>
+        <x>568</x>
+        <y>20</y>
+        <width>91</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>MiterJoin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BevelJoin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>RoundJoin</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="GBrushColorLabel">
+      <property name="geometry">
+       <rect>
+        <x>158</x>
+        <y>50</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Brush Color</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="GPenCapStyles">
+      <property name="geometry">
+       <rect>
+        <x>398</x>
+        <y>20</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>FlatCap</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SquareCap</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>RoundCap</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="GShapeLabel">
+      <property name="geometry">
+       <rect>
+        <x>488</x>
+        <y>50</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Shape ID</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="GPenStyles">
+      <property name="geometry">
+       <rect>
+        <x>228</x>
+        <y>20</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>NoPen</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SolidLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DashLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DotLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DashDotLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DashDotDotLine</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="GBrushStyles">
+      <property name="geometry">
+       <rect>
+        <x>398</x>
+        <y>50</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>SolidPattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>HorPattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VerPattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>NoBrush</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="GPenCapStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>318</x>
+        <y>20</y>
+        <width>81</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Cap Style</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="GBrushColors">
+      <property name="geometry">
+       <rect>
+        <x>228</x>
+        <y>50</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>white</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>black</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>red</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>green</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>blue</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>cyan</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>magenta</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>yellow</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gray</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="GPenColors">
+      <property name="geometry">
+       <rect>
+        <x>68</x>
+        <y>20</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>white</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>black</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>red</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>green</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>blue</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>cyan</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>magenta</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>yellow</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gray</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="GPenJoinStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>488</x>
+        <y>20</y>
+        <width>81</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Join Style</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="GPenColorLabel">
+      <property name="geometry">
+       <rect>
+        <x>8</x>
+        <y>20</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Color</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="GPenWidth">
+      <property name="geometry">
+       <rect>
+        <x>68</x>
+        <y>60</y>
+        <width>71</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="GPenWidthLabel">
+      <property name="geometry">
+       <rect>
+        <x>8</x>
+        <y>60</y>
+        <width>61</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Width</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="GShapeID">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>50</y>
+        <width>91</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="GPoints">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>100</y>
+        <width>181</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="GPointsLabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>101</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Points (ex: 1,2,3,4)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="GAddPolygon">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>90</y>
+        <width>80</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add Polygon</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="Polyline">
      <attribute name="title">
       <string>Polyline</string>
      </attribute>
+     <widget class="QComboBox" name="PPenStyles">
+      <property name="geometry">
+       <rect>
+        <x>252</x>
+        <y>10</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>NoPen</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SolidLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DashLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DotLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DashDotLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DashDotDotLine</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="PPenColors">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>10</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>white</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>black</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>red</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>green</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>blue</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>cyan</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>magenta</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>yellow</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gray</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="PPenJoinStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>332</x>
+        <y>10</y>
+        <width>81</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Join Style</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="PShapeID">
+      <property name="geometry">
+       <rect>
+        <x>412</x>
+        <y>40</y>
+        <width>91</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PPenStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>10</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Style</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="PPenJoinStyles">
+      <property name="geometry">
+       <rect>
+        <x>412</x>
+        <y>10</y>
+        <width>91</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>MiterJoin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BevelJoin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>RoundJoin</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="PShapeLabel">
+      <property name="geometry">
+       <rect>
+        <x>332</x>
+        <y>50</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Shape ID</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PPenWidthLabel">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>61</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Width</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="PPenCapStyles">
+      <property name="geometry">
+       <rect>
+        <x>252</x>
+        <y>50</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>FlatCap</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SquareCap</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>RoundCap</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLineEdit" name="PPenWidth">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>50</y>
+        <width>71</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PPenCapStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>172</x>
+        <y>50</y>
+        <width>81</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Cap Style</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PPenColorLabel">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Color</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PPointsLabel">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>90</y>
+        <width>101</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Points (ex: 1,2,3,4)</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="PPoints">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>90</y>
+        <width>181</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PAddPolyline">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>90</y>
+        <width>80</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add Polyline</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="Line">
      <attribute name="title">
       <string>Line</string>
      </attribute>
+     <widget class="QLineEdit" name="LLengthInput">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>80</y>
+        <width>71</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LPenStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>158</x>
+        <y>10</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Style</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LWidthLabel">
+      <property name="geometry">
+       <rect>
+        <x>158</x>
+        <y>80</y>
+        <width>61</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Point Two</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LxLabel">
+      <property name="geometry">
+       <rect>
+        <x>318</x>
+        <y>80</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>x Position</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="LPenJoinStyles">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>10</y>
+        <width>91</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>MiterJoin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BevelJoin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>RoundJoin</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="LLengthLabel">
+      <property name="geometry">
+       <rect>
+        <x>8</x>
+        <y>80</y>
+        <width>61</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Point One</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="LPenCapStyles">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>50</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>FlatCap</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SquareCap</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>RoundCap</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="LShapeLabel">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>50</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Shape ID</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LyLabel">
+      <property name="geometry">
+       <rect>
+        <x>458</x>
+        <y>80</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>y Position</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="LPenStyles">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>10</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>NoPen</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SolidLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DashLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DotLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DashDotLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DashDotDotLine</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLineEdit" name="LWidthInput">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>80</y>
+        <width>81</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LPenCapStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>50</y>
+        <width>81</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Cap Style</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="LPenColors">
+      <property name="geometry">
+       <rect>
+        <x>68</x>
+        <y>10</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>white</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>black</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>red</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>green</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>blue</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>cyan</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>magenta</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>yellow</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gray</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="LPenColorLabel">
+      <property name="geometry">
+       <rect>
+        <x>8</x>
+        <y>10</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Color</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LPenWidth">
+      <property name="geometry">
+       <rect>
+        <x>68</x>
+        <y>50</y>
+        <width>71</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LPenJoinStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>10</y>
+        <width>81</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Join Style</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LxData">
+      <property name="geometry">
+       <rect>
+        <x>378</x>
+        <y>80</y>
+        <width>61</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LyData">
+      <property name="geometry">
+       <rect>
+        <x>518</x>
+        <y>80</y>
+        <width>61</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LPenWidthLabel">
+      <property name="geometry">
+       <rect>
+        <x>8</x>
+        <y>50</y>
+        <width>61</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pen Width</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LShapeID">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>40</y>
+        <width>91</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LAddLine">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>80</y>
+        <width>80</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add Line</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="Text">
      <attribute name="title">
       <string>Text</string>
      </attribute>
+     <widget class="QLineEdit" name="TShapeID">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>40</y>
+        <width>113</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="TShapeIDLabel">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>40</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Shape ID</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="TShapeDimensionLabel">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>10</y>
+        <width>100</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Shape Dimension</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="TTextColorLabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>61</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Text Color</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="TTextColor">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>100</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>white</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>black</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>red</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>green</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>blue</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>cyan</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>magenta</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>yellow</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gray</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="TTextAlignment">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>70</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Left</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Right</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Top</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Bottom</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Center</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="TTextAlignmentLabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>91</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Text Alignment</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="TPointSizeLabel">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>100</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Point Size</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="TPointSize">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>100</y>
+        <width>113</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="TFontFamilyLabel">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>70</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Font Family</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="TFontFamily">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>70</y>
+        <width>113</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="TFontStyleLabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>61</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Font Style</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="TFontStyle">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>40</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Normal</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Italic</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Oblique</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="TFontWeightLabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Font Weight</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="TFontWeight">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>10</y>
+        <width>72</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Thin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Light</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Normal</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Bold</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="TStringLabel">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>10</y>
+        <width>54</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>String</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="TString">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>10</y>
+        <width>113</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="TShapeDimensionTwo">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>55</y>
+        <width>80</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="TShapeDimensionFour">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>105</y>
+        <width>80</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="TShapeDimensionThree">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>80</y>
+        <width>80</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="TShapeDimensionOne">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>30</y>
+        <width>80</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="TTwoLabel">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>55</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>2.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="TThreeLabel">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>80</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>3.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="TFourLabel">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>100</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>4.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="TOneLabel">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>30</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>1.</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="TAddText">
+      <property name="geometry">
+       <rect>
+        <x>595</x>
+        <y>100</y>
+        <width>80</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add Text</string>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>
