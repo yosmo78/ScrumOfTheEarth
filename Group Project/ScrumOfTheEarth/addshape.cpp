@@ -85,3 +85,27 @@ void AddShape::on_CAddCircle_clicked()
     *var = false;
     emit update_Window();
 }
+
+void AddShape::on_EAddEllipse_clicked()
+{
+    std::string penColor = getColor(ui->EPenColors->currentIndex());
+    std::string penStyle = getPenStyle(ui->EPenStyles->currentIndex());
+    std::string penCapStyle = getPenCapStyle(ui->EPenCapStyles->currentIndex());
+    std::string penJoinStyle = getPenJoinStyle(ui->EPenJoinStyles->currentIndex());
+    std::string brushColor = getColor(ui->EBrushColors->currentIndex());
+    std::string brushStyle = getBrushStyle(ui->EBrushStyles->currentIndex());
+    int penWidth = atoi(ui->EPenWidth->text().toStdString().c_str());
+    int shapeID = atoi(ui->EShapeID->text().toStdString().c_str());
+    int x = atoi(ui->ExData->text().toStdString().c_str());
+    int y = atoi(ui->EyData->text().toStdString().c_str());
+    int length = atoi(ui->ELengthInput ->text().toStdString().c_str());
+    int width = atoi(ui->EWidthInput->text().toStdString().c_str());
+
+    Shape * shape = NULL;
+
+    shape = new Ellipse(shapeID,x,y,length,width,convertColor(penColor), convertColor(brushColor), convertPenStyle(penStyle), convertPenCapStyle(penCapStyle), convertPenJoinStyle(penJoinStyle), convertBrushStyle(brushStyle), penWidth);
+    vecPointer->push_back(shape);
+    hide();
+    *var = false;
+    emit update_Window();
+}

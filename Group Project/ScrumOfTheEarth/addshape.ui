@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>3</number>
     </property>
     <widget class="QWidget" name="Square">
      <attribute name="title">
@@ -1792,7 +1792,7 @@
        <string>Add Ellipse</string>
       </property>
      </widget>
-     <widget class="QComboBox" name="EPenColors_2">
+     <widget class="QComboBox" name="EBrushColors">
       <property name="geometry">
        <rect>
         <x>100</x>

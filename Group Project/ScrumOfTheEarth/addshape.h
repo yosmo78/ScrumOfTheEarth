@@ -39,6 +39,8 @@ private slots:
 
     void on_CAddCircle_clicked();
 
+    void on_EAddEllipse_clicked();
+
 signals:
     /*!
      * This will call an update in the window when emitted
