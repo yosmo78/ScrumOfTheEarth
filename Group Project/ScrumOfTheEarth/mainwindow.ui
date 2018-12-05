@@ -140,7 +140,7 @@
    <widget class="QCheckBox" name="checkBox">
     <property name="geometry">
      <rect>
-      <x>370</x>
+      <x>470</x>
       <y>0</y>
       <width>82</width>
       <height>23</height>
@@ -151,6 +151,19 @@
     </property>
     <property name="checked">
      <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>0</y>
+      <width>91</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Move Shape</string>
     </property>
    </widget>
   </widget>
