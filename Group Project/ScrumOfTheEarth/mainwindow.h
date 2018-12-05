@@ -1,6 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 #include "addshape.h"
+#include "moveshape.h"
 #include <QMainWindow>
 
 namespace Ui {
@@ -26,9 +27,12 @@ private slots:
 
     void on_checkBox_clicked();
 
+    void on_pushButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     AddShape * addshape;
+    MoveShape * moveshape;
     bool isAdmin;
     QString file;
 };
