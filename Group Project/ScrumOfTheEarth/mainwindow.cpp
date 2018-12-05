@@ -166,3 +166,19 @@ void MainWindow::on_checkBox_clicked()
     ui->widget->setShowId(!ui->widget->getShowId());
     ui->widget->update();
 }
+
+void MainWindow::on_pushButton_clicked()
+{
+    if(isAdmin)
+    {
+
+        moveshape = new MoveShape(this,ui->widget->shapesList);
+        connect(moveshape,SIGNAL(update_win()),this,SLOT(update_window()));
+        moveshape->show();
+    }
+    else
+    {
+        QMessageBox::warning(this,"Add Shape","Access denied. Login as admin");
+
+    }
+}

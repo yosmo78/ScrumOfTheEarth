@@ -1,3 +1,5 @@
+/*! \file */
+
 #ifndef ADDSHAPE_H
 #define ADDSHAPE_H
 #include "vector.h"
