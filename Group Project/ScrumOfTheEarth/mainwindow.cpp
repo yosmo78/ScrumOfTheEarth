@@ -28,6 +28,7 @@ MainWindow::MainWindow(QWidget *parent, bool admin) :
     ui->setupUi(this);
     ui->Tables->setStyleSheet("QTabBar::tab {width: 263px;}");
     addshape = NULL;
+    ui->widget->setShowId(true);
 }
 
 MainWindow::~MainWindow()
@@ -100,12 +101,18 @@ void MainWindow::on_Save_clicked()
     }
 }
 
+void MainWindow::update_window()
+{
+    ui->widget->update();
+}
+
 void MainWindow::on_AddShape_clicked()
 {
     if(isAdmin)
     {
-
-        addshape = new AddShape(this,ui->widget->shapesList);
+        bool ok = true;
+        addshape = new AddShape(this,ui->widget->shapesList, ok);
+        connect(addshape,SIGNAL(update_Window()),this,SLOT(update_window()));
         addshape->show();
     }
     else
@@ -152,3 +159,9 @@ void MainWindow::on_DeleteShape_clicked()
     }
 }
 
+
+void MainWindow::on_checkBox_clicked()
+{
+    ui->widget->setShowId(!ui->widget->getShowId());
+    ui->widget->update();
+}

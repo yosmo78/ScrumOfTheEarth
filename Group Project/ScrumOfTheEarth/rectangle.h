@@ -29,7 +29,7 @@ class Rectangle : public Shape
     void setBrushStyle(Qt::BrushStyle bs){brushStyle = bs;}
     int getPenWidth(){return penWidth;}
     void setPenWidth(int pw){penWidth = pw;}
-    virtual void draw(QPainter &);
+    virtual void draw(QPainter &, bool);
     virtual int getType(){return 2;}
     static int getStaticType(){return 2;}
     virtual double getArea(){return (double)length*width;}

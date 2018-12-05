@@ -22,7 +22,7 @@ class Polyline: public Shape
     void setPenJoinStyle(Qt::PenJoinStyle pjs){penJoinStyle = pjs;}
     int getPenWidth(){return penWidth;}
     void setPenWidth(int pw){penWidth = pw;}
-    virtual void draw(QPainter&);
+    virtual void draw(QPainter&,bool);
     virtual int getType(){return 7;}
     static int getStaticType(){return 7;}
     virtual double getPerimeter()
@@ -33,7 +33,7 @@ class Polyline: public Shape
         int i = 0;
         for(; i < (points.size()-1); ++i)
         {
-//           perimeter += std::sqrt(((it[i].x()-it[i+1].x())*((it[i].x()-it[i+1].x()))+((it[i].y()-it[i+1].y())*(it[i].y()-it[i+1].y()))));
+           perimeter += std::sqrt(((it[i].x()-it[i+1].x())*((it[i].x()-it[i+1].x()))+((it[i].y()-it[i+1].y())*(it[i].y()-it[i+1].y()))));
         }
         return perimeter;
     }

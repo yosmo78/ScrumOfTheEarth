@@ -27,7 +27,7 @@ class Text : public Shape
     void setTextFontStyle(QFont::Style tfs){textFontStyle = tfs;} //Text specific
     QFont::Weight getTextFontWeight(){return textFontWeight;} //Text specific
     void setTextFontWeight(QFont::Weight tfw){textFontWeight = tfw;} //Text specific
-    virtual void draw(QPainter&);
+    virtual void draw(QPainter&,bool);
     virtual int getType(){return 8;}
     static int getStaticType(){return 8;}
    private:

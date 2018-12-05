@@ -25,7 +25,7 @@ class Circle : public Shape
     void setBrushStyle(Qt::BrushStyle bs){brushStyle = bs;}
     int getPenWidth(){return penWidth;}
     void setPenWidth(int pw){penWidth = pw;}
-    void draw(QPainter & paint);
+    void draw(QPainter & paint, bool);
     virtual int getType(){return 4;}
     static int getStaticType(){return 4;}
     virtual double getArea(){return 3.14159265359*radius*radius;}

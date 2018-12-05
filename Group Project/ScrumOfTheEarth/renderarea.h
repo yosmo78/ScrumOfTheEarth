@@ -16,6 +16,8 @@ class RenderArea : public QWidget
         shapesList.deallocPtrData();//delete all of the shapes
     }
     myStd::vector<Shape*> shapesList;//global vector to draw shapes
+    bool getShowId(){return showId;} const
+    void setShowId(bool t){showId = t;}
   protected:
     void paintEvent(QPaintEvent* event) override
     {
@@ -27,9 +29,11 @@ class RenderArea : public QWidget
       Shape ** ptr =  shapesList.begin();
       for(int i = 0; i < shapesList.size(); ++i)
       {
-          ptr[i]->draw(nothing);
+          ptr[i]->draw(nothing,showId);
       }
     }
+private:
+        bool showId;
 };
 
 #endif // RENDERAREA_H

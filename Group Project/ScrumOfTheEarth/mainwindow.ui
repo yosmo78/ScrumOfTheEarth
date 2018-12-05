@@ -86,7 +86,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>2</number>
     </property>
     <property name="tabBarAutoHide">
      <bool>false</bool>
@@ -98,9 +98,9 @@
      <widget class="QTableWidget" name="IDtable">
       <property name="geometry">
        <rect>
-        <x>-5</x>
+        <x>5</x>
         <y>1</y>
-        <width>991</width>
+        <width>971</width>
         <height>181</height>
        </rect>
       </property>
@@ -113,9 +113,9 @@
      <widget class="QTableWidget" name="Areatable">
       <property name="geometry">
        <rect>
-        <x>-5</x>
+        <x>5</x>
         <y>1</y>
-        <width>991</width>
+        <width>971</width>
         <height>181</height>
        </rect>
       </property>
@@ -128,14 +128,30 @@
      <widget class="QTableWidget" name="PerimeterTable">
       <property name="geometry">
        <rect>
-        <x>-5</x>
+        <x>5</x>
         <y>1</y>
-        <width>991</width>
+        <width>971</width>
         <height>181</height>
        </rect>
       </property>
      </widget>
     </widget>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>0</y>
+      <width>82</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ShowId</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
