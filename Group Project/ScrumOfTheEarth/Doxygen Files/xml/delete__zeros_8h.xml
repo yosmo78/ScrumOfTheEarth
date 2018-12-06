@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="delete__zeros_8h" kind="file" language="C++">
+    <compoundname>delete_zeros.h</compoundname>
+    <includes refid="vector_8h" local="yes">vector.h</includes>
+    <includes refid="shape_8h" local="yes">shape.h</includes>
+    <includedby refid="delete__zeros_8cpp" local="yes">Group Project/ScrumOfTheEarth/delete_zeros.cpp</includedby>
+    <includedby refid="mainwindow_8cpp" local="yes">Group Project/ScrumOfTheEarth/mainwindow.cpp</includedby>
+    <incdepgraph>
+      <node id="976">
+        <label>QObject</label>
+      </node>
+      <node id="974">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="975" relation="include">
+        </childnode>
+        <childnode refid="976" relation="include">
+        </childnode>
+        <childnode refid="972" relation="include">
+        </childnode>
+      </node>
+      <node id="972">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="973" relation="include">
+        </childnode>
+      </node>
+      <node id="975">
+        <label>QPainter</label>
+      </node>
+      <node id="971">
+        <label>Group Project/ScrumOfTheEarth/delete_zeros.h</label>
+        <link refid="delete_zeros.h"/>
+        <childnode refid="972" relation="include">
+        </childnode>
+        <childnode refid="974" relation="include">
+        </childnode>
+      </node>
+      <node id="973">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="979">
+        <label>Group Project/ScrumOfTheEarth/mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+      </node>
+      <node id="978">
+        <label>Group Project/ScrumOfTheEarth/delete_zeros.cpp</label>
+        <link refid="delete__zeros_8cpp"/>
+      </node>
+      <node id="977">
+        <label>Group Project/ScrumOfTheEarth/delete_zeros.h</label>
+        <link refid="delete_zeros.h"/>
+        <childnode refid="978" relation="include">
+        </childnode>
+        <childnode refid="979" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="delete__zeros_8h_1a4ebed1107b5a6f70d9dc7afaaba35565" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void delete_Azeros</definition>
+        <argsstring>(myStd::vector&lt; Shape * &gt; &amp;)</argsstring>
+        <name>delete_Azeros</name>
+        <param>
+          <type><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector</ref>&lt; <ref refid="classShape" kindref="compound">Shape</ref> * &gt; &amp;</type>
+        </param>
+        <briefdescription>
+<para>delete_Azeros erases any shape with zero area in a vector of <ref refid="classShape" kindref="compound">Shape</ref> Pointers </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/delete_zeros.h" line="10" column="1" bodyfile="Group Project/ScrumOfTheEarth/delete_zeros.cpp" bodystart="5" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="delete__zeros_8h_1a2a244a091a5ebad5b1cefbe45d4296df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void delete_Pzeros</definition>
+        <argsstring>(myStd::vector&lt; Shape * &gt; &amp;)</argsstring>
+        <name>delete_Pzeros</name>
+        <param>
+          <type><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector</ref>&lt; <ref refid="classShape" kindref="compound">Shape</ref> * &gt; &amp;</type>
+        </param>
+        <briefdescription>
+<para>delete_Pzeros erases any shape with zero perimeter in a vector of <ref refid="classShape" kindref="compound">Shape</ref> Pointers </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/delete_zeros.h" line="14" column="1" bodyfile="Group Project/ScrumOfTheEarth/delete_zeros.cpp" bodystart="18" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="2"><highlight class="preprocessor">#ifndef<sp/>DELETE_ZEROS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DELETE_ZEROS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vector_8h" kindref="compound">vector.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="shape_8h" kindref="compound">shape.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="delete__zeros_8h_1a4ebed1107b5a6f70d9dc7afaaba35565" kindref="member">delete_Azeros</ref>(<ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;Shape*&gt;</ref><sp/>&amp;);</highlight></codeline>
+<codeline lineno="14"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="delete__zeros_8h_1a2a244a091a5ebad5b1cefbe45d4296df" kindref="member">delete_Pzeros</ref>(<ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;Shape*&gt;</ref>&amp;);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>DELETE_ZEROS_H</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/delete_zeros.h"/>
+  </compounddef>
+</doxygen>

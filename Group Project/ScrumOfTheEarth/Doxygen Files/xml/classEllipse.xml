@@ -1,0 +1,760 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classEllipse" kind="class" language="C++" prot="public">
+    <compoundname>Ellipse</compoundname>
+    <basecompoundref refid="classShape" prot="public" virt="non-virtual">Shape</basecompoundref>
+    <includes refid="ellipse_8h" local="no">ellipse.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classEllipse_1a3d0fb93f9f429fad4de0c31259c3dfb8" prot="private" static="no" mutable="no">
+        <type>QPoint</type>
+        <definition>QPoint Ellipse::point</definition>
+        <argsstring></argsstring>
+        <name>point</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="145" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEllipse_1ad2297210703db5cdb1021bdea0703a5d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ellipse::semimajor</definition>
+        <argsstring></argsstring>
+        <name>semimajor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="146" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEllipse_1ac722f65f0cfb6446bbd3a68a4816538f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ellipse::semiminor</definition>
+        <argsstring></argsstring>
+        <name>semiminor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="147" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEllipse_1a90f21c4ed1542846f629436c333bb9cf" prot="private" static="no" mutable="no">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Ellipse::penColor</definition>
+        <argsstring></argsstring>
+        <name>penColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="148" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEllipse_1a669bd986c48f0f7f523259e542947643" prot="private" static="no" mutable="no">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Ellipse::brushColor</definition>
+        <argsstring></argsstring>
+        <name>brushColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="149" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEllipse_1a5e6928f4d3640eb128cc866670ba6a74" prot="private" static="no" mutable="no">
+        <type>Qt::PenStyle</type>
+        <definition>Qt::PenStyle Ellipse::penStyle</definition>
+        <argsstring></argsstring>
+        <name>penStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="150" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEllipse_1a94603e085c6a2315e4962d65892d3429" prot="private" static="no" mutable="no">
+        <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+        <definition>Qt::PenCapStyle Ellipse::penCapStyle</definition>
+        <argsstring></argsstring>
+        <name>penCapStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="151" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEllipse_1a749f47129ddffe2edd7d4eaa8a2cbabf" prot="private" static="no" mutable="no">
+        <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+        <definition>Qt::PenJoinStyle Ellipse::penJoinStyle</definition>
+        <argsstring></argsstring>
+        <name>penJoinStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="152" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEllipse_1a0270cd930b5b3500146c165541832487" prot="private" static="no" mutable="no">
+        <type><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref></type>
+        <definition>Qt::BrushStyle Ellipse::brushStyle</definition>
+        <argsstring></argsstring>
+        <name>brushStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="153" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEllipse_1ae6f98a34f5403ffb034dff85ebc08054" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ellipse::penWidth</definition>
+        <argsstring></argsstring>
+        <name>penWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="154" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classEllipse_1a76a451f8817fbfb5cd750621e3548cf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ellipse::Ellipse</definition>
+        <argsstring>(unsigned int, int, int, int, int, Qt::GlobalColor, Qt::GlobalColor, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle, Qt::BrushStyle, int)</argsstring>
+        <name>Ellipse</name>
+        <param>
+          <type>unsigned</type>
+          <declname>int</declname>
+          <defname>i</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>y</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>b</defname>
+        </param>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <defname>pc</defname>
+        </param>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <defname>bc</defname>
+        </param>
+        <param>
+          <type>Qt::PenStyle</type>
+          <defname>ps</defname>
+        </param>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+          <defname>pcs</defname>
+        </param>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+          <defname>pjs</defname>
+        </param>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref></type>
+          <defname>bs</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>pw</defname>
+        </param>
+        <briefdescription>
+<para>All element contructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="18" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.cpp" bodystart="2" bodyend="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1a8d67061c0516c89e5bbcd17e1b2b22c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QPoint</type>
+        <definition>QPoint Ellipse::getTopLeft</definition>
+        <argsstring>()</argsstring>
+        <name>getTopLeft</name>
+        <briefdescription>
+<para>Gets the point to the top left corner. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>QPoint of the top left corner of the drawing rectangle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="24" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1a4cb6a9a3ef286098d0ab36f8fecb2091" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ellipse::getMajorAxis</definition>
+        <argsstring>()</argsstring>
+        <name>getMajorAxis</name>
+        <briefdescription>
+<para>Gets the length of the semimajor axis. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>length of semimajor axis </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="29" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1aa8d0c595dfee2a27dd3f44caf8f398b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ellipse::getMinorAxis</definition>
+        <argsstring>()</argsstring>
+        <name>getMinorAxis</name>
+        <briefdescription>
+<para>Gets the length of the semiminor axis. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>length of semiminor axis </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="35" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1a29a934608fd3cad24c5f6de9d9abb9c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ellipse::setTopLeft</definition>
+        <argsstring>(QPoint p)</argsstring>
+        <name>setTopLeft</name>
+        <param>
+          <type>QPoint</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>Sets the coordinates of the top left corner of the drawing rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>QPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of top left corner </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="41" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1a0418b6a8b64b02d3f31c0389a0c6371f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ellipse::setMajorAxis</definition>
+        <argsstring>(int j)</argsstring>
+        <name>setMajorAxis</name>
+        <param>
+          <type>int</type>
+          <declname>j</declname>
+        </param>
+        <briefdescription>
+<para>Sets the length of the semimajor axis. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of semimajor axis </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="46" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1ac0bd465b71501780ba71e2c4b1942100" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ellipse::setMinorAxis</definition>
+        <argsstring>(int n)</argsstring>
+        <name>setMinorAxis</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Sets the length of the semiminor axis. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of semiminor axis </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="51" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1a695959f0218a53af7758d671189ce558" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Ellipse::getPenColor</definition>
+        <argsstring>()</argsstring>
+        <name>getPenColor</name>
+        <briefdescription>
+<para>Gets the pen color stored in this shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Color of the pen </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="56" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1ad170f1cfd8af739d7202144b92a25861" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Ellipse::getBrushColor</definition>
+        <argsstring>()</argsstring>
+        <name>getBrushColor</name>
+        <briefdescription>
+<para>Gets the Brush color stored in the <ref refid="classShape" kindref="compound">Shape</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Color of the Brush </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="62" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1a764a1e1ea8fb7db3fca39cf36a8fec35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ellipse::setPenColor</definition>
+        <argsstring>(Qt::GlobalColor pc)</argsstring>
+        <name>setPenColor</name>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <declname>pc</declname>
+        </param>
+        <briefdescription>
+<para>Sets the color of the pen to the given color. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="68" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1a504988b087ad3619c764469ee5506025" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ellipse::setBrushColor</definition>
+        <argsstring>(Qt::GlobalColor bc)</argsstring>
+        <name>setBrushColor</name>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <declname>bc</declname>
+        </param>
+        <briefdescription>
+<para>Sets the color of the Brush to the given color. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>brushColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="74" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1ad62330c89dd6f3ebc7e08378aebf6518" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Qt::PenStyle</type>
+        <definition>Qt::PenStyle Ellipse::getPenStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getPenStyle</name>
+        <briefdescription>
+<para>Gets the style of the pen stored in the shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Style of the pen </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="80" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1ae96699413a5bef290c19a552ab7271d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ellipse::setPenStyle</definition>
+        <argsstring>(Qt::PenStyle ps)</argsstring>
+        <name>setPenStyle</name>
+        <param>
+          <type>Qt::PenStyle</type>
+          <declname>ps</declname>
+        </param>
+        <briefdescription>
+<para>Sets the style of the pen to the given style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="86" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1a31f27784ade1471b1c48e23d0c4dcfc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+        <definition>Qt::PenCapStyle Ellipse::getPenCapStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getPenCapStyle</name>
+        <briefdescription>
+<para>Gets the pen cap style that is stored in this <ref refid="classShape" kindref="compound">Shape</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>PenCapStyle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="92" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1a7e97c7286539aee8a6b23af78a5f450c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ellipse::setPenCapStyle</definition>
+        <argsstring>(Qt::PenCapStyle pcs)</argsstring>
+        <name>setPenCapStyle</name>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+          <declname>pcs</declname>
+        </param>
+        <briefdescription>
+<para>Sets the Pen Cap Style to the given Pen Cap Style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penCapStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="98" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1a0f6832606831fd3399a84b0f3174249a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+        <definition>Qt::PenJoinStyle Ellipse::getPenJoinStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getPenJoinStyle</name>
+        <briefdescription>
+<para>Gets the Pen Join Style. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>PenJoinStyle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="104" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="104" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1a3d6f6123f1cdfa3bb8c6e8964052d139" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ellipse::setPenJoinStyle</definition>
+        <argsstring>(Qt::PenJoinStyle pjs)</argsstring>
+        <name>setPenJoinStyle</name>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+          <declname>pjs</declname>
+        </param>
+        <briefdescription>
+<para>Sets the pen join style to the given style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penJoinStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="110" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1ab3c8a9b4e1cb554f1ad8677a407ac398" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref></type>
+        <definition>Qt::BrushStyle Ellipse::getBrushStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getBrushStyle</name>
+        <briefdescription>
+<para>Gets the Brush Style. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>BrushStyle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="116" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1ab7948b55080ea45bc7cbf14cb7d432b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ellipse::setBrushStyle</definition>
+        <argsstring>(Qt::BrushStyle bs)</argsstring>
+        <name>setBrushStyle</name>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref></type>
+          <declname>bs</declname>
+        </param>
+        <briefdescription>
+<para>Sets the Brush Style to the given Brush Style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>brushStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="122" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1a8d3e931715310a529b6690d3dc711181" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ellipse::getPenWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getPenWidth</name>
+        <briefdescription>
+<para>Gets the width of the pen. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>penWidth </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="128" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1ad36ab08a7eddb0df1709e89fbeda0831" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ellipse::setPenWidth</definition>
+        <argsstring>(int pw)</argsstring>
+        <name>setPenWidth</name>
+        <param>
+          <type>int</type>
+          <declname>pw</declname>
+        </param>
+        <briefdescription>
+<para>Sets the width of the pen to the given width. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="134" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="134" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1a807da0badc3cc332ba408e6d94333a36" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ellipse::draw</definition>
+        <argsstring>(QPainter &amp;paint, bool)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classShape_1a47dae32819e64fb32f3357f31978293f">draw</reimplements>
+        <param>
+          <type>QPainter &amp;</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+<para>Virtual function to draw shapes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="135" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.cpp" bodystart="5" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1af8a6e2834d811a632d323cc3d9cb5b31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int Ellipse::getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <reimplements refid="classShape_1a3d15adf2a1d746928f9be98105096eda">getType</reimplements>
+        <briefdescription>
+<para>Gets the type of the shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>type as an int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="136" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="136" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1aa9aff42aee3c6188e017dfa9d6a0590a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>virtual double Ellipse::getArea</definition>
+        <argsstring>()</argsstring>
+        <name>getArea</name>
+        <reimplements refid="classShape_1ac29f8bce0d038c84470028c6819a79ab">getArea</reimplements>
+        <briefdescription>
+<para>Gets the area of the given shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Area as a double </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="142" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="142" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classEllipse_1afc43182b486fb25e7ba9fd344cfee5d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>virtual double Ellipse::getPerimeter</definition>
+        <argsstring>()</argsstring>
+        <name>getPerimeter</name>
+        <reimplements refid="classShape_1a391744b6bce96df044139dcbd1ae0aa8">getPerimeter</reimplements>
+        <briefdescription>
+<para>Gets the perimeter of the given shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Perimeter as a double </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="143" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="143" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classEllipse_1a05cf0c6c09a47baaaed6c2d0df922dfb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Ellipse::getStaticType</definition>
+        <argsstring>()</argsstring>
+        <name>getStaticType</name>
+        <briefdescription>
+<para>gets the Type of object </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Type as int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="141" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classEllipse" kindref="compound">Ellipse</ref> class that QPainter can draw. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="103">
+        <label>QObject</label>
+      </node>
+      <node id="101">
+        <label>Ellipse</label>
+        <link refid="classEllipse"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>Shape</label>
+        <link refid="classShape"/>
+        <childnode refid="103" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="106">
+        <label>QObject</label>
+      </node>
+      <node id="104">
+        <label>Ellipse</label>
+        <link refid="classEllipse"/>
+        <childnode refid="105" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>Shape</label>
+        <link refid="classShape"/>
+        <childnode refid="106" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Group Project/ScrumOfTheEarth/ellipse.h" line="11" column="1" bodyfile="Group Project/ScrumOfTheEarth/ellipse.h" bodystart="10" bodyend="155"/>
+    <listofallmembers>
+      <member refid="classEllipse_1a669bd986c48f0f7f523259e542947643" prot="private" virt="non-virtual"><scope>Ellipse</scope><name>brushColor</name></member>
+      <member refid="classEllipse_1a0270cd930b5b3500146c165541832487" prot="private" virt="non-virtual"><scope>Ellipse</scope><name>brushStyle</name></member>
+      <member refid="classEllipse_1a807da0badc3cc332ba408e6d94333a36" prot="public" virt="virtual"><scope>Ellipse</scope><name>draw</name></member>
+      <member refid="classEllipse_1a76a451f8817fbfb5cd750621e3548cf7" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>Ellipse</name></member>
+      <member refid="classEllipse_1aa9aff42aee3c6188e017dfa9d6a0590a" prot="public" virt="virtual"><scope>Ellipse</scope><name>getArea</name></member>
+      <member refid="classEllipse_1ad170f1cfd8af739d7202144b92a25861" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>getBrushColor</name></member>
+      <member refid="classEllipse_1ab3c8a9b4e1cb554f1ad8677a407ac398" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>getBrushStyle</name></member>
+      <member refid="classEllipse_1a4cb6a9a3ef286098d0ab36f8fecb2091" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>getMajorAxis</name></member>
+      <member refid="classEllipse_1aa8d0c595dfee2a27dd3f44caf8f398b1" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>getMinorAxis</name></member>
+      <member refid="classEllipse_1a31f27784ade1471b1c48e23d0c4dcfc3" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>getPenCapStyle</name></member>
+      <member refid="classEllipse_1a695959f0218a53af7758d671189ce558" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>getPenColor</name></member>
+      <member refid="classEllipse_1a0f6832606831fd3399a84b0f3174249a" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>getPenJoinStyle</name></member>
+      <member refid="classEllipse_1ad62330c89dd6f3ebc7e08378aebf6518" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>getPenStyle</name></member>
+      <member refid="classEllipse_1a8d3e931715310a529b6690d3dc711181" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>getPenWidth</name></member>
+      <member refid="classEllipse_1afc43182b486fb25e7ba9fd344cfee5d4" prot="public" virt="virtual"><scope>Ellipse</scope><name>getPerimeter</name></member>
+      <member refid="classShape_1a3ac221427e91b0acc53a2f3764a8f01b" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>getShapeId</name></member>
+      <member refid="classEllipse_1a05cf0c6c09a47baaaed6c2d0df922dfb" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>getStaticType</name></member>
+      <member refid="classEllipse_1a8d67061c0516c89e5bbcd17e1b2b22c9" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>getTopLeft</name></member>
+      <member refid="classEllipse_1af8a6e2834d811a632d323cc3d9cb5b31" prot="public" virt="virtual"><scope>Ellipse</scope><name>getType</name></member>
+      <member refid="classShape_1a0d2732ef366fa236a534351f6a0d96e5" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>operator&lt;</name></member>
+      <member refid="classShape_1a9b9942917d6e6c359a8751156ed52423" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>operator=</name></member>
+      <member refid="classShape_1a1e81a927f61ea4d12daafc1d9295e00a" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>operator==</name></member>
+      <member refid="classEllipse_1a94603e085c6a2315e4962d65892d3429" prot="private" virt="non-virtual"><scope>Ellipse</scope><name>penCapStyle</name></member>
+      <member refid="classEllipse_1a90f21c4ed1542846f629436c333bb9cf" prot="private" virt="non-virtual"><scope>Ellipse</scope><name>penColor</name></member>
+      <member refid="classEllipse_1a749f47129ddffe2edd7d4eaa8a2cbabf" prot="private" virt="non-virtual"><scope>Ellipse</scope><name>penJoinStyle</name></member>
+      <member refid="classEllipse_1a5e6928f4d3640eb128cc866670ba6a74" prot="private" virt="non-virtual"><scope>Ellipse</scope><name>penStyle</name></member>
+      <member refid="classEllipse_1ae6f98a34f5403ffb034dff85ebc08054" prot="private" virt="non-virtual"><scope>Ellipse</scope><name>penWidth</name></member>
+      <member refid="classEllipse_1a3d0fb93f9f429fad4de0c31259c3dfb8" prot="private" virt="non-virtual"><scope>Ellipse</scope><name>point</name></member>
+      <member refid="classEllipse_1ad2297210703db5cdb1021bdea0703a5d" prot="private" virt="non-virtual"><scope>Ellipse</scope><name>semimajor</name></member>
+      <member refid="classEllipse_1ac722f65f0cfb6446bbd3a68a4816538f" prot="private" virt="non-virtual"><scope>Ellipse</scope><name>semiminor</name></member>
+      <member refid="classEllipse_1a504988b087ad3619c764469ee5506025" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>setBrushColor</name></member>
+      <member refid="classEllipse_1ab7948b55080ea45bc7cbf14cb7d432b8" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>setBrushStyle</name></member>
+      <member refid="classEllipse_1a0418b6a8b64b02d3f31c0389a0c6371f" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>setMajorAxis</name></member>
+      <member refid="classEllipse_1ac0bd465b71501780ba71e2c4b1942100" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>setMinorAxis</name></member>
+      <member refid="classEllipse_1a7e97c7286539aee8a6b23af78a5f450c" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>setPenCapStyle</name></member>
+      <member refid="classEllipse_1a764a1e1ea8fb7db3fca39cf36a8fec35" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>setPenColor</name></member>
+      <member refid="classEllipse_1a3d6f6123f1cdfa3bb8c6e8964052d139" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>setPenJoinStyle</name></member>
+      <member refid="classEllipse_1ae96699413a5bef290c19a552ab7271d9" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>setPenStyle</name></member>
+      <member refid="classEllipse_1ad36ab08a7eddb0df1709e89fbeda0831" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>setPenWidth</name></member>
+      <member refid="classShape_1a95f42a7833e43572d684455c2ee232ec" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>setShapeId</name></member>
+      <member refid="classEllipse_1a29a934608fd3cad24c5f6de9d9abb9c4" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>setTopLeft</name></member>
+      <member refid="classShape_1a3bb93456832521010106172a095e22ca" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>Shape</name></member>
+      <member refid="classShape_1a44d91c7621d4d7af60fe3320a2e07279" prot="public" virt="non-virtual"><scope>Ellipse</scope><name>Shape</name></member>
+      <member refid="classShape_1ac3b9fc48965274893f25b18aa14ba665" prot="public" virt="virtual"><scope>Ellipse</scope><name>~Shape</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

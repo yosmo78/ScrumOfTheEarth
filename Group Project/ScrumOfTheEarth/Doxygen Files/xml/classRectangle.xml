@@ -1,0 +1,760 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classRectangle" kind="class" language="C++" prot="public">
+    <compoundname>Rectangle</compoundname>
+    <basecompoundref refid="classShape" prot="public" virt="non-virtual">Shape</basecompoundref>
+    <includes refid="rectangle_8h" local="no">rectangle.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classRectangle_1a734a9301213d538ea098355235ead409" prot="private" static="no" mutable="no">
+        <type>QPoint</type>
+        <definition>QPoint Rectangle::CornerPoint</definition>
+        <argsstring></argsstring>
+        <name>CornerPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="141" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRectangle_1ae59ba4b220bd28539821b64b48553b75" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Rectangle::length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="142" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRectangle_1a019ed802523594472e0032953b6062d4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Rectangle::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="143" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRectangle_1a6e294224b92e734bcd8fb55995f9f9f8" prot="private" static="no" mutable="no">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Rectangle::penColor</definition>
+        <argsstring></argsstring>
+        <name>penColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="144" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRectangle_1ac77148879af5308c47302ee275e3bee7" prot="private" static="no" mutable="no">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Rectangle::brushColor</definition>
+        <argsstring></argsstring>
+        <name>brushColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="145" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRectangle_1a113c7f8893cb170412b43bdc5c825b57" prot="private" static="no" mutable="no">
+        <type>Qt::PenStyle</type>
+        <definition>Qt::PenStyle Rectangle::penStyle</definition>
+        <argsstring></argsstring>
+        <name>penStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="146" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRectangle_1acce6bc91f646fe45d71602e0ceb5f4bc" prot="private" static="no" mutable="no">
+        <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+        <definition>Qt::PenCapStyle Rectangle::penCapStyle</definition>
+        <argsstring></argsstring>
+        <name>penCapStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="147" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRectangle_1a1ef41c6b1d8784552ebcb6f1f145f1a6" prot="private" static="no" mutable="no">
+        <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+        <definition>Qt::PenJoinStyle Rectangle::penJoinStyle</definition>
+        <argsstring></argsstring>
+        <name>penJoinStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="148" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRectangle_1a8f86cf83b4e7809c753ca48407bb1129" prot="private" static="no" mutable="no">
+        <type><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref></type>
+        <definition>Qt::BrushStyle Rectangle::brushStyle</definition>
+        <argsstring></argsstring>
+        <name>brushStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="149" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRectangle_1a529c1b2a80cd10cd3b16e4e10453be38" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Rectangle::penWidth</definition>
+        <argsstring></argsstring>
+        <name>penWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="150" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classRectangle_1a1dca3e66dc1317df74dda6c1984728ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Rectangle::Rectangle</definition>
+        <argsstring>(unsigned int, int, int, int, int, Qt::GlobalColor, Qt::GlobalColor, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle, Qt::BrushStyle, int)</argsstring>
+        <name>Rectangle</name>
+        <param>
+          <type>unsigned</type>
+          <declname>int</declname>
+          <defname>i</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>y</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>l</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>w</defname>
+        </param>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <defname>pc</defname>
+        </param>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <defname>bc</defname>
+        </param>
+        <param>
+          <type>Qt::PenStyle</type>
+          <defname>ps</defname>
+        </param>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+          <defname>pcs</defname>
+        </param>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+          <defname>pjs</defname>
+        </param>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref></type>
+          <defname>bs</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>pw</defname>
+        </param>
+        <briefdescription>
+<para>All parameter constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="17" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.cpp" bodystart="3" bodyend="4"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a934ec26d7cff08b196e6e2db94508d5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QPoint</type>
+        <definition>QPoint Rectangle::getCornerPoint</definition>
+        <argsstring>()</argsstring>
+        <name>getCornerPoint</name>
+        <briefdescription>
+<para>Gets the top left corner point of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>QPoint of the top left point </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="22" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a34488ca08ac813751dba8c57c80985fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Rectangle::setCornerPoint</definition>
+        <argsstring>(QPoint p1)</argsstring>
+        <name>setCornerPoint</name>
+        <param>
+          <type>QPoint</type>
+          <declname>p1</declname>
+        </param>
+        <briefdescription>
+<para>Sets the top left corner point to the given point. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>QPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of the top left point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="27" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a58c26a2910e8982b49fafd02d1d3aa47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Rectangle::getLength</definition>
+        <argsstring>()</argsstring>
+        <name>getLength</name>
+        <briefdescription>
+<para>Gets the length of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int length of rectangle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="32" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a8186780b0db41885ed04c45c9caafe96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Rectangle::setLength</definition>
+        <argsstring>(int l)</argsstring>
+        <name>setLength</name>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+<para>Sets the length of the rectangle to the given length. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>l</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>length of rectangle </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="37" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1ab750e4f0666df9c303ad649342bf3efd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Rectangle::getWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getWidth</name>
+        <briefdescription>
+<para>Gets the width of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int width of rectangle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="42" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a4b2a528eff1c42b1a46148b2f5562c7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Rectangle::setWidth</definition>
+        <argsstring>(int w)</argsstring>
+        <name>setWidth</name>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+<para>Sets the width of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>width of the rectangle </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="47" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a260ef02e14a452e25b1ebddc805928c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Rectangle::getPenColor</definition>
+        <argsstring>()</argsstring>
+        <name>getPenColor</name>
+        <briefdescription>
+<para>Gets the pen color stored in this shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Color of the pen </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="52" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1af105857f6e7bda45c45d0ce1309a032e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Rectangle::getBrushColor</definition>
+        <argsstring>()</argsstring>
+        <name>getBrushColor</name>
+        <briefdescription>
+<para>Gets the Brush color stored in the <ref refid="classShape" kindref="compound">Shape</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Color of the Brush </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="58" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a489b9d60a05a4d2f6ee01d7989b30c22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Rectangle::setPenColor</definition>
+        <argsstring>(Qt::GlobalColor pc)</argsstring>
+        <name>setPenColor</name>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <declname>pc</declname>
+        </param>
+        <briefdescription>
+<para>Sets the color of the pen to the given color. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="64" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a645117a96beb4782f2ffc00d0ab865e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Rectangle::setBrushColor</definition>
+        <argsstring>(Qt::GlobalColor bc)</argsstring>
+        <name>setBrushColor</name>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <declname>bc</declname>
+        </param>
+        <briefdescription>
+<para>Sets the color of the Brush to the given color. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>brushColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="70" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1abb61dc270e5b2b4ae3323e097e6fb7ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Qt::PenStyle</type>
+        <definition>Qt::PenStyle Rectangle::getPenStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getPenStyle</name>
+        <briefdescription>
+<para>Gets the style of the pen stored in the shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Style of the pen </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="76" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a598da91b42f1f3541f687d6c35c23d23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Rectangle::setPenStyle</definition>
+        <argsstring>(Qt::PenStyle ps)</argsstring>
+        <name>setPenStyle</name>
+        <param>
+          <type>Qt::PenStyle</type>
+          <declname>ps</declname>
+        </param>
+        <briefdescription>
+<para>Sets the style of the pen to the given style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="82" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a7e42f496cbaa93545c370a1a4aef4d42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+        <definition>Qt::PenCapStyle Rectangle::getPenCapStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getPenCapStyle</name>
+        <briefdescription>
+<para>Gets the pen cap style that is stored in this <ref refid="classShape" kindref="compound">Shape</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>PenCapStyle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="88" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a18f32cd496f2298ca9165231943c3bae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Rectangle::setPenCapStyle</definition>
+        <argsstring>(Qt::PenCapStyle pcs)</argsstring>
+        <name>setPenCapStyle</name>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+          <declname>pcs</declname>
+        </param>
+        <briefdescription>
+<para>Sets the Pen Cap Style to the given Pen Cap Style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penCapStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="94" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1aaeb26e28ee7b37e166caeb1bf4ea7ec4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+        <definition>Qt::PenJoinStyle Rectangle::getPenJoinStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getPenJoinStyle</name>
+        <briefdescription>
+<para>Gets the Pen Join Style. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>PenJoinStyle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="100" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1acdb9bcb2c87a84c84b33a4a99c239de6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Rectangle::setPenJoinStyle</definition>
+        <argsstring>(Qt::PenJoinStyle pjs)</argsstring>
+        <name>setPenJoinStyle</name>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+          <declname>pjs</declname>
+        </param>
+        <briefdescription>
+<para>Sets the pen join style to the given style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penJoinStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="106" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1aaa486dcefcdd7e59e63d92c105876724" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref></type>
+        <definition>Qt::BrushStyle Rectangle::getBrushStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getBrushStyle</name>
+        <briefdescription>
+<para>Gets the Brush Style. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>BrushStyle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="112" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="112" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a4d5dff9ac01e605872f80d110015041b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Rectangle::setBrushStyle</definition>
+        <argsstring>(Qt::BrushStyle bs)</argsstring>
+        <name>setBrushStyle</name>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref></type>
+          <declname>bs</declname>
+        </param>
+        <briefdescription>
+<para>Sets the Brush Style to the given Brush Style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>brushStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="118" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="118" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a45243b7fbe88527e6aed399b37863305" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Rectangle::getPenWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getPenWidth</name>
+        <briefdescription>
+<para>Gets the width of the pen. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>penWidth </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="124" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="124" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1aa4e06745d54628776b1ac0f85c1e9867" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Rectangle::setPenWidth</definition>
+        <argsstring>(int pw)</argsstring>
+        <name>setPenWidth</name>
+        <param>
+          <type>int</type>
+          <declname>pw</declname>
+        </param>
+        <briefdescription>
+<para>Sets the width of the pen to the given width. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="130" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a6734cad19e207a212dcb042e1006a7f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Rectangle::draw</definition>
+        <argsstring>(QPainter &amp;, bool)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classShape_1a47dae32819e64fb32f3357f31978293f">draw</reimplements>
+        <param>
+          <type>QPainter &amp;</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+<para>Virtual function to draw shapes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="131" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.cpp" bodystart="6" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a0098e1642c4ff1180c1243b802caca5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int Rectangle::getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <reimplements refid="classShape_1a3d15adf2a1d746928f9be98105096eda">getType</reimplements>
+        <briefdescription>
+<para>Gets the type of the shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>type as an int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="132" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="132" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a5405044e619a5ba1a52c0b9607c9f166" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>virtual double Rectangle::getArea</definition>
+        <argsstring>()</argsstring>
+        <name>getArea</name>
+        <reimplements refid="classShape_1ac29f8bce0d038c84470028c6819a79ab">getArea</reimplements>
+        <briefdescription>
+<para>Gets the area of the given shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Area as a double </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="138" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="138" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1aba6936b3c376465edff938cd4affc914" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>virtual double Rectangle::getPerimeter</definition>
+        <argsstring>()</argsstring>
+        <name>getPerimeter</name>
+        <reimplements refid="classShape_1a391744b6bce96df044139dcbd1ae0aa8">getPerimeter</reimplements>
+        <briefdescription>
+<para>Gets the perimeter of the given shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Perimeter as a double </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="139" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="139" bodyend="139"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classRectangle_1ac9e18cf57224bfbc584547c0ee6d1ce3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Rectangle::getStaticType</definition>
+        <argsstring>()</argsstring>
+        <name>getStaticType</name>
+        <briefdescription>
+<para>gets the Type of object </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Type as int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="137" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="137" bodyend="137"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classRectangle" kindref="compound">Rectangle</ref> class that QPainter can draw. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="135">
+        <label>QObject</label>
+      </node>
+      <node id="133">
+        <label>Rectangle</label>
+        <link refid="classRectangle"/>
+        <childnode refid="134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="134">
+        <label>Shape</label>
+        <link refid="classShape"/>
+        <childnode refid="135" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="138">
+        <label>QObject</label>
+      </node>
+      <node id="136">
+        <label>Rectangle</label>
+        <link refid="classRectangle"/>
+        <childnode refid="137" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="137">
+        <label>Shape</label>
+        <link refid="classShape"/>
+        <childnode refid="138" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Group Project/ScrumOfTheEarth/rectangle.h" line="10" column="1" bodyfile="Group Project/ScrumOfTheEarth/rectangle.h" bodystart="9" bodyend="152"/>
+    <listofallmembers>
+      <member refid="classRectangle_1ac77148879af5308c47302ee275e3bee7" prot="private" virt="non-virtual"><scope>Rectangle</scope><name>brushColor</name></member>
+      <member refid="classRectangle_1a8f86cf83b4e7809c753ca48407bb1129" prot="private" virt="non-virtual"><scope>Rectangle</scope><name>brushStyle</name></member>
+      <member refid="classRectangle_1a734a9301213d538ea098355235ead409" prot="private" virt="non-virtual"><scope>Rectangle</scope><name>CornerPoint</name></member>
+      <member refid="classRectangle_1a6734cad19e207a212dcb042e1006a7f1" prot="public" virt="virtual"><scope>Rectangle</scope><name>draw</name></member>
+      <member refid="classRectangle_1a5405044e619a5ba1a52c0b9607c9f166" prot="public" virt="virtual"><scope>Rectangle</scope><name>getArea</name></member>
+      <member refid="classRectangle_1af105857f6e7bda45c45d0ce1309a032e" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>getBrushColor</name></member>
+      <member refid="classRectangle_1aaa486dcefcdd7e59e63d92c105876724" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>getBrushStyle</name></member>
+      <member refid="classRectangle_1a934ec26d7cff08b196e6e2db94508d5d" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>getCornerPoint</name></member>
+      <member refid="classRectangle_1a58c26a2910e8982b49fafd02d1d3aa47" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>getLength</name></member>
+      <member refid="classRectangle_1a7e42f496cbaa93545c370a1a4aef4d42" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>getPenCapStyle</name></member>
+      <member refid="classRectangle_1a260ef02e14a452e25b1ebddc805928c8" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>getPenColor</name></member>
+      <member refid="classRectangle_1aaeb26e28ee7b37e166caeb1bf4ea7ec4" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>getPenJoinStyle</name></member>
+      <member refid="classRectangle_1abb61dc270e5b2b4ae3323e097e6fb7ce" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>getPenStyle</name></member>
+      <member refid="classRectangle_1a45243b7fbe88527e6aed399b37863305" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>getPenWidth</name></member>
+      <member refid="classRectangle_1aba6936b3c376465edff938cd4affc914" prot="public" virt="virtual"><scope>Rectangle</scope><name>getPerimeter</name></member>
+      <member refid="classShape_1a3ac221427e91b0acc53a2f3764a8f01b" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>getShapeId</name></member>
+      <member refid="classRectangle_1ac9e18cf57224bfbc584547c0ee6d1ce3" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>getStaticType</name></member>
+      <member refid="classRectangle_1a0098e1642c4ff1180c1243b802caca5a" prot="public" virt="virtual"><scope>Rectangle</scope><name>getType</name></member>
+      <member refid="classRectangle_1ab750e4f0666df9c303ad649342bf3efd" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>getWidth</name></member>
+      <member refid="classRectangle_1ae59ba4b220bd28539821b64b48553b75" prot="private" virt="non-virtual"><scope>Rectangle</scope><name>length</name></member>
+      <member refid="classShape_1a0d2732ef366fa236a534351f6a0d96e5" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>operator&lt;</name></member>
+      <member refid="classShape_1a9b9942917d6e6c359a8751156ed52423" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>operator=</name></member>
+      <member refid="classShape_1a1e81a927f61ea4d12daafc1d9295e00a" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>operator==</name></member>
+      <member refid="classRectangle_1acce6bc91f646fe45d71602e0ceb5f4bc" prot="private" virt="non-virtual"><scope>Rectangle</scope><name>penCapStyle</name></member>
+      <member refid="classRectangle_1a6e294224b92e734bcd8fb55995f9f9f8" prot="private" virt="non-virtual"><scope>Rectangle</scope><name>penColor</name></member>
+      <member refid="classRectangle_1a1ef41c6b1d8784552ebcb6f1f145f1a6" prot="private" virt="non-virtual"><scope>Rectangle</scope><name>penJoinStyle</name></member>
+      <member refid="classRectangle_1a113c7f8893cb170412b43bdc5c825b57" prot="private" virt="non-virtual"><scope>Rectangle</scope><name>penStyle</name></member>
+      <member refid="classRectangle_1a529c1b2a80cd10cd3b16e4e10453be38" prot="private" virt="non-virtual"><scope>Rectangle</scope><name>penWidth</name></member>
+      <member refid="classRectangle_1a1dca3e66dc1317df74dda6c1984728ff" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>Rectangle</name></member>
+      <member refid="classRectangle_1a645117a96beb4782f2ffc00d0ab865e1" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>setBrushColor</name></member>
+      <member refid="classRectangle_1a4d5dff9ac01e605872f80d110015041b" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>setBrushStyle</name></member>
+      <member refid="classRectangle_1a34488ca08ac813751dba8c57c80985fa" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>setCornerPoint</name></member>
+      <member refid="classRectangle_1a8186780b0db41885ed04c45c9caafe96" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>setLength</name></member>
+      <member refid="classRectangle_1a18f32cd496f2298ca9165231943c3bae" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>setPenCapStyle</name></member>
+      <member refid="classRectangle_1a489b9d60a05a4d2f6ee01d7989b30c22" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>setPenColor</name></member>
+      <member refid="classRectangle_1acdb9bcb2c87a84c84b33a4a99c239de6" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>setPenJoinStyle</name></member>
+      <member refid="classRectangle_1a598da91b42f1f3541f687d6c35c23d23" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>setPenStyle</name></member>
+      <member refid="classRectangle_1aa4e06745d54628776b1ac0f85c1e9867" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>setPenWidth</name></member>
+      <member refid="classShape_1a95f42a7833e43572d684455c2ee232ec" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>setShapeId</name></member>
+      <member refid="classRectangle_1a4b2a528eff1c42b1a46148b2f5562c7b" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>setWidth</name></member>
+      <member refid="classShape_1a3bb93456832521010106172a095e22ca" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>Shape</name></member>
+      <member refid="classShape_1a44d91c7621d4d7af60fe3320a2e07279" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>Shape</name></member>
+      <member refid="classRectangle_1a019ed802523594472e0032953b6062d4" prot="private" virt="non-virtual"><scope>Rectangle</scope><name>width</name></member>
+      <member refid="classShape_1ac3b9fc48965274893f25b18aa14ba665" prot="public" virt="virtual"><scope>Rectangle</scope><name>~Shape</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

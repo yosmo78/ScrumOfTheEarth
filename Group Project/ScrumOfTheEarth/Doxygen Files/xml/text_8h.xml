@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="text_8h" kind="file" language="C++">
+    <compoundname>text.h</compoundname>
+    <includes refid="shape_8h" local="yes">shape.h</includes>
+    <includedby refid="shape__parser_8h" local="yes">Group Project/ScrumOfTheEarth/shape_parser.h</includedby>
+    <includedby refid="moveshape_8h" local="yes">Group Project/ScrumOfTheEarth/moveshape.h</includedby>
+    <includedby refid="pop__table_8cpp" local="yes">Group Project/ScrumOfTheEarth/pop_table.cpp</includedby>
+    <includedby refid="shape__saver_8cpp" local="yes">Group Project/ScrumOfTheEarth/shape_saver.cpp</includedby>
+    <includedby refid="text_8cpp" local="yes">Group Project/ScrumOfTheEarth/text.cpp</includedby>
+    <incdepgraph>
+      <node id="1505">
+        <label>QObject</label>
+      </node>
+      <node id="1503">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="1504" relation="include">
+        </childnode>
+        <childnode refid="1505" relation="include">
+        </childnode>
+        <childnode refid="1506" relation="include">
+        </childnode>
+      </node>
+      <node id="1502">
+        <label>Group Project/ScrumOfTheEarth/text.h</label>
+        <link refid="text.h"/>
+        <childnode refid="1503" relation="include">
+        </childnode>
+      </node>
+      <node id="1506">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="1507" relation="include">
+        </childnode>
+      </node>
+      <node id="1504">
+        <label>QPainter</label>
+      </node>
+      <node id="1507">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1513">
+        <label>Group Project/ScrumOfTheEarth/moveshape.h</label>
+        <link refid="moveshape_8h"/>
+        <childnode refid="1514" relation="include">
+        </childnode>
+        <childnode refid="1520" relation="include">
+        </childnode>
+      </node>
+      <node id="1508">
+        <label>Group Project/ScrumOfTheEarth/text.h</label>
+        <link refid="text.h"/>
+        <childnode refid="1509" relation="include">
+        </childnode>
+        <childnode refid="1513" relation="include">
+        </childnode>
+        <childnode refid="1521" relation="include">
+        </childnode>
+        <childnode refid="1522" relation="include">
+        </childnode>
+        <childnode refid="1523" relation="include">
+        </childnode>
+      </node>
+      <node id="1511">
+        <label>Group Project/ScrumOfTheEarth/mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+      </node>
+      <node id="1520">
+        <label>Group Project/ScrumOfTheEarth/moveshape.cpp</label>
+        <link refid="moveshape_8cpp"/>
+      </node>
+      <node id="1518">
+        <label>Group Project/ScrumOfTheEarth/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="1519">
+        <label>Group Project/ScrumOfTheEarth/window.cpp</label>
+        <link refid="window_8cpp"/>
+      </node>
+      <node id="1510">
+        <label>Group Project/ScrumOfTheEarth/addshape.cpp</label>
+        <link refid="addshape_8cpp"/>
+      </node>
+      <node id="1521">
+        <label>Group Project/ScrumOfTheEarth/pop_table.cpp</label>
+        <link refid="pop__table_8cpp"/>
+      </node>
+      <node id="1516">
+        <label>Group Project/ScrumOfTheEarth/admin_check.cpp</label>
+        <link refid="admin__check_8cpp"/>
+      </node>
+      <node id="1517">
+        <label>Group Project/ScrumOfTheEarth/create_login_file.cpp</label>
+        <link refid="create__login__file_8cpp"/>
+      </node>
+      <node id="1522">
+        <label>Group Project/ScrumOfTheEarth/shape_saver.cpp</label>
+        <link refid="shape__saver_8cpp"/>
+      </node>
+      <node id="1514">
+        <label>Group Project/ScrumOfTheEarth/mainwindow.h</label>
+        <link refid="mainwindow_8h"/>
+        <childnode refid="1515" relation="include">
+        </childnode>
+        <childnode refid="1511" relation="include">
+        </childnode>
+      </node>
+      <node id="1512">
+        <label>Group Project/ScrumOfTheEarth/shape_parser.cpp</label>
+        <link refid="shape__parser_8cpp"/>
+      </node>
+      <node id="1509">
+        <label>Group Project/ScrumOfTheEarth/shape_parser.h</label>
+        <link refid="shape__parser_8h"/>
+        <childnode refid="1510" relation="include">
+        </childnode>
+        <childnode refid="1511" relation="include">
+        </childnode>
+        <childnode refid="1512" relation="include">
+        </childnode>
+      </node>
+      <node id="1523">
+        <label>Group Project/ScrumOfTheEarth/text.cpp</label>
+        <link refid="text_8cpp"/>
+      </node>
+      <node id="1515">
+        <label>Group Project/ScrumOfTheEarth/window.h</label>
+        <link refid="window_8h"/>
+        <childnode refid="1516" relation="include">
+        </childnode>
+        <childnode refid="1517" relation="include">
+        </childnode>
+        <childnode refid="1518" relation="include">
+        </childnode>
+        <childnode refid="1519" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classText" prot="public">Text</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="2"><highlight class="preprocessor">#ifndef<sp/>TEXT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEXT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="shape_8h" kindref="compound">shape.h</ref>&quot;</highlight></codeline>
+<codeline lineno="8" refid="classText" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classText" kindref="compound">Text</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classShape" kindref="compound">Shape</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classText_1a2af2490841998a368bccb3eaed6d3698" kindref="member">Text</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/>QString,<sp/>Qt::GlobalColor,<sp/>Qt::AlignmentFlag,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/>QString,<sp/>QFont::Style,<sp/>QFont::Weight);</highlight></codeline>
+<codeline lineno="20" refid="classText_1a599aa1ac67ad501551a851f2dbc1d90a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QPoint<sp/><ref refid="classText_1a599aa1ac67ad501551a851f2dbc1d90a" kindref="member">getCornerPoint</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CornerPoint;}<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight></codeline>
+<codeline lineno="25" refid="classText_1a8a8424a8e6386a0626cba6ddfa1a91c2" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classText_1a8a8424a8e6386a0626cba6ddfa1a91c2" kindref="member">setCornerPoint</ref>(QPoint<sp/>p1){CornerPoint<sp/>=<sp/>p1;}<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight></codeline>
+<codeline lineno="30" refid="classText_1a0d184f40401d7b4a8127470702bbe1ea" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classText_1a0d184f40401d7b4a8127470702bbe1ea" kindref="member">getLength</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>length;}<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight></codeline>
+<codeline lineno="35" refid="classText_1af833cfc1f38ddd0021ac7d1c65f0acb9" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classText_1af833cfc1f38ddd0021ac7d1c65f0acb9" kindref="member">setLength</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>){length<sp/>=<sp/><ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>;}<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight></codeline>
+<codeline lineno="40" refid="classText_1aa426e679627149ff986a2c793b2ac71d" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classText_1aa426e679627149ff986a2c793b2ac71d" kindref="member">getWidth</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>width;}<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight></codeline>
+<codeline lineno="45" refid="classText_1adb7d8d7de01f5ee0d4de99092e728db6" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classText_1adb7d8d7de01f5ee0d4de99092e728db6" kindref="member">setWidth</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w){width<sp/>=<sp/>w;}<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight></codeline>
+<codeline lineno="50" refid="classText_1a873c6803659cfbc8282f746d6a15f158" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classText_1a873c6803659cfbc8282f746d6a15f158" kindref="member">getTextString</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>textString;}<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight></codeline>
+<codeline lineno="55" refid="classText_1a84348cf4792c9c9b31c50db0ff776784" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classText_1a84348cf4792c9c9b31c50db0ff776784" kindref="member">setTextString</ref>(QString<sp/>ts){textString<sp/>=<sp/>ts;}<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight></codeline>
+<codeline lineno="60" refid="classText_1ac6681a7e36595ab4465814caf87418e1" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::GlobalColor<sp/><ref refid="classText_1ac6681a7e36595ab4465814caf87418e1" kindref="member">getGlobalColor</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>textColor;}<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight></codeline>
+<codeline lineno="65" refid="classText_1afd3587da630468e7b7c78b4160cb2837" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classText_1afd3587da630468e7b7c78b4160cb2837" kindref="member">setGlobalColor</ref>(Qt::GlobalColor<sp/>gc){textColor<sp/>=<sp/>gc;}<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight></codeline>
+<codeline lineno="70" refid="classText_1a20c87e3d4ca218bdaae3181922091ca5" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::AlignmentFlag<sp/><ref refid="classText_1a20c87e3d4ca218bdaae3181922091ca5" kindref="member">getAlignmentFlag</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>textAlignment;}<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight></codeline>
+<codeline lineno="75" refid="classText_1a7eddf71ff09b1b20499d2a05ac017dd7" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classText_1a7eddf71ff09b1b20499d2a05ac017dd7" kindref="member">setAlignmentFlag</ref>(Qt::AlignmentFlag<sp/>af){textAlignment<sp/>=<sp/>af;}<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight></codeline>
+<codeline lineno="80" refid="classText_1a14d8585dd9a39a1bfecd1b2b44131464" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classText_1a14d8585dd9a39a1bfecd1b2b44131464" kindref="member">getTextPointSize</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>textPointSize;}<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight></codeline>
+<codeline lineno="85" refid="classText_1ad1e9aabbb6fc0aebc94b3855e32eea78" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classText_1ad1e9aabbb6fc0aebc94b3855e32eea78" kindref="member">setTextPointSize</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ts){textPointSize<sp/>=<sp/>ts;}<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight></codeline>
+<codeline lineno="90" refid="classText_1ac72f905a25316d1c271674811e31f724" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classText_1ac72f905a25316d1c271674811e31f724" kindref="member">getTextFontFamily</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>textFontFamily;}<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight></codeline>
+<codeline lineno="95" refid="classText_1addb9d731d7822aa2d5956d9dc0201500" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classText_1addb9d731d7822aa2d5956d9dc0201500" kindref="member">setTextFontFamily</ref>(QString<sp/>tff){textFontFamily<sp/>=<sp/>tff;}<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight></codeline>
+<codeline lineno="100" refid="classText_1ad572034a19f008c64c63e858cf02a0a4" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>QFont::Style<sp/><ref refid="classText_1ad572034a19f008c64c63e858cf02a0a4" kindref="member">getTextFontStyle</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>textFontStyle;}<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="classText_1acd45f77b52ddeeeeec895fb06997784f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classText_1acd45f77b52ddeeeeec895fb06997784f" kindref="member">setTextFontStyle</ref>(QFont::Style<sp/>tfs){textFontStyle<sp/>=<sp/>tfs;}<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight></codeline>
+<codeline lineno="111" refid="classText_1a633a61b274b66c47244430638cd57233" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>QFont::Weight<sp/><ref refid="classText_1a633a61b274b66c47244430638cd57233" kindref="member">getTextFontWeight</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>textFontWeight;}<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight></codeline>
+<codeline lineno="116" refid="classText_1afc544d4b1e989b7386026c39f9413228" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classText_1afc544d4b1e989b7386026c39f9413228" kindref="member">setTextFontWeight</ref>(QFont::Weight<sp/>tfw){textFontWeight<sp/>=<sp/>tfw;}<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classText_1a54e8085e0b04abba6b4a09232ff21449" kindref="member">draw</ref>(QPainter&amp;,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="118" refid="classText_1a701eda01498e972823f4c833ed0e8811" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classText_1a701eda01498e972823f4c833ed0e8811" kindref="member">getType</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>8;}</highlight></codeline>
+<codeline lineno="123" refid="classText_1aa63f66168dc6f0af547710743a52f9c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classText_1aa63f66168dc6f0af547710743a52f9c9" kindref="member">getStaticType</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>8;}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>QPoint<sp/>CornerPoint;<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>length;<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width;<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>textString;</highlight><highlight class="comment">//Text<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::GlobalColor<sp/>textColor;</highlight><highlight class="comment">//Text<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::AlignmentFlag<sp/>textAlignment;</highlight><highlight class="comment">//Text<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>textPointSize;</highlight><highlight class="comment">//Text<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>textFontFamily;</highlight><highlight class="comment">//Text<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>QFont::Style<sp/>textFontStyle;</highlight><highlight class="comment">//Text<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>QFont::Weight<sp/>textFontWeight;<sp/></highlight><highlight class="comment">//Text<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>TEXT_H</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/text.h"/>
+  </compounddef>
+</doxygen>

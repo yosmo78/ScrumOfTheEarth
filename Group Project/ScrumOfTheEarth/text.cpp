@@ -10,7 +10,6 @@ void Text::draw(QPainter & paint, bool Id)
 
  QPen pen(textColor);
  paint.setPen(pen);
-
  QFont newfont(textFontFamily,textPointSize,textFontWeight);
  newfont.setStyle(textFontStyle);
  QFont oldfont = paint.font();
@@ -19,6 +18,6 @@ void Text::draw(QPainter & paint, bool Id)
  paint.setFont(oldfont);
  if(Id)
  {
- paint.drawText(CornerPoint.x() + (length/2 - 3 * std::to_string(getShapeId()).length()), CornerPoint.y() - 5,QString::fromStdString(std::to_string(getShapeId())));
-    }
+   paint.drawText(CornerPoint.x() + (length/2 - 3 * std::to_string(getShapeId()).length()), CornerPoint.y() - 5,QString::fromStdString(std::to_string(getShapeId())));
+ }
 }

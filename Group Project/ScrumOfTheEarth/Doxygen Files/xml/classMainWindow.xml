@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classMainWindow" kind="class" language="C++" prot="public">
+    <compoundname>MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMainWindow</basecompoundref>
+    <includes refid="mainwindow_8h" local="no">mainwindow.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMainWindow_1a35466a70ed47252a0191168126a352a5" prot="private" static="no" mutable="no">
+        <type>Ui::MainWindow *</type>
+        <definition>Ui::MainWindow* MainWindow::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/mainwindow.h" line="63" column="1" bodyfile="Group Project/ScrumOfTheEarth/mainwindow.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1afe38d9541854cf695b23ace069411abe" prot="private" static="no" mutable="no">
+        <type><ref refid="classAddShape" kindref="compound">AddShape</ref> *</type>
+        <definition>AddShape* MainWindow::addshape</definition>
+        <argsstring></argsstring>
+        <name>addshape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/mainwindow.h" line="64" column="1" bodyfile="Group Project/ScrumOfTheEarth/mainwindow.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1ae98b5353d6edda4dccd481b77c4c9777" prot="private" static="no" mutable="no">
+        <type><ref refid="classMoveShape" kindref="compound">MoveShape</ref> *</type>
+        <definition>MoveShape* MainWindow::moveshape</definition>
+        <argsstring></argsstring>
+        <name>moveshape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/mainwindow.h" line="65" column="1" bodyfile="Group Project/ScrumOfTheEarth/mainwindow.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1a735c2c1dcdb1692dbcc3c01a9f83b3d3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::isAdmin</definition>
+        <argsstring></argsstring>
+        <name>isAdmin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/mainwindow.h" line="66" column="1" bodyfile="Group Project/ScrumOfTheEarth/mainwindow.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1a04a17ff8d2a8277e3d4802fe73707d00" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString MainWindow::file</definition>
+        <argsstring></argsstring>
+        <name>file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/mainwindow.h" line="67" column="1" bodyfile="Group Project/ScrumOfTheEarth/mainwindow.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMainWindow_1a16bf19588e7e7cb601b4e01661a9141b" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MainWindow::MainWindow</definition>
+        <argsstring>(QWidget *parent=nullptr, bool admin=false)</argsstring>
+        <name>MainWindow</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>admin</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="classMainWindow" kindref="compound">MainWindow</ref> constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>window </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>admin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>bool </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/mainwindow.h" line="25" column="1" bodyfile="Group Project/ScrumOfTheEarth/mainwindow.cpp" bodystart="25" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classMainWindow_1ae98d00a93bc118200eeef9f9bba1dba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MainWindow::~MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>~MainWindow</name>
+        <briefdescription>
+<para><ref refid="classMainWindow" kindref="compound">MainWindow</ref> Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/mainwindow.h" line="29" column="1" bodyfile="Group Project/ScrumOfTheEarth/mainwindow.cpp" bodystart="35" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classMainWindow_1a59351bdf1235b640a416121e7b8d89d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::update_window</definition>
+        <argsstring>()</argsstring>
+        <name>update_window</name>
+        <briefdescription>
+<para>Slot update_window updates the render area and the tables from its vector. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/mainwindow.h" line="34" column="1" bodyfile="Group Project/ScrumOfTheEarth/mainwindow.cpp" bodystart="105" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classMainWindow_1a34d4c3b95a963782747d83028863222f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_FileButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_FileButton_clicked</name>
+        <briefdescription>
+<para>Prompts user for file and loads that file when clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/mainwindow.h" line="40" column="1" bodyfile="Group Project/ScrumOfTheEarth/mainwindow.cpp" bodystart="40" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a1cc2a1627f61fe722cd05630464612f0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_Save_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_Save_clicked</name>
+        <briefdescription>
+<para>Writes the vector to the file loaded previously. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/mainwindow.h" line="44" column="1" bodyfile="Group Project/ScrumOfTheEarth/mainwindow.cpp" bodystart="92" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1ac8beabcdc8aa7d641a293ac2f4365af9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_AddShape_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_AddShape_clicked</name>
+        <briefdescription>
+<para>Prompts user for shape to add and adds that to the vector. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/mainwindow.h" line="48" column="1" bodyfile="Group Project/ScrumOfTheEarth/mainwindow.cpp" bodystart="121" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a21d21a1b368146474af832835fb061ca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_DeleteShape_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_DeleteShape_clicked</name>
+        <briefdescription>
+<para>Prompts user for shape to delete and deletes shape from vector. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/mainwindow.h" line="52" column="1" bodyfile="Group Project/ScrumOfTheEarth/mainwindow.cpp" bodystart="137" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a2bd2900604e5f3f093f95ffde8a86bd2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_checkBox_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_checkBox_clicked</name>
+        <briefdescription>
+<para>Hides/Displays the Id of the shapes being rendered. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/mainwindow.h" line="56" column="1" bodyfile="Group Project/ScrumOfTheEarth/mainwindow.cpp" bodystart="175" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a4de79c63c7fa0b8d7c468ac71f20be81" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_pushButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_clicked</name>
+        <briefdescription>
+<para>Creates a <ref refid="classMoveShape" kindref="compound">MoveShape</ref> window for the user to move the shape. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/mainwindow.h" line="60" column="1" bodyfile="Group Project/ScrumOfTheEarth/mainwindow.cpp" bodystart="181" bodyend="195"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="classMainWindow" kindref="compound">MainWindow</ref> class provides the environment for the <ref refid="classRenderArea" kindref="compound">RenderArea</ref>, Tables, and Buttons. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="114">
+        <label>QMainWindow</label>
+      </node>
+      <node id="113">
+        <label>MainWindow</label>
+        <link refid="classMainWindow"/>
+        <childnode refid="114" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="116">
+        <label>QMainWindow</label>
+      </node>
+      <node id="115">
+        <label>MainWindow</label>
+        <link refid="classMainWindow"/>
+        <childnode refid="116" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Group Project/ScrumOfTheEarth/mainwindow.h" line="16" column="1" bodyfile="Group Project/ScrumOfTheEarth/mainwindow.h" bodystart="15" bodyend="68"/>
+    <listofallmembers>
+      <member refid="classMainWindow_1afe38d9541854cf695b23ace069411abe" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>addshape</name></member>
+      <member refid="classMainWindow_1a04a17ff8d2a8277e3d4802fe73707d00" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>file</name></member>
+      <member refid="classMainWindow_1a735c2c1dcdb1692dbcc3c01a9f83b3d3" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>isAdmin</name></member>
+      <member refid="classMainWindow_1a16bf19588e7e7cb601b4e01661a9141b" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>MainWindow</name></member>
+      <member refid="classMainWindow_1ae98b5353d6edda4dccd481b77c4c9777" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>moveshape</name></member>
+      <member refid="classMainWindow_1ac8beabcdc8aa7d641a293ac2f4365af9" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_AddShape_clicked</name></member>
+      <member refid="classMainWindow_1a2bd2900604e5f3f093f95ffde8a86bd2" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_checkBox_clicked</name></member>
+      <member refid="classMainWindow_1a21d21a1b368146474af832835fb061ca" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_DeleteShape_clicked</name></member>
+      <member refid="classMainWindow_1a34d4c3b95a963782747d83028863222f" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_FileButton_clicked</name></member>
+      <member refid="classMainWindow_1a4de79c63c7fa0b8d7c468ac71f20be81" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_pushButton_clicked</name></member>
+      <member refid="classMainWindow_1a1cc2a1627f61fe722cd05630464612f0" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_Save_clicked</name></member>
+      <member refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>ui</name></member>
+      <member refid="classMainWindow_1a59351bdf1235b640a416121e7b8d89d3" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>update_window</name></member>
+      <member refid="classMainWindow_1ae98d00a93bc118200eeef9f9bba1dba7" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>~MainWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

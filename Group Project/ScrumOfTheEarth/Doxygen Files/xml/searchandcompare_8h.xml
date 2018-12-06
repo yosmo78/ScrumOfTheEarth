@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="searchandcompare_8h" kind="file" language="C++">
+    <compoundname>searchandcompare.h</compoundname>
+    <includes refid="vector_8h" local="yes">vector.h</includes>
+    <includes refid="shape_8h" local="yes">shape.h</includes>
+    <includedby refid="mainwindow_8cpp" local="yes">Group Project/ScrumOfTheEarth/mainwindow.cpp</includedby>
+    <includedby refid="searchandcompare_8cpp" local="yes">Group Project/ScrumOfTheEarth/searchandcompare.cpp</includedby>
+    <incdepgraph>
+      <node id="1343">
+        <label>QObject</label>
+      </node>
+      <node id="1341">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="1342" relation="include">
+        </childnode>
+        <childnode refid="1343" relation="include">
+        </childnode>
+        <childnode refid="1339" relation="include">
+        </childnode>
+      </node>
+      <node id="1339">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="1340" relation="include">
+        </childnode>
+      </node>
+      <node id="1342">
+        <label>QPainter</label>
+      </node>
+      <node id="1338">
+        <label>Group Project/ScrumOfTheEarth/searchandcompare.h</label>
+        <link refid="searchandcompare.h"/>
+        <childnode refid="1339" relation="include">
+        </childnode>
+        <childnode refid="1341" relation="include">
+        </childnode>
+      </node>
+      <node id="1340">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1346">
+        <label>Group Project/ScrumOfTheEarth/searchandcompare.cpp</label>
+        <link refid="searchandcompare_8cpp"/>
+      </node>
+      <node id="1345">
+        <label>Group Project/ScrumOfTheEarth/mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+      </node>
+      <node id="1344">
+        <label>Group Project/ScrumOfTheEarth/searchandcompare.h</label>
+        <link refid="searchandcompare.h"/>
+        <childnode refid="1345" relation="include">
+        </childnode>
+        <childnode refid="1346" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="searchandcompare_8h_1a474fd352edcedaea9235d8708336d6e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool cmpId</definition>
+        <argsstring>(Shape *s1, Shape *s2)</argsstring>
+        <name>cmpId</name>
+        <param>
+          <type><ref refid="classShape" kindref="compound">Shape</ref> *</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type><ref refid="classShape" kindref="compound">Shape</ref> *</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+<para>cmpId compares the id of two shapes and returns true if the id of the first shape is greater. Otherwise, false </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classShape" kindref="compound">Shape</ref> 1 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>s2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classShape" kindref="compound">Shape</ref> 2 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool <ref refid="classShape" kindref="compound">Shape</ref> 1&apos;s id is greater or not </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/searchandcompare.h" line="14" column="1" bodyfile="Group Project/ScrumOfTheEarth/searchandcompare.cpp" bodystart="3" bodyend="3"/>
+      </memberdef>
+      <memberdef kind="function" id="searchandcompare_8h_1a55d382d6ff217cba8f8a1d647d3f5e02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool cmpArea</definition>
+        <argsstring>(Shape *s1, Shape *s2)</argsstring>
+        <name>cmpArea</name>
+        <param>
+          <type><ref refid="classShape" kindref="compound">Shape</ref> *</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type><ref refid="classShape" kindref="compound">Shape</ref> *</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+<para>cmpArea compares the area of two shapes and returns true if the area of the first shape is greater. Otherwise, false </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classShape" kindref="compound">Shape</ref> 1 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>s2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classShape" kindref="compound">Shape</ref> 2 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool <ref refid="classShape" kindref="compound">Shape</ref> 1&apos;s perimeter is greater or not </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/searchandcompare.h" line="21" column="1" bodyfile="Group Project/ScrumOfTheEarth/searchandcompare.cpp" bodystart="4" bodyend="4"/>
+      </memberdef>
+      <memberdef kind="function" id="searchandcompare_8h_1ab91f3b00a32d9f439cecf4f29ce6eb29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool cmpPeri</definition>
+        <argsstring>(Shape *s1, Shape *s2)</argsstring>
+        <name>cmpPeri</name>
+        <param>
+          <type><ref refid="classShape" kindref="compound">Shape</ref> *</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type><ref refid="classShape" kindref="compound">Shape</ref> *</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+<para>cmpPeri compares the perimeter of two shapes and returns true if the perimeter of the first shape is greater. Otherwise, false </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classShape" kindref="compound">Shape</ref> 1 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>s2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classShape" kindref="compound">Shape</ref> 2 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool <ref refid="classShape" kindref="compound">Shape</ref> 1&apos;s perimeter is greater or not </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/searchandcompare.h" line="29" column="1" bodyfile="Group Project/ScrumOfTheEarth/searchandcompare.cpp" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="function" id="searchandcompare_8h_1a4eb63ab42e0f441cc4158b619f33cd55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int findShape</definition>
+        <argsstring>(myStd::vector&lt; Shape * &gt;, unsigned int)</argsstring>
+        <name>findShape</name>
+        <param>
+          <type><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector</ref>&lt; <ref refid="classShape" kindref="compound">Shape</ref> * &gt;</type>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>int</declname>
+        </param>
+        <briefdescription>
+<para>findShape finds a shape with the given id in the given vector of shape pointers </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/searchandcompare.h" line="35" column="1" bodyfile="Group Project/ScrumOfTheEarth/searchandcompare.cpp" bodystart="7" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="searchandcompare_8h_1a742638b7b3ac69d2e7c4f5074fde8481" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void selection_sort</definition>
+        <argsstring>(myStd::vector&lt; T &gt; &amp;vec, bool(*cmp)(T, T))</argsstring>
+        <name>selection_sort</name>
+        <param>
+          <type><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector</ref>&lt; T &gt; &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <param>
+          <type>bool(*)(T, T)</type>
+          <declname>cmp</declname>
+        </param>
+        <briefdescription>
+<para>sorts a given vector of type T with any comparison function </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/searchandcompare.h" line="40" column="1" bodyfile="Group Project/ScrumOfTheEarth/searchandcompare.h" bodystart="40" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="2"><highlight class="preprocessor">#ifndef<sp/>SEARCHANDCOMPARE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SEARCHANDCOMPARE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vector_8h" kindref="compound">vector.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="shape_8h" kindref="compound">shape.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="searchandcompare_8h_1a474fd352edcedaea9235d8708336d6e0" kindref="member">cmpId</ref>(<ref refid="classShape" kindref="compound">Shape</ref>*<sp/>s1,<sp/><ref refid="classShape" kindref="compound">Shape</ref>*<sp/>s2);<sp/></highlight><highlight class="comment">//checks<sp/>to<sp/>see<sp/>if<sp/>first<sp/>shape<sp/>is<sp/>greater<sp/>than<sp/>second<sp/>shape</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="searchandcompare_8h_1a55d382d6ff217cba8f8a1d647d3f5e02" kindref="member">cmpArea</ref>(<ref refid="classShape" kindref="compound">Shape</ref>*<sp/>s1,<sp/><ref refid="classShape" kindref="compound">Shape</ref>*<sp/>s2);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="searchandcompare_8h_1ab91f3b00a32d9f439cecf4f29ce6eb29" kindref="member">cmpPeri</ref>(<ref refid="classShape" kindref="compound">Shape</ref>*<sp/>s1,<sp/><ref refid="classShape" kindref="compound">Shape</ref>*<sp/>s2);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="searchandcompare_8h_1a4eb63ab42e0f441cc4158b619f33cd55" kindref="member">findShape</ref>(<ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;Shape*&gt;</ref>,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="searchandcompare_8h_1a742638b7b3ac69d2e7c4f5074fde8481" refkind="member"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="searchandcompare_8h_1a742638b7b3ac69d2e7c4f5074fde8481" kindref="member">selection_sort</ref>(<ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;T&gt;</ref><sp/>&amp;vec,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">(*cmp)(T,<sp/>T))</highlight><highlight class="comment">//cmp<sp/>returns<sp/>true<sp/>if<sp/>object<sp/>one<sp/>is<sp/>greater/smaller<sp/>than<sp/>object<sp/>2.<sp/>Pass<sp/>in<sp/>vector<sp/>and<sp/>cmp<sp/>function<sp/>name<sp/>to<sp/>use</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;T&gt;</ref><sp/>temp;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size<sp/>=<sp/>vec.<ref refid="classmyStd_1_1vector_1a33ebe4dab379f466c8d3a2f08d9aa554" kindref="member">size</ref>();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>T<sp/>smallest;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>smallIndex;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/>T<sp/>swap;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>size;<sp/>++i)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>smallest<sp/>=<sp/>vec[i];</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>smallIndex<sp/>=<sp/>i;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>i+1;j<sp/>&lt;<sp/>size;<sp/>++j)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(cmp(smallest,<sp/>vec[j]))</highlight><highlight class="comment">//search<sp/>for<sp/>smallest<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>smallest<sp/>=<sp/>vec[j];</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>smallIndex<sp/>=<sp/>j;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>swap<sp/>=<sp/>vec[i];</highlight><highlight class="comment">//swaps<sp/>contents<sp/>of<sp/>two<sp/>values</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>vec[i]<sp/>=<sp/>vec[smallIndex];</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>vec[smallIndex]<sp/>=<sp/>swap;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SEARCHANDCOMPARE_H</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/searchandcompare.h"/>
+  </compounddef>
+</doxygen>

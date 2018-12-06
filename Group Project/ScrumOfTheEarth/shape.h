@@ -1,13 +1,16 @@
+/*! \file */
 #ifndef SHAPE_H
 #define SHAPE_H
 #include <QPainter>
 #include <QObject>
 #include "vector.h"
 
-//! \class Shape
+//virtual function is in here, two overloaded operators are here
+//all other shapes inherit from here, so inheritance, and most other shapes compose QStrings
+
 /*!
-    Base Class Shape outlines the structure of shapes that can be drawn on a QPaintDevice
-*/
+ * \brief Abstract Base Class for shapes that get rendered by the QPainter
+ */
 class Shape: public QObject
 {
     Q_OBJECT
@@ -15,71 +18,86 @@ class Shape: public QObject
     public:
 
         /*!
-         * Sets the shape id to i
-         *
+         * \brief Sets the shape id to the given id
+         * \param id
          */
         void setShapeId(unsigned int i){id =i;}
 
         /*!
-         *  Returns the shape id
+         * \brief Gets the shape id of the Shape
+         * \return id
          */
         unsigned int getShapeId(){return id;}
 
         /*!
-         *  Virtual function called to draw shapes
+         * \brief Virtual function to draw shapes
          */
         virtual void draw(QPainter &, bool) = 0;
 
         /*!
-         *  Constructor with id
+         * \brief Shape constructor with id
+         * \param id
          */
         Shape(unsigned int id): id(id){}
 
         /*!
-         *  Copy Constructor (Disabled)
+         * \brief Shape copy constructor (Disabled)
          */
         Shape(const Shape&) = delete;
         /*!
-         *  Copy Assignment (Disabled)
+         * \brief operator =  copy assignment (disabled)
+         * \return This Shape
          */
         Shape& operator=(const Shape&) = delete;
 
         /*!
-         *  Checks to see if ids are equal
+         * \brief Checks to see if two Shape ids are equal
+         * \param Shape 2
+         * \return result of comparison
          */
         bool operator==(const Shape& s2){return id == s2.id;}
 
         /*!
-         *  Operator< checks to see if id is less than Shape 2's id
+         * \brief Checks to see if Shape 1's id is less than Shape 2's id
+         * \param Shape 2
+         * \return result of comparison
          */
         bool operator<(const Shape& s2){return id<s2.id;}
 
         /*!
-         *  Virtual function to return area of shape
+         * \brief Gets the area of the given shape
+         * \return Area as a double
          */
         virtual double getArea(){return 0.0;}
 
         /*!
-         *  Virtual function to return perimeter of shape
+         * \brief Gets the perimeter of the given shape
+         * \return Perimeter as a double
          */
         virtual double getPerimeter(){return 0.0;}
 
         /*!
-         *  Virtual function that is used to demarcate the type of the derived class
+         * \brief Gets the type of the shape
+         * \return type as an int
          */
         virtual int getType() = 0;
 
         /*!
-         *  Shape Destructor
+         * \brief ~Shape
          */
         virtual ~Shape(){}
     private:
 
         /*!
-         *  Shape's id
+         * \brief id of shape
          */
         unsigned int id;
 };
 
+/*!
+ * \brief Saves a vector of shape pointers to a file
+ * \param vector of shapes
+ * \param filename as c-string
+ */
 void shape_saver(myStd::vector<Shape*>& vec, const char* filename);
 #endif // SHAPE_H

@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="pop__table_8h" kind="file" language="C++">
+    <compoundname>pop_table.h</compoundname>
+    <includes refid="vector_8h" local="yes">vector.h</includes>
+    <includes local="no">QTableWidget</includes>
+    <includes refid="shape_8h" local="yes">shape.h</includes>
+    <includedby refid="mainwindow_8cpp" local="yes">Group Project/ScrumOfTheEarth/mainwindow.cpp</includedby>
+    <includedby refid="pop__table_8cpp" local="yes">Group Project/ScrumOfTheEarth/pop_table.cpp</includedby>
+    <incdepgraph>
+      <node id="1281">
+        <label>Group Project/ScrumOfTheEarth/pop_table.h</label>
+        <link refid="pop_table.h"/>
+        <childnode refid="1282" relation="include">
+        </childnode>
+        <childnode refid="1284" relation="include">
+        </childnode>
+        <childnode refid="1285" relation="include">
+        </childnode>
+      </node>
+      <node id="1287">
+        <label>QObject</label>
+      </node>
+      <node id="1285">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="1286" relation="include">
+        </childnode>
+        <childnode refid="1287" relation="include">
+        </childnode>
+        <childnode refid="1282" relation="include">
+        </childnode>
+      </node>
+      <node id="1282">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="1283" relation="include">
+        </childnode>
+      </node>
+      <node id="1286">
+        <label>QPainter</label>
+      </node>
+      <node id="1284">
+        <label>QTableWidget</label>
+      </node>
+      <node id="1283">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1288">
+        <label>Group Project/ScrumOfTheEarth/pop_table.h</label>
+        <link refid="pop_table.h"/>
+        <childnode refid="1289" relation="include">
+        </childnode>
+        <childnode refid="1290" relation="include">
+        </childnode>
+      </node>
+      <node id="1289">
+        <label>Group Project/ScrumOfTheEarth/mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+      </node>
+      <node id="1290">
+        <label>Group Project/ScrumOfTheEarth/pop_table.cpp</label>
+        <link refid="pop__table_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="pop__table_8h_1a7cfa9abf76a3ab65ebd5506ad1ee21f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void pop_Atable</definition>
+        <argsstring>(QTableWidget *, myStd::vector&lt; Shape * &gt;)</argsstring>
+        <name>pop_Atable</name>
+        <param>
+          <type>QTableWidget *</type>
+        </param>
+        <param>
+          <type><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector</ref>&lt; <ref refid="classShape" kindref="compound">Shape</ref> * &gt;</type>
+        </param>
+        <briefdescription>
+<para>pop_Atable populates a given table with shape types, ids, and areas from a vector of <ref refid="classShape" kindref="compound">Shape</ref> pointers </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/pop_table.h" line="10" column="1" bodyfile="Group Project/ScrumOfTheEarth/pop_table.cpp" bodystart="14" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="pop__table_8h_1a3a41a87f334ddb881f4532c8080f7101" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void pop_Ptable</definition>
+        <argsstring>(QTableWidget *, myStd::vector&lt; Shape * &gt;)</argsstring>
+        <name>pop_Ptable</name>
+        <param>
+          <type>QTableWidget *</type>
+        </param>
+        <param>
+          <type><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector</ref>&lt; <ref refid="classShape" kindref="compound">Shape</ref> * &gt;</type>
+        </param>
+        <briefdescription>
+<para>pop_Ptable populates a given table with shape types, ids, and perimeters from a vector of <ref refid="classShape" kindref="compound">Shape</ref> pointers </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/pop_table.h" line="14" column="1" bodyfile="Group Project/ScrumOfTheEarth/pop_table.cpp" bodystart="91" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="pop__table_8h_1a6f42cb3c5185e6fdaf9c12c620c5b87f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void fill_table</definition>
+        <argsstring>(QTableWidget *, myStd::vector&lt; Shape * &gt;)</argsstring>
+        <name>fill_table</name>
+        <param>
+          <type>QTableWidget *</type>
+        </param>
+        <param>
+          <type><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector</ref>&lt; <ref refid="classShape" kindref="compound">Shape</ref> * &gt;</type>
+        </param>
+        <briefdescription>
+<para>fill_table populates a given table with all aspects of the Shapes form a vector of <ref refid="classShape" kindref="compound">Shape</ref> pointers </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/pop_table.h" line="18" column="1" bodyfile="Group Project/ScrumOfTheEarth/pop_table.cpp" bodystart="168" bodyend="517"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="2"><highlight class="preprocessor">#ifndef<sp/>POP_TABLE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>POP_TABLE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vector_8h" kindref="compound">vector.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QTableWidget&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="shape_8h" kindref="compound">shape.h</ref>&quot;</highlight></codeline>
+<codeline lineno="10"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="pop__table_8h_1a7cfa9abf76a3ab65ebd5506ad1ee21f2" kindref="member">pop_Atable</ref>(QTableWidget*,<sp/><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;Shape*&gt;</ref>);</highlight><highlight class="comment">//fills<sp/>table<sp/>with<sp/>area</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="pop__table_8h_1a3a41a87f334ddb881f4532c8080f7101" kindref="member">pop_Ptable</ref>(QTableWidget*,<sp/><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;Shape*&gt;</ref>);</highlight><highlight class="comment">//fills<sp/>table<sp/>with<sp/>perimeter</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="pop__table_8h_1a6f42cb3c5185e6fdaf9c12c620c5b87f" kindref="member">fill_table</ref>(QTableWidget*,<sp/><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;Shape*&gt;</ref>);</highlight><highlight class="comment">//fills<sp/>table<sp/>up<sp/>with<sp/>all<sp/>parameters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>POP_TABLE_H</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/pop_table.h"/>
+  </compounddef>
+</doxygen>

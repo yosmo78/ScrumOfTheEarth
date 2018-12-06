@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classWindow" kind="class" language="C++" prot="public">
+    <compoundname>Window</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMainWindow</basecompoundref>
+    <includes refid="window_8h" local="no">window.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classWindow_1a25e6c90561394c36b5012b2c8e74a72c" prot="private" static="no" mutable="no">
+        <type>Ui::Window *</type>
+        <definition>Ui::Window* Window::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/window.h" line="65" column="1" bodyfile="Group Project/ScrumOfTheEarth/window.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWindow_1a2ac30d6f487242a5933f5559e3ed30fd" prot="private" static="no" mutable="no">
+        <type><ref refid="classContactUs" kindref="compound">ContactUs</ref> *</type>
+        <definition>ContactUs* Window::contactus</definition>
+        <argsstring></argsstring>
+        <name>contactus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/window.h" line="66" column="1" bodyfile="Group Project/ScrumOfTheEarth/window.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWindow_1a0654f408778e38125cda702384aaa33c" prot="private" static="no" mutable="no">
+        <type><ref refid="classMainWindow" kindref="compound">MainWindow</ref> *</type>
+        <definition>MainWindow* Window::mainwindow</definition>
+        <argsstring></argsstring>
+        <name>mainwindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/window.h" line="67" column="1" bodyfile="Group Project/ScrumOfTheEarth/window.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classWindow_1a8c86e48ef3180201cc97cb928abd66ca" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Window::Window</definition>
+        <argsstring>(QWidget *parent=nullptr)</argsstring>
+        <name>Window</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="classWindow" kindref="compound">Window</ref> constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>window </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/window.h" line="26" column="1" bodyfile="Group Project/ScrumOfTheEarth/window.cpp" bodystart="6" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classWindow_1a245d821e6016fa1f6970ccbbedd635f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Window::~Window</definition>
+        <argsstring>()</argsstring>
+        <name>~Window</name>
+        <briefdescription>
+<para><ref refid="classWindow" kindref="compound">Window</ref> destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/window.h" line="31" column="1" bodyfile="Group Project/ScrumOfTheEarth/window.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classWindow_1a95e17d72a8ebd095dc3435cda721d35e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::on_pushButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_clicked</name>
+        <briefdescription>
+<para>Attempts to login with entered username and password when clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/window.h" line="37" column="1" bodyfile="Group Project/ScrumOfTheEarth/window.cpp" bodystart="18" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWindow_1af8f89c92e0e37179cc7d5b8333c054c1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::on_PassText_returnPressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_PassText_returnPressed</name>
+        <briefdescription>
+<para>Attempts to login with entered username and password when enter pressed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/window.h" line="42" column="1" bodyfile="Group Project/ScrumOfTheEarth/window.cpp" bodystart="36" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWindow_1a33cd06d1f5b996659e3ce22d066782ed" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::on_Contact_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_Contact_clicked</name>
+        <briefdescription>
+<para>Displays contact info when clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/window.h" line="47" column="1" bodyfile="Group Project/ScrumOfTheEarth/window.cpp" bodystart="55" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWindow_1ae41de27b3a0f59f88b290ad07a8d09d0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::on_GuestLogin_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_GuestLogin_clicked</name>
+        <briefdescription>
+<para>Log in as guest when clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/window.h" line="52" column="1" bodyfile="Group Project/ScrumOfTheEarth/window.cpp" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWindow_1a2d7e51c5e8b97c059f619e23f8df8ada" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Window::Check_Admin</definition>
+        <argsstring>(std::string, std::string, std::string)</argsstring>
+        <name>Check_Admin</name>
+        <param>
+          <type>std::string</type>
+        </param>
+        <param>
+          <type>std::string</type>
+        </param>
+        <param>
+          <type>std::string</type>
+        </param>
+        <briefdescription>
+<para>Check_Admin verifies if the username and password correspond to being an admin. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/window.h" line="58" column="1" bodyfile="Group Project/ScrumOfTheEarth/admin_check.cpp" bodystart="6" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWindow_1a69de71dbc06cf2f0353d58af8900e218" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::create_login_file</definition>
+        <argsstring>()</argsstring>
+        <name>create_login_file</name>
+        <briefdescription>
+<para>Creates a login file with the internal string. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/window.h" line="63" column="1" bodyfile="Group Project/ScrumOfTheEarth/create_login_file.cpp" bodystart="3" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="classWindow" kindref="compound">Window</ref> class displays the login window and provides functionality for it. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="170">
+        <label>Window</label>
+        <link refid="classWindow"/>
+        <childnode refid="171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="171">
+        <label>QMainWindow</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="172">
+        <label>Window</label>
+        <link refid="classWindow"/>
+        <childnode refid="173" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="173">
+        <label>QMainWindow</label>
+      </node>
+    </collaborationgraph>
+    <location file="Group Project/ScrumOfTheEarth/window.h" line="18" column="1" bodyfile="Group Project/ScrumOfTheEarth/window.h" bodystart="17" bodyend="68"/>
+    <listofallmembers>
+      <member refid="classWindow_1a2d7e51c5e8b97c059f619e23f8df8ada" prot="private" virt="non-virtual"><scope>Window</scope><name>Check_Admin</name></member>
+      <member refid="classWindow_1a2ac30d6f487242a5933f5559e3ed30fd" prot="private" virt="non-virtual"><scope>Window</scope><name>contactus</name></member>
+      <member refid="classWindow_1a69de71dbc06cf2f0353d58af8900e218" prot="private" virt="non-virtual"><scope>Window</scope><name>create_login_file</name></member>
+      <member refid="classWindow_1a0654f408778e38125cda702384aaa33c" prot="private" virt="non-virtual"><scope>Window</scope><name>mainwindow</name></member>
+      <member refid="classWindow_1a33cd06d1f5b996659e3ce22d066782ed" prot="private" virt="non-virtual"><scope>Window</scope><name>on_Contact_clicked</name></member>
+      <member refid="classWindow_1ae41de27b3a0f59f88b290ad07a8d09d0" prot="private" virt="non-virtual"><scope>Window</scope><name>on_GuestLogin_clicked</name></member>
+      <member refid="classWindow_1af8f89c92e0e37179cc7d5b8333c054c1" prot="private" virt="non-virtual"><scope>Window</scope><name>on_PassText_returnPressed</name></member>
+      <member refid="classWindow_1a95e17d72a8ebd095dc3435cda721d35e" prot="private" virt="non-virtual"><scope>Window</scope><name>on_pushButton_clicked</name></member>
+      <member refid="classWindow_1a25e6c90561394c36b5012b2c8e74a72c" prot="private" virt="non-virtual"><scope>Window</scope><name>ui</name></member>
+      <member refid="classWindow_1a8c86e48ef3180201cc97cb928abd66ca" prot="public" virt="non-virtual"><scope>Window</scope><name>Window</name></member>
+      <member refid="classWindow_1a245d821e6016fa1f6970ccbbedd635f6" prot="public" virt="non-virtual"><scope>Window</scope><name>~Window</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

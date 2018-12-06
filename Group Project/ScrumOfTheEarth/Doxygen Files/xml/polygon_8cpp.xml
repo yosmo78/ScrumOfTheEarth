@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="polygon_8cpp" kind="file" language="C++">
+    <compoundname>polygon.cpp</compoundname>
+    <includes refid="polygon_8h" local="yes">polygon.h</includes>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="1198">
+        <label>QObject</label>
+      </node>
+      <node id="1196">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="1197" relation="include">
+        </childnode>
+        <childnode refid="1198" relation="include">
+        </childnode>
+        <childnode refid="1199" relation="include">
+        </childnode>
+      </node>
+      <node id="1201">
+        <label>cmath</label>
+      </node>
+      <node id="1199">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="1200" relation="include">
+        </childnode>
+      </node>
+      <node id="1197">
+        <label>QPainter</label>
+      </node>
+      <node id="1202">
+        <label>iostream</label>
+      </node>
+      <node id="1194">
+        <label>Group Project/ScrumOfTheEarth/polygon.cpp</label>
+        <link refid="polygon.cpp"/>
+        <childnode refid="1195" relation="include">
+        </childnode>
+        <childnode refid="1202" relation="include">
+        </childnode>
+      </node>
+      <node id="1200">
+        <label>algorithm</label>
+      </node>
+      <node id="1195">
+        <label>polygon.h</label>
+        <link refid="polygon_8h"/>
+        <childnode refid="1196" relation="include">
+        </childnode>
+        <childnode refid="1199" relation="include">
+        </childnode>
+        <childnode refid="1201" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="polygon_8h" kindref="compound">polygon.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><ref refid="classPolygon_1ad85ab576e63cdafd2d0a821a7cebd40a" kindref="member">Polygon::Polygon</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;QPoint&gt;</ref><sp/>vec,<sp/>Qt::GlobalColor<sp/>pc,<sp/>Qt::GlobalColor<sp/>bc,<sp/>Qt::PenStyle<sp/>ps,<sp/><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/>pcs,<sp/><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/>pjs,<sp/><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref><sp/>bs,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pw):</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classShape" kindref="compound">Shape</ref>(i),<sp/>polyPoint(vec),penColor(pc),<sp/>brushColor(bc),penStyle(ps),penCapStyle(pcs),penJoinStyle(pjs),brushStyle(bs),penWidth(pw){}</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPolygon_1a324e212e7f096a104f84fb854be50215" kindref="member">Polygon::draw</ref>(QPainter&amp;<sp/>paint,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Id)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/>QBrush<sp/>b(brushColor,brushStyle);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/>QBrush<sp/>p(penColor);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/>QPen<sp/>pen(p,qreal(penWidth),penStyle,penCapStyle,penJoinStyle);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/>paint.setPen(pen);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/>paint.setBrush(b);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/>paint.drawPolygon(polyPoint.begin(),polyPoint.size());</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minX<sp/>=<sp/>1000000,maxX<sp/>=<sp/>0,minY<sp/>=<sp/>100000,maxY<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><ref refid="classmyStd_1_1vector_1ae8f53b1db01169b861f0299f9ced0e37" kindref="member">myStd::vector&lt;QPoint&gt;::const_iterator</ref><sp/>tmp<sp/>=<sp/>polyPoint.begin();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>=<sp/>0;index<sp/>&lt;<sp/>polyPoint.size()<sp/>;++index)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tmp[index].x()<sp/>&lt;<sp/>minX)<sp/>minX<sp/>=<sp/>tmp[index].x();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tmp[index].x()<sp/>&gt;<sp/>maxX)<sp/>maxX<sp/>=<sp/>tmp[index].x();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tmp[index].y()<sp/>&gt;<sp/>maxY)<sp/>maxY<sp/>=<sp/>tmp[index].y();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tmp[index].y()<sp/>&lt;<sp/>minY)<sp/>minY<sp/>=<sp/>tmp[index].y();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/></highlight><highlight class="comment">//std::cerr<sp/>&lt;&lt;<sp/>minY<sp/>&lt;&lt;<sp/>maxY;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/></highlight><highlight class="comment">//paint.drawText((((minX+<sp/>maxX)/2)<sp/>-<sp/>3<sp/>*<sp/>std::to_string(getShapeId()).length()),<sp/>minY<sp/>-<sp/>penWidth,QString::fromStdString(std::to_string(getShapeId())));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Id)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>paint.drawText(((minX+maxX)/2)-(3*std::to_string(getShapeId()).length()),<sp/>maxY<sp/>-(maxY-minY)<sp/>,QString::fromStdString(std::to_string(getShapeId())));</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/polygon.cpp"/>
+  </compounddef>
+</doxygen>

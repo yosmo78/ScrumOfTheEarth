@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classShape.html" title="Abstract Base Class for shapes that get rendered by the QPainter. " alt="" coords="124,183,183,209"/>
+<area shape="rect" id="node3" href="$classCircle.html" title="Circle class that QPainter can draw. " alt="" coords="243,5,299,32"/>
+<area shape="rect" id="node4" href="$classEllipse.html" title="Ellipse class that QPainter can draw. " alt="" coords="241,56,302,83"/>
+<area shape="rect" id="node5" href="$classLine.html" title="Line class that QPainter can draw. " alt="" coords="248,107,295,133"/>
+<area shape="rect" id="node6" href="$classPolygon.html" title="Polygon class that QPainter can draw. " alt="" coords="237,157,306,184"/>
+<area shape="rect" id="node7" href="$classPolyline.html" title="Polyline class that QPainter can draw. " alt="" coords="237,208,305,235"/>
+<area shape="rect" id="node8" href="$classRectangle.html" title="Rectangle class that QPainter can draw. " alt="" coords="231,259,312,285"/>
+<area shape="rect" id="node9" href="$classSquare.html" title="Square class that QPainter can draw. " alt="" coords="240,309,303,336"/>
+<area shape="rect" id="node10" href="$classText.html" title="Text class that QPainter can draw. " alt="" coords="247,360,295,387"/>
+</map>

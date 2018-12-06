@@ -1,0 +1,384 @@
+\hypertarget{classLine}{}\section{Line Class Reference}
+\label{classLine}\index{Line@{Line}}
+
+
+\hyperlink{classLine}{Line} class that Q\+Painter can draw.  
+
+
+
+
+{\ttfamily \#include $<$line.\+h$>$}
+
+
+
+Inheritance diagram for Line\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classLine__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Line\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classLine__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classLine_abcc71f5940d76af54fb2a8406418dd44}{Line} (unsigned int, int, int, int, int, Qt\+::\+Global\+Color, Qt\+::\+Pen\+Style, \hyperlink{shape__input__file__specs_8txt_a622efdcfef6789d4367974d2fe79019e}{Qt\+::\+Pen\+Cap\+Style}, \hyperlink{shape__input__file__specs_8txt_a007db2043c6063881de2043c05c9c4a9}{Qt\+::\+Pen\+Join\+Style}, int)
+\begin{DoxyCompactList}\small\item\em All parameter constructor for \hyperlink{classLine}{Line}. \end{DoxyCompactList}\item 
+Q\+Point \hyperlink{classLine_ad0f6a573ebd8220236e7de8202717f97}{get\+Point1} ()
+\begin{DoxyCompactList}\small\item\em Gets the first point of the line. \end{DoxyCompactList}\item 
+Q\+Point \hyperlink{classLine_aa64a85c213850620e2ca3df153fe7846}{get\+Point2} ()
+\begin{DoxyCompactList}\small\item\em Gets the second point of the line. \end{DoxyCompactList}\item 
+void \hyperlink{classLine_a671e977e9b5cb104016def1e9e99c5aa}{set\+Point1} (Q\+Point p1)
+\begin{DoxyCompactList}\small\item\em Sets the first point to the given point. \end{DoxyCompactList}\item 
+void \hyperlink{classLine_acd4ccc2b472817c45f52297c99a8cbf9}{set\+Point2} (Q\+Point p2)
+\begin{DoxyCompactList}\small\item\em Sets the second point to the given point. \end{DoxyCompactList}\item 
+Qt\+::\+Global\+Color \hyperlink{classLine_a2d9f0fdcc2da8a29ba39660579150863}{get\+Pen\+Color} ()
+\begin{DoxyCompactList}\small\item\em Gets the pen color stored in this shape. \end{DoxyCompactList}\item 
+void \hyperlink{classLine_a22f3c1710429e1dd2e883562feba090e}{set\+Pen\+Color} (Qt\+::\+Global\+Color pc)
+\begin{DoxyCompactList}\small\item\em Sets the color of the pen to the given color. \end{DoxyCompactList}\item 
+Qt\+::\+Pen\+Style \hyperlink{classLine_ab461e7db1a107472e97af08183fccc19}{get\+Pen\+Style} ()
+\begin{DoxyCompactList}\small\item\em Gets the style of the pen stored in the shape. \end{DoxyCompactList}\item 
+void \hyperlink{classLine_ad0c29864440d59e221d4e4af1c3f2899}{set\+Pen\+Style} (Qt\+::\+Pen\+Style ps)
+\begin{DoxyCompactList}\small\item\em Sets the style of the pen to the given style. \end{DoxyCompactList}\item 
+\hyperlink{shape__input__file__specs_8txt_a622efdcfef6789d4367974d2fe79019e}{Qt\+::\+Pen\+Cap\+Style} \hyperlink{classLine_afee8c712228659e647752e7198d6891c}{get\+Pen\+Cap\+Style} ()
+\begin{DoxyCompactList}\small\item\em Gets the pen cap style that is stored in this \hyperlink{classShape}{Shape}. \end{DoxyCompactList}\item 
+void \hyperlink{classLine_a2a3fa8792f5f8e582a6cb902514fcc9c}{set\+Pen\+Cap\+Style} (\hyperlink{shape__input__file__specs_8txt_a622efdcfef6789d4367974d2fe79019e}{Qt\+::\+Pen\+Cap\+Style} pcs)
+\begin{DoxyCompactList}\small\item\em Sets the Pen Cap Style to the given Pen Cap Style. \end{DoxyCompactList}\item 
+\hyperlink{shape__input__file__specs_8txt_a007db2043c6063881de2043c05c9c4a9}{Qt\+::\+Pen\+Join\+Style} \hyperlink{classLine_a070564edc368231e089c8275ccc2e72d}{get\+Pen\+Join\+Style} ()
+\begin{DoxyCompactList}\small\item\em Gets the Pen Join Style. \end{DoxyCompactList}\item 
+void \hyperlink{classLine_ae996ba09d0e9c4d06360955486b00f84}{set\+Pen\+Join\+Style} (\hyperlink{shape__input__file__specs_8txt_a007db2043c6063881de2043c05c9c4a9}{Qt\+::\+Pen\+Join\+Style} pjs)
+\begin{DoxyCompactList}\small\item\em Sets the pen join style to the given style. \end{DoxyCompactList}\item 
+int \hyperlink{classLine_aedbb24685047a4f591fab1b8b7d39125}{get\+Pen\+Width} ()
+\begin{DoxyCompactList}\small\item\em Gets the width of the pen. \end{DoxyCompactList}\item 
+void \hyperlink{classLine_ade580b43a443e60b77bef50ae98493a2}{set\+Pen\+Width} (int pw)
+\begin{DoxyCompactList}\small\item\em Sets the width of the pen to the given width. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classLine_a3bcbb11a1d79a7f9a60cc1aac3ab1bb5}{draw} (Q\+Painter \&paint, bool)
+\begin{DoxyCompactList}\small\item\em Virtual function to draw shapes. \end{DoxyCompactList}\item 
+virtual int \hyperlink{classLine_a249b46f2c7dab063ac4754dbae444468}{get\+Type} ()
+\begin{DoxyCompactList}\small\item\em Gets the type of the shape. \end{DoxyCompactList}\item 
+virtual double \hyperlink{classLine_ad63a55614d118000935e585f3551f630}{get\+Perimeter} ()
+\begin{DoxyCompactList}\small\item\em Gets the perimeter of the given shape. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{classLine_aec5465504d5c944920fd96a7d81c8472}{get\+Static\+Type} ()
+\begin{DoxyCompactList}\small\item\em gets the Type of object \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classLine}{Line} class that Q\+Painter can draw. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Line@{Line}!Line@{Line}}
+\index{Line@{Line}!Line@{Line}}
+\subsubsection[{\texorpdfstring{Line(unsigned int, int, int, int, int, Qt\+::\+Global\+Color, Qt\+::\+Pen\+Style, Qt\+::\+Pen\+Cap\+Style, Qt\+::\+Pen\+Join\+Style, int)}{Line(unsigned int, int, int, int, int, Qt::GlobalColor, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle, int)}}]{\setlength{\rightskip}{0pt plus 5cm}Line\+::\+Line (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{i, }
+\item[{int}]{x1, }
+\item[{int}]{y1, }
+\item[{int}]{x2, }
+\item[{int}]{y2, }
+\item[{Qt\+::\+Global\+Color}]{pc, }
+\item[{Qt\+::\+Pen\+Style}]{ps, }
+\item[{{\bf Qt\+::\+Pen\+Cap\+Style}}]{pcs, }
+\item[{{\bf Qt\+::\+Pen\+Join\+Style}}]{pjs, }
+\item[{int}]{pw}
+\end{DoxyParamCaption}
+)}\hypertarget{classLine_abcc71f5940d76af54fb2a8406418dd44}{}\label{classLine_abcc71f5940d76af54fb2a8406418dd44}
+
+
+All parameter constructor for \hyperlink{classLine}{Line}. 
+
+
+
+\subsection{Member Function Documentation}
+\index{Line@{Line}!draw@{draw}}
+\index{draw@{draw}!Line@{Line}}
+\subsubsection[{\texorpdfstring{draw(\+Q\+Painter \&paint, bool)}{draw(QPainter &paint, bool)}}]{\setlength{\rightskip}{0pt plus 5cm}void Line\+::draw (
+\begin{DoxyParamCaption}
+\item[{Q\+Painter \&}]{, }
+\item[{bool}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classLine_a3bcbb11a1d79a7f9a60cc1aac3ab1bb5}{}\label{classLine_a3bcbb11a1d79a7f9a60cc1aac3ab1bb5}
+
+
+Virtual function to draw shapes. 
+
+
+
+Implements \hyperlink{classShape_a47dae32819e64fb32f3357f31978293f}{Shape}.
+
+\index{Line@{Line}!get\+Pen\+Cap\+Style@{get\+Pen\+Cap\+Style}}
+\index{get\+Pen\+Cap\+Style@{get\+Pen\+Cap\+Style}!Line@{Line}}
+\subsubsection[{\texorpdfstring{get\+Pen\+Cap\+Style()}{getPenCapStyle()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Qt\+::\+Pen\+Cap\+Style} Line\+::get\+Pen\+Cap\+Style (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classLine_afee8c712228659e647752e7198d6891c}{}\label{classLine_afee8c712228659e647752e7198d6891c}
+
+
+Gets the pen cap style that is stored in this \hyperlink{classShape}{Shape}. 
+
+\begin{DoxyReturn}{Returns}
+Pen\+Cap\+Style 
+\end{DoxyReturn}
+\index{Line@{Line}!get\+Pen\+Color@{get\+Pen\+Color}}
+\index{get\+Pen\+Color@{get\+Pen\+Color}!Line@{Line}}
+\subsubsection[{\texorpdfstring{get\+Pen\+Color()}{getPenColor()}}]{\setlength{\rightskip}{0pt plus 5cm}Qt\+::\+Global\+Color Line\+::get\+Pen\+Color (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classLine_a2d9f0fdcc2da8a29ba39660579150863}{}\label{classLine_a2d9f0fdcc2da8a29ba39660579150863}
+
+
+Gets the pen color stored in this shape. 
+
+\begin{DoxyReturn}{Returns}
+Color of the pen 
+\end{DoxyReturn}
+\index{Line@{Line}!get\+Pen\+Join\+Style@{get\+Pen\+Join\+Style}}
+\index{get\+Pen\+Join\+Style@{get\+Pen\+Join\+Style}!Line@{Line}}
+\subsubsection[{\texorpdfstring{get\+Pen\+Join\+Style()}{getPenJoinStyle()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Qt\+::\+Pen\+Join\+Style} Line\+::get\+Pen\+Join\+Style (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classLine_a070564edc368231e089c8275ccc2e72d}{}\label{classLine_a070564edc368231e089c8275ccc2e72d}
+
+
+Gets the Pen Join Style. 
+
+\begin{DoxyReturn}{Returns}
+Pen\+Join\+Style 
+\end{DoxyReturn}
+\index{Line@{Line}!get\+Pen\+Style@{get\+Pen\+Style}}
+\index{get\+Pen\+Style@{get\+Pen\+Style}!Line@{Line}}
+\subsubsection[{\texorpdfstring{get\+Pen\+Style()}{getPenStyle()}}]{\setlength{\rightskip}{0pt plus 5cm}Qt\+::\+Pen\+Style Line\+::get\+Pen\+Style (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classLine_ab461e7db1a107472e97af08183fccc19}{}\label{classLine_ab461e7db1a107472e97af08183fccc19}
+
+
+Gets the style of the pen stored in the shape. 
+
+\begin{DoxyReturn}{Returns}
+Style of the pen 
+\end{DoxyReturn}
+\index{Line@{Line}!get\+Pen\+Width@{get\+Pen\+Width}}
+\index{get\+Pen\+Width@{get\+Pen\+Width}!Line@{Line}}
+\subsubsection[{\texorpdfstring{get\+Pen\+Width()}{getPenWidth()}}]{\setlength{\rightskip}{0pt plus 5cm}int Line\+::get\+Pen\+Width (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classLine_aedbb24685047a4f591fab1b8b7d39125}{}\label{classLine_aedbb24685047a4f591fab1b8b7d39125}
+
+
+Gets the width of the pen. 
+
+\begin{DoxyReturn}{Returns}
+pen\+Width 
+\end{DoxyReturn}
+\index{Line@{Line}!get\+Perimeter@{get\+Perimeter}}
+\index{get\+Perimeter@{get\+Perimeter}!Line@{Line}}
+\subsubsection[{\texorpdfstring{get\+Perimeter()}{getPerimeter()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual double Line\+::get\+Perimeter (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{classLine_ad63a55614d118000935e585f3551f630}{}\label{classLine_ad63a55614d118000935e585f3551f630}
+
+
+Gets the perimeter of the given shape. 
+
+\begin{DoxyReturn}{Returns}
+Perimeter as a double 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classShape_a391744b6bce96df044139dcbd1ae0aa8}{Shape}.
+
+\index{Line@{Line}!get\+Point1@{get\+Point1}}
+\index{get\+Point1@{get\+Point1}!Line@{Line}}
+\subsubsection[{\texorpdfstring{get\+Point1()}{getPoint1()}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Point Line\+::get\+Point1 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classLine_ad0f6a573ebd8220236e7de8202717f97}{}\label{classLine_ad0f6a573ebd8220236e7de8202717f97}
+
+
+Gets the first point of the line. 
+
+\begin{DoxyReturn}{Returns}
+Q\+Point of the first point 
+\end{DoxyReturn}
+\index{Line@{Line}!get\+Point2@{get\+Point2}}
+\index{get\+Point2@{get\+Point2}!Line@{Line}}
+\subsubsection[{\texorpdfstring{get\+Point2()}{getPoint2()}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Point Line\+::get\+Point2 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classLine_aa64a85c213850620e2ca3df153fe7846}{}\label{classLine_aa64a85c213850620e2ca3df153fe7846}
+
+
+Gets the second point of the line. 
+
+\begin{DoxyReturn}{Returns}
+Q\+Point of the second point 
+\end{DoxyReturn}
+\index{Line@{Line}!get\+Static\+Type@{get\+Static\+Type}}
+\index{get\+Static\+Type@{get\+Static\+Type}!Line@{Line}}
+\subsubsection[{\texorpdfstring{get\+Static\+Type()}{getStaticType()}}]{\setlength{\rightskip}{0pt plus 5cm}static int Line\+::get\+Static\+Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}\hypertarget{classLine_aec5465504d5c944920fd96a7d81c8472}{}\label{classLine_aec5465504d5c944920fd96a7d81c8472}
+
+
+gets the Type of object 
+
+\begin{DoxyReturn}{Returns}
+Type as int 
+\end{DoxyReturn}
+\index{Line@{Line}!get\+Type@{get\+Type}}
+\index{get\+Type@{get\+Type}!Line@{Line}}
+\subsubsection[{\texorpdfstring{get\+Type()}{getType()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual int Line\+::get\+Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{classLine_a249b46f2c7dab063ac4754dbae444468}{}\label{classLine_a249b46f2c7dab063ac4754dbae444468}
+
+
+Gets the type of the shape. 
+
+\begin{DoxyReturn}{Returns}
+type as an int 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classShape_a3d15adf2a1d746928f9be98105096eda}{Shape}.
+
+\index{Line@{Line}!set\+Pen\+Cap\+Style@{set\+Pen\+Cap\+Style}}
+\index{set\+Pen\+Cap\+Style@{set\+Pen\+Cap\+Style}!Line@{Line}}
+\subsubsection[{\texorpdfstring{set\+Pen\+Cap\+Style(\+Qt\+::\+Pen\+Cap\+Style pcs)}{setPenCapStyle(Qt::PenCapStyle pcs)}}]{\setlength{\rightskip}{0pt plus 5cm}void Line\+::set\+Pen\+Cap\+Style (
+\begin{DoxyParamCaption}
+\item[{{\bf Qt\+::\+Pen\+Cap\+Style}}]{pcs}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classLine_a2a3fa8792f5f8e582a6cb902514fcc9c}{}\label{classLine_a2a3fa8792f5f8e582a6cb902514fcc9c}
+
+
+Sets the Pen Cap Style to the given Pen Cap Style. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pen\+Cap\+Style} & \\
+\hline
+\end{DoxyParams}
+\index{Line@{Line}!set\+Pen\+Color@{set\+Pen\+Color}}
+\index{set\+Pen\+Color@{set\+Pen\+Color}!Line@{Line}}
+\subsubsection[{\texorpdfstring{set\+Pen\+Color(\+Qt\+::\+Global\+Color pc)}{setPenColor(Qt::GlobalColor pc)}}]{\setlength{\rightskip}{0pt plus 5cm}void Line\+::set\+Pen\+Color (
+\begin{DoxyParamCaption}
+\item[{Qt\+::\+Global\+Color}]{pc}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classLine_a22f3c1710429e1dd2e883562feba090e}{}\label{classLine_a22f3c1710429e1dd2e883562feba090e}
+
+
+Sets the color of the pen to the given color. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pen\+Color} & \\
+\hline
+\end{DoxyParams}
+\index{Line@{Line}!set\+Pen\+Join\+Style@{set\+Pen\+Join\+Style}}
+\index{set\+Pen\+Join\+Style@{set\+Pen\+Join\+Style}!Line@{Line}}
+\subsubsection[{\texorpdfstring{set\+Pen\+Join\+Style(\+Qt\+::\+Pen\+Join\+Style pjs)}{setPenJoinStyle(Qt::PenJoinStyle pjs)}}]{\setlength{\rightskip}{0pt plus 5cm}void Line\+::set\+Pen\+Join\+Style (
+\begin{DoxyParamCaption}
+\item[{{\bf Qt\+::\+Pen\+Join\+Style}}]{pjs}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classLine_ae996ba09d0e9c4d06360955486b00f84}{}\label{classLine_ae996ba09d0e9c4d06360955486b00f84}
+
+
+Sets the pen join style to the given style. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pen\+Join\+Style} & \\
+\hline
+\end{DoxyParams}
+\index{Line@{Line}!set\+Pen\+Style@{set\+Pen\+Style}}
+\index{set\+Pen\+Style@{set\+Pen\+Style}!Line@{Line}}
+\subsubsection[{\texorpdfstring{set\+Pen\+Style(\+Qt\+::\+Pen\+Style ps)}{setPenStyle(Qt::PenStyle ps)}}]{\setlength{\rightskip}{0pt plus 5cm}void Line\+::set\+Pen\+Style (
+\begin{DoxyParamCaption}
+\item[{Qt\+::\+Pen\+Style}]{ps}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classLine_ad0c29864440d59e221d4e4af1c3f2899}{}\label{classLine_ad0c29864440d59e221d4e4af1c3f2899}
+
+
+Sets the style of the pen to the given style. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pen\+Style} & \\
+\hline
+\end{DoxyParams}
+\index{Line@{Line}!set\+Pen\+Width@{set\+Pen\+Width}}
+\index{set\+Pen\+Width@{set\+Pen\+Width}!Line@{Line}}
+\subsubsection[{\texorpdfstring{set\+Pen\+Width(int pw)}{setPenWidth(int pw)}}]{\setlength{\rightskip}{0pt plus 5cm}void Line\+::set\+Pen\+Width (
+\begin{DoxyParamCaption}
+\item[{int}]{pw}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classLine_ade580b43a443e60b77bef50ae98493a2}{}\label{classLine_ade580b43a443e60b77bef50ae98493a2}
+
+
+Sets the width of the pen to the given width. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pen\+Width} & \\
+\hline
+\end{DoxyParams}
+\index{Line@{Line}!set\+Point1@{set\+Point1}}
+\index{set\+Point1@{set\+Point1}!Line@{Line}}
+\subsubsection[{\texorpdfstring{set\+Point1(\+Q\+Point p1)}{setPoint1(QPoint p1)}}]{\setlength{\rightskip}{0pt plus 5cm}void Line\+::set\+Point1 (
+\begin{DoxyParamCaption}
+\item[{Q\+Point}]{p1}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classLine_a671e977e9b5cb104016def1e9e99c5aa}{}\label{classLine_a671e977e9b5cb104016def1e9e99c5aa}
+
+
+Sets the first point to the given point. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Q\+Point} & for the first point \\
+\hline
+\end{DoxyParams}
+\index{Line@{Line}!set\+Point2@{set\+Point2}}
+\index{set\+Point2@{set\+Point2}!Line@{Line}}
+\subsubsection[{\texorpdfstring{set\+Point2(\+Q\+Point p2)}{setPoint2(QPoint p2)}}]{\setlength{\rightskip}{0pt plus 5cm}void Line\+::set\+Point2 (
+\begin{DoxyParamCaption}
+\item[{Q\+Point}]{p2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classLine_acd4ccc2b472817c45f52297c99a8cbf9}{}\label{classLine_acd4ccc2b472817c45f52297c99a8cbf9}
+
+
+Sets the second point to the given point. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Q\+Point} & of the second point \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Group Project/\+Scrum\+Of\+The\+Earth/\hyperlink{line_8h}{line.\+h}\item 
+Group Project/\+Scrum\+Of\+The\+Earth/\hyperlink{line_8cpp}{line.\+cpp}\end{DoxyCompactItemize}

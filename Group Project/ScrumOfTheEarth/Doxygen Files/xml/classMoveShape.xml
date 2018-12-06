@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classMoveShape" kind="class" language="C++" prot="public">
+    <compoundname>MoveShape</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMainWindow</basecompoundref>
+    <includes refid="moveshape_8h" local="no">moveshape.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMoveShape_1a25073cace4faa7e5245157b8807aa64d" prot="private" static="no" mutable="no">
+        <type>Ui::MoveShape *</type>
+        <definition>Ui::MoveShape* MoveShape::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/moveshape.h" line="51" column="1" bodyfile="Group Project/ScrumOfTheEarth/moveshape.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMoveShape_1a44c3ffe8dbfd3fe1ae73259f492a63cb" prot="private" static="no" mutable="no">
+        <type><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector</ref>&lt; <ref refid="classShape" kindref="compound">Shape</ref> * &gt; *</type>
+        <definition>myStd::vector&lt;Shape *&gt;* MoveShape::vecPointer</definition>
+        <argsstring></argsstring>
+        <name>vecPointer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/moveshape.h" line="52" column="1" bodyfile="Group Project/ScrumOfTheEarth/moveshape.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classMoveShape_1a020f54b76f345cc9fa83ba8deb4af9c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MoveShape::update_win</definition>
+        <argsstring>()</argsstring>
+        <name>update_win</name>
+        <briefdescription>
+<para>Updates window whenever a shape is added. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/moveshape.h" line="34" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMoveShape_1a475fca3688eb29093886a0508f8e9b83" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MoveShape::MoveShape</definition>
+        <argsstring>(QWidget *parent, myStd::vector&lt; Shape * &gt; &amp;shapes)</argsstring>
+        <name>MoveShape</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector</ref>&lt; <ref refid="classShape" kindref="compound">Shape</ref> * &gt; &amp;</type>
+          <declname>shapes</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classMoveShape" kindref="compound">MoveShape</ref> constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>window </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shapes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer vector </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/moveshape.h" line="41" column="1" bodyfile="Group Project/ScrumOfTheEarth/moveshape.cpp" bodystart="5" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classMoveShape_1a9790764b1e1ec53da191338e6fa763ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MoveShape::~MoveShape</definition>
+        <argsstring>()</argsstring>
+        <name>~MoveShape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/moveshape.h" line="42" column="1" bodyfile="Group Project/ScrumOfTheEarth/moveshape.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classMoveShape_1aa41a025f6d296308f8d12ad74dd2091d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MoveShape::on_pushButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_clicked</name>
+        <briefdescription>
+<para>Tells program to add shape. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/moveshape.h" line="48" column="1" bodyfile="Group Project/ScrumOfTheEarth/moveshape.cpp" bodystart="18" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="classMoveShape" kindref="compound">MoveShape</ref> class provides the interface and functionality for moving shapes. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="118">
+        <label>QMainWindow</label>
+      </node>
+      <node id="117">
+        <label>MoveShape</label>
+        <link refid="classMoveShape"/>
+        <childnode refid="118" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="120">
+        <label>QMainWindow</label>
+      </node>
+      <node id="119">
+        <label>MoveShape</label>
+        <link refid="classMoveShape"/>
+        <childnode refid="120" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Group Project/ScrumOfTheEarth/moveshape.h" line="26" column="1" bodyfile="Group Project/ScrumOfTheEarth/moveshape.h" bodystart="25" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classMoveShape_1a475fca3688eb29093886a0508f8e9b83" prot="public" virt="non-virtual"><scope>MoveShape</scope><name>MoveShape</name></member>
+      <member refid="classMoveShape_1aa41a025f6d296308f8d12ad74dd2091d" prot="private" virt="non-virtual"><scope>MoveShape</scope><name>on_pushButton_clicked</name></member>
+      <member refid="classMoveShape_1a25073cace4faa7e5245157b8807aa64d" prot="private" virt="non-virtual"><scope>MoveShape</scope><name>ui</name></member>
+      <member refid="classMoveShape_1a020f54b76f345cc9fa83ba8deb4af9c6" prot="public" virt="non-virtual"><scope>MoveShape</scope><name>update_win</name></member>
+      <member refid="classMoveShape_1a44c3ffe8dbfd3fe1ae73259f492a63cb" prot="private" virt="non-virtual"><scope>MoveShape</scope><name>vecPointer</name></member>
+      <member refid="classMoveShape_1a9790764b1e1ec53da191338e6fa763ac" prot="public" virt="non-virtual"><scope>MoveShape</scope><name>~MoveShape</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

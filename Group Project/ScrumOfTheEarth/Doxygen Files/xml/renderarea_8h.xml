@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="renderarea_8h" kind="file" language="C++">
+    <compoundname>renderarea.h</compoundname>
+    <includes local="no">QWidget</includes>
+    <includes refid="shape_8h" local="yes">shape.h</includes>
+    <includes refid="vector_8h" local="yes">vector.h</includes>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="1325">
+        <label>QObject</label>
+      </node>
+      <node id="1323">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="1324" relation="include">
+        </childnode>
+        <childnode refid="1325" relation="include">
+        </childnode>
+        <childnode refid="1326" relation="include">
+        </childnode>
+      </node>
+      <node id="1326">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="1327" relation="include">
+        </childnode>
+      </node>
+      <node id="1324">
+        <label>QPainter</label>
+      </node>
+      <node id="1322">
+        <label>QWidget</label>
+      </node>
+      <node id="1328">
+        <label>iostream</label>
+      </node>
+      <node id="1321">
+        <label>Group Project/ScrumOfTheEarth/renderarea.h</label>
+        <link refid="renderarea.h"/>
+        <childnode refid="1322" relation="include">
+        </childnode>
+        <childnode refid="1323" relation="include">
+        </childnode>
+        <childnode refid="1326" relation="include">
+        </childnode>
+        <childnode refid="1328" relation="include">
+        </childnode>
+      </node>
+      <node id="1327">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classRenderArea" prot="public">RenderArea</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="2"><highlight class="preprocessor">#ifndef<sp/>RENDERAREA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RENDERAREA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QWidget&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="shape_8h" kindref="compound">shape.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vector_8h" kindref="compound">vector.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight></codeline>
+<codeline lineno="11" refid="classRenderArea" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classRenderArea" kindref="compound">RenderArea</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QWidget</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20" refid="classRenderArea_1a71baad4c7f205d8f3c7fa2b1c7483448" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classRenderArea_1a71baad4c7f205d8f3c7fa2b1c7483448" kindref="member">RenderArea</ref>(QWidget*<sp/>parent):<sp/>QWidget(parent){setBackgroundRole(QPalette::Base);<sp/>setAutoFillBackground(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);}</highlight></codeline>
+<codeline lineno="21" refid="classRenderArea_1ade92334d3441242827d5a96fc9cd5f42" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classRenderArea_1ade92334d3441242827d5a96fc9cd5f42" kindref="member">~RenderArea</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classRenderArea_1a3502e321d5130cd9029c45c7238979e6" kindref="member">shapesList</ref>.<ref refid="classmyStd_1_1vector_1a67598296046328471d19ce1fc5be796f" kindref="member">deallocPtrData</ref>();</highlight><highlight class="comment">//delete<sp/>all<sp/>of<sp/>the<sp/>shapes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28" refid="classRenderArea_1a3502e321d5130cd9029c45c7238979e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;Shape*&gt;</ref><sp/><ref refid="classRenderArea_1a3502e321d5130cd9029c45c7238979e6" kindref="member">shapesList</ref>;</highlight><highlight class="comment">//global<sp/>vector<sp/>to<sp/>draw<sp/>shapes</highlight></codeline>
+<codeline lineno="33" refid="classRenderArea_1aff78d4f340f879fb5effa9830e4d77b9" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classRenderArea_1aff78d4f340f879fb5effa9830e4d77b9" kindref="member">getShowId</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>showId;}<sp/></highlight><highlight class="keyword">const</highlight></codeline>
+<codeline lineno="38" refid="classRenderArea_1a460a86b0f462ad0fd99ae30688754583" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classRenderArea_1a460a86b0f462ad0fd99ae30688754583" kindref="member">setShowId</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>t){showId<sp/>=<sp/>t;}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="44" refid="classRenderArea_1ae9b5a1573f3b06590c717c7598ffaae4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classRenderArea_1ae9b5a1573f3b06590c717c7598ffaae4" kindref="member">paintEvent</ref>(QPaintEvent*<sp/>event)</highlight><highlight class="keyword"><sp/>override</highlight></codeline>
+<codeline lineno="45"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QPainter<sp/>nothing(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//qt<sp/>best<sp/>practice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nothing.setBrush(QBrush(Qt::white));</highlight><highlight class="comment">//clear<sp/>the<sp/>canvas</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nothing.drawRect(rect());<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//with<sp/>the<sp/>color<sp/>white</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//nothing.drawLine(QPointF(),QPointF(qreal(60),qreal(60)));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classShape" kindref="compound">Shape</ref><sp/>**<sp/>ptr<sp/>=<sp/><sp/>shapesList.<ref refid="classmyStd_1_1vector_1adaa284b6b387f70d3244b4d6e64869c3" kindref="member">begin</ref>();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>shapesList.<ref refid="classmyStd_1_1vector_1a33ebe4dab379f466c8d3a2f08d9aa554" kindref="member">size</ref>();<sp/>++i)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ptr[i]-&gt;<ref refid="classShape_1a47dae32819e64fb32f3357f31978293f" kindref="member">draw</ref>(nothing,showId);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>showId;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>RENDERAREA_H</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/renderarea.h"/>
+  </compounddef>
+</doxygen>

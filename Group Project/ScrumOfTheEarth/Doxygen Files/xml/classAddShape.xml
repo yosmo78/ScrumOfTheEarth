@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classAddShape" kind="class" language="C++" prot="public">
+    <compoundname>AddShape</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMainWindow</basecompoundref>
+    <includes refid="addshape_8h" local="no">addshape.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classAddShape_1a5c474115b92ef48f3e0cd34fbfb8a175" prot="private" static="no" mutable="no">
+        <type>Ui::AddShape *</type>
+        <definition>Ui::AddShape* AddShape::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classAddShape" kindref="compound">AddShape</ref> pointer ui </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/addshape.h" line="74" column="1" bodyfile="Group Project/ScrumOfTheEarth/addshape.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAddShape_1a5d2fba48a65ae7bc4be9531ed6c61e90" prot="private" static="no" mutable="no">
+        <type><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector</ref>&lt; <ref refid="classShape" kindref="compound">Shape</ref> * &gt; *</type>
+        <definition>myStd::vector&lt;Shape *&gt;* AddShape::vecPointer</definition>
+        <argsstring></argsstring>
+        <name>vecPointer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Vector pointer vecPointer </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/addshape.h" line="75" column="1" bodyfile="Group Project/ScrumOfTheEarth/addshape.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAddShape_1a53a2b3cfa3a2576eb9c94303965d9d19" prot="private" static="no" mutable="no">
+        <type>bool *</type>
+        <definition>bool* AddShape::var</definition>
+        <argsstring></argsstring>
+        <name>var</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bool pointer var </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/addshape.h" line="76" column="1" bodyfile="Group Project/ScrumOfTheEarth/addshape.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classAddShape_1a7d99059cc9f818e4225803aa2c624723" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AddShape::AddShape</definition>
+        <argsstring>(QWidget *parent, myStd::vector&lt; Shape * &gt; &amp;, bool &amp;)</argsstring>
+        <name>AddShape</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector</ref>&lt; <ref refid="classShape" kindref="compound">Shape</ref> * &gt; &amp;</type>
+          <defname>shapes</defname>
+        </param>
+        <param>
+          <type>bool &amp;</type>
+          <defname>ok</defname>
+        </param>
+        <briefdescription>
+<para>Constructor for creating the pop-up for the <ref refid="classAddShape" kindref="compound">AddShape</ref> button. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of the addshape window </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/addshape.h" line="25" column="1" bodyfile="Group Project/ScrumOfTheEarth/addshape.cpp" bodystart="9" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classAddShape_1aefd175938403da086e12162e19705939" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AddShape::~AddShape</definition>
+        <argsstring>()</argsstring>
+        <name>~AddShape</name>
+        <briefdescription>
+<para>Destructor of <ref refid="classAddShape" kindref="compound">AddShape</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/addshape.h" line="31" column="1" bodyfile="Group Project/ScrumOfTheEarth/addshape.cpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classAddShape_1a5d7e9aac5d33ce39317a104bcbca102c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddShape::on_AddSquare_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_AddSquare_clicked</name>
+        <briefdescription>
+<para>Adds a square to the list. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/addshape.h" line="37" column="1" bodyfile="Group Project/ScrumOfTheEarth/addshape.cpp" bodystart="23" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="slot" id="classAddShape_1ac2b975d019cf71bf06300f6c3874429d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddShape::on_RAddRectangle_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_RAddRectangle_clicked</name>
+        <briefdescription>
+<para>Adds a rectangle to the list. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/addshape.h" line="41" column="1" bodyfile="Group Project/ScrumOfTheEarth/addshape.cpp" bodystart="46" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="slot" id="classAddShape_1a79a7a943ec8e5f6caddf66a77544c8c3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddShape::on_CAddCircle_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_CAddCircle_clicked</name>
+        <briefdescription>
+<para>Adds a circle to the list. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/addshape.h" line="45" column="1" bodyfile="Group Project/ScrumOfTheEarth/addshape.cpp" bodystart="69" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="slot" id="classAddShape_1a41d116181751cad27663f6697d66c324" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddShape::on_EAddEllipse_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_EAddEllipse_clicked</name>
+        <briefdescription>
+<para>Adds an ellipse to the list. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/addshape.h" line="49" column="1" bodyfile="Group Project/ScrumOfTheEarth/addshape.cpp" bodystart="92" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="slot" id="classAddShape_1a567d099062a93e64e4288181c0750c60" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddShape::on_GAddPolygon_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_GAddPolygon_clicked</name>
+        <briefdescription>
+<para>Adds a polygon to the list. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/addshape.h" line="53" column="1" bodyfile="Group Project/ScrumOfTheEarth/addshape.cpp" bodystart="116" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="slot" id="classAddShape_1af80c0cfc90fad02783617abbe2b2a513" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddShape::on_PAddPolyline_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_PAddPolyline_clicked</name>
+        <briefdescription>
+<para>Adds a polyline to the list. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/addshape.h" line="57" column="1" bodyfile="Group Project/ScrumOfTheEarth/addshape.cpp" bodystart="156" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="slot" id="classAddShape_1ad86ebff96ac9a7d35349cefe1979e78f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddShape::on_LAddLine_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_LAddLine_clicked</name>
+        <briefdescription>
+<para>Adds a line to the list. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/addshape.h" line="61" column="1" bodyfile="Group Project/ScrumOfTheEarth/addshape.cpp" bodystart="193" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="slot" id="classAddShape_1a0651af3eb7d26a9b0dea23a05c97b8e8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddShape::on_TAddText_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_TAddText_clicked</name>
+        <briefdescription>
+<para>Adds text to the list. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/addshape.h" line="65" column="1" bodyfile="Group Project/ScrumOfTheEarth/addshape.cpp" bodystart="213" bodyend="256"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classAddShape_1a6f79ea980ff8d6e7001c0b9b48d5ddb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddShape::update_Window</definition>
+        <argsstring>()</argsstring>
+        <name>update_Window</name>
+        <briefdescription>
+<para>This calls an update in the window. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/addshape.h" line="71" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classAddShape" kindref="compound">AddShape</ref> class that provides functionality for the add shape button. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="87">
+        <label>AddShape</label>
+        <link refid="classAddShape"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>QMainWindow</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="89">
+        <label>AddShape</label>
+        <link refid="classAddShape"/>
+        <childnode refid="90" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>QMainWindow</label>
+      </node>
+    </collaborationgraph>
+    <location file="Group Project/ScrumOfTheEarth/addshape.h" line="17" column="1" bodyfile="Group Project/ScrumOfTheEarth/addshape.h" bodystart="16" bodyend="77"/>
+    <listofallmembers>
+      <member refid="classAddShape_1a7d99059cc9f818e4225803aa2c624723" prot="public" virt="non-virtual"><scope>AddShape</scope><name>AddShape</name></member>
+      <member refid="classAddShape_1a5d7e9aac5d33ce39317a104bcbca102c" prot="private" virt="non-virtual"><scope>AddShape</scope><name>on_AddSquare_clicked</name></member>
+      <member refid="classAddShape_1a79a7a943ec8e5f6caddf66a77544c8c3" prot="private" virt="non-virtual"><scope>AddShape</scope><name>on_CAddCircle_clicked</name></member>
+      <member refid="classAddShape_1a41d116181751cad27663f6697d66c324" prot="private" virt="non-virtual"><scope>AddShape</scope><name>on_EAddEllipse_clicked</name></member>
+      <member refid="classAddShape_1a567d099062a93e64e4288181c0750c60" prot="private" virt="non-virtual"><scope>AddShape</scope><name>on_GAddPolygon_clicked</name></member>
+      <member refid="classAddShape_1ad86ebff96ac9a7d35349cefe1979e78f" prot="private" virt="non-virtual"><scope>AddShape</scope><name>on_LAddLine_clicked</name></member>
+      <member refid="classAddShape_1af80c0cfc90fad02783617abbe2b2a513" prot="private" virt="non-virtual"><scope>AddShape</scope><name>on_PAddPolyline_clicked</name></member>
+      <member refid="classAddShape_1ac2b975d019cf71bf06300f6c3874429d" prot="private" virt="non-virtual"><scope>AddShape</scope><name>on_RAddRectangle_clicked</name></member>
+      <member refid="classAddShape_1a0651af3eb7d26a9b0dea23a05c97b8e8" prot="private" virt="non-virtual"><scope>AddShape</scope><name>on_TAddText_clicked</name></member>
+      <member refid="classAddShape_1a5c474115b92ef48f3e0cd34fbfb8a175" prot="private" virt="non-virtual"><scope>AddShape</scope><name>ui</name></member>
+      <member refid="classAddShape_1a6f79ea980ff8d6e7001c0b9b48d5ddb4" prot="public" virt="non-virtual"><scope>AddShape</scope><name>update_Window</name></member>
+      <member refid="classAddShape_1a53a2b3cfa3a2576eb9c94303965d9d19" prot="private" virt="non-virtual"><scope>AddShape</scope><name>var</name></member>
+      <member refid="classAddShape_1a5d2fba48a65ae7bc4be9531ed6c61e90" prot="private" virt="non-virtual"><scope>AddShape</scope><name>vecPointer</name></member>
+      <member refid="classAddShape_1aefd175938403da086e12162e19705939" prot="public" virt="non-virtual"><scope>AddShape</scope><name>~AddShape</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

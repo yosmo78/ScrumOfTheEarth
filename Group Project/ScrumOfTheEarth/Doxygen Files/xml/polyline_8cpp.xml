@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="polyline_8cpp" kind="file" language="C++">
+    <compoundname>polyline.cpp</compoundname>
+    <includes refid="polyline_8h" local="yes">polyline.h</includes>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="1233">
+        <label>QObject</label>
+      </node>
+      <node id="1227">
+        <label>Group Project/ScrumOfTheEarth/polyline.cpp</label>
+        <link refid="polyline.cpp"/>
+        <childnode refid="1228" relation="include">
+        </childnode>
+        <childnode refid="1235" relation="include">
+        </childnode>
+      </node>
+      <node id="1231">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="1232" relation="include">
+        </childnode>
+        <childnode refid="1233" relation="include">
+        </childnode>
+        <childnode refid="1229" relation="include">
+        </childnode>
+      </node>
+      <node id="1234">
+        <label>cmath</label>
+      </node>
+      <node id="1229">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="1230" relation="include">
+        </childnode>
+      </node>
+      <node id="1232">
+        <label>QPainter</label>
+      </node>
+      <node id="1228">
+        <label>polyline.h</label>
+        <link refid="polyline_8h"/>
+        <childnode refid="1229" relation="include">
+        </childnode>
+        <childnode refid="1231" relation="include">
+        </childnode>
+        <childnode refid="1234" relation="include">
+        </childnode>
+      </node>
+      <node id="1235">
+        <label>iostream</label>
+      </node>
+      <node id="1230">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="polyline_8h" kindref="compound">polyline.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><ref refid="classPolyline_1aaea9368c2e2bfc26ecaa36c7e125ac5e" kindref="member">Polyline::Polyline</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;QPoint&gt;</ref>&amp;<sp/>vec<sp/>,<sp/>Qt::GlobalColor<sp/>pc,<sp/>Qt::PenStyle<sp/>ps,<sp/><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/>pcs,<sp/><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/>pjs,<sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pw):</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classShape" kindref="compound">Shape</ref>(i),points(vec),<sp/>penColor(pc),penStyle(ps),penCapStyle(pcs),penJoinStyle(pjs),penWidth(pw){}</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPolyline_1ac5b5a4ac26b140a7dc30cc293638e3ee" kindref="member">Polyline::draw</ref>(QPainter<sp/>&amp;<sp/>paint,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Id)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/>QBrush<sp/>b(penColor);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/>QPen<sp/>pen(b,qreal(penWidth),penStyle,penCapStyle,penJoinStyle);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/>pen.setColor(penColor);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minX<sp/>=<sp/>1000000,maxX<sp/>=<sp/>0,minY<sp/>=<sp/>100000,maxY<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><ref refid="classmyStd_1_1vector_1ae8f53b1db01169b861f0299f9ced0e37" kindref="member">myStd::vector&lt;QPoint&gt;::const_iterator</ref><sp/>tmp<sp/>=<sp/>points.begin();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>=<sp/>0;index<sp/>&lt;<sp/>points.size()<sp/>;++index)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tmp[index].x()<sp/>&lt;<sp/>minX)<sp/>minX<sp/>=<sp/>tmp[index].x();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tmp[index].x()<sp/>&gt;<sp/>maxX)<sp/>maxX<sp/>=<sp/>tmp[index].x();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tmp[index].y()<sp/>&gt;<sp/>maxY)<sp/>maxY<sp/>=<sp/>tmp[index].y();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tmp[index].y()<sp/>&lt;<sp/>minY)<sp/>minY<sp/>=<sp/>tmp[index].y();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(index<sp/>!=<sp/>(points.size()-1))</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>paint.drawLine(tmp[index],<sp/>tmp[index+1]);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Id)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>paint.drawText((((minX+<sp/>maxX)/2)<sp/>-<sp/>3<sp/>*<sp/>std::to_string(<ref refid="classShape_1a3ac221427e91b0acc53a2f3764a8f01b" kindref="member">getShapeId</ref>()).length()),<sp/>minY<sp/>-<sp/>penWidth,QString::fromStdString(std::to_string(<ref refid="classShape_1a3ac221427e91b0acc53a2f3764a8f01b" kindref="member">getShapeId</ref>())));</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/polyline.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,509 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="mainwindow_8cpp" kind="file" language="C++">
+    <compoundname>mainwindow.cpp</compoundname>
+    <includes refid="mainwindow_8h" local="yes">mainwindow.h</includes>
+    <includes local="yes">ui_mainwindow.h</includes>
+    <includes local="no">QInputDialog</includes>
+    <includes refid="shape_8h" local="yes">shape.h</includes>
+    <includes refid="square_8h" local="yes">square.h</includes>
+    <includes refid="circle_8h" local="yes">circle.h</includes>
+    <includes refid="ellipse_8h" local="yes">ellipse.h</includes>
+    <includes refid="polygon_8h" local="yes">polygon.h</includes>
+    <includes refid="polyline_8h" local="yes">polyline.h</includes>
+    <includes refid="line_8h" local="yes">line.h</includes>
+    <includes local="no">QPoint</includes>
+    <includes refid="shape__parser_8h" local="yes">shape_parser.h</includes>
+    <includes local="no">QMessageBox</includes>
+    <includes refid="searchandcompare_8h" local="yes">searchandcompare.h</includes>
+    <includes refid="pop__table_8h" local="yes">pop_table.h</includes>
+    <includes local="no">QFileDialog</includes>
+    <includes refid="delete__zeros_8h" local="yes">delete_zeros.h</includes>
+    <includes local="no">string</includes>
+    <incdepgraph>
+      <node id="1094">
+        <label>moveshape.h</label>
+        <link refid="moveshape_8h"/>
+        <childnode refid="1088" relation="include">
+        </childnode>
+        <childnode refid="1090" relation="include">
+        </childnode>
+        <childnode refid="1095" relation="include">
+        </childnode>
+        <childnode refid="1096" relation="include">
+        </childnode>
+        <childnode refid="1097" relation="include">
+        </childnode>
+        <childnode refid="1099" relation="include">
+        </childnode>
+        <childnode refid="1100" relation="include">
+        </childnode>
+        <childnode refid="1101" relation="include">
+        </childnode>
+        <childnode refid="1102" relation="include">
+        </childnode>
+        <childnode refid="1103" relation="include">
+        </childnode>
+        <childnode refid="1104" relation="include">
+        </childnode>
+        <childnode refid="1093" relation="include">
+        </childnode>
+      </node>
+      <node id="1114">
+        <label>QMessageBox</label>
+      </node>
+      <node id="1116">
+        <label>pop_table.h</label>
+        <link refid="pop__table_8h"/>
+        <childnode refid="1088" relation="include">
+        </childnode>
+        <childnode refid="1117" relation="include">
+        </childnode>
+        <childnode refid="1090" relation="include">
+        </childnode>
+      </node>
+      <node id="1092">
+        <label>QObject</label>
+      </node>
+      <node id="1090">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="1091" relation="include">
+        </childnode>
+        <childnode refid="1092" relation="include">
+        </childnode>
+        <childnode refid="1088" relation="include">
+        </childnode>
+      </node>
+      <node id="1106">
+        <label>QInputDialog</label>
+      </node>
+      <node id="1096">
+        <label>rectangle.h</label>
+        <link refid="rectangle_8h"/>
+        <childnode refid="1090" relation="include">
+        </childnode>
+        <childnode refid="1088" relation="include">
+        </childnode>
+      </node>
+      <node id="1103">
+        <label>text.h</label>
+        <link refid="text_8h"/>
+        <childnode refid="1090" relation="include">
+        </childnode>
+      </node>
+      <node id="1098">
+        <label>cmath</label>
+      </node>
+      <node id="1085">
+        <label>Group Project/ScrumOfTheEarth/mainwindow.cpp</label>
+        <link refid="mainwindow.cpp"/>
+        <childnode refid="1086" relation="include">
+        </childnode>
+        <childnode refid="1105" relation="include">
+        </childnode>
+        <childnode refid="1106" relation="include">
+        </childnode>
+        <childnode refid="1090" relation="include">
+        </childnode>
+        <childnode refid="1095" relation="include">
+        </childnode>
+        <childnode refid="1099" relation="include">
+        </childnode>
+        <childnode refid="1100" relation="include">
+        </childnode>
+        <childnode refid="1101" relation="include">
+        </childnode>
+        <childnode refid="1102" relation="include">
+        </childnode>
+        <childnode refid="1097" relation="include">
+        </childnode>
+        <childnode refid="1107" relation="include">
+        </childnode>
+        <childnode refid="1108" relation="include">
+        </childnode>
+        <childnode refid="1114" relation="include">
+        </childnode>
+        <childnode refid="1115" relation="include">
+        </childnode>
+        <childnode refid="1116" relation="include">
+        </childnode>
+        <childnode refid="1118" relation="include">
+        </childnode>
+        <childnode refid="1119" relation="include">
+        </childnode>
+        <childnode refid="1104" relation="include">
+        </childnode>
+      </node>
+      <node id="1088">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="1089" relation="include">
+        </childnode>
+      </node>
+      <node id="1104">
+        <label>string</label>
+      </node>
+      <node id="1107">
+        <label>QPoint</label>
+      </node>
+      <node id="1093">
+        <label>QMainWindow</label>
+      </node>
+      <node id="1099">
+        <label>circle.h</label>
+        <link refid="circle_8h"/>
+        <childnode refid="1090" relation="include">
+        </childnode>
+      </node>
+      <node id="1109">
+        <label>fstream</label>
+      </node>
+      <node id="1091">
+        <label>QPainter</label>
+      </node>
+      <node id="1118">
+        <label>QFileDialog</label>
+      </node>
+      <node id="1119">
+        <label>delete_zeros.h</label>
+        <link refid="delete__zeros_8h"/>
+        <childnode refid="1088" relation="include">
+        </childnode>
+        <childnode refid="1090" relation="include">
+        </childnode>
+      </node>
+      <node id="1102">
+        <label>polyline.h</label>
+        <link refid="polyline_8h"/>
+        <childnode refid="1088" relation="include">
+        </childnode>
+        <childnode refid="1090" relation="include">
+        </childnode>
+        <childnode refid="1098" relation="include">
+        </childnode>
+      </node>
+      <node id="1105">
+        <label>ui_mainwindow.h</label>
+      </node>
+      <node id="1110">
+        <label>sstream</label>
+      </node>
+      <node id="1113">
+        <label>QString</label>
+      </node>
+      <node id="1097">
+        <label>line.h</label>
+        <link refid="line_8h"/>
+        <childnode refid="1090" relation="include">
+        </childnode>
+        <childnode refid="1098" relation="include">
+        </childnode>
+      </node>
+      <node id="1112">
+        <label>QColor</label>
+      </node>
+      <node id="1100">
+        <label>ellipse.h</label>
+        <link refid="ellipse_8h"/>
+        <childnode refid="1090" relation="include">
+        </childnode>
+        <childnode refid="1098" relation="include">
+        </childnode>
+      </node>
+      <node id="1117">
+        <label>QTableWidget</label>
+      </node>
+      <node id="1111">
+        <label>iostream</label>
+      </node>
+      <node id="1095">
+        <label>square.h</label>
+        <link refid="square_8h"/>
+        <childnode refid="1090" relation="include">
+        </childnode>
+        <childnode refid="1088" relation="include">
+        </childnode>
+      </node>
+      <node id="1115">
+        <label>searchandcompare.h</label>
+        <link refid="searchandcompare_8h"/>
+        <childnode refid="1088" relation="include">
+        </childnode>
+        <childnode refid="1090" relation="include">
+        </childnode>
+      </node>
+      <node id="1086">
+        <label>mainwindow.h</label>
+        <link refid="mainwindow_8h"/>
+        <childnode refid="1087" relation="include">
+        </childnode>
+        <childnode refid="1094" relation="include">
+        </childnode>
+        <childnode refid="1093" relation="include">
+        </childnode>
+      </node>
+      <node id="1087">
+        <label>addshape.h</label>
+        <link refid="addshape_8h"/>
+        <childnode refid="1088" relation="include">
+        </childnode>
+        <childnode refid="1090" relation="include">
+        </childnode>
+        <childnode refid="1093" relation="include">
+        </childnode>
+      </node>
+      <node id="1089">
+        <label>algorithm</label>
+      </node>
+      <node id="1101">
+        <label>polygon.h</label>
+        <link refid="polygon_8h"/>
+        <childnode refid="1090" relation="include">
+        </childnode>
+        <childnode refid="1088" relation="include">
+        </childnode>
+        <childnode refid="1098" relation="include">
+        </childnode>
+      </node>
+      <node id="1108">
+        <label>shape_parser.h</label>
+        <link refid="shape__parser_8h"/>
+        <childnode refid="1109" relation="include">
+        </childnode>
+        <childnode refid="1110" relation="include">
+        </childnode>
+        <childnode refid="1111" relation="include">
+        </childnode>
+        <childnode refid="1104" relation="include">
+        </childnode>
+        <childnode refid="1112" relation="include">
+        </childnode>
+        <childnode refid="1113" relation="include">
+        </childnode>
+        <childnode refid="1088" relation="include">
+        </childnode>
+        <childnode refid="1090" relation="include">
+        </childnode>
+        <childnode refid="1097" relation="include">
+        </childnode>
+        <childnode refid="1102" relation="include">
+        </childnode>
+        <childnode refid="1101" relation="include">
+        </childnode>
+        <childnode refid="1096" relation="include">
+        </childnode>
+        <childnode refid="1095" relation="include">
+        </childnode>
+        <childnode refid="1100" relation="include">
+        </childnode>
+        <childnode refid="1099" relation="include">
+        </childnode>
+        <childnode refid="1103" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="2"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="mainwindow_8h" kindref="compound">mainwindow.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_mainwindow.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QInputDialog&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="shape_8h" kindref="compound">shape.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="square_8h" kindref="compound">square.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="circle_8h" kindref="compound">circle.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="ellipse_8h" kindref="compound">ellipse.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="polygon_8h" kindref="compound">polygon.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="polyline_8h" kindref="compound">polyline.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="line_8h" kindref="compound">line.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QPoint&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="shape__parser_8h" kindref="compound">shape_parser.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QMessageBox&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="searchandcompare_8h" kindref="compound">searchandcompare.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="pop__table_8h" kindref="compound">pop_table.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QFileDialog&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="delete__zeros_8h" kindref="compound">delete_zeros.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><ref refid="classMainWindow_1a16bf19588e7e7cb601b4e01661a9141b" kindref="member">MainWindow::MainWindow</ref>(QWidget<sp/>*parent,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>admin)<sp/>:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/>isAdmin(admin),<sp/>QMainWindow(parent),</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespaceUi" kindref="compound">Ui</ref>::<ref refid="classMainWindow" kindref="compound">MainWindow</ref>)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;Tables-&gt;setStyleSheet(</highlight><highlight class="stringliteral">&quot;QTabBar::tab<sp/>{width:<sp/>263px;}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>addshape<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;widget-&gt;setShowId(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><ref refid="classMainWindow_1ae98d00a93bc118200eeef9f9bba1dba7" kindref="member">MainWindow::~MainWindow</ref>()</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MainWindow::on_FileButton_clicked()</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//ask<sp/>for<sp/>file.<sp/>If<sp/>exists,<sp/>clear<sp/>vector<sp/>and<sp/>render<sp/>are,<sp/>call<sp/>shape<sp/>parser,<sp/>and<sp/>call<sp/>paint<sp/>event</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//bool<sp/>ok;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//file<sp/>=<sp/>QInputDialog::getText(this,<sp/>tr(&quot;Open<sp/>File&quot;),<sp/>tr(&quot;File<sp/>Name<sp/>with<sp/>extension:&quot;),<sp/>QLineEdit::Normal,<sp/>QString(),<sp/>&amp;ok);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>file<sp/>=<sp/>QFileDialog::getOpenFileName(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,tr(</highlight><highlight class="stringliteral">&quot;Open<sp/>File&quot;</highlight><highlight class="normal">),</highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Text<sp/>file<sp/>(*.txt)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!file.isEmpty()<sp/>&amp;&amp;<sp/>!file.isNull())</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>fileok<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="shape__parser_8cpp_1a974d730d36b48de12f933bd6837c3945" kindref="member">shape_parser</ref>(ui-&gt;widget-&gt;shapesList,<sp/>file.toStdString().c_str(),<sp/>fileok);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(fileok)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Shape<sp/>*<sp/>ptr<sp/>=<sp/>new<sp/>Square(1500,15,20,40,Qt::blue,Qt::black,Qt::SolidLine,Qt::FlatCap,Qt::MiterJoin,Qt::SolidPattern,5);</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>myStd::vector&lt;QPoint&gt;<sp/>tst;</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tst.push_back(QPoint(500,125));</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tst.push_back(QPoint(510,150));</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tst.push_back(QPoint(490,150));</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Shape<sp/>*<sp/>pptr<sp/>=<sp/>new<sp/>Polygon(1400,tst,Qt::red,Qt::red,Qt::SolidLine,Qt::FlatCap,Qt::MiterJoin,Qt::SolidPattern,2);</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Shape<sp/>*<sp/>cptr<sp/>=<sp/>new<sp/>Circle(12000,100,100,10,Qt::red,Qt::red,Qt::SolidLine,Qt::FlatCap,Qt::MiterJoin,Qt::SolidPattern,2);</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Shape<sp/>*<sp/>eptr<sp/>=<sp/>new<sp/>Ellipse(17000,150,150,10,15,Qt::red,Qt::red,Qt::SolidLine,Qt::FlatCap,Qt::MiterJoin,Qt::SolidPattern,2);</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Shape<sp/>*<sp/>lptr<sp/>=<sp/>new<sp/>Line(300,100,100,<sp/>50,50,<sp/>Qt::green,<sp/>Qt::SolidLine,<sp/>Qt::FlatCap,<sp/>Qt::MiterJoin,<sp/>5);</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;widget-&gt;shapesList.push_back(ptr);</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;widget-&gt;shapesList.push_back(cptr);</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;widget-&gt;shapesList.push_back(eptr);</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;widget-&gt;shapesList.push_back(pptr);</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;widget-&gt;shapesList.push_back(lptr);</highlight></codeline>
+<codeline lineno="67"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;widget-&gt;update();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;Shape*&gt;</ref><sp/>cpy<sp/>=<sp/>ui-&gt;widget-&gt;shapesList;</highlight><highlight class="comment">//copy<sp/>the<sp/>shapes<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="searchandcompare_8h_1a742638b7b3ac69d2e7c4f5074fde8481" kindref="member">selection_sort</ref>(cpy,<sp/><ref refid="searchandcompare_8cpp_1a474fd352edcedaea9235d8708336d6e0" kindref="member">cmpId</ref>);</highlight><highlight class="comment">//sort<sp/>the<sp/>list<sp/>by<sp/>id</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="pop__table_8cpp_1a7e4b678b55853077d6514112c661d121" kindref="member">fill_table</ref>((ui-&gt;IDtable),<sp/>cpy);</highlight><highlight class="comment">//populate<sp/>the<sp/>table<sp/>with<sp/>sorted<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cpy<sp/>=<sp/>ui-&gt;widget-&gt;shapesList;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="searchandcompare_8h_1a742638b7b3ac69d2e7c4f5074fde8481" kindref="member">selection_sort</ref>(cpy,<sp/><ref refid="searchandcompare_8cpp_1a55d382d6ff217cba8f8a1d647d3f5e02" kindref="member">cmpArea</ref>);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="delete__zeros_8cpp_1a9dec4a09977f70bba53ccc9eb789f752" kindref="member">delete_Azeros</ref>(cpy);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="pop__table_8cpp_1ada07240decd2206bb697cd31dd579839" kindref="member">pop_Atable</ref>(ui-&gt;Areatable,<sp/>cpy);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cpy<sp/>=<sp/>ui-&gt;widget-&gt;shapesList;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="searchandcompare_8h_1a742638b7b3ac69d2e7c4f5074fde8481" kindref="member">selection_sort</ref>(cpy,<sp/><ref refid="searchandcompare_8cpp_1ab91f3b00a32d9f439cecf4f29ce6eb29" kindref="member">cmpPeri</ref>);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="delete__zeros_8cpp_1afcfd6fbd3a7dab9bdb3ddf2ac08d7586" kindref="member">delete_Pzeros</ref>(cpy);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="pop__table_8cpp_1ad8d8a27f7ccd50e0c6c9173f37c2b8fd" kindref="member">pop_Ptable</ref>(ui-&gt;PerimeterTable,<sp/>cpy);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QMessageBox::warning(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Open<sp/>File&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;File<sp/>failed<sp/>to<sp/>open&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MainWindow::on_Save_clicked()</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(isAdmin)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//will<sp/>overwrite<sp/>openfile</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="shape_8h_1a10f04d837286200d6897a667cd7baa1e" kindref="member">shape_saver</ref>(ui-&gt;widget-&gt;shapesList,file.toLocal8Bit().toStdString().c_str());</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QMessageBox::warning(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Save&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Access<sp/>denied.<sp/>Login<sp/>as<sp/>admin&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMainWindow_1a59351bdf1235b640a416121e7b8d89d3" kindref="member">MainWindow::update_window</ref>()</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;widget-&gt;update();</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;Shape*&gt;</ref><sp/>cpy<sp/>=<sp/>ui-&gt;widget-&gt;shapesList;</highlight><highlight class="comment">//copy<sp/>the<sp/>shapes<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="searchandcompare_8h_1a742638b7b3ac69d2e7c4f5074fde8481" kindref="member">selection_sort</ref>(cpy,<sp/><ref refid="searchandcompare_8cpp_1a474fd352edcedaea9235d8708336d6e0" kindref="member">cmpId</ref>);</highlight><highlight class="comment">//sort<sp/>the<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="pop__table_8cpp_1a7e4b678b55853077d6514112c661d121" kindref="member">fill_table</ref>((ui-&gt;IDtable),<sp/>cpy);</highlight><highlight class="comment">//populate<sp/>the<sp/>table<sp/>with<sp/>sorted<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>cpy<sp/>=<sp/>ui-&gt;widget-&gt;shapesList;</highlight><highlight class="comment">//copies<sp/>shape<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="searchandcompare_8h_1a742638b7b3ac69d2e7c4f5074fde8481" kindref="member">selection_sort</ref>(cpy,<sp/><ref refid="searchandcompare_8cpp_1a55d382d6ff217cba8f8a1d647d3f5e02" kindref="member">cmpArea</ref>);</highlight><highlight class="comment">//sort<sp/>it<sp/>by<sp/>area</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="delete__zeros_8cpp_1a9dec4a09977f70bba53ccc9eb789f752" kindref="member">delete_Azeros</ref>(cpy);</highlight><highlight class="comment">//take<sp/>shapes<sp/>out<sp/>with<sp/>zero<sp/>area</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="pop__table_8cpp_1ada07240decd2206bb697cd31dd579839" kindref="member">pop_Atable</ref>(ui-&gt;Areatable,<sp/>cpy);</highlight><highlight class="comment">//populate<sp/>the<sp/>table</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>cpy<sp/>=<sp/>ui-&gt;widget-&gt;shapesList;</highlight><highlight class="comment">//copy<sp/>shape<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="searchandcompare_8h_1a742638b7b3ac69d2e7c4f5074fde8481" kindref="member">selection_sort</ref>(cpy,<sp/><ref refid="searchandcompare_8cpp_1ab91f3b00a32d9f439cecf4f29ce6eb29" kindref="member">cmpPeri</ref>);</highlight><highlight class="comment">//sort<sp/>it<sp/>by<sp/>perimeter</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="delete__zeros_8cpp_1afcfd6fbd3a7dab9bdb3ddf2ac08d7586" kindref="member">delete_Pzeros</ref>(cpy);</highlight><highlight class="comment">//take<sp/>shapes<sp/>out<sp/>with<sp/>zero<sp/>perimeter</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="pop__table_8cpp_1ad8d8a27f7ccd50e0c6c9173f37c2b8fd" kindref="member">pop_Ptable</ref>(ui-&gt;PerimeterTable,<sp/>cpy);</highlight><highlight class="comment">//fill<sp/>table<sp/>with<sp/>the<sp/>copy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MainWindow::on_AddShape_clicked()</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(isAdmin)</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ok<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>addshape<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classAddShape" kindref="compound">AddShape</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,ui-&gt;widget-&gt;shapesList,<sp/>ok);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>connect(addshape,SIGNAL(update_Window()),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(update_window()));</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>addshape-&gt;show();</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QMessageBox::warning(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Add<sp/>Shape&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Access<sp/>denied.<sp/>Login<sp/>as<sp/>admin&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MainWindow::on_DeleteShape_clicked()</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(isAdmin)</highlight><highlight class="comment">//check<sp/>to<sp/>see<sp/>if<sp/>user<sp/>has<sp/>admin<sp/>status</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ok;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>QInputDialog::getInt(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,tr(</highlight><highlight class="stringliteral">&quot;Delete<sp/>Shape&quot;</highlight><highlight class="normal">),tr(</highlight><highlight class="stringliteral">&quot;Enter<sp/>id<sp/>of<sp/>shape<sp/>to<sp/>delete:&quot;</highlight><highlight class="normal">),0,0,2147483647,1,<sp/>&amp;ok);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ok)</highlight><highlight class="comment">//check<sp/>to<sp/>see<sp/>if<sp/>user<sp/>clicked<sp/>cancel<sp/>or<sp/>not</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>position<sp/>=<sp/><ref refid="searchandcompare_8cpp_1ae156afea82af96484e6d6f00195737aa" kindref="member">findShape</ref>(ui-&gt;widget-&gt;shapesList,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(position<sp/>&lt;<sp/>ui-&gt;widget-&gt;shapesList.size())</highlight><highlight class="comment">//check<sp/>to<sp/>see<sp/>if<sp/>id<sp/>even<sp/>exists</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui-&gt;widget-&gt;shapesList[position];</highlight><highlight class="comment">//delete<sp/>shape</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;widget-&gt;shapesList.erase(ui-&gt;widget-&gt;shapesList.begin()<sp/>+<sp/>position);</highlight><highlight class="comment">//delete<sp/>position<sp/>in<sp/>vector</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;widget-&gt;update();</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;Shape*&gt;</ref><sp/>cpy<sp/>=<sp/>ui-&gt;widget-&gt;shapesList;</highlight><highlight class="comment">//copy<sp/>the<sp/>shapes<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="searchandcompare_8h_1a742638b7b3ac69d2e7c4f5074fde8481" kindref="member">selection_sort</ref>(cpy,<sp/><ref refid="searchandcompare_8cpp_1a474fd352edcedaea9235d8708336d6e0" kindref="member">cmpId</ref>);</highlight><highlight class="comment">//sort<sp/>the<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="pop__table_8cpp_1a7e4b678b55853077d6514112c661d121" kindref="member">fill_table</ref>((ui-&gt;IDtable),<sp/>cpy);</highlight><highlight class="comment">//populate<sp/>the<sp/>table<sp/>with<sp/>sorted<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cpy<sp/>=<sp/>ui-&gt;widget-&gt;shapesList;</highlight><highlight class="comment">//copies<sp/>shape<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="searchandcompare_8h_1a742638b7b3ac69d2e7c4f5074fde8481" kindref="member">selection_sort</ref>(cpy,<sp/><ref refid="searchandcompare_8cpp_1a55d382d6ff217cba8f8a1d647d3f5e02" kindref="member">cmpArea</ref>);</highlight><highlight class="comment">//sort<sp/>it<sp/>by<sp/>area</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="delete__zeros_8cpp_1a9dec4a09977f70bba53ccc9eb789f752" kindref="member">delete_Azeros</ref>(cpy);</highlight><highlight class="comment">//take<sp/>shapes<sp/>out<sp/>with<sp/>zero<sp/>area</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="pop__table_8cpp_1ada07240decd2206bb697cd31dd579839" kindref="member">pop_Atable</ref>(ui-&gt;Areatable,<sp/>cpy);</highlight><highlight class="comment">//populate<sp/>the<sp/>table</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cpy<sp/>=<sp/>ui-&gt;widget-&gt;shapesList;</highlight><highlight class="comment">//copy<sp/>shape<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="searchandcompare_8h_1a742638b7b3ac69d2e7c4f5074fde8481" kindref="member">selection_sort</ref>(cpy,<sp/><ref refid="searchandcompare_8cpp_1ab91f3b00a32d9f439cecf4f29ce6eb29" kindref="member">cmpPeri</ref>);</highlight><highlight class="comment">//sort<sp/>it<sp/>by<sp/>perimeter</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="delete__zeros_8cpp_1afcfd6fbd3a7dab9bdb3ddf2ac08d7586" kindref="member">delete_Pzeros</ref>(cpy);</highlight><highlight class="comment">//take<sp/>shapes<sp/>out<sp/>with<sp/>zero<sp/>perimeter</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="pop__table_8cpp_1ad8d8a27f7ccd50e0c6c9173f37c2b8fd" kindref="member">pop_Ptable</ref>(ui-&gt;PerimeterTable,<sp/>cpy);</highlight><highlight class="comment">//fill<sp/>table<sp/>with<sp/>the<sp/>copy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QMessageBox::warning(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Delete<sp/>Shape&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Access<sp/>denied.<sp/>Login<sp/>as<sp/>admin&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="172"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MainWindow::on_checkBox_clicked()</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;widget-&gt;setShowId(!ui-&gt;widget-&gt;getShowId());</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;widget-&gt;update();</highlight></codeline>
+<codeline lineno="179"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MainWindow::on_pushButton_clicked()</highlight></codeline>
+<codeline lineno="182"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(isAdmin)</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>moveshape<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classMoveShape" kindref="compound">MoveShape</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,ui-&gt;widget-&gt;shapesList);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>connect(moveshape,SIGNAL(update_win()),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(update_window()));</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>moveshape-&gt;show();</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QMessageBox::warning(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Add<sp/>Shape&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Access<sp/>denied.<sp/>Login<sp/>as<sp/>admin&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="195"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/mainwindow.cpp"/>
+  </compounddef>
+</doxygen>

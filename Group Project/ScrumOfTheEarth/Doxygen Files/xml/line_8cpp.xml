@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="line_8cpp" kind="file" language="C++">
+    <compoundname>line.cpp</compoundname>
+    <includes refid="line_8h" local="yes">line.h</includes>
+    <incdepgraph>
+      <node id="1027">
+        <label>QObject</label>
+      </node>
+      <node id="1025">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="1026" relation="include">
+        </childnode>
+        <childnode refid="1027" relation="include">
+        </childnode>
+        <childnode refid="1028" relation="include">
+        </childnode>
+      </node>
+      <node id="1030">
+        <label>cmath</label>
+      </node>
+      <node id="1028">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1026">
+        <label>QPainter</label>
+      </node>
+      <node id="1023">
+        <label>Group Project/ScrumOfTheEarth/line.cpp</label>
+        <link refid="line.cpp"/>
+        <childnode refid="1024" relation="include">
+        </childnode>
+      </node>
+      <node id="1024">
+        <label>line.h</label>
+        <link refid="line_8h"/>
+        <childnode refid="1025" relation="include">
+        </childnode>
+        <childnode refid="1030" relation="include">
+        </childnode>
+      </node>
+      <node id="1029">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="line_8h" kindref="compound">line.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><ref refid="classLine_1abcc71f5940d76af54fb2a8406418dd44" kindref="member">Line::Line</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="shape__input__file__specs_8txt_1ae6da77b2f90c75c4b96658c20d0f9938" kindref="member">y1</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>,<sp/>Qt::GlobalColor<sp/>pc,<sp/>Qt::PenStyle<sp/>ps,<sp/><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/>pcs,<sp/><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/>pjs,<sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pw):</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classShape" kindref="compound">Shape</ref>(i),<sp/>point1(x1,<sp/>y1),<sp/>point2(x2,y2),<sp/>penColor(pc),penStyle(ps),penCapStyle(pcs),penJoinStyle(pjs),penWidth(pw){}</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classLine_1a3bcbb11a1d79a7f9a60cc1aac3ab1bb5" kindref="member">Line::draw</ref>(QPainter<sp/>&amp;<sp/>paint,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Id)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/>QBrush<sp/>b(penColor);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/>QPen<sp/>pen(b,qreal(penWidth),penStyle,penCapStyle,penJoinStyle);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/>pen.setColor(penColor);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/>paint.drawLine(point1,<sp/>point2);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Id)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lftx;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rghtx;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>highy;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(point1.x()<sp/>&lt;<sp/>point2.x())</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>lftx<sp/>=<sp/>point1.x();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>rghtx<sp/>=<sp/>point2.x();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>lftx<sp/>=<sp/>point2.x();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>rghtx<sp/>=<sp/>point2.x();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(point1.y()<sp/>&lt;<sp/>point2.y())</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>highy<sp/>=<sp/>point1.y();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>highy<sp/>=<sp/>point2.y();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/>paint.drawText(lftx+<sp/>(rghtx/2<sp/>-<sp/>3<sp/>*<sp/>std::to_string(<ref refid="classShape_1a3ac221427e91b0acc53a2f3764a8f01b" kindref="member">getShapeId</ref>()).length()),<sp/>highy<sp/>-<sp/>5,QString::fromStdString(std::to_string(<ref refid="classShape_1a3ac221427e91b0acc53a2f3764a8f01b" kindref="member">getShapeId</ref>())));</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/line.cpp"/>
+  </compounddef>
+</doxygen>

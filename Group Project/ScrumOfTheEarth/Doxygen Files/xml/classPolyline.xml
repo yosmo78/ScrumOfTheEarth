@@ -1,0 +1,520 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classPolyline" kind="class" language="C++" prot="public">
+    <compoundname>Polyline</compoundname>
+    <basecompoundref refid="classShape" prot="public" virt="non-virtual">Shape</basecompoundref>
+    <includes refid="polyline_8h" local="no">polyline.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classPolyline_1a72a92a3c2adfe027565d4b849ab69865" prot="private" static="no" mutable="no">
+        <type><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector</ref>&lt; QPoint &gt;</type>
+        <definition>myStd::vector&lt;QPoint&gt; Polyline::points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="114" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPolyline_1add8ad8d5bbbe28e69ac3c8fd1fddc4b8" prot="private" static="no" mutable="no">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Polyline::penColor</definition>
+        <argsstring></argsstring>
+        <name>penColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="115" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPolyline_1af30458c0ab251cc4bd2a3c59e677868a" prot="private" static="no" mutable="no">
+        <type>Qt::PenStyle</type>
+        <definition>Qt::PenStyle Polyline::penStyle</definition>
+        <argsstring></argsstring>
+        <name>penStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="116" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPolyline_1a04b98bb9e7cf11cb33149b4bd476d9c9" prot="private" static="no" mutable="no">
+        <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+        <definition>Qt::PenCapStyle Polyline::penCapStyle</definition>
+        <argsstring></argsstring>
+        <name>penCapStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="117" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPolyline_1a19d605bf583f9f3868a6936bcf797bec" prot="private" static="no" mutable="no">
+        <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+        <definition>Qt::PenJoinStyle Polyline::penJoinStyle</definition>
+        <argsstring></argsstring>
+        <name>penJoinStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="118" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPolyline_1a7279e45dc527b3bd29af2c10d36532c0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Polyline::penWidth</definition>
+        <argsstring></argsstring>
+        <name>penWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="119" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPolyline_1aaea9368c2e2bfc26ecaa36c7e125ac5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Polyline::Polyline</definition>
+        <argsstring>(unsigned int, myStd::vector&lt; QPoint &gt; &amp;, Qt::GlobalColor, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle, int)</argsstring>
+        <name>Polyline</name>
+        <param>
+          <type>unsigned</type>
+          <declname>int</declname>
+          <defname>i</defname>
+        </param>
+        <param>
+          <type><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector</ref>&lt; QPoint &gt; &amp;</type>
+          <defname>vec</defname>
+        </param>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <defname>pc</defname>
+        </param>
+        <param>
+          <type>Qt::PenStyle</type>
+          <defname>ps</defname>
+        </param>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+          <defname>pcs</defname>
+        </param>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+          <defname>pjs</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>pw</defname>
+        </param>
+        <briefdescription>
+<para>All parameter constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="17" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.cpp" bodystart="3" bodyend="4"/>
+      </memberdef>
+      <memberdef kind="function" id="classPolyline_1ae38a1e1f4d3a0506cac0afcee0cbf93e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector</ref>&lt; QPoint &gt; &amp;</type>
+        <definition>myStd::vector&lt;QPoint&gt;&amp; Polyline::getPoints</definition>
+        <argsstring>()</argsstring>
+        <name>getPoints</name>
+        <briefdescription>
+<para>Gets the vector of QPoints that make up the polyline. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>vector of QPoints </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="22" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classPolyline_1a39d80ee69de06bb2037e6d73a21643b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Polyline::setPoints</definition>
+        <argsstring>(const myStd::vector&lt; QPoint &gt; &amp;pts)</argsstring>
+        <name>setPoints</name>
+        <param>
+          <type>const <ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector</ref>&lt; QPoint &gt; &amp;</type>
+          <declname>pts</declname>
+        </param>
+        <briefdescription>
+<para>Sets the vector of QPoints that make up the polyline to the given vector of QPoints. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector of QPoints </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="27" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classPolyline_1ac81ab6c46f172b381cc7b6ed4d6ec942" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Polyline::getNumOfPoints</definition>
+        <argsstring>()</argsstring>
+        <name>getNumOfPoints</name>
+        <briefdescription>
+<para>Gets the number of points that make up the polyline. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int number of QPoints </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="32" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classPolyline_1a334e86d5b90a0f90649c64d37e95cff9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Polyline::getPenColor</definition>
+        <argsstring>()</argsstring>
+        <name>getPenColor</name>
+        <briefdescription>
+<para>Gets the pen color stored in this shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Color of the pen </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="37" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classPolyline_1a69a07839c0f7c67efe10701bd7d7cf8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Polyline::setPenColor</definition>
+        <argsstring>(Qt::GlobalColor pc)</argsstring>
+        <name>setPenColor</name>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <declname>pc</declname>
+        </param>
+        <briefdescription>
+<para>Sets the color of the pen to the given color. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="44" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classPolyline_1aefe298425b83dbc94724ab5cb215bba3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Qt::PenStyle</type>
+        <definition>Qt::PenStyle Polyline::getPenStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getPenStyle</name>
+        <briefdescription>
+<para>Gets the style of the pen stored in the shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Style of the pen </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="50" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classPolyline_1ae5af058a4a94979fa88c2c3267da9087" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Polyline::setPenStyle</definition>
+        <argsstring>(Qt::PenStyle ps)</argsstring>
+        <name>setPenStyle</name>
+        <param>
+          <type>Qt::PenStyle</type>
+          <declname>ps</declname>
+        </param>
+        <briefdescription>
+<para>Sets the style of the pen to the given style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="56" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classPolyline_1acd78e365c667da035656279076bf5fe1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+        <definition>Qt::PenCapStyle Polyline::getPenCapStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getPenCapStyle</name>
+        <briefdescription>
+<para>Gets the pen cap style that is stored in this <ref refid="classShape" kindref="compound">Shape</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>PenCapStyle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="62" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classPolyline_1a34510d4e398ec607c0ec125f380f30ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Polyline::setPenCapStyle</definition>
+        <argsstring>(Qt::PenCapStyle pcs)</argsstring>
+        <name>setPenCapStyle</name>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+          <declname>pcs</declname>
+        </param>
+        <briefdescription>
+<para>Sets the Pen Cap Style to the given Pen Cap Style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penCapStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="68" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classPolyline_1a6bd520d9c7fef132bc43cbf61168917c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+        <definition>Qt::PenJoinStyle Polyline::getPenJoinStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getPenJoinStyle</name>
+        <briefdescription>
+<para>Gets the Pen Join Style. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>PenJoinStyle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="74" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classPolyline_1a3e792c8055d6c064afd6d6d07c7d8843" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Polyline::setPenJoinStyle</definition>
+        <argsstring>(Qt::PenJoinStyle pjs)</argsstring>
+        <name>setPenJoinStyle</name>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+          <declname>pjs</declname>
+        </param>
+        <briefdescription>
+<para>Sets the pen join style to the given style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penJoinStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="80" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classPolyline_1ab01dd06f45e43dc9e6617596065fee70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Polyline::getPenWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getPenWidth</name>
+        <briefdescription>
+<para>Gets the width of the pen. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>penWidth </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="87" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classPolyline_1aeb5424c425e44adff787367a497fc024" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Polyline::setPenWidth</definition>
+        <argsstring>(int pw)</argsstring>
+        <name>setPenWidth</name>
+        <param>
+          <type>int</type>
+          <declname>pw</declname>
+        </param>
+        <briefdescription>
+<para>Sets the width of the pen to the given width. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="93" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classPolyline_1ac5b5a4ac26b140a7dc30cc293638e3ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Polyline::draw</definition>
+        <argsstring>(QPainter &amp;, bool)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classShape_1a47dae32819e64fb32f3357f31978293f">draw</reimplements>
+        <param>
+          <type>QPainter &amp;</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+<para>Virtual function to draw shapes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="94" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.cpp" bodystart="5" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classPolyline_1a6138f6313141e81d989622806476c3d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int Polyline::getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <reimplements refid="classShape_1a3d15adf2a1d746928f9be98105096eda">getType</reimplements>
+        <briefdescription>
+<para>Gets the type of the shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>type as an int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="95" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classPolyline_1ad5425297b32d53a0f74eda253d4540f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>virtual double Polyline::getPerimeter</definition>
+        <argsstring>()</argsstring>
+        <name>getPerimeter</name>
+        <reimplements refid="classShape_1a391744b6bce96df044139dcbd1ae0aa8">getPerimeter</reimplements>
+        <briefdescription>
+<para>Gets the perimeter of the given shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Perimeter as a double </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="101" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="101" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classPolyline_1abe58d8a06186437737d4c2f856328855" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Polyline::getStaticType</definition>
+        <argsstring>()</argsstring>
+        <name>getStaticType</name>
+        <briefdescription>
+<para>gets the Type of object </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Type as int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/polyline.h" line="100" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classPolyline" kindref="compound">Polyline</ref> class that QPainter can draw. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="129">
+        <label>QObject</label>
+      </node>
+      <node id="127">
+        <label>Polyline</label>
+        <link refid="classPolyline"/>
+        <childnode refid="128" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="128">
+        <label>Shape</label>
+        <link refid="classShape"/>
+        <childnode refid="129" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="132">
+        <label>QObject</label>
+      </node>
+      <node id="130">
+        <label>Polyline</label>
+        <link refid="classPolyline"/>
+        <childnode refid="131" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="131">
+        <label>Shape</label>
+        <link refid="classShape"/>
+        <childnode refid="132" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Group Project/ScrumOfTheEarth/polyline.h" line="11" column="1" bodyfile="Group Project/ScrumOfTheEarth/polyline.h" bodystart="10" bodyend="120"/>
+    <listofallmembers>
+      <member refid="classPolyline_1ac5b5a4ac26b140a7dc30cc293638e3ee" prot="public" virt="virtual"><scope>Polyline</scope><name>draw</name></member>
+      <member refid="classShape_1ac29f8bce0d038c84470028c6819a79ab" prot="public" virt="virtual"><scope>Polyline</scope><name>getArea</name></member>
+      <member refid="classPolyline_1ac81ab6c46f172b381cc7b6ed4d6ec942" prot="public" virt="non-virtual"><scope>Polyline</scope><name>getNumOfPoints</name></member>
+      <member refid="classPolyline_1acd78e365c667da035656279076bf5fe1" prot="public" virt="non-virtual"><scope>Polyline</scope><name>getPenCapStyle</name></member>
+      <member refid="classPolyline_1a334e86d5b90a0f90649c64d37e95cff9" prot="public" virt="non-virtual"><scope>Polyline</scope><name>getPenColor</name></member>
+      <member refid="classPolyline_1a6bd520d9c7fef132bc43cbf61168917c" prot="public" virt="non-virtual"><scope>Polyline</scope><name>getPenJoinStyle</name></member>
+      <member refid="classPolyline_1aefe298425b83dbc94724ab5cb215bba3" prot="public" virt="non-virtual"><scope>Polyline</scope><name>getPenStyle</name></member>
+      <member refid="classPolyline_1ab01dd06f45e43dc9e6617596065fee70" prot="public" virt="non-virtual"><scope>Polyline</scope><name>getPenWidth</name></member>
+      <member refid="classPolyline_1ad5425297b32d53a0f74eda253d4540f7" prot="public" virt="virtual"><scope>Polyline</scope><name>getPerimeter</name></member>
+      <member refid="classPolyline_1ae38a1e1f4d3a0506cac0afcee0cbf93e" prot="public" virt="non-virtual"><scope>Polyline</scope><name>getPoints</name></member>
+      <member refid="classShape_1a3ac221427e91b0acc53a2f3764a8f01b" prot="public" virt="non-virtual"><scope>Polyline</scope><name>getShapeId</name></member>
+      <member refid="classPolyline_1abe58d8a06186437737d4c2f856328855" prot="public" virt="non-virtual"><scope>Polyline</scope><name>getStaticType</name></member>
+      <member refid="classPolyline_1a6138f6313141e81d989622806476c3d2" prot="public" virt="virtual"><scope>Polyline</scope><name>getType</name></member>
+      <member refid="classShape_1a0d2732ef366fa236a534351f6a0d96e5" prot="public" virt="non-virtual"><scope>Polyline</scope><name>operator&lt;</name></member>
+      <member refid="classShape_1a9b9942917d6e6c359a8751156ed52423" prot="public" virt="non-virtual"><scope>Polyline</scope><name>operator=</name></member>
+      <member refid="classShape_1a1e81a927f61ea4d12daafc1d9295e00a" prot="public" virt="non-virtual"><scope>Polyline</scope><name>operator==</name></member>
+      <member refid="classPolyline_1a04b98bb9e7cf11cb33149b4bd476d9c9" prot="private" virt="non-virtual"><scope>Polyline</scope><name>penCapStyle</name></member>
+      <member refid="classPolyline_1add8ad8d5bbbe28e69ac3c8fd1fddc4b8" prot="private" virt="non-virtual"><scope>Polyline</scope><name>penColor</name></member>
+      <member refid="classPolyline_1a19d605bf583f9f3868a6936bcf797bec" prot="private" virt="non-virtual"><scope>Polyline</scope><name>penJoinStyle</name></member>
+      <member refid="classPolyline_1af30458c0ab251cc4bd2a3c59e677868a" prot="private" virt="non-virtual"><scope>Polyline</scope><name>penStyle</name></member>
+      <member refid="classPolyline_1a7279e45dc527b3bd29af2c10d36532c0" prot="private" virt="non-virtual"><scope>Polyline</scope><name>penWidth</name></member>
+      <member refid="classPolyline_1a72a92a3c2adfe027565d4b849ab69865" prot="private" virt="non-virtual"><scope>Polyline</scope><name>points</name></member>
+      <member refid="classPolyline_1aaea9368c2e2bfc26ecaa36c7e125ac5e" prot="public" virt="non-virtual"><scope>Polyline</scope><name>Polyline</name></member>
+      <member refid="classPolyline_1a34510d4e398ec607c0ec125f380f30ff" prot="public" virt="non-virtual"><scope>Polyline</scope><name>setPenCapStyle</name></member>
+      <member refid="classPolyline_1a69a07839c0f7c67efe10701bd7d7cf8e" prot="public" virt="non-virtual"><scope>Polyline</scope><name>setPenColor</name></member>
+      <member refid="classPolyline_1a3e792c8055d6c064afd6d6d07c7d8843" prot="public" virt="non-virtual"><scope>Polyline</scope><name>setPenJoinStyle</name></member>
+      <member refid="classPolyline_1ae5af058a4a94979fa88c2c3267da9087" prot="public" virt="non-virtual"><scope>Polyline</scope><name>setPenStyle</name></member>
+      <member refid="classPolyline_1aeb5424c425e44adff787367a497fc024" prot="public" virt="non-virtual"><scope>Polyline</scope><name>setPenWidth</name></member>
+      <member refid="classPolyline_1a39d80ee69de06bb2037e6d73a21643b3" prot="public" virt="non-virtual"><scope>Polyline</scope><name>setPoints</name></member>
+      <member refid="classShape_1a95f42a7833e43572d684455c2ee232ec" prot="public" virt="non-virtual"><scope>Polyline</scope><name>setShapeId</name></member>
+      <member refid="classShape_1a3bb93456832521010106172a095e22ca" prot="public" virt="non-virtual"><scope>Polyline</scope><name>Shape</name></member>
+      <member refid="classShape_1a44d91c7621d4d7af60fe3320a2e07279" prot="public" virt="non-virtual"><scope>Polyline</scope><name>Shape</name></member>
+      <member refid="classShape_1ac3b9fc48965274893f25b18aa14ba665" prot="public" virt="virtual"><scope>Polyline</scope><name>~Shape</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

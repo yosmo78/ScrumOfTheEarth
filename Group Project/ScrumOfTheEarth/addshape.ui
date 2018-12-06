@@ -1792,7 +1792,7 @@
        <string>Add Ellipse</string>
       </property>
      </widget>
-     <widget class="QComboBox" name="EPenColors_2">
+     <widget class="QComboBox" name="EBrushColors">
       <property name="geometry">
        <rect>
         <x>100</x>
@@ -2154,9 +2154,9 @@
      <widget class="QLineEdit" name="GPoints">
       <property name="geometry">
        <rect>
-        <x>475</x>
+        <x>484</x>
         <y>10</y>
-        <width>200</width>
+        <width>191</width>
         <height>25</height>
        </rect>
       </property>
@@ -2166,12 +2166,12 @@
        <rect>
         <x>365</x>
         <y>10</y>
-        <width>105</width>
+        <width>111</width>
         <height>20</height>
        </rect>
       </property>
       <property name="text">
-       <string>Points (ex: 1,2,3,4)</string>
+       <string>Points (ex: x, y, 3, 4)</string>
       </property>
      </widget>
      <widget class="QPushButton" name="GAddPolygon">
@@ -2360,7 +2360,7 @@
        <rect>
         <x>270</x>
         <y>40</y>
-        <width>95</width>
+        <width>81</width>
         <height>25</height>
        </rect>
       </property>
@@ -2459,7 +2459,7 @@
        <rect>
         <x>270</x>
         <y>10</y>
-        <width>95</width>
+        <width>81</width>
         <height>25</height>
        </rect>
       </property>
@@ -2493,14 +2493,14 @@
      <widget class="QLabel" name="PPointsLabel">
       <property name="geometry">
        <rect>
-        <x>375</x>
+        <x>359</x>
         <y>10</y>
-        <width>105</width>
+        <width>121</width>
         <height>20</height>
        </rect>
       </property>
       <property name="text">
-       <string>Points (ex: 1,2,3,4)</string>
+       <string>Points (ex: x, y, 3, 4)</string>
       </property>
      </widget>
      <widget class="QLineEdit" name="PPoints">
@@ -2531,7 +2531,7 @@
      <attribute name="title">
       <string>Line</string>
      </attribute>
-     <widget class="QLineEdit" name="LLengthInput">
+     <widget class="QLineEdit" name="LPoint1x">
       <property name="geometry">
        <rect>
         <x>270</x>
@@ -2564,7 +2564,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>Point Two</string>
+       <string>Point1 y:</string>
       </property>
      </widget>
      <widget class="QLabel" name="LxLabel">
@@ -2577,7 +2577,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>x Position</string>
+       <string>Point2 x:</string>
       </property>
      </widget>
      <widget class="QComboBox" name="LPenJoinStyles">
@@ -2615,7 +2615,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>Point One</string>
+       <string>Point1 x:</string>
       </property>
      </widget>
      <widget class="QComboBox" name="LPenCapStyles">
@@ -2666,7 +2666,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>y Position</string>
+       <string>Point2 y:</string>
       </property>
      </widget>
      <widget class="QComboBox" name="LPenStyles">
@@ -2709,7 +2709,7 @@
        </property>
       </item>
      </widget>
-     <widget class="QLineEdit" name="LWidthInput">
+     <widget class="QLineEdit" name="LPoint1y">
       <property name="geometry">
        <rect>
         <x>270</x>
@@ -2823,7 +2823,7 @@
        <string>Pen Join Style</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="LxData">
+     <widget class="QLineEdit" name="LPoint2x">
       <property name="geometry">
        <rect>
         <x>440</x>
@@ -2833,7 +2833,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="LyData">
+     <widget class="QLineEdit" name="LPoint2y">
       <property name="geometry">
        <rect>
         <x>440</x>

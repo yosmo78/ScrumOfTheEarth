@@ -1,0 +1,602 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classAddShape" kind="class"><name>AddShape</name>
+    <member refid="classAddShape_1a5c474115b92ef48f3e0cd34fbfb8a175" kind="variable"><name>ui</name></member>
+    <member refid="classAddShape_1a5d2fba48a65ae7bc4be9531ed6c61e90" kind="variable"><name>vecPointer</name></member>
+    <member refid="classAddShape_1a53a2b3cfa3a2576eb9c94303965d9d19" kind="variable"><name>var</name></member>
+    <member refid="classAddShape_1a7d99059cc9f818e4225803aa2c624723" kind="function"><name>AddShape</name></member>
+    <member refid="classAddShape_1aefd175938403da086e12162e19705939" kind="function"><name>~AddShape</name></member>
+    <member refid="classAddShape_1a5d7e9aac5d33ce39317a104bcbca102c" kind="slot"><name>on_AddSquare_clicked</name></member>
+    <member refid="classAddShape_1ac2b975d019cf71bf06300f6c3874429d" kind="slot"><name>on_RAddRectangle_clicked</name></member>
+    <member refid="classAddShape_1a79a7a943ec8e5f6caddf66a77544c8c3" kind="slot"><name>on_CAddCircle_clicked</name></member>
+    <member refid="classAddShape_1a41d116181751cad27663f6697d66c324" kind="slot"><name>on_EAddEllipse_clicked</name></member>
+    <member refid="classAddShape_1a567d099062a93e64e4288181c0750c60" kind="slot"><name>on_GAddPolygon_clicked</name></member>
+    <member refid="classAddShape_1af80c0cfc90fad02783617abbe2b2a513" kind="slot"><name>on_PAddPolyline_clicked</name></member>
+    <member refid="classAddShape_1ad86ebff96ac9a7d35349cefe1979e78f" kind="slot"><name>on_LAddLine_clicked</name></member>
+    <member refid="classAddShape_1a0651af3eb7d26a9b0dea23a05c97b8e8" kind="slot"><name>on_TAddText_clicked</name></member>
+    <member refid="classAddShape_1a6f79ea980ff8d6e7001c0b9b48d5ddb4" kind="signal"><name>update_Window</name></member>
+  </compound>
+  <compound refid="classCircle" kind="class"><name>Circle</name>
+    <member refid="classCircle_1a4f4fcd55fae7381411eecae15d2084c1" kind="variable"><name>point</name></member>
+    <member refid="classCircle_1a897ad7e556f1e90142093c69079d8b05" kind="variable"><name>radius</name></member>
+    <member refid="classCircle_1a26f337e7377395a70f21733782c286ae" kind="variable"><name>penColor</name></member>
+    <member refid="classCircle_1a1d66a22b9b485948cce1d19b8852acd6" kind="variable"><name>brushColor</name></member>
+    <member refid="classCircle_1a451b56d377198633b03bbb03babe9a8a" kind="variable"><name>penStyle</name></member>
+    <member refid="classCircle_1a24e1794fbaf4fa208b59b02012bf7e58" kind="variable"><name>penCapStyle</name></member>
+    <member refid="classCircle_1ab36f70278f069388eb72f0af7f024127" kind="variable"><name>penJoinStyle</name></member>
+    <member refid="classCircle_1afe0622daa8afc40acda041b202fd0542" kind="variable"><name>brushStyle</name></member>
+    <member refid="classCircle_1a434b2f977e289b18dcd1be300614bdf6" kind="variable"><name>penWidth</name></member>
+    <member refid="classCircle_1a40e653e2eecf4335d2125c97700dff3c" kind="function"><name>Circle</name></member>
+    <member refid="classCircle_1a363e30a4f7d06116167e77e271955998" kind="function"><name>getPoint1</name></member>
+    <member refid="classCircle_1adfc2e5e026f5d80215563cc42260a237" kind="function"><name>getRadius</name></member>
+    <member refid="classCircle_1a60e5c24fe969240435725aa608bed3dd" kind="function"><name>setPoint1</name></member>
+    <member refid="classCircle_1ad1c743962a2fc94b46cc80fbf88705ed" kind="function"><name>setPoint2</name></member>
+    <member refid="classCircle_1a56a594eac870bedf7c268a024bbd92d3" kind="function"><name>getPenColor</name></member>
+    <member refid="classCircle_1a82bde4b53ba1026e640db30b1096d60b" kind="function"><name>getBrushColor</name></member>
+    <member refid="classCircle_1ad7ea24061f3ac147c396ca258b132018" kind="function"><name>setPenColor</name></member>
+    <member refid="classCircle_1adc5d39dd16a7f02a4142903d17b02744" kind="function"><name>setBrushColor</name></member>
+    <member refid="classCircle_1aca52e370c08797fd90af17499bc33e5b" kind="function"><name>getPenStyle</name></member>
+    <member refid="classCircle_1a0eb4403f9655b48e774e2be89dd18088" kind="function"><name>setPenStyle</name></member>
+    <member refid="classCircle_1abaf3d67a11b83ba5df3ce7a8a382bbc1" kind="function"><name>getPenCapStyle</name></member>
+    <member refid="classCircle_1ad93fa94177ed8bfbb9c695b6bab9d8b3" kind="function"><name>setPenCapStyle</name></member>
+    <member refid="classCircle_1ac4ecd23537522a25d55e9d7197c7d9b5" kind="function"><name>getPenJoinStyle</name></member>
+    <member refid="classCircle_1a1b0c03d17c9fc49bbcb6e8708f9bd827" kind="function"><name>setPenJoinStyle</name></member>
+    <member refid="classCircle_1a4ec3092959992a2a6b2782e622617bda" kind="function"><name>getBrushStyle</name></member>
+    <member refid="classCircle_1a8029072b1eea3ef62c9010f68257b112" kind="function"><name>setBrushStyle</name></member>
+    <member refid="classCircle_1ab7d1e660ddced5d2f6fd36290f06083a" kind="function"><name>getPenWidth</name></member>
+    <member refid="classCircle_1abe124577ed86f9d9bcf77b0a5fdaca73" kind="function"><name>setPenWidth</name></member>
+    <member refid="classCircle_1aebc2ff1cc810905bc557d54e76aef936" kind="function"><name>draw</name></member>
+    <member refid="classCircle_1ac13b29eb5095b4fd8e6c25ba50dd9131" kind="function"><name>getType</name></member>
+    <member refid="classCircle_1ae770cbdb3a0148a9db411fb3b0f87b9a" kind="function"><name>getArea</name></member>
+    <member refid="classCircle_1af9a14f66b467788f8395ea587357a93f" kind="function"><name>getPerimeter</name></member>
+    <member refid="classCircle_1ac5e287c2511f325888d340b6555d51b5" kind="function"><name>getStaticType</name></member>
+  </compound>
+  <compound refid="classContactUs" kind="class"><name>ContactUs</name>
+    <member refid="classContactUs_1a20552e7ba79bda5789f1ce765c8adc31" kind="variable"><name>ui</name></member>
+    <member refid="classContactUs_1a6e20fc1c353d994a2f0bf13df4580232" kind="function"><name>ContactUs</name></member>
+    <member refid="classContactUs_1a44bd80bbb4908c913bb07019a609c5ba" kind="function"><name>~ContactUs</name></member>
+  </compound>
+  <compound refid="classEllipse" kind="class"><name>Ellipse</name>
+    <member refid="classEllipse_1a3d0fb93f9f429fad4de0c31259c3dfb8" kind="variable"><name>point</name></member>
+    <member refid="classEllipse_1ad2297210703db5cdb1021bdea0703a5d" kind="variable"><name>semimajor</name></member>
+    <member refid="classEllipse_1ac722f65f0cfb6446bbd3a68a4816538f" kind="variable"><name>semiminor</name></member>
+    <member refid="classEllipse_1a90f21c4ed1542846f629436c333bb9cf" kind="variable"><name>penColor</name></member>
+    <member refid="classEllipse_1a669bd986c48f0f7f523259e542947643" kind="variable"><name>brushColor</name></member>
+    <member refid="classEllipse_1a5e6928f4d3640eb128cc866670ba6a74" kind="variable"><name>penStyle</name></member>
+    <member refid="classEllipse_1a94603e085c6a2315e4962d65892d3429" kind="variable"><name>penCapStyle</name></member>
+    <member refid="classEllipse_1a749f47129ddffe2edd7d4eaa8a2cbabf" kind="variable"><name>penJoinStyle</name></member>
+    <member refid="classEllipse_1a0270cd930b5b3500146c165541832487" kind="variable"><name>brushStyle</name></member>
+    <member refid="classEllipse_1ae6f98a34f5403ffb034dff85ebc08054" kind="variable"><name>penWidth</name></member>
+    <member refid="classEllipse_1a76a451f8817fbfb5cd750621e3548cf7" kind="function"><name>Ellipse</name></member>
+    <member refid="classEllipse_1a8d67061c0516c89e5bbcd17e1b2b22c9" kind="function"><name>getTopLeft</name></member>
+    <member refid="classEllipse_1a4cb6a9a3ef286098d0ab36f8fecb2091" kind="function"><name>getMajorAxis</name></member>
+    <member refid="classEllipse_1aa8d0c595dfee2a27dd3f44caf8f398b1" kind="function"><name>getMinorAxis</name></member>
+    <member refid="classEllipse_1a29a934608fd3cad24c5f6de9d9abb9c4" kind="function"><name>setTopLeft</name></member>
+    <member refid="classEllipse_1a0418b6a8b64b02d3f31c0389a0c6371f" kind="function"><name>setMajorAxis</name></member>
+    <member refid="classEllipse_1ac0bd465b71501780ba71e2c4b1942100" kind="function"><name>setMinorAxis</name></member>
+    <member refid="classEllipse_1a695959f0218a53af7758d671189ce558" kind="function"><name>getPenColor</name></member>
+    <member refid="classEllipse_1ad170f1cfd8af739d7202144b92a25861" kind="function"><name>getBrushColor</name></member>
+    <member refid="classEllipse_1a764a1e1ea8fb7db3fca39cf36a8fec35" kind="function"><name>setPenColor</name></member>
+    <member refid="classEllipse_1a504988b087ad3619c764469ee5506025" kind="function"><name>setBrushColor</name></member>
+    <member refid="classEllipse_1ad62330c89dd6f3ebc7e08378aebf6518" kind="function"><name>getPenStyle</name></member>
+    <member refid="classEllipse_1ae96699413a5bef290c19a552ab7271d9" kind="function"><name>setPenStyle</name></member>
+    <member refid="classEllipse_1a31f27784ade1471b1c48e23d0c4dcfc3" kind="function"><name>getPenCapStyle</name></member>
+    <member refid="classEllipse_1a7e97c7286539aee8a6b23af78a5f450c" kind="function"><name>setPenCapStyle</name></member>
+    <member refid="classEllipse_1a0f6832606831fd3399a84b0f3174249a" kind="function"><name>getPenJoinStyle</name></member>
+    <member refid="classEllipse_1a3d6f6123f1cdfa3bb8c6e8964052d139" kind="function"><name>setPenJoinStyle</name></member>
+    <member refid="classEllipse_1ab3c8a9b4e1cb554f1ad8677a407ac398" kind="function"><name>getBrushStyle</name></member>
+    <member refid="classEllipse_1ab7948b55080ea45bc7cbf14cb7d432b8" kind="function"><name>setBrushStyle</name></member>
+    <member refid="classEllipse_1a8d3e931715310a529b6690d3dc711181" kind="function"><name>getPenWidth</name></member>
+    <member refid="classEllipse_1ad36ab08a7eddb0df1709e89fbeda0831" kind="function"><name>setPenWidth</name></member>
+    <member refid="classEllipse_1a807da0badc3cc332ba408e6d94333a36" kind="function"><name>draw</name></member>
+    <member refid="classEllipse_1af8a6e2834d811a632d323cc3d9cb5b31" kind="function"><name>getType</name></member>
+    <member refid="classEllipse_1aa9aff42aee3c6188e017dfa9d6a0590a" kind="function"><name>getArea</name></member>
+    <member refid="classEllipse_1afc43182b486fb25e7ba9fd344cfee5d4" kind="function"><name>getPerimeter</name></member>
+    <member refid="classEllipse_1a05cf0c6c09a47baaaed6c2d0df922dfb" kind="function"><name>getStaticType</name></member>
+  </compound>
+  <compound refid="classLine" kind="class"><name>Line</name>
+    <member refid="classLine_1a286ad4f63ee23db76031f569c5b135ae" kind="variable"><name>point1</name></member>
+    <member refid="classLine_1a7403c2cfa10367b73842734083a17548" kind="variable"><name>point2</name></member>
+    <member refid="classLine_1abd52ed401686c4ea82f3a3ea18d976d3" kind="variable"><name>penColor</name></member>
+    <member refid="classLine_1ad51d4bd431142153927bd0b23b8db59b" kind="variable"><name>penStyle</name></member>
+    <member refid="classLine_1a12908226636a8d32fc50460e2819b516" kind="variable"><name>penCapStyle</name></member>
+    <member refid="classLine_1a3bd68f881e6bcd8b04181d4682d66c15" kind="variable"><name>penJoinStyle</name></member>
+    <member refid="classLine_1a4fc1d856f822dd0b88676e6c22a65f14" kind="variable"><name>penWidth</name></member>
+    <member refid="classLine_1abcc71f5940d76af54fb2a8406418dd44" kind="function"><name>Line</name></member>
+    <member refid="classLine_1ad0f6a573ebd8220236e7de8202717f97" kind="function"><name>getPoint1</name></member>
+    <member refid="classLine_1aa64a85c213850620e2ca3df153fe7846" kind="function"><name>getPoint2</name></member>
+    <member refid="classLine_1a671e977e9b5cb104016def1e9e99c5aa" kind="function"><name>setPoint1</name></member>
+    <member refid="classLine_1acd4ccc2b472817c45f52297c99a8cbf9" kind="function"><name>setPoint2</name></member>
+    <member refid="classLine_1a2d9f0fdcc2da8a29ba39660579150863" kind="function"><name>getPenColor</name></member>
+    <member refid="classLine_1a22f3c1710429e1dd2e883562feba090e" kind="function"><name>setPenColor</name></member>
+    <member refid="classLine_1ab461e7db1a107472e97af08183fccc19" kind="function"><name>getPenStyle</name></member>
+    <member refid="classLine_1ad0c29864440d59e221d4e4af1c3f2899" kind="function"><name>setPenStyle</name></member>
+    <member refid="classLine_1afee8c712228659e647752e7198d6891c" kind="function"><name>getPenCapStyle</name></member>
+    <member refid="classLine_1a2a3fa8792f5f8e582a6cb902514fcc9c" kind="function"><name>setPenCapStyle</name></member>
+    <member refid="classLine_1a070564edc368231e089c8275ccc2e72d" kind="function"><name>getPenJoinStyle</name></member>
+    <member refid="classLine_1ae996ba09d0e9c4d06360955486b00f84" kind="function"><name>setPenJoinStyle</name></member>
+    <member refid="classLine_1aedbb24685047a4f591fab1b8b7d39125" kind="function"><name>getPenWidth</name></member>
+    <member refid="classLine_1ade580b43a443e60b77bef50ae98493a2" kind="function"><name>setPenWidth</name></member>
+    <member refid="classLine_1a3bcbb11a1d79a7f9a60cc1aac3ab1bb5" kind="function"><name>draw</name></member>
+    <member refid="classLine_1a249b46f2c7dab063ac4754dbae444468" kind="function"><name>getType</name></member>
+    <member refid="classLine_1ad63a55614d118000935e585f3551f630" kind="function"><name>getPerimeter</name></member>
+    <member refid="classLine_1aec5465504d5c944920fd96a7d81c8472" kind="function"><name>getStaticType</name></member>
+  </compound>
+  <compound refid="classMainWindow" kind="class"><name>MainWindow</name>
+    <member refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" kind="variable"><name>ui</name></member>
+    <member refid="classMainWindow_1afe38d9541854cf695b23ace069411abe" kind="variable"><name>addshape</name></member>
+    <member refid="classMainWindow_1ae98b5353d6edda4dccd481b77c4c9777" kind="variable"><name>moveshape</name></member>
+    <member refid="classMainWindow_1a735c2c1dcdb1692dbcc3c01a9f83b3d3" kind="variable"><name>isAdmin</name></member>
+    <member refid="classMainWindow_1a04a17ff8d2a8277e3d4802fe73707d00" kind="variable"><name>file</name></member>
+    <member refid="classMainWindow_1a16bf19588e7e7cb601b4e01661a9141b" kind="function"><name>MainWindow</name></member>
+    <member refid="classMainWindow_1ae98d00a93bc118200eeef9f9bba1dba7" kind="function"><name>~MainWindow</name></member>
+    <member refid="classMainWindow_1a59351bdf1235b640a416121e7b8d89d3" kind="slot"><name>update_window</name></member>
+    <member refid="classMainWindow_1a34d4c3b95a963782747d83028863222f" kind="slot"><name>on_FileButton_clicked</name></member>
+    <member refid="classMainWindow_1a1cc2a1627f61fe722cd05630464612f0" kind="slot"><name>on_Save_clicked</name></member>
+    <member refid="classMainWindow_1ac8beabcdc8aa7d641a293ac2f4365af9" kind="slot"><name>on_AddShape_clicked</name></member>
+    <member refid="classMainWindow_1a21d21a1b368146474af832835fb061ca" kind="slot"><name>on_DeleteShape_clicked</name></member>
+    <member refid="classMainWindow_1a2bd2900604e5f3f093f95ffde8a86bd2" kind="slot"><name>on_checkBox_clicked</name></member>
+    <member refid="classMainWindow_1a4de79c63c7fa0b8d7c468ac71f20be81" kind="slot"><name>on_pushButton_clicked</name></member>
+  </compound>
+  <compound refid="classMoveShape" kind="class"><name>MoveShape</name>
+    <member refid="classMoveShape_1a25073cace4faa7e5245157b8807aa64d" kind="variable"><name>ui</name></member>
+    <member refid="classMoveShape_1a44c3ffe8dbfd3fe1ae73259f492a63cb" kind="variable"><name>vecPointer</name></member>
+    <member refid="classMoveShape_1a020f54b76f345cc9fa83ba8deb4af9c6" kind="signal"><name>update_win</name></member>
+    <member refid="classMoveShape_1a475fca3688eb29093886a0508f8e9b83" kind="function"><name>MoveShape</name></member>
+    <member refid="classMoveShape_1a9790764b1e1ec53da191338e6fa763ac" kind="function"><name>~MoveShape</name></member>
+    <member refid="classMoveShape_1aa41a025f6d296308f8d12ad74dd2091d" kind="slot"><name>on_pushButton_clicked</name></member>
+  </compound>
+  <compound refid="classPolygon" kind="class"><name>Polygon</name>
+    <member refid="classPolygon_1a0e72760210672ce6329ee9e8d810a03d" kind="variable"><name>polyPoint</name></member>
+    <member refid="classPolygon_1a3e604b7347389bb87f1640beeb2b68f0" kind="variable"><name>penColor</name></member>
+    <member refid="classPolygon_1af1930ff4cfc1b127a91cda322aa67686" kind="variable"><name>brushColor</name></member>
+    <member refid="classPolygon_1ae20e73c6abcfa7f393d80b6a36a99f0e" kind="variable"><name>penStyle</name></member>
+    <member refid="classPolygon_1ac82a8f77555ce37138893191876b013d" kind="variable"><name>penCapStyle</name></member>
+    <member refid="classPolygon_1ae4f8e658b7b18681ceebab9011a7f9b9" kind="variable"><name>penJoinStyle</name></member>
+    <member refid="classPolygon_1af334bbb5275feb9c51d8be16b59db852" kind="variable"><name>brushStyle</name></member>
+    <member refid="classPolygon_1a7bd0fbf0fa7f2647a688f849a6403d89" kind="variable"><name>penWidth</name></member>
+    <member refid="classPolygon_1ad85ab576e63cdafd2d0a821a7cebd40a" kind="function"><name>Polygon</name></member>
+    <member refid="classPolygon_1ad7e1a7964733cb80b095b7dd66fb0551" kind="function"><name>getPoint</name></member>
+    <member refid="classPolygon_1a254935fca8f07c8b337ae96e19283464" kind="function"><name>getPolyPoints</name></member>
+    <member refid="classPolygon_1aaa21d89b5cdf770f421d19524e82734c" kind="function"><name>getNumOfPoints</name></member>
+    <member refid="classPolygon_1aa7f5e838167b0c1b57320fd418325b8c" kind="function"><name>setVector</name></member>
+    <member refid="classPolygon_1a19e111329052166c5eeb2d6933066774" kind="function"><name>setPoint</name></member>
+    <member refid="classPolygon_1a495a1a0d772def2064a1c19762b769c2" kind="function"><name>getPenColor</name></member>
+    <member refid="classPolygon_1a201ddc5bb4071243ec497028f70b6d51" kind="function"><name>getBrushColor</name></member>
+    <member refid="classPolygon_1aa5e4c1ec34f061e201ab5ff38b55f945" kind="function"><name>setPenColor</name></member>
+    <member refid="classPolygon_1a09d905fcc1c8fd0b25772d54d1d5c831" kind="function"><name>setBrushColor</name></member>
+    <member refid="classPolygon_1ad17a682e3a31c185086a56ac36b1a732" kind="function"><name>getPenStyle</name></member>
+    <member refid="classPolygon_1afd47f455b19d368bea8a198d4fcfa81f" kind="function"><name>setPenStyle</name></member>
+    <member refid="classPolygon_1a6a87aa5a647a925d520fb3462e3450dc" kind="function"><name>getPenCapStyle</name></member>
+    <member refid="classPolygon_1a9bffdd7d7b4f98fdb14fcba435ff4857" kind="function"><name>setPenCapStyle</name></member>
+    <member refid="classPolygon_1a1472bbc12cc60b90b666d509ffefaf47" kind="function"><name>getPenJoinStyle</name></member>
+    <member refid="classPolygon_1a1dbd55cf600447893405712943f01a95" kind="function"><name>setPenJoinStyle</name></member>
+    <member refid="classPolygon_1a8a827f50a6b4f1a3233cc343b26e5bf4" kind="function"><name>getBrushStyle</name></member>
+    <member refid="classPolygon_1a8c373e3f2f22b4e25adc081dfba4c007" kind="function"><name>setBrushStyle</name></member>
+    <member refid="classPolygon_1af05a6abd65de0aba9704b9acbbba80c5" kind="function"><name>getPenWidth</name></member>
+    <member refid="classPolygon_1a4078d739e8bcfcef4402077afa24a687" kind="function"><name>setPenWidth</name></member>
+    <member refid="classPolygon_1a324e212e7f096a104f84fb854be50215" kind="function"><name>draw</name></member>
+    <member refid="classPolygon_1aa17e86eda9587c95a0e498e60033dfa3" kind="function"><name>getType</name></member>
+    <member refid="classPolygon_1a31c8c5320acfb934bce0441efb0fe837" kind="function"><name>getArea</name></member>
+    <member refid="classPolygon_1a295ef7fe3b5ed921ae15a757680b159a" kind="function"><name>getPerimeter</name></member>
+    <member refid="classPolygon_1a8aeea28a673b2ef2df1dd150ebb4f8d9" kind="function"><name>getStaticType</name></member>
+  </compound>
+  <compound refid="classPolyline" kind="class"><name>Polyline</name>
+    <member refid="classPolyline_1a72a92a3c2adfe027565d4b849ab69865" kind="variable"><name>points</name></member>
+    <member refid="classPolyline_1add8ad8d5bbbe28e69ac3c8fd1fddc4b8" kind="variable"><name>penColor</name></member>
+    <member refid="classPolyline_1af30458c0ab251cc4bd2a3c59e677868a" kind="variable"><name>penStyle</name></member>
+    <member refid="classPolyline_1a04b98bb9e7cf11cb33149b4bd476d9c9" kind="variable"><name>penCapStyle</name></member>
+    <member refid="classPolyline_1a19d605bf583f9f3868a6936bcf797bec" kind="variable"><name>penJoinStyle</name></member>
+    <member refid="classPolyline_1a7279e45dc527b3bd29af2c10d36532c0" kind="variable"><name>penWidth</name></member>
+    <member refid="classPolyline_1aaea9368c2e2bfc26ecaa36c7e125ac5e" kind="function"><name>Polyline</name></member>
+    <member refid="classPolyline_1ae38a1e1f4d3a0506cac0afcee0cbf93e" kind="function"><name>getPoints</name></member>
+    <member refid="classPolyline_1a39d80ee69de06bb2037e6d73a21643b3" kind="function"><name>setPoints</name></member>
+    <member refid="classPolyline_1ac81ab6c46f172b381cc7b6ed4d6ec942" kind="function"><name>getNumOfPoints</name></member>
+    <member refid="classPolyline_1a334e86d5b90a0f90649c64d37e95cff9" kind="function"><name>getPenColor</name></member>
+    <member refid="classPolyline_1a69a07839c0f7c67efe10701bd7d7cf8e" kind="function"><name>setPenColor</name></member>
+    <member refid="classPolyline_1aefe298425b83dbc94724ab5cb215bba3" kind="function"><name>getPenStyle</name></member>
+    <member refid="classPolyline_1ae5af058a4a94979fa88c2c3267da9087" kind="function"><name>setPenStyle</name></member>
+    <member refid="classPolyline_1acd78e365c667da035656279076bf5fe1" kind="function"><name>getPenCapStyle</name></member>
+    <member refid="classPolyline_1a34510d4e398ec607c0ec125f380f30ff" kind="function"><name>setPenCapStyle</name></member>
+    <member refid="classPolyline_1a6bd520d9c7fef132bc43cbf61168917c" kind="function"><name>getPenJoinStyle</name></member>
+    <member refid="classPolyline_1a3e792c8055d6c064afd6d6d07c7d8843" kind="function"><name>setPenJoinStyle</name></member>
+    <member refid="classPolyline_1ab01dd06f45e43dc9e6617596065fee70" kind="function"><name>getPenWidth</name></member>
+    <member refid="classPolyline_1aeb5424c425e44adff787367a497fc024" kind="function"><name>setPenWidth</name></member>
+    <member refid="classPolyline_1ac5b5a4ac26b140a7dc30cc293638e3ee" kind="function"><name>draw</name></member>
+    <member refid="classPolyline_1a6138f6313141e81d989622806476c3d2" kind="function"><name>getType</name></member>
+    <member refid="classPolyline_1ad5425297b32d53a0f74eda253d4540f7" kind="function"><name>getPerimeter</name></member>
+    <member refid="classPolyline_1abe58d8a06186437737d4c2f856328855" kind="function"><name>getStaticType</name></member>
+  </compound>
+  <compound refid="classRectangle" kind="class"><name>Rectangle</name>
+    <member refid="classRectangle_1a734a9301213d538ea098355235ead409" kind="variable"><name>CornerPoint</name></member>
+    <member refid="classRectangle_1ae59ba4b220bd28539821b64b48553b75" kind="variable"><name>length</name></member>
+    <member refid="classRectangle_1a019ed802523594472e0032953b6062d4" kind="variable"><name>width</name></member>
+    <member refid="classRectangle_1a6e294224b92e734bcd8fb55995f9f9f8" kind="variable"><name>penColor</name></member>
+    <member refid="classRectangle_1ac77148879af5308c47302ee275e3bee7" kind="variable"><name>brushColor</name></member>
+    <member refid="classRectangle_1a113c7f8893cb170412b43bdc5c825b57" kind="variable"><name>penStyle</name></member>
+    <member refid="classRectangle_1acce6bc91f646fe45d71602e0ceb5f4bc" kind="variable"><name>penCapStyle</name></member>
+    <member refid="classRectangle_1a1ef41c6b1d8784552ebcb6f1f145f1a6" kind="variable"><name>penJoinStyle</name></member>
+    <member refid="classRectangle_1a8f86cf83b4e7809c753ca48407bb1129" kind="variable"><name>brushStyle</name></member>
+    <member refid="classRectangle_1a529c1b2a80cd10cd3b16e4e10453be38" kind="variable"><name>penWidth</name></member>
+    <member refid="classRectangle_1a1dca3e66dc1317df74dda6c1984728ff" kind="function"><name>Rectangle</name></member>
+    <member refid="classRectangle_1a934ec26d7cff08b196e6e2db94508d5d" kind="function"><name>getCornerPoint</name></member>
+    <member refid="classRectangle_1a34488ca08ac813751dba8c57c80985fa" kind="function"><name>setCornerPoint</name></member>
+    <member refid="classRectangle_1a58c26a2910e8982b49fafd02d1d3aa47" kind="function"><name>getLength</name></member>
+    <member refid="classRectangle_1a8186780b0db41885ed04c45c9caafe96" kind="function"><name>setLength</name></member>
+    <member refid="classRectangle_1ab750e4f0666df9c303ad649342bf3efd" kind="function"><name>getWidth</name></member>
+    <member refid="classRectangle_1a4b2a528eff1c42b1a46148b2f5562c7b" kind="function"><name>setWidth</name></member>
+    <member refid="classRectangle_1a260ef02e14a452e25b1ebddc805928c8" kind="function"><name>getPenColor</name></member>
+    <member refid="classRectangle_1af105857f6e7bda45c45d0ce1309a032e" kind="function"><name>getBrushColor</name></member>
+    <member refid="classRectangle_1a489b9d60a05a4d2f6ee01d7989b30c22" kind="function"><name>setPenColor</name></member>
+    <member refid="classRectangle_1a645117a96beb4782f2ffc00d0ab865e1" kind="function"><name>setBrushColor</name></member>
+    <member refid="classRectangle_1abb61dc270e5b2b4ae3323e097e6fb7ce" kind="function"><name>getPenStyle</name></member>
+    <member refid="classRectangle_1a598da91b42f1f3541f687d6c35c23d23" kind="function"><name>setPenStyle</name></member>
+    <member refid="classRectangle_1a7e42f496cbaa93545c370a1a4aef4d42" kind="function"><name>getPenCapStyle</name></member>
+    <member refid="classRectangle_1a18f32cd496f2298ca9165231943c3bae" kind="function"><name>setPenCapStyle</name></member>
+    <member refid="classRectangle_1aaeb26e28ee7b37e166caeb1bf4ea7ec4" kind="function"><name>getPenJoinStyle</name></member>
+    <member refid="classRectangle_1acdb9bcb2c87a84c84b33a4a99c239de6" kind="function"><name>setPenJoinStyle</name></member>
+    <member refid="classRectangle_1aaa486dcefcdd7e59e63d92c105876724" kind="function"><name>getBrushStyle</name></member>
+    <member refid="classRectangle_1a4d5dff9ac01e605872f80d110015041b" kind="function"><name>setBrushStyle</name></member>
+    <member refid="classRectangle_1a45243b7fbe88527e6aed399b37863305" kind="function"><name>getPenWidth</name></member>
+    <member refid="classRectangle_1aa4e06745d54628776b1ac0f85c1e9867" kind="function"><name>setPenWidth</name></member>
+    <member refid="classRectangle_1a6734cad19e207a212dcb042e1006a7f1" kind="function"><name>draw</name></member>
+    <member refid="classRectangle_1a0098e1642c4ff1180c1243b802caca5a" kind="function"><name>getType</name></member>
+    <member refid="classRectangle_1a5405044e619a5ba1a52c0b9607c9f166" kind="function"><name>getArea</name></member>
+    <member refid="classRectangle_1aba6936b3c376465edff938cd4affc914" kind="function"><name>getPerimeter</name></member>
+    <member refid="classRectangle_1ac9e18cf57224bfbc584547c0ee6d1ce3" kind="function"><name>getStaticType</name></member>
+  </compound>
+  <compound refid="classRenderArea" kind="class"><name>RenderArea</name>
+    <member refid="classRenderArea_1a3502e321d5130cd9029c45c7238979e6" kind="variable"><name>shapesList</name></member>
+    <member refid="classRenderArea_1a7df74e9a89f4bb93dfe284e598d230b6" kind="variable"><name>showId</name></member>
+    <member refid="classRenderArea_1a71baad4c7f205d8f3c7fa2b1c7483448" kind="function"><name>RenderArea</name></member>
+    <member refid="classRenderArea_1ade92334d3441242827d5a96fc9cd5f42" kind="function"><name>~RenderArea</name></member>
+    <member refid="classRenderArea_1aff78d4f340f879fb5effa9830e4d77b9" kind="function"><name>getShowId</name></member>
+    <member refid="classRenderArea_1a460a86b0f462ad0fd99ae30688754583" kind="function"><name>setShowId</name></member>
+    <member refid="classRenderArea_1ae9b5a1573f3b06590c717c7598ffaae4" kind="function"><name>paintEvent</name></member>
+  </compound>
+  <compound refid="classShape" kind="class"><name>Shape</name>
+    <member refid="classShape_1a8bd63d4dd17f9347fb303a932bda62f6" kind="variable"><name>id</name></member>
+    <member refid="classShape_1a95f42a7833e43572d684455c2ee232ec" kind="function"><name>setShapeId</name></member>
+    <member refid="classShape_1a3ac221427e91b0acc53a2f3764a8f01b" kind="function"><name>getShapeId</name></member>
+    <member refid="classShape_1a47dae32819e64fb32f3357f31978293f" kind="function"><name>draw</name></member>
+    <member refid="classShape_1a3bb93456832521010106172a095e22ca" kind="function"><name>Shape</name></member>
+    <member refid="classShape_1a44d91c7621d4d7af60fe3320a2e07279" kind="function"><name>Shape</name></member>
+    <member refid="classShape_1a9b9942917d6e6c359a8751156ed52423" kind="function"><name>operator=</name></member>
+    <member refid="classShape_1a1e81a927f61ea4d12daafc1d9295e00a" kind="function"><name>operator==</name></member>
+    <member refid="classShape_1a0d2732ef366fa236a534351f6a0d96e5" kind="function"><name>operator&lt;</name></member>
+    <member refid="classShape_1ac29f8bce0d038c84470028c6819a79ab" kind="function"><name>getArea</name></member>
+    <member refid="classShape_1a391744b6bce96df044139dcbd1ae0aa8" kind="function"><name>getPerimeter</name></member>
+    <member refid="classShape_1a3d15adf2a1d746928f9be98105096eda" kind="function"><name>getType</name></member>
+    <member refid="classShape_1ac3b9fc48965274893f25b18aa14ba665" kind="function"><name>~Shape</name></member>
+  </compound>
+  <compound refid="classSquare" kind="class"><name>Square</name>
+    <member refid="classSquare_1acd8262747a4bf85cbeccd97692bb0af7" kind="variable"><name>CornerPoint</name></member>
+    <member refid="classSquare_1adb73a47a09f9244a20c7c35b25c6c51e" kind="variable"><name>length</name></member>
+    <member refid="classSquare_1a555dcdbdb0279fcf3f23d0d73cc3e6d0" kind="variable"><name>penColor</name></member>
+    <member refid="classSquare_1a28f44ed753615934d78600879a80c1fa" kind="variable"><name>brushColor</name></member>
+    <member refid="classSquare_1a879eb2491be0f9d06e385e8ea1962404" kind="variable"><name>penStyle</name></member>
+    <member refid="classSquare_1ae04b6750dc46fc1eccd07e8e8c63d5ad" kind="variable"><name>penCapStyle</name></member>
+    <member refid="classSquare_1a4225ea38b2769692eefc2fcc20c30477" kind="variable"><name>penJoinStyle</name></member>
+    <member refid="classSquare_1a672aaa6ed4c09366ee118dad13f734f4" kind="variable"><name>brushStyle</name></member>
+    <member refid="classSquare_1a91870e51c5d64786fdad820cf8baf350" kind="variable"><name>penWidth</name></member>
+    <member refid="classSquare_1a2a877745d97b47cef1bb9473b183b074" kind="function"><name>Square</name></member>
+    <member refid="classSquare_1a2fdd4544900c08c881c4bf4effe0b974" kind="function"><name>getCornerPoint</name></member>
+    <member refid="classSquare_1acfd205cb2fe02845e3ece8c9a1244943" kind="function"><name>setCornerPoint</name></member>
+    <member refid="classSquare_1a6d8a8d8ec4383ebefe4c274f189c6a79" kind="function"><name>getLength</name></member>
+    <member refid="classSquare_1a6a04c5639dc3cd6501a1d80ad54f4171" kind="function"><name>setLength</name></member>
+    <member refid="classSquare_1a8e9f690383213cb901883ba0fd008818" kind="function"><name>getPenColor</name></member>
+    <member refid="classSquare_1a8f504b5de9fc6cbc7aedc90c6559cb58" kind="function"><name>getBrushColor</name></member>
+    <member refid="classSquare_1aea0a3ccc55caacf339d9270d102b75c8" kind="function"><name>setPenColor</name></member>
+    <member refid="classSquare_1ad649b56a35dba222144299a0a4e90483" kind="function"><name>setBrushColor</name></member>
+    <member refid="classSquare_1a8acc57d1601adeb0800648799fc8beae" kind="function"><name>getPenStyle</name></member>
+    <member refid="classSquare_1a912efb5a33db0a697a275fccedf69523" kind="function"><name>setPenStyle</name></member>
+    <member refid="classSquare_1a3b91e8b3b03d2a6125836a5477cfc9be" kind="function"><name>getPenCapStyle</name></member>
+    <member refid="classSquare_1a5b9e32153640bdb937b1140f1c45083e" kind="function"><name>setPenCapStyle</name></member>
+    <member refid="classSquare_1a6fd69d97012e009ffea95e457f3a845e" kind="function"><name>getPenJoinStyle</name></member>
+    <member refid="classSquare_1a51ebefc5fc56435612188060b6088bd7" kind="function"><name>setPenJoinStyle</name></member>
+    <member refid="classSquare_1a63e121e72afaba2766f24a0d8816974f" kind="function"><name>getBrushStyle</name></member>
+    <member refid="classSquare_1aec04ffe7d0b567be4a7221013add1d6d" kind="function"><name>setBrushStyle</name></member>
+    <member refid="classSquare_1ac6b3bedb6d43e5059840221331d802fd" kind="function"><name>getPenWidth</name></member>
+    <member refid="classSquare_1a26697e2c607e6cbda21a63e0f292e5e6" kind="function"><name>setPenWidth</name></member>
+    <member refid="classSquare_1acea142797dc1540a4fea5d343b7f1e82" kind="function"><name>draw</name></member>
+    <member refid="classSquare_1a1d225d79fc799bc98f9ad4d23e33a7d2" kind="function"><name>getType</name></member>
+    <member refid="classSquare_1a9a97feb159f85721b661b10ace6a8b3b" kind="function"><name>getArea</name></member>
+    <member refid="classSquare_1ae1d360c45a7970da83c3ad2acbf81dc2" kind="function"><name>getPerimeter</name></member>
+    <member refid="classSquare_1a5d6e510d07f465fefdd1cdbbd041db2f" kind="function"><name>getStaticType</name></member>
+  </compound>
+  <compound refid="classText" kind="class"><name>Text</name>
+    <member refid="classText_1addb9f191277511d578c8a83f939a7db4" kind="variable"><name>CornerPoint</name></member>
+    <member refid="classText_1a757739b913a5c9cb008ba175d7624d6c" kind="variable"><name>length</name></member>
+    <member refid="classText_1a430a4945727b044dcb471554b97dd4ee" kind="variable"><name>width</name></member>
+    <member refid="classText_1ab3a83a24efa168e41f8703461f3437fc" kind="variable"><name>textString</name></member>
+    <member refid="classText_1a686008040fa6d6456e061876f2ed743d" kind="variable"><name>textColor</name></member>
+    <member refid="classText_1a2e03bf21920b602eb96388d6d3cfe59e" kind="variable"><name>textAlignment</name></member>
+    <member refid="classText_1a64485730c4063b055a4aee42a80e346a" kind="variable"><name>textPointSize</name></member>
+    <member refid="classText_1a629a7a2bded86d2abfbf17b17c057aec" kind="variable"><name>textFontFamily</name></member>
+    <member refid="classText_1a3744e5ba694747ebb729daaa726b5e8f" kind="variable"><name>textFontStyle</name></member>
+    <member refid="classText_1a0d0e087f3cb761c7ae542ca6dfba0b72" kind="variable"><name>textFontWeight</name></member>
+    <member refid="classText_1a2af2490841998a368bccb3eaed6d3698" kind="function"><name>Text</name></member>
+    <member refid="classText_1a599aa1ac67ad501551a851f2dbc1d90a" kind="function"><name>getCornerPoint</name></member>
+    <member refid="classText_1a8a8424a8e6386a0626cba6ddfa1a91c2" kind="function"><name>setCornerPoint</name></member>
+    <member refid="classText_1a0d184f40401d7b4a8127470702bbe1ea" kind="function"><name>getLength</name></member>
+    <member refid="classText_1af833cfc1f38ddd0021ac7d1c65f0acb9" kind="function"><name>setLength</name></member>
+    <member refid="classText_1aa426e679627149ff986a2c793b2ac71d" kind="function"><name>getWidth</name></member>
+    <member refid="classText_1adb7d8d7de01f5ee0d4de99092e728db6" kind="function"><name>setWidth</name></member>
+    <member refid="classText_1a873c6803659cfbc8282f746d6a15f158" kind="function"><name>getTextString</name></member>
+    <member refid="classText_1a84348cf4792c9c9b31c50db0ff776784" kind="function"><name>setTextString</name></member>
+    <member refid="classText_1ac6681a7e36595ab4465814caf87418e1" kind="function"><name>getGlobalColor</name></member>
+    <member refid="classText_1afd3587da630468e7b7c78b4160cb2837" kind="function"><name>setGlobalColor</name></member>
+    <member refid="classText_1a20c87e3d4ca218bdaae3181922091ca5" kind="function"><name>getAlignmentFlag</name></member>
+    <member refid="classText_1a7eddf71ff09b1b20499d2a05ac017dd7" kind="function"><name>setAlignmentFlag</name></member>
+    <member refid="classText_1a14d8585dd9a39a1bfecd1b2b44131464" kind="function"><name>getTextPointSize</name></member>
+    <member refid="classText_1ad1e9aabbb6fc0aebc94b3855e32eea78" kind="function"><name>setTextPointSize</name></member>
+    <member refid="classText_1ac72f905a25316d1c271674811e31f724" kind="function"><name>getTextFontFamily</name></member>
+    <member refid="classText_1addb9d731d7822aa2d5956d9dc0201500" kind="function"><name>setTextFontFamily</name></member>
+    <member refid="classText_1ad572034a19f008c64c63e858cf02a0a4" kind="function"><name>getTextFontStyle</name></member>
+    <member refid="classText_1acd45f77b52ddeeeeec895fb06997784f" kind="function"><name>setTextFontStyle</name></member>
+    <member refid="classText_1a633a61b274b66c47244430638cd57233" kind="function"><name>getTextFontWeight</name></member>
+    <member refid="classText_1afc544d4b1e989b7386026c39f9413228" kind="function"><name>setTextFontWeight</name></member>
+    <member refid="classText_1a54e8085e0b04abba6b4a09232ff21449" kind="function"><name>draw</name></member>
+    <member refid="classText_1a701eda01498e972823f4c833ed0e8811" kind="function"><name>getType</name></member>
+    <member refid="classText_1aa63f66168dc6f0af547710743a52f9c9" kind="function"><name>getStaticType</name></member>
+  </compound>
+  <compound refid="classmyStd_1_1vector" kind="class"><name>myStd::vector</name>
+    <member refid="classmyStd_1_1vector_1a667a65b093f1253d2229d06768aa3bf9" kind="typedef"><name>iterator</name></member>
+    <member refid="classmyStd_1_1vector_1ae8f53b1db01169b861f0299f9ced0e37" kind="typedef"><name>const_iterator</name></member>
+    <member refid="classmyStd_1_1vector_1ab048ebed58cf7ccf28e859c9de98c215" kind="variable"><name>size_v</name></member>
+    <member refid="classmyStd_1_1vector_1a7ba7d45fc724759168f0c1a146e8ac92" kind="variable"><name>elem</name></member>
+    <member refid="classmyStd_1_1vector_1a3e096193774c2c2afddcd7ce0cf45b5e" kind="variable"><name>space</name></member>
+    <member refid="classmyStd_1_1vector_1a40e5c01ceb5d0c2bc64b23005c21ba04" kind="function"><name>vector</name></member>
+    <member refid="classmyStd_1_1vector_1a3f942029ffea510e3c6e67310c18abb7" kind="function"><name>vector</name></member>
+    <member refid="classmyStd_1_1vector_1ae425fb0a79cfa7870cf3603c8abe3369" kind="function"><name>vector</name></member>
+    <member refid="classmyStd_1_1vector_1a76692ca684b66499d2877824e1404205" kind="function"><name>vector</name></member>
+    <member refid="classmyStd_1_1vector_1a5cbbf45fd8ead8b9cbf4b0c7acf5010f" kind="function"><name>operator=</name></member>
+    <member refid="classmyStd_1_1vector_1a8aac18132c15abb44dea31300923ef3f" kind="function"><name>operator=</name></member>
+    <member refid="classmyStd_1_1vector_1aaf4331a544887b4358befcfbce2deab4" kind="function"><name>~vector</name></member>
+    <member refid="classmyStd_1_1vector_1a7840f76cb8fdb56e3a70506c7e0fbf5a" kind="function"><name>operator[]</name></member>
+    <member refid="classmyStd_1_1vector_1ac86fa3944b7d23fc127f5b739935b5d6" kind="function"><name>operator[]</name></member>
+    <member refid="classmyStd_1_1vector_1a33ebe4dab379f466c8d3a2f08d9aa554" kind="function"><name>size</name></member>
+    <member refid="classmyStd_1_1vector_1ad388bb612c6b9945731d562aeae8695b" kind="function"><name>capacity</name></member>
+    <member refid="classmyStd_1_1vector_1aa54bd9c3d8d3b6191d7eb7f85490eadb" kind="function"><name>resize</name></member>
+    <member refid="classmyStd_1_1vector_1a16a7791abc12b34fee94f4ef48a5e157" kind="function"><name>push_back</name></member>
+    <member refid="classmyStd_1_1vector_1a50e786a02a59e689999365037ae26b3a" kind="function"><name>reserve</name></member>
+    <member refid="classmyStd_1_1vector_1adaa284b6b387f70d3244b4d6e64869c3" kind="function"><name>begin</name></member>
+    <member refid="classmyStd_1_1vector_1a71600f2a06ab5c279a469972d713d5d6" kind="function"><name>begin</name></member>
+    <member refid="classmyStd_1_1vector_1a8fc7ec068c194f5ecb5a08e17a9c9ac4" kind="function"><name>end</name></member>
+    <member refid="classmyStd_1_1vector_1adecc27953fecd9a02c54f2b2d6a28cff" kind="function"><name>end</name></member>
+    <member refid="classmyStd_1_1vector_1a2dfafafc64febfbb0869be81f6bd4de7" kind="function"><name>insert</name></member>
+    <member refid="classmyStd_1_1vector_1aa4ecb71647140e3c5226299f84828984" kind="function"><name>erase</name></member>
+    <member refid="classmyStd_1_1vector_1a67598296046328471d19ce1fc5be796f" kind="function"><name>deallocPtrData</name></member>
+    <member refid="classmyStd_1_1vector_1ab67c727d73d08372770562b4e4ae7a05" kind="function"><name>deallocPtrArrayData</name></member>
+    <member refid="classmyStd_1_1vector_1a794565e7ec67e8d2b90fe2247612a778" kind="function"><name>deleteList</name></member>
+    <member refid="classmyStd_1_1vector_1a6a0db76b04cb2c2bf8b7aa9d2a6f36c4" kind="function"><name>deleteArrayList</name></member>
+  </compound>
+  <compound refid="classWindow" kind="class"><name>Window</name>
+    <member refid="classWindow_1a25e6c90561394c36b5012b2c8e74a72c" kind="variable"><name>ui</name></member>
+    <member refid="classWindow_1a2ac30d6f487242a5933f5559e3ed30fd" kind="variable"><name>contactus</name></member>
+    <member refid="classWindow_1a0654f408778e38125cda702384aaa33c" kind="variable"><name>mainwindow</name></member>
+    <member refid="classWindow_1a8c86e48ef3180201cc97cb928abd66ca" kind="function"><name>Window</name></member>
+    <member refid="classWindow_1a245d821e6016fa1f6970ccbbedd635f6" kind="function"><name>~Window</name></member>
+    <member refid="classWindow_1a95e17d72a8ebd095dc3435cda721d35e" kind="slot"><name>on_pushButton_clicked</name></member>
+    <member refid="classWindow_1af8f89c92e0e37179cc7d5b8333c054c1" kind="slot"><name>on_PassText_returnPressed</name></member>
+    <member refid="classWindow_1a33cd06d1f5b996659e3ce22d066782ed" kind="slot"><name>on_Contact_clicked</name></member>
+    <member refid="classWindow_1ae41de27b3a0f59f88b290ad07a8d09d0" kind="slot"><name>on_GuestLogin_clicked</name></member>
+    <member refid="classWindow_1a2d7e51c5e8b97c059f619e23f8df8ada" kind="slot"><name>Check_Admin</name></member>
+    <member refid="classWindow_1a69de71dbc06cf2f0353d58af8900e218" kind="slot"><name>create_login_file</name></member>
+  </compound>
+  <compound refid="namespacemyStd" kind="namespace"><name>myStd</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="namespaceUi" kind="namespace"><name>Ui</name>
+  </compound>
+  <compound refid="addshape_8cpp" kind="file"><name>addshape.cpp</name>
+  </compound>
+  <compound refid="addshape_8h" kind="file"><name>addshape.h</name>
+  </compound>
+  <compound refid="admin__check_8cpp" kind="file"><name>admin_check.cpp</name>
+  </compound>
+  <compound refid="admin__list_8txt" kind="file"><name>admin_list.txt</name>
+  </compound>
+  <compound refid="circle_8cpp" kind="file"><name>circle.cpp</name>
+  </compound>
+  <compound refid="circle_8h" kind="file"><name>circle.h</name>
+  </compound>
+  <compound refid="contactus_8cpp" kind="file"><name>contactus.cpp</name>
+  </compound>
+  <compound refid="contactus_8h" kind="file"><name>contactus.h</name>
+  </compound>
+  <compound refid="create__login__file_8cpp" kind="file"><name>create_login_file.cpp</name>
+  </compound>
+  <compound refid="delete__zeros_8cpp" kind="file"><name>delete_zeros.cpp</name>
+    <member refid="delete__zeros_8cpp_1a9dec4a09977f70bba53ccc9eb789f752" kind="function"><name>delete_Azeros</name></member>
+    <member refid="delete__zeros_8cpp_1afcfd6fbd3a7dab9bdb3ddf2ac08d7586" kind="function"><name>delete_Pzeros</name></member>
+  </compound>
+  <compound refid="delete__zeros_8h" kind="file"><name>delete_zeros.h</name>
+    <member refid="delete__zeros_8h_1a4ebed1107b5a6f70d9dc7afaaba35565" kind="function"><name>delete_Azeros</name></member>
+    <member refid="delete__zeros_8h_1a2a244a091a5ebad5b1cefbe45d4296df" kind="function"><name>delete_Pzeros</name></member>
+  </compound>
+  <compound refid="doxygen__log_8txt" kind="file"><name>doxygen_log.txt</name>
+  </compound>
+  <compound refid="ellipse_8cpp" kind="file"><name>ellipse.cpp</name>
+  </compound>
+  <compound refid="ellipse_8h" kind="file"><name>ellipse.h</name>
+  </compound>
+  <compound refid="getstrings_8cpp" kind="file"><name>getstrings.cpp</name>
+    <member refid="getstrings_8cpp_1ae2e8c725725c53aced4754efb1ba3297" kind="function"><name>getPenStyle</name></member>
+    <member refid="getstrings_8cpp_1a36f20d2b33b32e3051b9439984fa3dc1" kind="function"><name>getColor</name></member>
+    <member refid="getstrings_8cpp_1ab55986fc16e82140cc960949e8d98fc3" kind="function"><name>getPenCapStyle</name></member>
+    <member refid="getstrings_8cpp_1a59c542c498dce52daab6c95e393084f7" kind="function"><name>getPenJoinStyle</name></member>
+    <member refid="getstrings_8cpp_1a59572458de7eabcb211b12647cd8cc67" kind="function"><name>getBrushStyle</name></member>
+    <member refid="getstrings_8cpp_1ab73fa4f5c93f8a3c34cc0a3aaf7508d8" kind="function"><name>getTextAlignment</name></member>
+    <member refid="getstrings_8cpp_1a362dd7a8956d7364df5cce0070ec15ca" kind="function"><name>getFontStyle</name></member>
+    <member refid="getstrings_8cpp_1a4d2ad0fcdf9ccdd1fdb8f8da293f051d" kind="function"><name>getFontWeight</name></member>
+  </compound>
+  <compound refid="getstrings_8h" kind="file"><name>getstrings.h</name>
+    <member refid="getstrings_8h_1ae2e8c725725c53aced4754efb1ba3297" kind="function"><name>getPenStyle</name></member>
+    <member refid="getstrings_8h_1a36f20d2b33b32e3051b9439984fa3dc1" kind="function"><name>getColor</name></member>
+    <member refid="getstrings_8h_1ab55986fc16e82140cc960949e8d98fc3" kind="function"><name>getPenCapStyle</name></member>
+    <member refid="getstrings_8h_1a59c542c498dce52daab6c95e393084f7" kind="function"><name>getPenJoinStyle</name></member>
+    <member refid="getstrings_8h_1a59572458de7eabcb211b12647cd8cc67" kind="function"><name>getBrushStyle</name></member>
+    <member refid="getstrings_8h_1ab73fa4f5c93f8a3c34cc0a3aaf7508d8" kind="function"><name>getTextAlignment</name></member>
+    <member refid="getstrings_8h_1a362dd7a8956d7364df5cce0070ec15ca" kind="function"><name>getFontStyle</name></member>
+    <member refid="getstrings_8h_1a4d2ad0fcdf9ccdd1fdb8f8da293f051d" kind="function"><name>getFontWeight</name></member>
+  </compound>
+  <compound refid="line_8cpp" kind="file"><name>line.cpp</name>
+  </compound>
+  <compound refid="line_8h" kind="file"><name>line.h</name>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="mainwindow_8cpp" kind="file"><name>mainwindow.cpp</name>
+  </compound>
+  <compound refid="mainwindow_8h" kind="file"><name>mainwindow.h</name>
+  </compound>
+  <compound refid="moveshape_8cpp" kind="file"><name>moveshape.cpp</name>
+  </compound>
+  <compound refid="moveshape_8h" kind="file"><name>moveshape.h</name>
+  </compound>
+  <compound refid="polygon_8cpp" kind="file"><name>polygon.cpp</name>
+  </compound>
+  <compound refid="polygon_8h" kind="file"><name>polygon.h</name>
+  </compound>
+  <compound refid="polyline_8cpp" kind="file"><name>polyline.cpp</name>
+  </compound>
+  <compound refid="polyline_8h" kind="file"><name>polyline.h</name>
+  </compound>
+  <compound refid="pop__table_8cpp" kind="file"><name>pop_table.cpp</name>
+    <member refid="pop__table_8cpp_1ada07240decd2206bb697cd31dd579839" kind="function"><name>pop_Atable</name></member>
+    <member refid="pop__table_8cpp_1ad8d8a27f7ccd50e0c6c9173f37c2b8fd" kind="function"><name>pop_Ptable</name></member>
+    <member refid="pop__table_8cpp_1a7e4b678b55853077d6514112c661d121" kind="function"><name>fill_table</name></member>
+  </compound>
+  <compound refid="pop__table_8h" kind="file"><name>pop_table.h</name>
+    <member refid="pop__table_8h_1a7cfa9abf76a3ab65ebd5506ad1ee21f2" kind="function"><name>pop_Atable</name></member>
+    <member refid="pop__table_8h_1a3a41a87f334ddb881f4532c8080f7101" kind="function"><name>pop_Ptable</name></member>
+    <member refid="pop__table_8h_1a6f42cb3c5185e6fdaf9c12c620c5b87f" kind="function"><name>fill_table</name></member>
+  </compound>
+  <compound refid="rectangle_8cpp" kind="file"><name>rectangle.cpp</name>
+  </compound>
+  <compound refid="rectangle_8h" kind="file"><name>rectangle.h</name>
+  </compound>
+  <compound refid="renderarea_8h" kind="file"><name>renderarea.h</name>
+  </compound>
+  <compound refid="searchandcompare_8cpp" kind="file"><name>searchandcompare.cpp</name>
+    <member refid="searchandcompare_8cpp_1a474fd352edcedaea9235d8708336d6e0" kind="function"><name>cmpId</name></member>
+    <member refid="searchandcompare_8cpp_1a55d382d6ff217cba8f8a1d647d3f5e02" kind="function"><name>cmpArea</name></member>
+    <member refid="searchandcompare_8cpp_1ab91f3b00a32d9f439cecf4f29ce6eb29" kind="function"><name>cmpPeri</name></member>
+    <member refid="searchandcompare_8cpp_1ae156afea82af96484e6d6f00195737aa" kind="function"><name>findShape</name></member>
+  </compound>
+  <compound refid="searchandcompare_8h" kind="file"><name>searchandcompare.h</name>
+    <member refid="searchandcompare_8h_1a474fd352edcedaea9235d8708336d6e0" kind="function"><name>cmpId</name></member>
+    <member refid="searchandcompare_8h_1a55d382d6ff217cba8f8a1d647d3f5e02" kind="function"><name>cmpArea</name></member>
+    <member refid="searchandcompare_8h_1ab91f3b00a32d9f439cecf4f29ce6eb29" kind="function"><name>cmpPeri</name></member>
+    <member refid="searchandcompare_8h_1a4eb63ab42e0f441cc4158b619f33cd55" kind="function"><name>findShape</name></member>
+    <member refid="searchandcompare_8h_1a742638b7b3ac69d2e7c4f5074fde8481" kind="function"><name>selection_sort</name></member>
+  </compound>
+  <compound refid="shape_8h" kind="file"><name>shape.h</name>
+    <member refid="shape_8h_1a10f04d837286200d6897a667cd7baa1e" kind="function"><name>shape_saver</name></member>
+  </compound>
+  <compound refid="shape__input__file__specs_8txt" kind="file"><name>shape_input_file_specs.txt</name>
+    <member refid="shape__input__file__specs_8txt_1a4846c923b7033536e65792b7e6d2040b" kind="variable"><name>TYPE</name></member>
+    <member refid="shape__input__file__specs_8txt_1a467b0c8874f7e5c808ddbfae7144d412" kind="variable"><name>ShapeId</name></member>
+    <member refid="shape__input__file__specs_8txt_1a76cb42f46f7adc2fe2ae77fd213e21e1" kind="variable"><name>ShapeType</name></member>
+    <member refid="shape__input__file__specs_8txt_1a7f7aae76d6fc1caf3d692a8b6bb9a9b7" kind="variable"><name>Polyline</name></member>
+    <member refid="shape__input__file__specs_8txt_1a04e906b8dbbb27ddcde493daa87543f4" kind="variable"><name>Polygon</name></member>
+    <member refid="shape__input__file__specs_8txt_1abd9fcf84705ffbf8fa1f2c58d3938cb6" kind="variable"><name>Rectangle</name></member>
+    <member refid="shape__input__file__specs_8txt_1ad077d50a4f33b6bb8f3d3b5f14c196fd" kind="variable"><name>Square</name></member>
+    <member refid="shape__input__file__specs_8txt_1a0d2a35a3e8361f31d6ad940ea7b1864c" kind="variable"><name>Ellipse</name></member>
+    <member refid="shape__input__file__specs_8txt_1af42de4b736c5bed215a1faf053c5ef86" kind="variable"><name>Circle</name></member>
+    <member refid="shape__input__file__specs_8txt_1a1bf25e58b08ba78abc93f104f4bc2914" kind="variable"><name>ShapeDimensions</name></member>
+    <member refid="shape__input__file__specs_8txt_1ae6da77b2f90c75c4b96658c20d0f9938" kind="variable"><name>y1</name></member>
+    <member refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kind="variable"><name>x2</name></member>
+    <member refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kind="variable"><name>x1</name></member>
+    <member refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kind="variable"><name>y2</name></member>
+    <member refid="shape__input__file__specs_8txt_1a5d57507e254e2593e5a0a6a08c551eed" kind="variable"><name>x3</name></member>
+    <member refid="shape__input__file__specs_8txt_1a0f1cc68600a86252d2497b6b561b3c25" kind="variable"><name>y3</name></member>
+    <member refid="shape__input__file__specs_8txt_1a7c48dc90493b459f75b4b7583faca250" kind="variable"><name>xN</name></member>
+    <member refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kind="variable"><name>l</name></member>
+    <member refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kind="variable"><name>a</name></member>
+    <member refid="shape__input__file__specs_8txt_1a0fa4282f357d62c83340e0b9b2c142b6" kind="variable"><name>PenColor</name></member>
+    <member refid="shape__input__file__specs_8txt_1a54a8afc7fef4e6a72193d1b76188b473" kind="variable"><name>black</name></member>
+    <member refid="shape__input__file__specs_8txt_1abb95a9d7d8170fbc37399adf2435c1d4" kind="variable"><name>red</name></member>
+    <member refid="shape__input__file__specs_8txt_1aab3139c695d35a69810f54c8dc5251d6" kind="variable"><name>green</name></member>
+    <member refid="shape__input__file__specs_8txt_1a502b3afd7545a4195802c325ab686a9f" kind="variable"><name>blue</name></member>
+    <member refid="shape__input__file__specs_8txt_1a35e09d3e179c027a035bde31a31b4496" kind="variable"><name>cyan</name></member>
+    <member refid="shape__input__file__specs_8txt_1a31668012af4e119081d3a9775a7e89b3" kind="variable"><name>magenta</name></member>
+    <member refid="shape__input__file__specs_8txt_1a3420c3b88f0e5d261e62e78f08802981" kind="variable"><name>yellow</name></member>
+    <member refid="shape__input__file__specs_8txt_1ac9be3af6537ae5a8802a4af83fcffb8c" kind="variable"><name>PenWidth</name></member>
+    <member refid="shape__input__file__specs_8txt_1a6e3dfa56f90db6599b3b0115169d618f" kind="variable"><name>SolidLine</name></member>
+    <member refid="shape__input__file__specs_8txt_1a441e15ffcd042d37c9239405240cda6a" kind="variable"><name>DashLine</name></member>
+    <member refid="shape__input__file__specs_8txt_1a9dd44362ce176c29c65b56add41cf11a" kind="variable"><name>DotLine</name></member>
+    <member refid="shape__input__file__specs_8txt_1a9d5081cd9ba835c8db9fdedf4c8ee19a" kind="variable"><name>DashDotLine</name></member>
+    <member refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kind="variable"><name>PenCapStyle</name></member>
+    <member refid="shape__input__file__specs_8txt_1a022664fcd4bcb6fd131f71acd9191b4e" kind="variable"><name>SquareCap</name></member>
+    <member refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kind="variable"><name>PenJoinStyle</name></member>
+    <member refid="shape__input__file__specs_8txt_1a5375660f38f399a9c1c854c3579fdce5" kind="variable"><name>BevelJoin</name></member>
+    <member refid="shape__input__file__specs_8txt_1a354fc5430ab296aed56472b5bd70b09e" kind="variable"><name>BrushColor</name></member>
+    <member refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kind="variable"><name>BrushStyle</name></member>
+    <member refid="shape__input__file__specs_8txt_1a97b62d570251a80c34bc3055dab54ac6" kind="variable"><name>HorPattern</name></member>
+    <member refid="shape__input__file__specs_8txt_1abe8b0fed5e2471bcf0087a518498641a" kind="variable"><name>VerPattern</name></member>
+    <member refid="shape__input__file__specs_8txt_1ad48ae5b86ba47f707c0ef94fb9249560" kind="variable"><name>TextString</name></member>
+    <member refid="shape__input__file__specs_8txt_1a1f13b9fbbcf54ce40d242716deecf3d5" kind="variable"><name>TextAlignment</name></member>
+    <member refid="shape__input__file__specs_8txt_1aafd721ba2c64294fd06ac546c7addf5e" kind="variable"><name>AlignRight</name></member>
+    <member refid="shape__input__file__specs_8txt_1aee1cc7fcf53eb2309c193209ca375621" kind="variable"><name>AlignTop</name></member>
+    <member refid="shape__input__file__specs_8txt_1af05cf9503398beaab2d0f1cde0af87ff" kind="variable"><name>AlignBottom</name></member>
+    <member refid="shape__input__file__specs_8txt_1ae0e0a84c60f03a686d6e986e9d69145b" kind="variable"><name>TextPointSize</name></member>
+    <member refid="shape__input__file__specs_8txt_1aa5d9b1deea09aad740806cc98f7cc740" kind="variable"><name>Courier</name></member>
+    <member refid="shape__input__file__specs_8txt_1a29385f48845f4580b6fa961e5dfbc5d1" kind="variable"><name>Helvetica</name></member>
+    <member refid="shape__input__file__specs_8txt_1a60e4bb735145ede5f8b496b1e3ce6422" kind="variable"><name>TextFontStyle</name></member>
+    <member refid="shape__input__file__specs_8txt_1af8a30fd7e4ea37d457398e8571f764eb" kind="variable"><name>StyleItalic</name></member>
+    <member refid="shape__input__file__specs_8txt_1af288033940c4625f54a91877603a16a2" kind="variable"><name>TextFontWeight</name></member>
+    <member refid="shape__input__file__specs_8txt_1a8326866c3d37167e950130bbd95d25ec" kind="variable"><name>Light</name></member>
+    <member refid="shape__input__file__specs_8txt_1a0c0bd83f93fb282ea2b33e44c2f3cc34" kind="variable"><name>Normal</name></member>
+  </compound>
+  <compound refid="shape__parser_8cpp" kind="file"><name>shape_parser.cpp</name>
+    <member refid="shape__parser_8cpp_1a974d730d36b48de12f933bd6837c3945" kind="function"><name>shape_parser</name></member>
+    <member refid="shape__parser_8cpp_1a2c61664825e7a6fc795b3e09ceaf3cfb" kind="function"><name>convertColor</name></member>
+    <member refid="shape__parser_8cpp_1abea29c7c6d822b6e91197cc8b4227163" kind="function"><name>convertPenStyle</name></member>
+    <member refid="shape__parser_8cpp_1aefa934c732e9330a92992acfcdeec657" kind="function"><name>convertPenCapStyle</name></member>
+    <member refid="shape__parser_8cpp_1a5f6ab2c31f9f5787d1287ba30dd64c2a" kind="function"><name>convertPenJoinStyle</name></member>
+    <member refid="shape__parser_8cpp_1a99a3a2753023ca33b73919a4c21f91e5" kind="function"><name>convertBrushStyle</name></member>
+    <member refid="shape__parser_8cpp_1acb20b2a1821efbc389be50edbcbec9e3" kind="function"><name>convertAlignment</name></member>
+    <member refid="shape__parser_8cpp_1af40aab66f89a294e6dde68829c2295de" kind="function"><name>convertStyle</name></member>
+    <member refid="shape__parser_8cpp_1a44489cc593506cc129150108ebf495a7" kind="function"><name>convertWeight</name></member>
+  </compound>
+  <compound refid="shape__parser_8h" kind="file"><name>shape_parser.h</name>
+    <member refid="shape__parser_8h_1aff16a7903323ad4fc58e57d0041b71f8" kind="function"><name>convertColor</name></member>
+    <member refid="shape__parser_8h_1a13124250b0e7a0b9b6c068bb61694975" kind="function"><name>convertPenStyle</name></member>
+    <member refid="shape__parser_8h_1a0da0910b8fe68a6609f1885a917f3991" kind="function"><name>convertPenCapStyle</name></member>
+    <member refid="shape__parser_8h_1a81e52a74d817ed2578caaa92e118ac31" kind="function"><name>convertPenJoinStyle</name></member>
+    <member refid="shape__parser_8h_1a9a5c8ce3f289bcde928844d519226445" kind="function"><name>convertBrushStyle</name></member>
+    <member refid="shape__parser_8h_1a39bb592ec09a0750a290f2ac4e89bcf0" kind="function"><name>convertAlignment</name></member>
+    <member refid="shape__parser_8h_1a15e9b26d40ac42c7e60318e6aaa75e58" kind="function"><name>convertStyle</name></member>
+    <member refid="shape__parser_8h_1a44489cc593506cc129150108ebf495a7" kind="function"><name>convertWeight</name></member>
+    <member refid="shape__parser_8h_1a974d730d36b48de12f933bd6837c3945" kind="function"><name>shape_parser</name></member>
+  </compound>
+  <compound refid="shape__saver_8cpp" kind="file"><name>shape_saver.cpp</name>
+    <member refid="shape__saver_8cpp_1a10f04d837286200d6897a667cd7baa1e" kind="function"><name>shape_saver</name></member>
+  </compound>
+  <compound refid="shapes_8txt" kind="file"><name>shapes.txt</name>
+    <member refid="shapes_8txt_1acb227b3ee2e839ee3237ece2e8082307" kind="variable"><name>__pad0__</name></member>
+    <member refid="shapes_8txt_1a0fa4282f357d62c83340e0b9b2c142b6" kind="variable"><name>PenColor</name></member>
+  </compound>
+  <compound refid="square_8cpp" kind="file"><name>square.cpp</name>
+  </compound>
+  <compound refid="square_8h" kind="file"><name>square.h</name>
+  </compound>
+  <compound refid="text_8cpp" kind="file"><name>text.cpp</name>
+  </compound>
+  <compound refid="text_8h" kind="file"><name>text.h</name>
+  </compound>
+  <compound refid="vector_8h" kind="file"><name>vector.h</name>
+  </compound>
+  <compound refid="window_8cpp" kind="file"><name>window.cpp</name>
+  </compound>
+  <compound refid="window_8h" kind="file"><name>window.h</name>
+  </compound>
+  <compound refid="dir_0f144dbde7e5a9e7867a0683fa83ec1e" kind="dir"><name>Group Project</name>
+  </compound>
+  <compound refid="dir_360bf1d152ea05b3780da0feb3b7b7ad" kind="dir"><name>Group Project/ScrumOfTheEarth</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="rectangle_8h" kind="file" language="C++">
+    <compoundname>rectangle.h</compoundname>
+    <includes refid="shape_8h" local="yes">shape.h</includes>
+    <includes refid="vector_8h" local="yes">vector.h</includes>
+    <includedby refid="shape__parser_8h" local="yes">Group Project/ScrumOfTheEarth/shape_parser.h</includedby>
+    <includedby refid="moveshape_8h" local="yes">Group Project/ScrumOfTheEarth/moveshape.h</includedby>
+    <includedby refid="pop__table_8cpp" local="yes">Group Project/ScrumOfTheEarth/pop_table.cpp</includedby>
+    <includedby refid="rectangle_8cpp" local="yes">Group Project/ScrumOfTheEarth/rectangle.cpp</includedby>
+    <includedby refid="shape__saver_8cpp" local="yes">Group Project/ScrumOfTheEarth/shape_saver.cpp</includedby>
+    <incdepgraph>
+      <node id="1302">
+        <label>QObject</label>
+      </node>
+      <node id="1300">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="1301" relation="include">
+        </childnode>
+        <childnode refid="1302" relation="include">
+        </childnode>
+        <childnode refid="1303" relation="include">
+        </childnode>
+      </node>
+      <node id="1299">
+        <label>Group Project/ScrumOfTheEarth/rectangle.h</label>
+        <link refid="rectangle.h"/>
+        <childnode refid="1300" relation="include">
+        </childnode>
+        <childnode refid="1303" relation="include">
+        </childnode>
+      </node>
+      <node id="1303">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="1304" relation="include">
+        </childnode>
+      </node>
+      <node id="1301">
+        <label>QPainter</label>
+      </node>
+      <node id="1304">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1310">
+        <label>Group Project/ScrumOfTheEarth/moveshape.h</label>
+        <link refid="moveshape_8h"/>
+        <childnode refid="1311" relation="include">
+        </childnode>
+        <childnode refid="1317" relation="include">
+        </childnode>
+      </node>
+      <node id="1319">
+        <label>Group Project/ScrumOfTheEarth/rectangle.cpp</label>
+        <link refid="rectangle_8cpp"/>
+      </node>
+      <node id="1305">
+        <label>Group Project/ScrumOfTheEarth/rectangle.h</label>
+        <link refid="rectangle.h"/>
+        <childnode refid="1306" relation="include">
+        </childnode>
+        <childnode refid="1310" relation="include">
+        </childnode>
+        <childnode refid="1318" relation="include">
+        </childnode>
+        <childnode refid="1319" relation="include">
+        </childnode>
+        <childnode refid="1320" relation="include">
+        </childnode>
+      </node>
+      <node id="1308">
+        <label>Group Project/ScrumOfTheEarth/mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+      </node>
+      <node id="1317">
+        <label>Group Project/ScrumOfTheEarth/moveshape.cpp</label>
+        <link refid="moveshape_8cpp"/>
+      </node>
+      <node id="1315">
+        <label>Group Project/ScrumOfTheEarth/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="1316">
+        <label>Group Project/ScrumOfTheEarth/window.cpp</label>
+        <link refid="window_8cpp"/>
+      </node>
+      <node id="1307">
+        <label>Group Project/ScrumOfTheEarth/addshape.cpp</label>
+        <link refid="addshape_8cpp"/>
+      </node>
+      <node id="1318">
+        <label>Group Project/ScrumOfTheEarth/pop_table.cpp</label>
+        <link refid="pop__table_8cpp"/>
+      </node>
+      <node id="1313">
+        <label>Group Project/ScrumOfTheEarth/admin_check.cpp</label>
+        <link refid="admin__check_8cpp"/>
+      </node>
+      <node id="1314">
+        <label>Group Project/ScrumOfTheEarth/create_login_file.cpp</label>
+        <link refid="create__login__file_8cpp"/>
+      </node>
+      <node id="1320">
+        <label>Group Project/ScrumOfTheEarth/shape_saver.cpp</label>
+        <link refid="shape__saver_8cpp"/>
+      </node>
+      <node id="1311">
+        <label>Group Project/ScrumOfTheEarth/mainwindow.h</label>
+        <link refid="mainwindow_8h"/>
+        <childnode refid="1312" relation="include">
+        </childnode>
+        <childnode refid="1308" relation="include">
+        </childnode>
+      </node>
+      <node id="1309">
+        <label>Group Project/ScrumOfTheEarth/shape_parser.cpp</label>
+        <link refid="shape__parser_8cpp"/>
+      </node>
+      <node id="1306">
+        <label>Group Project/ScrumOfTheEarth/shape_parser.h</label>
+        <link refid="shape__parser_8h"/>
+        <childnode refid="1307" relation="include">
+        </childnode>
+        <childnode refid="1308" relation="include">
+        </childnode>
+        <childnode refid="1309" relation="include">
+        </childnode>
+      </node>
+      <node id="1312">
+        <label>Group Project/ScrumOfTheEarth/window.h</label>
+        <link refid="window_8h"/>
+        <childnode refid="1313" relation="include">
+        </childnode>
+        <childnode refid="1314" relation="include">
+        </childnode>
+        <childnode refid="1315" relation="include">
+        </childnode>
+        <childnode refid="1316" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classRectangle" prot="public">Rectangle</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="2"><highlight class="preprocessor">#ifndef<sp/>RECTANGLE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RECTANGLE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="shape_8h" kindref="compound">shape.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vector_8h" kindref="compound">vector.h</ref>&quot;</highlight></codeline>
+<codeline lineno="9" refid="classRectangle" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classRectangle" kindref="compound">Rectangle</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classShape" kindref="compound">Shape</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classRectangle_1a1dca3e66dc1317df74dda6c1984728ff" kindref="member">Rectangle</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/>Qt::GlobalColor,<sp/>Qt::GlobalColor,<sp/>Qt::PenStyle,<sp/><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22" refid="classRectangle_1a934ec26d7cff08b196e6e2db94508d5d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QPoint<sp/><ref refid="classRectangle_1a934ec26d7cff08b196e6e2db94508d5d" kindref="member">getCornerPoint</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CornerPoint;}<sp/></highlight><highlight class="comment">//Rectangle<sp/>specific</highlight></codeline>
+<codeline lineno="27" refid="classRectangle_1a34488ca08ac813751dba8c57c80985fa" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classRectangle_1a34488ca08ac813751dba8c57c80985fa" kindref="member">setCornerPoint</ref>(QPoint<sp/>p1){CornerPoint<sp/>=<sp/>p1;}<sp/></highlight><highlight class="comment">//Rectangle<sp/>specific</highlight></codeline>
+<codeline lineno="32" refid="classRectangle_1a58c26a2910e8982b49fafd02d1d3aa47" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classRectangle_1a58c26a2910e8982b49fafd02d1d3aa47" kindref="member">getLength</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>length;}<sp/></highlight><highlight class="comment">//Rectangle<sp/>specific</highlight></codeline>
+<codeline lineno="37" refid="classRectangle_1a8186780b0db41885ed04c45c9caafe96" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classRectangle_1a8186780b0db41885ed04c45c9caafe96" kindref="member">setLength</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>){length<sp/>=<sp/><ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>;}<sp/></highlight><highlight class="comment">//Rectangle<sp/>specific</highlight></codeline>
+<codeline lineno="42" refid="classRectangle_1ab750e4f0666df9c303ad649342bf3efd" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classRectangle_1ab750e4f0666df9c303ad649342bf3efd" kindref="member">getWidth</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>width;}<sp/></highlight><highlight class="comment">//Rectangle<sp/>specific</highlight></codeline>
+<codeline lineno="47" refid="classRectangle_1a4b2a528eff1c42b1a46148b2f5562c7b" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classRectangle_1a4b2a528eff1c42b1a46148b2f5562c7b" kindref="member">setWidth</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w){width<sp/>=<sp/>w;}<sp/></highlight><highlight class="comment">//Rectangle<sp/>specific</highlight></codeline>
+<codeline lineno="52" refid="classRectangle_1a260ef02e14a452e25b1ebddc805928c8" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::GlobalColor<sp/><ref refid="classRectangle_1a260ef02e14a452e25b1ebddc805928c8" kindref="member">getPenColor</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penColor;}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="classRectangle_1af105857f6e7bda45c45d0ce1309a032e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::GlobalColor<sp/><ref refid="classRectangle_1af105857f6e7bda45c45d0ce1309a032e" kindref="member">getBrushColor</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>brushColor;}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="classRectangle_1a489b9d60a05a4d2f6ee01d7989b30c22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classRectangle_1a489b9d60a05a4d2f6ee01d7989b30c22" kindref="member">setPenColor</ref>(Qt::GlobalColor<sp/>pc){penColor<sp/>=<sp/>pc;}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="classRectangle_1a645117a96beb4782f2ffc00d0ab865e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classRectangle_1a645117a96beb4782f2ffc00d0ab865e1" kindref="member">setBrushColor</ref>(Qt::GlobalColor<sp/>bc){brushColor<sp/>=<sp/>bc;}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="classRectangle_1abb61dc270e5b2b4ae3323e097e6fb7ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::PenStyle<sp/><ref refid="classRectangle_1abb61dc270e5b2b4ae3323e097e6fb7ce" kindref="member">getPenStyle</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penStyle;}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="classRectangle_1a598da91b42f1f3541f687d6c35c23d23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classRectangle_1a598da91b42f1f3541f687d6c35c23d23" kindref="member">setPenStyle</ref>(Qt::PenStyle<sp/>ps){penStyle<sp/>=<sp/>ps;}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="classRectangle_1a7e42f496cbaa93545c370a1a4aef4d42" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/><ref refid="classRectangle_1a7e42f496cbaa93545c370a1a4aef4d42" kindref="member">getPenCapStyle</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penCapStyle;}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="classRectangle_1a18f32cd496f2298ca9165231943c3bae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classRectangle_1a18f32cd496f2298ca9165231943c3bae" kindref="member">setPenCapStyle</ref>(<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/>pcs){<sp/>penCapStyle<sp/>=<sp/>pcs;}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="classRectangle_1aaeb26e28ee7b37e166caeb1bf4ea7ec4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/><ref refid="classRectangle_1aaeb26e28ee7b37e166caeb1bf4ea7ec4" kindref="member">getPenJoinStyle</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penJoinStyle;}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="classRectangle_1acdb9bcb2c87a84c84b33a4a99c239de6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classRectangle_1acdb9bcb2c87a84c84b33a4a99c239de6" kindref="member">setPenJoinStyle</ref>(<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/>pjs){penJoinStyle<sp/>=<sp/>pjs;}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="classRectangle_1aaa486dcefcdd7e59e63d92c105876724" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref><sp/><ref refid="classRectangle_1aaa486dcefcdd7e59e63d92c105876724" kindref="member">getBrushStyle</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>brushStyle;}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="classRectangle_1a4d5dff9ac01e605872f80d110015041b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classRectangle_1a4d5dff9ac01e605872f80d110015041b" kindref="member">setBrushStyle</ref>(<ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref><sp/>bs){brushStyle<sp/>=<sp/>bs;}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="classRectangle_1a45243b7fbe88527e6aed399b37863305" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classRectangle_1a45243b7fbe88527e6aed399b37863305" kindref="member">getPenWidth</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penWidth;}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="classRectangle_1aa4e06745d54628776b1ac0f85c1e9867" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classRectangle_1aa4e06745d54628776b1ac0f85c1e9867" kindref="member">setPenWidth</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pw){penWidth<sp/>=<sp/>pw;}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classRectangle_1a6734cad19e207a212dcb042e1006a7f1" kindref="member">draw</ref>(QPainter<sp/>&amp;,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="132" refid="classRectangle_1a0098e1642c4ff1180c1243b802caca5a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classRectangle_1a0098e1642c4ff1180c1243b802caca5a" kindref="member">getType</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>2;}</highlight></codeline>
+<codeline lineno="137" refid="classRectangle_1ac9e18cf57224bfbc584547c0ee6d1ce3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classRectangle_1ac9e18cf57224bfbc584547c0ee6d1ce3" kindref="member">getStaticType</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>2;}</highlight></codeline>
+<codeline lineno="138" refid="classRectangle_1a5405044e619a5ba1a52c0b9607c9f166" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classRectangle_1a5405044e619a5ba1a52c0b9607c9f166" kindref="member">getArea</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)length*width;}</highlight></codeline>
+<codeline lineno="139" refid="classRectangle_1aba6936b3c376465edff938cd4affc914" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classRectangle_1aba6936b3c376465edff938cd4affc914" kindref="member">getPerimeter</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(2*length<sp/>+<sp/>2*width);}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>QPoint<sp/>CornerPoint;<sp/></highlight><highlight class="comment">//Rectangle<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>length;<sp/></highlight><highlight class="comment">//Rectangle<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width;<sp/></highlight><highlight class="comment">//Rectangle<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::GlobalColor<sp/>penColor;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::GlobalColor<sp/>brushColor;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::PenStyle<sp/>penStyle;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/>penCapStyle;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/>penJoinStyle;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref><sp/>brushStyle;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>penWidth;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>RECTANGLE_H</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/rectangle.h"/>
+  </compounddef>
+</doxygen>

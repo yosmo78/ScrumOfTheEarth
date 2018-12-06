@@ -1,0 +1,749 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="shape__input__file__specs_8txt" kind="file" language="C++">
+    <compoundname>shape_input_file_specs.txt</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a4846c923b7033536e65792b7e6d2040b" prot="public" static="no" mutable="no">
+        <type>SHAPE</type>
+        <definition>SHAPE TYPE</definition>
+        <argsstring></argsstring>
+        <name>TYPE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="2" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a467b0c8874f7e5c808ddbfae7144d412" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS ShapeId</definition>
+        <argsstring></argsstring>
+        <name>ShapeId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="4" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a76cb42f46f7adc2fe2ae77fd213e21e1" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique ShapeType</definition>
+        <argsstring></argsstring>
+        <name>ShapeType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="6" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a7f7aae76d6fc1caf3d692a8b6bb9a9b7" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Polyline</definition>
+        <argsstring></argsstring>
+        <name>Polyline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="6" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a04e906b8dbbb27ddcde493daa87543f4" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Polygon</definition>
+        <argsstring></argsstring>
+        <name>Polygon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="6" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1abd9fcf84705ffbf8fa1f2c58d3938cb6" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Rectangle</definition>
+        <argsstring></argsstring>
+        <name>Rectangle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="6" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1ad077d50a4f33b6bb8f3d3b5f14c196fd" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Square[rectangle, l=w]</definition>
+        <argsstring>[rectangle, l=w]</argsstring>
+        <name>Square</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="6" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a0d2a35a3e8361f31d6ad940ea7b1864c" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Ellipse</definition>
+        <argsstring></argsstring>
+        <name>Ellipse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="6" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1af42de4b736c5bed215a1faf053c5ef86" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Circle[ellipse, a=b]</definition>
+        <argsstring>[ellipse, a=b]</argsstring>
+        <name>Circle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="6" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a1bf25e58b08ba78abc93f104f4bc2914" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref></type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text ShapeDimensions</definition>
+        <argsstring></argsstring>
+        <name>ShapeDimensions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="8" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1ae6da77b2f90c75c4b96658c20d0f9938" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref></type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text y1</definition>
+        <argsstring></argsstring>
+        <name>y1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="10" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref></type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon x2</definition>
+        <argsstring></argsstring>
+        <name>x2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="10" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref></type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text x1</definition>
+        <argsstring></argsstring>
+        <name>x1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="11" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> y2[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref></type>
+        <definition>SHAPE DIMENSION &amp;PROPERTY SPECS unique Text y2</definition>
+        <argsstring></argsstring>
+        <name>y2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="11" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a5d57507e254e2593e5a0a6a08c551eed" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref></type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon x3</definition>
+        <argsstring></argsstring>
+        <name>x3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="11" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a0f1cc68600a86252d2497b6b561b3c25" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref></type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon y3</definition>
+        <argsstring></argsstring>
+        <name>y3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="11" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a7c48dc90493b459f75b4b7583faca250" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref></type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon xN</definition>
+        <argsstring></argsstring>
+        <name>xN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="11" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref></type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text l</definition>
+        <argsstring></argsstring>
+        <name>l</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="13" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref></type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="15" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a0fa4282f357d62c83340e0b9b2c142b6" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle]</type>
+        <definition>ShapeId PenColor</definition>
+        <argsstring></argsstring>
+        <name>PenColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="19" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a54a8afc7fef4e6a72193d1b76188b473" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] NoBrush [Qt::BrushStyle enum] black</definition>
+        <argsstring></argsstring>
+        <name>black</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="19" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1abb95a9d7d8170fbc37399adf2435c1d4" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] NoBrush [Qt::BrushStyle enum] red</definition>
+        <argsstring></argsstring>
+        <name>red</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="19" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1aab3139c695d35a69810f54c8dc5251d6" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] NoBrush [Qt::BrushStyle enum] green</definition>
+        <argsstring></argsstring>
+        <name>green</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="19" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a502b3afd7545a4195802c325ab686a9f" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] NoBrush [Qt::BrushStyle enum] blue</definition>
+        <argsstring></argsstring>
+        <name>blue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="19" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a35e09d3e179c027a035bde31a31b4496" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] NoBrush [Qt::BrushStyle enum] cyan</definition>
+        <argsstring></argsstring>
+        <name>cyan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="19" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a31668012af4e119081d3a9775a7e89b3" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] NoBrush [Qt::BrushStyle enum] magenta</definition>
+        <argsstring></argsstring>
+        <name>magenta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="19" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a3420c3b88f0e5d261e62e78f08802981" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] NoBrush [Qt::BrushStyle enum] yellow</definition>
+        <argsstring></argsstring>
+        <name>yellow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="19" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1ac9be3af6537ae5a8802a4af83fcffb8c" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] PenWidth</definition>
+        <argsstring></argsstring>
+        <name>PenWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="21" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a6e3dfa56f90db6599b3b0115169d618f" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] SolidLine</definition>
+        <argsstring></argsstring>
+        <name>SolidLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="23" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a441e15ffcd042d37c9239405240cda6a" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashLine</definition>
+        <argsstring></argsstring>
+        <name>DashLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="23" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a9dd44362ce176c29c65b56add41cf11a" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DotLine</definition>
+        <argsstring></argsstring>
+        <name>DotLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="23" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a9d5081cd9ba835c8db9fdedf4c8ee19a" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotLine</definition>
+        <argsstring></argsstring>
+        <name>DashDotLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="23" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum] DashDotDotLine[Qt::PenStyle enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] PenCapStyle</definition>
+        <argsstring></argsstring>
+        <name>PenCapStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="25" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a022664fcd4bcb6fd131f71acd9191b4e" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum] DashDotDotLine[Qt::PenStyle enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] SquareCap</definition>
+        <argsstring></argsstring>
+        <name>SquareCap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="25" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum] DashDotDotLine[Qt::PenStyle enum] RoundCap[<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref> enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] PenJoinStyle</definition>
+        <argsstring></argsstring>
+        <name>PenJoinStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="27" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a5375660f38f399a9c1c854c3579fdce5" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum] DashDotDotLine[Qt::PenStyle enum] RoundCap[<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref> enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] BevelJoin</definition>
+        <argsstring></argsstring>
+        <name>BevelJoin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="27" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a354fc5430ab296aed56472b5bd70b09e" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum] DashDotDotLine[Qt::PenStyle enum] RoundCap[<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref> enum] RoundJoin[<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref> enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] BrushColor</definition>
+        <argsstring></argsstring>
+        <name>BrushColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="29" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum] DashDotDotLine[Qt::PenStyle enum] RoundCap[<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref> enum] RoundJoin[<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref> enum] gray[Qt::GlobalColor enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] BrushStyle</definition>
+        <argsstring></argsstring>
+        <name>BrushStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="31" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a97b62d570251a80c34bc3055dab54ac6" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum] DashDotDotLine[Qt::PenStyle enum] RoundCap[<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref> enum] RoundJoin[<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref> enum] gray[Qt::GlobalColor enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] HorPattern</definition>
+        <argsstring></argsstring>
+        <name>HorPattern</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="31" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1abe8b0fed5e2471bcf0087a518498641a" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum] DashDotDotLine[Qt::PenStyle enum] RoundCap[<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref> enum] RoundJoin[<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref> enum] gray[Qt::GlobalColor enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] VerPattern</definition>
+        <argsstring></argsstring>
+        <name>VerPattern</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="31" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1ad48ae5b86ba47f707c0ef94fb9249560" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum] DashDotDotLine[Qt::PenStyle enum] RoundCap[<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref> enum] RoundJoin[<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref> enum] gray[Qt::GlobalColor enum] NoBrush[<ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref> enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] NoBrush [Qt::BrushStyle enum] TextString</definition>
+        <argsstring></argsstring>
+        <name>TextString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="33" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a1f13b9fbbcf54ce40d242716deecf3d5" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum] DashDotDotLine[Qt::PenStyle enum] RoundCap[<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref> enum] RoundJoin[<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref> enum] gray[Qt::GlobalColor enum] NoBrush[<ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref> enum] gray[Qt::GlobalColor enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] NoBrush [Qt::BrushStyle enum] gray [Qt::GlobalColor enum] TextAlignment</definition>
+        <argsstring></argsstring>
+        <name>TextAlignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="37" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1aafd721ba2c64294fd06ac546c7addf5e" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum] DashDotDotLine[Qt::PenStyle enum] RoundCap[<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref> enum] RoundJoin[<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref> enum] gray[Qt::GlobalColor enum] NoBrush[<ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref> enum] gray[Qt::GlobalColor enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] NoBrush [Qt::BrushStyle enum] gray [Qt::GlobalColor enum] AlignRight</definition>
+        <argsstring></argsstring>
+        <name>AlignRight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="37" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1aee1cc7fcf53eb2309c193209ca375621" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum] DashDotDotLine[Qt::PenStyle enum] RoundCap[<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref> enum] RoundJoin[<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref> enum] gray[Qt::GlobalColor enum] NoBrush[<ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref> enum] gray[Qt::GlobalColor enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] NoBrush [Qt::BrushStyle enum] gray [Qt::GlobalColor enum] AlignTop</definition>
+        <argsstring></argsstring>
+        <name>AlignTop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="37" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1af05cf9503398beaab2d0f1cde0af87ff" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum] DashDotDotLine[Qt::PenStyle enum] RoundCap[<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref> enum] RoundJoin[<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref> enum] gray[Qt::GlobalColor enum] NoBrush[<ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref> enum] gray[Qt::GlobalColor enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] NoBrush [Qt::BrushStyle enum] gray [Qt::GlobalColor enum] AlignBottom</definition>
+        <argsstring></argsstring>
+        <name>AlignBottom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="37" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1ae0e0a84c60f03a686d6e986e9d69145b" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum] DashDotDotLine[Qt::PenStyle enum] RoundCap[<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref> enum] RoundJoin[<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref> enum] gray[Qt::GlobalColor enum] NoBrush[<ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref> enum] gray[Qt::GlobalColor enum] AlignCenter[Qt::AlignmentFlag enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] NoBrush [Qt::BrushStyle enum] gray [Qt::GlobalColor enum] AlignCenter [Qt::AlignmentFlag enum] TextPointSize</definition>
+        <argsstring></argsstring>
+        <name>TextPointSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="39" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1aa5d9b1deea09aad740806cc98f7cc740" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum] DashDotDotLine[Qt::PenStyle enum] RoundCap[<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref> enum] RoundJoin[<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref> enum] gray[Qt::GlobalColor enum] NoBrush[<ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref> enum] gray[Qt::GlobalColor enum] AlignCenter[Qt::AlignmentFlag enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] NoBrush [Qt::BrushStyle enum] gray [Qt::GlobalColor enum] AlignCenter [Qt::AlignmentFlag enum] Courier</definition>
+        <argsstring></argsstring>
+        <name>Courier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="41" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a29385f48845f4580b6fa961e5dfbc5d1" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum] DashDotDotLine[Qt::PenStyle enum] RoundCap[<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref> enum] RoundJoin[<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref> enum] gray[Qt::GlobalColor enum] NoBrush[<ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref> enum] gray[Qt::GlobalColor enum] AlignCenter[Qt::AlignmentFlag enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] NoBrush [Qt::BrushStyle enum] gray [Qt::GlobalColor enum] AlignCenter [Qt::AlignmentFlag enum] Helvetica</definition>
+        <argsstring></argsstring>
+        <name>Helvetica</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="41" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a60e4bb735145ede5f8b496b1e3ce6422" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum] DashDotDotLine[Qt::PenStyle enum] RoundCap[<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref> enum] RoundJoin[<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref> enum] gray[Qt::GlobalColor enum] NoBrush[<ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref> enum] gray[Qt::GlobalColor enum] AlignCenter[Qt::AlignmentFlag enum] Times[string]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] NoBrush [Qt::BrushStyle enum] gray [Qt::GlobalColor enum] AlignCenter [Qt::AlignmentFlag enum] Times [string] TextFontStyle</definition>
+        <argsstring></argsstring>
+        <name>TextFontStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="43" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1af8a30fd7e4ea37d457398e8571f764eb" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum] DashDotDotLine[Qt::PenStyle enum] RoundCap[<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref> enum] RoundJoin[<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref> enum] gray[Qt::GlobalColor enum] NoBrush[<ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref> enum] gray[Qt::GlobalColor enum] AlignCenter[Qt::AlignmentFlag enum] Times[string]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] NoBrush [Qt::BrushStyle enum] gray [Qt::GlobalColor enum] AlignCenter [Qt::AlignmentFlag enum] Times [string] StyleItalic</definition>
+        <argsstring></argsstring>
+        <name>StyleItalic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="43" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1af288033940c4625f54a91877603a16a2" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum] DashDotDotLine[Qt::PenStyle enum] RoundCap[<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref> enum] RoundJoin[<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref> enum] gray[Qt::GlobalColor enum] NoBrush[<ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref> enum] gray[Qt::GlobalColor enum] AlignCenter[Qt::AlignmentFlag enum] Times[string] StyleOblique[QFont::Style enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] NoBrush [Qt::BrushStyle enum] gray [Qt::GlobalColor enum] AlignCenter [Qt::AlignmentFlag enum] Times [string] StyleOblique [QFont::Style enum] TextFontWeight</definition>
+        <argsstring></argsstring>
+        <name>TextFontWeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="45" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a8326866c3d37167e950130bbd95d25ec" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum] DashDotDotLine[Qt::PenStyle enum] RoundCap[<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref> enum] RoundJoin[<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref> enum] gray[Qt::GlobalColor enum] NoBrush[<ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref> enum] gray[Qt::GlobalColor enum] AlignCenter[Qt::AlignmentFlag enum] Times[string] StyleOblique[QFont::Style enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] NoBrush [Qt::BrushStyle enum] gray [Qt::GlobalColor enum] AlignCenter [Qt::AlignmentFlag enum] Times [string] StyleOblique [QFont::Style enum] Light</definition>
+        <argsstring></argsstring>
+        <name>Light</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="45" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shape__input__file__specs_8txt_1a0c0bd83f93fb282ea2b33e44c2f3cc34" prot="public" static="no" mutable="no">
+        <type>SHAPE DIMENSION &amp;PROPERTY SPECS unique <ref refid="classText" kindref="compound">Text</ref> <ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>[<ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref> points] <ref refid="classPolyline" kindref="compound">Polyline</ref> yN[sequence of N points] <ref refid="classPolygon" kindref="compound">Polygon</ref> yN[sequence of N points] <ref refid="classRectangle" kindref="compound">Rectangle</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width] <ref refid="classSquare" kindref="compound">Square</ref> <ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length] <ref refid="classEllipse" kindref="compound">Ellipse</ref> b[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, a:semi major axis, b:semi minor axis] <ref refid="classCircle" kindref="compound">Circle</ref> r[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, r:radius] <ref refid="classText" kindref="compound">Text</ref> w[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>, y1:top left, l:length, w:width...defines <ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref> bounding rectangle] gray[Qt::GlobalColor enum] DashDotDotLine[Qt::PenStyle enum] RoundCap[<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref> enum] RoundJoin[<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref> enum] gray[Qt::GlobalColor enum] NoBrush[<ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref> enum] gray[Qt::GlobalColor enum] AlignCenter[Qt::AlignmentFlag enum] Times[string] StyleOblique[QFont::Style enum]</type>
+        <definition>SHAPE DIMENSION&amp; PROPERTY SPECS unique Text y2 [x2 points] Polyline yN [sequence of N points] Polygon yN [sequence of N points] Rectangle w [x1, y1: top left, l: length, w: width] Square l [x1, y1: top left, l: length] Ellipse b [x1, y1: top left, a: semi major axis, b: semi minor axis] Circle r [x1, y1: top left, r: radius] Text w [x1, y1: top left, l: length, w: width ... defines a bounding rectangle] gray [Qt::GlobalColor enum] DashDotDotLine [Qt::PenStyle enum] RoundCap [Qt::PenCapStyle enum] RoundJoin [Qt::PenJoinStyle enum] gray [Qt::GlobalColor enum] NoBrush [Qt::BrushStyle enum] gray [Qt::GlobalColor enum] AlignCenter [Qt::AlignmentFlag enum] Times [string] StyleOblique [QFont::Style enum] Normal</definition>
+        <argsstring></argsstring>
+        <name>Normal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" line="45" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">----<sp/>SHAPE<sp/><ref refid="shape__input__file__specs_8txt_1a4846c923b7033536e65792b7e6d2040b" kindref="member">TYPE</ref>,<sp/>DIMENSION<sp/>&amp;<sp/>PROPERTY<sp/>SPECS<sp/>----</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a467b0c8874f7e5c808ddbfae7144d412" kindref="member">ShapeId</ref>:<sp/>#<sp/>[int,<sp/>unique]</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a76cb42f46f7adc2fe2ae77fd213e21e1" kindref="member">ShapeType</ref>:<sp/><ref refid="classLine" kindref="compound">Line</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a7f7aae76d6fc1caf3d692a8b6bb9a9b7" kindref="member">Polyline</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a04e906b8dbbb27ddcde493daa87543f4" kindref="member">Polygon</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1abd9fcf84705ffbf8fa1f2c58d3938cb6" kindref="member">Rectangle</ref>,<sp/><ref refid="classSquare" kindref="compound">Square</ref>[rectangle,<sp/><ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>=w],<sp/><ref refid="shape__input__file__specs_8txt_1a0d2a35a3e8361f31d6ad940ea7b1864c" kindref="member">Ellipse</ref>,<sp/><ref refid="classCircle" kindref="compound">Circle</ref>[ellipse,<sp/><ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref>=b],<sp/><ref refid="classText" kindref="compound">Text</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a1bf25e58b08ba78abc93f104f4bc2914" kindref="member">ShapeDimensions</ref>:</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classLine" kindref="compound">Line</ref><sp/>-<sp/><ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1ae6da77b2f90c75c4b96658c20d0f9938" kindref="member">y1</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref><sp/>[x2<sp/>points]</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>Polyline<sp/>-<sp/><ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1ae6da77b2f90c75c4b96658c20d0f9938" kindref="member">y1</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a5d57507e254e2593e5a0a6a08c551eed" kindref="member">x3</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a0f1cc68600a86252d2497b6b561b3c25" kindref="member">y3</ref>,<sp/>...<sp/>,<sp/><ref refid="shape__input__file__specs_8txt_1a7c48dc90493b459f75b4b7583faca250" kindref="member">xN</ref>,<sp/>yN<sp/>[sequence<sp/>of<sp/>N<sp/>points]</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>Polygon<sp/>-<sp/><ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1ae6da77b2f90c75c4b96658c20d0f9938" kindref="member">y1</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a9f1fa2fb07ac3e1d8394274cb160df5c" kindref="member">x2</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a87b0346d2b040fbc73601f3fd8171852" kindref="member">y2</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a5d57507e254e2593e5a0a6a08c551eed" kindref="member">x3</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a0f1cc68600a86252d2497b6b561b3c25" kindref="member">y3</ref>,<sp/>...<sp/>,<sp/><ref refid="shape__input__file__specs_8txt_1a7c48dc90493b459f75b4b7583faca250" kindref="member">xN</ref>,<sp/>yN<sp/>[sequence<sp/>of<sp/>N<sp/>points]</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>Rectangle<sp/>-<sp/><ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1ae6da77b2f90c75c4b96658c20d0f9938" kindref="member">y1</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>,<sp/>w<sp/>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>,<sp/>y1:<sp/>top<sp/>left,<sp/><ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>:<sp/>length,<sp/>w:<sp/>width]</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classSquare" kindref="compound">Square</ref><sp/>-<sp/><ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1ae6da77b2f90c75c4b96658c20d0f9938" kindref="member">y1</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref><sp/>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>,<sp/>y1:<sp/>top<sp/>left,<sp/><ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>:<sp/>length]</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classEllipse" kindref="compound">Ellipse</ref><sp/>-<sp/><ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1ae6da77b2f90c75c4b96658c20d0f9938" kindref="member">y1</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref>,<sp/>b<sp/>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>,<sp/>y1:<sp/>top<sp/>left,<sp/><ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref>:<sp/>semi<sp/>major<sp/>axis,<sp/>b:<sp/>semi<sp/>minor<sp/>axis]</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classCircle" kindref="compound">Circle</ref><sp/>-<sp/><ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1ae6da77b2f90c75c4b96658c20d0f9938" kindref="member">y1</ref>,<sp/>r<sp/>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>,<sp/>y1:<sp/>top<sp/>left,<sp/>r:<sp/>radius]</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classText" kindref="compound">Text</ref><sp/>-<sp/><ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1ae6da77b2f90c75c4b96658c20d0f9938" kindref="member">y1</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>,<sp/>w<sp/>[<ref refid="shape__input__file__specs_8txt_1a2c75107475dd4c72dd2083af2e04d090" kindref="member">x1</ref>,<sp/>y1:<sp/>top<sp/>left,<sp/><ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>:<sp/>length,<sp/>w:<sp/>width<sp/>...<sp/>defines<sp/><ref refid="shape__input__file__specs_8txt_1ae28cf074afc52317b2105a81fa268a8c" kindref="member">a</ref><sp/>bounding<sp/>rectangle]</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a0fa4282f357d62c83340e0b9b2c142b6" kindref="member">PenColor</ref>:<sp/>white,<sp/><ref refid="shape__input__file__specs_8txt_1a54a8afc7fef4e6a72193d1b76188b473" kindref="member">black</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1abb95a9d7d8170fbc37399adf2435c1d4" kindref="member">red</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1aab3139c695d35a69810f54c8dc5251d6" kindref="member">green</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a502b3afd7545a4195802c325ab686a9f" kindref="member">blue</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a35e09d3e179c027a035bde31a31b4496" kindref="member">cyan</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a31668012af4e119081d3a9775a7e89b3" kindref="member">magenta</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a3420c3b88f0e5d261e62e78f08802981" kindref="member">yellow</ref>,<sp/>gray<sp/>[Qt::GlobalColor<sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1ac9be3af6537ae5a8802a4af83fcffb8c" kindref="member">PenWidth</ref>:<sp/>0<sp/>-<sp/>20<sp/>[int]</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">PenStyle:<sp/>NoPen,<sp/><ref refid="shape__input__file__specs_8txt_1a6e3dfa56f90db6599b3b0115169d618f" kindref="member">SolidLine</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a441e15ffcd042d37c9239405240cda6a" kindref="member">DashLine</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a9dd44362ce176c29c65b56add41cf11a" kindref="member">DotLine</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a9d5081cd9ba835c8db9fdedf4c8ee19a" kindref="member">DashDotLine</ref>,<sp/>DashDotDotLine<sp/>[Qt::PenStyle<sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">PenCapStyle</ref>:<sp/>FlatCap,<sp/><ref refid="shape__input__file__specs_8txt_1a022664fcd4bcb6fd131f71acd9191b4e" kindref="member">SquareCap</ref>,<sp/>RoundCap<sp/>[<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">PenJoinStyle</ref>:<sp/>MiterJoin,<sp/><ref refid="shape__input__file__specs_8txt_1a5375660f38f399a9c1c854c3579fdce5" kindref="member">BevelJoin</ref>,<sp/>RoundJoin<sp/>[<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a354fc5430ab296aed56472b5bd70b09e" kindref="member">BrushColor</ref>:<sp/>white,<sp/><ref refid="shape__input__file__specs_8txt_1a54a8afc7fef4e6a72193d1b76188b473" kindref="member">black</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1abb95a9d7d8170fbc37399adf2435c1d4" kindref="member">red</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1aab3139c695d35a69810f54c8dc5251d6" kindref="member">green</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a502b3afd7545a4195802c325ab686a9f" kindref="member">blue</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a35e09d3e179c027a035bde31a31b4496" kindref="member">cyan</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a31668012af4e119081d3a9775a7e89b3" kindref="member">magenta</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a3420c3b88f0e5d261e62e78f08802981" kindref="member">yellow</ref>,<sp/>gray<sp/>[Qt::GlobalColor<sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">BrushStyle</ref>:<sp/>SolidPattern,<sp/><ref refid="shape__input__file__specs_8txt_1a97b62d570251a80c34bc3055dab54ac6" kindref="member">HorPattern</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1abe8b0fed5e2471bcf0087a518498641a" kindref="member">VerPattern</ref>,<sp/>NoBrush<sp/>[<ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1ad48ae5b86ba47f707c0ef94fb9249560" kindref="member">TextString</ref>:<sp/>text<sp/>to<sp/>be<sp/>displayed<sp/>[string]</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">TextColor:<sp/>white,<sp/><ref refid="shape__input__file__specs_8txt_1a54a8afc7fef4e6a72193d1b76188b473" kindref="member">black</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1abb95a9d7d8170fbc37399adf2435c1d4" kindref="member">red</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1aab3139c695d35a69810f54c8dc5251d6" kindref="member">green</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a502b3afd7545a4195802c325ab686a9f" kindref="member">blue</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a35e09d3e179c027a035bde31a31b4496" kindref="member">cyan</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a31668012af4e119081d3a9775a7e89b3" kindref="member">magenta</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a3420c3b88f0e5d261e62e78f08802981" kindref="member">yellow</ref>,<sp/>gray<sp/>[Qt::GlobalColor<sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a1f13b9fbbcf54ce40d242716deecf3d5" kindref="member">TextAlignment</ref>:<sp/>AlignLeft,<sp/><ref refid="shape__input__file__specs_8txt_1aafd721ba2c64294fd06ac546c7addf5e" kindref="member">AlignRight</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1aee1cc7fcf53eb2309c193209ca375621" kindref="member">AlignTop</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1af05cf9503398beaab2d0f1cde0af87ff" kindref="member">AlignBottom</ref>,<sp/>AlignCenter<sp/>[Qt::AlignmentFlag<sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1ae0e0a84c60f03a686d6e986e9d69145b" kindref="member">TextPointSize</ref>:<sp/>-1<sp/>to<sp/>50<sp/>[int]</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">TextFontFamily:<sp/>Comic<sp/>Sans<sp/>MS,<sp/><ref refid="shape__input__file__specs_8txt_1aa5d9b1deea09aad740806cc98f7cc740" kindref="member">Courier</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a29385f48845f4580b6fa961e5dfbc5d1" kindref="member">Helvetica</ref>,<sp/>Times<sp/>[string]</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a60e4bb735145ede5f8b496b1e3ce6422" kindref="member">TextFontStyle</ref>:<sp/>StyleNormal,<sp/><ref refid="shape__input__file__specs_8txt_1af8a30fd7e4ea37d457398e8571f764eb" kindref="member">StyleItalic</ref>,<sp/>StyleOblique<sp/>[QFont::Style<sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1af288033940c4625f54a91877603a16a2" kindref="member">TextFontWeight</ref>:<sp/>Thin,<sp/><ref refid="shape__input__file__specs_8txt_1a8326866c3d37167e950130bbd95d25ec" kindref="member">Light</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a0c0bd83f93fb282ea2b33e44c2f3cc34" kindref="member">Normal</ref>,<sp/>Bold<sp/>[QFont::Weight<sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal">]</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/shape_input_file_specs.txt"/>
+  </compounddef>
+</doxygen>

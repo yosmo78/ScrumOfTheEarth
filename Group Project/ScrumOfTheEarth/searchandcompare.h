@@ -1,16 +1,43 @@
+/*! \file */
 #ifndef SEARCHANDCOMPARE_H
 #define SEARCHANDCOMPARE_H
 
 #include "vector.h"
 #include "shape.h"
+
+/*!
+ * \brief cmpId compares the id of two shapes and returns true if the id of the first shape is greater. Otherwise, false
+ * \param s1 Shape 1
+ * \param s2 Shape 2
+ * \return bool Shape 1's id is greater or not
+ */
 bool cmpId(Shape* s1, Shape* s2); //checks to see if first shape is greater than second shape
+/*!
+ * \brief cmpArea compares the area of two shapes and returns true if the area of the first shape is greater. Otherwise, false
+ * \param s1 Shape 1
+ * \param s2 Shape 2
+ * \return bool Shape 1's perimeter is greater or not
+ */
 bool cmpArea(Shape* s1, Shape* s2);
+
+/*!
+ * \brief cmpPeri compares the perimeter of two shapes and returns true if the perimeter of the first shape is greater. Otherwise, false
+ * \param s1 Shape 1
+ * \param s2 Shape 2
+ * \return bool Shape 1's perimeter is greater or not
+ */
 bool cmpPeri(Shape* s1, Shape* s2);
 
+/*!
+ * \brief findShape finds a shape with the given id in the given vector of shape pointers
+ * \return
+ */
 int findShape(myStd::vector<Shape*>, unsigned int);
 
-template <typename T>
-void selection_sort(myStd::vector<T> &vec, bool(*cmp)(T, T))//cmp returns true if object one is greater/smaller than object 2. Pass in vector and cmp function name to use
+/*!
+ * \brief sorts a given vector of type T with any comparison function
+ */
+template <typename T> void selection_sort(myStd::vector<T> &vec, bool(*cmp)(T, T))//cmp returns true if object one is greater/smaller than object 2. Pass in vector and cmp function name to use
 {
   myStd::vector<T> temp;
   int size = vec.size();

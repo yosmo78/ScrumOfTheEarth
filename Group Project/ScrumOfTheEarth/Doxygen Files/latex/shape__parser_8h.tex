@@ -1,0 +1,192 @@
+\hypertarget{shape__parser_8h}{}\section{Group Project/\+Scrum\+Of\+The\+Earth/shape\+\_\+parser.h File Reference}
+\label{shape__parser_8h}\index{Group Project/\+Scrum\+Of\+The\+Earth/shape\+\_\+parser.\+h@{Group Project/\+Scrum\+Of\+The\+Earth/shape\+\_\+parser.\+h}}
+{\ttfamily \#include $<$fstream$>$}\\*
+{\ttfamily \#include $<$sstream$>$}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$string$>$}\\*
+{\ttfamily \#include $<$Q\+Color$>$}\\*
+{\ttfamily \#include $<$Q\+String$>$}\\*
+{\ttfamily \#include \char`\"{}vector.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}shape.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}line.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}polyline.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}polygon.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}rectangle.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}square.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ellipse.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}circle.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}text.\+h\char`\"{}}\\*
+Include dependency graph for shape\+\_\+parser.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{shape__parser_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{shape__parser_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+Qt\+::\+Global\+Color \hyperlink{shape__parser_8h_aff16a7903323ad4fc58e57d0041b71f8}{convert\+Color} (const string \&)
+\begin{DoxyCompactList}\small\item\em convert\+Color converts a string to a Global color \end{DoxyCompactList}\item 
+Qt\+::\+Pen\+Style \hyperlink{shape__parser_8h_a13124250b0e7a0b9b6c068bb61694975}{convert\+Pen\+Style} (const string \&)
+\begin{DoxyCompactList}\small\item\em convert\+Pen\+Style converts a string to a Qt\+::\+Pen\+Style \end{DoxyCompactList}\item 
+\hyperlink{shape__input__file__specs_8txt_a622efdcfef6789d4367974d2fe79019e}{Qt\+::\+Pen\+Cap\+Style} \hyperlink{shape__parser_8h_a0da0910b8fe68a6609f1885a917f3991}{convert\+Pen\+Cap\+Style} (const string \&)
+\begin{DoxyCompactList}\small\item\em convert\+Pen\+Cap\+Style converts a string to a Qt\+::\+Pen\+Cap\+Style \end{DoxyCompactList}\item 
+\hyperlink{shape__input__file__specs_8txt_a007db2043c6063881de2043c05c9c4a9}{Qt\+::\+Pen\+Join\+Style} \hyperlink{shape__parser_8h_a81e52a74d817ed2578caaa92e118ac31}{convert\+Pen\+Join\+Style} (const string \&)
+\begin{DoxyCompactList}\small\item\em convert\+Pen\+Join\+Style converts a string to a Qt\+::\+Pen\+Join\+Style  \end{DoxyCompactList}\item 
+\hyperlink{shape__input__file__specs_8txt_ad07f6fe6c28dcb0b3bdc324a72d0051f}{Qt\+::\+Brush\+Style} \hyperlink{shape__parser_8h_a9a5c8ce3f289bcde928844d519226445}{convert\+Brush\+Style} (const string \&)
+\begin{DoxyCompactList}\small\item\em convert\+Brush\+Style converts a string to a Qt\+::\+Brush\+Style \end{DoxyCompactList}\item 
+Qt\+::\+Alignment\+Flag \hyperlink{shape__parser_8h_a39bb592ec09a0750a290f2ac4e89bcf0}{convert\+Alignment} (const string \&)
+\begin{DoxyCompactList}\small\item\em convert\+Alignment converts a string to a Qt\+::\+Alignment\+Flag \end{DoxyCompactList}\item 
+Q\+Font\+::\+Style \hyperlink{shape__parser_8h_a15e9b26d40ac42c7e60318e6aaa75e58}{convert\+Style} (const string \&)
+\begin{DoxyCompactList}\small\item\em convert\+Style converts a string to a Q\+Font\+::\+Style \end{DoxyCompactList}\item 
+Q\+Font\+::\+Weight \hyperlink{shape__parser_8h_a44489cc593506cc129150108ebf495a7}{convert\+Weight} (const string \&str)
+\begin{DoxyCompactList}\small\item\em convert\+Weight converts a string to a Q\+Font\+::\+Weight \end{DoxyCompactList}\item 
+void \hyperlink{shape__parser_8h_a974d730d36b48de12f933bd6837c3945}{shape\+\_\+parser} (\hyperlink{classmyStd_1_1vector}{my\+Std\+::vector}$<$ \hyperlink{classShape}{Shape} $\ast$ $>$ \&vec, const char $\ast$filename, bool \&ok)
+\begin{DoxyCompactList}\small\item\em Populates a vector from a given file sets a bool whether it was successful or not. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{shape\+\_\+parser.\+h@{shape\+\_\+parser.\+h}!convert\+Alignment@{convert\+Alignment}}
+\index{convert\+Alignment@{convert\+Alignment}!shape\+\_\+parser.\+h@{shape\+\_\+parser.\+h}}
+\subsubsection[{\texorpdfstring{convert\+Alignment(const string \&)}{convertAlignment(const string &)}}]{\setlength{\rightskip}{0pt plus 5cm}Qt\+::\+Alignment\+Flag convert\+Alignment (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{shape__parser_8h_a39bb592ec09a0750a290f2ac4e89bcf0}{}\label{shape__parser_8h_a39bb592ec09a0750a290f2ac4e89bcf0}
+
+
+convert\+Alignment converts a string to a Qt\+::\+Alignment\+Flag 
+
+\begin{DoxyReturn}{Returns}
+Alignment\+Flag 
+\end{DoxyReturn}
+\index{shape\+\_\+parser.\+h@{shape\+\_\+parser.\+h}!convert\+Brush\+Style@{convert\+Brush\+Style}}
+\index{convert\+Brush\+Style@{convert\+Brush\+Style}!shape\+\_\+parser.\+h@{shape\+\_\+parser.\+h}}
+\subsubsection[{\texorpdfstring{convert\+Brush\+Style(const string \&)}{convertBrushStyle(const string &)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Qt\+::\+Brush\+Style} convert\+Brush\+Style (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{shape__parser_8h_a9a5c8ce3f289bcde928844d519226445}{}\label{shape__parser_8h_a9a5c8ce3f289bcde928844d519226445}
+
+
+convert\+Brush\+Style converts a string to a Qt\+::\+Brush\+Style 
+
+\begin{DoxyReturn}{Returns}
+Brush\+Style 
+\end{DoxyReturn}
+\index{shape\+\_\+parser.\+h@{shape\+\_\+parser.\+h}!convert\+Color@{convert\+Color}}
+\index{convert\+Color@{convert\+Color}!shape\+\_\+parser.\+h@{shape\+\_\+parser.\+h}}
+\subsubsection[{\texorpdfstring{convert\+Color(const string \&)}{convertColor(const string &)}}]{\setlength{\rightskip}{0pt plus 5cm}Qt\+::\+Global\+Color convert\+Color (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{shape__parser_8h_aff16a7903323ad4fc58e57d0041b71f8}{}\label{shape__parser_8h_aff16a7903323ad4fc58e57d0041b71f8}
+
+
+convert\+Color converts a string to a Global color 
+
+\begin{DoxyReturn}{Returns}
+Qt\+::\+Global\+Color color 
+\end{DoxyReturn}
+\index{shape\+\_\+parser.\+h@{shape\+\_\+parser.\+h}!convert\+Pen\+Cap\+Style@{convert\+Pen\+Cap\+Style}}
+\index{convert\+Pen\+Cap\+Style@{convert\+Pen\+Cap\+Style}!shape\+\_\+parser.\+h@{shape\+\_\+parser.\+h}}
+\subsubsection[{\texorpdfstring{convert\+Pen\+Cap\+Style(const string \&)}{convertPenCapStyle(const string &)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Qt\+::\+Pen\+Cap\+Style} convert\+Pen\+Cap\+Style (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{shape__parser_8h_a0da0910b8fe68a6609f1885a917f3991}{}\label{shape__parser_8h_a0da0910b8fe68a6609f1885a917f3991}
+
+
+convert\+Pen\+Cap\+Style converts a string to a Qt\+::\+Pen\+Cap\+Style 
+
+\begin{DoxyReturn}{Returns}
+Pen\+Cap\+Style 
+\end{DoxyReturn}
+\index{shape\+\_\+parser.\+h@{shape\+\_\+parser.\+h}!convert\+Pen\+Join\+Style@{convert\+Pen\+Join\+Style}}
+\index{convert\+Pen\+Join\+Style@{convert\+Pen\+Join\+Style}!shape\+\_\+parser.\+h@{shape\+\_\+parser.\+h}}
+\subsubsection[{\texorpdfstring{convert\+Pen\+Join\+Style(const string \&)}{convertPenJoinStyle(const string &)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Qt\+::\+Pen\+Join\+Style} convert\+Pen\+Join\+Style (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{shape__parser_8h_a81e52a74d817ed2578caaa92e118ac31}{}\label{shape__parser_8h_a81e52a74d817ed2578caaa92e118ac31}
+
+
+convert\+Pen\+Join\+Style converts a string to a Qt\+::\+Pen\+Join\+Style  
+
+\index{shape\+\_\+parser.\+h@{shape\+\_\+parser.\+h}!convert\+Pen\+Style@{convert\+Pen\+Style}}
+\index{convert\+Pen\+Style@{convert\+Pen\+Style}!shape\+\_\+parser.\+h@{shape\+\_\+parser.\+h}}
+\subsubsection[{\texorpdfstring{convert\+Pen\+Style(const string \&)}{convertPenStyle(const string &)}}]{\setlength{\rightskip}{0pt plus 5cm}Qt\+::\+Pen\+Style convert\+Pen\+Style (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{shape__parser_8h_a13124250b0e7a0b9b6c068bb61694975}{}\label{shape__parser_8h_a13124250b0e7a0b9b6c068bb61694975}
+
+
+convert\+Pen\+Style converts a string to a Qt\+::\+Pen\+Style 
+
+\begin{DoxyReturn}{Returns}
+Pen\+Style 
+\end{DoxyReturn}
+\index{shape\+\_\+parser.\+h@{shape\+\_\+parser.\+h}!convert\+Style@{convert\+Style}}
+\index{convert\+Style@{convert\+Style}!shape\+\_\+parser.\+h@{shape\+\_\+parser.\+h}}
+\subsubsection[{\texorpdfstring{convert\+Style(const string \&)}{convertStyle(const string &)}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Font\+::\+Style convert\+Style (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{shape__parser_8h_a15e9b26d40ac42c7e60318e6aaa75e58}{}\label{shape__parser_8h_a15e9b26d40ac42c7e60318e6aaa75e58}
+
+
+convert\+Style converts a string to a Q\+Font\+::\+Style 
+
+\begin{DoxyReturn}{Returns}
+Font\+Style 
+\end{DoxyReturn}
+\index{shape\+\_\+parser.\+h@{shape\+\_\+parser.\+h}!convert\+Weight@{convert\+Weight}}
+\index{convert\+Weight@{convert\+Weight}!shape\+\_\+parser.\+h@{shape\+\_\+parser.\+h}}
+\subsubsection[{\texorpdfstring{convert\+Weight(const string \&str)}{convertWeight(const string &str)}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Font\+::\+Weight convert\+Weight (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{str}
+\end{DoxyParamCaption}
+)}\hypertarget{shape__parser_8h_a44489cc593506cc129150108ebf495a7}{}\label{shape__parser_8h_a44489cc593506cc129150108ebf495a7}
+
+
+convert\+Weight converts a string to a Q\+Font\+::\+Weight 
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Font\+Weight 
+\end{DoxyReturn}
+\index{shape\+\_\+parser.\+h@{shape\+\_\+parser.\+h}!shape\+\_\+parser@{shape\+\_\+parser}}
+\index{shape\+\_\+parser@{shape\+\_\+parser}!shape\+\_\+parser.\+h@{shape\+\_\+parser.\+h}}
+\subsubsection[{\texorpdfstring{shape\+\_\+parser(my\+Std\+::vector$<$ Shape $\ast$ $>$ \&vec, const char $\ast$filename, bool \&ok)}{shape_parser(myStd::vector< Shape * > &vec, const char *filename, bool &ok)}}]{\setlength{\rightskip}{0pt plus 5cm}void shape\+\_\+parser (
+\begin{DoxyParamCaption}
+\item[{{\bf my\+Std\+::vector}$<$ {\bf Shape} $\ast$ $>$ \&}]{vec, }
+\item[{const char $\ast$}]{filename, }
+\item[{bool \&}]{ok}
+\end{DoxyParamCaption}
+)}\hypertarget{shape__parser_8h_a974d730d36b48de12f933bd6837c3945}{}\label{shape__parser_8h_a974d730d36b48de12f933bd6837c3945}
+
+
+Populates a vector from a given file sets a bool whether it was successful or not. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & of shape pointers \\
+\hline
+{\em filename} & of shape to read from \\
+\hline
+{\em bool} & for ok status \\
+\hline
+\end{DoxyParams}

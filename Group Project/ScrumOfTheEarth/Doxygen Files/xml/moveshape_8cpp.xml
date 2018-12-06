@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="moveshape_8cpp" kind="file" language="C++">
+    <compoundname>moveshape.cpp</compoundname>
+    <includes refid="moveshape_8h" local="yes">moveshape.h</includes>
+    <includes local="yes">ui_moveshape.h</includes>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="1148">
+        <label>moveshape.h</label>
+        <link refid="moveshape_8h"/>
+        <childnode refid="1149" relation="include">
+        </childnode>
+        <childnode refid="1151" relation="include">
+        </childnode>
+        <childnode refid="1154" relation="include">
+        </childnode>
+        <childnode refid="1155" relation="include">
+        </childnode>
+        <childnode refid="1156" relation="include">
+        </childnode>
+        <childnode refid="1158" relation="include">
+        </childnode>
+        <childnode refid="1159" relation="include">
+        </childnode>
+        <childnode refid="1160" relation="include">
+        </childnode>
+        <childnode refid="1161" relation="include">
+        </childnode>
+        <childnode refid="1162" relation="include">
+        </childnode>
+        <childnode refid="1163" relation="include">
+        </childnode>
+        <childnode refid="1164" relation="include">
+        </childnode>
+      </node>
+      <node id="1153">
+        <label>QObject</label>
+      </node>
+      <node id="1151">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="1152" relation="include">
+        </childnode>
+        <childnode refid="1153" relation="include">
+        </childnode>
+        <childnode refid="1149" relation="include">
+        </childnode>
+      </node>
+      <node id="1155">
+        <label>rectangle.h</label>
+        <link refid="rectangle_8h"/>
+        <childnode refid="1151" relation="include">
+        </childnode>
+        <childnode refid="1149" relation="include">
+        </childnode>
+      </node>
+      <node id="1162">
+        <label>text.h</label>
+        <link refid="text_8h"/>
+        <childnode refid="1151" relation="include">
+        </childnode>
+      </node>
+      <node id="1157">
+        <label>cmath</label>
+      </node>
+      <node id="1147">
+        <label>Group Project/ScrumOfTheEarth/moveshape.cpp</label>
+        <link refid="moveshape.cpp"/>
+        <childnode refid="1148" relation="include">
+        </childnode>
+        <childnode refid="1165" relation="include">
+        </childnode>
+        <childnode refid="1166" relation="include">
+        </childnode>
+      </node>
+      <node id="1149">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="1150" relation="include">
+        </childnode>
+      </node>
+      <node id="1163">
+        <label>string</label>
+      </node>
+      <node id="1164">
+        <label>QMainWindow</label>
+      </node>
+      <node id="1158">
+        <label>circle.h</label>
+        <link refid="circle_8h"/>
+        <childnode refid="1151" relation="include">
+        </childnode>
+      </node>
+      <node id="1152">
+        <label>QPainter</label>
+      </node>
+      <node id="1161">
+        <label>polyline.h</label>
+        <link refid="polyline_8h"/>
+        <childnode refid="1149" relation="include">
+        </childnode>
+        <childnode refid="1151" relation="include">
+        </childnode>
+        <childnode refid="1157" relation="include">
+        </childnode>
+      </node>
+      <node id="1156">
+        <label>line.h</label>
+        <link refid="line_8h"/>
+        <childnode refid="1151" relation="include">
+        </childnode>
+        <childnode refid="1157" relation="include">
+        </childnode>
+      </node>
+      <node id="1159">
+        <label>ellipse.h</label>
+        <link refid="ellipse_8h"/>
+        <childnode refid="1151" relation="include">
+        </childnode>
+        <childnode refid="1157" relation="include">
+        </childnode>
+      </node>
+      <node id="1166">
+        <label>iostream</label>
+      </node>
+      <node id="1154">
+        <label>square.h</label>
+        <link refid="square_8h"/>
+        <childnode refid="1151" relation="include">
+        </childnode>
+        <childnode refid="1149" relation="include">
+        </childnode>
+      </node>
+      <node id="1150">
+        <label>algorithm</label>
+      </node>
+      <node id="1160">
+        <label>polygon.h</label>
+        <link refid="polygon_8h"/>
+        <childnode refid="1151" relation="include">
+        </childnode>
+        <childnode refid="1149" relation="include">
+        </childnode>
+        <childnode refid="1157" relation="include">
+        </childnode>
+      </node>
+      <node id="1165">
+        <label>ui_moveshape.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="moveshape_8h" kindref="compound">moveshape.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_moveshape.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><ref refid="classMoveShape_1a475fca3688eb29093886a0508f8e9b83" kindref="member">MoveShape::MoveShape</ref>(QWidget<sp/>*parent,<sp/><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;Shape *&gt;</ref><sp/>&amp;<sp/>shapes):</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>QMainWindow(parent),</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespaceUi" kindref="compound">Ui</ref>::<ref refid="classMoveShape" kindref="compound">MoveShape</ref>)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>vecPointer<sp/>=<sp/>&amp;shapes;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><ref refid="classMoveShape_1a9790764b1e1ec53da191338e6fa763ac" kindref="member">MoveShape::~MoveShape</ref>()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MoveShape::on_pushButton_clicked()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>newX<sp/>=<sp/>atoi(ui-&gt;x_cord-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>newY<sp/>=<sp/>atoi(ui-&gt;y_cord-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>newID<sp/>=<sp/>atoi(ui-&gt;shape_id-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classShape" kindref="compound">Shape</ref><sp/>**ptr<sp/>=<sp/>vecPointer-&gt;begin();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classShape" kindref="compound">Shape</ref><sp/>*ptr2<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>vecPointer-&gt;size();<sp/>++i)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ptr[i]-&gt;getShapeId()<sp/>==<sp/>newID)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ptr2<sp/>=<sp/>ptr[i];</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((*ptr2).getType()<sp/>==<sp/><ref refid="classSquare_1a5d6e510d07f465fefdd1cdbbd041db2f" kindref="member">Square::getStaticType</ref>())</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classSquare" kindref="compound">Square</ref><sp/>*<sp/>sptr<sp/>=<sp/></highlight><highlight class="keyword">dynamic_cast&lt;</highlight><highlight class="normal"><ref refid="classSquare" kindref="compound">Square</ref><sp/>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(ptr2);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sptr-&gt;<ref refid="classSquare_1acfd205cb2fe02845e3ece8c9a1244943" kindref="member">setCornerPoint</ref>(QPoint(newX,<sp/>newY));</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((*ptr2).getType()<sp/>==<sp/><ref refid="classRectangle_1ac9e18cf57224bfbc584547c0ee6d1ce3" kindref="member">Rectangle::getStaticType</ref>())</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classRectangle" kindref="compound">Rectangle</ref><sp/>*<sp/>sptr<sp/>=<sp/></highlight><highlight class="keyword">dynamic_cast&lt;</highlight><highlight class="normal"><ref refid="classRectangle" kindref="compound">Rectangle</ref><sp/>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(ptr2);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sptr-&gt;<ref refid="classRectangle_1a34488ca08ac813751dba8c57c80985fa" kindref="member">setCornerPoint</ref>(QPoint(newX,<sp/>newY));</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((*ptr2).getType()<sp/>==<sp/><ref refid="classLine_1aec5465504d5c944920fd96a7d81c8472" kindref="member">Line::getStaticType</ref>())</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classLine" kindref="compound">Line</ref><sp/>*<sp/>sptr<sp/>=<sp/></highlight><highlight class="keyword">dynamic_cast&lt;</highlight><highlight class="normal"><ref refid="classLine" kindref="compound">Line</ref><sp/>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(ptr2);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sptr-&gt;<ref refid="classLine_1a671e977e9b5cb104016def1e9e99c5aa" kindref="member">setPoint1</ref>(QPoint(newX,<sp/>newY));</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>deltaX<sp/>=<sp/>(sptr-&gt;<ref refid="classLine_1ad0f6a573ebd8220236e7de8202717f97" kindref="member">getPoint1</ref>().x())<sp/>-<sp/>newX;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>deltaY<sp/>=<sp/>(sptr-&gt;<ref refid="classLine_1ad0f6a573ebd8220236e7de8202717f97" kindref="member">getPoint1</ref>().y())<sp/>-<sp/>newY;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>placeX<sp/>=<sp/>sptr-&gt;<ref refid="classLine_1aa64a85c213850620e2ca3df153fe7846" kindref="member">getPoint2</ref>().x()<sp/>-<sp/>deltaX;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>placeY<sp/>=<sp/>sptr-&gt;<ref refid="classLine_1aa64a85c213850620e2ca3df153fe7846" kindref="member">getPoint2</ref>().y()<sp/>-<sp/>deltaY;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sptr-&gt;<ref refid="classLine_1acd4ccc2b472817c45f52297c99a8cbf9" kindref="member">setPoint2</ref>(QPoint(placeY,<sp/>placeX));</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((*ptr2).getType()<sp/>==<sp/><ref refid="classCircle_1ac5e287c2511f325888d340b6555d51b5" kindref="member">Circle::getStaticType</ref>())</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classCircle" kindref="compound">Circle</ref><sp/>*<sp/>sptr<sp/>=<sp/></highlight><highlight class="keyword">dynamic_cast&lt;</highlight><highlight class="normal"><ref refid="classCircle" kindref="compound">Circle</ref><sp/>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(ptr2);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sptr-&gt;<ref refid="classCircle_1a60e5c24fe969240435725aa608bed3dd" kindref="member">setPoint1</ref>(QPoint(newX,<sp/>newY));</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((*ptr2).getType()<sp/>==<sp/><ref refid="classEllipse_1a05cf0c6c09a47baaaed6c2d0df922dfb" kindref="member">Ellipse::getStaticType</ref>())</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEllipse" kindref="compound">Ellipse</ref><sp/>*<sp/>sptr<sp/>=<sp/></highlight><highlight class="keyword">dynamic_cast&lt;</highlight><highlight class="normal"><ref refid="classEllipse" kindref="compound">Ellipse</ref><sp/>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(ptr2);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sptr-&gt;<ref refid="classEllipse_1a29a934608fd3cad24c5f6de9d9abb9c4" kindref="member">setTopLeft</ref>(QPoint(newX,<sp/>newY));</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((*ptr2).getType()<sp/>==<sp/><ref refid="classPolygon_1a8aeea28a673b2ef2df1dd150ebb4f8d9" kindref="member">Polygon::getStaticType</ref>())</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classPolygon" kindref="compound">Polygon</ref><sp/>*<sp/>sptr<sp/>=<sp/></highlight><highlight class="keyword">dynamic_cast&lt;</highlight><highlight class="normal"><ref refid="classPolygon" kindref="compound">Polygon</ref><sp/>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(ptr2);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QPoint<sp/>*tmp<sp/>=<sp/>sptr-&gt;<ref refid="classPolygon_1a254935fca8f07c8b337ae96e19283464" kindref="member">getPolyPoints</ref>();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>deltaX<sp/>=<sp/>tmp[0].x()<sp/>-<sp/>newX;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>deltaY<sp/>=<sp/>tmp[0].y()<sp/>-<sp/>newY;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tmp[0]<sp/>=<sp/>QPoint(newX,newY);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>1;i&lt;<sp/>sptr-&gt;<ref refid="classPolygon_1aaa21d89b5cdf770f421d19524e82734c" kindref="member">getNumOfPoints</ref>();<sp/>i++)</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tmp[i]<sp/>=<sp/>QPoint(tmp[i].x()<sp/>-<sp/>deltaX<sp/>,<sp/>tmp[i].y()<sp/>-<sp/>deltaY);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((*ptr2).getType()<sp/>==<sp/><ref refid="classPolyline_1abe58d8a06186437737d4c2f856328855" kindref="member">Polyline::getStaticType</ref>())</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classPolyline" kindref="compound">Polyline</ref><sp/>*<sp/>sptr<sp/>=<sp/></highlight><highlight class="keyword">dynamic_cast&lt;</highlight><highlight class="normal"><ref refid="classPolyline" kindref="compound">Polyline</ref><sp/>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(ptr2);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;QPoint&gt;</ref><sp/>*vecPtr<sp/>=<sp/>&amp;(sptr-&gt;<ref refid="classPolyline_1ae38a1e1f4d3a0506cac0afcee0cbf93e" kindref="member">getPoints</ref>());</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QPoint<sp/>*tmp<sp/>=<sp/>vecPtr-&gt;<ref refid="classmyStd_1_1vector_1adaa284b6b387f70d3244b4d6e64869c3" kindref="member">begin</ref>();</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>deltaX<sp/>=<sp/>tmp[0].x()<sp/>-<sp/>newX;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>deltaY<sp/>=<sp/>tmp[0].y()<sp/>-<sp/>newY;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tmp[0]<sp/>=<sp/>QPoint(newX,newY);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>1;i&lt;<sp/>sptr-&gt;<ref refid="classPolyline_1ac81ab6c46f172b381cc7b6ed4d6ec942" kindref="member">getNumOfPoints</ref>();<sp/>i++)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tmp[i]<sp/>=<sp/>QPoint(tmp[i].x()<sp/>-<sp/>deltaX<sp/>,<sp/>tmp[i].y()<sp/>-<sp/>deltaY);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((*ptr2).getType()<sp/>==<sp/><ref refid="classText_1aa63f66168dc6f0af547710743a52f9c9" kindref="member">Text::getStaticType</ref>())</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classText" kindref="compound">Text</ref><sp/>*<sp/>sptr<sp/>=<sp/></highlight><highlight class="keyword">dynamic_cast&lt;</highlight><highlight class="normal"><ref refid="classText" kindref="compound">Text</ref><sp/>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(ptr2);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sptr-&gt;<ref refid="classText_1a8a8424a8e6386a0626cba6ddfa1a91c2" kindref="member">setCornerPoint</ref>(QPoint(newX,<sp/>newY));</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>hide();</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/>update_win();</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/moveshape.cpp"/>
+  </compounddef>
+</doxygen>

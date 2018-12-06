@@ -1,0 +1,144 @@
+\hypertarget{classRenderArea}{}\section{Render\+Area Class Reference}
+\label{classRenderArea}\index{Render\+Area@{Render\+Area}}
+
+
+The \hyperlink{classRenderArea}{Render\+Area} class provides the environment for drawing shapes.  
+
+
+
+
+{\ttfamily \#include $<$renderarea.\+h$>$}
+
+
+
+Inheritance diagram for Render\+Area\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=169pt]{classRenderArea__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Render\+Area\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=284pt]{classRenderArea__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classRenderArea_a71baad4c7f205d8f3c7fa2b1c7483448}{Render\+Area} (Q\+Widget $\ast$parent)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classRenderArea}{Render\+Area} constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{classRenderArea_ade92334d3441242827d5a96fc9cd5f42}{$\sim$\+Render\+Area} ()
+\item 
+bool \hyperlink{classRenderArea_aff78d4f340f879fb5effa9830e4d77b9}{get\+Show\+Id} ()
+\begin{DoxyCompactList}\small\item\em Gets a bool of whether to show the ids when rendering or not. \end{DoxyCompactList}\item 
+const void \hyperlink{classRenderArea_a460a86b0f462ad0fd99ae30688754583}{set\+Show\+Id} (bool t)
+\begin{DoxyCompactList}\small\item\em Sets the bool to signify if the shapes should be rendered with an id or not. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classmyStd_1_1vector}{my\+Std\+::vector}$<$ \hyperlink{classShape}{Shape} $\ast$ $>$ \hyperlink{classRenderArea_a3502e321d5130cd9029c45c7238979e6}{shapes\+List}
+\begin{DoxyCompactList}\small\item\em shapes\+List vector of Shape$\ast$ that \hyperlink{classRenderArea}{Render\+Area} draws \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classRenderArea_ae9b5a1573f3b06590c717c7598ffaae4}{paint\+Event} (Q\+Paint\+Event $\ast$event) override
+\begin{DoxyCompactList}\small\item\em paint\+Event calls draw on all of the shapes and draws them inside the \hyperlink{classRenderArea}{Render\+Area} \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classRenderArea}{Render\+Area} class provides the environment for drawing shapes. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Render\+Area@{Render\+Area}!Render\+Area@{Render\+Area}}
+\index{Render\+Area@{Render\+Area}!Render\+Area@{Render\+Area}}
+\subsubsection[{\texorpdfstring{Render\+Area(\+Q\+Widget $\ast$parent)}{RenderArea(QWidget *parent)}}]{\setlength{\rightskip}{0pt plus 5cm}Render\+Area\+::\+Render\+Area (
+\begin{DoxyParamCaption}
+\item[{Q\+Widget $\ast$}]{parent}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classRenderArea_a71baad4c7f205d8f3c7fa2b1c7483448}{}\label{classRenderArea_a71baad4c7f205d8f3c7fa2b1c7483448}
+
+
+\hyperlink{classRenderArea}{Render\+Area} constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & widget \\
+\hline
+\end{DoxyParams}
+\index{Render\+Area@{Render\+Area}!````~Render\+Area@{$\sim$\+Render\+Area}}
+\index{````~Render\+Area@{$\sim$\+Render\+Area}!Render\+Area@{Render\+Area}}
+\subsubsection[{\texorpdfstring{$\sim$\+Render\+Area()}{~RenderArea()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual Render\+Area\+::$\sim$\+Render\+Area (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{classRenderArea_ade92334d3441242827d5a96fc9cd5f42}{}\label{classRenderArea_ade92334d3441242827d5a96fc9cd5f42}
+
+
+\subsection{Member Function Documentation}
+\index{Render\+Area@{Render\+Area}!get\+Show\+Id@{get\+Show\+Id}}
+\index{get\+Show\+Id@{get\+Show\+Id}!Render\+Area@{Render\+Area}}
+\subsubsection[{\texorpdfstring{get\+Show\+Id()}{getShowId()}}]{\setlength{\rightskip}{0pt plus 5cm}bool Render\+Area\+::get\+Show\+Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classRenderArea_aff78d4f340f879fb5effa9830e4d77b9}{}\label{classRenderArea_aff78d4f340f879fb5effa9830e4d77b9}
+
+
+Gets a bool of whether to show the ids when rendering or not. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\index{Render\+Area@{Render\+Area}!paint\+Event@{paint\+Event}}
+\index{paint\+Event@{paint\+Event}!Render\+Area@{Render\+Area}}
+\subsubsection[{\texorpdfstring{paint\+Event(\+Q\+Paint\+Event $\ast$event) override}{paintEvent(QPaintEvent *event) override}}]{\setlength{\rightskip}{0pt plus 5cm}void Render\+Area\+::paint\+Event (
+\begin{DoxyParamCaption}
+\item[{Q\+Paint\+Event $\ast$}]{event}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [protected]}}\hypertarget{classRenderArea_ae9b5a1573f3b06590c717c7598ffaae4}{}\label{classRenderArea_ae9b5a1573f3b06590c717c7598ffaae4}
+
+
+paint\+Event calls draw on all of the shapes and draws them inside the \hyperlink{classRenderArea}{Render\+Area} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & Q\+Paint\+Event used to signify that it is a paint event \\
+\hline
+\end{DoxyParams}
+\index{Render\+Area@{Render\+Area}!set\+Show\+Id@{set\+Show\+Id}}
+\index{set\+Show\+Id@{set\+Show\+Id}!Render\+Area@{Render\+Area}}
+\subsubsection[{\texorpdfstring{set\+Show\+Id(bool t)}{setShowId(bool t)}}]{\setlength{\rightskip}{0pt plus 5cm}const void Render\+Area\+::set\+Show\+Id (
+\begin{DoxyParamCaption}
+\item[{bool}]{t}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classRenderArea_a460a86b0f462ad0fd99ae30688754583}{}\label{classRenderArea_a460a86b0f462ad0fd99ae30688754583}
+
+
+Sets the bool to signify if the shapes should be rendered with an id or not. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & bool of show\+Id condition \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\index{Render\+Area@{Render\+Area}!shapes\+List@{shapes\+List}}
+\index{shapes\+List@{shapes\+List}!Render\+Area@{Render\+Area}}
+\subsubsection[{\texorpdfstring{shapes\+List}{shapesList}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf my\+Std\+::vector}$<${\bf Shape}$\ast$$>$ Render\+Area\+::shapes\+List}\hypertarget{classRenderArea_a3502e321d5130cd9029c45c7238979e6}{}\label{classRenderArea_a3502e321d5130cd9029c45c7238979e6}
+
+
+shapes\+List vector of Shape$\ast$ that \hyperlink{classRenderArea}{Render\+Area} draws 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Group Project/\+Scrum\+Of\+The\+Earth/\hyperlink{renderarea_8h}{renderarea.\+h}\end{DoxyCompactItemize}

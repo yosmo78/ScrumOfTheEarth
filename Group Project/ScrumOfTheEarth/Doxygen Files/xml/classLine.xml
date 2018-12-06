@@ -1,0 +1,572 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classLine" kind="class" language="C++" prot="public">
+    <compoundname>Line</compoundname>
+    <basecompoundref refid="classShape" prot="public" virt="non-virtual">Shape</basecompoundref>
+    <includes refid="line_8h" local="no">line.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classLine_1a286ad4f63ee23db76031f569c5b135ae" prot="private" static="no" mutable="no">
+        <type>QPoint</type>
+        <definition>QPoint Line::point1</definition>
+        <argsstring></argsstring>
+        <name>point1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="106" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLine_1a7403c2cfa10367b73842734083a17548" prot="private" static="no" mutable="no">
+        <type>QPoint</type>
+        <definition>QPoint Line::point2</definition>
+        <argsstring></argsstring>
+        <name>point2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="107" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLine_1abd52ed401686c4ea82f3a3ea18d976d3" prot="private" static="no" mutable="no">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Line::penColor</definition>
+        <argsstring></argsstring>
+        <name>penColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="108" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLine_1ad51d4bd431142153927bd0b23b8db59b" prot="private" static="no" mutable="no">
+        <type>Qt::PenStyle</type>
+        <definition>Qt::PenStyle Line::penStyle</definition>
+        <argsstring></argsstring>
+        <name>penStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="109" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLine_1a12908226636a8d32fc50460e2819b516" prot="private" static="no" mutable="no">
+        <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+        <definition>Qt::PenCapStyle Line::penCapStyle</definition>
+        <argsstring></argsstring>
+        <name>penCapStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="110" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLine_1a3bd68f881e6bcd8b04181d4682d66c15" prot="private" static="no" mutable="no">
+        <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+        <definition>Qt::PenJoinStyle Line::penJoinStyle</definition>
+        <argsstring></argsstring>
+        <name>penJoinStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="111" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLine_1a4fc1d856f822dd0b88676e6c22a65f14" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Line::penWidth</definition>
+        <argsstring></argsstring>
+        <name>penWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="112" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classLine_1abcc71f5940d76af54fb2a8406418dd44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Line::Line</definition>
+        <argsstring>(unsigned int, int, int, int, int, Qt::GlobalColor, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle, int)</argsstring>
+        <name>Line</name>
+        <param>
+          <type>unsigned</type>
+          <declname>int</declname>
+          <defname>i</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>x1</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>y1</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>x2</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>y2</defname>
+        </param>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <defname>pc</defname>
+        </param>
+        <param>
+          <type>Qt::PenStyle</type>
+          <defname>ps</defname>
+        </param>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+          <defname>pcs</defname>
+        </param>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+          <defname>pjs</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>pw</defname>
+        </param>
+        <briefdescription>
+<para>All parameter constructor for <ref refid="classLine" kindref="compound">Line</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="16" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.cpp" bodystart="3" bodyend="4"/>
+      </memberdef>
+      <memberdef kind="function" id="classLine_1ad0f6a573ebd8220236e7de8202717f97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QPoint</type>
+        <definition>QPoint Line::getPoint1</definition>
+        <argsstring>()</argsstring>
+        <name>getPoint1</name>
+        <briefdescription>
+<para>Gets the first point of the line. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>QPoint of the first point </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="21" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classLine_1aa64a85c213850620e2ca3df153fe7846" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QPoint</type>
+        <definition>QPoint Line::getPoint2</definition>
+        <argsstring>()</argsstring>
+        <name>getPoint2</name>
+        <briefdescription>
+<para>Gets the second point of the line. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>QPoint of the second point </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="26" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classLine_1a671e977e9b5cb104016def1e9e99c5aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Line::setPoint1</definition>
+        <argsstring>(QPoint p1)</argsstring>
+        <name>setPoint1</name>
+        <param>
+          <type>QPoint</type>
+          <declname>p1</declname>
+        </param>
+        <briefdescription>
+<para>Sets the first point to the given point. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>QPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for the first point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="31" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classLine_1acd4ccc2b472817c45f52297c99a8cbf9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Line::setPoint2</definition>
+        <argsstring>(QPoint p2)</argsstring>
+        <name>setPoint2</name>
+        <param>
+          <type>QPoint</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+<para>Sets the second point to the given point. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>QPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of the second point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="36" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classLine_1a2d9f0fdcc2da8a29ba39660579150863" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Line::getPenColor</definition>
+        <argsstring>()</argsstring>
+        <name>getPenColor</name>
+        <briefdescription>
+<para>Gets the pen color stored in this shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Color of the pen </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="41" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classLine_1a22f3c1710429e1dd2e883562feba090e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Line::setPenColor</definition>
+        <argsstring>(Qt::GlobalColor pc)</argsstring>
+        <name>setPenColor</name>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <declname>pc</declname>
+        </param>
+        <briefdescription>
+<para>Sets the color of the pen to the given color. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="47" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classLine_1ab461e7db1a107472e97af08183fccc19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Qt::PenStyle</type>
+        <definition>Qt::PenStyle Line::getPenStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getPenStyle</name>
+        <briefdescription>
+<para>Gets the style of the pen stored in the shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Style of the pen </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="54" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classLine_1ad0c29864440d59e221d4e4af1c3f2899" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Line::setPenStyle</definition>
+        <argsstring>(Qt::PenStyle ps)</argsstring>
+        <name>setPenStyle</name>
+        <param>
+          <type>Qt::PenStyle</type>
+          <declname>ps</declname>
+        </param>
+        <briefdescription>
+<para>Sets the style of the pen to the given style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="60" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classLine_1afee8c712228659e647752e7198d6891c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+        <definition>Qt::PenCapStyle Line::getPenCapStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getPenCapStyle</name>
+        <briefdescription>
+<para>Gets the pen cap style that is stored in this <ref refid="classShape" kindref="compound">Shape</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>PenCapStyle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="66" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classLine_1a2a3fa8792f5f8e582a6cb902514fcc9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Line::setPenCapStyle</definition>
+        <argsstring>(Qt::PenCapStyle pcs)</argsstring>
+        <name>setPenCapStyle</name>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+          <declname>pcs</declname>
+        </param>
+        <briefdescription>
+<para>Sets the Pen Cap Style to the given Pen Cap Style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penCapStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="72" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classLine_1a070564edc368231e089c8275ccc2e72d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+        <definition>Qt::PenJoinStyle Line::getPenJoinStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getPenJoinStyle</name>
+        <briefdescription>
+<para>Gets the Pen Join Style. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>PenJoinStyle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="78" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classLine_1ae996ba09d0e9c4d06360955486b00f84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Line::setPenJoinStyle</definition>
+        <argsstring>(Qt::PenJoinStyle pjs)</argsstring>
+        <name>setPenJoinStyle</name>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+          <declname>pjs</declname>
+        </param>
+        <briefdescription>
+<para>Sets the pen join style to the given style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penJoinStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="84" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classLine_1aedbb24685047a4f591fab1b8b7d39125" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Line::getPenWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getPenWidth</name>
+        <briefdescription>
+<para>Gets the width of the pen. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>penWidth </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="90" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classLine_1ade580b43a443e60b77bef50ae98493a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Line::setPenWidth</definition>
+        <argsstring>(int pw)</argsstring>
+        <name>setPenWidth</name>
+        <param>
+          <type>int</type>
+          <declname>pw</declname>
+        </param>
+        <briefdescription>
+<para>Sets the width of the pen to the given width. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="96" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classLine_1a3bcbb11a1d79a7f9a60cc1aac3ab1bb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Line::draw</definition>
+        <argsstring>(QPainter &amp;paint, bool)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classShape_1a47dae32819e64fb32f3357f31978293f">draw</reimplements>
+        <param>
+          <type>QPainter &amp;</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+<para>Virtual function to draw shapes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="97" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.cpp" bodystart="5" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classLine_1a249b46f2c7dab063ac4754dbae444468" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int Line::getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <reimplements refid="classShape_1a3d15adf2a1d746928f9be98105096eda">getType</reimplements>
+        <briefdescription>
+<para>Gets the type of the shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>type as an int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="98" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classLine_1ad63a55614d118000935e585f3551f630" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>virtual double Line::getPerimeter</definition>
+        <argsstring>()</argsstring>
+        <name>getPerimeter</name>
+        <reimplements refid="classShape_1a391744b6bce96df044139dcbd1ae0aa8">getPerimeter</reimplements>
+        <briefdescription>
+<para>Gets the perimeter of the given shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Perimeter as a double </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="104" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="104" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classLine_1aec5465504d5c944920fd96a7d81c8472" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Line::getStaticType</definition>
+        <argsstring>()</argsstring>
+        <name>getStaticType</name>
+        <briefdescription>
+<para>gets the Type of object </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Type as int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/line.h" line="103" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="103" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classLine" kindref="compound">Line</ref> class that QPainter can draw. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="107">
+        <label>Line</label>
+        <link refid="classLine"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="109">
+        <label>QObject</label>
+      </node>
+      <node id="108">
+        <label>Shape</label>
+        <link refid="classShape"/>
+        <childnode refid="109" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="110">
+        <label>Line</label>
+        <link refid="classLine"/>
+        <childnode refid="111" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="112">
+        <label>QObject</label>
+      </node>
+      <node id="111">
+        <label>Shape</label>
+        <link refid="classShape"/>
+        <childnode refid="112" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Group Project/ScrumOfTheEarth/line.h" line="10" column="1" bodyfile="Group Project/ScrumOfTheEarth/line.h" bodystart="9" bodyend="113"/>
+    <listofallmembers>
+      <member refid="classLine_1a3bcbb11a1d79a7f9a60cc1aac3ab1bb5" prot="public" virt="virtual"><scope>Line</scope><name>draw</name></member>
+      <member refid="classShape_1ac29f8bce0d038c84470028c6819a79ab" prot="public" virt="virtual"><scope>Line</scope><name>getArea</name></member>
+      <member refid="classLine_1afee8c712228659e647752e7198d6891c" prot="public" virt="non-virtual"><scope>Line</scope><name>getPenCapStyle</name></member>
+      <member refid="classLine_1a2d9f0fdcc2da8a29ba39660579150863" prot="public" virt="non-virtual"><scope>Line</scope><name>getPenColor</name></member>
+      <member refid="classLine_1a070564edc368231e089c8275ccc2e72d" prot="public" virt="non-virtual"><scope>Line</scope><name>getPenJoinStyle</name></member>
+      <member refid="classLine_1ab461e7db1a107472e97af08183fccc19" prot="public" virt="non-virtual"><scope>Line</scope><name>getPenStyle</name></member>
+      <member refid="classLine_1aedbb24685047a4f591fab1b8b7d39125" prot="public" virt="non-virtual"><scope>Line</scope><name>getPenWidth</name></member>
+      <member refid="classLine_1ad63a55614d118000935e585f3551f630" prot="public" virt="virtual"><scope>Line</scope><name>getPerimeter</name></member>
+      <member refid="classLine_1ad0f6a573ebd8220236e7de8202717f97" prot="public" virt="non-virtual"><scope>Line</scope><name>getPoint1</name></member>
+      <member refid="classLine_1aa64a85c213850620e2ca3df153fe7846" prot="public" virt="non-virtual"><scope>Line</scope><name>getPoint2</name></member>
+      <member refid="classShape_1a3ac221427e91b0acc53a2f3764a8f01b" prot="public" virt="non-virtual"><scope>Line</scope><name>getShapeId</name></member>
+      <member refid="classLine_1aec5465504d5c944920fd96a7d81c8472" prot="public" virt="non-virtual"><scope>Line</scope><name>getStaticType</name></member>
+      <member refid="classLine_1a249b46f2c7dab063ac4754dbae444468" prot="public" virt="virtual"><scope>Line</scope><name>getType</name></member>
+      <member refid="classLine_1abcc71f5940d76af54fb2a8406418dd44" prot="public" virt="non-virtual"><scope>Line</scope><name>Line</name></member>
+      <member refid="classShape_1a0d2732ef366fa236a534351f6a0d96e5" prot="public" virt="non-virtual"><scope>Line</scope><name>operator&lt;</name></member>
+      <member refid="classShape_1a9b9942917d6e6c359a8751156ed52423" prot="public" virt="non-virtual"><scope>Line</scope><name>operator=</name></member>
+      <member refid="classShape_1a1e81a927f61ea4d12daafc1d9295e00a" prot="public" virt="non-virtual"><scope>Line</scope><name>operator==</name></member>
+      <member refid="classLine_1a12908226636a8d32fc50460e2819b516" prot="private" virt="non-virtual"><scope>Line</scope><name>penCapStyle</name></member>
+      <member refid="classLine_1abd52ed401686c4ea82f3a3ea18d976d3" prot="private" virt="non-virtual"><scope>Line</scope><name>penColor</name></member>
+      <member refid="classLine_1a3bd68f881e6bcd8b04181d4682d66c15" prot="private" virt="non-virtual"><scope>Line</scope><name>penJoinStyle</name></member>
+      <member refid="classLine_1ad51d4bd431142153927bd0b23b8db59b" prot="private" virt="non-virtual"><scope>Line</scope><name>penStyle</name></member>
+      <member refid="classLine_1a4fc1d856f822dd0b88676e6c22a65f14" prot="private" virt="non-virtual"><scope>Line</scope><name>penWidth</name></member>
+      <member refid="classLine_1a286ad4f63ee23db76031f569c5b135ae" prot="private" virt="non-virtual"><scope>Line</scope><name>point1</name></member>
+      <member refid="classLine_1a7403c2cfa10367b73842734083a17548" prot="private" virt="non-virtual"><scope>Line</scope><name>point2</name></member>
+      <member refid="classLine_1a2a3fa8792f5f8e582a6cb902514fcc9c" prot="public" virt="non-virtual"><scope>Line</scope><name>setPenCapStyle</name></member>
+      <member refid="classLine_1a22f3c1710429e1dd2e883562feba090e" prot="public" virt="non-virtual"><scope>Line</scope><name>setPenColor</name></member>
+      <member refid="classLine_1ae996ba09d0e9c4d06360955486b00f84" prot="public" virt="non-virtual"><scope>Line</scope><name>setPenJoinStyle</name></member>
+      <member refid="classLine_1ad0c29864440d59e221d4e4af1c3f2899" prot="public" virt="non-virtual"><scope>Line</scope><name>setPenStyle</name></member>
+      <member refid="classLine_1ade580b43a443e60b77bef50ae98493a2" prot="public" virt="non-virtual"><scope>Line</scope><name>setPenWidth</name></member>
+      <member refid="classLine_1a671e977e9b5cb104016def1e9e99c5aa" prot="public" virt="non-virtual"><scope>Line</scope><name>setPoint1</name></member>
+      <member refid="classLine_1acd4ccc2b472817c45f52297c99a8cbf9" prot="public" virt="non-virtual"><scope>Line</scope><name>setPoint2</name></member>
+      <member refid="classShape_1a95f42a7833e43572d684455c2ee232ec" prot="public" virt="non-virtual"><scope>Line</scope><name>setShapeId</name></member>
+      <member refid="classShape_1a3bb93456832521010106172a095e22ca" prot="public" virt="non-virtual"><scope>Line</scope><name>Shape</name></member>
+      <member refid="classShape_1a44d91c7621d4d7af60fe3320a2e07279" prot="public" virt="non-virtual"><scope>Line</scope><name>Shape</name></member>
+      <member refid="classShape_1ac3b9fc48965274893f25b18aa14ba665" prot="public" virt="virtual"><scope>Line</scope><name>~Shape</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

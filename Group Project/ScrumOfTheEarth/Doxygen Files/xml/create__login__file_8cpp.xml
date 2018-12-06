@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="create__login__file_8cpp" kind="file" language="C++">
+    <compoundname>create_login_file.cpp</compoundname>
+    <includes refid="window_8h" local="yes">window.h</includes>
+    <includes local="no">fstream</includes>
+    <incdepgraph>
+      <node id="950">
+        <label>moveshape.h</label>
+        <link refid="moveshape_8h"/>
+        <childnode refid="945" relation="include">
+        </childnode>
+        <childnode refid="947" relation="include">
+        </childnode>
+        <childnode refid="951" relation="include">
+        </childnode>
+        <childnode refid="952" relation="include">
+        </childnode>
+        <childnode refid="953" relation="include">
+        </childnode>
+        <childnode refid="955" relation="include">
+        </childnode>
+        <childnode refid="956" relation="include">
+        </childnode>
+        <childnode refid="957" relation="include">
+        </childnode>
+        <childnode refid="958" relation="include">
+        </childnode>
+        <childnode refid="959" relation="include">
+        </childnode>
+        <childnode refid="960" relation="include">
+        </childnode>
+        <childnode refid="938" relation="include">
+        </childnode>
+      </node>
+      <node id="939">
+        <label>contactus.h</label>
+        <link refid="contactus_8h"/>
+        <childnode refid="940" relation="include">
+        </childnode>
+        <childnode refid="941" relation="include">
+        </childnode>
+        <childnode refid="942" relation="include">
+        </childnode>
+      </node>
+      <node id="949">
+        <label>QObject</label>
+      </node>
+      <node id="947">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="948" relation="include">
+        </childnode>
+        <childnode refid="949" relation="include">
+        </childnode>
+        <childnode refid="945" relation="include">
+        </childnode>
+      </node>
+      <node id="952">
+        <label>rectangle.h</label>
+        <link refid="rectangle_8h"/>
+        <childnode refid="947" relation="include">
+        </childnode>
+        <childnode refid="945" relation="include">
+        </childnode>
+      </node>
+      <node id="959">
+        <label>text.h</label>
+        <link refid="text_8h"/>
+        <childnode refid="947" relation="include">
+        </childnode>
+      </node>
+      <node id="954">
+        <label>cmath</label>
+      </node>
+      <node id="945">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="946" relation="include">
+        </childnode>
+      </node>
+      <node id="960">
+        <label>string</label>
+      </node>
+      <node id="938">
+        <label>QMainWindow</label>
+      </node>
+      <node id="955">
+        <label>circle.h</label>
+        <link refid="circle_8h"/>
+        <childnode refid="947" relation="include">
+        </childnode>
+      </node>
+      <node id="961">
+        <label>fstream</label>
+      </node>
+      <node id="948">
+        <label>QPainter</label>
+      </node>
+      <node id="958">
+        <label>polyline.h</label>
+        <link refid="polyline_8h"/>
+        <childnode refid="945" relation="include">
+        </childnode>
+        <childnode refid="947" relation="include">
+        </childnode>
+        <childnode refid="954" relation="include">
+        </childnode>
+      </node>
+      <node id="942">
+        <label>QDialog</label>
+      </node>
+      <node id="941">
+        <label>unistd.h</label>
+      </node>
+      <node id="953">
+        <label>line.h</label>
+        <link refid="line_8h"/>
+        <childnode refid="947" relation="include">
+        </childnode>
+        <childnode refid="954" relation="include">
+        </childnode>
+      </node>
+      <node id="956">
+        <label>ellipse.h</label>
+        <link refid="ellipse_8h"/>
+        <childnode refid="947" relation="include">
+        </childnode>
+        <childnode refid="954" relation="include">
+        </childnode>
+      </node>
+      <node id="951">
+        <label>square.h</label>
+        <link refid="square_8h"/>
+        <childnode refid="947" relation="include">
+        </childnode>
+        <childnode refid="945" relation="include">
+        </childnode>
+      </node>
+      <node id="936">
+        <label>Group Project/ScrumOfTheEarth/create_login_file.cpp</label>
+        <link refid="create_login_file.cpp"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="961" relation="include">
+        </childnode>
+      </node>
+      <node id="943">
+        <label>mainwindow.h</label>
+        <link refid="mainwindow_8h"/>
+        <childnode refid="944" relation="include">
+        </childnode>
+        <childnode refid="950" relation="include">
+        </childnode>
+        <childnode refid="938" relation="include">
+        </childnode>
+      </node>
+      <node id="944">
+        <label>addshape.h</label>
+        <link refid="addshape_8h"/>
+        <childnode refid="945" relation="include">
+        </childnode>
+        <childnode refid="947" relation="include">
+        </childnode>
+        <childnode refid="938" relation="include">
+        </childnode>
+      </node>
+      <node id="940">
+        <label>QPixmap</label>
+      </node>
+      <node id="946">
+        <label>algorithm</label>
+      </node>
+      <node id="957">
+        <label>polygon.h</label>
+        <link refid="polygon_8h"/>
+        <childnode refid="947" relation="include">
+        </childnode>
+        <childnode refid="945" relation="include">
+        </childnode>
+        <childnode refid="954" relation="include">
+        </childnode>
+      </node>
+      <node id="937">
+        <label>window.h</label>
+        <link refid="window_8h"/>
+        <childnode refid="938" relation="include">
+        </childnode>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="943" relation="include">
+        </childnode>
+        <childnode refid="960" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="window_8h" kindref="compound">window.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Window::create_login_file()</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//just<sp/>creates<sp/>a<sp/>login<sp/>file<sp/>for<sp/>us,<sp/>replaces<sp/>an<sp/>actual<sp/>data<sp/>base</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>std::ofstream<sp/>fout;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>fout.open(</highlight><highlight class="stringliteral">&quot;admin_list.txt&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>fout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;admin\nadmin\n\nchris\npersyvall\n\nanthony\ncsmaster\n\nchris\ncsmaster\n\njustice\nscrum\n\nbrendan\nscrum2\n\njosh\nscrum3&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>fout.close();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/create_login_file.cpp"/>
+  </compounddef>
+</doxygen>
