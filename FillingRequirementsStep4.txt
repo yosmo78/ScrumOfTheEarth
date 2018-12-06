@@ -35,4 +35,10 @@ Individual project requirements
 
 10. shape_saver.cpp line 18, mainwindow.cpp line 108
 
+Extra Credit
+
+1. searchandcompare.h line 66
+
+2. waffle.io(EC).png
+
 

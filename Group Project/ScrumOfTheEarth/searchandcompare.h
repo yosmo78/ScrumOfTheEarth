@@ -63,14 +63,14 @@ template <typename T> void selection_sort(myStd::vector<T> &vec, bool(*cmp)(T, T
 
 };
 
-template <typename BidirectionalIterator, typename StrictWeakOrdering> void selection_sort(BidirectionalIterator begin, BidirectionalIterator end, StrictWeakOrdering cmp)
+template <typename ForwardIterator, typename StrictWeakOrdering> void selection_sort(ForwardIterator begin, ForwardIterator end, StrictWeakOrdering cmp)
 {
-    BidirectionalIterator swap;
-    BidirectionalIterator small;
-    for(BidirectionalIterator i = begin; i != end; ++i)
+    ForwardIterator swap;
+    ForwardIterator small;
+    for(ForwardIterator i = begin; i != end; ++i)
     {
         small = i;
-        for(BidirectionalIterator j = ++i; j != end; ++j)
+        for(ForwardIterator j = ++i; j != end; ++j)
         {
             if(cmp(*small, *j))
             {
