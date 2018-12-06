@@ -13,6 +13,7 @@ ContactUs::ContactUs(QWidget *parent) :
 //    QPixmap pic(buf);
     ui->setupUi(this);
 //    ui->label->setPixmap(pic);
+    setAttribute(Qt::WA_DeleteOnClose, true);
 
 }
 

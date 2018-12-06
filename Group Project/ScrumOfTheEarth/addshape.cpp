@@ -13,6 +13,8 @@ AddShape::AddShape(QWidget *parent,myStd::vector<Shape *> & shapes, bool & ok) :
     ui->setupUi(this);
     vecPointer = &shapes;
     var = &ok;
+    setAttribute(Qt::WA_DeleteOnClose, true);
+    ui->tabWidget->setAttribute(Qt::WA_DeleteOnClose);
 }
 
 AddShape::~AddShape()

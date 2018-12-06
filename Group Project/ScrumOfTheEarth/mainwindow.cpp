@@ -30,6 +30,20 @@ MainWindow::MainWindow(QWidget *parent, bool admin) :
     ui->Tables->setStyleSheet("QTabBar::tab {width: 263px;}");
     addshape = NULL;
     ui->widget->setShowId(true);
+    setAttribute(Qt::WA_DeleteOnClose);
+    ui->widget->setAttribute(Qt::WA_DeleteOnClose);
+    ui->Tables->setAttribute(Qt::WA_DeleteOnClose);
+    ui->IDtable->setAttribute(Qt::WA_DeleteOnClose);
+    ui->Areatable->setAttribute(Qt::WA_DeleteOnClose);
+    ui->PerimeterTable->setAttribute(Qt::WA_DeleteOnClose);
+    ui->DeleteShape->setAttribute(Qt::WA_DeleteOnClose);
+    ui->AddShape->setAttribute(Qt::WA_DeleteOnClose);
+    ui->pushButton->setAttribute(Qt::WA_DeleteOnClose);
+    ui->Save->setAttribute(Qt::WA_DeleteOnClose);
+    ui->statusbar->setAttribute(Qt::WA_DeleteOnClose);
+    ui->centralwidget->setAttribute(Qt::WA_DeleteOnClose);
+    ui->FileButton->setAttribute(Qt::WA_DeleteOnClose);
+    ui->checkBox->setAttribute(Qt::WA_DeleteOnClose);
 }
 
 MainWindow::~MainWindow()
@@ -42,7 +56,9 @@ void MainWindow::on_FileButton_clicked()
     //ask for file. If exists, clear vector and render are, call shape parser, and call paint event
     //bool ok;
     //file = QInputDialog::getText(this, tr("Open File"), tr("File Name with extension:"), QLineEdit::Normal, QString(), &ok);
-    file = QFileDialog::getOpenFileName(this,tr("Open File"),"/","Text file (*.txt)");
+    QFileDialog f;
+    f.setAttribute(Qt::WA_DeleteOnClose);
+    file = f.getOpenFileName(this,tr("Open File"),"/","Text file (*.txt)");
     if(!file.isEmpty() && !file.isNull())
     {
       bool fileok = true;
@@ -115,7 +131,7 @@ void MainWindow::update_window()
     cpy = ui->widget->shapesList;//copy shape list
     selection_sort(cpy, cmpPeri);//sort it by perimeter
     delete_Pzeros(cpy);//take shapes out with zero perimeter
-    pop_Ptable(ui->PerimeterTable, cpy);//fill table with the copy
+    pop_Ptable(ui->PerimeterTable, cpy);//fill table with the copy;
 }
 
 void MainWindow::on_AddShape_clicked()
@@ -158,7 +174,7 @@ void MainWindow::on_DeleteShape_clicked()
              cpy = ui->widget->shapesList;//copy shape list
              selection_sort(cpy, cmpPeri);//sort it by perimeter
              delete_Pzeros(cpy);//take shapes out with zero perimeter
-             pop_Ptable(ui->PerimeterTable, cpy);//fill table with the copy
+             pop_Ptable(ui->PerimeterTable, cpy);//fill table with the copy;
 
          }
 
