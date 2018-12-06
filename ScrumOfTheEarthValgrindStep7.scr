@@ -1,0 +1,130 @@
+Script started on Thu 06 Dec 2018 01:12:35 AM PST
+]0;cs1c@cs1c-VirtualBox ~/Desktop/ScrumOfTheEarth/Group Project/build-ScrumOfTheEarth-Desktop_Qt_5_9_1_GCC_64bit-Debug[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Desktop/ScrumOfTheEarth/Group Project/build-ScrumOfTheEarth-Desktop_Qt_5_9_11_GCC_64bit-Debug $[00m valgrri[K[Kind ./ScrumOfTheEarth 
+==6193== Memcheck, a memory error detector
+==6193== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==6193== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==6193== Command: ./ScrumOfTheEarth
+==6193== 
+QApplication: invalid style override passed, ignoring it.
+==6193== Syscall param ioctl(generic) points to uninitialised byte(s)
+==6193==    at 0x710DF07: ioctl (syscall-template.S:84)
+==6193==    by 0xA1C9BA0: ??? (in /opt/VBoxGuestAdditions-5.1.26/lib/VBoxOGLcrutil.so)
+==6193==    by 0xA1CAA71: ??? (in /opt/VBoxGuestAdditions-5.1.26/lib/VBoxOGLcrutil.so)
+==6193==    by 0xA1BA215: crNetConnectToServer (in /opt/VBoxGuestAdditions-5.1.26/lib/VBoxOGLcrutil.so)
+==6193==    by 0xA1BA38D: crNetServerConnect (in /opt/VBoxGuestAdditions-5.1.26/lib/VBoxOGLcrutil.so)
+==6193==    by 0x74334CE: ??? (in /opt/VBoxGuestAdditions-5.1.26/lib/VBoxOGL.so)
+==6193==    by 0x744C211: glXChooseFBConfig (in /opt/VBoxGuestAdditions-5.1.26/lib/VBoxOGL.so)
+==6193==    by 0xF2FAD06: ??? (in /home/cs1c/Qt/5.9.1/gcc_64/plugins/xcbglintegrations/libqxcb-glx-integration.so)
+==6193==    by 0xF2FB02C: ??? (in /home/cs1c/Qt/5.9.1/gcc_64/plugins/xcbglintegrations/libqxcb-glx-integration.so)
+==6193==    by 0xF2F734F: ??? (in /home/cs1c/Qt/5.9.1/gcc_64/plugins/xcbglintegrations/libqxcb-glx-integration.so)
+==6193==    by 0xC286C58: QXcbWindow::create() (in /home/cs1c/Qt/5.9.1/gcc_64/lib/libQt5XcbQpa.so.5.9.1)
+==6193==    by 0xC273EBF: QXcbIntegration::createPlatformWindow(QWindow*) const (in /home/cs1c/Qt/5.9.1/gcc_64/lib/libQt5XcbQpa.so.5.9.1)
+==6193==  Address 0xffeffd3c8 is on thread 1's stack
+==6193== 
+==6193== Syscall param ioctl(generic) points to uninitialised byte(s)
+==6193==    at 0x710DF07: ioctl (syscall-template.S:84)
+==6193==    by 0xA1C9BA0: ??? (in /opt/VBoxGuestAdditions-5.1.26/lib/VBoxOGLcrutil.so)
+==6193==    by 0xA1CAADF: ??? (in /opt/VBoxGuestAdditions-5.1.26/lib/VBoxOGLcrutil.so)
+==6193==    by 0xA1BA215: crNetConnectToServer (in /opt/VBoxGuestAdditions-5.1.26/lib/VBoxOGLcrutil.so)
+==6193==    by 0xA1BA38D: crNetServerConnect (in /opt/VBoxGuestAdditions-5.1.26/lib/VBoxOGLcrutil.so)
+==6193==    by 0x74334CE: ??? (in /opt/VBoxGuestAdditions-5.1.26/lib/VBoxOGL.so)
+==6193==    by 0x744C211: glXChooseFBConfig (in /opt/VBoxGuestAdditions-5.1.26/lib/VBoxOGL.so)
+==6193==    by 0xF2FAD06: ??? (in /home/cs1c/Qt/5.9.1/gcc_64/plugins/xcbglintegrations/libqxcb-glx-integration.so)
+==6193==    by 0xF2FB02C: ??? (in /home/cs1c/Qt/5.9.1/gcc_64/plugins/xcbglintegrations/libqxcb-glx-integration.so)
+==6193==    by 0xF2F734F: ??? (in /home/cs1c/Qt/5.9.1/gcc_64/plugins/xcbglintegrations/libqxcb-glx-integration.so)
+==6193==    by 0xC286C58: QXcbWindow::create() (in /home/cs1c/Qt/5.9.1/gcc_64/lib/libQt5XcbQpa.so.5.9.1)
+==6193==    by 0xC273EBF: QXcbIntegration::createPlatformWindow(QWindow*) const (in /home/cs1c/Qt/5.9.1/gcc_64/lib/libQt5XcbQpa.so.5.9.1)
+==6193==  Address 0xffeffd41c is on thread 1's stack
+==6193== 
+==6193== Conditional jump or move depends on uninitialised value(s)
+==6193==    at 0x135E7D86: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==6193==    by 0x135CAE82: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==6193==    by 0x13586F80: pixman_image_composite32 (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==6193==    by 0x113D8504: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6)
+==6193==    by 0x1141D920: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6)
+==6193==    by 0x1140FC32: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6)
+==6193==    by 0x114106A4: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6)
+==6193==    by 0x114115D2: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6)
+==6193==    by 0x113CBA8F: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6)
+==6193==    by 0x113DD126: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6)
+==6193==    by 0x114147D6: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6)
+==6193==    by 0x113D414B: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6)
+==6193== 
+==6193== Conditional jump or move depends on uninitialised value(s)
+==6193==    at 0x135E7FDD: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==6193==    by 0x135CAE82: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==6193==    by 0x13586F80: pixman_image_composite32 (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6)
+==6193==    by 0x113D8504: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6)
+==6193==    by 0x1141D920: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6)
+==6193==    by 0x1140FC32: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6)
+==6193==    by 0x114106A4: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6)
+==6193==    by 0x114115D2: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6)
+==6193==    by 0x113CBA8F: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6)
+==6193==    by 0x113DD126: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6)
+==6193==    by 0x114147D6: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6)
+==6193==    by 0x113D414B: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6)
+==6193== 
+==6193== Conditional jump or move depends on uninitialised value(s)
+==6193==    at 0x1E3372F8: ??? (in /usr/lib/x86_64-linux-gnu/librsvg-2.so.2.40.13)
+==6193==    by 0x1E337EEB: rsvg_handle_get_pixbuf_sub (in /usr/lib/x86_64-linux-gnu/librsvg-2.so.2.40.13)
+==6193==    by 0x1E0EEE35: ??? (in /usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so)
+==6193==    by 0x10D3CF9A: gdk_pixbuf_loader_close (in /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.3200.2)
+==6193==    by 0x10D38C7A: ??? (in /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.3200.2)
+==6193==    by 0x10D3ABAC: gdk_pixbuf_new_from_stream_at_scale (in /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.3200.2)
+==6193==    by 0xFB4890E: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1800.9)
+==6193==    by 0xFB4C197: gtk_icon_info_load_icon (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1800.9)
+==6193==    by 0xFB4CE82: gtk_icon_info_load_symbolic_for_context (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1800.9)
+==6193==    by 0xFB45882: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1800.9)
+==6193==    by 0xFB45BBA: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1800.9)
+==6193==    by 0xFB58CF1: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1800.9)
+==6193== 
+==6193== Invalid read of size 8
+==6193==    at 0x4C326D6: memcpy@@GLIBC_2.14 (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==6193==    by 0x9ED0535: g_memdup (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2)
+==6193==    by 0x102CAB97: gdk_event_copy (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.1800.9)
+==6193==    by 0xFB35AA6: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1800.9)
+==6193==    by 0xFB36154: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1800.9)
+==6193==    by 0xFB38DE4: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1800.9)
+==6193==    by 0xFB08BEA: gtk_event_controller_handle_event (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1800.9)
+==6193==    by 0xFCB9BFA: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1800.9)
+==6193==    by 0xFCBDD18: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1800.9)
+==6193==    by 0xFB7B3EA: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1800.9)
+==6193==    by 0xFB7D002: gtk_main_do_event (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1800.9)
+==6193==    by 0x102F4D91: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.1800.9)
+==6193==  Address 0x1d90f040 is 0 bytes after a block of size 16 alloc'd
+==6193==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==6193==    by 0x9EB7718: g_malloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2)
+==6193==    by 0x9ED0527: g_memdup (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2)
+==6193==    by 0x102DE644: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.1800.9)
+==6193==    by 0x102F501F: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.1800.9)
+==6193==    by 0x102C70E8: gdk_display_get_event (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.1800.9)
+==6193==    by 0x102F4D81: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.1800.9)
+==6193==    by 0x9EB2196: g_main_context_dispatch (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2)
+==6193==    by 0x9EB23EF: ??? (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2)
+==6193==    by 0x9EB2711: g_main_loop_run (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2)
+==6193==    by 0xFAF241F: gtk_dialog_run (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1800.9)
+==6193==    by 0xF72E089: ??? (in /home/cs1c/Qt/5.9.1/gcc_64/plugins/platformthemes/libqgtk3.so)
+==6193== 
+==6193== 
+==6193== HEAP SUMMARY:
+==6193==     in use at exit: 12,015,003 bytes in 41,336 blocks
+==6193==   total heap usage: 993,874 allocs, 952,538 frees, 100,118,291 bytes allocated
+==6193== 
+==6193== LEAK SUMMARY:
+==6193==    definitely lost: 47,728 bytes in 40 blocks
+==6193==    indirectly lost: 40,483 bytes in 1,190 blocks
+==6193==      possibly lost: 5,345,839 bytes in 118 blocks
+==6193==    still reachable: 6,357,513 bytes in 38,172 blocks
+==6193==                       of which reachable via heuristic:
+==6193==                         length64           : 20,288 bytes in 281 blocks
+==6193==                         newarray           : 2,432 bytes in 72 blocks
+==6193==         suppressed: 0 bytes in 0 blocks
+==6193== Rerun with --leak-check=full to see details of leaked memory
+==6193== 
+==6193== For counts of detected and suppressed errors, rerun with: -v
+==6193== Use --track-origins=yes to see where uninitialised values come from
+==6193== ERROR SUMMARY: 74 errors from 6 contexts (suppressed: 0 from 0)
+]0;cs1c@cs1c-VirtualBox ~/Desktop/ScrumOfTheEarth/Group Project/build-ScrumOfTheEarth-Desktop_Qt_5_9_1_GCC_64bit-Debug[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Desktop/ScrumOfTheEarth/Group Project/build-ScrumOfTheEarth-Desktop_Qt_5_9_11_GCC_64bit-Debug $[00m exit
+exit
+
+Script done on Thu 06 Dec 2018 01:15:13 AM PST
