@@ -1,3 +1,4 @@
+/*! \file */
 #ifndef RENDERAREA_H
 #define RENDERAREA_H
 #include <QWidget>

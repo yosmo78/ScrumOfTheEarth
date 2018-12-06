@@ -1,3 +1,4 @@
+/*! \file */
 #ifndef POP_TABLE_H
 #define POP_TABLE_H
 #include "vector.h"

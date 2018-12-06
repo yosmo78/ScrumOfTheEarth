@@ -1,3 +1,4 @@
+/*! \file */
 #ifndef VECTOR_H
 #define VECTOR_H
 #include <algorithm> // std::copy

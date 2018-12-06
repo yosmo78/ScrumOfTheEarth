@@ -1,3 +1,4 @@
+/*! \file */
 #ifndef CIRCLE_H
 #define CIRCLE_H
 #include "shape.h"

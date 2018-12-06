@@ -1,3 +1,4 @@
+/*! \file */
 #ifndef MOVESHAPE_H
 #define MOVESHAPE_H
 #include "vector.h"

@@ -1,3 +1,4 @@
+/*! \file */
 #ifndef SHAPE_H
 #define SHAPE_H
 #include <QPainter>
@@ -7,10 +8,9 @@
 //virtual function is in here, two overloaded operators are here
 //all other shapes inherit from here, so inheritance, and most other shapes compose QStrings
 
-//! \class Shape
 /*!
-    Base Class Shape outlines the structure of shapes that can be drawn on a QPaintDevice
-*/
+ * \brief Abstract Base Class for shapes that get rendered by the QPainter
+ */
 class Shape: public QObject
 {
     Q_OBJECT

@@ -10,48 +10,63 @@ class MainWindow;
 namespace Ui {
 class AddShape;
 }
-//! \class AddShape
 /*!
- * AddShape window class
-*/
+ * \brief AddShape class that provides functionality for the add shape button
+ */
 class AddShape : public QMainWindow
 {
     Q_OBJECT
 
 public:
     /*!
-     *
-     * This function will instantiate an AddWindow for adding a
-     * new shape to the shape vector
-    */
+     * \brief Constructor for creating the pop-up for the AddShape button
+     * \param parent of the addshape window
+     */
     explicit AddShape(QWidget *parent,myStd::vector<Shape *> &, bool &);
-     /*!
-     * This function will destroy AddWindow
-    */
+
+    /*!
+     * \brief Destructor of AddShape
+     *
+     */
     ~AddShape();
 
 private slots:
     /*!
-     * Will add a square to our shape list
+     * \brief Adds a square to the list
      */
     void on_AddSquare_clicked();
+    /*!
+     * \brief Adds a rectangle to the list
+     */
     void on_RAddRectangle_clicked();
-
+    /*!
+     * \brief Adds a circle to the list
+     */
     void on_CAddCircle_clicked();
-
+    /*!
+     * \brief Adds an ellipse to the list
+     */
     void on_EAddEllipse_clicked();
-
+    /*!
+     * \brief Adds a polygon to the list
+     */
     void on_GAddPolygon_clicked();
-
+    /*!
+     * \brief Adds a polyline to the list
+     */
     void on_PAddPolyline_clicked();
-
+    /*!
+     * \brief Adds a line to the list
+     */
     void on_LAddLine_clicked();
-
+    /*!
+     * \brief Adds text to the list
+     */
     void on_TAddText_clicked();
 
 signals:
     /*!
-     * This will call an update in the window when emitted
+     * \brief This calls an update in the window
      */
     void update_Window();
 

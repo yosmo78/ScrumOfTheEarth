@@ -1,3 +1,4 @@
+/*! \file */
 #ifndef SEARCHANDCOMPARE_H
 #define SEARCHANDCOMPARE_H
 

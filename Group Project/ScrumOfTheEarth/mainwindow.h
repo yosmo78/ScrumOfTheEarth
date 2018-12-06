@@ -1,3 +1,4 @@
+/*! \file */
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 #include "addshape.h"
