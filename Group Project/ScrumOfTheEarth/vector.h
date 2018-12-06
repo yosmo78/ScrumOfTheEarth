@@ -48,7 +48,7 @@ namespace myStd
        * \brief vector copy constructor
        * \param src vector to copy
        */
-      vector(const vector &src) : size_v{src.size_v}, elem{new T[src.size_v]}, space{src.space} // copy constructor
+      vector(const vector<T> & src) : size_v{src.size_v}, elem{new T[src.size_v]}, space{src.space} // copy constructor
       {
           copy(src.elem, src.elem + size_v, elem); // copy elements - std::copy() algorithm
       }
@@ -56,7 +56,7 @@ namespace myStd
        * \brief vector move constructor
        * \param src vector to steal contents of
        */
-      vector( vector &&src) : size_v{src.size_v}, elem{src.elem}, space{src.space} // move constructor
+      vector( vector<T> && src) : size_v{src.size_v}, elem{src.elem}, space{src.space} // move constructor
       {
           src.elem = nullptr;  //make sure src does not delete elem when destructor is called
           src.size_v = 0;
