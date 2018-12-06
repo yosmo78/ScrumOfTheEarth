@@ -63,4 +63,24 @@ template <typename T> void selection_sort(myStd::vector<T> &vec, bool(*cmp)(T, T
 
 };
 
+template <typename BidirectionalIterator, typename StrictWeakOrdering> void selection_sort(BidirectionalIterator begin, BidirectionalIterator end, StrictWeakOrdering cmp)
+{
+    BidirectionalIterator swap;
+    BidirectionalIterator small;
+    for(BidirectionalIterator i = begin; i != end; ++i)
+    {
+        small = i;
+        for(BidirectionalIterator j = ++i; j != end; ++j)
+        {
+            if(cmp(*small, *j))
+            {
+                small = j;
+            }
+        }
+        *swap = *i;
+        *i = *small;
+        *small = *swap;
+    }
+};
+
 #endif // SEARCHANDCOMPARE_H
