@@ -1,0 +1,38 @@
+General requirement
+Inheritance ex Square.h line 9
+Compostion renderarea.h line 28
+Exception addshape.cpp line 218,227, getstrings.cpp line 152,134
+Virtual functions shape.h line 35,71
+Overloaded operators shape.h line 58 shape.h line 65 vector.h line 85
+Templated class vector.h line 20
+Pointer example addshape.h line 75, 76
+
+
+Individual project requirements
+2. contactus.cpp line 14
+3. 
+    a. renderarea.h line 44
+
+    b. (area of renderarea defined in ui of mainwindow.ui line 22, 23)
+4. 
+    a. shape_parser.cpp line 5, mainwindow.cpp line 54 (shape parsing)
+    
+       (shape properties and id and corresponding method signatures)
+    b. circle.h line 10, ellipse.h line 10, line.h line 9, polygon.h line 10, polyline.h line 10, rectangle.h line 9
+       shape.h line 14, square.h line 9, text.h line 8
+5. moveshape.cpp line 9, mainwindow.cpp line 197
+
+6.  (add shapes)
+    a. addshape.cpp line 13, mainwindow.cpp line 137
+    (delete shapes)
+    b. mainwindow.cpp line 153
+
+7. mainwindow.cpp line 85-87, line 124-126, line 167-169 
+
+8. mainwindow.cpp line 88-91, line 127-130, line 170-173
+
+9. mainwindow.cpp line 92-95, line 131-134, line 174-177
+
+10. shape_saver.cpp line 18, mainwindow.cpp line 108
+
+
