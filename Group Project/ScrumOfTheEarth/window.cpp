@@ -8,6 +8,9 @@ Window::Window(QWidget *parent) :
     ui(new Ui::Window)
 {
     ui->setupUi(this);
+    setAttribute(Qt::WA_DeleteOnClose);
+    ui->GuestLogin->setAttribute(Qt::WA_DeleteOnClose);
+    ui->label->setAttribute(Qt::WA_DeleteOnClose);
 }
 
 Window::~Window()
