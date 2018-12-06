@@ -1,0 +1,3 @@
+link to repo: https://github.com/yosmo78/ScrumOfTheEarth
+
+clone repo link: https://github.com/yosmo78/ScrumOfTheEarth.git
