@@ -3,114 +3,143 @@
 #include "shape.h"
 
 
-//! \class Circle
 /*!
-    Derived Class Circle holds all properties for a QPainter to draw it
-*/
+ * \brief Circle class that QPainter can draw
+ */
 class Circle : public Shape
 {
     Q_OBJECT
    public:
     /*!
-        All properties Constructor
-    */
+     * \brief All properties contructor
+     * \param id
+     * \param x coordinate
+     * \param y coordinate
+     * \param radius
+     * \param penColor
+     * \param brushColor
+     * \param penStyle
+     * \param penCapStyle
+     * \param penJoinStyle
+     * \param brushStyle
+     * \param penWidth
+     */
     Circle(unsigned int i, int x, int y, int r, Qt::GlobalColor pc, Qt::GlobalColor bc, Qt::PenStyle ps, Qt::PenCapStyle pcs, Qt::PenJoinStyle pjs, Qt::BrushStyle bs, int pw);//line specific
 
     /*!
-        Returns the center of the circle
-    */
+     * \brief Gets the center of the circle as a point
+     * \return Center of circle as QPoint
+     */
     QPoint getPoint1(){return point;} //circle specific
 
     /*!
-        Returns the radius of the circle
-    */
+     * \brief Gets the radius of the circle
+     * \return radius
+     */
     int getRadius(){return radius;}//circle specific
 
     /*!
-        Sets the center of the circle to the given point
-    */
+     * \brief Sets the center of the circle to the given point
+     * \param Center Point
+     */
     void setPoint1(QPoint p1){point = p1;} //circle specific
 
     /*!
-        Sets the radius to the given value
-    */
+     * \brief Sets the radius
+     * \param radius
+     */
     void setPoint2(int r){radius = r;} //circle specific
 
     /*!
-        Returns the color of the pen
-    */
+     * \brief Gets the pen color stored in this shape
+     * \return Color of the pen
+     */
     Qt::GlobalColor getPenColor() {return penColor;}
 
     /*!
-        Returns the color of the brush
-    */
+     * \brief Gets the Brush color stored in the Shape
+     * \return Color of the Brush
+     */
     Qt::GlobalColor getBrushColor(){return brushColor;}
 
     /*!
-        Sets the pen color to the given color
-    */
+     * \brief Sets the color of the pen to the given color
+     * \param penColor
+     */
     void setPenColor(Qt::GlobalColor pc){penColor = pc;}
 
     /*!
-        Sets the color of the brush to the given brush
-    */
+     * \brief Sets the color of the Brush to the given color
+     * \param brushColor
+     */
     void setBrushColor(Qt::GlobalColor bc){brushColor = bc;}
 
     /*!
-        Returns the style of the pen
-    */
+     * \brief Gets the style of the pen stored in the shape
+     * \return Style of the pen
+     */
     Qt::PenStyle getPenStyle(){return penStyle;}
 
     /*!
-        Sets the pen style to the given style
-    */
+     * \brief Sets the style of the pen to the given style
+     * \param penStyle
+     */
     void setPenStyle(Qt::PenStyle ps){penStyle = ps;}
 
     /*!
-         Returns the cap style of the pen
-    */
+     * \brief Gets the pen cap style that is stored in this Shape
+     * \return PenCapStyle
+     */
     Qt::PenCapStyle getPenCapStyle() {return penCapStyle;}
 
     /*!
-        Sets the pen cap style to the given pen cap style
-    */
+     * \brief Sets the Pen Cap Style to the given Pen Cap Style
+     * \param penCapStyle
+     */
     void setPenCapStyle(Qt::PenCapStyle pcs){ penCapStyle = pcs;}
 
     /*!
-        Returns the join style of the pen
-    */
+     * \brief Gets the Pen Join Style
+     * \return PenJoinStyle
+     */
     Qt::PenJoinStyle getPenJoinStyle(){return penJoinStyle;}
 
     /*!
-        Sets the pen join style to the given pen join style
-    */
+     * \brief Sets the pen join style to the given style
+     * \param penJoinStyle
+     */
     void setPenJoinStyle(Qt::PenJoinStyle pjs){penJoinStyle = pjs;}
 
     /*!
-        Returns the brush style
-    */
+     * \brief Gets the Brush Style
+     * \return BrushStyle
+     */
     Qt::BrushStyle getBrushStyle(){return brushStyle;}
 
     /*!
-        Sets the brush style to the given style
-    */
+     * \brief Sets the Brush Style to the given Brush Style
+     * \param brushStyle
+     */
     void setBrushStyle(Qt::BrushStyle bs){brushStyle = bs;}
 
     /*!
-        Returns the width of the pen
-    */
+     * \brief Gets the width of the pen
+     * \return penWidth
+     */
     int getPenWidth(){return penWidth;}
 
     /*!
-        Sets the pen width to the given width
-    */
+     * \brief Sets the width of the pen to the given width
+     * \param penWidth
+     */
     void setPenWidth(int pw){penWidth = pw;}
     virtual void draw(QPainter & paint, bool);
     virtual int getType(){return 4;}
 
     /*!
-        Returns the type as an int
-    */
+     * \brief Gets the type of object
+     * \return Type as int
+     */
     static int getStaticType(){return 4;}
     virtual double getArea(){return 3.14159265359*radius*radius;}
     virtual double getPerimeter(){return 3.14159265359*2*radius;}
