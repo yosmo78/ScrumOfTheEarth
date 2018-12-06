@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="getstrings_8h" kind="file" language="C++">
+    <compoundname>getstrings.h</compoundname>
+    <includes local="no">string</includes>
+    <includedby refid="addshape_8cpp" local="yes">Group Project/ScrumOfTheEarth/addshape.cpp</includedby>
+    <includedby refid="getstrings_8cpp" local="yes">Group Project/ScrumOfTheEarth/getstrings.cpp</includedby>
+    <incdepgraph>
+      <node id="1019">
+        <label>string</label>
+      </node>
+      <node id="1018">
+        <label>Group Project/ScrumOfTheEarth/getstrings.h</label>
+        <link refid="getstrings.h"/>
+        <childnode refid="1019" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1022">
+        <label>Group Project/ScrumOfTheEarth/getstrings.cpp</label>
+        <link refid="getstrings_8cpp"/>
+      </node>
+      <node id="1021">
+        <label>Group Project/ScrumOfTheEarth/addshape.cpp</label>
+        <link refid="addshape_8cpp"/>
+      </node>
+      <node id="1020">
+        <label>Group Project/ScrumOfTheEarth/getstrings.h</label>
+        <link refid="getstrings.h"/>
+        <childnode refid="1021" relation="include">
+        </childnode>
+        <childnode refid="1022" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="getstrings_8h_1ae2e8c725725c53aced4754efb1ba3297" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string getPenStyle</definition>
+        <argsstring>(int ps)</argsstring>
+        <name>getPenStyle</name>
+        <param>
+          <type>int</type>
+          <declname>ps</declname>
+        </param>
+        <briefdescription>
+<para>Converts an index to a string for a penstyle. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for penstyle </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string of penstyle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/getstrings.h" line="10" column="1" bodyfile="Group Project/ScrumOfTheEarth/getstrings.cpp" bodystart="5" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="getstrings_8h_1a36f20d2b33b32e3051b9439984fa3dc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string getColor</definition>
+        <argsstring>(int color)</argsstring>
+        <name>getColor</name>
+        <param>
+          <type>int</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Converts an index to a string for a color. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for color </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string for color </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/getstrings.h" line="16" column="1" bodyfile="Group Project/ScrumOfTheEarth/getstrings.cpp" bodystart="26" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="getstrings_8h_1ab55986fc16e82140cc960949e8d98fc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string getPenCapStyle</definition>
+        <argsstring>(int pcs)</argsstring>
+        <name>getPenCapStyle</name>
+        <param>
+          <type>int</type>
+          <declname>pcs</declname>
+        </param>
+        <briefdescription>
+<para>Converts an index to a string for a pen cap style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for pen cap style </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string for pen cap style </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/getstrings.h" line="22" column="1" bodyfile="Group Project/ScrumOfTheEarth/getstrings.cpp" bodystart="53" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="getstrings_8h_1a59c542c498dce52daab6c95e393084f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string getPenJoinStyle</definition>
+        <argsstring>(int pjs)</argsstring>
+        <name>getPenJoinStyle</name>
+        <param>
+          <type>int</type>
+          <declname>pjs</declname>
+        </param>
+        <briefdescription>
+<para>Converts an index to a string for a pen join style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for pen join style </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string for pen join style </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/getstrings.h" line="28" column="1" bodyfile="Group Project/ScrumOfTheEarth/getstrings.cpp" bodystart="69" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="getstrings_8h_1a59572458de7eabcb211b12647cd8cc67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string getBrushStyle</definition>
+        <argsstring>(int bs)</argsstring>
+        <name>getBrushStyle</name>
+        <param>
+          <type>int</type>
+          <declname>bs</declname>
+        </param>
+        <briefdescription>
+<para>Converts an index to a string for a brush style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for brush style </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string for brush style </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/getstrings.h" line="34" column="1" bodyfile="Group Project/ScrumOfTheEarth/getstrings.cpp" bodystart="85" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="getstrings_8h_1ab73fa4f5c93f8a3c34cc0a3aaf7508d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string getTextAlignment</definition>
+        <argsstring>(int ta)</argsstring>
+        <name>getTextAlignment</name>
+        <param>
+          <type>int</type>
+          <declname>ta</declname>
+        </param>
+        <briefdescription>
+<para>Converts an index to a string for a text alignment. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for text alignment </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string for text alignment </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/getstrings.h" line="40" column="1" bodyfile="Group Project/ScrumOfTheEarth/getstrings.cpp" bodystart="102" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="getstrings_8h_1a362dd7a8956d7364df5cce0070ec15ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string getFontStyle</definition>
+        <argsstring>(int fs)</argsstring>
+        <name>getFontStyle</name>
+        <param>
+          <type>int</type>
+          <declname>fs</declname>
+        </param>
+        <briefdescription>
+<para>Converts an index to a string for a font style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for font style </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string for font style </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/getstrings.h" line="46" column="1" bodyfile="Group Project/ScrumOfTheEarth/getstrings.cpp" bodystart="122" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="getstrings_8h_1a4d2ad0fcdf9ccdd1fdb8f8da293f051d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string getFontWeight</definition>
+        <argsstring>(int fw)</argsstring>
+        <name>getFontWeight</name>
+        <param>
+          <type>int</type>
+          <declname>fw</declname>
+        </param>
+        <briefdescription>
+<para>Converts an index to a string for font weight. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for font weight </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string for font weight </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/getstrings.h" line="52" column="1" bodyfile="Group Project/ScrumOfTheEarth/getstrings.cpp" bodystart="138" bodyend="154"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="2"><highlight class="preprocessor">#ifndef<sp/>GETSTRINGS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GETSTRINGS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">std::string<sp/><ref refid="getstrings_8h_1ae2e8c725725c53aced4754efb1ba3297" kindref="member">getPenStyle</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ps);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">std::string<sp/><ref refid="getstrings_8h_1a36f20d2b33b32e3051b9439984fa3dc1" kindref="member">getColor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>color);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">std::string<sp/><ref refid="getstrings_8h_1ab55986fc16e82140cc960949e8d98fc3" kindref="member">getPenCapStyle</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pcs);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">std::string<sp/><ref refid="getstrings_8h_1a59c542c498dce52daab6c95e393084f7" kindref="member">getPenJoinStyle</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pjs);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">std::string<sp/><ref refid="getstrings_8h_1a59572458de7eabcb211b12647cd8cc67" kindref="member">getBrushStyle</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bs);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">std::string<sp/><ref refid="getstrings_8h_1ab73fa4f5c93f8a3c34cc0a3aaf7508d8" kindref="member">getTextAlignment</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ta);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">std::string<sp/><ref refid="getstrings_8h_1a362dd7a8956d7364df5cce0070ec15ca" kindref="member">getFontStyle</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fs);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">std::string<sp/><ref refid="getstrings_8h_1a4d2ad0fcdf9ccdd1fdb8f8da293f051d" kindref="member">getFontWeight</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fw);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>GETSTRINGS_H</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/getstrings.h"/>
+  </compounddef>
+</doxygen>

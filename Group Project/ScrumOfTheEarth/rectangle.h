@@ -11,12 +11,39 @@ class Rectangle : public Shape
     Q_OBJECT
 
    public:
+    /*!
+     * \brief All parameter constructor
+     */
     Rectangle(unsigned int, int, int, int, int, Qt::GlobalColor, Qt::GlobalColor, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle, Qt::BrushStyle, int);
+    /*!
+     * \brief Gets the top left corner point of the rectangle
+     * \return QPoint of the top left point
+     */
     QPoint getCornerPoint(){return CornerPoint;} //Rectangle specific
+    /*!
+     * \brief Sets the top left corner point to the given point
+     * \param QPoint of the top left point
+     */
     void setCornerPoint(QPoint p1){CornerPoint = p1;} //Rectangle specific
+    /*!
+     * \brief Gets the length of the rectangle
+     * \return int length of rectangle
+     */
     int getLength(){return length;} //Rectangle specific
+    /*!
+     * \brief Sets the length of the rectangle to the given length
+     * \param l length of rectangle
+     */
     void setLength(int l){length = l;} //Rectangle specific
+    /*!
+     * \brief Gets the width of the rectangle
+     * \return int width of rectangle
+     */
     int getWidth(){return width;} //Rectangle specific
+    /*!
+     * \brief Sets the width of the rectangle
+     * \param w width of the rectangle
+     */
     void setWidth(int w){width = w;} //Rectangle specific
     /*!
      * \brief Gets the pen color stored in this shape

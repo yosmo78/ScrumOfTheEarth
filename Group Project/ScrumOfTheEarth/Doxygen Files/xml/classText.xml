@@ -1,0 +1,730 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classText" kind="class" language="C++" prot="public">
+    <compoundname>Text</compoundname>
+    <basecompoundref refid="classShape" prot="public" virt="non-virtual">Shape</basecompoundref>
+    <includes refid="text_8h" local="no">text.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classText_1addb9f191277511d578c8a83f939a7db4" prot="private" static="no" mutable="no">
+        <type>QPoint</type>
+        <definition>QPoint Text::CornerPoint</definition>
+        <argsstring></argsstring>
+        <name>CornerPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="125" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classText_1a757739b913a5c9cb008ba175d7624d6c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Text::length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="126" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classText_1a430a4945727b044dcb471554b97dd4ee" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Text::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="127" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classText_1ab3a83a24efa168e41f8703461f3437fc" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Text::textString</definition>
+        <argsstring></argsstring>
+        <name>textString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="128" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classText_1a686008040fa6d6456e061876f2ed743d" prot="private" static="no" mutable="no">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Text::textColor</definition>
+        <argsstring></argsstring>
+        <name>textColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="129" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classText_1a2e03bf21920b602eb96388d6d3cfe59e" prot="private" static="no" mutable="no">
+        <type>Qt::AlignmentFlag</type>
+        <definition>Qt::AlignmentFlag Text::textAlignment</definition>
+        <argsstring></argsstring>
+        <name>textAlignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="130" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classText_1a64485730c4063b055a4aee42a80e346a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Text::textPointSize</definition>
+        <argsstring></argsstring>
+        <name>textPointSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="131" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classText_1a629a7a2bded86d2abfbf17b17c057aec" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Text::textFontFamily</definition>
+        <argsstring></argsstring>
+        <name>textFontFamily</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="132" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classText_1a3744e5ba694747ebb729daaa726b5e8f" prot="private" static="no" mutable="no">
+        <type>QFont::Style</type>
+        <definition>QFont::Style Text::textFontStyle</definition>
+        <argsstring></argsstring>
+        <name>textFontStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="133" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classText_1a0d0e087f3cb761c7ae542ca6dfba0b72" prot="private" static="no" mutable="no">
+        <type>QFont::Weight</type>
+        <definition>QFont::Weight Text::textFontWeight</definition>
+        <argsstring></argsstring>
+        <name>textFontWeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="134" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classText_1a2af2490841998a368bccb3eaed6d3698" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Text::Text</definition>
+        <argsstring>(unsigned int, int, int, int, int, QString, Qt::GlobalColor, Qt::AlignmentFlag, int, QString, QFont::Style, QFont::Weight)</argsstring>
+        <name>Text</name>
+        <param>
+          <type>unsigned</type>
+          <declname>int</declname>
+          <defname>i</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>y</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>l</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>w</defname>
+        </param>
+        <param>
+          <type>QString</type>
+          <defname>txt</defname>
+        </param>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <defname>tc</defname>
+        </param>
+        <param>
+          <type>Qt::AlignmentFlag</type>
+          <defname>ta</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>tps</defname>
+        </param>
+        <param>
+          <type>QString</type>
+          <defname>tff</defname>
+        </param>
+        <param>
+          <type>QFont::Style</type>
+          <defname>tfs</defname>
+        </param>
+        <param>
+          <type>QFont::Weight</type>
+          <defname>tfw</defname>
+        </param>
+        <briefdescription>
+<para><ref refid="classText" kindref="compound">Text</ref> all parameter constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="15" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.cpp" bodystart="3" bodyend="4"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1a599aa1ac67ad501551a851f2dbc1d90a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QPoint</type>
+        <definition>QPoint Text::getCornerPoint</definition>
+        <argsstring>()</argsstring>
+        <name>getCornerPoint</name>
+        <briefdescription>
+<para>Gets the top left corner of the text drawing rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>QPoint top left corner </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="20" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1a8a8424a8e6386a0626cba6ddfa1a91c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Text::setCornerPoint</definition>
+        <argsstring>(QPoint p1)</argsstring>
+        <name>setCornerPoint</name>
+        <param>
+          <type>QPoint</type>
+          <declname>p1</declname>
+        </param>
+        <briefdescription>
+<para>Sets the top left corner of the text drawing rectangle to the given QPoint. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>QPoint </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="25" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1a0d184f40401d7b4a8127470702bbe1ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Text::getLength</definition>
+        <argsstring>()</argsstring>
+        <name>getLength</name>
+        <briefdescription>
+<para>Gets the length of the text drawing rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int length </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="30" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1af833cfc1f38ddd0021ac7d1c65f0acb9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Text::setLength</definition>
+        <argsstring>(int l)</argsstring>
+        <name>setLength</name>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+<para>Sets the length of the drawing rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>l</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>length of drawing rectangle </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="35" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1aa426e679627149ff986a2c793b2ac71d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Text::getWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getWidth</name>
+        <briefdescription>
+<para>Gets the width of the drawing rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int width of rectangle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="40" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1adb7d8d7de01f5ee0d4de99092e728db6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Text::setWidth</definition>
+        <argsstring>(int w)</argsstring>
+        <name>setWidth</name>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+<para>Sets the width of the drawing rectangle to the given width. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>width of drawing rectangle </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="45" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1a873c6803659cfbc8282f746d6a15f158" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Text::getTextString</definition>
+        <argsstring>()</argsstring>
+        <name>getTextString</name>
+        <briefdescription>
+<para>Gets the string of text that is to be drawn. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>QString textString </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="50" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1a84348cf4792c9c9b31c50db0ff776784" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Text::setTextString</definition>
+        <argsstring>(QString ts)</argsstring>
+        <name>setTextString</name>
+        <param>
+          <type>QString</type>
+          <declname>ts</declname>
+        </param>
+        <briefdescription>
+<para>Sets the string of text to be drawn. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>QString of the text </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="55" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1ac6681a7e36595ab4465814caf87418e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Text::getGlobalColor</definition>
+        <argsstring>()</argsstring>
+        <name>getGlobalColor</name>
+        <briefdescription>
+<para>Gets the color of the text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Qt::GlobalColor text color </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="60" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1afd3587da630468e7b7c78b4160cb2837" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Text::setGlobalColor</definition>
+        <argsstring>(Qt::GlobalColor gc)</argsstring>
+        <name>setGlobalColor</name>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <declname>gc</declname>
+        </param>
+        <briefdescription>
+<para>Sets the color of the text. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Qt::GlobalColor for the text color </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="65" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1a20c87e3d4ca218bdaae3181922091ca5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Qt::AlignmentFlag</type>
+        <definition>Qt::AlignmentFlag Text::getAlignmentFlag</definition>
+        <argsstring>()</argsstring>
+        <name>getAlignmentFlag</name>
+        <briefdescription>
+<para>Gets the alignment flag of the text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Qt::AlignmentFlag alignment of text </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="70" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1a7eddf71ff09b1b20499d2a05ac017dd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Text::setAlignmentFlag</definition>
+        <argsstring>(Qt::AlignmentFlag af)</argsstring>
+        <name>setAlignmentFlag</name>
+        <param>
+          <type>Qt::AlignmentFlag</type>
+          <declname>af</declname>
+        </param>
+        <briefdescription>
+<para>Sets the Alignment of the text. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>af</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Qt::ALignmentFlag </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="75" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1a14d8585dd9a39a1bfecd1b2b44131464" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Text::getTextPointSize</definition>
+        <argsstring>()</argsstring>
+        <name>getTextPointSize</name>
+        <briefdescription>
+<para>Gets the point size of the text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int pointSize </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="80" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1ad1e9aabbb6fc0aebc94b3855e32eea78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Text::setTextPointSize</definition>
+        <argsstring>(int ts)</argsstring>
+        <name>setTextPointSize</name>
+        <param>
+          <type>int</type>
+          <declname>ts</declname>
+        </param>
+        <briefdescription>
+<para>Sets the point size to the given point size. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int Point size </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="85" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1ac72f905a25316d1c271674811e31f724" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Text::getTextFontFamily</definition>
+        <argsstring>()</argsstring>
+        <name>getTextFontFamily</name>
+        <briefdescription>
+<para>Gets the font family of the text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>QString text font family </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="90" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1addb9d731d7822aa2d5956d9dc0201500" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Text::setTextFontFamily</definition>
+        <argsstring>(QString tff)</argsstring>
+        <name>setTextFontFamily</name>
+        <param>
+          <type>QString</type>
+          <declname>tff</declname>
+        </param>
+        <briefdescription>
+<para>Sets the font family of the text to the given font family. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tff</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>QString of the font family </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="95" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1ad572034a19f008c64c63e858cf02a0a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QFont::Style</type>
+        <definition>QFont::Style Text::getTextFontStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getTextFontStyle</name>
+        <briefdescription>
+<para>Gets the Font Style of the text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>QFont::Style </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="100" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1acd45f77b52ddeeeeec895fb06997784f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Text::setTextFontStyle</definition>
+        <argsstring>(QFont::Style tfs)</argsstring>
+        <name>setTextFontStyle</name>
+        <param>
+          <type>QFont::Style</type>
+          <declname>tfs</declname>
+        </param>
+        <briefdescription>
+<para>Sets the font style of the text to the given font style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tfs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>QFont::Style </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="106" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1a633a61b274b66c47244430638cd57233" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QFont::Weight</type>
+        <definition>QFont::Weight Text::getTextFontWeight</definition>
+        <argsstring>()</argsstring>
+        <name>getTextFontWeight</name>
+        <briefdescription>
+<para>Gets the Font Weight of the text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>QFont::Weight </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="111" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="111" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1afc544d4b1e989b7386026c39f9413228" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Text::setTextFontWeight</definition>
+        <argsstring>(QFont::Weight tfw)</argsstring>
+        <name>setTextFontWeight</name>
+        <param>
+          <type>QFont::Weight</type>
+          <declname>tfw</declname>
+        </param>
+        <briefdescription>
+<para>Sets the Font Weight of the text to the given Font Weight. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tfw</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>QFont::Weight </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="116" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1a54e8085e0b04abba6b4a09232ff21449" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Text::draw</definition>
+        <argsstring>(QPainter &amp;, bool)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classShape_1a47dae32819e64fb32f3357f31978293f">draw</reimplements>
+        <param>
+          <type>QPainter &amp;</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+<para>Virtual function to draw shapes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="117" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.cpp" bodystart="8" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classText_1a701eda01498e972823f4c833ed0e8811" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int Text::getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <reimplements refid="classShape_1a3d15adf2a1d746928f9be98105096eda">getType</reimplements>
+        <briefdescription>
+<para>Gets the type of the shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>type as an int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="118" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="118" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classText_1aa63f66168dc6f0af547710743a52f9c9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Text::getStaticType</definition>
+        <argsstring>()</argsstring>
+        <name>getStaticType</name>
+        <briefdescription>
+<para>gets the Type of object </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Type as int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/text.h" line="123" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="123" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classText" kindref="compound">Text</ref> class that QPainter can draw. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="164">
+        <label>QObject</label>
+      </node>
+      <node id="162">
+        <label>Text</label>
+        <link refid="classText"/>
+        <childnode refid="163" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="163">
+        <label>Shape</label>
+        <link refid="classShape"/>
+        <childnode refid="164" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="167">
+        <label>QObject</label>
+      </node>
+      <node id="165">
+        <label>Text</label>
+        <link refid="classText"/>
+        <childnode refid="166" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="166">
+        <label>Shape</label>
+        <link refid="classShape"/>
+        <childnode refid="167" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Group Project/ScrumOfTheEarth/text.h" line="9" column="1" bodyfile="Group Project/ScrumOfTheEarth/text.h" bodystart="8" bodyend="135"/>
+    <listofallmembers>
+      <member refid="classText_1addb9f191277511d578c8a83f939a7db4" prot="private" virt="non-virtual"><scope>Text</scope><name>CornerPoint</name></member>
+      <member refid="classText_1a54e8085e0b04abba6b4a09232ff21449" prot="public" virt="virtual"><scope>Text</scope><name>draw</name></member>
+      <member refid="classText_1a20c87e3d4ca218bdaae3181922091ca5" prot="public" virt="non-virtual"><scope>Text</scope><name>getAlignmentFlag</name></member>
+      <member refid="classShape_1ac29f8bce0d038c84470028c6819a79ab" prot="public" virt="virtual"><scope>Text</scope><name>getArea</name></member>
+      <member refid="classText_1a599aa1ac67ad501551a851f2dbc1d90a" prot="public" virt="non-virtual"><scope>Text</scope><name>getCornerPoint</name></member>
+      <member refid="classText_1ac6681a7e36595ab4465814caf87418e1" prot="public" virt="non-virtual"><scope>Text</scope><name>getGlobalColor</name></member>
+      <member refid="classText_1a0d184f40401d7b4a8127470702bbe1ea" prot="public" virt="non-virtual"><scope>Text</scope><name>getLength</name></member>
+      <member refid="classShape_1a391744b6bce96df044139dcbd1ae0aa8" prot="public" virt="virtual"><scope>Text</scope><name>getPerimeter</name></member>
+      <member refid="classShape_1a3ac221427e91b0acc53a2f3764a8f01b" prot="public" virt="non-virtual"><scope>Text</scope><name>getShapeId</name></member>
+      <member refid="classText_1aa63f66168dc6f0af547710743a52f9c9" prot="public" virt="non-virtual"><scope>Text</scope><name>getStaticType</name></member>
+      <member refid="classText_1ac72f905a25316d1c271674811e31f724" prot="public" virt="non-virtual"><scope>Text</scope><name>getTextFontFamily</name></member>
+      <member refid="classText_1ad572034a19f008c64c63e858cf02a0a4" prot="public" virt="non-virtual"><scope>Text</scope><name>getTextFontStyle</name></member>
+      <member refid="classText_1a633a61b274b66c47244430638cd57233" prot="public" virt="non-virtual"><scope>Text</scope><name>getTextFontWeight</name></member>
+      <member refid="classText_1a14d8585dd9a39a1bfecd1b2b44131464" prot="public" virt="non-virtual"><scope>Text</scope><name>getTextPointSize</name></member>
+      <member refid="classText_1a873c6803659cfbc8282f746d6a15f158" prot="public" virt="non-virtual"><scope>Text</scope><name>getTextString</name></member>
+      <member refid="classText_1a701eda01498e972823f4c833ed0e8811" prot="public" virt="virtual"><scope>Text</scope><name>getType</name></member>
+      <member refid="classText_1aa426e679627149ff986a2c793b2ac71d" prot="public" virt="non-virtual"><scope>Text</scope><name>getWidth</name></member>
+      <member refid="classText_1a757739b913a5c9cb008ba175d7624d6c" prot="private" virt="non-virtual"><scope>Text</scope><name>length</name></member>
+      <member refid="classShape_1a0d2732ef366fa236a534351f6a0d96e5" prot="public" virt="non-virtual"><scope>Text</scope><name>operator&lt;</name></member>
+      <member refid="classShape_1a9b9942917d6e6c359a8751156ed52423" prot="public" virt="non-virtual"><scope>Text</scope><name>operator=</name></member>
+      <member refid="classShape_1a1e81a927f61ea4d12daafc1d9295e00a" prot="public" virt="non-virtual"><scope>Text</scope><name>operator==</name></member>
+      <member refid="classText_1a7eddf71ff09b1b20499d2a05ac017dd7" prot="public" virt="non-virtual"><scope>Text</scope><name>setAlignmentFlag</name></member>
+      <member refid="classText_1a8a8424a8e6386a0626cba6ddfa1a91c2" prot="public" virt="non-virtual"><scope>Text</scope><name>setCornerPoint</name></member>
+      <member refid="classText_1afd3587da630468e7b7c78b4160cb2837" prot="public" virt="non-virtual"><scope>Text</scope><name>setGlobalColor</name></member>
+      <member refid="classText_1af833cfc1f38ddd0021ac7d1c65f0acb9" prot="public" virt="non-virtual"><scope>Text</scope><name>setLength</name></member>
+      <member refid="classShape_1a95f42a7833e43572d684455c2ee232ec" prot="public" virt="non-virtual"><scope>Text</scope><name>setShapeId</name></member>
+      <member refid="classText_1addb9d731d7822aa2d5956d9dc0201500" prot="public" virt="non-virtual"><scope>Text</scope><name>setTextFontFamily</name></member>
+      <member refid="classText_1acd45f77b52ddeeeeec895fb06997784f" prot="public" virt="non-virtual"><scope>Text</scope><name>setTextFontStyle</name></member>
+      <member refid="classText_1afc544d4b1e989b7386026c39f9413228" prot="public" virt="non-virtual"><scope>Text</scope><name>setTextFontWeight</name></member>
+      <member refid="classText_1ad1e9aabbb6fc0aebc94b3855e32eea78" prot="public" virt="non-virtual"><scope>Text</scope><name>setTextPointSize</name></member>
+      <member refid="classText_1a84348cf4792c9c9b31c50db0ff776784" prot="public" virt="non-virtual"><scope>Text</scope><name>setTextString</name></member>
+      <member refid="classText_1adb7d8d7de01f5ee0d4de99092e728db6" prot="public" virt="non-virtual"><scope>Text</scope><name>setWidth</name></member>
+      <member refid="classShape_1a3bb93456832521010106172a095e22ca" prot="public" virt="non-virtual"><scope>Text</scope><name>Shape</name></member>
+      <member refid="classShape_1a44d91c7621d4d7af60fe3320a2e07279" prot="public" virt="non-virtual"><scope>Text</scope><name>Shape</name></member>
+      <member refid="classText_1a2af2490841998a368bccb3eaed6d3698" prot="public" virt="non-virtual"><scope>Text</scope><name>Text</name></member>
+      <member refid="classText_1a2e03bf21920b602eb96388d6d3cfe59e" prot="private" virt="non-virtual"><scope>Text</scope><name>textAlignment</name></member>
+      <member refid="classText_1a686008040fa6d6456e061876f2ed743d" prot="private" virt="non-virtual"><scope>Text</scope><name>textColor</name></member>
+      <member refid="classText_1a629a7a2bded86d2abfbf17b17c057aec" prot="private" virt="non-virtual"><scope>Text</scope><name>textFontFamily</name></member>
+      <member refid="classText_1a3744e5ba694747ebb729daaa726b5e8f" prot="private" virt="non-virtual"><scope>Text</scope><name>textFontStyle</name></member>
+      <member refid="classText_1a0d0e087f3cb761c7ae542ca6dfba0b72" prot="private" virt="non-virtual"><scope>Text</scope><name>textFontWeight</name></member>
+      <member refid="classText_1a64485730c4063b055a4aee42a80e346a" prot="private" virt="non-virtual"><scope>Text</scope><name>textPointSize</name></member>
+      <member refid="classText_1ab3a83a24efa168e41f8703461f3437fc" prot="private" virt="non-virtual"><scope>Text</scope><name>textString</name></member>
+      <member refid="classText_1a430a4945727b044dcb471554b97dd4ee" prot="private" virt="non-virtual"><scope>Text</scope><name>width</name></member>
+      <member refid="classShape_1ac3b9fc48965274893f25b18aa14ba665" prot="public" virt="virtual"><scope>Text</scope><name>~Shape</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

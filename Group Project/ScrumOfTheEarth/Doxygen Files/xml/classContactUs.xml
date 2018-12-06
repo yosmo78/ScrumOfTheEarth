@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classContactUs" kind="class" language="C++" prot="public">
+    <compoundname>ContactUs</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QDialog</basecompoundref>
+    <includes refid="contactus_8h" local="no">contactus.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classContactUs_1a20552e7ba79bda5789f1ce765c8adc31" prot="private" static="no" mutable="no">
+        <type>Ui::ContactUs *</type>
+        <definition>Ui::ContactUs* ContactUs::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/contactus.h" line="32" column="1" bodyfile="Group Project/ScrumOfTheEarth/contactus.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classContactUs_1a6e20fc1c353d994a2f0bf13df4580232" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ContactUs::ContactUs</definition>
+        <argsstring>(QWidget *parent=nullptr)</argsstring>
+        <name>ContactUs</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="classContactUs" kindref="compound">ContactUs</ref> constructor creates a window for the contact us information. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>window </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/contactus.h" line="25" column="1" bodyfile="Group Project/ScrumOfTheEarth/contactus.cpp" bodystart="6" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classContactUs_1a44bd80bbb4908c913bb07019a609c5ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ContactUs::~ContactUs</definition>
+        <argsstring>()</argsstring>
+        <name>~ContactUs</name>
+        <briefdescription>
+<para>Destructor for <ref refid="classContactUs" kindref="compound">ContactUs</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/contactus.h" line="29" column="1" bodyfile="Group Project/ScrumOfTheEarth/contactus.cpp" bodystart="19" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="classContactUs" kindref="compound">ContactUs</ref> class provides functionality for the contact us window. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="97">
+        <label>ContactUs</label>
+        <link refid="classContactUs"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>QDialog</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="99">
+        <label>ContactUs</label>
+        <link refid="classContactUs"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>QDialog</label>
+      </node>
+    </collaborationgraph>
+    <location file="Group Project/ScrumOfTheEarth/contactus.h" line="17" column="1" bodyfile="Group Project/ScrumOfTheEarth/contactus.h" bodystart="16" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classContactUs_1a6e20fc1c353d994a2f0bf13df4580232" prot="public" virt="non-virtual"><scope>ContactUs</scope><name>ContactUs</name></member>
+      <member refid="classContactUs_1a20552e7ba79bda5789f1ce765c8adc31" prot="private" virt="non-virtual"><scope>ContactUs</scope><name>ui</name></member>
+      <member refid="classContactUs_1a44bd80bbb4908c913bb07019a609c5ba" prot="public" virt="non-virtual"><scope>ContactUs</scope><name>~ContactUs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

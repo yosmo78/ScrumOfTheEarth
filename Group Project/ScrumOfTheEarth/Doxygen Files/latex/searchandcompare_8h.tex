@@ -1,0 +1,127 @@
+\hypertarget{searchandcompare_8h}{}\section{Group Project/\+Scrum\+Of\+The\+Earth/searchandcompare.h File Reference}
+\label{searchandcompare_8h}\index{Group Project/\+Scrum\+Of\+The\+Earth/searchandcompare.\+h@{Group Project/\+Scrum\+Of\+The\+Earth/searchandcompare.\+h}}
+{\ttfamily \#include \char`\"{}vector.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}shape.\+h\char`\"{}}\\*
+Include dependency graph for searchandcompare.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=283pt]{searchandcompare_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{searchandcompare_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{searchandcompare_8h_a474fd352edcedaea9235d8708336d6e0}{cmp\+Id} (\hyperlink{classShape}{Shape} $\ast$s1, \hyperlink{classShape}{Shape} $\ast$s2)
+\begin{DoxyCompactList}\small\item\em cmp\+Id compares the id of two shapes and returns true if the id of the first shape is greater. Otherwise, false \end{DoxyCompactList}\item 
+bool \hyperlink{searchandcompare_8h_a55d382d6ff217cba8f8a1d647d3f5e02}{cmp\+Area} (\hyperlink{classShape}{Shape} $\ast$s1, \hyperlink{classShape}{Shape} $\ast$s2)
+\begin{DoxyCompactList}\small\item\em cmp\+Area compares the area of two shapes and returns true if the area of the first shape is greater. Otherwise, false \end{DoxyCompactList}\item 
+bool \hyperlink{searchandcompare_8h_ab91f3b00a32d9f439cecf4f29ce6eb29}{cmp\+Peri} (\hyperlink{classShape}{Shape} $\ast$s1, \hyperlink{classShape}{Shape} $\ast$s2)
+\begin{DoxyCompactList}\small\item\em cmp\+Peri compares the perimeter of two shapes and returns true if the perimeter of the first shape is greater. Otherwise, false \end{DoxyCompactList}\item 
+int \hyperlink{searchandcompare_8h_a4eb63ab42e0f441cc4158b619f33cd55}{find\+Shape} (\hyperlink{classmyStd_1_1vector}{my\+Std\+::vector}$<$ \hyperlink{classShape}{Shape} $\ast$ $>$, unsigned int)
+\begin{DoxyCompactList}\small\item\em find\+Shape finds a shape with the given id in the given vector of shape pointers \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \hyperlink{searchandcompare_8h_a742638b7b3ac69d2e7c4f5074fde8481}{selection\+\_\+sort} (\hyperlink{classmyStd_1_1vector}{my\+Std\+::vector}$<$ T $>$ \&vec, bool($\ast$cmp)(T, T))
+\begin{DoxyCompactList}\small\item\em sorts a given vector of type T with any comparison function \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{searchandcompare.\+h@{searchandcompare.\+h}!cmp\+Area@{cmp\+Area}}
+\index{cmp\+Area@{cmp\+Area}!searchandcompare.\+h@{searchandcompare.\+h}}
+\subsubsection[{\texorpdfstring{cmp\+Area(\+Shape $\ast$s1, Shape $\ast$s2)}{cmpArea(Shape *s1, Shape *s2)}}]{\setlength{\rightskip}{0pt plus 5cm}bool cmp\+Area (
+\begin{DoxyParamCaption}
+\item[{{\bf Shape} $\ast$}]{s1, }
+\item[{{\bf Shape} $\ast$}]{s2}
+\end{DoxyParamCaption}
+)}\hypertarget{searchandcompare_8h_a55d382d6ff217cba8f8a1d647d3f5e02}{}\label{searchandcompare_8h_a55d382d6ff217cba8f8a1d647d3f5e02}
+
+
+cmp\+Area compares the area of two shapes and returns true if the area of the first shape is greater. Otherwise, false 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s1} & \hyperlink{classShape}{Shape} 1 \\
+\hline
+{\em s2} & \hyperlink{classShape}{Shape} 2 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool \hyperlink{classShape}{Shape} 1\textquotesingle{}s perimeter is greater or not 
+\end{DoxyReturn}
+\index{searchandcompare.\+h@{searchandcompare.\+h}!cmp\+Id@{cmp\+Id}}
+\index{cmp\+Id@{cmp\+Id}!searchandcompare.\+h@{searchandcompare.\+h}}
+\subsubsection[{\texorpdfstring{cmp\+Id(\+Shape $\ast$s1, Shape $\ast$s2)}{cmpId(Shape *s1, Shape *s2)}}]{\setlength{\rightskip}{0pt plus 5cm}bool cmp\+Id (
+\begin{DoxyParamCaption}
+\item[{{\bf Shape} $\ast$}]{s1, }
+\item[{{\bf Shape} $\ast$}]{s2}
+\end{DoxyParamCaption}
+)}\hypertarget{searchandcompare_8h_a474fd352edcedaea9235d8708336d6e0}{}\label{searchandcompare_8h_a474fd352edcedaea9235d8708336d6e0}
+
+
+cmp\+Id compares the id of two shapes and returns true if the id of the first shape is greater. Otherwise, false 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s1} & \hyperlink{classShape}{Shape} 1 \\
+\hline
+{\em s2} & \hyperlink{classShape}{Shape} 2 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool \hyperlink{classShape}{Shape} 1\textquotesingle{}s id is greater or not 
+\end{DoxyReturn}
+\index{searchandcompare.\+h@{searchandcompare.\+h}!cmp\+Peri@{cmp\+Peri}}
+\index{cmp\+Peri@{cmp\+Peri}!searchandcompare.\+h@{searchandcompare.\+h}}
+\subsubsection[{\texorpdfstring{cmp\+Peri(\+Shape $\ast$s1, Shape $\ast$s2)}{cmpPeri(Shape *s1, Shape *s2)}}]{\setlength{\rightskip}{0pt plus 5cm}bool cmp\+Peri (
+\begin{DoxyParamCaption}
+\item[{{\bf Shape} $\ast$}]{s1, }
+\item[{{\bf Shape} $\ast$}]{s2}
+\end{DoxyParamCaption}
+)}\hypertarget{searchandcompare_8h_ab91f3b00a32d9f439cecf4f29ce6eb29}{}\label{searchandcompare_8h_ab91f3b00a32d9f439cecf4f29ce6eb29}
+
+
+cmp\+Peri compares the perimeter of two shapes and returns true if the perimeter of the first shape is greater. Otherwise, false 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s1} & \hyperlink{classShape}{Shape} 1 \\
+\hline
+{\em s2} & \hyperlink{classShape}{Shape} 2 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool \hyperlink{classShape}{Shape} 1\textquotesingle{}s perimeter is greater or not 
+\end{DoxyReturn}
+\index{searchandcompare.\+h@{searchandcompare.\+h}!find\+Shape@{find\+Shape}}
+\index{find\+Shape@{find\+Shape}!searchandcompare.\+h@{searchandcompare.\+h}}
+\subsubsection[{\texorpdfstring{find\+Shape(my\+Std\+::vector$<$ Shape $\ast$ $>$, unsigned int)}{findShape(myStd::vector< Shape * >, unsigned int)}}]{\setlength{\rightskip}{0pt plus 5cm}int find\+Shape (
+\begin{DoxyParamCaption}
+\item[{{\bf my\+Std\+::vector}$<$ {\bf Shape} $\ast$ $>$}]{, }
+\item[{unsigned}]{int}
+\end{DoxyParamCaption}
+)}\hypertarget{searchandcompare_8h_a4eb63ab42e0f441cc4158b619f33cd55}{}\label{searchandcompare_8h_a4eb63ab42e0f441cc4158b619f33cd55}
+
+
+find\+Shape finds a shape with the given id in the given vector of shape pointers 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\index{searchandcompare.\+h@{searchandcompare.\+h}!selection\+\_\+sort@{selection\+\_\+sort}}
+\index{selection\+\_\+sort@{selection\+\_\+sort}!searchandcompare.\+h@{searchandcompare.\+h}}
+\subsubsection[{\texorpdfstring{selection\+\_\+sort(my\+Std\+::vector$<$ T $>$ \&vec, bool($\ast$cmp)(\+T, T))}{selection_sort(myStd::vector< T > &vec, bool(*cmp)(T, T))}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ void selection\+\_\+sort (
+\begin{DoxyParamCaption}
+\item[{{\bf my\+Std\+::vector}$<$ T $>$ \&}]{vec, }
+\item[{bool($\ast$)(T, T)}]{cmp}
+\end{DoxyParamCaption}
+)}\hypertarget{searchandcompare_8h_a742638b7b3ac69d2e7c4f5074fde8481}{}\label{searchandcompare_8h_a742638b7b3ac69d2e7c4f5074fde8481}
+
+
+sorts a given vector of type T with any comparison function 
+

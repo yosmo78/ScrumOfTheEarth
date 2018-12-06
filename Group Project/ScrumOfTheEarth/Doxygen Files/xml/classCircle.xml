@@ -1,0 +1,778 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classCircle" kind="class" language="C++" prot="public">
+    <compoundname>Circle</compoundname>
+    <basecompoundref refid="classShape" prot="public" virt="non-virtual">Shape</basecompoundref>
+    <includes refid="circle_8h" local="no">circle.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classCircle_1a4f4fcd55fae7381411eecae15d2084c1" prot="private" static="no" mutable="no">
+        <type>QPoint</type>
+        <definition>QPoint Circle::point</definition>
+        <argsstring></argsstring>
+        <name>point</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="148" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCircle_1a897ad7e556f1e90142093c69079d8b05" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Circle::radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="149" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCircle_1a26f337e7377395a70f21733782c286ae" prot="private" static="no" mutable="no">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Circle::penColor</definition>
+        <argsstring></argsstring>
+        <name>penColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="150" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCircle_1a1d66a22b9b485948cce1d19b8852acd6" prot="private" static="no" mutable="no">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Circle::brushColor</definition>
+        <argsstring></argsstring>
+        <name>brushColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="151" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCircle_1a451b56d377198633b03bbb03babe9a8a" prot="private" static="no" mutable="no">
+        <type>Qt::PenStyle</type>
+        <definition>Qt::PenStyle Circle::penStyle</definition>
+        <argsstring></argsstring>
+        <name>penStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="152" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCircle_1a24e1794fbaf4fa208b59b02012bf7e58" prot="private" static="no" mutable="no">
+        <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+        <definition>Qt::PenCapStyle Circle::penCapStyle</definition>
+        <argsstring></argsstring>
+        <name>penCapStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="153" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCircle_1ab36f70278f069388eb72f0af7f024127" prot="private" static="no" mutable="no">
+        <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+        <definition>Qt::PenJoinStyle Circle::penJoinStyle</definition>
+        <argsstring></argsstring>
+        <name>penJoinStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="154" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCircle_1afe0622daa8afc40acda041b202fd0542" prot="private" static="no" mutable="no">
+        <type><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref></type>
+        <definition>Qt::BrushStyle Circle::brushStyle</definition>
+        <argsstring></argsstring>
+        <name>brushStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="155" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCircle_1a434b2f977e289b18dcd1be300614bdf6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Circle::penWidth</definition>
+        <argsstring></argsstring>
+        <name>penWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="156" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCircle_1a40e653e2eecf4335d2125c97700dff3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Circle::Circle</definition>
+        <argsstring>(unsigned int i, int x, int y, int r, Qt::GlobalColor pc, Qt::GlobalColor bc, Qt::PenStyle ps, Qt::PenCapStyle pcs, Qt::PenJoinStyle pjs, Qt::BrushStyle bs, int pw)</argsstring>
+        <name>Circle</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <declname>pc</declname>
+        </param>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <declname>bc</declname>
+        </param>
+        <param>
+          <type>Qt::PenStyle</type>
+          <declname>ps</declname>
+        </param>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+          <declname>pcs</declname>
+        </param>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+          <declname>pjs</declname>
+        </param>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref></type>
+          <declname>bs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pw</declname>
+        </param>
+        <briefdescription>
+<para>All properties contructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>coordinate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>coordinate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>radius</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>penColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>brushColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>penStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>penCapStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>penJoinStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>brushStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>penWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="28" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.cpp" bodystart="3" bodyend="4"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1a363e30a4f7d06116167e77e271955998" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QPoint</type>
+        <definition>QPoint Circle::getPoint1</definition>
+        <argsstring>()</argsstring>
+        <name>getPoint1</name>
+        <briefdescription>
+<para>Gets the center of the circle as a point. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Center of circle as QPoint </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="34" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1adfc2e5e026f5d80215563cc42260a237" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Circle::getRadius</definition>
+        <argsstring>()</argsstring>
+        <name>getRadius</name>
+        <briefdescription>
+<para>Gets the radius of the circle. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>radius </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="40" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1a60e5c24fe969240435725aa608bed3dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Circle::setPoint1</definition>
+        <argsstring>(QPoint p1)</argsstring>
+        <name>setPoint1</name>
+        <param>
+          <type>QPoint</type>
+          <declname>p1</declname>
+        </param>
+        <briefdescription>
+<para>Sets the center of the circle to the given point. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Center</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="46" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1ad1c743962a2fc94b46cc80fbf88705ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Circle::setPoint2</definition>
+        <argsstring>(int r)</argsstring>
+        <name>setPoint2</name>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>Sets the radius. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>radius</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="52" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1a56a594eac870bedf7c268a024bbd92d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Circle::getPenColor</definition>
+        <argsstring>()</argsstring>
+        <name>getPenColor</name>
+        <briefdescription>
+<para>Gets the pen color stored in this shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Color of the pen </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="58" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1a82bde4b53ba1026e640db30b1096d60b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Circle::getBrushColor</definition>
+        <argsstring>()</argsstring>
+        <name>getBrushColor</name>
+        <briefdescription>
+<para>Gets the Brush color stored in the <ref refid="classShape" kindref="compound">Shape</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Color of the Brush </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="64" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1ad7ea24061f3ac147c396ca258b132018" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Circle::setPenColor</definition>
+        <argsstring>(Qt::GlobalColor pc)</argsstring>
+        <name>setPenColor</name>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <declname>pc</declname>
+        </param>
+        <briefdescription>
+<para>Sets the color of the pen to the given color. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="70" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1adc5d39dd16a7f02a4142903d17b02744" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Circle::setBrushColor</definition>
+        <argsstring>(Qt::GlobalColor bc)</argsstring>
+        <name>setBrushColor</name>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <declname>bc</declname>
+        </param>
+        <briefdescription>
+<para>Sets the color of the Brush to the given color. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>brushColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="76" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1aca52e370c08797fd90af17499bc33e5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Qt::PenStyle</type>
+        <definition>Qt::PenStyle Circle::getPenStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getPenStyle</name>
+        <briefdescription>
+<para>Gets the style of the pen stored in the shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Style of the pen </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="82" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1a0eb4403f9655b48e774e2be89dd18088" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Circle::setPenStyle</definition>
+        <argsstring>(Qt::PenStyle ps)</argsstring>
+        <name>setPenStyle</name>
+        <param>
+          <type>Qt::PenStyle</type>
+          <declname>ps</declname>
+        </param>
+        <briefdescription>
+<para>Sets the style of the pen to the given style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="88" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1abaf3d67a11b83ba5df3ce7a8a382bbc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+        <definition>Qt::PenCapStyle Circle::getPenCapStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getPenCapStyle</name>
+        <briefdescription>
+<para>Gets the pen cap style that is stored in this <ref refid="classShape" kindref="compound">Shape</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>PenCapStyle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="94" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1ad93fa94177ed8bfbb9c695b6bab9d8b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Circle::setPenCapStyle</definition>
+        <argsstring>(Qt::PenCapStyle pcs)</argsstring>
+        <name>setPenCapStyle</name>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+          <declname>pcs</declname>
+        </param>
+        <briefdescription>
+<para>Sets the Pen Cap Style to the given Pen Cap Style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penCapStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="100" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1ac4ecd23537522a25d55e9d7197c7d9b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+        <definition>Qt::PenJoinStyle Circle::getPenJoinStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getPenJoinStyle</name>
+        <briefdescription>
+<para>Gets the Pen Join Style. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>PenJoinStyle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="106" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1a1b0c03d17c9fc49bbcb6e8708f9bd827" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Circle::setPenJoinStyle</definition>
+        <argsstring>(Qt::PenJoinStyle pjs)</argsstring>
+        <name>setPenJoinStyle</name>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+          <declname>pjs</declname>
+        </param>
+        <briefdescription>
+<para>Sets the pen join style to the given style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penJoinStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="112" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="112" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1a4ec3092959992a2a6b2782e622617bda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref></type>
+        <definition>Qt::BrushStyle Circle::getBrushStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getBrushStyle</name>
+        <briefdescription>
+<para>Gets the Brush Style. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>BrushStyle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="118" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="118" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1a8029072b1eea3ef62c9010f68257b112" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Circle::setBrushStyle</definition>
+        <argsstring>(Qt::BrushStyle bs)</argsstring>
+        <name>setBrushStyle</name>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref></type>
+          <declname>bs</declname>
+        </param>
+        <briefdescription>
+<para>Sets the Brush Style to the given Brush Style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>brushStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="124" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="124" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1ab7d1e660ddced5d2f6fd36290f06083a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Circle::getPenWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getPenWidth</name>
+        <briefdescription>
+<para>Gets the width of the pen. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>penWidth </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="130" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1abe124577ed86f9d9bcf77b0a5fdaca73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Circle::setPenWidth</definition>
+        <argsstring>(int pw)</argsstring>
+        <name>setPenWidth</name>
+        <param>
+          <type>int</type>
+          <declname>pw</declname>
+        </param>
+        <briefdescription>
+<para>Sets the width of the pen to the given width. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="136" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="136" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1aebc2ff1cc810905bc557d54e76aef936" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Circle::draw</definition>
+        <argsstring>(QPainter &amp;paint, bool)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classShape_1a47dae32819e64fb32f3357f31978293f">draw</reimplements>
+        <param>
+          <type>QPainter &amp;</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+<para>Virtual function to draw shapes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="137" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.cpp" bodystart="6" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1ac13b29eb5095b4fd8e6c25ba50dd9131" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int Circle::getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <reimplements refid="classShape_1a3d15adf2a1d746928f9be98105096eda">getType</reimplements>
+        <briefdescription>
+<para>Gets the type of the shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>type as an int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="138" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="138" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1ae770cbdb3a0148a9db411fb3b0f87b9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>virtual double Circle::getArea</definition>
+        <argsstring>()</argsstring>
+        <name>getArea</name>
+        <reimplements refid="classShape_1ac29f8bce0d038c84470028c6819a79ab">getArea</reimplements>
+        <briefdescription>
+<para>Gets the area of the given shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Area as a double </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="145" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="145" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1af9a14f66b467788f8395ea587357a93f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>virtual double Circle::getPerimeter</definition>
+        <argsstring>()</argsstring>
+        <name>getPerimeter</name>
+        <reimplements refid="classShape_1a391744b6bce96df044139dcbd1ae0aa8">getPerimeter</reimplements>
+        <briefdescription>
+<para>Gets the perimeter of the given shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Perimeter as a double </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="146" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="146" bodyend="146"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classCircle_1ac5e287c2511f325888d340b6555d51b5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Circle::getStaticType</definition>
+        <argsstring>()</argsstring>
+        <name>getStaticType</name>
+        <briefdescription>
+<para>Gets the type of object. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Type as int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/circle.h" line="144" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="144" bodyend="144"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classCircle" kindref="compound">Circle</ref> class that QPainter can draw. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="93">
+        <label>QObject</label>
+      </node>
+      <node id="91">
+        <label>Circle</label>
+        <link refid="classCircle"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>Shape</label>
+        <link refid="classShape"/>
+        <childnode refid="93" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="96">
+        <label>QObject</label>
+      </node>
+      <node id="94">
+        <label>Circle</label>
+        <link refid="classCircle"/>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>Shape</label>
+        <link refid="classShape"/>
+        <childnode refid="96" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Group Project/ScrumOfTheEarth/circle.h" line="11" column="1" bodyfile="Group Project/ScrumOfTheEarth/circle.h" bodystart="10" bodyend="158"/>
+    <listofallmembers>
+      <member refid="classCircle_1a1d66a22b9b485948cce1d19b8852acd6" prot="private" virt="non-virtual"><scope>Circle</scope><name>brushColor</name></member>
+      <member refid="classCircle_1afe0622daa8afc40acda041b202fd0542" prot="private" virt="non-virtual"><scope>Circle</scope><name>brushStyle</name></member>
+      <member refid="classCircle_1a40e653e2eecf4335d2125c97700dff3c" prot="public" virt="non-virtual"><scope>Circle</scope><name>Circle</name></member>
+      <member refid="classCircle_1aebc2ff1cc810905bc557d54e76aef936" prot="public" virt="virtual"><scope>Circle</scope><name>draw</name></member>
+      <member refid="classCircle_1ae770cbdb3a0148a9db411fb3b0f87b9a" prot="public" virt="virtual"><scope>Circle</scope><name>getArea</name></member>
+      <member refid="classCircle_1a82bde4b53ba1026e640db30b1096d60b" prot="public" virt="non-virtual"><scope>Circle</scope><name>getBrushColor</name></member>
+      <member refid="classCircle_1a4ec3092959992a2a6b2782e622617bda" prot="public" virt="non-virtual"><scope>Circle</scope><name>getBrushStyle</name></member>
+      <member refid="classCircle_1abaf3d67a11b83ba5df3ce7a8a382bbc1" prot="public" virt="non-virtual"><scope>Circle</scope><name>getPenCapStyle</name></member>
+      <member refid="classCircle_1a56a594eac870bedf7c268a024bbd92d3" prot="public" virt="non-virtual"><scope>Circle</scope><name>getPenColor</name></member>
+      <member refid="classCircle_1ac4ecd23537522a25d55e9d7197c7d9b5" prot="public" virt="non-virtual"><scope>Circle</scope><name>getPenJoinStyle</name></member>
+      <member refid="classCircle_1aca52e370c08797fd90af17499bc33e5b" prot="public" virt="non-virtual"><scope>Circle</scope><name>getPenStyle</name></member>
+      <member refid="classCircle_1ab7d1e660ddced5d2f6fd36290f06083a" prot="public" virt="non-virtual"><scope>Circle</scope><name>getPenWidth</name></member>
+      <member refid="classCircle_1af9a14f66b467788f8395ea587357a93f" prot="public" virt="virtual"><scope>Circle</scope><name>getPerimeter</name></member>
+      <member refid="classCircle_1a363e30a4f7d06116167e77e271955998" prot="public" virt="non-virtual"><scope>Circle</scope><name>getPoint1</name></member>
+      <member refid="classCircle_1adfc2e5e026f5d80215563cc42260a237" prot="public" virt="non-virtual"><scope>Circle</scope><name>getRadius</name></member>
+      <member refid="classShape_1a3ac221427e91b0acc53a2f3764a8f01b" prot="public" virt="non-virtual"><scope>Circle</scope><name>getShapeId</name></member>
+      <member refid="classCircle_1ac5e287c2511f325888d340b6555d51b5" prot="public" virt="non-virtual"><scope>Circle</scope><name>getStaticType</name></member>
+      <member refid="classCircle_1ac13b29eb5095b4fd8e6c25ba50dd9131" prot="public" virt="virtual"><scope>Circle</scope><name>getType</name></member>
+      <member refid="classShape_1a0d2732ef366fa236a534351f6a0d96e5" prot="public" virt="non-virtual"><scope>Circle</scope><name>operator&lt;</name></member>
+      <member refid="classShape_1a9b9942917d6e6c359a8751156ed52423" prot="public" virt="non-virtual"><scope>Circle</scope><name>operator=</name></member>
+      <member refid="classShape_1a1e81a927f61ea4d12daafc1d9295e00a" prot="public" virt="non-virtual"><scope>Circle</scope><name>operator==</name></member>
+      <member refid="classCircle_1a24e1794fbaf4fa208b59b02012bf7e58" prot="private" virt="non-virtual"><scope>Circle</scope><name>penCapStyle</name></member>
+      <member refid="classCircle_1a26f337e7377395a70f21733782c286ae" prot="private" virt="non-virtual"><scope>Circle</scope><name>penColor</name></member>
+      <member refid="classCircle_1ab36f70278f069388eb72f0af7f024127" prot="private" virt="non-virtual"><scope>Circle</scope><name>penJoinStyle</name></member>
+      <member refid="classCircle_1a451b56d377198633b03bbb03babe9a8a" prot="private" virt="non-virtual"><scope>Circle</scope><name>penStyle</name></member>
+      <member refid="classCircle_1a434b2f977e289b18dcd1be300614bdf6" prot="private" virt="non-virtual"><scope>Circle</scope><name>penWidth</name></member>
+      <member refid="classCircle_1a4f4fcd55fae7381411eecae15d2084c1" prot="private" virt="non-virtual"><scope>Circle</scope><name>point</name></member>
+      <member refid="classCircle_1a897ad7e556f1e90142093c69079d8b05" prot="private" virt="non-virtual"><scope>Circle</scope><name>radius</name></member>
+      <member refid="classCircle_1adc5d39dd16a7f02a4142903d17b02744" prot="public" virt="non-virtual"><scope>Circle</scope><name>setBrushColor</name></member>
+      <member refid="classCircle_1a8029072b1eea3ef62c9010f68257b112" prot="public" virt="non-virtual"><scope>Circle</scope><name>setBrushStyle</name></member>
+      <member refid="classCircle_1ad93fa94177ed8bfbb9c695b6bab9d8b3" prot="public" virt="non-virtual"><scope>Circle</scope><name>setPenCapStyle</name></member>
+      <member refid="classCircle_1ad7ea24061f3ac147c396ca258b132018" prot="public" virt="non-virtual"><scope>Circle</scope><name>setPenColor</name></member>
+      <member refid="classCircle_1a1b0c03d17c9fc49bbcb6e8708f9bd827" prot="public" virt="non-virtual"><scope>Circle</scope><name>setPenJoinStyle</name></member>
+      <member refid="classCircle_1a0eb4403f9655b48e774e2be89dd18088" prot="public" virt="non-virtual"><scope>Circle</scope><name>setPenStyle</name></member>
+      <member refid="classCircle_1abe124577ed86f9d9bcf77b0a5fdaca73" prot="public" virt="non-virtual"><scope>Circle</scope><name>setPenWidth</name></member>
+      <member refid="classCircle_1a60e5c24fe969240435725aa608bed3dd" prot="public" virt="non-virtual"><scope>Circle</scope><name>setPoint1</name></member>
+      <member refid="classCircle_1ad1c743962a2fc94b46cc80fbf88705ed" prot="public" virt="non-virtual"><scope>Circle</scope><name>setPoint2</name></member>
+      <member refid="classShape_1a95f42a7833e43572d684455c2ee232ec" prot="public" virt="non-virtual"><scope>Circle</scope><name>setShapeId</name></member>
+      <member refid="classShape_1a3bb93456832521010106172a095e22ca" prot="public" virt="non-virtual"><scope>Circle</scope><name>Shape</name></member>
+      <member refid="classShape_1a44d91c7621d4d7af60fe3320a2e07279" prot="public" virt="non-virtual"><scope>Circle</scope><name>Shape</name></member>
+      <member refid="classShape_1ac3b9fc48965274893f25b18aa14ba665" prot="public" virt="virtual"><scope>Circle</scope><name>~Shape</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

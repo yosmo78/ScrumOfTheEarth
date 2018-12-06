@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="circle_8h" kind="file" language="C++">
+    <compoundname>circle.h</compoundname>
+    <includes refid="shape_8h" local="yes">shape.h</includes>
+    <includedby refid="shape__parser_8h" local="yes">Group Project/ScrumOfTheEarth/shape_parser.h</includedby>
+    <includedby refid="moveshape_8h" local="yes">Group Project/ScrumOfTheEarth/moveshape.h</includedby>
+    <includedby refid="circle_8cpp" local="yes">Group Project/ScrumOfTheEarth/circle.cpp</includedby>
+    <includedby refid="mainwindow_8cpp" local="yes">Group Project/ScrumOfTheEarth/mainwindow.cpp</includedby>
+    <includedby refid="pop__table_8cpp" local="yes">Group Project/ScrumOfTheEarth/pop_table.cpp</includedby>
+    <includedby refid="shape__saver_8cpp" local="yes">Group Project/ScrumOfTheEarth/shape_saver.cpp</includedby>
+    <incdepgraph>
+      <node id="896">
+        <label>QObject</label>
+      </node>
+      <node id="894">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="895" relation="include">
+        </childnode>
+        <childnode refid="896" relation="include">
+        </childnode>
+        <childnode refid="897" relation="include">
+        </childnode>
+      </node>
+      <node id="897">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="898" relation="include">
+        </childnode>
+      </node>
+      <node id="893">
+        <label>Group Project/ScrumOfTheEarth/circle.h</label>
+        <link refid="circle.h"/>
+        <childnode refid="894" relation="include">
+        </childnode>
+      </node>
+      <node id="895">
+        <label>QPainter</label>
+      </node>
+      <node id="898">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="904">
+        <label>Group Project/ScrumOfTheEarth/moveshape.h</label>
+        <link refid="moveshape_8h"/>
+        <childnode refid="905" relation="include">
+        </childnode>
+        <childnode refid="911" relation="include">
+        </childnode>
+      </node>
+      <node id="912">
+        <label>Group Project/ScrumOfTheEarth/circle.cpp</label>
+        <link refid="circle_8cpp"/>
+      </node>
+      <node id="902">
+        <label>Group Project/ScrumOfTheEarth/mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+      </node>
+      <node id="911">
+        <label>Group Project/ScrumOfTheEarth/moveshape.cpp</label>
+        <link refid="moveshape_8cpp"/>
+      </node>
+      <node id="909">
+        <label>Group Project/ScrumOfTheEarth/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="910">
+        <label>Group Project/ScrumOfTheEarth/window.cpp</label>
+        <link refid="window_8cpp"/>
+      </node>
+      <node id="899">
+        <label>Group Project/ScrumOfTheEarth/circle.h</label>
+        <link refid="circle.h"/>
+        <childnode refid="900" relation="include">
+        </childnode>
+        <childnode refid="904" relation="include">
+        </childnode>
+        <childnode refid="912" relation="include">
+        </childnode>
+        <childnode refid="902" relation="include">
+        </childnode>
+        <childnode refid="913" relation="include">
+        </childnode>
+        <childnode refid="914" relation="include">
+        </childnode>
+      </node>
+      <node id="901">
+        <label>Group Project/ScrumOfTheEarth/addshape.cpp</label>
+        <link refid="addshape_8cpp"/>
+      </node>
+      <node id="913">
+        <label>Group Project/ScrumOfTheEarth/pop_table.cpp</label>
+        <link refid="pop__table_8cpp"/>
+      </node>
+      <node id="907">
+        <label>Group Project/ScrumOfTheEarth/admin_check.cpp</label>
+        <link refid="admin__check_8cpp"/>
+      </node>
+      <node id="908">
+        <label>Group Project/ScrumOfTheEarth/create_login_file.cpp</label>
+        <link refid="create__login__file_8cpp"/>
+      </node>
+      <node id="914">
+        <label>Group Project/ScrumOfTheEarth/shape_saver.cpp</label>
+        <link refid="shape__saver_8cpp"/>
+      </node>
+      <node id="905">
+        <label>Group Project/ScrumOfTheEarth/mainwindow.h</label>
+        <link refid="mainwindow_8h"/>
+        <childnode refid="906" relation="include">
+        </childnode>
+        <childnode refid="902" relation="include">
+        </childnode>
+      </node>
+      <node id="903">
+        <label>Group Project/ScrumOfTheEarth/shape_parser.cpp</label>
+        <link refid="shape__parser_8cpp"/>
+      </node>
+      <node id="900">
+        <label>Group Project/ScrumOfTheEarth/shape_parser.h</label>
+        <link refid="shape__parser_8h"/>
+        <childnode refid="901" relation="include">
+        </childnode>
+        <childnode refid="902" relation="include">
+        </childnode>
+        <childnode refid="903" relation="include">
+        </childnode>
+      </node>
+      <node id="906">
+        <label>Group Project/ScrumOfTheEarth/window.h</label>
+        <link refid="window_8h"/>
+        <childnode refid="907" relation="include">
+        </childnode>
+        <childnode refid="908" relation="include">
+        </childnode>
+        <childnode refid="909" relation="include">
+        </childnode>
+        <childnode refid="910" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classCircle" prot="public">Circle</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="2"><highlight class="preprocessor">#ifndef<sp/>CIRCLE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CIRCLE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="shape_8h" kindref="compound">shape.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classCircle" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classCircle" kindref="compound">Circle</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classShape" kindref="compound">Shape</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classCircle_1a40e653e2eecf4335d2125c97700dff3c" kindref="member">Circle</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r,<sp/>Qt::GlobalColor<sp/>pc,<sp/>Qt::GlobalColor<sp/>bc,<sp/>Qt::PenStyle<sp/>ps,<sp/><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/>pcs,<sp/><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/>pjs,<sp/><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref><sp/>bs,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pw);</highlight><highlight class="comment">//line<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="classCircle_1a363e30a4f7d06116167e77e271955998" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QPoint<sp/><ref refid="classCircle_1a363e30a4f7d06116167e77e271955998" kindref="member">getPoint1</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>point;}<sp/></highlight><highlight class="comment">//circle<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="classCircle_1adfc2e5e026f5d80215563cc42260a237" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classCircle_1adfc2e5e026f5d80215563cc42260a237" kindref="member">getRadius</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>radius;}</highlight><highlight class="comment">//circle<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="classCircle_1a60e5c24fe969240435725aa608bed3dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCircle_1a60e5c24fe969240435725aa608bed3dd" kindref="member">setPoint1</ref>(QPoint<sp/>p1){point<sp/>=<sp/>p1;}<sp/></highlight><highlight class="comment">//circle<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="classCircle_1ad1c743962a2fc94b46cc80fbf88705ed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCircle_1ad1c743962a2fc94b46cc80fbf88705ed" kindref="member">setPoint2</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r){radius<sp/>=<sp/>r;}<sp/></highlight><highlight class="comment">//circle<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="classCircle_1a56a594eac870bedf7c268a024bbd92d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::GlobalColor<sp/><ref refid="classCircle_1a56a594eac870bedf7c268a024bbd92d3" kindref="member">getPenColor</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penColor;}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="classCircle_1a82bde4b53ba1026e640db30b1096d60b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::GlobalColor<sp/><ref refid="classCircle_1a82bde4b53ba1026e640db30b1096d60b" kindref="member">getBrushColor</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>brushColor;}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="classCircle_1ad7ea24061f3ac147c396ca258b132018" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCircle_1ad7ea24061f3ac147c396ca258b132018" kindref="member">setPenColor</ref>(Qt::GlobalColor<sp/>pc){penColor<sp/>=<sp/>pc;}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="classCircle_1adc5d39dd16a7f02a4142903d17b02744" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCircle_1adc5d39dd16a7f02a4142903d17b02744" kindref="member">setBrushColor</ref>(Qt::GlobalColor<sp/>bc){brushColor<sp/>=<sp/>bc;}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="classCircle_1aca52e370c08797fd90af17499bc33e5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::PenStyle<sp/><ref refid="classCircle_1aca52e370c08797fd90af17499bc33e5b" kindref="member">getPenStyle</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penStyle;}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="classCircle_1a0eb4403f9655b48e774e2be89dd18088" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCircle_1a0eb4403f9655b48e774e2be89dd18088" kindref="member">setPenStyle</ref>(Qt::PenStyle<sp/>ps){penStyle<sp/>=<sp/>ps;}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="classCircle_1abaf3d67a11b83ba5df3ce7a8a382bbc1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/><ref refid="classCircle_1abaf3d67a11b83ba5df3ce7a8a382bbc1" kindref="member">getPenCapStyle</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penCapStyle;}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="classCircle_1ad93fa94177ed8bfbb9c695b6bab9d8b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCircle_1ad93fa94177ed8bfbb9c695b6bab9d8b3" kindref="member">setPenCapStyle</ref>(<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/>pcs){<sp/>penCapStyle<sp/>=<sp/>pcs;}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="classCircle_1ac4ecd23537522a25d55e9d7197c7d9b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/><ref refid="classCircle_1ac4ecd23537522a25d55e9d7197c7d9b5" kindref="member">getPenJoinStyle</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penJoinStyle;}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="classCircle_1a1b0c03d17c9fc49bbcb6e8708f9bd827" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCircle_1a1b0c03d17c9fc49bbcb6e8708f9bd827" kindref="member">setPenJoinStyle</ref>(<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/>pjs){penJoinStyle<sp/>=<sp/>pjs;}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="classCircle_1a4ec3092959992a2a6b2782e622617bda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref><sp/><ref refid="classCircle_1a4ec3092959992a2a6b2782e622617bda" kindref="member">getBrushStyle</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>brushStyle;}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="classCircle_1a8029072b1eea3ef62c9010f68257b112" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCircle_1a8029072b1eea3ef62c9010f68257b112" kindref="member">setBrushStyle</ref>(<ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref><sp/>bs){brushStyle<sp/>=<sp/>bs;}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="classCircle_1ab7d1e660ddced5d2f6fd36290f06083a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classCircle_1ab7d1e660ddced5d2f6fd36290f06083a" kindref="member">getPenWidth</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penWidth;}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="classCircle_1abe124577ed86f9d9bcf77b0a5fdaca73" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCircle_1abe124577ed86f9d9bcf77b0a5fdaca73" kindref="member">setPenWidth</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pw){penWidth<sp/>=<sp/>pw;}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCircle_1aebc2ff1cc810905bc557d54e76aef936" kindref="member">draw</ref>(QPainter<sp/>&amp;<sp/>paint,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="138" refid="classCircle_1ac13b29eb5095b4fd8e6c25ba50dd9131" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classCircle_1ac13b29eb5095b4fd8e6c25ba50dd9131" kindref="member">getType</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>4;}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="classCircle_1ac5e287c2511f325888d340b6555d51b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classCircle_1ac5e287c2511f325888d340b6555d51b5" kindref="member">getStaticType</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>4;}</highlight></codeline>
+<codeline lineno="145" refid="classCircle_1ae770cbdb3a0148a9db411fb3b0f87b9a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classCircle_1ae770cbdb3a0148a9db411fb3b0f87b9a" kindref="member">getArea</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>3.14159265359*radius*radius;}</highlight></codeline>
+<codeline lineno="146" refid="classCircle_1af9a14f66b467788f8395ea587357a93f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classCircle_1af9a14f66b467788f8395ea587357a93f" kindref="member">getPerimeter</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>3.14159265359*2*radius;}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>QPoint<sp/>point;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>radius;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::GlobalColor<sp/>penColor;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::GlobalColor<sp/>brushColor;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::PenStyle<sp/>penStyle;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/>penCapStyle;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/>penJoinStyle;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref><sp/>brushStyle;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>penWidth;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CIRCLE_H</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/circle.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,438 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="shape__parser_8h" kind="file" language="C++">
+    <compoundname>shape_parser.h</compoundname>
+    <includes local="no">fstream</includes>
+    <includes local="no">sstream</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">string</includes>
+    <includes local="no">QColor</includes>
+    <includes local="no">QString</includes>
+    <includes refid="vector_8h" local="yes">vector.h</includes>
+    <includes refid="shape_8h" local="yes">shape.h</includes>
+    <includes refid="line_8h" local="yes">line.h</includes>
+    <includes refid="polyline_8h" local="yes">polyline.h</includes>
+    <includes refid="polygon_8h" local="yes">polygon.h</includes>
+    <includes refid="rectangle_8h" local="yes">rectangle.h</includes>
+    <includes refid="square_8h" local="yes">square.h</includes>
+    <includes refid="ellipse_8h" local="yes">ellipse.h</includes>
+    <includes refid="circle_8h" local="yes">circle.h</includes>
+    <includes refid="text_8h" local="yes">text.h</includes>
+    <includedby refid="addshape_8cpp" local="yes">Group Project/ScrumOfTheEarth/addshape.cpp</includedby>
+    <includedby refid="mainwindow_8cpp" local="yes">Group Project/ScrumOfTheEarth/mainwindow.cpp</includedby>
+    <includedby refid="shape__parser_8cpp" local="yes">Group Project/ScrumOfTheEarth/shape_parser.cpp</includedby>
+    <incdepgraph>
+      <node id="1426">
+        <label>QObject</label>
+      </node>
+      <node id="1424">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="1425" relation="include">
+        </childnode>
+        <childnode refid="1426" relation="include">
+        </childnode>
+        <childnode refid="1422" relation="include">
+        </childnode>
+      </node>
+      <node id="1431">
+        <label>rectangle.h</label>
+        <link refid="rectangle_8h"/>
+        <childnode refid="1424" relation="include">
+        </childnode>
+        <childnode refid="1422" relation="include">
+        </childnode>
+      </node>
+      <node id="1435">
+        <label>text.h</label>
+        <link refid="text_8h"/>
+        <childnode refid="1424" relation="include">
+        </childnode>
+      </node>
+      <node id="1428">
+        <label>cmath</label>
+      </node>
+      <node id="1422">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="1423" relation="include">
+        </childnode>
+      </node>
+      <node id="1419">
+        <label>string</label>
+      </node>
+      <node id="1434">
+        <label>circle.h</label>
+        <link refid="circle_8h"/>
+        <childnode refid="1424" relation="include">
+        </childnode>
+      </node>
+      <node id="1416">
+        <label>fstream</label>
+      </node>
+      <node id="1425">
+        <label>QPainter</label>
+      </node>
+      <node id="1429">
+        <label>polyline.h</label>
+        <link refid="polyline_8h"/>
+        <childnode refid="1422" relation="include">
+        </childnode>
+        <childnode refid="1424" relation="include">
+        </childnode>
+        <childnode refid="1428" relation="include">
+        </childnode>
+      </node>
+      <node id="1417">
+        <label>sstream</label>
+      </node>
+      <node id="1421">
+        <label>QString</label>
+      </node>
+      <node id="1427">
+        <label>line.h</label>
+        <link refid="line_8h"/>
+        <childnode refid="1424" relation="include">
+        </childnode>
+        <childnode refid="1428" relation="include">
+        </childnode>
+      </node>
+      <node id="1420">
+        <label>QColor</label>
+      </node>
+      <node id="1433">
+        <label>ellipse.h</label>
+        <link refid="ellipse_8h"/>
+        <childnode refid="1424" relation="include">
+        </childnode>
+        <childnode refid="1428" relation="include">
+        </childnode>
+      </node>
+      <node id="1418">
+        <label>iostream</label>
+      </node>
+      <node id="1432">
+        <label>square.h</label>
+        <link refid="square_8h"/>
+        <childnode refid="1424" relation="include">
+        </childnode>
+        <childnode refid="1422" relation="include">
+        </childnode>
+      </node>
+      <node id="1423">
+        <label>algorithm</label>
+      </node>
+      <node id="1430">
+        <label>polygon.h</label>
+        <link refid="polygon_8h"/>
+        <childnode refid="1424" relation="include">
+        </childnode>
+        <childnode refid="1422" relation="include">
+        </childnode>
+        <childnode refid="1428" relation="include">
+        </childnode>
+      </node>
+      <node id="1415">
+        <label>Group Project/ScrumOfTheEarth/shape_parser.h</label>
+        <link refid="shape_parser.h"/>
+        <childnode refid="1416" relation="include">
+        </childnode>
+        <childnode refid="1417" relation="include">
+        </childnode>
+        <childnode refid="1418" relation="include">
+        </childnode>
+        <childnode refid="1419" relation="include">
+        </childnode>
+        <childnode refid="1420" relation="include">
+        </childnode>
+        <childnode refid="1421" relation="include">
+        </childnode>
+        <childnode refid="1422" relation="include">
+        </childnode>
+        <childnode refid="1424" relation="include">
+        </childnode>
+        <childnode refid="1427" relation="include">
+        </childnode>
+        <childnode refid="1429" relation="include">
+        </childnode>
+        <childnode refid="1430" relation="include">
+        </childnode>
+        <childnode refid="1431" relation="include">
+        </childnode>
+        <childnode refid="1432" relation="include">
+        </childnode>
+        <childnode refid="1433" relation="include">
+        </childnode>
+        <childnode refid="1434" relation="include">
+        </childnode>
+        <childnode refid="1435" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1438">
+        <label>Group Project/ScrumOfTheEarth/mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+      </node>
+      <node id="1437">
+        <label>Group Project/ScrumOfTheEarth/addshape.cpp</label>
+        <link refid="addshape_8cpp"/>
+      </node>
+      <node id="1439">
+        <label>Group Project/ScrumOfTheEarth/shape_parser.cpp</label>
+        <link refid="shape__parser_8cpp"/>
+      </node>
+      <node id="1436">
+        <label>Group Project/ScrumOfTheEarth/shape_parser.h</label>
+        <link refid="shape_parser.h"/>
+        <childnode refid="1437" relation="include">
+        </childnode>
+        <childnode refid="1438" relation="include">
+        </childnode>
+        <childnode refid="1439" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="shape__parser_8h_1aff16a7903323ad4fc58e57d0041b71f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor convertColor</definition>
+        <argsstring>(const string &amp;)</argsstring>
+        <name>convertColor</name>
+        <param>
+          <type>const string &amp;</type>
+        </param>
+        <briefdescription>
+<para>convertColor converts a string to a Global color </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Qt::GlobalColor color </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_parser.h" line="29" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_parser.cpp" bodystart="451" bodyend="493"/>
+      </memberdef>
+      <memberdef kind="function" id="shape__parser_8h_1a13124250b0e7a0b9b6c068bb61694975" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Qt::PenStyle</type>
+        <definition>Qt::PenStyle convertPenStyle</definition>
+        <argsstring>(const string &amp;)</argsstring>
+        <name>convertPenStyle</name>
+        <param>
+          <type>const string &amp;</type>
+        </param>
+        <briefdescription>
+<para>convertPenStyle converts a string to a Qt::PenStyle </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>PenStyle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_parser.h" line="35" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_parser.cpp" bodystart="496" bodyend="526"/>
+      </memberdef>
+      <memberdef kind="function" id="shape__parser_8h_1a0da0910b8fe68a6609f1885a917f3991" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+        <definition>Qt::PenCapStyle convertPenCapStyle</definition>
+        <argsstring>(const string &amp;)</argsstring>
+        <name>convertPenCapStyle</name>
+        <param>
+          <type>const string &amp;</type>
+        </param>
+        <briefdescription>
+<para>convertPenCapStyle converts a string to a Qt::PenCapStyle </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>PenCapStyle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_parser.h" line="41" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_parser.cpp" bodystart="529" bodyend="547"/>
+      </memberdef>
+      <memberdef kind="function" id="shape__parser_8h_1a81e52a74d817ed2578caaa92e118ac31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+        <definition>Qt::PenJoinStyle convertPenJoinStyle</definition>
+        <argsstring>(const string &amp;)</argsstring>
+        <name>convertPenJoinStyle</name>
+        <param>
+          <type>const string &amp;</type>
+        </param>
+        <briefdescription>
+<para>convertPenJoinStyle converts a string to a Qt::PenJoinStyle  </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_parser.h" line="47" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_parser.cpp" bodystart="550" bodyend="568"/>
+      </memberdef>
+      <memberdef kind="function" id="shape__parser_8h_1a9a5c8ce3f289bcde928844d519226445" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref></type>
+        <definition>Qt::BrushStyle convertBrushStyle</definition>
+        <argsstring>(const string &amp;)</argsstring>
+        <name>convertBrushStyle</name>
+        <param>
+          <type>const string &amp;</type>
+        </param>
+        <briefdescription>
+<para>convertBrushStyle converts a string to a Qt::BrushStyle </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>BrushStyle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_parser.h" line="53" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_parser.cpp" bodystart="571" bodyend="593"/>
+      </memberdef>
+      <memberdef kind="function" id="shape__parser_8h_1a39bb592ec09a0750a290f2ac4e89bcf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Qt::AlignmentFlag</type>
+        <definition>Qt::AlignmentFlag convertAlignment</definition>
+        <argsstring>(const string &amp;)</argsstring>
+        <name>convertAlignment</name>
+        <param>
+          <type>const string &amp;</type>
+        </param>
+        <briefdescription>
+<para>convertAlignment converts a string to a Qt::AlignmentFlag </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>AlignmentFlag </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_parser.h" line="59" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_parser.cpp" bodystart="596" bodyend="618"/>
+      </memberdef>
+      <memberdef kind="function" id="shape__parser_8h_1a15e9b26d40ac42c7e60318e6aaa75e58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QFont::Style</type>
+        <definition>QFont::Style convertStyle</definition>
+        <argsstring>(const string &amp;)</argsstring>
+        <name>convertStyle</name>
+        <param>
+          <type>const string &amp;</type>
+        </param>
+        <briefdescription>
+<para>convertStyle converts a string to a QFont::Style </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>FontStyle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_parser.h" line="64" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_parser.cpp" bodystart="621" bodyend="639"/>
+      </memberdef>
+      <memberdef kind="function" id="shape__parser_8h_1a44489cc593506cc129150108ebf495a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QFont::Weight</type>
+        <definition>QFont::Weight convertWeight</definition>
+        <argsstring>(const string &amp;str)</argsstring>
+        <name>convertWeight</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>convertWeight converts a string to a QFont::Weight </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>FontWeight </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_parser.h" line="70" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_parser.cpp" bodystart="642" bodyend="660"/>
+      </memberdef>
+      <memberdef kind="function" id="shape__parser_8h_1a974d730d36b48de12f933bd6837c3945" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void shape_parser</definition>
+        <argsstring>(myStd::vector&lt; Shape * &gt; &amp;vec, const char *filename, bool &amp;ok)</argsstring>
+        <name>shape_parser</name>
+        <param>
+          <type><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector</ref>&lt; <ref refid="classShape" kindref="compound">Shape</ref> * &gt; &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>bool &amp;</type>
+          <declname>ok</declname>
+        </param>
+        <briefdescription>
+<para>Populates a vector from a given file sets a bool whether it was successful or not. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of shape pointers </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of shape to read from </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for ok status </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape_parser.h" line="78" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_parser.cpp" bodystart="5" bodyend="449"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="2"><highlight class="preprocessor">#ifndef<sp/>SHAPE_PARSER_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SHAPE_PARSER_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QColor&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QString&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vector_8h" kindref="compound">vector.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="shape_8h" kindref="compound">shape.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="line_8h" kindref="compound">line.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="polyline_8h" kindref="compound">polyline.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="polygon_8h" kindref="compound">polygon.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="rectangle_8h" kindref="compound">rectangle.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="square_8h" kindref="compound">square.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="ellipse_8h" kindref="compound">ellipse.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="circle_8h" kindref="compound">circle.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="text_8h" kindref="compound">text.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">Qt::GlobalColor<sp/><ref refid="shape__parser_8h_1aff16a7903323ad4fc58e57d0041b71f8" kindref="member">convertColor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&amp;);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">Qt::PenStyle<sp/><ref refid="shape__parser_8h_1a13124250b0e7a0b9b6c068bb61694975" kindref="member">convertPenStyle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&amp;);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/><ref refid="shape__parser_8h_1a0da0910b8fe68a6609f1885a917f3991" kindref="member">convertPenCapStyle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&amp;);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/><ref refid="shape__parser_8h_1a81e52a74d817ed2578caaa92e118ac31" kindref="member">convertPenJoinStyle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&amp;);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref><sp/><ref refid="shape__parser_8h_1a9a5c8ce3f289bcde928844d519226445" kindref="member">convertBrushStyle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">Qt::AlignmentFlag<sp/><ref refid="shape__parser_8h_1a39bb592ec09a0750a290f2ac4e89bcf0" kindref="member">convertAlignment</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">QFont::Style<sp/><ref refid="shape__parser_8h_1a15e9b26d40ac42c7e60318e6aaa75e58" kindref="member">convertStyle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">QFont::Weight<sp/><ref refid="shape__parser_8h_1a44489cc593506cc129150108ebf495a7" kindref="member">convertWeight</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;str);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="shape__parser_8h_1a974d730d36b48de12f933bd6837c3945" kindref="member">shape_parser</ref>(<ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;Shape*&gt;</ref>&amp;<sp/>vec,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>filename,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>&amp;ok);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SHAPE_PARSER_H</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/shape_parser.h"/>
+  </compounddef>
+</doxygen>

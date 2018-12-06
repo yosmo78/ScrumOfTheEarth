@@ -1,0 +1,69 @@
+\hypertarget{pop__table_8cpp}{}\section{Group Project/\+Scrum\+Of\+The\+Earth/pop\+\_\+table.cpp File Reference}
+\label{pop__table_8cpp}\index{Group Project/\+Scrum\+Of\+The\+Earth/pop\+\_\+table.\+cpp@{Group Project/\+Scrum\+Of\+The\+Earth/pop\+\_\+table.\+cpp}}
+{\ttfamily \#include \char`\"{}pop\+\_\+table.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}square.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}rectangle.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}circle.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ellipse.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}text.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}line.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}polyline.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}polygon.\+h\char`\"{}}\\*
+{\ttfamily \#include $<$Q\+String$>$}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$string$>$}\\*
+Include dependency graph for pop\+\_\+table.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{pop__table_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{pop__table_8cpp_ada07240decd2206bb697cd31dd579839}{pop\+\_\+\+Atable} (Q\+Table\+Widget $\ast$tble, \hyperlink{classmyStd_1_1vector}{my\+Std\+::vector}$<$ \hyperlink{classShape}{Shape} $\ast$ $>$ vec)
+\begin{DoxyCompactList}\small\item\em pop\+\_\+\+Atable populates a given table with shape types, ids, and areas from a vector of \hyperlink{classShape}{Shape} pointers \end{DoxyCompactList}\item 
+void \hyperlink{pop__table_8cpp_ad8d8a27f7ccd50e0c6c9173f37c2b8fd}{pop\+\_\+\+Ptable} (Q\+Table\+Widget $\ast$tble, \hyperlink{classmyStd_1_1vector}{my\+Std\+::vector}$<$ \hyperlink{classShape}{Shape} $\ast$ $>$ vec)
+\begin{DoxyCompactList}\small\item\em pop\+\_\+\+Ptable populates a given table with shape types, ids, and perimeters from a vector of \hyperlink{classShape}{Shape} pointers \end{DoxyCompactList}\item 
+void \hyperlink{pop__table_8cpp_a7e4b678b55853077d6514112c661d121}{fill\+\_\+table} (Q\+Table\+Widget $\ast$tble, \hyperlink{classmyStd_1_1vector}{my\+Std\+::vector}$<$ \hyperlink{classShape}{Shape} $\ast$ $>$ vec)
+\begin{DoxyCompactList}\small\item\em fill\+\_\+table populates a given table with all aspects of the Shapes form a vector of \hyperlink{classShape}{Shape} pointers \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{pop\+\_\+table.\+cpp@{pop\+\_\+table.\+cpp}!fill\+\_\+table@{fill\+\_\+table}}
+\index{fill\+\_\+table@{fill\+\_\+table}!pop\+\_\+table.\+cpp@{pop\+\_\+table.\+cpp}}
+\subsubsection[{\texorpdfstring{fill\+\_\+table(\+Q\+Table\+Widget $\ast$tble, my\+Std\+::vector$<$ Shape $\ast$ $>$ vec)}{fill_table(QTableWidget *tble, myStd::vector< Shape * > vec)}}]{\setlength{\rightskip}{0pt plus 5cm}void fill\+\_\+table (
+\begin{DoxyParamCaption}
+\item[{Q\+Table\+Widget $\ast$}]{tble, }
+\item[{{\bf my\+Std\+::vector}$<$ {\bf Shape} $\ast$ $>$}]{vec}
+\end{DoxyParamCaption}
+)}\hypertarget{pop__table_8cpp_a7e4b678b55853077d6514112c661d121}{}\label{pop__table_8cpp_a7e4b678b55853077d6514112c661d121}
+
+
+fill\+\_\+table populates a given table with all aspects of the Shapes form a vector of \hyperlink{classShape}{Shape} pointers 
+
+\index{pop\+\_\+table.\+cpp@{pop\+\_\+table.\+cpp}!pop\+\_\+\+Atable@{pop\+\_\+\+Atable}}
+\index{pop\+\_\+\+Atable@{pop\+\_\+\+Atable}!pop\+\_\+table.\+cpp@{pop\+\_\+table.\+cpp}}
+\subsubsection[{\texorpdfstring{pop\+\_\+\+Atable(\+Q\+Table\+Widget $\ast$tble, my\+Std\+::vector$<$ Shape $\ast$ $>$ vec)}{pop_Atable(QTableWidget *tble, myStd::vector< Shape * > vec)}}]{\setlength{\rightskip}{0pt plus 5cm}void pop\+\_\+\+Atable (
+\begin{DoxyParamCaption}
+\item[{Q\+Table\+Widget $\ast$}]{tble, }
+\item[{{\bf my\+Std\+::vector}$<$ {\bf Shape} $\ast$ $>$}]{vec}
+\end{DoxyParamCaption}
+)}\hypertarget{pop__table_8cpp_ada07240decd2206bb697cd31dd579839}{}\label{pop__table_8cpp_ada07240decd2206bb697cd31dd579839}
+
+
+pop\+\_\+\+Atable populates a given table with shape types, ids, and areas from a vector of \hyperlink{classShape}{Shape} pointers 
+
+\index{pop\+\_\+table.\+cpp@{pop\+\_\+table.\+cpp}!pop\+\_\+\+Ptable@{pop\+\_\+\+Ptable}}
+\index{pop\+\_\+\+Ptable@{pop\+\_\+\+Ptable}!pop\+\_\+table.\+cpp@{pop\+\_\+table.\+cpp}}
+\subsubsection[{\texorpdfstring{pop\+\_\+\+Ptable(\+Q\+Table\+Widget $\ast$tble, my\+Std\+::vector$<$ Shape $\ast$ $>$ vec)}{pop_Ptable(QTableWidget *tble, myStd::vector< Shape * > vec)}}]{\setlength{\rightskip}{0pt plus 5cm}void pop\+\_\+\+Ptable (
+\begin{DoxyParamCaption}
+\item[{Q\+Table\+Widget $\ast$}]{tble, }
+\item[{{\bf my\+Std\+::vector}$<$ {\bf Shape} $\ast$ $>$}]{vec}
+\end{DoxyParamCaption}
+)}\hypertarget{pop__table_8cpp_ad8d8a27f7ccd50e0c6c9173f37c2b8fd}{}\label{pop__table_8cpp_ad8d8a27f7ccd50e0c6c9173f37c2b8fd}
+
+
+pop\+\_\+\+Ptable populates a given table with shape types, ids, and perimeters from a vector of \hyperlink{classShape}{Shape} pointers 
+

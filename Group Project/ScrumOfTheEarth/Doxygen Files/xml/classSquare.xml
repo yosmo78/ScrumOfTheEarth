@@ -1,0 +1,701 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classSquare" kind="class" language="C++" prot="public">
+    <compoundname>Square</compoundname>
+    <basecompoundref refid="classShape" prot="public" virt="non-virtual">Shape</basecompoundref>
+    <includes refid="square_8h" local="no">square.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSquare_1acd8262747a4bf85cbeccd97692bb0af7" prot="private" static="no" mutable="no">
+        <type>QPoint</type>
+        <definition>QPoint Square::CornerPoint</definition>
+        <argsstring></argsstring>
+        <name>CornerPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="131" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSquare_1adb73a47a09f9244a20c7c35b25c6c51e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Square::length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="132" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSquare_1a555dcdbdb0279fcf3f23d0d73cc3e6d0" prot="private" static="no" mutable="no">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Square::penColor</definition>
+        <argsstring></argsstring>
+        <name>penColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="133" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSquare_1a28f44ed753615934d78600879a80c1fa" prot="private" static="no" mutable="no">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Square::brushColor</definition>
+        <argsstring></argsstring>
+        <name>brushColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="134" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSquare_1a879eb2491be0f9d06e385e8ea1962404" prot="private" static="no" mutable="no">
+        <type>Qt::PenStyle</type>
+        <definition>Qt::PenStyle Square::penStyle</definition>
+        <argsstring></argsstring>
+        <name>penStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="135" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSquare_1ae04b6750dc46fc1eccd07e8e8c63d5ad" prot="private" static="no" mutable="no">
+        <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+        <definition>Qt::PenCapStyle Square::penCapStyle</definition>
+        <argsstring></argsstring>
+        <name>penCapStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="136" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSquare_1a4225ea38b2769692eefc2fcc20c30477" prot="private" static="no" mutable="no">
+        <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+        <definition>Qt::PenJoinStyle Square::penJoinStyle</definition>
+        <argsstring></argsstring>
+        <name>penJoinStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="137" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSquare_1a672aaa6ed4c09366ee118dad13f734f4" prot="private" static="no" mutable="no">
+        <type><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref></type>
+        <definition>Qt::BrushStyle Square::brushStyle</definition>
+        <argsstring></argsstring>
+        <name>brushStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="138" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSquare_1a91870e51c5d64786fdad820cf8baf350" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Square::penWidth</definition>
+        <argsstring></argsstring>
+        <name>penWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="139" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSquare_1a2a877745d97b47cef1bb9473b183b074" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Square::Square</definition>
+        <argsstring>(unsigned int, int, int, int, Qt::GlobalColor, Qt::GlobalColor, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle, Qt::BrushStyle, int)</argsstring>
+        <name>Square</name>
+        <param>
+          <type>unsigned</type>
+          <declname>int</declname>
+          <defname>i</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>y</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>l</defname>
+        </param>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <defname>pc</defname>
+        </param>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <defname>bc</defname>
+        </param>
+        <param>
+          <type>Qt::PenStyle</type>
+          <defname>ps</defname>
+        </param>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+          <defname>pcs</defname>
+        </param>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+          <defname>pjs</defname>
+        </param>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref></type>
+          <defname>bs</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>pw</defname>
+        </param>
+        <briefdescription>
+<para><ref refid="classSquare" kindref="compound">Square</ref> all parameter constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="17" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.cpp" bodystart="4" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1a2fdd4544900c08c881c4bf4effe0b974" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QPoint</type>
+        <definition>QPoint Square::getCornerPoint</definition>
+        <argsstring>()</argsstring>
+        <name>getCornerPoint</name>
+        <briefdescription>
+<para>Gets the corner point of the square. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>QPoint of the top left corner </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="22" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1acfd205cb2fe02845e3ece8c9a1244943" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Square::setCornerPoint</definition>
+        <argsstring>(QPoint p1)</argsstring>
+        <name>setCornerPoint</name>
+        <param>
+          <type>QPoint</type>
+          <declname>p1</declname>
+        </param>
+        <briefdescription>
+<para>Sets the corner point of the square to the given point. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>QPoint of top left corner </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="27" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1a6d8a8d8ec4383ebefe4c274f189c6a79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Square::getLength</definition>
+        <argsstring>()</argsstring>
+        <name>getLength</name>
+        <briefdescription>
+<para>Gets the length of the square. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int length of square </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="32" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1a6a04c5639dc3cd6501a1d80ad54f4171" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Square::setLength</definition>
+        <argsstring>(int l)</argsstring>
+        <name>setLength</name>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+<para>Sets the length of the square. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>l</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>length of square </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="37" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1a8e9f690383213cb901883ba0fd008818" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Square::getPenColor</definition>
+        <argsstring>()</argsstring>
+        <name>getPenColor</name>
+        <briefdescription>
+<para>Gets the pen color stored in this shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Color of the pen </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="42" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1a8f504b5de9fc6cbc7aedc90c6559cb58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Qt::GlobalColor</type>
+        <definition>Qt::GlobalColor Square::getBrushColor</definition>
+        <argsstring>()</argsstring>
+        <name>getBrushColor</name>
+        <briefdescription>
+<para>Gets the Brush color stored in the <ref refid="classShape" kindref="compound">Shape</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Color of the Brush </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="48" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1aea0a3ccc55caacf339d9270d102b75c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Square::setPenColor</definition>
+        <argsstring>(Qt::GlobalColor pc)</argsstring>
+        <name>setPenColor</name>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <declname>pc</declname>
+        </param>
+        <briefdescription>
+<para>Sets the color of the pen to the given color. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="54" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1ad649b56a35dba222144299a0a4e90483" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Square::setBrushColor</definition>
+        <argsstring>(Qt::GlobalColor bc)</argsstring>
+        <name>setBrushColor</name>
+        <param>
+          <type>Qt::GlobalColor</type>
+          <declname>bc</declname>
+        </param>
+        <briefdescription>
+<para>Sets the color of the Brush to the given color. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>brushColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="60" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1a8acc57d1601adeb0800648799fc8beae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Qt::PenStyle</type>
+        <definition>Qt::PenStyle Square::getPenStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getPenStyle</name>
+        <briefdescription>
+<para>Gets the style of the pen stored in the shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Style of the pen </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="66" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1a912efb5a33db0a697a275fccedf69523" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Square::setPenStyle</definition>
+        <argsstring>(Qt::PenStyle ps)</argsstring>
+        <name>setPenStyle</name>
+        <param>
+          <type>Qt::PenStyle</type>
+          <declname>ps</declname>
+        </param>
+        <briefdescription>
+<para>Sets the style of the pen to the given style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="72" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1a3b91e8b3b03d2a6125836a5477cfc9be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+        <definition>Qt::PenCapStyle Square::getPenCapStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getPenCapStyle</name>
+        <briefdescription>
+<para>Gets the pen cap style that is stored in this <ref refid="classShape" kindref="compound">Shape</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>PenCapStyle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="78" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1a5b9e32153640bdb937b1140f1c45083e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Square::setPenCapStyle</definition>
+        <argsstring>(Qt::PenCapStyle pcs)</argsstring>
+        <name>setPenCapStyle</name>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref></type>
+          <declname>pcs</declname>
+        </param>
+        <briefdescription>
+<para>Sets the Pen Cap Style to the given Pen Cap Style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penCapStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="84" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1a6fd69d97012e009ffea95e457f3a845e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+        <definition>Qt::PenJoinStyle Square::getPenJoinStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getPenJoinStyle</name>
+        <briefdescription>
+<para>Gets the Pen Join Style. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>PenJoinStyle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="90" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1a51ebefc5fc56435612188060b6088bd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Square::setPenJoinStyle</definition>
+        <argsstring>(Qt::PenJoinStyle pjs)</argsstring>
+        <name>setPenJoinStyle</name>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref></type>
+          <declname>pjs</declname>
+        </param>
+        <briefdescription>
+<para>Sets the pen join style to the given style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penJoinStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="96" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1a63e121e72afaba2766f24a0d8816974f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref></type>
+        <definition>Qt::BrushStyle Square::getBrushStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getBrushStyle</name>
+        <briefdescription>
+<para>Gets the Brush Style. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>BrushStyle </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="102" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1aec04ffe7d0b567be4a7221013add1d6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Square::setBrushStyle</definition>
+        <argsstring>(Qt::BrushStyle bs)</argsstring>
+        <name>setBrushStyle</name>
+        <param>
+          <type><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref></type>
+          <declname>bs</declname>
+        </param>
+        <briefdescription>
+<para>Sets the Brush Style to the given Brush Style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>brushStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="108" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1ac6b3bedb6d43e5059840221331d802fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Square::getPenWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getPenWidth</name>
+        <briefdescription>
+<para>Gets the width of the pen. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>penWidth </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="114" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1a26697e2c607e6cbda21a63e0f292e5e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Square::setPenWidth</definition>
+        <argsstring>(int pw)</argsstring>
+        <name>setPenWidth</name>
+        <param>
+          <type>int</type>
+          <declname>pw</declname>
+        </param>
+        <briefdescription>
+<para>Sets the width of the pen to the given width. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>penWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="120" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1acea142797dc1540a4fea5d343b7f1e82" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Square::draw</definition>
+        <argsstring>(QPainter &amp;, bool)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classShape_1a47dae32819e64fb32f3357f31978293f">draw</reimplements>
+        <param>
+          <type>QPainter &amp;</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+<para>Virtual function to draw shapes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="121" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.cpp" bodystart="7" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1a1d225d79fc799bc98f9ad4d23e33a7d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int Square::getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <reimplements refid="classShape_1a3d15adf2a1d746928f9be98105096eda">getType</reimplements>
+        <briefdescription>
+<para>Gets the type of the shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>type as an int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="122" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1a9a97feb159f85721b661b10ace6a8b3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>virtual double Square::getArea</definition>
+        <argsstring>()</argsstring>
+        <name>getArea</name>
+        <reimplements refid="classShape_1ac29f8bce0d038c84470028c6819a79ab">getArea</reimplements>
+        <briefdescription>
+<para>Gets the area of the given shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Area as a double </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="128" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classSquare_1ae1d360c45a7970da83c3ad2acbf81dc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>virtual double Square::getPerimeter</definition>
+        <argsstring>()</argsstring>
+        <name>getPerimeter</name>
+        <reimplements refid="classShape_1a391744b6bce96df044139dcbd1ae0aa8">getPerimeter</reimplements>
+        <briefdescription>
+<para>Gets the perimeter of the given shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Perimeter as a double </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="129" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="129" bodyend="129"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classSquare_1a5d6e510d07f465fefdd1cdbbd041db2f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Square::getStaticType</definition>
+        <argsstring>()</argsstring>
+        <name>getStaticType</name>
+        <briefdescription>
+<para>gets the Type of object </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Type as int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/square.h" line="127" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="127" bodyend="127"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classSquare" kindref="compound">Square</ref> class that QPainter can draw. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="158">
+        <label>QObject</label>
+      </node>
+      <node id="156">
+        <label>Square</label>
+        <link refid="classSquare"/>
+        <childnode refid="157" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="157">
+        <label>Shape</label>
+        <link refid="classShape"/>
+        <childnode refid="158" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="161">
+        <label>QObject</label>
+      </node>
+      <node id="159">
+        <label>Square</label>
+        <link refid="classSquare"/>
+        <childnode refid="160" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="160">
+        <label>Shape</label>
+        <link refid="classShape"/>
+        <childnode refid="161" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Group Project/ScrumOfTheEarth/square.h" line="10" column="1" bodyfile="Group Project/ScrumOfTheEarth/square.h" bodystart="9" bodyend="140"/>
+    <listofallmembers>
+      <member refid="classSquare_1a28f44ed753615934d78600879a80c1fa" prot="private" virt="non-virtual"><scope>Square</scope><name>brushColor</name></member>
+      <member refid="classSquare_1a672aaa6ed4c09366ee118dad13f734f4" prot="private" virt="non-virtual"><scope>Square</scope><name>brushStyle</name></member>
+      <member refid="classSquare_1acd8262747a4bf85cbeccd97692bb0af7" prot="private" virt="non-virtual"><scope>Square</scope><name>CornerPoint</name></member>
+      <member refid="classSquare_1acea142797dc1540a4fea5d343b7f1e82" prot="public" virt="virtual"><scope>Square</scope><name>draw</name></member>
+      <member refid="classSquare_1a9a97feb159f85721b661b10ace6a8b3b" prot="public" virt="virtual"><scope>Square</scope><name>getArea</name></member>
+      <member refid="classSquare_1a8f504b5de9fc6cbc7aedc90c6559cb58" prot="public" virt="non-virtual"><scope>Square</scope><name>getBrushColor</name></member>
+      <member refid="classSquare_1a63e121e72afaba2766f24a0d8816974f" prot="public" virt="non-virtual"><scope>Square</scope><name>getBrushStyle</name></member>
+      <member refid="classSquare_1a2fdd4544900c08c881c4bf4effe0b974" prot="public" virt="non-virtual"><scope>Square</scope><name>getCornerPoint</name></member>
+      <member refid="classSquare_1a6d8a8d8ec4383ebefe4c274f189c6a79" prot="public" virt="non-virtual"><scope>Square</scope><name>getLength</name></member>
+      <member refid="classSquare_1a3b91e8b3b03d2a6125836a5477cfc9be" prot="public" virt="non-virtual"><scope>Square</scope><name>getPenCapStyle</name></member>
+      <member refid="classSquare_1a8e9f690383213cb901883ba0fd008818" prot="public" virt="non-virtual"><scope>Square</scope><name>getPenColor</name></member>
+      <member refid="classSquare_1a6fd69d97012e009ffea95e457f3a845e" prot="public" virt="non-virtual"><scope>Square</scope><name>getPenJoinStyle</name></member>
+      <member refid="classSquare_1a8acc57d1601adeb0800648799fc8beae" prot="public" virt="non-virtual"><scope>Square</scope><name>getPenStyle</name></member>
+      <member refid="classSquare_1ac6b3bedb6d43e5059840221331d802fd" prot="public" virt="non-virtual"><scope>Square</scope><name>getPenWidth</name></member>
+      <member refid="classSquare_1ae1d360c45a7970da83c3ad2acbf81dc2" prot="public" virt="virtual"><scope>Square</scope><name>getPerimeter</name></member>
+      <member refid="classShape_1a3ac221427e91b0acc53a2f3764a8f01b" prot="public" virt="non-virtual"><scope>Square</scope><name>getShapeId</name></member>
+      <member refid="classSquare_1a5d6e510d07f465fefdd1cdbbd041db2f" prot="public" virt="non-virtual"><scope>Square</scope><name>getStaticType</name></member>
+      <member refid="classSquare_1a1d225d79fc799bc98f9ad4d23e33a7d2" prot="public" virt="virtual"><scope>Square</scope><name>getType</name></member>
+      <member refid="classSquare_1adb73a47a09f9244a20c7c35b25c6c51e" prot="private" virt="non-virtual"><scope>Square</scope><name>length</name></member>
+      <member refid="classShape_1a0d2732ef366fa236a534351f6a0d96e5" prot="public" virt="non-virtual"><scope>Square</scope><name>operator&lt;</name></member>
+      <member refid="classShape_1a9b9942917d6e6c359a8751156ed52423" prot="public" virt="non-virtual"><scope>Square</scope><name>operator=</name></member>
+      <member refid="classShape_1a1e81a927f61ea4d12daafc1d9295e00a" prot="public" virt="non-virtual"><scope>Square</scope><name>operator==</name></member>
+      <member refid="classSquare_1ae04b6750dc46fc1eccd07e8e8c63d5ad" prot="private" virt="non-virtual"><scope>Square</scope><name>penCapStyle</name></member>
+      <member refid="classSquare_1a555dcdbdb0279fcf3f23d0d73cc3e6d0" prot="private" virt="non-virtual"><scope>Square</scope><name>penColor</name></member>
+      <member refid="classSquare_1a4225ea38b2769692eefc2fcc20c30477" prot="private" virt="non-virtual"><scope>Square</scope><name>penJoinStyle</name></member>
+      <member refid="classSquare_1a879eb2491be0f9d06e385e8ea1962404" prot="private" virt="non-virtual"><scope>Square</scope><name>penStyle</name></member>
+      <member refid="classSquare_1a91870e51c5d64786fdad820cf8baf350" prot="private" virt="non-virtual"><scope>Square</scope><name>penWidth</name></member>
+      <member refid="classSquare_1ad649b56a35dba222144299a0a4e90483" prot="public" virt="non-virtual"><scope>Square</scope><name>setBrushColor</name></member>
+      <member refid="classSquare_1aec04ffe7d0b567be4a7221013add1d6d" prot="public" virt="non-virtual"><scope>Square</scope><name>setBrushStyle</name></member>
+      <member refid="classSquare_1acfd205cb2fe02845e3ece8c9a1244943" prot="public" virt="non-virtual"><scope>Square</scope><name>setCornerPoint</name></member>
+      <member refid="classSquare_1a6a04c5639dc3cd6501a1d80ad54f4171" prot="public" virt="non-virtual"><scope>Square</scope><name>setLength</name></member>
+      <member refid="classSquare_1a5b9e32153640bdb937b1140f1c45083e" prot="public" virt="non-virtual"><scope>Square</scope><name>setPenCapStyle</name></member>
+      <member refid="classSquare_1aea0a3ccc55caacf339d9270d102b75c8" prot="public" virt="non-virtual"><scope>Square</scope><name>setPenColor</name></member>
+      <member refid="classSquare_1a51ebefc5fc56435612188060b6088bd7" prot="public" virt="non-virtual"><scope>Square</scope><name>setPenJoinStyle</name></member>
+      <member refid="classSquare_1a912efb5a33db0a697a275fccedf69523" prot="public" virt="non-virtual"><scope>Square</scope><name>setPenStyle</name></member>
+      <member refid="classSquare_1a26697e2c607e6cbda21a63e0f292e5e6" prot="public" virt="non-virtual"><scope>Square</scope><name>setPenWidth</name></member>
+      <member refid="classShape_1a95f42a7833e43572d684455c2ee232ec" prot="public" virt="non-virtual"><scope>Square</scope><name>setShapeId</name></member>
+      <member refid="classShape_1a3bb93456832521010106172a095e22ca" prot="public" virt="non-virtual"><scope>Square</scope><name>Shape</name></member>
+      <member refid="classShape_1a44d91c7621d4d7af60fe3320a2e07279" prot="public" virt="non-virtual"><scope>Square</scope><name>Shape</name></member>
+      <member refid="classSquare_1a2a877745d97b47cef1bb9473b183b074" prot="public" virt="non-virtual"><scope>Square</scope><name>Square</name></member>
+      <member refid="classShape_1ac3b9fc48965274893f25b18aa14ba665" prot="public" virt="virtual"><scope>Square</scope><name>~Shape</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

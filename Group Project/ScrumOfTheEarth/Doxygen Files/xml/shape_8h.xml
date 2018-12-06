@@ -1,0 +1,462 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="shape_8h" kind="file" language="C++">
+    <compoundname>shape.h</compoundname>
+    <includes local="no">QPainter</includes>
+    <includes local="no">QObject</includes>
+    <includes refid="vector_8h" local="yes">vector.h</includes>
+    <includedby refid="addshape_8h" local="yes">Group Project/ScrumOfTheEarth/addshape.h</includedby>
+    <includedby refid="shape__parser_8h" local="yes">Group Project/ScrumOfTheEarth/shape_parser.h</includedby>
+    <includedby refid="line_8h" local="yes">Group Project/ScrumOfTheEarth/line.h</includedby>
+    <includedby refid="polyline_8h" local="yes">Group Project/ScrumOfTheEarth/polyline.h</includedby>
+    <includedby refid="polygon_8h" local="yes">Group Project/ScrumOfTheEarth/polygon.h</includedby>
+    <includedby refid="rectangle_8h" local="yes">Group Project/ScrumOfTheEarth/rectangle.h</includedby>
+    <includedby refid="square_8h" local="yes">Group Project/ScrumOfTheEarth/square.h</includedby>
+    <includedby refid="ellipse_8h" local="yes">Group Project/ScrumOfTheEarth/ellipse.h</includedby>
+    <includedby refid="circle_8h" local="yes">Group Project/ScrumOfTheEarth/circle.h</includedby>
+    <includedby refid="text_8h" local="yes">Group Project/ScrumOfTheEarth/text.h</includedby>
+    <includedby refid="moveshape_8h" local="yes">Group Project/ScrumOfTheEarth/moveshape.h</includedby>
+    <includedby refid="delete__zeros_8h" local="yes">Group Project/ScrumOfTheEarth/delete_zeros.h</includedby>
+    <includedby refid="mainwindow_8cpp" local="yes">Group Project/ScrumOfTheEarth/mainwindow.cpp</includedby>
+    <includedby refid="searchandcompare_8h" local="yes">Group Project/ScrumOfTheEarth/searchandcompare.h</includedby>
+    <includedby refid="pop__table_8h" local="yes">Group Project/ScrumOfTheEarth/pop_table.h</includedby>
+    <includedby refid="renderarea_8h" local="yes">Group Project/ScrumOfTheEarth/renderarea.h</includedby>
+    <includedby refid="shape__saver_8cpp" local="yes">Group Project/ScrumOfTheEarth/shape_saver.cpp</includedby>
+    <incdepgraph>
+      <node id="1349">
+        <label>QObject</label>
+      </node>
+      <node id="1347">
+        <label>Group Project/ScrumOfTheEarth/shape.h</label>
+        <link refid="shape.h"/>
+        <childnode refid="1348" relation="include">
+        </childnode>
+        <childnode refid="1349" relation="include">
+        </childnode>
+        <childnode refid="1350" relation="include">
+        </childnode>
+      </node>
+      <node id="1350">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="1351" relation="include">
+        </childnode>
+      </node>
+      <node id="1348">
+        <label>QPainter</label>
+      </node>
+      <node id="1351">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1365">
+        <label>Group Project/ScrumOfTheEarth/moveshape.h</label>
+        <link refid="moveshape_8h"/>
+        <childnode refid="1355" relation="include">
+        </childnode>
+        <childnode refid="1366" relation="include">
+        </childnode>
+      </node>
+      <node id="1375">
+        <label>Group Project/ScrumOfTheEarth/rectangle.cpp</label>
+        <link refid="rectangle_8cpp"/>
+      </node>
+      <node id="1388">
+        <label>Group Project/ScrumOfTheEarth/pop_table.h</label>
+        <link refid="pop__table_8h"/>
+        <childnode refid="1361" relation="include">
+        </childnode>
+        <childnode refid="1368" relation="include">
+        </childnode>
+      </node>
+      <node id="1381">
+        <label>Group Project/ScrumOfTheEarth/circle.cpp</label>
+        <link refid="circle_8cpp"/>
+      </node>
+      <node id="1371">
+        <label>Group Project/ScrumOfTheEarth/polyline.cpp</label>
+        <link refid="polyline_8cpp"/>
+      </node>
+      <node id="1352">
+        <label>Group Project/ScrumOfTheEarth/shape.h</label>
+        <link refid="shape.h"/>
+        <childnode refid="1353" relation="include">
+        </childnode>
+        <childnode refid="1362" relation="include">
+        </childnode>
+        <childnode refid="1364" relation="include">
+        </childnode>
+        <childnode refid="1370" relation="include">
+        </childnode>
+        <childnode refid="1372" relation="include">
+        </childnode>
+        <childnode refid="1374" relation="include">
+        </childnode>
+        <childnode refid="1376" relation="include">
+        </childnode>
+        <childnode refid="1378" relation="include">
+        </childnode>
+        <childnode refid="1380" relation="include">
+        </childnode>
+        <childnode refid="1382" relation="include">
+        </childnode>
+        <childnode refid="1365" relation="include">
+        </childnode>
+        <childnode refid="1384" relation="include">
+        </childnode>
+        <childnode refid="1361" relation="include">
+        </childnode>
+        <childnode refid="1386" relation="include">
+        </childnode>
+        <childnode refid="1388" relation="include">
+        </childnode>
+        <childnode refid="1389" relation="include">
+        </childnode>
+        <childnode refid="1369" relation="include">
+        </childnode>
+      </node>
+      <node id="1374">
+        <label>Group Project/ScrumOfTheEarth/rectangle.h</label>
+        <link refid="rectangle_8h"/>
+        <childnode refid="1362" relation="include">
+        </childnode>
+        <childnode refid="1365" relation="include">
+        </childnode>
+        <childnode refid="1368" relation="include">
+        </childnode>
+        <childnode refid="1375" relation="include">
+        </childnode>
+        <childnode refid="1369" relation="include">
+        </childnode>
+      </node>
+      <node id="1382">
+        <label>Group Project/ScrumOfTheEarth/text.h</label>
+        <link refid="text_8h"/>
+        <childnode refid="1362" relation="include">
+        </childnode>
+        <childnode refid="1365" relation="include">
+        </childnode>
+        <childnode refid="1368" relation="include">
+        </childnode>
+        <childnode refid="1369" relation="include">
+        </childnode>
+        <childnode refid="1383" relation="include">
+        </childnode>
+      </node>
+      <node id="1387">
+        <label>Group Project/ScrumOfTheEarth/searchandcompare.cpp</label>
+        <link refid="searchandcompare_8cpp"/>
+      </node>
+      <node id="1361">
+        <label>Group Project/ScrumOfTheEarth/mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+      </node>
+      <node id="1366">
+        <label>Group Project/ScrumOfTheEarth/moveshape.cpp</label>
+        <link refid="moveshape_8cpp"/>
+      </node>
+      <node id="1359">
+        <label>Group Project/ScrumOfTheEarth/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="1360">
+        <label>Group Project/ScrumOfTheEarth/window.cpp</label>
+        <link refid="window_8cpp"/>
+      </node>
+      <node id="1380">
+        <label>Group Project/ScrumOfTheEarth/circle.h</label>
+        <link refid="circle_8h"/>
+        <childnode refid="1362" relation="include">
+        </childnode>
+        <childnode refid="1365" relation="include">
+        </childnode>
+        <childnode refid="1381" relation="include">
+        </childnode>
+        <childnode refid="1361" relation="include">
+        </childnode>
+        <childnode refid="1368" relation="include">
+        </childnode>
+        <childnode refid="1369" relation="include">
+        </childnode>
+      </node>
+      <node id="1354">
+        <label>Group Project/ScrumOfTheEarth/addshape.cpp</label>
+        <link refid="addshape_8cpp"/>
+      </node>
+      <node id="1377">
+        <label>Group Project/ScrumOfTheEarth/square.cpp</label>
+        <link refid="square_8cpp"/>
+      </node>
+      <node id="1385">
+        <label>Group Project/ScrumOfTheEarth/delete_zeros.cpp</label>
+        <link refid="delete__zeros_8cpp"/>
+      </node>
+      <node id="1367">
+        <label>Group Project/ScrumOfTheEarth/line.cpp</label>
+        <link refid="line_8cpp"/>
+      </node>
+      <node id="1368">
+        <label>Group Project/ScrumOfTheEarth/pop_table.cpp</label>
+        <link refid="pop__table_8cpp"/>
+      </node>
+      <node id="1384">
+        <label>Group Project/ScrumOfTheEarth/delete_zeros.h</label>
+        <link refid="delete__zeros_8h"/>
+        <childnode refid="1385" relation="include">
+        </childnode>
+        <childnode refid="1361" relation="include">
+        </childnode>
+      </node>
+      <node id="1370">
+        <label>Group Project/ScrumOfTheEarth/polyline.h</label>
+        <link refid="polyline_8h"/>
+        <childnode refid="1362" relation="include">
+        </childnode>
+        <childnode refid="1365" relation="include">
+        </childnode>
+        <childnode refid="1361" relation="include">
+        </childnode>
+        <childnode refid="1371" relation="include">
+        </childnode>
+        <childnode refid="1368" relation="include">
+        </childnode>
+        <childnode refid="1369" relation="include">
+        </childnode>
+      </node>
+      <node id="1364">
+        <label>Group Project/ScrumOfTheEarth/line.h</label>
+        <link refid="line_8h"/>
+        <childnode refid="1362" relation="include">
+        </childnode>
+        <childnode refid="1365" relation="include">
+        </childnode>
+        <childnode refid="1367" relation="include">
+        </childnode>
+        <childnode refid="1361" relation="include">
+        </childnode>
+        <childnode refid="1368" relation="include">
+        </childnode>
+        <childnode refid="1369" relation="include">
+        </childnode>
+      </node>
+      <node id="1378">
+        <label>Group Project/ScrumOfTheEarth/ellipse.h</label>
+        <link refid="ellipse_8h"/>
+        <childnode refid="1362" relation="include">
+        </childnode>
+        <childnode refid="1365" relation="include">
+        </childnode>
+        <childnode refid="1379" relation="include">
+        </childnode>
+        <childnode refid="1361" relation="include">
+        </childnode>
+        <childnode refid="1368" relation="include">
+        </childnode>
+        <childnode refid="1369" relation="include">
+        </childnode>
+      </node>
+      <node id="1379">
+        <label>Group Project/ScrumOfTheEarth/ellipse.cpp</label>
+        <link refid="ellipse_8cpp"/>
+      </node>
+      <node id="1357">
+        <label>Group Project/ScrumOfTheEarth/admin_check.cpp</label>
+        <link refid="admin__check_8cpp"/>
+      </node>
+      <node id="1376">
+        <label>Group Project/ScrumOfTheEarth/square.h</label>
+        <link refid="square_8h"/>
+        <childnode refid="1362" relation="include">
+        </childnode>
+        <childnode refid="1365" relation="include">
+        </childnode>
+        <childnode refid="1361" relation="include">
+        </childnode>
+        <childnode refid="1368" relation="include">
+        </childnode>
+        <childnode refid="1369" relation="include">
+        </childnode>
+        <childnode refid="1377" relation="include">
+        </childnode>
+      </node>
+      <node id="1386">
+        <label>Group Project/ScrumOfTheEarth/searchandcompare.h</label>
+        <link refid="searchandcompare_8h"/>
+        <childnode refid="1361" relation="include">
+        </childnode>
+        <childnode refid="1387" relation="include">
+        </childnode>
+      </node>
+      <node id="1358">
+        <label>Group Project/ScrumOfTheEarth/create_login_file.cpp</label>
+        <link refid="create__login__file_8cpp"/>
+      </node>
+      <node id="1373">
+        <label>Group Project/ScrumOfTheEarth/polygon.cpp</label>
+        <link refid="polygon_8cpp"/>
+      </node>
+      <node id="1369">
+        <label>Group Project/ScrumOfTheEarth/shape_saver.cpp</label>
+        <link refid="shape__saver_8cpp"/>
+      </node>
+      <node id="1355">
+        <label>Group Project/ScrumOfTheEarth/mainwindow.h</label>
+        <link refid="mainwindow_8h"/>
+        <childnode refid="1356" relation="include">
+        </childnode>
+        <childnode refid="1361" relation="include">
+        </childnode>
+      </node>
+      <node id="1353">
+        <label>Group Project/ScrumOfTheEarth/addshape.h</label>
+        <link refid="addshape_8h"/>
+        <childnode refid="1354" relation="include">
+        </childnode>
+        <childnode refid="1355" relation="include">
+        </childnode>
+      </node>
+      <node id="1363">
+        <label>Group Project/ScrumOfTheEarth/shape_parser.cpp</label>
+        <link refid="shape__parser_8cpp"/>
+      </node>
+      <node id="1389">
+        <label>Group Project/ScrumOfTheEarth/renderarea.h</label>
+        <link refid="renderarea_8h"/>
+      </node>
+      <node id="1372">
+        <label>Group Project/ScrumOfTheEarth/polygon.h</label>
+        <link refid="polygon_8h"/>
+        <childnode refid="1362" relation="include">
+        </childnode>
+        <childnode refid="1365" relation="include">
+        </childnode>
+        <childnode refid="1361" relation="include">
+        </childnode>
+        <childnode refid="1373" relation="include">
+        </childnode>
+        <childnode refid="1368" relation="include">
+        </childnode>
+        <childnode refid="1369" relation="include">
+        </childnode>
+      </node>
+      <node id="1362">
+        <label>Group Project/ScrumOfTheEarth/shape_parser.h</label>
+        <link refid="shape__parser_8h"/>
+        <childnode refid="1354" relation="include">
+        </childnode>
+        <childnode refid="1361" relation="include">
+        </childnode>
+        <childnode refid="1363" relation="include">
+        </childnode>
+      </node>
+      <node id="1383">
+        <label>Group Project/ScrumOfTheEarth/text.cpp</label>
+        <link refid="text_8cpp"/>
+      </node>
+      <node id="1356">
+        <label>Group Project/ScrumOfTheEarth/window.h</label>
+        <link refid="window_8h"/>
+        <childnode refid="1357" relation="include">
+        </childnode>
+        <childnode refid="1358" relation="include">
+        </childnode>
+        <childnode refid="1359" relation="include">
+        </childnode>
+        <childnode refid="1360" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classShape" prot="public">Shape</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="shape_8h_1a10f04d837286200d6897a667cd7baa1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void shape_saver</definition>
+        <argsstring>(myStd::vector&lt; Shape * &gt; &amp;vec, const char *filename)</argsstring>
+        <name>shape_saver</name>
+        <param>
+          <type><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector</ref>&lt; <ref refid="classShape" kindref="compound">Shape</ref> * &gt; &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>Saves a vector of shape pointers to a file. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of shapes </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>as c-string </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape.h" line="102" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape_saver.cpp" bodystart="18" bodyend="195"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="2"><highlight class="preprocessor">#ifndef<sp/>SHAPE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SHAPE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QPainter&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QObject&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vector_8h" kindref="compound">vector.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//virtual<sp/>function<sp/>is<sp/>in<sp/>here,<sp/>two<sp/>overloaded<sp/>operators<sp/>are<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//all<sp/>other<sp/>shapes<sp/>inherit<sp/>from<sp/>here,<sp/>so<sp/>inheritance,<sp/>and<sp/>most<sp/>other<sp/>shapes<sp/>compose<sp/>QStrings</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classShape" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classShape" kindref="compound">Shape</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QObject</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="classShape_1a95f42a7833e43572d684455c2ee232ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classShape_1a95f42a7833e43572d684455c2ee232ec" kindref="member">setShapeId</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i){</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=i;}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="classShape_1a3ac221427e91b0acc53a2f3764a8f01b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classShape_1a3ac221427e91b0acc53a2f3764a8f01b" kindref="member">getShapeId</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>id;}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classShape_1a47dae32819e64fb32f3357f31978293f" kindref="member">draw</ref>(QPainter<sp/>&amp;,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="classShape_1a3bb93456832521010106172a095e22ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classShape_1a3bb93456832521010106172a095e22ca" kindref="member">Shape</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">):<sp/>id(id){}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classShape_1a3bb93456832521010106172a095e22ca" kindref="member">Shape</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classShape" kindref="compound">Shape</ref>&amp;)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classShape" kindref="compound">Shape</ref>&amp;<sp/><ref refid="classShape_1a9b9942917d6e6c359a8751156ed52423" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classShape" kindref="compound">Shape</ref>&amp;)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="classShape_1a1e81a927f61ea4d12daafc1d9295e00a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classShape_1a1e81a927f61ea4d12daafc1d9295e00a" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classShape" kindref="compound">Shape</ref>&amp;<sp/>s2){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>==<sp/>s2.id;}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="classShape_1a0d2732ef366fa236a534351f6a0d96e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classShape_1a0d2732ef366fa236a534351f6a0d96e5" kindref="member">operator&lt;</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classShape" kindref="compound">Shape</ref>&amp;<sp/>s2){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">&lt;s2.id;}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="classShape_1ac29f8bce0d038c84470028c6819a79ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classShape_1ac29f8bce0d038c84470028c6819a79ab" kindref="member">getArea</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0.0;}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="classShape_1a391744b6bce96df044139dcbd1ae0aa8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classShape_1a391744b6bce96df044139dcbd1ae0aa8" kindref="member">getPerimeter</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0.0;}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classShape_1a3d15adf2a1d746928f9be98105096eda" kindref="member">getType</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="classShape_1ac3b9fc48965274893f25b18aa14ba665" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classShape_1ac3b9fc48965274893f25b18aa14ba665" kindref="member">~Shape</ref>(){}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>id;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="shape_8h_1a10f04d837286200d6897a667cd7baa1e" kindref="member">shape_saver</ref>(<ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;Shape*&gt;</ref>&amp;<sp/>vec,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>filename);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SHAPE_H</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/shape.h"/>
+  </compounddef>
+</doxygen>

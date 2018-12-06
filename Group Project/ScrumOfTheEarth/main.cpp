@@ -8,6 +8,12 @@
 
 using namespace std;
 
+/*!
+ * \brief main entry point for program
+ * \param argc number of arguments
+ * \param argv arguments as cstrings
+ * \return
+ */
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);

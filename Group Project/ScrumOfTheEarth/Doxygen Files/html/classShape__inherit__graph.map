@@ -1,0 +1,10 @@
+<map id="Shape" name="Shape">
+<area shape="rect" id="node3" href="$classCircle.html" title="Circle class that QPainter can draw. " alt="" coords="5,417,131,656"/>
+<area shape="rect" id="node4" href="$classEllipse.html" title="Ellipse class that QPainter can draw. " alt="" coords="155,417,280,656"/>
+<area shape="rect" id="node5" href="$classLine.html" title="Line class that QPainter can draw. " alt="" coords="305,417,442,656"/>
+<area shape="rect" id="node6" href="$classPolygon.html" title="Polygon class that QPainter can draw. " alt="" coords="467,417,605,656"/>
+<area shape="rect" id="node7" href="$classPolyline.html" title="Polyline class that QPainter can draw. " alt="" coords="629,417,768,656"/>
+<area shape="rect" id="node8" href="$classRectangle.html" title="Rectangle class that QPainter can draw. " alt="" coords="793,417,922,656"/>
+<area shape="rect" id="node9" href="$classSquare.html" title="Square class that QPainter can draw. " alt="" coords="946,417,1075,656"/>
+<area shape="rect" id="node10" href="$classText.html" title="Text class that QPainter can draw. " alt="" coords="1099,417,1229,656"/>
+</map>

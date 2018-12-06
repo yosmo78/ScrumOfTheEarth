@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_360bf1d152ea05b3780da0feb3b7b7ad" kind="dir">
+    <compoundname>Group Project/ScrumOfTheEarth</compoundname>
+    <innerfile refid="addshape_8cpp">addshape.cpp</innerfile>
+    <innerfile refid="addshape_8h">addshape.h</innerfile>
+    <innerfile refid="admin__check_8cpp">admin_check.cpp</innerfile>
+    <innerfile refid="circle_8cpp">circle.cpp</innerfile>
+    <innerfile refid="circle_8h">circle.h</innerfile>
+    <innerfile refid="contactus_8cpp">contactus.cpp</innerfile>
+    <innerfile refid="contactus_8h">contactus.h</innerfile>
+    <innerfile refid="create__login__file_8cpp">create_login_file.cpp</innerfile>
+    <innerfile refid="delete__zeros_8cpp">delete_zeros.cpp</innerfile>
+    <innerfile refid="delete__zeros_8h">delete_zeros.h</innerfile>
+    <innerfile refid="ellipse_8cpp">ellipse.cpp</innerfile>
+    <innerfile refid="ellipse_8h">ellipse.h</innerfile>
+    <innerfile refid="getstrings_8cpp">getstrings.cpp</innerfile>
+    <innerfile refid="getstrings_8h">getstrings.h</innerfile>
+    <innerfile refid="line_8cpp">line.cpp</innerfile>
+    <innerfile refid="line_8h">line.h</innerfile>
+    <innerfile refid="main_8cpp">main.cpp</innerfile>
+    <innerfile refid="mainwindow_8cpp">mainwindow.cpp</innerfile>
+    <innerfile refid="mainwindow_8h">mainwindow.h</innerfile>
+    <innerfile refid="moveshape_8cpp">moveshape.cpp</innerfile>
+    <innerfile refid="moveshape_8h">moveshape.h</innerfile>
+    <innerfile refid="polygon_8cpp">polygon.cpp</innerfile>
+    <innerfile refid="polygon_8h">polygon.h</innerfile>
+    <innerfile refid="polyline_8cpp">polyline.cpp</innerfile>
+    <innerfile refid="polyline_8h">polyline.h</innerfile>
+    <innerfile refid="pop__table_8cpp">pop_table.cpp</innerfile>
+    <innerfile refid="pop__table_8h">pop_table.h</innerfile>
+    <innerfile refid="rectangle_8cpp">rectangle.cpp</innerfile>
+    <innerfile refid="rectangle_8h">rectangle.h</innerfile>
+    <innerfile refid="renderarea_8h">renderarea.h</innerfile>
+    <innerfile refid="searchandcompare_8cpp">searchandcompare.cpp</innerfile>
+    <innerfile refid="searchandcompare_8h">searchandcompare.h</innerfile>
+    <innerfile refid="shape_8h">shape.h</innerfile>
+    <innerfile refid="shape__parser_8cpp">shape_parser.cpp</innerfile>
+    <innerfile refid="shape__parser_8h">shape_parser.h</innerfile>
+    <innerfile refid="shape__saver_8cpp">shape_saver.cpp</innerfile>
+    <innerfile refid="square_8cpp">square.cpp</innerfile>
+    <innerfile refid="square_8h">square.h</innerfile>
+    <innerfile refid="text_8cpp">text.cpp</innerfile>
+    <innerfile refid="text_8h">text.h</innerfile>
+    <innerfile refid="vector_8h">vector.h</innerfile>
+    <innerfile refid="window_8cpp">window.cpp</innerfile>
+    <innerfile refid="window_8h">window.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Group Project/ScrumOfTheEarth/"/>
+  </compounddef>
+</doxygen>

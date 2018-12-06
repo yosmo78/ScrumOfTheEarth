@@ -1,0 +1,606 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classmyStd_1_1vector" kind="class" language="C++" prot="public">
+    <compoundname>myStd::vector</compoundname>
+    <includes refid="vector_8h" local="no">vector.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classmyStd_1_1vector_1a667a65b093f1253d2229d06768aa3bf9" prot="public" static="no">
+        <type>T *</type>
+        <definition>using myStd::vector&lt; T &gt;::iterator =  T *</definition>
+        <argsstring></argsstring>
+        <name>iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="185" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classmyStd_1_1vector_1ae8f53b1db01169b861f0299f9ced0e37" prot="public" static="no">
+        <type>const T *</type>
+        <definition>using myStd::vector&lt; T &gt;::const_iterator =  const T *</definition>
+        <argsstring></argsstring>
+        <name>const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="186" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmyStd_1_1vector_1ab048ebed58cf7ccf28e859c9de98c215" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int myStd::vector&lt; T &gt;::size_v</definition>
+        <argsstring></argsstring>
+        <name>size_v</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="30" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmyStd_1_1vector_1a7ba7d45fc724759168f0c1a146e8ac92" prot="private" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* myStd::vector&lt; T &gt;::elem</definition>
+        <argsstring></argsstring>
+        <name>elem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="31" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmyStd_1_1vector_1a3e096193774c2c2afddcd7ce0cf45b5e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int myStd::vector&lt; T &gt;::space</definition>
+        <argsstring></argsstring>
+        <name>space</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="32" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmyStd_1_1vector_1a40e5c01ceb5d0c2bc64b23005c21ba04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>myStd::vector&lt; T &gt;::vector</definition>
+        <argsstring>()</argsstring>
+        <name>vector</name>
+        <briefdescription>
+<para>vector default constructor </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="37" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1a3f942029ffea510e3c6e67310c18abb7" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>myStd::vector&lt; T &gt;::vector</definition>
+        <argsstring>(int s)</argsstring>
+        <name>vector</name>
+        <param>
+          <type>int</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>vector constructor with size </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>size of vector </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="42" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="42" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1ae425fb0a79cfa7870cf3603c8abe3369" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>myStd::vector&lt; T &gt;::vector</definition>
+        <argsstring>(const vector &amp;src)</argsstring>
+        <name>vector</name>
+        <param>
+          <type>const <ref refid="classmyStd_1_1vector" kindref="compound">vector</ref> &amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>vector copy constructor </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector to copy </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="51" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1a76692ca684b66499d2877824e1404205" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>myStd::vector&lt; T &gt;::vector</definition>
+        <argsstring>(vector &amp;&amp;src)</argsstring>
+        <name>vector</name>
+        <param>
+          <type><ref refid="classmyStd_1_1vector" kindref="compound">vector</ref> &amp;&amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>vector move constructor </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector to steal contents of </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="59" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="59" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1a5cbbf45fd8ead8b9cbf4b0c7acf5010f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classmyStd_1_1vector" kindref="compound">vector</ref> &amp;</type>
+        <definition>vector&amp; myStd::vector&lt; T &gt;::operator=</definition>
+        <argsstring>(const vector &amp;src)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classmyStd_1_1vector" kindref="compound">vector</ref> &amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>operator = copy assignment </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector to copy </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>this vector </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="69" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="69" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1a8aac18132c15abb44dea31300923ef3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classmyStd_1_1vector" kindref="compound">vector</ref> &amp;</type>
+        <definition>vector&amp; myStd::vector&lt; T &gt;::operator=</definition>
+        <argsstring>(vector &amp;&amp;src)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classmyStd_1_1vector" kindref="compound">vector</ref> &amp;&amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>operator = move assignment </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector to steal contents of </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>this vector </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="85" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="85" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1aaf4331a544887b4358befcfbce2deab4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>myStd::vector&lt; T &gt;::~vector</definition>
+        <argsstring>()</argsstring>
+        <name>~vector</name>
+        <briefdescription>
+<para>Vector destructor (Does not delete pointed to data) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="98" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="98" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1a7840f76cb8fdb56e3a70506c7e0fbf5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>T&amp; myStd::vector&lt; T &gt;::operator[]</definition>
+        <argsstring>(int n)</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>operator [] gets the element at the n-th position by reference </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of element </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>element </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="106" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="106" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1ac86fa3944b7d23fc127f5b739935b5d6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const T &amp;</type>
+        <definition>const T&amp; myStd::vector&lt; T &gt;::operator[]</definition>
+        <argsstring>(int n) const </argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>operator [] gets the element at the n-th position by value </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of element </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>element </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="114" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="114" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1a33ebe4dab379f466c8d3a2f08d9aa554" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int myStd::vector&lt; T &gt;::size</definition>
+        <argsstring>() const </argsstring>
+        <name>size</name>
+        <briefdescription>
+<para>size gets the number of elements in the vector </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int num of elements </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="121" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="121" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1ad388bb612c6b9945731d562aeae8695b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int myStd::vector&lt; T &gt;::capacity</definition>
+        <argsstring>() const </argsstring>
+        <name>capacity</name>
+        <briefdescription>
+<para>capacity Amount of elements that can be stored in vector </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int size of arrays </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="128" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="128" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1aa54bd9c3d8d3b6191d7eb7f85490eadb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void myStd::vector&lt; T &gt;::resize</definition>
+        <argsstring>(int newsize)</argsstring>
+        <name>resize</name>
+        <param>
+          <type>int</type>
+          <declname>newsize</declname>
+        </param>
+        <briefdescription>
+<para>resize changes the size of the vector to the specified size </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newsize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int new size of vector </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="135" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="135" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1a16a7791abc12b34fee94f4ef48a5e157" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void myStd::vector&lt; T &gt;::push_back</definition>
+        <argsstring>(T d)</argsstring>
+        <name>push_back</name>
+        <param>
+          <type>T</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+<para>push_back adds an element to the end of the vector </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>d</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>element to push back </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="148" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="148" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1a50e786a02a59e689999365037ae26b3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void myStd::vector&lt; T &gt;::reserve</definition>
+        <argsstring>(int newalloc)</argsstring>
+        <name>reserve</name>
+        <param>
+          <type>int</type>
+          <declname>newalloc</declname>
+        </param>
+        <briefdescription>
+<para>reserve sets aside a new vector of the given size </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newalloc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>size of new vector </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="167" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="167" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1adaa284b6b387f70d3244b4d6e64869c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classmyStd_1_1vector_1a667a65b093f1253d2229d06768aa3bf9" kindref="member">iterator</ref></type>
+        <definition>iterator myStd::vector&lt; T &gt;::begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <briefdescription>
+<para>begin returns an iterator of the beginning of the vector </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>iterator of the beginning </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="192" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="192" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1a71600f2a06ab5c279a469972d713d5d6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classmyStd_1_1vector_1ae8f53b1db01169b861f0299f9ced0e37" kindref="member">const_iterator</ref></type>
+        <definition>const_iterator myStd::vector&lt; T &gt;::begin</definition>
+        <argsstring>() const </argsstring>
+        <name>begin</name>
+        <briefdescription>
+<para>begin returns a const_iterator to the first element </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>const_iterator to first element </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="202" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="202" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1a8fc7ec068c194f5ecb5a08e17a9c9ac4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classmyStd_1_1vector_1a667a65b093f1253d2229d06768aa3bf9" kindref="member">iterator</ref></type>
+        <definition>iterator myStd::vector&lt; T &gt;::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+<para>end returns an iterator to one past the last element </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>iterator to one past the last element </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="212" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="212" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1adecc27953fecd9a02c54f2b2d6a28cff" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classmyStd_1_1vector_1ae8f53b1db01169b861f0299f9ced0e37" kindref="member">const_iterator</ref></type>
+        <definition>const_iterator myStd::vector&lt; T &gt;::end</definition>
+        <argsstring>() const </argsstring>
+        <name>end</name>
+        <briefdescription>
+<para>end returns a const_iterator to one past the last element </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>iterator to one past the last element </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="223" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="223" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1a2dfafafc64febfbb0869be81f6bd4de7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classmyStd_1_1vector_1a667a65b093f1253d2229d06768aa3bf9" kindref="member">iterator</ref></type>
+        <definition>iterator myStd::vector&lt; T &gt;::insert</definition>
+        <argsstring>(iterator p, const T &amp;val)</argsstring>
+        <name>insert</name>
+        <param>
+          <type><ref refid="classmyStd_1_1vector_1a667a65b093f1253d2229d06768aa3bf9" kindref="member">iterator</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>insert inserts a given value before the position p </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>iterator of place in vector </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value to be inserted </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="236" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="236" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1aa4ecb71647140e3c5226299f84828984" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classmyStd_1_1vector_1a667a65b093f1253d2229d06768aa3bf9" kindref="member">iterator</ref></type>
+        <definition>iterator myStd::vector&lt; T &gt;::erase</definition>
+        <argsstring>(iterator p)</argsstring>
+        <name>erase</name>
+        <param>
+          <type><ref refid="classmyStd_1_1vector_1a667a65b093f1253d2229d06768aa3bf9" kindref="member">iterator</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>erase takes out the element at position p </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>iterator to element at that position </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="262" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="262" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1a67598296046328471d19ce1fc5be796f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void myStd::vector&lt; T &gt;::deallocPtrData</definition>
+        <argsstring>()</argsstring>
+        <name>deallocPtrData</name>
+        <briefdescription>
+<para>deallocPtrData deallocates all of the pointer data of the vector if the vector is a vector of pointers </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="276" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="276" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1ab67c727d73d08372770562b4e4ae7a05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void myStd::vector&lt; T &gt;::deallocPtrArrayData</definition>
+        <argsstring>()</argsstring>
+        <name>deallocPtrArrayData</name>
+        <briefdescription>
+<para>deallocPtrArrayData dellocates all pointed to arrays of the vector if the vector is a vector of dynamic arrays </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="290" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="290" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1a794565e7ec67e8d2b90fe2247612a778" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void myStd::vector&lt; T &gt;::deleteList</definition>
+        <argsstring>()</argsstring>
+        <name>deleteList</name>
+        <briefdescription>
+<para>deleteList deletes the whole vector of pointed to data </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="302" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="302" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="function" id="classmyStd_1_1vector_1a6a0db76b04cb2c2bf8b7aa9d2a6f36c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void myStd::vector&lt; T &gt;::deleteArrayList</definition>
+        <argsstring>()</argsstring>
+        <name>deleteArrayList</name>
+        <briefdescription>
+<para>deleteArrayList deletes the whole vector of pointed to arrays </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/vector.h" line="313" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="313" bodyend="320"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The vector class provides a templated dynamic array for use. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="169">
+        <label>myStd::vector&lt; T &gt;</label>
+        <link refid="classmyStd_1_1vector"/>
+      </node>
+    </collaborationgraph>
+    <location file="Group Project/ScrumOfTheEarth/vector.h" line="21" column="1" bodyfile="Group Project/ScrumOfTheEarth/vector.h" bodystart="20" bodyend="321"/>
+    <listofallmembers>
+      <member refid="classmyStd_1_1vector_1adaa284b6b387f70d3244b4d6e64869c3" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>begin</name></member>
+      <member refid="classmyStd_1_1vector_1a71600f2a06ab5c279a469972d713d5d6" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>begin</name></member>
+      <member refid="classmyStd_1_1vector_1ad388bb612c6b9945731d562aeae8695b" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>capacity</name></member>
+      <member refid="classmyStd_1_1vector_1ae8f53b1db01169b861f0299f9ced0e37" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>const_iterator</name></member>
+      <member refid="classmyStd_1_1vector_1ab67c727d73d08372770562b4e4ae7a05" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>deallocPtrArrayData</name></member>
+      <member refid="classmyStd_1_1vector_1a67598296046328471d19ce1fc5be796f" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>deallocPtrData</name></member>
+      <member refid="classmyStd_1_1vector_1a6a0db76b04cb2c2bf8b7aa9d2a6f36c4" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>deleteArrayList</name></member>
+      <member refid="classmyStd_1_1vector_1a794565e7ec67e8d2b90fe2247612a778" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>deleteList</name></member>
+      <member refid="classmyStd_1_1vector_1a7ba7d45fc724759168f0c1a146e8ac92" prot="private" virt="non-virtual"><scope>myStd::vector</scope><name>elem</name></member>
+      <member refid="classmyStd_1_1vector_1a8fc7ec068c194f5ecb5a08e17a9c9ac4" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>end</name></member>
+      <member refid="classmyStd_1_1vector_1adecc27953fecd9a02c54f2b2d6a28cff" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>end</name></member>
+      <member refid="classmyStd_1_1vector_1aa4ecb71647140e3c5226299f84828984" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>erase</name></member>
+      <member refid="classmyStd_1_1vector_1a2dfafafc64febfbb0869be81f6bd4de7" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>insert</name></member>
+      <member refid="classmyStd_1_1vector_1a667a65b093f1253d2229d06768aa3bf9" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>iterator</name></member>
+      <member refid="classmyStd_1_1vector_1a5cbbf45fd8ead8b9cbf4b0c7acf5010f" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>operator=</name></member>
+      <member refid="classmyStd_1_1vector_1a8aac18132c15abb44dea31300923ef3f" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>operator=</name></member>
+      <member refid="classmyStd_1_1vector_1a7840f76cb8fdb56e3a70506c7e0fbf5a" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>operator[]</name></member>
+      <member refid="classmyStd_1_1vector_1ac86fa3944b7d23fc127f5b739935b5d6" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>operator[]</name></member>
+      <member refid="classmyStd_1_1vector_1a16a7791abc12b34fee94f4ef48a5e157" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>push_back</name></member>
+      <member refid="classmyStd_1_1vector_1a50e786a02a59e689999365037ae26b3a" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>reserve</name></member>
+      <member refid="classmyStd_1_1vector_1aa54bd9c3d8d3b6191d7eb7f85490eadb" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>resize</name></member>
+      <member refid="classmyStd_1_1vector_1a33ebe4dab379f466c8d3a2f08d9aa554" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>size</name></member>
+      <member refid="classmyStd_1_1vector_1ab048ebed58cf7ccf28e859c9de98c215" prot="private" virt="non-virtual"><scope>myStd::vector</scope><name>size_v</name></member>
+      <member refid="classmyStd_1_1vector_1a3e096193774c2c2afddcd7ce0cf45b5e" prot="private" virt="non-virtual"><scope>myStd::vector</scope><name>space</name></member>
+      <member refid="classmyStd_1_1vector_1a40e5c01ceb5d0c2bc64b23005c21ba04" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>vector</name></member>
+      <member refid="classmyStd_1_1vector_1a3f942029ffea510e3c6e67310c18abb7" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>vector</name></member>
+      <member refid="classmyStd_1_1vector_1ae425fb0a79cfa7870cf3603c8abe3369" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>vector</name></member>
+      <member refid="classmyStd_1_1vector_1a76692ca684b66499d2877824e1404205" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>vector</name></member>
+      <member refid="classmyStd_1_1vector_1aaf4331a544887b4358befcfbce2deab4" prot="public" virt="non-virtual"><scope>myStd::vector</scope><name>~vector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

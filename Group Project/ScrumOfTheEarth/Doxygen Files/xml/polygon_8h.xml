@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="polygon_8h" kind="file" language="C++">
+    <compoundname>polygon.h</compoundname>
+    <includes refid="shape_8h" local="yes">shape.h</includes>
+    <includes refid="vector_8h" local="yes">vector.h</includes>
+    <includes local="no">cmath</includes>
+    <includedby refid="shape__parser_8h" local="yes">Group Project/ScrumOfTheEarth/shape_parser.h</includedby>
+    <includedby refid="moveshape_8h" local="yes">Group Project/ScrumOfTheEarth/moveshape.h</includedby>
+    <includedby refid="mainwindow_8cpp" local="yes">Group Project/ScrumOfTheEarth/mainwindow.cpp</includedby>
+    <includedby refid="polygon_8cpp" local="yes">Group Project/ScrumOfTheEarth/polygon.cpp</includedby>
+    <includedby refid="pop__table_8cpp" local="yes">Group Project/ScrumOfTheEarth/pop_table.cpp</includedby>
+    <includedby refid="shape__saver_8cpp" local="yes">Group Project/ScrumOfTheEarth/shape_saver.cpp</includedby>
+    <incdepgraph>
+      <node id="1207">
+        <label>QObject</label>
+      </node>
+      <node id="1205">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="1206" relation="include">
+        </childnode>
+        <childnode refid="1207" relation="include">
+        </childnode>
+        <childnode refid="1208" relation="include">
+        </childnode>
+      </node>
+      <node id="1210">
+        <label>cmath</label>
+      </node>
+      <node id="1208">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="1209" relation="include">
+        </childnode>
+      </node>
+      <node id="1206">
+        <label>QPainter</label>
+      </node>
+      <node id="1209">
+        <label>algorithm</label>
+      </node>
+      <node id="1204">
+        <label>Group Project/ScrumOfTheEarth/polygon.h</label>
+        <link refid="polygon.h"/>
+        <childnode refid="1205" relation="include">
+        </childnode>
+        <childnode refid="1208" relation="include">
+        </childnode>
+        <childnode refid="1210" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1216">
+        <label>Group Project/ScrumOfTheEarth/moveshape.h</label>
+        <link refid="moveshape_8h"/>
+        <childnode refid="1217" relation="include">
+        </childnode>
+        <childnode refid="1223" relation="include">
+        </childnode>
+      </node>
+      <node id="1214">
+        <label>Group Project/ScrumOfTheEarth/mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+      </node>
+      <node id="1223">
+        <label>Group Project/ScrumOfTheEarth/moveshape.cpp</label>
+        <link refid="moveshape_8cpp"/>
+      </node>
+      <node id="1221">
+        <label>Group Project/ScrumOfTheEarth/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="1222">
+        <label>Group Project/ScrumOfTheEarth/window.cpp</label>
+        <link refid="window_8cpp"/>
+      </node>
+      <node id="1213">
+        <label>Group Project/ScrumOfTheEarth/addshape.cpp</label>
+        <link refid="addshape_8cpp"/>
+      </node>
+      <node id="1225">
+        <label>Group Project/ScrumOfTheEarth/pop_table.cpp</label>
+        <link refid="pop__table_8cpp"/>
+      </node>
+      <node id="1219">
+        <label>Group Project/ScrumOfTheEarth/admin_check.cpp</label>
+        <link refid="admin__check_8cpp"/>
+      </node>
+      <node id="1220">
+        <label>Group Project/ScrumOfTheEarth/create_login_file.cpp</label>
+        <link refid="create__login__file_8cpp"/>
+      </node>
+      <node id="1224">
+        <label>Group Project/ScrumOfTheEarth/polygon.cpp</label>
+        <link refid="polygon_8cpp"/>
+      </node>
+      <node id="1226">
+        <label>Group Project/ScrumOfTheEarth/shape_saver.cpp</label>
+        <link refid="shape__saver_8cpp"/>
+      </node>
+      <node id="1217">
+        <label>Group Project/ScrumOfTheEarth/mainwindow.h</label>
+        <link refid="mainwindow_8h"/>
+        <childnode refid="1218" relation="include">
+        </childnode>
+        <childnode refid="1214" relation="include">
+        </childnode>
+      </node>
+      <node id="1215">
+        <label>Group Project/ScrumOfTheEarth/shape_parser.cpp</label>
+        <link refid="shape__parser_8cpp"/>
+      </node>
+      <node id="1211">
+        <label>Group Project/ScrumOfTheEarth/polygon.h</label>
+        <link refid="polygon.h"/>
+        <childnode refid="1212" relation="include">
+        </childnode>
+        <childnode refid="1216" relation="include">
+        </childnode>
+        <childnode refid="1214" relation="include">
+        </childnode>
+        <childnode refid="1224" relation="include">
+        </childnode>
+        <childnode refid="1225" relation="include">
+        </childnode>
+        <childnode refid="1226" relation="include">
+        </childnode>
+      </node>
+      <node id="1212">
+        <label>Group Project/ScrumOfTheEarth/shape_parser.h</label>
+        <link refid="shape__parser_8h"/>
+        <childnode refid="1213" relation="include">
+        </childnode>
+        <childnode refid="1214" relation="include">
+        </childnode>
+        <childnode refid="1215" relation="include">
+        </childnode>
+      </node>
+      <node id="1218">
+        <label>Group Project/ScrumOfTheEarth/window.h</label>
+        <link refid="window_8h"/>
+        <childnode refid="1219" relation="include">
+        </childnode>
+        <childnode refid="1220" relation="include">
+        </childnode>
+        <childnode refid="1221" relation="include">
+        </childnode>
+        <childnode refid="1222" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classPolygon" prot="public">Polygon</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="2"><highlight class="preprocessor">#ifndef<sp/>POLYGON_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>POLYGON_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="shape_8h" kindref="compound">shape.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vector_8h" kindref="compound">vector.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight></codeline>
+<codeline lineno="10" refid="classPolygon" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classPolygon" kindref="compound">Polygon</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classShape" kindref="compound">Shape</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classPolygon_1ad85ab576e63cdafd2d0a821a7cebd40a" kindref="member">Polygon</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;QPoint&gt;</ref>,<sp/>Qt::GlobalColor,<sp/>Qt::GlobalColor,<sp/>Qt::PenStyle,<sp/><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23" refid="classPolygon_1ad7e1a7964733cb80b095b7dd66fb0551" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QPoint<sp/><ref refid="classPolygon_1ad7e1a7964733cb80b095b7dd66fb0551" kindref="member">getPoint</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>polyPoint[i];}<sp/></highlight><highlight class="comment">//Polygon<sp/>specific</highlight></codeline>
+<codeline lineno="28" refid="classPolygon_1a254935fca8f07c8b337ae96e19283464" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>QPoint<sp/>*<sp/><ref refid="classPolygon_1a254935fca8f07c8b337ae96e19283464" kindref="member">getPolyPoints</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>polyPoint.<ref refid="classmyStd_1_1vector_1adaa284b6b387f70d3244b4d6e64869c3" kindref="member">begin</ref>();}</highlight></codeline>
+<codeline lineno="33" refid="classPolygon_1aaa21d89b5cdf770f421d19524e82734c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classPolygon_1aaa21d89b5cdf770f421d19524e82734c" kindref="member">getNumOfPoints</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>polyPoint.<ref refid="classmyStd_1_1vector_1a33ebe4dab379f466c8d3a2f08d9aa554" kindref="member">size</ref>();}</highlight></codeline>
+<codeline lineno="38" refid="classPolygon_1aa7f5e838167b0c1b57320fd418325b8c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPolygon_1aa7f5e838167b0c1b57320fd418325b8c" kindref="member">setVector</ref>(<ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;QPoint&gt;</ref><sp/>v){polyPoint<sp/>=<sp/>v;}<sp/></highlight><highlight class="comment">//Polygon<sp/>specific</highlight></codeline>
+<codeline lineno="44" refid="classPolygon_1a19e111329052166c5eeb2d6933066774" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPolygon_1a19e111329052166c5eeb2d6933066774" kindref="member">setPoint</ref>(QPoint<sp/>p,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i){polyPoint[i]<sp/>=<sp/>p;}<sp/></highlight><highlight class="comment">//Polygon<sp/>specific</highlight></codeline>
+<codeline lineno="49" refid="classPolygon_1a495a1a0d772def2064a1c19762b769c2" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::GlobalColor<sp/><ref refid="classPolygon_1a495a1a0d772def2064a1c19762b769c2" kindref="member">getPenColor</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penColor;}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="classPolygon_1a201ddc5bb4071243ec497028f70b6d51" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::GlobalColor<sp/><ref refid="classPolygon_1a201ddc5bb4071243ec497028f70b6d51" kindref="member">getBrushColor</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>brushColor;}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="classPolygon_1aa5e4c1ec34f061e201ab5ff38b55f945" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPolygon_1aa5e4c1ec34f061e201ab5ff38b55f945" kindref="member">setPenColor</ref>(Qt::GlobalColor<sp/>pc){penColor<sp/>=<sp/>pc;}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="classPolygon_1a09d905fcc1c8fd0b25772d54d1d5c831" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPolygon_1a09d905fcc1c8fd0b25772d54d1d5c831" kindref="member">setBrushColor</ref>(Qt::GlobalColor<sp/>bc){brushColor<sp/>=<sp/>bc;}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="classPolygon_1ad17a682e3a31c185086a56ac36b1a732" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::PenStyle<sp/><ref refid="classPolygon_1ad17a682e3a31c185086a56ac36b1a732" kindref="member">getPenStyle</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penStyle;}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="classPolygon_1afd47f455b19d368bea8a198d4fcfa81f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPolygon_1afd47f455b19d368bea8a198d4fcfa81f" kindref="member">setPenStyle</ref>(Qt::PenStyle<sp/>ps){penStyle<sp/>=<sp/>ps;}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="classPolygon_1a6a87aa5a647a925d520fb3462e3450dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/><ref refid="classPolygon_1a6a87aa5a647a925d520fb3462e3450dc" kindref="member">getPenCapStyle</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penCapStyle;}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="classPolygon_1a9bffdd7d7b4f98fdb14fcba435ff4857" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPolygon_1a9bffdd7d7b4f98fdb14fcba435ff4857" kindref="member">setPenCapStyle</ref>(<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/>pcs){<sp/>penCapStyle<sp/>=<sp/>pcs;}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="classPolygon_1a1472bbc12cc60b90b666d509ffefaf47" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/><ref refid="classPolygon_1a1472bbc12cc60b90b666d509ffefaf47" kindref="member">getPenJoinStyle</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penJoinStyle;}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="classPolygon_1a1dbd55cf600447893405712943f01a95" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPolygon_1a1dbd55cf600447893405712943f01a95" kindref="member">setPenJoinStyle</ref>(<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/>pjs){penJoinStyle<sp/>=<sp/>pjs;}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="classPolygon_1a8a827f50a6b4f1a3233cc343b26e5bf4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref><sp/><ref refid="classPolygon_1a8a827f50a6b4f1a3233cc343b26e5bf4" kindref="member">getBrushStyle</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>brushStyle;}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="classPolygon_1a8c373e3f2f22b4e25adc081dfba4c007" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPolygon_1a8c373e3f2f22b4e25adc081dfba4c007" kindref="member">setBrushStyle</ref>(<ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref><sp/>bs){brushStyle<sp/>=<sp/>bs;}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="classPolygon_1af05a6abd65de0aba9704b9acbbba80c5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classPolygon_1af05a6abd65de0aba9704b9acbbba80c5" kindref="member">getPenWidth</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penWidth;}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="classPolygon_1a4078d739e8bcfcef4402077afa24a687" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPolygon_1a4078d739e8bcfcef4402077afa24a687" kindref="member">setPenWidth</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pw){penWidth<sp/>=<sp/>pw;}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPolygon_1a324e212e7f096a104f84fb854be50215" kindref="member">draw</ref>(QPainter&amp;,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="129" refid="classPolygon_1aa17e86eda9587c95a0e498e60033dfa3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classPolygon_1aa17e86eda9587c95a0e498e60033dfa3" kindref="member">getType</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>3;}</highlight></codeline>
+<codeline lineno="134" refid="classPolygon_1a8aeea28a673b2ef2df1dd150ebb4f8d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classPolygon_1a8aeea28a673b2ef2df1dd150ebb4f8d9" kindref="member">getStaticType</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>3;}</highlight></codeline>
+<codeline lineno="135" refid="classPolygon_1a31c8c5320acfb934bce0441efb0fe837" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classPolygon_1a31c8c5320acfb934bce0441efb0fe837" kindref="member">getArea</ref>()</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmyStd_1_1vector_1a667a65b093f1253d2229d06768aa3bf9" kindref="member">myStd::vector&lt;QPoint&gt;::iterator</ref><sp/>it<sp/>=<sp/>polyPoint.<ref refid="classmyStd_1_1vector_1adaa284b6b387f70d3244b4d6e64869c3" kindref="member">begin</ref>();</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(polyPoint.<ref refid="classmyStd_1_1vector_1a33ebe4dab379f466c8d3a2f08d9aa554" kindref="member">size</ref>()<sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>area<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>avgHeight<sp/>=<sp/>0,width<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(;<sp/>i<sp/>&lt;<sp/>(polyPoint.<ref refid="classmyStd_1_1vector_1a33ebe4dab379f466c8d3a2f08d9aa554" kindref="member">size</ref>()-1);<sp/>++i)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>avgHeight<sp/>=<sp/>0;<sp/>width<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>avgHeight<sp/>=<sp/>(it[i].y()+it[i+1].y())/2;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>width<sp/>=<sp/>it[i+1].x()-it[i].x();</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>area<sp/>+=<sp/>avgHeight<sp/>*<sp/>width;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>avgHeight<sp/>=<sp/>(it[i].y()+polyPoint.<ref refid="classmyStd_1_1vector_1adaa284b6b387f70d3244b4d6e64869c3" kindref="member">begin</ref>()-&gt;y())/2;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>width<sp/>=<sp/>polyPoint.<ref refid="classmyStd_1_1vector_1adaa284b6b387f70d3244b4d6e64869c3" kindref="member">begin</ref>()-&gt;x()-it[i].x();</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>area<sp/>+=<sp/>avgHeight<sp/>*<sp/>width;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>fabs(area);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="155" refid="classPolygon_1a295ef7fe3b5ed921ae15a757680b159a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classPolygon_1a295ef7fe3b5ed921ae15a757680b159a" kindref="member">getPerimeter</ref>()</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmyStd_1_1vector_1a667a65b093f1253d2229d06768aa3bf9" kindref="member">myStd::vector&lt;QPoint&gt;::iterator</ref><sp/>it<sp/>=<sp/>polyPoint.<ref refid="classmyStd_1_1vector_1adaa284b6b387f70d3244b4d6e64869c3" kindref="member">begin</ref>();</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(polyPoint.<ref refid="classmyStd_1_1vector_1a33ebe4dab379f466c8d3a2f08d9aa554" kindref="member">size</ref>()<sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>perimeter<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(;<sp/>i<sp/>&lt;<sp/>(polyPoint.<ref refid="classmyStd_1_1vector_1a33ebe4dab379f466c8d3a2f08d9aa554" kindref="member">size</ref>()-1);<sp/>++i)</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>perimeter<sp/>+=<sp/>std::sqrt(((it[i].x()-it[i+1].x())*((it[i].x()-it[i+1].x()))+((it[i].y()-it[i+1].y())*(it[i].y()-it[i+1].y()))));</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>perimeter<sp/>+=<sp/>std::sqrt(((it[i].x()-polyPoint.<ref refid="classmyStd_1_1vector_1adaa284b6b387f70d3244b4d6e64869c3" kindref="member">begin</ref>()-&gt;x())*((it[i].x()-polyPoint.<ref refid="classmyStd_1_1vector_1adaa284b6b387f70d3244b4d6e64869c3" kindref="member">begin</ref>()-&gt;x()))+((it[i].y()-polyPoint.<ref refid="classmyStd_1_1vector_1adaa284b6b387f70d3244b4d6e64869c3" kindref="member">begin</ref>()-&gt;y())*(it[i].y()-polyPoint.<ref refid="classmyStd_1_1vector_1adaa284b6b387f70d3244b4d6e64869c3" kindref="member">begin</ref>()-&gt;y()))));</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>perimeter;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;QPoint&gt;</ref><sp/>polyPoint;<sp/></highlight><highlight class="comment">//Polygon<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::GlobalColor<sp/>penColor;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::GlobalColor<sp/>brushColor;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::PenStyle<sp/>penStyle;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/>penCapStyle;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/>penJoinStyle;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref><sp/>brushStyle;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>penWidth;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>POLYGON_H</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/polygon.h"/>
+  </compounddef>
+</doxygen>

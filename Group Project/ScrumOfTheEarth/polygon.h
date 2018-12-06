@@ -11,11 +11,36 @@ class Polygon : public Shape
 {
     Q_OBJECT
    public:
+    /*!
+     * \brief All parameter constructor
+     */
     Polygon(unsigned int, myStd::vector<QPoint>, Qt::GlobalColor, Qt::GlobalColor, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle, Qt::BrushStyle, int);
+    /*!
+     * \brief Gets the i-th point of the polygon
+     * \param i index for point
+     * \return QPoint of i-th point
+     */
     QPoint getPoint(int i){return polyPoint[i];} //Polygon specific
+    /*!
+     * \brief Gets an array of QPoints that contain the corners of the polygon
+     * \return QPoint array of polygon's corner points
+     */
     QPoint * getPolyPoints(){return polyPoint.begin();}
+    /*!
+     * \brief Gets the number of points
+     * \return int points of polygon
+     */
     int getNumOfPoints() {return polyPoint.size();}
+    /*!
+     * \brief Sets the vector of QPoints to the given vector
+     * \param v vector of QPoints
+     */
     void setVector(myStd::vector<QPoint> v){polyPoint = v;} //Polygon specific
+    /*!
+     * \brief Sets the i-th point of the polygon to the given point
+     * \param p Point tot set
+     * \param i index of point
+     */
     void setPoint(QPoint p, int i){polyPoint[i] = p;} //Polygon specific
     /*!
      * \brief Gets the pen color stored in this shape

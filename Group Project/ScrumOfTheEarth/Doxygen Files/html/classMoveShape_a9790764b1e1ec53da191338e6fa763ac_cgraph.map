@@ -1,0 +1,25 @@
+<map id="MoveShape::~MoveShape" name="MoveShape::~MoveShape">
+<area shape="rect" id="node2" href="$classmyStd_1_1vector.html#adaa284b6b387f70d3244b4d6e64869c3" title="myStd::vector::begin" alt="" coords="453,31,596,57"/>
+<area shape="rect" id="node3" href="$classmyStd_1_1vector.html#a33ebe4dab379f466c8d3a2f08d9aa554" title="myStd::vector::size" alt="" coords="457,867,593,893"/>
+<area shape="rect" id="node4" href="$classSquare.html#a5d6e510d07f465fefdd1cdbbd041db2f" title="Square::getStaticType" alt="" coords="241,107,393,133"/>
+<area shape="rect" id="node5" href="$classSquare.html#acfd205cb2fe02845e3ece8c9a1244943" title="Square::setCornerPoint" alt="" coords="238,157,397,184"/>
+<area shape="rect" id="node6" href="$classRectangle.html#ac9e18cf57224bfbc584547c0ee6d1ce3" title="Rectangle::getStaticType" alt="" coords="232,208,403,235"/>
+<area shape="rect" id="node7" href="$classRectangle.html#a34488ca08ac813751dba8c57c80985fa" title="Rectangle::setCornerPoint" alt="" coords="229,259,405,285"/>
+<area shape="rect" id="node8" href="$classLine.html#aec5465504d5c944920fd96a7d81c8472" title="Line::getStaticType" alt="" coords="250,309,385,336"/>
+<area shape="rect" id="node9" href="$classLine.html#a671e977e9b5cb104016def1e9e99c5aa" title="Line::setPoint1" alt="" coords="263,360,372,387"/>
+<area shape="rect" id="node10" href="$classLine.html#ad0f6a573ebd8220236e7de8202717f97" title="Line::getPoint1" alt="" coords="263,411,372,437"/>
+<area shape="rect" id="node11" href="$classLine.html#aa64a85c213850620e2ca3df153fe7846" title="Line::getPoint2" alt="" coords="263,461,372,488"/>
+<area shape="rect" id="node12" href="$classLine.html#acd4ccc2b472817c45f52297c99a8cbf9" title="Line::setPoint2" alt="" coords="263,512,372,539"/>
+<area shape="rect" id="node13" href="$classCircle.html#ac5e287c2511f325888d340b6555d51b5" title="Circle::getStaticType" alt="" coords="245,563,390,589"/>
+<area shape="rect" id="node14" href="$classCircle.html#a60e5c24fe969240435725aa608bed3dd" title="Circle::setPoint1" alt="" coords="258,613,377,640"/>
+<area shape="rect" id="node15" href="$classEllipse.html#a05cf0c6c09a47baaaed6c2d0df922dfb" title="Ellipse::getStaticType" alt="" coords="242,664,393,691"/>
+<area shape="rect" id="node16" href="$classEllipse.html#a29a934608fd3cad24c5f6de9d9abb9c4" title="Ellipse::setTopLeft" alt="" coords="252,715,383,741"/>
+<area shape="rect" id="node17" href="$classPolygon.html#a8aeea28a673b2ef2df1dd150ebb4f8d9" title="Polygon::getStaticType" alt="" coords="238,765,397,792"/>
+<area shape="rect" id="node18" href="$classPolygon.html#a254935fca8f07c8b337ae96e19283464" title="Polygon::getPolyPoints" alt="" coords="238,5,397,32"/>
+<area shape="rect" id="node19" href="$classPolygon.html#aaa21d89b5cdf770f421d19524e82734c" title="Polygon::getNumOfPoints" alt="" coords="230,816,405,843"/>
+<area shape="rect" id="node20" href="$classPolyline.html#abe58d8a06186437737d4c2f856328855" title="Polyline::getStaticType" alt="" coords="239,917,396,944"/>
+<area shape="rect" id="node21" href="$classPolyline.html#ae38a1e1f4d3a0506cac0afcee0cbf93e" title="Polyline::getPoints" alt="" coords="252,968,383,995"/>
+<area shape="rect" id="node22" href="$classPolyline.html#ac81ab6c46f172b381cc7b6ed4d6ec942" title="Polyline::getNumOfPoints" alt="" coords="231,1019,404,1045"/>
+<area shape="rect" id="node23" href="$classText.html#aa63f66168dc6f0af547710743a52f9c9" title="Text::getStaticType" alt="" coords="249,1069,386,1096"/>
+<area shape="rect" id="node24" href="$classText.html#a8a8424a8e6386a0626cba6ddfa1a91c2" title="Text::setCornerPoint" alt="" coords="246,1120,389,1147"/>
+</map>

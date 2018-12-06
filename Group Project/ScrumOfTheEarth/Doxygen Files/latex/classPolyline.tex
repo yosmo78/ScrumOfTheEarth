@@ -1,0 +1,363 @@
+\hypertarget{classPolyline}{}\section{Polyline Class Reference}
+\label{classPolyline}\index{Polyline@{Polyline}}
+
+
+\hyperlink{classPolyline}{Polyline} class that Q\+Painter can draw.  
+
+
+
+
+{\ttfamily \#include $<$polyline.\+h$>$}
+
+
+
+Inheritance diagram for Polyline\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classPolyline__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Polyline\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classPolyline__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classPolyline_aaea9368c2e2bfc26ecaa36c7e125ac5e}{Polyline} (unsigned int, \hyperlink{classmyStd_1_1vector}{my\+Std\+::vector}$<$ Q\+Point $>$ \&, Qt\+::\+Global\+Color, Qt\+::\+Pen\+Style, \hyperlink{shape__input__file__specs_8txt_a622efdcfef6789d4367974d2fe79019e}{Qt\+::\+Pen\+Cap\+Style}, \hyperlink{shape__input__file__specs_8txt_a007db2043c6063881de2043c05c9c4a9}{Qt\+::\+Pen\+Join\+Style}, int)
+\begin{DoxyCompactList}\small\item\em All parameter constructor. \end{DoxyCompactList}\item 
+\hyperlink{classmyStd_1_1vector}{my\+Std\+::vector}$<$ Q\+Point $>$ \& \hyperlink{classPolyline_ae38a1e1f4d3a0506cac0afcee0cbf93e}{get\+Points} ()
+\begin{DoxyCompactList}\small\item\em Gets the vector of Q\+Points that make up the polyline. \end{DoxyCompactList}\item 
+void \hyperlink{classPolyline_a39d80ee69de06bb2037e6d73a21643b3}{set\+Points} (const \hyperlink{classmyStd_1_1vector}{my\+Std\+::vector}$<$ Q\+Point $>$ \&pts)
+\begin{DoxyCompactList}\small\item\em Sets the vector of Q\+Points that make up the polyline to the given vector of Q\+Points. \end{DoxyCompactList}\item 
+int \hyperlink{classPolyline_ac81ab6c46f172b381cc7b6ed4d6ec942}{get\+Num\+Of\+Points} ()
+\begin{DoxyCompactList}\small\item\em Gets the number of points that make up the polyline. \end{DoxyCompactList}\item 
+Qt\+::\+Global\+Color \hyperlink{classPolyline_a334e86d5b90a0f90649c64d37e95cff9}{get\+Pen\+Color} ()
+\begin{DoxyCompactList}\small\item\em Gets the pen color stored in this shape. \end{DoxyCompactList}\item 
+void \hyperlink{classPolyline_a69a07839c0f7c67efe10701bd7d7cf8e}{set\+Pen\+Color} (Qt\+::\+Global\+Color pc)
+\begin{DoxyCompactList}\small\item\em Sets the color of the pen to the given color. \end{DoxyCompactList}\item 
+Qt\+::\+Pen\+Style \hyperlink{classPolyline_aefe298425b83dbc94724ab5cb215bba3}{get\+Pen\+Style} ()
+\begin{DoxyCompactList}\small\item\em Gets the style of the pen stored in the shape. \end{DoxyCompactList}\item 
+void \hyperlink{classPolyline_ae5af058a4a94979fa88c2c3267da9087}{set\+Pen\+Style} (Qt\+::\+Pen\+Style ps)
+\begin{DoxyCompactList}\small\item\em Sets the style of the pen to the given style. \end{DoxyCompactList}\item 
+\hyperlink{shape__input__file__specs_8txt_a622efdcfef6789d4367974d2fe79019e}{Qt\+::\+Pen\+Cap\+Style} \hyperlink{classPolyline_acd78e365c667da035656279076bf5fe1}{get\+Pen\+Cap\+Style} ()
+\begin{DoxyCompactList}\small\item\em Gets the pen cap style that is stored in this \hyperlink{classShape}{Shape}. \end{DoxyCompactList}\item 
+void \hyperlink{classPolyline_a34510d4e398ec607c0ec125f380f30ff}{set\+Pen\+Cap\+Style} (\hyperlink{shape__input__file__specs_8txt_a622efdcfef6789d4367974d2fe79019e}{Qt\+::\+Pen\+Cap\+Style} pcs)
+\begin{DoxyCompactList}\small\item\em Sets the Pen Cap Style to the given Pen Cap Style. \end{DoxyCompactList}\item 
+\hyperlink{shape__input__file__specs_8txt_a007db2043c6063881de2043c05c9c4a9}{Qt\+::\+Pen\+Join\+Style} \hyperlink{classPolyline_a6bd520d9c7fef132bc43cbf61168917c}{get\+Pen\+Join\+Style} ()
+\begin{DoxyCompactList}\small\item\em Gets the Pen Join Style. \end{DoxyCompactList}\item 
+void \hyperlink{classPolyline_a3e792c8055d6c064afd6d6d07c7d8843}{set\+Pen\+Join\+Style} (\hyperlink{shape__input__file__specs_8txt_a007db2043c6063881de2043c05c9c4a9}{Qt\+::\+Pen\+Join\+Style} pjs)
+\begin{DoxyCompactList}\small\item\em Sets the pen join style to the given style. \end{DoxyCompactList}\item 
+int \hyperlink{classPolyline_ab01dd06f45e43dc9e6617596065fee70}{get\+Pen\+Width} ()
+\begin{DoxyCompactList}\small\item\em Gets the width of the pen. \end{DoxyCompactList}\item 
+void \hyperlink{classPolyline_aeb5424c425e44adff787367a497fc024}{set\+Pen\+Width} (int pw)
+\begin{DoxyCompactList}\small\item\em Sets the width of the pen to the given width. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classPolyline_ac5b5a4ac26b140a7dc30cc293638e3ee}{draw} (Q\+Painter \&, bool)
+\begin{DoxyCompactList}\small\item\em Virtual function to draw shapes. \end{DoxyCompactList}\item 
+virtual int \hyperlink{classPolyline_a6138f6313141e81d989622806476c3d2}{get\+Type} ()
+\begin{DoxyCompactList}\small\item\em Gets the type of the shape. \end{DoxyCompactList}\item 
+virtual double \hyperlink{classPolyline_ad5425297b32d53a0f74eda253d4540f7}{get\+Perimeter} ()
+\begin{DoxyCompactList}\small\item\em Gets the perimeter of the given shape. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{classPolyline_abe58d8a06186437737d4c2f856328855}{get\+Static\+Type} ()
+\begin{DoxyCompactList}\small\item\em gets the Type of object \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classPolyline}{Polyline} class that Q\+Painter can draw. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Polyline@{Polyline}!Polyline@{Polyline}}
+\index{Polyline@{Polyline}!Polyline@{Polyline}}
+\subsubsection[{\texorpdfstring{Polyline(unsigned int, my\+Std\+::vector$<$ Q\+Point $>$ \&, Qt\+::\+Global\+Color, Qt\+::\+Pen\+Style, Qt\+::\+Pen\+Cap\+Style, Qt\+::\+Pen\+Join\+Style, int)}{Polyline(unsigned int, myStd::vector< QPoint > &, Qt::GlobalColor, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle, int)}}]{\setlength{\rightskip}{0pt plus 5cm}Polyline\+::\+Polyline (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{i, }
+\item[{{\bf my\+Std\+::vector}$<$ Q\+Point $>$ \&}]{vec, }
+\item[{Qt\+::\+Global\+Color}]{pc, }
+\item[{Qt\+::\+Pen\+Style}]{ps, }
+\item[{{\bf Qt\+::\+Pen\+Cap\+Style}}]{pcs, }
+\item[{{\bf Qt\+::\+Pen\+Join\+Style}}]{pjs, }
+\item[{int}]{pw}
+\end{DoxyParamCaption}
+)}\hypertarget{classPolyline_aaea9368c2e2bfc26ecaa36c7e125ac5e}{}\label{classPolyline_aaea9368c2e2bfc26ecaa36c7e125ac5e}
+
+
+All parameter constructor. 
+
+
+
+\subsection{Member Function Documentation}
+\index{Polyline@{Polyline}!draw@{draw}}
+\index{draw@{draw}!Polyline@{Polyline}}
+\subsubsection[{\texorpdfstring{draw(\+Q\+Painter \&, bool)}{draw(QPainter &, bool)}}]{\setlength{\rightskip}{0pt plus 5cm}void Polyline\+::draw (
+\begin{DoxyParamCaption}
+\item[{Q\+Painter \&}]{, }
+\item[{bool}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classPolyline_ac5b5a4ac26b140a7dc30cc293638e3ee}{}\label{classPolyline_ac5b5a4ac26b140a7dc30cc293638e3ee}
+
+
+Virtual function to draw shapes. 
+
+
+
+Implements \hyperlink{classShape_a47dae32819e64fb32f3357f31978293f}{Shape}.
+
+\index{Polyline@{Polyline}!get\+Num\+Of\+Points@{get\+Num\+Of\+Points}}
+\index{get\+Num\+Of\+Points@{get\+Num\+Of\+Points}!Polyline@{Polyline}}
+\subsubsection[{\texorpdfstring{get\+Num\+Of\+Points()}{getNumOfPoints()}}]{\setlength{\rightskip}{0pt plus 5cm}int Polyline\+::get\+Num\+Of\+Points (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classPolyline_ac81ab6c46f172b381cc7b6ed4d6ec942}{}\label{classPolyline_ac81ab6c46f172b381cc7b6ed4d6ec942}
+
+
+Gets the number of points that make up the polyline. 
+
+\begin{DoxyReturn}{Returns}
+int number of Q\+Points 
+\end{DoxyReturn}
+\index{Polyline@{Polyline}!get\+Pen\+Cap\+Style@{get\+Pen\+Cap\+Style}}
+\index{get\+Pen\+Cap\+Style@{get\+Pen\+Cap\+Style}!Polyline@{Polyline}}
+\subsubsection[{\texorpdfstring{get\+Pen\+Cap\+Style()}{getPenCapStyle()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Qt\+::\+Pen\+Cap\+Style} Polyline\+::get\+Pen\+Cap\+Style (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classPolyline_acd78e365c667da035656279076bf5fe1}{}\label{classPolyline_acd78e365c667da035656279076bf5fe1}
+
+
+Gets the pen cap style that is stored in this \hyperlink{classShape}{Shape}. 
+
+\begin{DoxyReturn}{Returns}
+Pen\+Cap\+Style 
+\end{DoxyReturn}
+\index{Polyline@{Polyline}!get\+Pen\+Color@{get\+Pen\+Color}}
+\index{get\+Pen\+Color@{get\+Pen\+Color}!Polyline@{Polyline}}
+\subsubsection[{\texorpdfstring{get\+Pen\+Color()}{getPenColor()}}]{\setlength{\rightskip}{0pt plus 5cm}Qt\+::\+Global\+Color Polyline\+::get\+Pen\+Color (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classPolyline_a334e86d5b90a0f90649c64d37e95cff9}{}\label{classPolyline_a334e86d5b90a0f90649c64d37e95cff9}
+
+
+Gets the pen color stored in this shape. 
+
+\begin{DoxyReturn}{Returns}
+Color of the pen 
+\end{DoxyReturn}
+\index{Polyline@{Polyline}!get\+Pen\+Join\+Style@{get\+Pen\+Join\+Style}}
+\index{get\+Pen\+Join\+Style@{get\+Pen\+Join\+Style}!Polyline@{Polyline}}
+\subsubsection[{\texorpdfstring{get\+Pen\+Join\+Style()}{getPenJoinStyle()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Qt\+::\+Pen\+Join\+Style} Polyline\+::get\+Pen\+Join\+Style (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classPolyline_a6bd520d9c7fef132bc43cbf61168917c}{}\label{classPolyline_a6bd520d9c7fef132bc43cbf61168917c}
+
+
+Gets the Pen Join Style. 
+
+\begin{DoxyReturn}{Returns}
+Pen\+Join\+Style 
+\end{DoxyReturn}
+\index{Polyline@{Polyline}!get\+Pen\+Style@{get\+Pen\+Style}}
+\index{get\+Pen\+Style@{get\+Pen\+Style}!Polyline@{Polyline}}
+\subsubsection[{\texorpdfstring{get\+Pen\+Style()}{getPenStyle()}}]{\setlength{\rightskip}{0pt plus 5cm}Qt\+::\+Pen\+Style Polyline\+::get\+Pen\+Style (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classPolyline_aefe298425b83dbc94724ab5cb215bba3}{}\label{classPolyline_aefe298425b83dbc94724ab5cb215bba3}
+
+
+Gets the style of the pen stored in the shape. 
+
+\begin{DoxyReturn}{Returns}
+Style of the pen 
+\end{DoxyReturn}
+\index{Polyline@{Polyline}!get\+Pen\+Width@{get\+Pen\+Width}}
+\index{get\+Pen\+Width@{get\+Pen\+Width}!Polyline@{Polyline}}
+\subsubsection[{\texorpdfstring{get\+Pen\+Width()}{getPenWidth()}}]{\setlength{\rightskip}{0pt plus 5cm}int Polyline\+::get\+Pen\+Width (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classPolyline_ab01dd06f45e43dc9e6617596065fee70}{}\label{classPolyline_ab01dd06f45e43dc9e6617596065fee70}
+
+
+Gets the width of the pen. 
+
+\begin{DoxyReturn}{Returns}
+pen\+Width 
+\end{DoxyReturn}
+\index{Polyline@{Polyline}!get\+Perimeter@{get\+Perimeter}}
+\index{get\+Perimeter@{get\+Perimeter}!Polyline@{Polyline}}
+\subsubsection[{\texorpdfstring{get\+Perimeter()}{getPerimeter()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual double Polyline\+::get\+Perimeter (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{classPolyline_ad5425297b32d53a0f74eda253d4540f7}{}\label{classPolyline_ad5425297b32d53a0f74eda253d4540f7}
+
+
+Gets the perimeter of the given shape. 
+
+\begin{DoxyReturn}{Returns}
+Perimeter as a double 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classShape_a391744b6bce96df044139dcbd1ae0aa8}{Shape}.
+
+\index{Polyline@{Polyline}!get\+Points@{get\+Points}}
+\index{get\+Points@{get\+Points}!Polyline@{Polyline}}
+\subsubsection[{\texorpdfstring{get\+Points()}{getPoints()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf my\+Std\+::vector}$<$Q\+Point$>$\& Polyline\+::get\+Points (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classPolyline_ae38a1e1f4d3a0506cac0afcee0cbf93e}{}\label{classPolyline_ae38a1e1f4d3a0506cac0afcee0cbf93e}
+
+
+Gets the vector of Q\+Points that make up the polyline. 
+
+\begin{DoxyReturn}{Returns}
+vector of Q\+Points 
+\end{DoxyReturn}
+\index{Polyline@{Polyline}!get\+Static\+Type@{get\+Static\+Type}}
+\index{get\+Static\+Type@{get\+Static\+Type}!Polyline@{Polyline}}
+\subsubsection[{\texorpdfstring{get\+Static\+Type()}{getStaticType()}}]{\setlength{\rightskip}{0pt plus 5cm}static int Polyline\+::get\+Static\+Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}\hypertarget{classPolyline_abe58d8a06186437737d4c2f856328855}{}\label{classPolyline_abe58d8a06186437737d4c2f856328855}
+
+
+gets the Type of object 
+
+\begin{DoxyReturn}{Returns}
+Type as int 
+\end{DoxyReturn}
+\index{Polyline@{Polyline}!get\+Type@{get\+Type}}
+\index{get\+Type@{get\+Type}!Polyline@{Polyline}}
+\subsubsection[{\texorpdfstring{get\+Type()}{getType()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual int Polyline\+::get\+Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{classPolyline_a6138f6313141e81d989622806476c3d2}{}\label{classPolyline_a6138f6313141e81d989622806476c3d2}
+
+
+Gets the type of the shape. 
+
+\begin{DoxyReturn}{Returns}
+type as an int 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classShape_a3d15adf2a1d746928f9be98105096eda}{Shape}.
+
+\index{Polyline@{Polyline}!set\+Pen\+Cap\+Style@{set\+Pen\+Cap\+Style}}
+\index{set\+Pen\+Cap\+Style@{set\+Pen\+Cap\+Style}!Polyline@{Polyline}}
+\subsubsection[{\texorpdfstring{set\+Pen\+Cap\+Style(\+Qt\+::\+Pen\+Cap\+Style pcs)}{setPenCapStyle(Qt::PenCapStyle pcs)}}]{\setlength{\rightskip}{0pt plus 5cm}void Polyline\+::set\+Pen\+Cap\+Style (
+\begin{DoxyParamCaption}
+\item[{{\bf Qt\+::\+Pen\+Cap\+Style}}]{pcs}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classPolyline_a34510d4e398ec607c0ec125f380f30ff}{}\label{classPolyline_a34510d4e398ec607c0ec125f380f30ff}
+
+
+Sets the Pen Cap Style to the given Pen Cap Style. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pen\+Cap\+Style} & \\
+\hline
+\end{DoxyParams}
+\index{Polyline@{Polyline}!set\+Pen\+Color@{set\+Pen\+Color}}
+\index{set\+Pen\+Color@{set\+Pen\+Color}!Polyline@{Polyline}}
+\subsubsection[{\texorpdfstring{set\+Pen\+Color(\+Qt\+::\+Global\+Color pc)}{setPenColor(Qt::GlobalColor pc)}}]{\setlength{\rightskip}{0pt plus 5cm}void Polyline\+::set\+Pen\+Color (
+\begin{DoxyParamCaption}
+\item[{Qt\+::\+Global\+Color}]{pc}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classPolyline_a69a07839c0f7c67efe10701bd7d7cf8e}{}\label{classPolyline_a69a07839c0f7c67efe10701bd7d7cf8e}
+
+
+Sets the color of the pen to the given color. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pen\+Color} & \\
+\hline
+\end{DoxyParams}
+\index{Polyline@{Polyline}!set\+Pen\+Join\+Style@{set\+Pen\+Join\+Style}}
+\index{set\+Pen\+Join\+Style@{set\+Pen\+Join\+Style}!Polyline@{Polyline}}
+\subsubsection[{\texorpdfstring{set\+Pen\+Join\+Style(\+Qt\+::\+Pen\+Join\+Style pjs)}{setPenJoinStyle(Qt::PenJoinStyle pjs)}}]{\setlength{\rightskip}{0pt plus 5cm}void Polyline\+::set\+Pen\+Join\+Style (
+\begin{DoxyParamCaption}
+\item[{{\bf Qt\+::\+Pen\+Join\+Style}}]{pjs}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classPolyline_a3e792c8055d6c064afd6d6d07c7d8843}{}\label{classPolyline_a3e792c8055d6c064afd6d6d07c7d8843}
+
+
+Sets the pen join style to the given style. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pen\+Join\+Style} & \\
+\hline
+\end{DoxyParams}
+\index{Polyline@{Polyline}!set\+Pen\+Style@{set\+Pen\+Style}}
+\index{set\+Pen\+Style@{set\+Pen\+Style}!Polyline@{Polyline}}
+\subsubsection[{\texorpdfstring{set\+Pen\+Style(\+Qt\+::\+Pen\+Style ps)}{setPenStyle(Qt::PenStyle ps)}}]{\setlength{\rightskip}{0pt plus 5cm}void Polyline\+::set\+Pen\+Style (
+\begin{DoxyParamCaption}
+\item[{Qt\+::\+Pen\+Style}]{ps}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classPolyline_ae5af058a4a94979fa88c2c3267da9087}{}\label{classPolyline_ae5af058a4a94979fa88c2c3267da9087}
+
+
+Sets the style of the pen to the given style. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pen\+Style} & \\
+\hline
+\end{DoxyParams}
+\index{Polyline@{Polyline}!set\+Pen\+Width@{set\+Pen\+Width}}
+\index{set\+Pen\+Width@{set\+Pen\+Width}!Polyline@{Polyline}}
+\subsubsection[{\texorpdfstring{set\+Pen\+Width(int pw)}{setPenWidth(int pw)}}]{\setlength{\rightskip}{0pt plus 5cm}void Polyline\+::set\+Pen\+Width (
+\begin{DoxyParamCaption}
+\item[{int}]{pw}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classPolyline_aeb5424c425e44adff787367a497fc024}{}\label{classPolyline_aeb5424c425e44adff787367a497fc024}
+
+
+Sets the width of the pen to the given width. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pen\+Width} & \\
+\hline
+\end{DoxyParams}
+\index{Polyline@{Polyline}!set\+Points@{set\+Points}}
+\index{set\+Points@{set\+Points}!Polyline@{Polyline}}
+\subsubsection[{\texorpdfstring{set\+Points(const my\+Std\+::vector$<$ Q\+Point $>$ \&pts)}{setPoints(const myStd::vector< QPoint > &pts)}}]{\setlength{\rightskip}{0pt plus 5cm}void Polyline\+::set\+Points (
+\begin{DoxyParamCaption}
+\item[{const {\bf my\+Std\+::vector}$<$ Q\+Point $>$ \&}]{pts}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classPolyline_a39d80ee69de06bb2037e6d73a21643b3}{}\label{classPolyline_a39d80ee69de06bb2037e6d73a21643b3}
+
+
+Sets the vector of Q\+Points that make up the polyline to the given vector of Q\+Points. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pts} & vector of Q\+Points \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Group Project/\+Scrum\+Of\+The\+Earth/\hyperlink{polyline_8h}{polyline.\+h}\item 
+Group Project/\+Scrum\+Of\+The\+Earth/\hyperlink{polyline_8cpp}{polyline.\+cpp}\end{DoxyCompactItemize}

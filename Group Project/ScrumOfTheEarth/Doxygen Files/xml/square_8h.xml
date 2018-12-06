@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="square_8h" kind="file" language="C++">
+    <compoundname>square.h</compoundname>
+    <includes refid="shape_8h" local="yes">shape.h</includes>
+    <includes refid="vector_8h" local="yes">vector.h</includes>
+    <includedby refid="shape__parser_8h" local="yes">Group Project/ScrumOfTheEarth/shape_parser.h</includedby>
+    <includedby refid="moveshape_8h" local="yes">Group Project/ScrumOfTheEarth/moveshape.h</includedby>
+    <includedby refid="mainwindow_8cpp" local="yes">Group Project/ScrumOfTheEarth/mainwindow.cpp</includedby>
+    <includedby refid="pop__table_8cpp" local="yes">Group Project/ScrumOfTheEarth/pop_table.cpp</includedby>
+    <includedby refid="shape__saver_8cpp" local="yes">Group Project/ScrumOfTheEarth/shape_saver.cpp</includedby>
+    <includedby refid="square_8cpp" local="yes">Group Project/ScrumOfTheEarth/square.cpp</includedby>
+    <incdepgraph>
+      <node id="1475">
+        <label>QObject</label>
+      </node>
+      <node id="1473">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="1474" relation="include">
+        </childnode>
+        <childnode refid="1475" relation="include">
+        </childnode>
+        <childnode refid="1476" relation="include">
+        </childnode>
+      </node>
+      <node id="1476">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="1477" relation="include">
+        </childnode>
+      </node>
+      <node id="1474">
+        <label>QPainter</label>
+      </node>
+      <node id="1472">
+        <label>Group Project/ScrumOfTheEarth/square.h</label>
+        <link refid="square.h"/>
+        <childnode refid="1473" relation="include">
+        </childnode>
+        <childnode refid="1476" relation="include">
+        </childnode>
+      </node>
+      <node id="1477">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1483">
+        <label>Group Project/ScrumOfTheEarth/moveshape.h</label>
+        <link refid="moveshape_8h"/>
+        <childnode refid="1484" relation="include">
+        </childnode>
+        <childnode refid="1490" relation="include">
+        </childnode>
+      </node>
+      <node id="1481">
+        <label>Group Project/ScrumOfTheEarth/mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+      </node>
+      <node id="1490">
+        <label>Group Project/ScrumOfTheEarth/moveshape.cpp</label>
+        <link refid="moveshape_8cpp"/>
+      </node>
+      <node id="1488">
+        <label>Group Project/ScrumOfTheEarth/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="1489">
+        <label>Group Project/ScrumOfTheEarth/window.cpp</label>
+        <link refid="window_8cpp"/>
+      </node>
+      <node id="1480">
+        <label>Group Project/ScrumOfTheEarth/addshape.cpp</label>
+        <link refid="addshape_8cpp"/>
+      </node>
+      <node id="1493">
+        <label>Group Project/ScrumOfTheEarth/square.cpp</label>
+        <link refid="square_8cpp"/>
+      </node>
+      <node id="1491">
+        <label>Group Project/ScrumOfTheEarth/pop_table.cpp</label>
+        <link refid="pop__table_8cpp"/>
+      </node>
+      <node id="1486">
+        <label>Group Project/ScrumOfTheEarth/admin_check.cpp</label>
+        <link refid="admin__check_8cpp"/>
+      </node>
+      <node id="1478">
+        <label>Group Project/ScrumOfTheEarth/square.h</label>
+        <link refid="square.h"/>
+        <childnode refid="1479" relation="include">
+        </childnode>
+        <childnode refid="1483" relation="include">
+        </childnode>
+        <childnode refid="1481" relation="include">
+        </childnode>
+        <childnode refid="1491" relation="include">
+        </childnode>
+        <childnode refid="1492" relation="include">
+        </childnode>
+        <childnode refid="1493" relation="include">
+        </childnode>
+      </node>
+      <node id="1487">
+        <label>Group Project/ScrumOfTheEarth/create_login_file.cpp</label>
+        <link refid="create__login__file_8cpp"/>
+      </node>
+      <node id="1492">
+        <label>Group Project/ScrumOfTheEarth/shape_saver.cpp</label>
+        <link refid="shape__saver_8cpp"/>
+      </node>
+      <node id="1484">
+        <label>Group Project/ScrumOfTheEarth/mainwindow.h</label>
+        <link refid="mainwindow_8h"/>
+        <childnode refid="1485" relation="include">
+        </childnode>
+        <childnode refid="1481" relation="include">
+        </childnode>
+      </node>
+      <node id="1482">
+        <label>Group Project/ScrumOfTheEarth/shape_parser.cpp</label>
+        <link refid="shape__parser_8cpp"/>
+      </node>
+      <node id="1479">
+        <label>Group Project/ScrumOfTheEarth/shape_parser.h</label>
+        <link refid="shape__parser_8h"/>
+        <childnode refid="1480" relation="include">
+        </childnode>
+        <childnode refid="1481" relation="include">
+        </childnode>
+        <childnode refid="1482" relation="include">
+        </childnode>
+      </node>
+      <node id="1485">
+        <label>Group Project/ScrumOfTheEarth/window.h</label>
+        <link refid="window_8h"/>
+        <childnode refid="1486" relation="include">
+        </childnode>
+        <childnode refid="1487" relation="include">
+        </childnode>
+        <childnode refid="1488" relation="include">
+        </childnode>
+        <childnode refid="1489" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classSquare" prot="public">Square</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="2"><highlight class="preprocessor">#ifndef<sp/>SQUARE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SQUARE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="shape_8h" kindref="compound">shape.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vector_8h" kindref="compound">vector.h</ref>&quot;</highlight></codeline>
+<codeline lineno="9" refid="classSquare" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classSquare" kindref="compound">Square</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classShape" kindref="compound">Shape</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classSquare_1a2a877745d97b47cef1bb9473b183b074" kindref="member">Square</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/>Qt::GlobalColor,<sp/>Qt::GlobalColor,<sp/>Qt::PenStyle,<sp/><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22" refid="classSquare_1a2fdd4544900c08c881c4bf4effe0b974" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QPoint<sp/><ref refid="classSquare_1a2fdd4544900c08c881c4bf4effe0b974" kindref="member">getCornerPoint</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CornerPoint;}<sp/></highlight><highlight class="comment">//Square<sp/>specific</highlight></codeline>
+<codeline lineno="27" refid="classSquare_1acfd205cb2fe02845e3ece8c9a1244943" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSquare_1acfd205cb2fe02845e3ece8c9a1244943" kindref="member">setCornerPoint</ref>(QPoint<sp/>p1){CornerPoint<sp/>=<sp/>p1;}<sp/></highlight><highlight class="comment">//Square<sp/>specific</highlight></codeline>
+<codeline lineno="32" refid="classSquare_1a6d8a8d8ec4383ebefe4c274f189c6a79" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classSquare_1a6d8a8d8ec4383ebefe4c274f189c6a79" kindref="member">getLength</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>length;}<sp/></highlight><highlight class="comment">//Square<sp/>specific</highlight></codeline>
+<codeline lineno="37" refid="classSquare_1a6a04c5639dc3cd6501a1d80ad54f4171" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSquare_1a6a04c5639dc3cd6501a1d80ad54f4171" kindref="member">setLength</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>){length<sp/>=<sp/><ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>;}<sp/></highlight><highlight class="comment">//Square<sp/>specific</highlight></codeline>
+<codeline lineno="42" refid="classSquare_1a8e9f690383213cb901883ba0fd008818" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::GlobalColor<sp/><ref refid="classSquare_1a8e9f690383213cb901883ba0fd008818" kindref="member">getPenColor</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penColor;}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="classSquare_1a8f504b5de9fc6cbc7aedc90c6559cb58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::GlobalColor<sp/><ref refid="classSquare_1a8f504b5de9fc6cbc7aedc90c6559cb58" kindref="member">getBrushColor</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>brushColor;}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="classSquare_1aea0a3ccc55caacf339d9270d102b75c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSquare_1aea0a3ccc55caacf339d9270d102b75c8" kindref="member">setPenColor</ref>(Qt::GlobalColor<sp/>pc){penColor<sp/>=<sp/>pc;}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="classSquare_1ad649b56a35dba222144299a0a4e90483" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSquare_1ad649b56a35dba222144299a0a4e90483" kindref="member">setBrushColor</ref>(Qt::GlobalColor<sp/>bc){brushColor<sp/>=<sp/>bc;}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="classSquare_1a8acc57d1601adeb0800648799fc8beae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::PenStyle<sp/><ref refid="classSquare_1a8acc57d1601adeb0800648799fc8beae" kindref="member">getPenStyle</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penStyle;}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="classSquare_1a912efb5a33db0a697a275fccedf69523" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSquare_1a912efb5a33db0a697a275fccedf69523" kindref="member">setPenStyle</ref>(Qt::PenStyle<sp/>ps){penStyle<sp/>=<sp/>ps;}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="classSquare_1a3b91e8b3b03d2a6125836a5477cfc9be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/><ref refid="classSquare_1a3b91e8b3b03d2a6125836a5477cfc9be" kindref="member">getPenCapStyle</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penCapStyle;}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="classSquare_1a5b9e32153640bdb937b1140f1c45083e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSquare_1a5b9e32153640bdb937b1140f1c45083e" kindref="member">setPenCapStyle</ref>(<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/>pcs){<sp/>penCapStyle<sp/>=<sp/>pcs;}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="classSquare_1a6fd69d97012e009ffea95e457f3a845e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/><ref refid="classSquare_1a6fd69d97012e009ffea95e457f3a845e" kindref="member">getPenJoinStyle</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penJoinStyle;}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="classSquare_1a51ebefc5fc56435612188060b6088bd7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSquare_1a51ebefc5fc56435612188060b6088bd7" kindref="member">setPenJoinStyle</ref>(<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/>pjs){penJoinStyle<sp/>=<sp/>pjs;}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="classSquare_1a63e121e72afaba2766f24a0d8816974f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref><sp/><ref refid="classSquare_1a63e121e72afaba2766f24a0d8816974f" kindref="member">getBrushStyle</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>brushStyle;}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="classSquare_1aec04ffe7d0b567be4a7221013add1d6d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSquare_1aec04ffe7d0b567be4a7221013add1d6d" kindref="member">setBrushStyle</ref>(<ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref><sp/>bs){brushStyle<sp/>=<sp/>bs;}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="classSquare_1ac6b3bedb6d43e5059840221331d802fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classSquare_1ac6b3bedb6d43e5059840221331d802fd" kindref="member">getPenWidth</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penWidth;}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="classSquare_1a26697e2c607e6cbda21a63e0f292e5e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSquare_1a26697e2c607e6cbda21a63e0f292e5e6" kindref="member">setPenWidth</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pw){penWidth<sp/>=<sp/>pw;}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSquare_1acea142797dc1540a4fea5d343b7f1e82" kindref="member">draw</ref>(QPainter&amp;,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="122" refid="classSquare_1a1d225d79fc799bc98f9ad4d23e33a7d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classSquare_1a1d225d79fc799bc98f9ad4d23e33a7d2" kindref="member">getType</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;}</highlight></codeline>
+<codeline lineno="127" refid="classSquare_1a5d6e510d07f465fefdd1cdbbd041db2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classSquare_1a5d6e510d07f465fefdd1cdbbd041db2f" kindref="member">getStaticType</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;}</highlight></codeline>
+<codeline lineno="128" refid="classSquare_1a9a97feb159f85721b661b10ace6a8b3b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classSquare_1a9a97feb159f85721b661b10ace6a8b3b" kindref="member">getArea</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)length*length;}</highlight></codeline>
+<codeline lineno="129" refid="classSquare_1ae1d360c45a7970da83c3ad2acbf81dc2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classSquare_1ae1d360c45a7970da83c3ad2acbf81dc2" kindref="member">getPerimeter</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(4*length);}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>QPoint<sp/>CornerPoint;<sp/></highlight><highlight class="comment">//Square<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>length;<sp/></highlight><highlight class="comment">//Square<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::GlobalColor<sp/>penColor;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::GlobalColor<sp/>brushColor;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::PenStyle<sp/>penStyle;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/>penCapStyle;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/>penJoinStyle;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref><sp/>brushStyle;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>penWidth;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SQUARE_H</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/square.h"/>
+  </compounddef>
+</doxygen>

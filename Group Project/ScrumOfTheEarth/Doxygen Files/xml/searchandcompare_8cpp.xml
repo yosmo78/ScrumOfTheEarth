@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="searchandcompare_8cpp" kind="file" language="C++">
+    <compoundname>searchandcompare.cpp</compoundname>
+    <includes refid="searchandcompare_8h" local="yes">searchandcompare.h</includes>
+    <incdepgraph>
+      <node id="1336">
+        <label>QObject</label>
+      </node>
+      <node id="1334">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="1335" relation="include">
+        </childnode>
+        <childnode refid="1336" relation="include">
+        </childnode>
+        <childnode refid="1332" relation="include">
+        </childnode>
+      </node>
+      <node id="1330">
+        <label>Group Project/ScrumOfTheEarth/searchandcompare.cpp</label>
+        <link refid="searchandcompare.cpp"/>
+        <childnode refid="1331" relation="include">
+        </childnode>
+      </node>
+      <node id="1332">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="1333" relation="include">
+        </childnode>
+      </node>
+      <node id="1335">
+        <label>QPainter</label>
+      </node>
+      <node id="1331">
+        <label>searchandcompare.h</label>
+        <link refid="searchandcompare_8h"/>
+        <childnode refid="1332" relation="include">
+        </childnode>
+        <childnode refid="1334" relation="include">
+        </childnode>
+      </node>
+      <node id="1333">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="searchandcompare_8cpp_1a474fd352edcedaea9235d8708336d6e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool cmpId</definition>
+        <argsstring>(Shape *s1, Shape *s2)</argsstring>
+        <name>cmpId</name>
+        <param>
+          <type><ref refid="classShape" kindref="compound">Shape</ref> *</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type><ref refid="classShape" kindref="compound">Shape</ref> *</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+<para>cmpId compares the id of two shapes and returns true if the id of the first shape is greater. Otherwise, false </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classShape" kindref="compound">Shape</ref> 1 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>s2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classShape" kindref="compound">Shape</ref> 2 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool <ref refid="classShape" kindref="compound">Shape</ref> 1&apos;s id is greater or not </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/searchandcompare.cpp" line="3" column="1" bodyfile="Group Project/ScrumOfTheEarth/searchandcompare.cpp" bodystart="3" bodyend="3"/>
+      </memberdef>
+      <memberdef kind="function" id="searchandcompare_8cpp_1a55d382d6ff217cba8f8a1d647d3f5e02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool cmpArea</definition>
+        <argsstring>(Shape *s1, Shape *s2)</argsstring>
+        <name>cmpArea</name>
+        <param>
+          <type><ref refid="classShape" kindref="compound">Shape</ref> *</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type><ref refid="classShape" kindref="compound">Shape</ref> *</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+<para>cmpArea compares the area of two shapes and returns true if the area of the first shape is greater. Otherwise, false </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classShape" kindref="compound">Shape</ref> 1 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>s2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classShape" kindref="compound">Shape</ref> 2 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool <ref refid="classShape" kindref="compound">Shape</ref> 1&apos;s perimeter is greater or not </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/searchandcompare.cpp" line="4" column="1" bodyfile="Group Project/ScrumOfTheEarth/searchandcompare.cpp" bodystart="4" bodyend="4"/>
+      </memberdef>
+      <memberdef kind="function" id="searchandcompare_8cpp_1ab91f3b00a32d9f439cecf4f29ce6eb29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool cmpPeri</definition>
+        <argsstring>(Shape *s1, Shape *s2)</argsstring>
+        <name>cmpPeri</name>
+        <param>
+          <type><ref refid="classShape" kindref="compound">Shape</ref> *</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type><ref refid="classShape" kindref="compound">Shape</ref> *</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+<para>cmpPeri compares the perimeter of two shapes and returns true if the perimeter of the first shape is greater. Otherwise, false </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classShape" kindref="compound">Shape</ref> 1 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>s2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classShape" kindref="compound">Shape</ref> 2 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool <ref refid="classShape" kindref="compound">Shape</ref> 1&apos;s perimeter is greater or not </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/searchandcompare.cpp" line="5" column="1" bodyfile="Group Project/ScrumOfTheEarth/searchandcompare.cpp" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="function" id="searchandcompare_8cpp_1ae156afea82af96484e6d6f00195737aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int findShape</definition>
+        <argsstring>(myStd::vector&lt; Shape * &gt; vec, unsigned int id)</argsstring>
+        <name>findShape</name>
+        <param>
+          <type><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector</ref>&lt; <ref refid="classShape" kindref="compound">Shape</ref> * &gt;</type>
+          <defname>vec</defname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>int</declname>
+          <defname>id</defname>
+        </param>
+        <briefdescription>
+<para>findShape finds a shape with the given id in the given vector of shape pointers </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/searchandcompare.cpp" line="7" column="1" bodyfile="Group Project/ScrumOfTheEarth/searchandcompare.cpp" bodystart="7" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="searchandcompare_8h" kindref="compound">searchandcompare.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="searchandcompare_8cpp_1a474fd352edcedaea9235d8708336d6e0" kindref="member">cmpId</ref>(<ref refid="classShape" kindref="compound">Shape</ref>*<sp/>s1,<sp/><ref refid="classShape" kindref="compound">Shape</ref>*<sp/>s2){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>s1-&gt;<ref refid="classShape_1a3ac221427e91b0acc53a2f3764a8f01b" kindref="member">getShapeId</ref>()&gt;s2-&gt;<ref refid="classShape_1a3ac221427e91b0acc53a2f3764a8f01b" kindref="member">getShapeId</ref>();}</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="searchandcompare_8cpp_1a55d382d6ff217cba8f8a1d647d3f5e02" kindref="member">cmpArea</ref>(<ref refid="classShape" kindref="compound">Shape</ref>*<sp/>s1,<sp/><ref refid="classShape" kindref="compound">Shape</ref>*<sp/>s2){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>s1-&gt;<ref refid="classShape_1ac29f8bce0d038c84470028c6819a79ab" kindref="member">getArea</ref>()&gt;s2-&gt;<ref refid="classShape_1ac29f8bce0d038c84470028c6819a79ab" kindref="member">getArea</ref>();}</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="searchandcompare_8cpp_1ab91f3b00a32d9f439cecf4f29ce6eb29" kindref="member">cmpPeri</ref>(<ref refid="classShape" kindref="compound">Shape</ref>*<sp/>s1,<sp/><ref refid="classShape" kindref="compound">Shape</ref>*<sp/>s2){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>s1-&gt;<ref refid="classShape_1a391744b6bce96df044139dcbd1ae0aa8" kindref="member">getPerimeter</ref>()&gt;s2-&gt;<ref refid="classShape_1a391744b6bce96df044139dcbd1ae0aa8" kindref="member">getPerimeter</ref>();};</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="searchandcompare_8cpp_1ae156afea82af96484e6d6f00195737aa" kindref="member">findShape</ref>(<ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;Shape*&gt;</ref><sp/>vec,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight><highlight class="comment">//sequential<sp/>search<sp/>looking<sp/>for<sp/>shape<sp/>id</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size<sp/>=<sp/>vec.<ref refid="classmyStd_1_1vector_1a33ebe4dab379f466c8d3a2f08d9aa554" kindref="member">size</ref>();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>notfound<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(index<sp/>&lt;<sp/>size<sp/>&amp;&amp;<sp/>notfound)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(vec[index]-&gt;getShapeId()<sp/>==<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>notfound<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++index;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>index;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/searchandcompare.cpp"/>
+  </compounddef>
+</doxygen>

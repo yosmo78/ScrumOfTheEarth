@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="window_8h" kind="file" language="C++">
+    <compoundname>window.h</compoundname>
+    <includes local="no">QMainWindow</includes>
+    <includes refid="contactus_8h" local="yes">contactus.h</includes>
+    <includes refid="mainwindow_8h" local="yes">mainwindow.h</includes>
+    <includes local="no">string</includes>
+    <includedby refid="admin__check_8cpp" local="yes">Group Project/ScrumOfTheEarth/admin_check.cpp</includedby>
+    <includedby refid="create__login__file_8cpp" local="yes">Group Project/ScrumOfTheEarth/create_login_file.cpp</includedby>
+    <includedby refid="main_8cpp" local="yes">Group Project/ScrumOfTheEarth/main.cpp</includedby>
+    <includedby refid="window_8cpp" local="yes">Group Project/ScrumOfTheEarth/window.cpp</includedby>
+    <incdepgraph>
+      <node id="1608">
+        <label>moveshape.h</label>
+        <link refid="moveshape_8h"/>
+        <childnode refid="1603" relation="include">
+        </childnode>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1609" relation="include">
+        </childnode>
+        <childnode refid="1610" relation="include">
+        </childnode>
+        <childnode refid="1611" relation="include">
+        </childnode>
+        <childnode refid="1613" relation="include">
+        </childnode>
+        <childnode refid="1614" relation="include">
+        </childnode>
+        <childnode refid="1615" relation="include">
+        </childnode>
+        <childnode refid="1616" relation="include">
+        </childnode>
+        <childnode refid="1617" relation="include">
+        </childnode>
+        <childnode refid="1618" relation="include">
+        </childnode>
+        <childnode refid="1596" relation="include">
+        </childnode>
+      </node>
+      <node id="1597">
+        <label>contactus.h</label>
+        <link refid="contactus_8h"/>
+        <childnode refid="1598" relation="include">
+        </childnode>
+        <childnode refid="1599" relation="include">
+        </childnode>
+        <childnode refid="1600" relation="include">
+        </childnode>
+      </node>
+      <node id="1607">
+        <label>QObject</label>
+      </node>
+      <node id="1605">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="1606" relation="include">
+        </childnode>
+        <childnode refid="1607" relation="include">
+        </childnode>
+        <childnode refid="1603" relation="include">
+        </childnode>
+      </node>
+      <node id="1610">
+        <label>rectangle.h</label>
+        <link refid="rectangle_8h"/>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1603" relation="include">
+        </childnode>
+      </node>
+      <node id="1617">
+        <label>text.h</label>
+        <link refid="text_8h"/>
+        <childnode refid="1605" relation="include">
+        </childnode>
+      </node>
+      <node id="1612">
+        <label>cmath</label>
+      </node>
+      <node id="1603">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="1604" relation="include">
+        </childnode>
+      </node>
+      <node id="1618">
+        <label>string</label>
+      </node>
+      <node id="1596">
+        <label>QMainWindow</label>
+      </node>
+      <node id="1613">
+        <label>circle.h</label>
+        <link refid="circle_8h"/>
+        <childnode refid="1605" relation="include">
+        </childnode>
+      </node>
+      <node id="1606">
+        <label>QPainter</label>
+      </node>
+      <node id="1616">
+        <label>polyline.h</label>
+        <link refid="polyline_8h"/>
+        <childnode refid="1603" relation="include">
+        </childnode>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1612" relation="include">
+        </childnode>
+      </node>
+      <node id="1600">
+        <label>QDialog</label>
+      </node>
+      <node id="1599">
+        <label>unistd.h</label>
+      </node>
+      <node id="1611">
+        <label>line.h</label>
+        <link refid="line_8h"/>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1612" relation="include">
+        </childnode>
+      </node>
+      <node id="1614">
+        <label>ellipse.h</label>
+        <link refid="ellipse_8h"/>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1612" relation="include">
+        </childnode>
+      </node>
+      <node id="1609">
+        <label>square.h</label>
+        <link refid="square_8h"/>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1603" relation="include">
+        </childnode>
+      </node>
+      <node id="1601">
+        <label>mainwindow.h</label>
+        <link refid="mainwindow_8h"/>
+        <childnode refid="1602" relation="include">
+        </childnode>
+        <childnode refid="1608" relation="include">
+        </childnode>
+        <childnode refid="1596" relation="include">
+        </childnode>
+      </node>
+      <node id="1602">
+        <label>addshape.h</label>
+        <link refid="addshape_8h"/>
+        <childnode refid="1603" relation="include">
+        </childnode>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1596" relation="include">
+        </childnode>
+      </node>
+      <node id="1598">
+        <label>QPixmap</label>
+      </node>
+      <node id="1604">
+        <label>algorithm</label>
+      </node>
+      <node id="1615">
+        <label>polygon.h</label>
+        <link refid="polygon_8h"/>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1603" relation="include">
+        </childnode>
+        <childnode refid="1612" relation="include">
+        </childnode>
+      </node>
+      <node id="1595">
+        <label>Group Project/ScrumOfTheEarth/window.h</label>
+        <link refid="window.h"/>
+        <childnode refid="1596" relation="include">
+        </childnode>
+        <childnode refid="1597" relation="include">
+        </childnode>
+        <childnode refid="1601" relation="include">
+        </childnode>
+        <childnode refid="1618" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1622">
+        <label>Group Project/ScrumOfTheEarth/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="1623">
+        <label>Group Project/ScrumOfTheEarth/window.cpp</label>
+        <link refid="window_8cpp"/>
+      </node>
+      <node id="1620">
+        <label>Group Project/ScrumOfTheEarth/admin_check.cpp</label>
+        <link refid="admin__check_8cpp"/>
+      </node>
+      <node id="1621">
+        <label>Group Project/ScrumOfTheEarth/create_login_file.cpp</label>
+        <link refid="create__login__file_8cpp"/>
+      </node>
+      <node id="1619">
+        <label>Group Project/ScrumOfTheEarth/window.h</label>
+        <link refid="window.h"/>
+        <childnode refid="1620" relation="include">
+        </childnode>
+        <childnode refid="1621" relation="include">
+        </childnode>
+        <childnode refid="1622" relation="include">
+        </childnode>
+        <childnode refid="1623" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classWindow" prot="public">Window</innerclass>
+    <innernamespace refid="namespaceUi">Ui</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="2"><highlight class="preprocessor">#ifndef<sp/>WINDOW_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WINDOW_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QMainWindow&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="contactus_8h" kindref="compound">contactus.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="mainwindow_8h" kindref="compound">mainwindow.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceUi" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classWindow" kindref="compound">Window</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="classWindow" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classWindow" kindref="compound">Window</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QMainWindow</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classWindow" kindref="compound">Window</ref>(QWidget<sp/>*parent<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="classWindow" kindref="compound">Window</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_pushButton_clicked();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_PassText_returnPressed();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_Contact_clicked();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_GuestLogin_clicked();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Check_Admin(std::string,<sp/>std::string,<sp/>std::string);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>create_login_file();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::Window<sp/>*ui;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classContactUs" kindref="compound">ContactUs</ref><sp/>*<sp/>contactus;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow" kindref="compound">MainWindow</ref><sp/>*<sp/>mainwindow;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>WINDOW_H</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/window.h"/>
+  </compounddef>
+</doxygen>

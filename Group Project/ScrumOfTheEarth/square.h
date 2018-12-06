@@ -11,10 +11,29 @@ class Square : public Shape
     Q_OBJECT
 
    public:
+    /*!
+     * \brief Square all parameter constructor
+     */
     Square(unsigned int, int, int, int, Qt::GlobalColor, Qt::GlobalColor, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle, Qt::BrushStyle, int);
+    /*!
+     * \brief Gets the corner point of the square
+     * \return QPoint of the top left corner
+     */
     QPoint getCornerPoint(){return CornerPoint;} //Square specific
+    /*!
+     * \brief Sets the corner point of the square to the given point
+     * \param p1 QPoint of top left corner
+     */
     void setCornerPoint(QPoint p1){CornerPoint = p1;} //Square specific
+    /*!
+     * \brief Gets the length of the square
+     * \return int length of square
+     */
     int getLength(){return length;} //Square specific
+    /*!
+     * \brief Sets the length of the square
+     * \param l length of square
+     */
     void setLength(int l){length = l;} //Square specific
     /*!
      * \brief Gets the pen color stored in this shape

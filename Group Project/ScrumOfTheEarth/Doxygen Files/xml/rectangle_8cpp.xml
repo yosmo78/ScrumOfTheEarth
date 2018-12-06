@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="rectangle_8cpp" kind="file" language="C++">
+    <compoundname>rectangle.cpp</compoundname>
+    <includes refid="rectangle_8h" local="yes">rectangle.h</includes>
+    <incdepgraph>
+      <node id="1291">
+        <label>Group Project/ScrumOfTheEarth/rectangle.cpp</label>
+        <link refid="rectangle.cpp"/>
+        <childnode refid="1292" relation="include">
+        </childnode>
+      </node>
+      <node id="1295">
+        <label>QObject</label>
+      </node>
+      <node id="1293">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="1294" relation="include">
+        </childnode>
+        <childnode refid="1295" relation="include">
+        </childnode>
+        <childnode refid="1296" relation="include">
+        </childnode>
+      </node>
+      <node id="1292">
+        <label>rectangle.h</label>
+        <link refid="rectangle_8h"/>
+        <childnode refid="1293" relation="include">
+        </childnode>
+        <childnode refid="1296" relation="include">
+        </childnode>
+      </node>
+      <node id="1296">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="1297" relation="include">
+        </childnode>
+      </node>
+      <node id="1294">
+        <label>QPainter</label>
+      </node>
+      <node id="1297">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="rectangle_8h" kindref="compound">rectangle.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><ref refid="classRectangle_1a1dca3e66dc1317df74dda6c1984728ff" kindref="member">Rectangle::Rectangle</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="shape__input__file__specs_8txt_1a2e02238fe11bc76d2a69c565c7391545" kindref="member">l</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w,<sp/>Qt::GlobalColor<sp/>pc,<sp/>Qt::GlobalColor<sp/>bc,<sp/>Qt::PenStyle<sp/>ps,<sp/><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/>pcs,<sp/><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/>pjs,<sp/><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref><sp/>bs,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pw):</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classShape" kindref="compound">Shape</ref>(i),<sp/>CornerPoint(x,y),<sp/>length(l),width(w),penColor(pc),<sp/>brushColor(bc),penStyle(ps),penCapStyle(pcs),penJoinStyle(pjs),brushStyle(bs),penWidth(pw){}</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classRectangle_1a6734cad19e207a212dcb042e1006a7f1" kindref="member">Rectangle::draw</ref>(QPainter<sp/>&amp;<sp/>paint,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Id)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/>QBrush<sp/>b(brushColor,brushStyle);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/>QBrush<sp/>p(penColor);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/>QPen<sp/>pen(p,qreal(penWidth),penStyle,penCapStyle,penJoinStyle);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/>paint.setPen(pen);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/>paint.setBrush(b);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/>paint.drawRect(QRect(CornerPoint,<sp/>QSize(width,<sp/>length)<sp/>));</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Id)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>paint.drawText(CornerPoint.x()<sp/>+<sp/>(width/2<sp/>-<sp/>3<sp/>*<sp/>std::to_string(<ref refid="classShape_1a3ac221427e91b0acc53a2f3764a8f01b" kindref="member">getShapeId</ref>()).length()),<sp/>CornerPoint.y()<sp/>-<sp/>5,QString::fromStdString(std::to_string(<ref refid="classShape_1a3ac221427e91b0acc53a2f3764a8f01b" kindref="member">getShapeId</ref>())));</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/rectangle.cpp"/>
+  </compounddef>
+</doxygen>

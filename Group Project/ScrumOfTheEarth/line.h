@@ -21,10 +21,18 @@ class Line : public Shape
     QPoint getPoint1(){return point1;} //line specific
     /*!
      * \brief Gets the second point of the line
-     * \return
+     * \return QPoint of the second point
      */
     QPoint getPoint2(){return point2;} //line specific
+    /*!
+     * \brief Sets the first point to the given point
+     * \param QPoint for the first point
+     */
     void setPoint1(QPoint p1){point1 = p1;} //line specific
+    /*!
+     * \brief Sets the second point to the given point
+     * \param QPoint of the second point
+     */
     void setPoint2(QPoint p2){point2 = p2;} //line specific
     /*!
      * \brief Gets the pen color stored in this shape

@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classAddShape.html" title="AddShape class that provides functionality for the add shape button. " alt="" coords="167,5,250,32"/>
+<area shape="rect" id="node3" href="$classMainWindow.html" title="The MainWindow class provides the environment for the RenderArea, Tables, and Buttons. " alt="" coords="160,56,257,83"/>
+<area shape="rect" id="node4" href="$classMoveShape.html" title="The MoveShape class provides the interface and functionality for moving shapes. " alt="" coords="163,107,254,133"/>
+<area shape="rect" id="node5" href="$classWindow.html" title="The Window class displays the login window and provides functionality for it. " alt="" coords="174,157,243,184"/>
+</map>

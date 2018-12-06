@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="shapes_8txt" kind="file" language="C++">
+    <compoundname>shapes.txt</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="shapes_8txt_1acb227b3ee2e839ee3237ece2e8082307" prot="public" static="no" mutable="no">
+        <type><ref refid="shape__input__file__specs_8txt_1a467b0c8874f7e5c808ddbfae7144d412" kindref="member">ShapeId</ref></type>
+        <definition>ShapeId __pad0__</definition>
+        <argsstring></argsstring>
+        <name>__pad0__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shapes.txt" line="2" column="1" bodyfile="Group Project/ScrumOfTheEarth/shapes.txt" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="shapes_8txt_1a0fa4282f357d62c83340e0b9b2c142b6" prot="public" static="no" mutable="no">
+        <type><ref refid="shape__input__file__specs_8txt_1a467b0c8874f7e5c808ddbfae7144d412" kindref="member">ShapeId</ref></type>
+        <definition>ShapeId PenColor</definition>
+        <argsstring></argsstring>
+        <name>PenColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shapes.txt" line="5" column="1" bodyfile="Group Project/ScrumOfTheEarth/shapes.txt" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a467b0c8874f7e5c808ddbfae7144d412" kindref="member">ShapeId</ref>:<sp/>1</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a76cb42f46f7adc2fe2ae77fd213e21e1" kindref="member">ShapeType</ref>:<sp/><ref refid="classLine" kindref="compound">Line</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a1bf25e58b08ba78abc93f104f4bc2914" kindref="member">ShapeDimensions</ref>:<sp/>20,<sp/>90,<sp/>100,<sp/>20</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><ref refid="shapes_8txt_1a0fa4282f357d62c83340e0b9b2c142b6" kindref="member">PenColor</ref>:<sp/><ref refid="shape__input__file__specs_8txt_1a502b3afd7545a4195802c325ab686a9f" kindref="member">blue</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1ac9be3af6537ae5a8802a4af83fcffb8c" kindref="member">PenWidth</ref>:<sp/>100</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">PenStyle:<sp/><ref refid="shape__input__file__specs_8txt_1a9d5081cd9ba835c8db9fdedf4c8ee19a" kindref="member">DashDotLine</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">PenCapStyle</ref>:<sp/>FlatCap</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">PenJoinStyle</ref>:<sp/>MiterJoin</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a467b0c8874f7e5c808ddbfae7144d412" kindref="member">ShapeId</ref>:<sp/>2</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a76cb42f46f7adc2fe2ae77fd213e21e1" kindref="member">ShapeType</ref>:<sp/><ref refid="classPolyline" kindref="compound">Polyline</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a1bf25e58b08ba78abc93f104f4bc2914" kindref="member">ShapeDimensions</ref>:<sp/>460,<sp/>90,<sp/>470,<sp/>20,<sp/>530,<sp/>40,<sp/>540,<sp/>80</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><ref refid="shapes_8txt_1a0fa4282f357d62c83340e0b9b2c142b6" kindref="member">PenColor</ref>:<sp/><ref refid="shape__input__file__specs_8txt_1aab3139c695d35a69810f54c8dc5251d6" kindref="member">green</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1ac9be3af6537ae5a8802a4af83fcffb8c" kindref="member">PenWidth</ref>:<sp/>6</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">PenStyle:<sp/><ref refid="shape__input__file__specs_8txt_1a6e3dfa56f90db6599b3b0115169d618f" kindref="member">SolidLine</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">PenCapStyle</ref>:<sp/>FlatCap</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">PenJoinStyle</ref>:<sp/>MiterJoin</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a467b0c8874f7e5c808ddbfae7144d412" kindref="member">ShapeId</ref>:<sp/>3</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a76cb42f46f7adc2fe2ae77fd213e21e1" kindref="member">ShapeType</ref>:<sp/><ref refid="classPolygon" kindref="compound">Polygon</ref></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a1bf25e58b08ba78abc93f104f4bc2914" kindref="member">ShapeDimensions</ref>:<sp/>900,<sp/>90,<sp/>910,<sp/>20,<sp/>970,<sp/>40,<sp/>980,<sp/>80</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><ref refid="shapes_8txt_1a0fa4282f357d62c83340e0b9b2c142b6" kindref="member">PenColor</ref>:<sp/><ref refid="shape__input__file__specs_8txt_1a35e09d3e179c027a035bde31a31b4496" kindref="member">cyan</ref></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1ac9be3af6537ae5a8802a4af83fcffb8c" kindref="member">PenWidth</ref>:<sp/>6</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">PenStyle:<sp/>DashDotDotLine</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">PenCapStyle</ref>:<sp/>FlatCap</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">PenJoinStyle</ref>:<sp/>MiterJoin</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a354fc5430ab296aed56472b5bd70b09e" kindref="member">BrushColor</ref>:<sp/><ref refid="shape__input__file__specs_8txt_1a3420c3b88f0e5d261e62e78f08802981" kindref="member">yellow</ref></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">BrushStyle</ref>:<sp/>SolidPattern</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a467b0c8874f7e5c808ddbfae7144d412" kindref="member">ShapeId</ref>:<sp/>4</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a76cb42f46f7adc2fe2ae77fd213e21e1" kindref="member">ShapeType</ref>:<sp/><ref refid="classRectangle" kindref="compound">Rectangle</ref></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a1bf25e58b08ba78abc93f104f4bc2914" kindref="member">ShapeDimensions</ref>:<sp/>20,<sp/>200,<sp/>170,<sp/>100</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><ref refid="shapes_8txt_1a0fa4282f357d62c83340e0b9b2c142b6" kindref="member">PenColor</ref>:<sp/><ref refid="shape__input__file__specs_8txt_1a502b3afd7545a4195802c325ab686a9f" kindref="member">blue</ref></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1ac9be3af6537ae5a8802a4af83fcffb8c" kindref="member">PenWidth</ref>:<sp/>0</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">PenStyle:<sp/><ref refid="shape__input__file__specs_8txt_1a441e15ffcd042d37c9239405240cda6a" kindref="member">DashLine</ref></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">PenCapStyle</ref>:<sp/>RoundCap</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">PenJoinStyle</ref>:<sp/>RoundJoin</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a354fc5430ab296aed56472b5bd70b09e" kindref="member">BrushColor</ref>:<sp/><ref refid="shape__input__file__specs_8txt_1abb95a9d7d8170fbc37399adf2435c1d4" kindref="member">red</ref></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">BrushStyle</ref>:<sp/><ref refid="shape__input__file__specs_8txt_1abe8b0fed5e2471bcf0087a518498641a" kindref="member">VerPattern</ref></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a467b0c8874f7e5c808ddbfae7144d412" kindref="member">ShapeId</ref>:<sp/>5</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a76cb42f46f7adc2fe2ae77fd213e21e1" kindref="member">ShapeType</ref>:<sp/><ref refid="classSquare" kindref="compound">Square</ref></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a1bf25e58b08ba78abc93f104f4bc2914" kindref="member">ShapeDimensions</ref>:<sp/>250,<sp/>150,<sp/>200</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><ref refid="shapes_8txt_1a0fa4282f357d62c83340e0b9b2c142b6" kindref="member">PenColor</ref>:<sp/><ref refid="shape__input__file__specs_8txt_1abb95a9d7d8170fbc37399adf2435c1d4" kindref="member">red</ref></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1ac9be3af6537ae5a8802a4af83fcffb8c" kindref="member">PenWidth</ref>:<sp/>0</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">PenStyle:<sp/><ref refid="shape__input__file__specs_8txt_1a6e3dfa56f90db6599b3b0115169d618f" kindref="member">SolidLine</ref></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">PenCapStyle</ref>:<sp/>RoundCap</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">PenJoinStyle</ref>:<sp/>RoundJoin</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a354fc5430ab296aed56472b5bd70b09e" kindref="member">BrushColor</ref>:<sp/><ref refid="shape__input__file__specs_8txt_1a502b3afd7545a4195802c325ab686a9f" kindref="member">blue</ref></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">BrushStyle</ref>:<sp/><ref refid="shape__input__file__specs_8txt_1a97b62d570251a80c34bc3055dab54ac6" kindref="member">HorPattern</ref></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a467b0c8874f7e5c808ddbfae7144d412" kindref="member">ShapeId</ref>:<sp/>6</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a76cb42f46f7adc2fe2ae77fd213e21e1" kindref="member">ShapeType</ref>:<sp/><ref refid="classEllipse" kindref="compound">Ellipse</ref></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a1bf25e58b08ba78abc93f104f4bc2914" kindref="member">ShapeDimensions</ref>:<sp/>520,<sp/>200,<sp/>170,<sp/>100</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><ref refid="shapes_8txt_1a0fa4282f357d62c83340e0b9b2c142b6" kindref="member">PenColor</ref>:<sp/><ref refid="shape__input__file__specs_8txt_1a54a8afc7fef4e6a72193d1b76188b473" kindref="member">black</ref></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1ac9be3af6537ae5a8802a4af83fcffb8c" kindref="member">PenWidth</ref>:<sp/>12</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">PenStyle:<sp/><ref refid="shape__input__file__specs_8txt_1a6e3dfa56f90db6599b3b0115169d618f" kindref="member">SolidLine</ref></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">PenCapStyle</ref>:<sp/>FlatCap</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">PenJoinStyle</ref>:<sp/>MiterJoin</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a354fc5430ab296aed56472b5bd70b09e" kindref="member">BrushColor</ref>:<sp/>white</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">BrushStyle</ref>:<sp/>NoBrush</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a467b0c8874f7e5c808ddbfae7144d412" kindref="member">ShapeId</ref>:<sp/>7</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a76cb42f46f7adc2fe2ae77fd213e21e1" kindref="member">ShapeType</ref>:<sp/><ref refid="classCircle" kindref="compound">Circle</ref></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a1bf25e58b08ba78abc93f104f4bc2914" kindref="member">ShapeDimensions</ref>:<sp/>750,<sp/>150,<sp/>200</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><ref refid="shapes_8txt_1a0fa4282f357d62c83340e0b9b2c142b6" kindref="member">PenColor</ref>:<sp/><ref refid="shape__input__file__specs_8txt_1a54a8afc7fef4e6a72193d1b76188b473" kindref="member">black</ref></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1ac9be3af6537ae5a8802a4af83fcffb8c" kindref="member">PenWidth</ref>:<sp/>12</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">PenStyle:<sp/><ref refid="shape__input__file__specs_8txt_1a6e3dfa56f90db6599b3b0115169d618f" kindref="member">SolidLine</ref></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">PenCapStyle</ref>:<sp/>FlatCap</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">PenJoinStyle</ref>:<sp/>MiterJoin</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a354fc5430ab296aed56472b5bd70b09e" kindref="member">BrushColor</ref>:<sp/><ref refid="shape__input__file__specs_8txt_1a31668012af4e119081d3a9775a7e89b3" kindref="member">magenta</ref></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">BrushStyle</ref>:<sp/>SolidPattern</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a467b0c8874f7e5c808ddbfae7144d412" kindref="member">ShapeId</ref>:<sp/>8</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a76cb42f46f7adc2fe2ae77fd213e21e1" kindref="member">ShapeType</ref>:<sp/><ref refid="classText" kindref="compound">Text</ref></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a1bf25e58b08ba78abc93f104f4bc2914" kindref="member">ShapeDimensions</ref>:<sp/>250,<sp/>425,<sp/>500,<sp/>50</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1ad48ae5b86ba47f707c0ef94fb9249560" kindref="member">TextString</ref>:<sp/>Class<sp/>Project<sp/>2<sp/>-<sp/>2D<sp/>Graphics<sp/>Modeler</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">TextColor:<sp/><ref refid="shape__input__file__specs_8txt_1a54a8afc7fef4e6a72193d1b76188b473" kindref="member">black</ref></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a1f13b9fbbcf54ce40d242716deecf3d5" kindref="member">TextAlignment</ref>:<sp/>AlignCenter</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1ae0e0a84c60f03a686d6e986e9d69145b" kindref="member">TextPointSize</ref>:<sp/>10</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">TextFontFamily:<sp/>Comic<sp/>Sans<sp/>MS</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1a60e4bb735145ede5f8b496b1e3ce6422" kindref="member">TextFontStyle</ref>:<sp/>StyleNormal</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><ref refid="shape__input__file__specs_8txt_1af288033940c4625f54a91877603a16a2" kindref="member">TextFontWeight</ref>:<sp/><ref refid="shape__input__file__specs_8txt_1a0c0bd83f93fb282ea2b33e44c2f3cc34" kindref="member">Normal</ref></highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/shapes.txt"/>
+  </compounddef>
+</doxygen>

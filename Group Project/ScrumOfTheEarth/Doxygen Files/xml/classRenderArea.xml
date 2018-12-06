@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classRenderArea" kind="class" language="C++" prot="public">
+    <compoundname>RenderArea</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="renderarea_8h" local="no">renderarea.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classRenderArea_1a3502e321d5130cd9029c45c7238979e6" prot="public" static="no" mutable="no">
+        <type><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector</ref>&lt; <ref refid="classShape" kindref="compound">Shape</ref> * &gt;</type>
+        <definition>myStd::vector&lt;Shape*&gt; RenderArea::shapesList</definition>
+        <argsstring></argsstring>
+        <name>shapesList</name>
+        <briefdescription>
+<para>shapesList vector of Shape* that <ref refid="classRenderArea" kindref="compound">RenderArea</ref> draws </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/renderarea.h" line="28" column="1" bodyfile="Group Project/ScrumOfTheEarth/renderarea.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classRenderArea_1a7df74e9a89f4bb93dfe284e598d230b6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RenderArea::showId</definition>
+        <argsstring></argsstring>
+        <name>showId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/renderarea.h" line="58" column="1" bodyfile="Group Project/ScrumOfTheEarth/renderarea.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classRenderArea_1a71baad4c7f205d8f3c7fa2b1c7483448" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RenderArea::RenderArea</definition>
+        <argsstring>(QWidget *parent)</argsstring>
+        <name>RenderArea</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classRenderArea" kindref="compound">RenderArea</ref> constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>widget </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/renderarea.h" line="20" column="1" bodyfile="Group Project/ScrumOfTheEarth/renderarea.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classRenderArea_1ade92334d3441242827d5a96fc9cd5f42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual RenderArea::~RenderArea</definition>
+        <argsstring>()</argsstring>
+        <name>~RenderArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/renderarea.h" line="21" column="1" bodyfile="Group Project/ScrumOfTheEarth/renderarea.h" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classRenderArea_1aff78d4f340f879fb5effa9830e4d77b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool RenderArea::getShowId</definition>
+        <argsstring>()</argsstring>
+        <name>getShowId</name>
+        <briefdescription>
+<para>Gets a bool of whether to show the ids when rendering or not. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/renderarea.h" line="33" column="1" bodyfile="Group Project/ScrumOfTheEarth/renderarea.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classRenderArea_1a460a86b0f462ad0fd99ae30688754583" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const void</type>
+        <definition>const void RenderArea::setShowId</definition>
+        <argsstring>(bool t)</argsstring>
+        <name>setShowId</name>
+        <param>
+          <type>bool</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Sets the bool to signify if the shapes should be rendered with an id or not. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>bool of showId condition </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/renderarea.h" line="38" column="1" bodyfile="Group Project/ScrumOfTheEarth/renderarea.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classRenderArea_1ae9b5a1573f3b06590c717c7598ffaae4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RenderArea::paintEvent</definition>
+        <argsstring>(QPaintEvent *event) override</argsstring>
+        <name>paintEvent</name>
+        <param>
+          <type>QPaintEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>paintEvent calls draw on all of the shapes and draws them inside the <ref refid="classRenderArea" kindref="compound">RenderArea</ref> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>QPaintEvent used to signify that it is a paint event </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/renderarea.h" line="44" column="1" bodyfile="Group Project/ScrumOfTheEarth/renderarea.h" bodystart="44" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="classRenderArea" kindref="compound">RenderArea</ref> class provides the environment for drawing shapes. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="139">
+        <label>RenderArea</label>
+        <link refid="classRenderArea"/>
+        <childnode refid="140" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="140">
+        <label>QWidget</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="143">
+        <label>myStd::vector&lt; Shape * &gt;</label>
+        <link refid="classmyStd_1_1vector"/>
+      </node>
+      <node id="141">
+        <label>RenderArea</label>
+        <link refid="classRenderArea"/>
+        <childnode refid="142" relation="public-inheritance">
+        </childnode>
+        <childnode refid="143" relation="usage">
+          <edgelabel>+shapesList</edgelabel>
+        </childnode>
+      </node>
+      <node id="142">
+        <label>QWidget</label>
+      </node>
+    </collaborationgraph>
+    <location file="Group Project/ScrumOfTheEarth/renderarea.h" line="12" column="1" bodyfile="Group Project/ScrumOfTheEarth/renderarea.h" bodystart="11" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classRenderArea_1aff78d4f340f879fb5effa9830e4d77b9" prot="public" virt="non-virtual"><scope>RenderArea</scope><name>getShowId</name></member>
+      <member refid="classRenderArea_1ae9b5a1573f3b06590c717c7598ffaae4" prot="protected" virt="non-virtual"><scope>RenderArea</scope><name>paintEvent</name></member>
+      <member refid="classRenderArea_1a71baad4c7f205d8f3c7fa2b1c7483448" prot="public" virt="non-virtual"><scope>RenderArea</scope><name>RenderArea</name></member>
+      <member refid="classRenderArea_1a460a86b0f462ad0fd99ae30688754583" prot="public" virt="non-virtual"><scope>RenderArea</scope><name>setShowId</name></member>
+      <member refid="classRenderArea_1a3502e321d5130cd9029c45c7238979e6" prot="public" virt="non-virtual"><scope>RenderArea</scope><name>shapesList</name></member>
+      <member refid="classRenderArea_1a7df74e9a89f4bb93dfe284e598d230b6" prot="private" virt="non-virtual"><scope>RenderArea</scope><name>showId</name></member>
+      <member refid="classRenderArea_1ade92334d3441242827d5a96fc9cd5f42" prot="public" virt="virtual"><scope>RenderArea</scope><name>~RenderArea</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

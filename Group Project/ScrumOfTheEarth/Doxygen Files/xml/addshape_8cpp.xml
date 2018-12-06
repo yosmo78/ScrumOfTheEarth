@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="addshape_8cpp" kind="file" language="C++">
+    <compoundname>addshape.cpp</compoundname>
+    <includes refid="addshape_8h" local="yes">addshape.h</includes>
+    <includes local="yes">ui_addshape.h</includes>
+    <includes refid="shape__parser_8h" local="yes">shape_parser.h</includes>
+    <includes refid="getstrings_8h" local="yes">getstrings.h</includes>
+    <incdepgraph>
+      <node id="818">
+        <label>QObject</label>
+      </node>
+      <node id="816">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="817" relation="include">
+        </childnode>
+        <childnode refid="818" relation="include">
+        </childnode>
+        <childnode refid="814" relation="include">
+        </childnode>
+      </node>
+      <node id="832">
+        <label>rectangle.h</label>
+        <link refid="rectangle_8h"/>
+        <childnode refid="816" relation="include">
+        </childnode>
+        <childnode refid="814" relation="include">
+        </childnode>
+      </node>
+      <node id="836">
+        <label>text.h</label>
+        <link refid="text_8h"/>
+        <childnode refid="816" relation="include">
+        </childnode>
+      </node>
+      <node id="829">
+        <label>cmath</label>
+      </node>
+      <node id="814">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="815" relation="include">
+        </childnode>
+      </node>
+      <node id="825">
+        <label>string</label>
+      </node>
+      <node id="819">
+        <label>QMainWindow</label>
+      </node>
+      <node id="835">
+        <label>circle.h</label>
+        <link refid="circle_8h"/>
+        <childnode refid="816" relation="include">
+        </childnode>
+      </node>
+      <node id="822">
+        <label>fstream</label>
+      </node>
+      <node id="812">
+        <label>Group Project/ScrumOfTheEarth/addshape.cpp</label>
+        <link refid="addshape.cpp"/>
+        <childnode refid="813" relation="include">
+        </childnode>
+        <childnode refid="820" relation="include">
+        </childnode>
+        <childnode refid="821" relation="include">
+        </childnode>
+        <childnode refid="837" relation="include">
+        </childnode>
+      </node>
+      <node id="817">
+        <label>QPainter</label>
+      </node>
+      <node id="820">
+        <label>ui_addshape.h</label>
+      </node>
+      <node id="830">
+        <label>polyline.h</label>
+        <link refid="polyline_8h"/>
+        <childnode refid="814" relation="include">
+        </childnode>
+        <childnode refid="816" relation="include">
+        </childnode>
+        <childnode refid="829" relation="include">
+        </childnode>
+      </node>
+      <node id="823">
+        <label>sstream</label>
+      </node>
+      <node id="827">
+        <label>QString</label>
+      </node>
+      <node id="828">
+        <label>line.h</label>
+        <link refid="line_8h"/>
+        <childnode refid="816" relation="include">
+        </childnode>
+        <childnode refid="829" relation="include">
+        </childnode>
+      </node>
+      <node id="826">
+        <label>QColor</label>
+      </node>
+      <node id="834">
+        <label>ellipse.h</label>
+        <link refid="ellipse_8h"/>
+        <childnode refid="816" relation="include">
+        </childnode>
+        <childnode refid="829" relation="include">
+        </childnode>
+      </node>
+      <node id="824">
+        <label>iostream</label>
+      </node>
+      <node id="833">
+        <label>square.h</label>
+        <link refid="square_8h"/>
+        <childnode refid="816" relation="include">
+        </childnode>
+        <childnode refid="814" relation="include">
+        </childnode>
+      </node>
+      <node id="813">
+        <label>addshape.h</label>
+        <link refid="addshape_8h"/>
+        <childnode refid="814" relation="include">
+        </childnode>
+        <childnode refid="816" relation="include">
+        </childnode>
+        <childnode refid="819" relation="include">
+        </childnode>
+      </node>
+      <node id="837">
+        <label>getstrings.h</label>
+        <link refid="getstrings_8h"/>
+        <childnode refid="825" relation="include">
+        </childnode>
+      </node>
+      <node id="815">
+        <label>algorithm</label>
+      </node>
+      <node id="831">
+        <label>polygon.h</label>
+        <link refid="polygon_8h"/>
+        <childnode refid="816" relation="include">
+        </childnode>
+        <childnode refid="814" relation="include">
+        </childnode>
+        <childnode refid="829" relation="include">
+        </childnode>
+      </node>
+      <node id="821">
+        <label>shape_parser.h</label>
+        <link refid="shape__parser_8h"/>
+        <childnode refid="822" relation="include">
+        </childnode>
+        <childnode refid="823" relation="include">
+        </childnode>
+        <childnode refid="824" relation="include">
+        </childnode>
+        <childnode refid="825" relation="include">
+        </childnode>
+        <childnode refid="826" relation="include">
+        </childnode>
+        <childnode refid="827" relation="include">
+        </childnode>
+        <childnode refid="814" relation="include">
+        </childnode>
+        <childnode refid="816" relation="include">
+        </childnode>
+        <childnode refid="828" relation="include">
+        </childnode>
+        <childnode refid="830" relation="include">
+        </childnode>
+        <childnode refid="831" relation="include">
+        </childnode>
+        <childnode refid="832" relation="include">
+        </childnode>
+        <childnode refid="833" relation="include">
+        </childnode>
+        <childnode refid="834" relation="include">
+        </childnode>
+        <childnode refid="835" relation="include">
+        </childnode>
+        <childnode refid="836" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="addshape_8h" kindref="compound">addshape.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_addshape.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="shape__parser_8h" kindref="compound">shape_parser.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="getstrings_8h" kindref="compound">getstrings.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//try<sp/>catch<sp/>blocks<sp/>in<sp/>the<sp/>instantiate<sp/>text<sp/>segment</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><ref refid="classAddShape_1a7d99059cc9f818e4225803aa2c624723" kindref="member">AddShape::AddShape</ref>(QWidget<sp/>*parent,<ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;Shape *&gt;</ref><sp/>&amp;<sp/>shapes,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>&amp;<sp/>ok)<sp/>:</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>QMainWindow(parent),</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespaceUi" kindref="compound">Ui</ref>::<ref refid="classAddShape" kindref="compound">AddShape</ref>)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>vecPointer<sp/>=<sp/>&amp;shapes;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>=<sp/>&amp;ok;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><ref refid="classAddShape_1aefd175938403da086e12162e19705939" kindref="member">AddShape::~AddShape</ref>()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AddShape::on_AddSquare_clicked()</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penColor<sp/>=<sp/><ref refid="getstrings_8cpp_1a36f20d2b33b32e3051b9439984fa3dc1" kindref="member">getColor</ref>(ui-&gt;PenColors-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1ae2e8c725725c53aced4754efb1ba3297" kindref="member">getPenStyle</ref>(ui-&gt;PenStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penCapStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1ab55986fc16e82140cc960949e8d98fc3" kindref="member">getPenCapStyle</ref>(ui-&gt;PenCapStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penJoinStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1a59c542c498dce52daab6c95e393084f7" kindref="member">getPenJoinStyle</ref>(ui-&gt;PenJoinStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>brushColor<sp/>=<sp/><ref refid="getstrings_8cpp_1a36f20d2b33b32e3051b9439984fa3dc1" kindref="member">getColor</ref>(ui-&gt;BrushColors-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>brushStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1a59572458de7eabcb211b12647cd8cc67" kindref="member">getBrushStyle</ref>(ui-&gt;BrushStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>penWidth<sp/>=<sp/>atoi(ui-&gt;PenWidth-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shapeID<sp/>=<sp/>atoi(ui-&gt;ShapeID-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x<sp/>=<sp/>atoi(ui-&gt;xData-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y<sp/>=<sp/>atoi(ui-&gt;yData-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>length<sp/>=<sp/>atoi(ui-&gt;LengthInput-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classShape" kindref="compound">Shape</ref><sp/>*<sp/>shape<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>shape<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="shape__input__file__specs_8txt_1ad077d50a4f33b6bb8f3d3b5f14c196fd" kindref="member">Square</ref>(shapeID,x,y,length,<sp/><ref refid="shape__parser_8cpp_1a2c61664825e7a6fc795b3e09ceaf3cfb" kindref="member">convertColor</ref>(penColor),<sp/><ref refid="shape__parser_8cpp_1a2c61664825e7a6fc795b3e09ceaf3cfb" kindref="member">convertColor</ref>(brushColor),<sp/><ref refid="shape__parser_8cpp_1abea29c7c6d822b6e91197cc8b4227163" kindref="member">convertPenStyle</ref>(penStyle),<sp/><ref refid="shape__parser_8cpp_1aefa934c732e9330a92992acfcdeec657" kindref="member">convertPenCapStyle</ref>(penCapStyle),<sp/><ref refid="shape__parser_8cpp_1a5f6ab2c31f9f5787d1287ba30dd64c2a" kindref="member">convertPenJoinStyle</ref>(penJoinStyle),<sp/><ref refid="shape__parser_8cpp_1a99a3a2753023ca33b73919a4c21f91e5" kindref="member">convertBrushStyle</ref>(brushStyle),<sp/>penWidth);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>vecPointer-&gt;push_back(shape);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>hide();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>*var<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/>update_Window();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AddShape::on_RAddRectangle_clicked()</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penColor<sp/>=<sp/><ref refid="getstrings_8cpp_1a36f20d2b33b32e3051b9439984fa3dc1" kindref="member">getColor</ref>(ui-&gt;RPenColors-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1ae2e8c725725c53aced4754efb1ba3297" kindref="member">getPenStyle</ref>(ui-&gt;RPenStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penCapStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1ab55986fc16e82140cc960949e8d98fc3" kindref="member">getPenCapStyle</ref>(ui-&gt;RPenCapStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penJoinStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1a59c542c498dce52daab6c95e393084f7" kindref="member">getPenJoinStyle</ref>(ui-&gt;RPenJoinStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>brushColor<sp/>=<sp/><ref refid="getstrings_8cpp_1a36f20d2b33b32e3051b9439984fa3dc1" kindref="member">getColor</ref>(ui-&gt;RBrushColors-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>brushStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1a59572458de7eabcb211b12647cd8cc67" kindref="member">getBrushStyle</ref>(ui-&gt;RBrushStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>penWidth<sp/>=<sp/>atoi(ui-&gt;RPenWidth-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shapeID<sp/>=<sp/>atoi(ui-&gt;RShapeID-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x<sp/>=<sp/>atoi(ui-&gt;RxData-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y<sp/>=<sp/>atoi(ui-&gt;RyData-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>length<sp/>=<sp/>atoi(ui-&gt;RLengthInput-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width<sp/>=<sp/>atoi(ui-&gt;RWidthInput-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classShape" kindref="compound">Shape</ref><sp/>*<sp/>shape<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>shape<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="shape__input__file__specs_8txt_1abd9fcf84705ffbf8fa1f2c58d3938cb6" kindref="member">Rectangle</ref>(shapeID,x,y,length,width,<sp/><ref refid="shape__parser_8cpp_1a2c61664825e7a6fc795b3e09ceaf3cfb" kindref="member">convertColor</ref>(penColor),<sp/><ref refid="shape__parser_8cpp_1a2c61664825e7a6fc795b3e09ceaf3cfb" kindref="member">convertColor</ref>(brushColor),<sp/><ref refid="shape__parser_8cpp_1abea29c7c6d822b6e91197cc8b4227163" kindref="member">convertPenStyle</ref>(penStyle),<sp/><ref refid="shape__parser_8cpp_1aefa934c732e9330a92992acfcdeec657" kindref="member">convertPenCapStyle</ref>(penCapStyle),<sp/><ref refid="shape__parser_8cpp_1a5f6ab2c31f9f5787d1287ba30dd64c2a" kindref="member">convertPenJoinStyle</ref>(penJoinStyle),<sp/><ref refid="shape__parser_8cpp_1a99a3a2753023ca33b73919a4c21f91e5" kindref="member">convertBrushStyle</ref>(brushStyle),<sp/>penWidth);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>vecPointer-&gt;push_back(shape);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>hide();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>*var<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/>update_Window();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AddShape::on_CAddCircle_clicked()</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penColor<sp/>=<sp/><ref refid="getstrings_8cpp_1a36f20d2b33b32e3051b9439984fa3dc1" kindref="member">getColor</ref>(ui-&gt;CPenColors-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1ae2e8c725725c53aced4754efb1ba3297" kindref="member">getPenStyle</ref>(ui-&gt;CPenStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penCapStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1ab55986fc16e82140cc960949e8d98fc3" kindref="member">getPenCapStyle</ref>(ui-&gt;CPenCapStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penJoinStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1a59c542c498dce52daab6c95e393084f7" kindref="member">getPenJoinStyle</ref>(ui-&gt;CPenJoinStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>brushColor<sp/>=<sp/><ref refid="getstrings_8cpp_1a36f20d2b33b32e3051b9439984fa3dc1" kindref="member">getColor</ref>(ui-&gt;CBrushColors-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>brushStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1a59572458de7eabcb211b12647cd8cc67" kindref="member">getBrushStyle</ref>(ui-&gt;CBrushStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>penWidth<sp/>=<sp/>atoi(ui-&gt;CPenWidth-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shapeID<sp/>=<sp/>atoi(ui-&gt;CShapeID-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x<sp/>=<sp/>atoi(ui-&gt;CxData-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y<sp/>=<sp/>atoi(ui-&gt;CyData-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>radius<sp/>=<sp/>atoi(ui-&gt;CRadiusInput-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classShape" kindref="compound">Shape</ref><sp/>*<sp/>shape<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>shape<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="shape__input__file__specs_8txt_1af42de4b736c5bed215a1faf053c5ef86" kindref="member">Circle</ref>(shapeID,x,y,radius,<sp/><ref refid="shape__parser_8cpp_1a2c61664825e7a6fc795b3e09ceaf3cfb" kindref="member">convertColor</ref>(penColor),<sp/><ref refid="shape__parser_8cpp_1a2c61664825e7a6fc795b3e09ceaf3cfb" kindref="member">convertColor</ref>(brushColor),<sp/><ref refid="shape__parser_8cpp_1abea29c7c6d822b6e91197cc8b4227163" kindref="member">convertPenStyle</ref>(penStyle),<sp/><ref refid="shape__parser_8cpp_1aefa934c732e9330a92992acfcdeec657" kindref="member">convertPenCapStyle</ref>(penCapStyle),<sp/><ref refid="shape__parser_8cpp_1a5f6ab2c31f9f5787d1287ba30dd64c2a" kindref="member">convertPenJoinStyle</ref>(penJoinStyle),<sp/><ref refid="shape__parser_8cpp_1a99a3a2753023ca33b73919a4c21f91e5" kindref="member">convertBrushStyle</ref>(brushStyle),<sp/>penWidth);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>vecPointer-&gt;push_back(shape);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>hide();</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>*var<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/>update_Window();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AddShape::on_EAddEllipse_clicked()</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penColor<sp/>=<sp/><ref refid="getstrings_8cpp_1a36f20d2b33b32e3051b9439984fa3dc1" kindref="member">getColor</ref>(ui-&gt;EPenColors-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1ae2e8c725725c53aced4754efb1ba3297" kindref="member">getPenStyle</ref>(ui-&gt;EPenStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penCapStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1ab55986fc16e82140cc960949e8d98fc3" kindref="member">getPenCapStyle</ref>(ui-&gt;EPenCapStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penJoinStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1a59c542c498dce52daab6c95e393084f7" kindref="member">getPenJoinStyle</ref>(ui-&gt;EPenJoinStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>brushColor<sp/>=<sp/><ref refid="getstrings_8cpp_1a36f20d2b33b32e3051b9439984fa3dc1" kindref="member">getColor</ref>(ui-&gt;EBrushColors-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>brushStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1a59572458de7eabcb211b12647cd8cc67" kindref="member">getBrushStyle</ref>(ui-&gt;EBrushStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>penWidth<sp/>=<sp/>atoi(ui-&gt;EPenWidth-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shapeID<sp/>=<sp/>atoi(ui-&gt;EShapeID-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x<sp/>=<sp/>atoi(ui-&gt;ExData-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y<sp/>=<sp/>atoi(ui-&gt;EyData-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>length<sp/>=<sp/>atoi(ui-&gt;ELengthInput<sp/>-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width<sp/>=<sp/>atoi(ui-&gt;EWidthInput-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classShape" kindref="compound">Shape</ref><sp/>*<sp/>shape<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>shape<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="shape__input__file__specs_8txt_1a0d2a35a3e8361f31d6ad940ea7b1864c" kindref="member">Ellipse</ref>(shapeID,x,y,length,width,<ref refid="shape__parser_8cpp_1a2c61664825e7a6fc795b3e09ceaf3cfb" kindref="member">convertColor</ref>(penColor),<sp/><ref refid="shape__parser_8cpp_1a2c61664825e7a6fc795b3e09ceaf3cfb" kindref="member">convertColor</ref>(brushColor),<sp/><ref refid="shape__parser_8cpp_1abea29c7c6d822b6e91197cc8b4227163" kindref="member">convertPenStyle</ref>(penStyle),<sp/><ref refid="shape__parser_8cpp_1aefa934c732e9330a92992acfcdeec657" kindref="member">convertPenCapStyle</ref>(penCapStyle),<sp/><ref refid="shape__parser_8cpp_1a5f6ab2c31f9f5787d1287ba30dd64c2a" kindref="member">convertPenJoinStyle</ref>(penJoinStyle),<sp/><ref refid="shape__parser_8cpp_1a99a3a2753023ca33b73919a4c21f91e5" kindref="member">convertBrushStyle</ref>(brushStyle),<sp/>penWidth);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>vecPointer-&gt;push_back(shape);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>hide();</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>*var<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/>update_Window();</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AddShape::on_GAddPolygon_clicked()</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penColor<sp/>=<sp/><ref refid="getstrings_8cpp_1a36f20d2b33b32e3051b9439984fa3dc1" kindref="member">getColor</ref>(ui-&gt;GPenColors-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1ae2e8c725725c53aced4754efb1ba3297" kindref="member">getPenStyle</ref>(ui-&gt;GPenStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penCapStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1ab55986fc16e82140cc960949e8d98fc3" kindref="member">getPenCapStyle</ref>(ui-&gt;GPenCapStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penJoinStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1a59c542c498dce52daab6c95e393084f7" kindref="member">getPenJoinStyle</ref>(ui-&gt;GPenJoinStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>brushColor<sp/>=<sp/><ref refid="getstrings_8cpp_1a36f20d2b33b32e3051b9439984fa3dc1" kindref="member">getColor</ref>(ui-&gt;GBrushColors-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>brushStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1a59572458de7eabcb211b12647cd8cc67" kindref="member">getBrushStyle</ref>(ui-&gt;GBrushStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>penWidth<sp/>=<sp/>atoi(ui-&gt;GPenWidth-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shapeID<sp/>=<sp/>atoi(ui-&gt;GShapeID-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>skip<sp/>=<sp/>ui-&gt;GPoints-&gt;text().toStdString();</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>stringstream<sp/>ss;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>ss.str(skip);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0,vari;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>QPoint<sp/>qPoint;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;QPoint&gt;</ref><sp/>dimensions;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(getline(ss,<sp/>skip,<sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vari<sp/>=<sp/>stoi(skip);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(i<sp/>%<sp/>2<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qPoint.setX(vari);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qPoint.setY(vari);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dimensions.<ref refid="classmyStd_1_1vector_1a16a7791abc12b34fee94f4ef48a5e157" kindref="member">push_back</ref>(qPoint);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++i;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classShape" kindref="compound">Shape</ref><sp/>*<sp/>shape<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>shape<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="shape__input__file__specs_8txt_1a04e906b8dbbb27ddcde493daa87543f4" kindref="member">Polygon</ref>(shapeID,dimensions,<ref refid="shape__parser_8cpp_1a2c61664825e7a6fc795b3e09ceaf3cfb" kindref="member">convertColor</ref>(penColor),<sp/><ref refid="shape__parser_8cpp_1a2c61664825e7a6fc795b3e09ceaf3cfb" kindref="member">convertColor</ref>(brushColor),<sp/><ref refid="shape__parser_8cpp_1abea29c7c6d822b6e91197cc8b4227163" kindref="member">convertPenStyle</ref>(penStyle),<sp/><ref refid="shape__parser_8cpp_1aefa934c732e9330a92992acfcdeec657" kindref="member">convertPenCapStyle</ref>(penCapStyle),<sp/><ref refid="shape__parser_8cpp_1a5f6ab2c31f9f5787d1287ba30dd64c2a" kindref="member">convertPenJoinStyle</ref>(penJoinStyle),<sp/><ref refid="shape__parser_8cpp_1a99a3a2753023ca33b73919a4c21f91e5" kindref="member">convertBrushStyle</ref>(brushStyle),<sp/>penWidth);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>vecPointer-&gt;push_back(shape);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>hide();</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>*var<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/>update_Window();</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AddShape::on_PAddPolyline_clicked()</highlight></codeline>
+<codeline lineno="157"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penColor<sp/>=<sp/><ref refid="getstrings_8cpp_1a36f20d2b33b32e3051b9439984fa3dc1" kindref="member">getColor</ref>(ui-&gt;PPenColors-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1ae2e8c725725c53aced4754efb1ba3297" kindref="member">getPenStyle</ref>(ui-&gt;PPenStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penCapStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1ab55986fc16e82140cc960949e8d98fc3" kindref="member">getPenCapStyle</ref>(ui-&gt;PPenCapStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penJoinStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1a59c542c498dce52daab6c95e393084f7" kindref="member">getPenJoinStyle</ref>(ui-&gt;PPenJoinStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>penWidth<sp/>=<sp/>atoi(ui-&gt;PPenWidth-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shapeID<sp/>=<sp/>atoi(ui-&gt;PShapeID-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>skip<sp/>=<sp/>ui-&gt;PPoints-&gt;text().toStdString();</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>stringstream<sp/>ss;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>ss.str(skip);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0,vari;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>QPoint<sp/>qPoint;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;QPoint&gt;</ref><sp/>dimensions;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(getline(ss,<sp/>skip,<sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vari<sp/>=<sp/>stoi(skip);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(i<sp/>%<sp/>2<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qPoint.setX(vari);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qPoint.setY(vari);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dimensions.<ref refid="classmyStd_1_1vector_1a16a7791abc12b34fee94f4ef48a5e157" kindref="member">push_back</ref>(qPoint);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++i;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classShape" kindref="compound">Shape</ref><sp/>*<sp/>shape<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>shape<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="shape__input__file__specs_8txt_1a7f7aae76d6fc1caf3d692a8b6bb9a9b7" kindref="member">Polyline</ref>(shapeID,dimensions,<ref refid="shape__parser_8cpp_1a2c61664825e7a6fc795b3e09ceaf3cfb" kindref="member">convertColor</ref>(penColor),<sp/><ref refid="shape__parser_8cpp_1abea29c7c6d822b6e91197cc8b4227163" kindref="member">convertPenStyle</ref>(penStyle),<sp/><ref refid="shape__parser_8cpp_1aefa934c732e9330a92992acfcdeec657" kindref="member">convertPenCapStyle</ref>(penCapStyle),<sp/><ref refid="shape__parser_8cpp_1a5f6ab2c31f9f5787d1287ba30dd64c2a" kindref="member">convertPenJoinStyle</ref>(penJoinStyle),<sp/>penWidth);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>vecPointer-&gt;push_back(shape);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>hide();</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>*var<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/>update_Window();</highlight></codeline>
+<codeline lineno="191"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AddShape::on_LAddLine_clicked()</highlight></codeline>
+<codeline lineno="194"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penColor<sp/>=<sp/><ref refid="getstrings_8cpp_1a36f20d2b33b32e3051b9439984fa3dc1" kindref="member">getColor</ref>(ui-&gt;LPenColors-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1ae2e8c725725c53aced4754efb1ba3297" kindref="member">getPenStyle</ref>(ui-&gt;LPenStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penCapStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1ab55986fc16e82140cc960949e8d98fc3" kindref="member">getPenCapStyle</ref>(ui-&gt;LPenCapStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penJoinStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1a59c542c498dce52daab6c95e393084f7" kindref="member">getPenJoinStyle</ref>(ui-&gt;LPenJoinStyles-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>penWidth<sp/>=<sp/>atoi(ui-&gt;LPenWidth-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shapeID<sp/>=<sp/>atoi(ui-&gt;LShapeID-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>p1x<sp/>=<sp/>atoi(ui-&gt;LPoint1x-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>p1y<sp/>=<sp/>atoi(ui-&gt;LPoint1y-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>p2x<sp/>=<sp/>atoi(ui-&gt;LPoint2x-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>p2y<sp/>=<sp/>atoi(ui-&gt;LPoint2y-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classShape" kindref="compound">Shape</ref><sp/>*<sp/>shape<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>shape<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classLine" kindref="compound">Line</ref>(shapeID,p1x,p1y,p2x,p2y,<ref refid="shape__parser_8cpp_1a2c61664825e7a6fc795b3e09ceaf3cfb" kindref="member">convertColor</ref>(penColor),<sp/><ref refid="shape__parser_8cpp_1abea29c7c6d822b6e91197cc8b4227163" kindref="member">convertPenStyle</ref>(penStyle),<sp/><ref refid="shape__parser_8cpp_1aefa934c732e9330a92992acfcdeec657" kindref="member">convertPenCapStyle</ref>(penCapStyle),<sp/><ref refid="shape__parser_8cpp_1a5f6ab2c31f9f5787d1287ba30dd64c2a" kindref="member">convertPenJoinStyle</ref>(penJoinStyle),<sp/>penWidth);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>vecPointer-&gt;push_back(shape);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>hide();</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>*var<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/>update_Window();</highlight></codeline>
+<codeline lineno="211"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AddShape::on_TAddText_clicked()</highlight></codeline>
+<codeline lineno="214"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>textFontStyle;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textFontStyle<sp/>=<sp/><ref refid="getstrings_8cpp_1a362dd7a8956d7364df5cce0070ec15ca" kindref="member">getFontStyle</ref>(ui-&gt;TFontStyle-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(...)</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textFontStyle<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;StyleNormal&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>textFontWeight;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textFontWeight<sp/>=<sp/><ref refid="getstrings_8cpp_1a4d2ad0fcdf9ccdd1fdb8f8da293f051d" kindref="member">getFontWeight</ref>(ui-&gt;TFontWeight-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(...)</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textFontWeight<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Thin&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>textAlignment;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textAlignment<sp/>=<sp/><ref refid="getstrings_8cpp_1ab73fa4f5c93f8a3c34cc0a3aaf7508d8" kindref="member">getTextAlignment</ref>(ui-&gt;TTextAlignment-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(...)</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textAlignment<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;AlignLeft&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>textFontFamily<sp/>=<sp/>ui-&gt;TFontFamily-&gt;text();</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>textPointSize<sp/>=<sp/>atoi(ui-&gt;TPointSize-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>penColor<sp/>=<sp/><ref refid="getstrings_8cpp_1a36f20d2b33b32e3051b9439984fa3dc1" kindref="member">getColor</ref>(ui-&gt;TTextColor-&gt;currentIndex());</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>textString<sp/>=<sp/>ui-&gt;TString-&gt;text();</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shapeID<sp/>=<sp/>atoi(ui-&gt;TShapeID-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shape1<sp/>=<sp/>atoi(ui-&gt;TShapeDimensionOne-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shape2<sp/>=<sp/>atoi(ui-&gt;TShapeDimensionTwo-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shape3<sp/>=<sp/>atoi(ui-&gt;TShapeDimensionThree-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shape4<sp/>=<sp/>atoi(ui-&gt;TShapeDimensionFour-&gt;text().toStdString().c_str());</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classShape" kindref="compound">Shape</ref><sp/>*<sp/>shape<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/>shape<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classText" kindref="compound">Text</ref>(shapeID,<sp/>shape1,<sp/>shape2,<sp/>shape3,<sp/>shape4,<sp/>textString,<sp/><ref refid="shape__parser_8cpp_1a2c61664825e7a6fc795b3e09ceaf3cfb" kindref="member">convertColor</ref>(penColor),<sp/><ref refid="shape__parser_8cpp_1acb20b2a1821efbc389be50edbcbec9e3" kindref="member">convertAlignment</ref>(textAlignment),<sp/>textPointSize,<sp/>textFontFamily,<sp/><ref refid="shape__parser_8cpp_1af40aab66f89a294e6dde68829c2295de" kindref="member">convertStyle</ref>(textFontStyle),<sp/><ref refid="shape__parser_8cpp_1a44489cc593506cc129150108ebf495a7" kindref="member">convertWeight</ref>(textFontWeight));</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>vecPointer-&gt;push_back(shape);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/>hide();</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/>*var<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/>update_Window();</highlight></codeline>
+<codeline lineno="256"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/addshape.cpp"/>
+  </compounddef>
+</doxygen>

@@ -11,9 +11,24 @@ class Polyline: public Shape
 {
     Q_OBJECT
   public:
+    /*!
+     * \brief All parameter constructor
+     */
     Polyline(unsigned int, myStd::vector<QPoint>&, Qt::GlobalColor, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle, int);
+    /*!
+     * \brief Gets the vector of QPoints that make up the polyline
+     * \return vector of QPoints
+     */
     myStd::vector<QPoint>& getPoints(){return points;} //polyline specific
+    /*!
+     * \brief Sets the vector of QPoints that make up the polyline to the given vector of QPoints
+     * \param pts vector of QPoints
+     */
     void setPoints(const myStd::vector<QPoint>& pts){points = pts;} //polyline specific
+    /*!
+     * \brief Gets the number of points that make up the polyline
+     * \return int number of QPoints
+     */
     int getNumOfPoints(){return points.size();}
     /*!
      * \brief Gets the pen color stored in this shape

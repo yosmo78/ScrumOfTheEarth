@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classShape" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Shape</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <derivedcompoundref refid="classCircle" prot="public" virt="non-virtual">Circle</derivedcompoundref>
+    <derivedcompoundref refid="classEllipse" prot="public" virt="non-virtual">Ellipse</derivedcompoundref>
+    <derivedcompoundref refid="classLine" prot="public" virt="non-virtual">Line</derivedcompoundref>
+    <derivedcompoundref refid="classPolygon" prot="public" virt="non-virtual">Polygon</derivedcompoundref>
+    <derivedcompoundref refid="classPolyline" prot="public" virt="non-virtual">Polyline</derivedcompoundref>
+    <derivedcompoundref refid="classRectangle" prot="public" virt="non-virtual">Rectangle</derivedcompoundref>
+    <derivedcompoundref refid="classSquare" prot="public" virt="non-virtual">Square</derivedcompoundref>
+    <derivedcompoundref refid="classText" prot="public" virt="non-virtual">Text</derivedcompoundref>
+    <includes refid="shape_8h" local="no">shape.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classShape_1a8bd63d4dd17f9347fb303a932bda62f6" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Shape::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+<para>id of shape </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape.h" line="94" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classShape_1a95f42a7833e43572d684455c2ee232ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shape::setShapeId</definition>
+        <argsstring>(unsigned int i)</argsstring>
+        <name>setShapeId</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Sets the shape id to the given id. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape.h" line="24" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape_1a3ac221427e91b0acc53a2f3764a8f01b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int Shape::getShapeId</definition>
+        <argsstring>()</argsstring>
+        <name>getShapeId</name>
+        <briefdescription>
+<para>Gets the shape id of the <ref refid="classShape" kindref="compound">Shape</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>id </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape.h" line="30" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape_1a47dae32819e64fb32f3357f31978293f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Shape::draw</definition>
+        <argsstring>(QPainter &amp;, bool)=0</argsstring>
+        <name>draw</name>
+        <reimplementedby refid="classPolyline_1ac5b5a4ac26b140a7dc30cc293638e3ee">draw</reimplementedby>
+        <reimplementedby refid="classLine_1a3bcbb11a1d79a7f9a60cc1aac3ab1bb5">draw</reimplementedby>
+        <reimplementedby refid="classText_1a54e8085e0b04abba6b4a09232ff21449">draw</reimplementedby>
+        <reimplementedby refid="classSquare_1acea142797dc1540a4fea5d343b7f1e82">draw</reimplementedby>
+        <reimplementedby refid="classPolygon_1a324e212e7f096a104f84fb854be50215">draw</reimplementedby>
+        <reimplementedby refid="classRectangle_1a6734cad19e207a212dcb042e1006a7f1">draw</reimplementedby>
+        <reimplementedby refid="classEllipse_1a807da0badc3cc332ba408e6d94333a36">draw</reimplementedby>
+        <reimplementedby refid="classCircle_1aebc2ff1cc810905bc557d54e76aef936">draw</reimplementedby>
+        <param>
+          <type>QPainter &amp;</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+<para>Virtual function to draw shapes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape_1a3bb93456832521010106172a095e22ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Shape::Shape</definition>
+        <argsstring>(unsigned int id)</argsstring>
+        <name>Shape</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classShape" kindref="compound">Shape</ref> constructor with id. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape.h" line="41" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape_1a44d91c7621d4d7af60fe3320a2e07279" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Shape::Shape</definition>
+        <argsstring>(const Shape &amp;)=delete</argsstring>
+        <name>Shape</name>
+        <param>
+          <type>const <ref refid="classShape" kindref="compound">Shape</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para><ref refid="classShape" kindref="compound">Shape</ref> copy constructor (Disabled) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape_1a9b9942917d6e6c359a8751156ed52423" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classShape" kindref="compound">Shape</ref> &amp;</type>
+        <definition>Shape&amp; Shape::operator=</definition>
+        <argsstring>(const Shape &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classShape" kindref="compound">Shape</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>operator = copy assignment (disabled) </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>This <ref refid="classShape" kindref="compound">Shape</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape_1a1e81a927f61ea4d12daafc1d9295e00a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Shape::operator==</definition>
+        <argsstring>(const Shape &amp;s2)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classShape" kindref="compound">Shape</ref> &amp;</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+<para>Checks to see if two <ref refid="classShape" kindref="compound">Shape</ref> ids are equal. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classShape" kindref="compound">Shape</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>result of comparison </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape.h" line="58" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape_1a0d2732ef366fa236a534351f6a0d96e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Shape::operator&lt;</definition>
+        <argsstring>(const Shape &amp;s2)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classShape" kindref="compound">Shape</ref> &amp;</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+<para>Checks to see if <ref refid="classShape" kindref="compound">Shape</ref> 1&apos;s id is less than <ref refid="classShape" kindref="compound">Shape</ref> 2&apos;s id. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classShape" kindref="compound">Shape</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>result of comparison </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape.h" line="65" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape_1ac29f8bce0d038c84470028c6819a79ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>virtual double Shape::getArea</definition>
+        <argsstring>()</argsstring>
+        <name>getArea</name>
+        <reimplementedby refid="classSquare_1a9a97feb159f85721b661b10ace6a8b3b">getArea</reimplementedby>
+        <reimplementedby refid="classPolygon_1a31c8c5320acfb934bce0441efb0fe837">getArea</reimplementedby>
+        <reimplementedby refid="classRectangle_1a5405044e619a5ba1a52c0b9607c9f166">getArea</reimplementedby>
+        <reimplementedby refid="classEllipse_1aa9aff42aee3c6188e017dfa9d6a0590a">getArea</reimplementedby>
+        <reimplementedby refid="classCircle_1ae770cbdb3a0148a9db411fb3b0f87b9a">getArea</reimplementedby>
+        <briefdescription>
+<para>Gets the area of the given shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Area as a double </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape.h" line="71" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape.h" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape_1a391744b6bce96df044139dcbd1ae0aa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>virtual double Shape::getPerimeter</definition>
+        <argsstring>()</argsstring>
+        <name>getPerimeter</name>
+        <reimplementedby refid="classPolyline_1ad5425297b32d53a0f74eda253d4540f7">getPerimeter</reimplementedby>
+        <reimplementedby refid="classLine_1ad63a55614d118000935e585f3551f630">getPerimeter</reimplementedby>
+        <reimplementedby refid="classSquare_1ae1d360c45a7970da83c3ad2acbf81dc2">getPerimeter</reimplementedby>
+        <reimplementedby refid="classRectangle_1aba6936b3c376465edff938cd4affc914">getPerimeter</reimplementedby>
+        <reimplementedby refid="classEllipse_1afc43182b486fb25e7ba9fd344cfee5d4">getPerimeter</reimplementedby>
+        <reimplementedby refid="classCircle_1af9a14f66b467788f8395ea587357a93f">getPerimeter</reimplementedby>
+        <reimplementedby refid="classPolygon_1a295ef7fe3b5ed921ae15a757680b159a">getPerimeter</reimplementedby>
+        <briefdescription>
+<para>Gets the perimeter of the given shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Perimeter as a double </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape.h" line="77" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape.h" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape_1a3d15adf2a1d746928f9be98105096eda" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int Shape::getType</definition>
+        <argsstring>()=0</argsstring>
+        <name>getType</name>
+        <reimplementedby refid="classPolyline_1a6138f6313141e81d989622806476c3d2">getType</reimplementedby>
+        <reimplementedby refid="classLine_1a249b46f2c7dab063ac4754dbae444468">getType</reimplementedby>
+        <reimplementedby refid="classText_1a701eda01498e972823f4c833ed0e8811">getType</reimplementedby>
+        <reimplementedby refid="classSquare_1a1d225d79fc799bc98f9ad4d23e33a7d2">getType</reimplementedby>
+        <reimplementedby refid="classPolygon_1aa17e86eda9587c95a0e498e60033dfa3">getType</reimplementedby>
+        <reimplementedby refid="classRectangle_1a0098e1642c4ff1180c1243b802caca5a">getType</reimplementedby>
+        <reimplementedby refid="classEllipse_1af8a6e2834d811a632d323cc3d9cb5b31">getType</reimplementedby>
+        <reimplementedby refid="classCircle_1ac13b29eb5095b4fd8e6c25ba50dd9131">getType</reimplementedby>
+        <briefdescription>
+<para>Gets the type of the shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>type as an int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape.h" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape_1ac3b9fc48965274893f25b18aa14ba665" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual Shape::~Shape</definition>
+        <argsstring>()</argsstring>
+        <name>~Shape</name>
+        <briefdescription>
+<para>~Shape </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Group Project/ScrumOfTheEarth/shape.h" line="88" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape.h" bodystart="88" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Abstract Base Class for shapes that get rendered by the QPainter. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="148">
+        <label>Line</label>
+        <link refid="classLine"/>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="145">
+        <label>QObject</label>
+      </node>
+      <node id="151">
+        <label>Rectangle</label>
+        <link refid="classRectangle"/>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="150">
+        <label>Polyline</label>
+        <link refid="classPolyline"/>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="147">
+        <label>Ellipse</label>
+        <link refid="classEllipse"/>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="152">
+        <label>Square</label>
+        <link refid="classSquare"/>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="146">
+        <label>Circle</label>
+        <link refid="classCircle"/>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="149">
+        <label>Polygon</label>
+        <link refid="classPolygon"/>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="153">
+        <label>Text</label>
+        <link refid="classText"/>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="144">
+        <label>Shape</label>
+        <link refid="classShape"/>
+        <childnode refid="145" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="155">
+        <label>QObject</label>
+      </node>
+      <node id="154">
+        <label>Shape</label>
+        <link refid="classShape"/>
+        <childnode refid="155" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Group Project/ScrumOfTheEarth/shape.h" line="15" column="1" bodyfile="Group Project/ScrumOfTheEarth/shape.h" bodystart="14" bodyend="95"/>
+    <listofallmembers>
+      <member refid="classShape_1a47dae32819e64fb32f3357f31978293f" prot="public" virt="pure-virtual"><scope>Shape</scope><name>draw</name></member>
+      <member refid="classShape_1ac29f8bce0d038c84470028c6819a79ab" prot="public" virt="virtual"><scope>Shape</scope><name>getArea</name></member>
+      <member refid="classShape_1a391744b6bce96df044139dcbd1ae0aa8" prot="public" virt="virtual"><scope>Shape</scope><name>getPerimeter</name></member>
+      <member refid="classShape_1a3ac221427e91b0acc53a2f3764a8f01b" prot="public" virt="non-virtual"><scope>Shape</scope><name>getShapeId</name></member>
+      <member refid="classShape_1a3d15adf2a1d746928f9be98105096eda" prot="public" virt="pure-virtual"><scope>Shape</scope><name>getType</name></member>
+      <member refid="classShape_1a8bd63d4dd17f9347fb303a932bda62f6" prot="private" virt="non-virtual"><scope>Shape</scope><name>id</name></member>
+      <member refid="classShape_1a0d2732ef366fa236a534351f6a0d96e5" prot="public" virt="non-virtual"><scope>Shape</scope><name>operator&lt;</name></member>
+      <member refid="classShape_1a9b9942917d6e6c359a8751156ed52423" prot="public" virt="non-virtual"><scope>Shape</scope><name>operator=</name></member>
+      <member refid="classShape_1a1e81a927f61ea4d12daafc1d9295e00a" prot="public" virt="non-virtual"><scope>Shape</scope><name>operator==</name></member>
+      <member refid="classShape_1a95f42a7833e43572d684455c2ee232ec" prot="public" virt="non-virtual"><scope>Shape</scope><name>setShapeId</name></member>
+      <member refid="classShape_1a3bb93456832521010106172a095e22ca" prot="public" virt="non-virtual"><scope>Shape</scope><name>Shape</name></member>
+      <member refid="classShape_1a44d91c7621d4d7af60fe3320a2e07279" prot="public" virt="non-virtual"><scope>Shape</scope><name>Shape</name></member>
+      <member refid="classShape_1ac3b9fc48965274893f25b18aa14ba665" prot="public" virt="virtual"><scope>Shape</scope><name>~Shape</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

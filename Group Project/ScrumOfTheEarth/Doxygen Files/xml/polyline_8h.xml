@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="polyline_8h" kind="file" language="C++">
+    <compoundname>polyline.h</compoundname>
+    <includes refid="vector_8h" local="yes">vector.h</includes>
+    <includes refid="shape_8h" local="yes">shape.h</includes>
+    <includes local="no">cmath</includes>
+    <includedby refid="shape__parser_8h" local="yes">Group Project/ScrumOfTheEarth/shape_parser.h</includedby>
+    <includedby refid="moveshape_8h" local="yes">Group Project/ScrumOfTheEarth/moveshape.h</includedby>
+    <includedby refid="mainwindow_8cpp" local="yes">Group Project/ScrumOfTheEarth/mainwindow.cpp</includedby>
+    <includedby refid="polyline_8cpp" local="yes">Group Project/ScrumOfTheEarth/polyline.cpp</includedby>
+    <includedby refid="pop__table_8cpp" local="yes">Group Project/ScrumOfTheEarth/pop_table.cpp</includedby>
+    <includedby refid="shape__saver_8cpp" local="yes">Group Project/ScrumOfTheEarth/shape_saver.cpp</includedby>
+    <incdepgraph>
+      <node id="1242">
+        <label>QObject</label>
+      </node>
+      <node id="1240">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="1241" relation="include">
+        </childnode>
+        <childnode refid="1242" relation="include">
+        </childnode>
+        <childnode refid="1238" relation="include">
+        </childnode>
+      </node>
+      <node id="1243">
+        <label>cmath</label>
+      </node>
+      <node id="1238">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="1239" relation="include">
+        </childnode>
+      </node>
+      <node id="1241">
+        <label>QPainter</label>
+      </node>
+      <node id="1237">
+        <label>Group Project/ScrumOfTheEarth/polyline.h</label>
+        <link refid="polyline.h"/>
+        <childnode refid="1238" relation="include">
+        </childnode>
+        <childnode refid="1240" relation="include">
+        </childnode>
+        <childnode refid="1243" relation="include">
+        </childnode>
+      </node>
+      <node id="1239">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1249">
+        <label>Group Project/ScrumOfTheEarth/moveshape.h</label>
+        <link refid="moveshape_8h"/>
+        <childnode refid="1250" relation="include">
+        </childnode>
+        <childnode refid="1256" relation="include">
+        </childnode>
+      </node>
+      <node id="1257">
+        <label>Group Project/ScrumOfTheEarth/polyline.cpp</label>
+        <link refid="polyline_8cpp"/>
+      </node>
+      <node id="1247">
+        <label>Group Project/ScrumOfTheEarth/mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+      </node>
+      <node id="1256">
+        <label>Group Project/ScrumOfTheEarth/moveshape.cpp</label>
+        <link refid="moveshape_8cpp"/>
+      </node>
+      <node id="1254">
+        <label>Group Project/ScrumOfTheEarth/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="1255">
+        <label>Group Project/ScrumOfTheEarth/window.cpp</label>
+        <link refid="window_8cpp"/>
+      </node>
+      <node id="1246">
+        <label>Group Project/ScrumOfTheEarth/addshape.cpp</label>
+        <link refid="addshape_8cpp"/>
+      </node>
+      <node id="1258">
+        <label>Group Project/ScrumOfTheEarth/pop_table.cpp</label>
+        <link refid="pop__table_8cpp"/>
+      </node>
+      <node id="1244">
+        <label>Group Project/ScrumOfTheEarth/polyline.h</label>
+        <link refid="polyline.h"/>
+        <childnode refid="1245" relation="include">
+        </childnode>
+        <childnode refid="1249" relation="include">
+        </childnode>
+        <childnode refid="1247" relation="include">
+        </childnode>
+        <childnode refid="1257" relation="include">
+        </childnode>
+        <childnode refid="1258" relation="include">
+        </childnode>
+        <childnode refid="1259" relation="include">
+        </childnode>
+      </node>
+      <node id="1252">
+        <label>Group Project/ScrumOfTheEarth/admin_check.cpp</label>
+        <link refid="admin__check_8cpp"/>
+      </node>
+      <node id="1253">
+        <label>Group Project/ScrumOfTheEarth/create_login_file.cpp</label>
+        <link refid="create__login__file_8cpp"/>
+      </node>
+      <node id="1259">
+        <label>Group Project/ScrumOfTheEarth/shape_saver.cpp</label>
+        <link refid="shape__saver_8cpp"/>
+      </node>
+      <node id="1250">
+        <label>Group Project/ScrumOfTheEarth/mainwindow.h</label>
+        <link refid="mainwindow_8h"/>
+        <childnode refid="1251" relation="include">
+        </childnode>
+        <childnode refid="1247" relation="include">
+        </childnode>
+      </node>
+      <node id="1248">
+        <label>Group Project/ScrumOfTheEarth/shape_parser.cpp</label>
+        <link refid="shape__parser_8cpp"/>
+      </node>
+      <node id="1245">
+        <label>Group Project/ScrumOfTheEarth/shape_parser.h</label>
+        <link refid="shape__parser_8h"/>
+        <childnode refid="1246" relation="include">
+        </childnode>
+        <childnode refid="1247" relation="include">
+        </childnode>
+        <childnode refid="1248" relation="include">
+        </childnode>
+      </node>
+      <node id="1251">
+        <label>Group Project/ScrumOfTheEarth/window.h</label>
+        <link refid="window_8h"/>
+        <childnode refid="1252" relation="include">
+        </childnode>
+        <childnode refid="1253" relation="include">
+        </childnode>
+        <childnode refid="1254" relation="include">
+        </childnode>
+        <childnode refid="1255" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classPolyline" prot="public">Polyline</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="2"><highlight class="preprocessor">#ifndef<sp/>POLYLINE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>POLYLINE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vector_8h" kindref="compound">vector.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="shape_8h" kindref="compound">shape.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight></codeline>
+<codeline lineno="10" refid="classPolyline" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classPolyline" kindref="compound">Polyline</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classShape" kindref="compound">Shape</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classPolyline_1aaea9368c2e2bfc26ecaa36c7e125ac5e" kindref="member">Polyline</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;QPoint&gt;</ref>&amp;,<sp/>Qt::GlobalColor,<sp/>Qt::PenStyle,<sp/><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref>,<sp/><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22" refid="classPolyline_1ae38a1e1f4d3a0506cac0afcee0cbf93e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;QPoint&gt;</ref>&amp;<sp/><ref refid="classPolyline_1ae38a1e1f4d3a0506cac0afcee0cbf93e" kindref="member">getPoints</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>points;}<sp/></highlight><highlight class="comment">//polyline<sp/>specific</highlight></codeline>
+<codeline lineno="27" refid="classPolyline_1a39d80ee69de06bb2037e6d73a21643b3" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPolyline_1a39d80ee69de06bb2037e6d73a21643b3" kindref="member">setPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;QPoint&gt;</ref>&amp;<sp/>pts){points<sp/>=<sp/>pts;}<sp/></highlight><highlight class="comment">//polyline<sp/>specific</highlight></codeline>
+<codeline lineno="32" refid="classPolyline_1ac81ab6c46f172b381cc7b6ed4d6ec942" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classPolyline_1ac81ab6c46f172b381cc7b6ed4d6ec942" kindref="member">getNumOfPoints</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>points.<ref refid="classmyStd_1_1vector_1a33ebe4dab379f466c8d3a2f08d9aa554" kindref="member">size</ref>();}</highlight></codeline>
+<codeline lineno="37" refid="classPolyline_1a334e86d5b90a0f90649c64d37e95cff9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::GlobalColor<sp/><ref refid="classPolyline_1a334e86d5b90a0f90649c64d37e95cff9" kindref="member">getPenColor</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penColor;}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="classPolyline_1a69a07839c0f7c67efe10701bd7d7cf8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPolyline_1a69a07839c0f7c67efe10701bd7d7cf8e" kindref="member">setPenColor</ref>(Qt::GlobalColor<sp/>pc){penColor<sp/>=<sp/>pc;}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="classPolyline_1aefe298425b83dbc94724ab5cb215bba3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::PenStyle<sp/><ref refid="classPolyline_1aefe298425b83dbc94724ab5cb215bba3" kindref="member">getPenStyle</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penStyle;}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="classPolyline_1ae5af058a4a94979fa88c2c3267da9087" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPolyline_1ae5af058a4a94979fa88c2c3267da9087" kindref="member">setPenStyle</ref>(Qt::PenStyle<sp/>ps){penStyle<sp/>=<sp/>ps;}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="classPolyline_1acd78e365c667da035656279076bf5fe1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/><ref refid="classPolyline_1acd78e365c667da035656279076bf5fe1" kindref="member">getPenCapStyle</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penCapStyle;}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="classPolyline_1a34510d4e398ec607c0ec125f380f30ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPolyline_1a34510d4e398ec607c0ec125f380f30ff" kindref="member">setPenCapStyle</ref>(<ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/>pcs){<sp/>penCapStyle<sp/>=<sp/>pcs;}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="classPolyline_1a6bd520d9c7fef132bc43cbf61168917c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/><ref refid="classPolyline_1a6bd520d9c7fef132bc43cbf61168917c" kindref="member">getPenJoinStyle</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penJoinStyle;}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="classPolyline_1a3e792c8055d6c064afd6d6d07c7d8843" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPolyline_1a3e792c8055d6c064afd6d6d07c7d8843" kindref="member">setPenJoinStyle</ref>(<ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/>pjs){penJoinStyle<sp/>=<sp/>pjs;}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="classPolyline_1ab01dd06f45e43dc9e6617596065fee70" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classPolyline_1ab01dd06f45e43dc9e6617596065fee70" kindref="member">getPenWidth</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>penWidth;}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="classPolyline_1aeb5424c425e44adff787367a497fc024" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPolyline_1aeb5424c425e44adff787367a497fc024" kindref="member">setPenWidth</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pw){penWidth<sp/>=<sp/>pw;}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPolyline_1ac5b5a4ac26b140a7dc30cc293638e3ee" kindref="member">draw</ref>(QPainter&amp;,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="95" refid="classPolyline_1a6138f6313141e81d989622806476c3d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classPolyline_1a6138f6313141e81d989622806476c3d2" kindref="member">getType</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>7;}</highlight></codeline>
+<codeline lineno="100" refid="classPolyline_1abe58d8a06186437737d4c2f856328855" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classPolyline_1abe58d8a06186437737d4c2f856328855" kindref="member">getStaticType</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>7;}</highlight></codeline>
+<codeline lineno="101" refid="classPolyline_1ad5425297b32d53a0f74eda253d4540f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classPolyline_1ad5425297b32d53a0f74eda253d4540f7" kindref="member">getPerimeter</ref>()</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmyStd_1_1vector_1a667a65b093f1253d2229d06768aa3bf9" kindref="member">myStd::vector&lt;QPoint&gt;::iterator</ref><sp/>it<sp/>=<sp/>points.<ref refid="classmyStd_1_1vector_1adaa284b6b387f70d3244b4d6e64869c3" kindref="member">begin</ref>();</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(points.<ref refid="classmyStd_1_1vector_1a33ebe4dab379f466c8d3a2f08d9aa554" kindref="member">size</ref>()<sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>perimeter<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(;<sp/>i<sp/>&lt;<sp/>(points.<ref refid="classmyStd_1_1vector_1a33ebe4dab379f466c8d3a2f08d9aa554" kindref="member">size</ref>()-1);<sp/>++i)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>perimeter<sp/>+=<sp/>std::sqrt(((it[i].x()-it[i+1].x())*((it[i].x()-it[i+1].x()))+((it[i].y()-it[i+1].y())*(it[i].y()-it[i+1].y()))));</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>perimeter;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classmyStd_1_1vector" kindref="compound">myStd::vector&lt;QPoint&gt;</ref><sp/>points;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::GlobalColor<sp/>penColor;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>Qt::PenStyle<sp/>penStyle;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/>penCapStyle;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/>penJoinStyle;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>penWidth;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>POLYLINE_H</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/polyline.h"/>
+  </compounddef>
+</doxygen>

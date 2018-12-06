@@ -22,20 +22,51 @@
 
 using namespace std;
 
+/*!
+ * \brief convertColor converts a string to a Global color
+ * \return Qt::GlobalColor color
+ */
 Qt::GlobalColor convertColor(const string&);
 
+/*!
+ * \brief convertPenStyle converts a string to a Qt::PenStyle
+ * \return PenStyle
+ */
 Qt::PenStyle convertPenStyle(const string&);
 
+/*!
+ * \brief convertPenCapStyle converts a string to a Qt::PenCapStyle
+ * \return PenCapStyle
+ */
 Qt::PenCapStyle convertPenCapStyle(const string&);
 
+/*!
+ * \brief convertPenJoinStyle converts a string to a Qt::PenJoinStyle
+ * \returnPenJoinStyle
+ */
 Qt::PenJoinStyle convertPenJoinStyle(const string&);
 
+/*!
+ * \brief convertBrushStyle converts a string to a Qt::BrushStyle
+ * \return BrushStyle
+ */
 Qt::BrushStyle convertBrushStyle(const string &);
 
+/*!
+ * \brief convertAlignment converts a string to a Qt::AlignmentFlag
+ * \return AlignmentFlag
+ */
 Qt::AlignmentFlag convertAlignment(const string &);
-
+/*!
+ * \brief convertStyle converts a string to a QFont::Style
+ * \return FontStyle
+ */
 QFont::Style convertStyle(const string &);
-
+/*!
+ * \brief convertWeight converts a string to a QFont::Weight
+ * \param str
+ * \return FontWeight
+ */
 QFont::Weight convertWeight(const string &str);
 
 /*!

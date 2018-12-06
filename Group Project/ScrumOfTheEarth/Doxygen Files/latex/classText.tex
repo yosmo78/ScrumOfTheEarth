@@ -1,0 +1,468 @@
+\hypertarget{classText}{}\section{Text Class Reference}
+\label{classText}\index{Text@{Text}}
+
+
+\hyperlink{classText}{Text} class that Q\+Painter can draw.  
+
+
+
+
+{\ttfamily \#include $<$text.\+h$>$}
+
+
+
+Inheritance diagram for Text\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classText__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Text\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classText__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classText_a2af2490841998a368bccb3eaed6d3698}{Text} (unsigned int, int, int, int, int, Q\+String, Qt\+::\+Global\+Color, Qt\+::\+Alignment\+Flag, int, Q\+String, Q\+Font\+::\+Style, Q\+Font\+::\+Weight)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classText}{Text} all parameter constructor. \end{DoxyCompactList}\item 
+Q\+Point \hyperlink{classText_a599aa1ac67ad501551a851f2dbc1d90a}{get\+Corner\+Point} ()
+\begin{DoxyCompactList}\small\item\em Gets the top left corner of the text drawing rectangle. \end{DoxyCompactList}\item 
+void \hyperlink{classText_a8a8424a8e6386a0626cba6ddfa1a91c2}{set\+Corner\+Point} (Q\+Point p1)
+\begin{DoxyCompactList}\small\item\em Sets the top left corner of the text drawing rectangle to the given Q\+Point. \end{DoxyCompactList}\item 
+int \hyperlink{classText_a0d184f40401d7b4a8127470702bbe1ea}{get\+Length} ()
+\begin{DoxyCompactList}\small\item\em Gets the length of the text drawing rectangle. \end{DoxyCompactList}\item 
+void \hyperlink{classText_af833cfc1f38ddd0021ac7d1c65f0acb9}{set\+Length} (int \hyperlink{shape__input__file__specs_8txt_a2e02238fe11bc76d2a69c565c7391545}{l})
+\begin{DoxyCompactList}\small\item\em Sets the length of the drawing rectangle. \end{DoxyCompactList}\item 
+int \hyperlink{classText_aa426e679627149ff986a2c793b2ac71d}{get\+Width} ()
+\begin{DoxyCompactList}\small\item\em Gets the width of the drawing rectangle. \end{DoxyCompactList}\item 
+void \hyperlink{classText_adb7d8d7de01f5ee0d4de99092e728db6}{set\+Width} (int w)
+\begin{DoxyCompactList}\small\item\em Sets the width of the drawing rectangle to the given width. \end{DoxyCompactList}\item 
+Q\+String \hyperlink{classText_a873c6803659cfbc8282f746d6a15f158}{get\+Text\+String} ()
+\begin{DoxyCompactList}\small\item\em Gets the string of text that is to be drawn. \end{DoxyCompactList}\item 
+void \hyperlink{classText_a84348cf4792c9c9b31c50db0ff776784}{set\+Text\+String} (Q\+String ts)
+\begin{DoxyCompactList}\small\item\em Sets the string of text to be drawn. \end{DoxyCompactList}\item 
+Qt\+::\+Global\+Color \hyperlink{classText_ac6681a7e36595ab4465814caf87418e1}{get\+Global\+Color} ()
+\begin{DoxyCompactList}\small\item\em Gets the color of the text. \end{DoxyCompactList}\item 
+void \hyperlink{classText_afd3587da630468e7b7c78b4160cb2837}{set\+Global\+Color} (Qt\+::\+Global\+Color gc)
+\begin{DoxyCompactList}\small\item\em Sets the color of the text. \end{DoxyCompactList}\item 
+Qt\+::\+Alignment\+Flag \hyperlink{classText_a20c87e3d4ca218bdaae3181922091ca5}{get\+Alignment\+Flag} ()
+\begin{DoxyCompactList}\small\item\em Gets the alignment flag of the text. \end{DoxyCompactList}\item 
+void \hyperlink{classText_a7eddf71ff09b1b20499d2a05ac017dd7}{set\+Alignment\+Flag} (Qt\+::\+Alignment\+Flag af)
+\begin{DoxyCompactList}\small\item\em Sets the Alignment of the text. \end{DoxyCompactList}\item 
+int \hyperlink{classText_a14d8585dd9a39a1bfecd1b2b44131464}{get\+Text\+Point\+Size} ()
+\begin{DoxyCompactList}\small\item\em Gets the point size of the text. \end{DoxyCompactList}\item 
+void \hyperlink{classText_ad1e9aabbb6fc0aebc94b3855e32eea78}{set\+Text\+Point\+Size} (int ts)
+\begin{DoxyCompactList}\small\item\em Sets the point size to the given point size. \end{DoxyCompactList}\item 
+Q\+String \hyperlink{classText_ac72f905a25316d1c271674811e31f724}{get\+Text\+Font\+Family} ()
+\begin{DoxyCompactList}\small\item\em Gets the font family of the text. \end{DoxyCompactList}\item 
+void \hyperlink{classText_addb9d731d7822aa2d5956d9dc0201500}{set\+Text\+Font\+Family} (Q\+String tff)
+\begin{DoxyCompactList}\small\item\em Sets the font family of the text to the given font family. \end{DoxyCompactList}\item 
+Q\+Font\+::\+Style \hyperlink{classText_ad572034a19f008c64c63e858cf02a0a4}{get\+Text\+Font\+Style} ()
+\begin{DoxyCompactList}\small\item\em Gets the Font Style of the text. \end{DoxyCompactList}\item 
+void \hyperlink{classText_acd45f77b52ddeeeeec895fb06997784f}{set\+Text\+Font\+Style} (Q\+Font\+::\+Style tfs)
+\begin{DoxyCompactList}\small\item\em Sets the font style of the text to the given font style. \end{DoxyCompactList}\item 
+Q\+Font\+::\+Weight \hyperlink{classText_a633a61b274b66c47244430638cd57233}{get\+Text\+Font\+Weight} ()
+\begin{DoxyCompactList}\small\item\em Gets the Font Weight of the text. \end{DoxyCompactList}\item 
+void \hyperlink{classText_afc544d4b1e989b7386026c39f9413228}{set\+Text\+Font\+Weight} (Q\+Font\+::\+Weight tfw)
+\begin{DoxyCompactList}\small\item\em Sets the Font Weight of the text to the given Font Weight. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classText_a54e8085e0b04abba6b4a09232ff21449}{draw} (Q\+Painter \&, bool)
+\begin{DoxyCompactList}\small\item\em Virtual function to draw shapes. \end{DoxyCompactList}\item 
+virtual int \hyperlink{classText_a701eda01498e972823f4c833ed0e8811}{get\+Type} ()
+\begin{DoxyCompactList}\small\item\em Gets the type of the shape. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{classText_aa63f66168dc6f0af547710743a52f9c9}{get\+Static\+Type} ()
+\begin{DoxyCompactList}\small\item\em gets the Type of object \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classText}{Text} class that Q\+Painter can draw. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Text@{Text}!Text@{Text}}
+\index{Text@{Text}!Text@{Text}}
+\subsubsection[{\texorpdfstring{Text(unsigned int, int, int, int, int, Q\+String, Qt\+::\+Global\+Color, Qt\+::\+Alignment\+Flag, int, Q\+String, Q\+Font\+::\+Style, Q\+Font\+::\+Weight)}{Text(unsigned int, int, int, int, int, QString, Qt::GlobalColor, Qt::AlignmentFlag, int, QString, QFont::Style, QFont::Weight)}}]{\setlength{\rightskip}{0pt plus 5cm}Text\+::\+Text (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{i, }
+\item[{int}]{x, }
+\item[{int}]{y, }
+\item[{int}]{l, }
+\item[{int}]{w, }
+\item[{Q\+String}]{txt, }
+\item[{Qt\+::\+Global\+Color}]{tc, }
+\item[{Qt\+::\+Alignment\+Flag}]{ta, }
+\item[{int}]{tps, }
+\item[{Q\+String}]{tff, }
+\item[{Q\+Font\+::\+Style}]{tfs, }
+\item[{Q\+Font\+::\+Weight}]{tfw}
+\end{DoxyParamCaption}
+)}\hypertarget{classText_a2af2490841998a368bccb3eaed6d3698}{}\label{classText_a2af2490841998a368bccb3eaed6d3698}
+
+
+\hyperlink{classText}{Text} all parameter constructor. 
+
+
+
+\subsection{Member Function Documentation}
+\index{Text@{Text}!draw@{draw}}
+\index{draw@{draw}!Text@{Text}}
+\subsubsection[{\texorpdfstring{draw(\+Q\+Painter \&, bool)}{draw(QPainter &, bool)}}]{\setlength{\rightskip}{0pt plus 5cm}void Text\+::draw (
+\begin{DoxyParamCaption}
+\item[{Q\+Painter \&}]{, }
+\item[{bool}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classText_a54e8085e0b04abba6b4a09232ff21449}{}\label{classText_a54e8085e0b04abba6b4a09232ff21449}
+
+
+Virtual function to draw shapes. 
+
+
+
+Implements \hyperlink{classShape_a47dae32819e64fb32f3357f31978293f}{Shape}.
+
+\index{Text@{Text}!get\+Alignment\+Flag@{get\+Alignment\+Flag}}
+\index{get\+Alignment\+Flag@{get\+Alignment\+Flag}!Text@{Text}}
+\subsubsection[{\texorpdfstring{get\+Alignment\+Flag()}{getAlignmentFlag()}}]{\setlength{\rightskip}{0pt plus 5cm}Qt\+::\+Alignment\+Flag Text\+::get\+Alignment\+Flag (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classText_a20c87e3d4ca218bdaae3181922091ca5}{}\label{classText_a20c87e3d4ca218bdaae3181922091ca5}
+
+
+Gets the alignment flag of the text. 
+
+\begin{DoxyReturn}{Returns}
+Qt\+::\+Alignment\+Flag alignment of text 
+\end{DoxyReturn}
+\index{Text@{Text}!get\+Corner\+Point@{get\+Corner\+Point}}
+\index{get\+Corner\+Point@{get\+Corner\+Point}!Text@{Text}}
+\subsubsection[{\texorpdfstring{get\+Corner\+Point()}{getCornerPoint()}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Point Text\+::get\+Corner\+Point (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classText_a599aa1ac67ad501551a851f2dbc1d90a}{}\label{classText_a599aa1ac67ad501551a851f2dbc1d90a}
+
+
+Gets the top left corner of the text drawing rectangle. 
+
+\begin{DoxyReturn}{Returns}
+Q\+Point top left corner 
+\end{DoxyReturn}
+\index{Text@{Text}!get\+Global\+Color@{get\+Global\+Color}}
+\index{get\+Global\+Color@{get\+Global\+Color}!Text@{Text}}
+\subsubsection[{\texorpdfstring{get\+Global\+Color()}{getGlobalColor()}}]{\setlength{\rightskip}{0pt plus 5cm}Qt\+::\+Global\+Color Text\+::get\+Global\+Color (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classText_ac6681a7e36595ab4465814caf87418e1}{}\label{classText_ac6681a7e36595ab4465814caf87418e1}
+
+
+Gets the color of the text. 
+
+\begin{DoxyReturn}{Returns}
+Qt\+::\+Global\+Color text color 
+\end{DoxyReturn}
+\index{Text@{Text}!get\+Length@{get\+Length}}
+\index{get\+Length@{get\+Length}!Text@{Text}}
+\subsubsection[{\texorpdfstring{get\+Length()}{getLength()}}]{\setlength{\rightskip}{0pt plus 5cm}int Text\+::get\+Length (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classText_a0d184f40401d7b4a8127470702bbe1ea}{}\label{classText_a0d184f40401d7b4a8127470702bbe1ea}
+
+
+Gets the length of the text drawing rectangle. 
+
+\begin{DoxyReturn}{Returns}
+int length 
+\end{DoxyReturn}
+\index{Text@{Text}!get\+Static\+Type@{get\+Static\+Type}}
+\index{get\+Static\+Type@{get\+Static\+Type}!Text@{Text}}
+\subsubsection[{\texorpdfstring{get\+Static\+Type()}{getStaticType()}}]{\setlength{\rightskip}{0pt plus 5cm}static int Text\+::get\+Static\+Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}\hypertarget{classText_aa63f66168dc6f0af547710743a52f9c9}{}\label{classText_aa63f66168dc6f0af547710743a52f9c9}
+
+
+gets the Type of object 
+
+\begin{DoxyReturn}{Returns}
+Type as int 
+\end{DoxyReturn}
+\index{Text@{Text}!get\+Text\+Font\+Family@{get\+Text\+Font\+Family}}
+\index{get\+Text\+Font\+Family@{get\+Text\+Font\+Family}!Text@{Text}}
+\subsubsection[{\texorpdfstring{get\+Text\+Font\+Family()}{getTextFontFamily()}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+String Text\+::get\+Text\+Font\+Family (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classText_ac72f905a25316d1c271674811e31f724}{}\label{classText_ac72f905a25316d1c271674811e31f724}
+
+
+Gets the font family of the text. 
+
+\begin{DoxyReturn}{Returns}
+Q\+String text font family 
+\end{DoxyReturn}
+\index{Text@{Text}!get\+Text\+Font\+Style@{get\+Text\+Font\+Style}}
+\index{get\+Text\+Font\+Style@{get\+Text\+Font\+Style}!Text@{Text}}
+\subsubsection[{\texorpdfstring{get\+Text\+Font\+Style()}{getTextFontStyle()}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Font\+::\+Style Text\+::get\+Text\+Font\+Style (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classText_ad572034a19f008c64c63e858cf02a0a4}{}\label{classText_ad572034a19f008c64c63e858cf02a0a4}
+
+
+Gets the Font Style of the text. 
+
+\begin{DoxyReturn}{Returns}
+Q\+Font\+::\+Style 
+\end{DoxyReturn}
+\index{Text@{Text}!get\+Text\+Font\+Weight@{get\+Text\+Font\+Weight}}
+\index{get\+Text\+Font\+Weight@{get\+Text\+Font\+Weight}!Text@{Text}}
+\subsubsection[{\texorpdfstring{get\+Text\+Font\+Weight()}{getTextFontWeight()}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Font\+::\+Weight Text\+::get\+Text\+Font\+Weight (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classText_a633a61b274b66c47244430638cd57233}{}\label{classText_a633a61b274b66c47244430638cd57233}
+
+
+Gets the Font Weight of the text. 
+
+\begin{DoxyReturn}{Returns}
+Q\+Font\+::\+Weight 
+\end{DoxyReturn}
+\index{Text@{Text}!get\+Text\+Point\+Size@{get\+Text\+Point\+Size}}
+\index{get\+Text\+Point\+Size@{get\+Text\+Point\+Size}!Text@{Text}}
+\subsubsection[{\texorpdfstring{get\+Text\+Point\+Size()}{getTextPointSize()}}]{\setlength{\rightskip}{0pt plus 5cm}int Text\+::get\+Text\+Point\+Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classText_a14d8585dd9a39a1bfecd1b2b44131464}{}\label{classText_a14d8585dd9a39a1bfecd1b2b44131464}
+
+
+Gets the point size of the text. 
+
+\begin{DoxyReturn}{Returns}
+int point\+Size 
+\end{DoxyReturn}
+\index{Text@{Text}!get\+Text\+String@{get\+Text\+String}}
+\index{get\+Text\+String@{get\+Text\+String}!Text@{Text}}
+\subsubsection[{\texorpdfstring{get\+Text\+String()}{getTextString()}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+String Text\+::get\+Text\+String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classText_a873c6803659cfbc8282f746d6a15f158}{}\label{classText_a873c6803659cfbc8282f746d6a15f158}
+
+
+Gets the string of text that is to be drawn. 
+
+\begin{DoxyReturn}{Returns}
+Q\+String text\+String 
+\end{DoxyReturn}
+\index{Text@{Text}!get\+Type@{get\+Type}}
+\index{get\+Type@{get\+Type}!Text@{Text}}
+\subsubsection[{\texorpdfstring{get\+Type()}{getType()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual int Text\+::get\+Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{classText_a701eda01498e972823f4c833ed0e8811}{}\label{classText_a701eda01498e972823f4c833ed0e8811}
+
+
+Gets the type of the shape. 
+
+\begin{DoxyReturn}{Returns}
+type as an int 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classShape_a3d15adf2a1d746928f9be98105096eda}{Shape}.
+
+\index{Text@{Text}!get\+Width@{get\+Width}}
+\index{get\+Width@{get\+Width}!Text@{Text}}
+\subsubsection[{\texorpdfstring{get\+Width()}{getWidth()}}]{\setlength{\rightskip}{0pt plus 5cm}int Text\+::get\+Width (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classText_aa426e679627149ff986a2c793b2ac71d}{}\label{classText_aa426e679627149ff986a2c793b2ac71d}
+
+
+Gets the width of the drawing rectangle. 
+
+\begin{DoxyReturn}{Returns}
+int width of rectangle 
+\end{DoxyReturn}
+\index{Text@{Text}!set\+Alignment\+Flag@{set\+Alignment\+Flag}}
+\index{set\+Alignment\+Flag@{set\+Alignment\+Flag}!Text@{Text}}
+\subsubsection[{\texorpdfstring{set\+Alignment\+Flag(\+Qt\+::\+Alignment\+Flag af)}{setAlignmentFlag(Qt::AlignmentFlag af)}}]{\setlength{\rightskip}{0pt plus 5cm}void Text\+::set\+Alignment\+Flag (
+\begin{DoxyParamCaption}
+\item[{Qt\+::\+Alignment\+Flag}]{af}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classText_a7eddf71ff09b1b20499d2a05ac017dd7}{}\label{classText_a7eddf71ff09b1b20499d2a05ac017dd7}
+
+
+Sets the Alignment of the text. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em af} & Qt\+::\+A\+Lignment\+Flag \\
+\hline
+\end{DoxyParams}
+\index{Text@{Text}!set\+Corner\+Point@{set\+Corner\+Point}}
+\index{set\+Corner\+Point@{set\+Corner\+Point}!Text@{Text}}
+\subsubsection[{\texorpdfstring{set\+Corner\+Point(\+Q\+Point p1)}{setCornerPoint(QPoint p1)}}]{\setlength{\rightskip}{0pt plus 5cm}void Text\+::set\+Corner\+Point (
+\begin{DoxyParamCaption}
+\item[{Q\+Point}]{p1}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classText_a8a8424a8e6386a0626cba6ddfa1a91c2}{}\label{classText_a8a8424a8e6386a0626cba6ddfa1a91c2}
+
+
+Sets the top left corner of the text drawing rectangle to the given Q\+Point. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p1} & Q\+Point \\
+\hline
+\end{DoxyParams}
+\index{Text@{Text}!set\+Global\+Color@{set\+Global\+Color}}
+\index{set\+Global\+Color@{set\+Global\+Color}!Text@{Text}}
+\subsubsection[{\texorpdfstring{set\+Global\+Color(\+Qt\+::\+Global\+Color gc)}{setGlobalColor(Qt::GlobalColor gc)}}]{\setlength{\rightskip}{0pt plus 5cm}void Text\+::set\+Global\+Color (
+\begin{DoxyParamCaption}
+\item[{Qt\+::\+Global\+Color}]{gc}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classText_afd3587da630468e7b7c78b4160cb2837}{}\label{classText_afd3587da630468e7b7c78b4160cb2837}
+
+
+Sets the color of the text. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em gc} & Qt\+::\+Global\+Color for the text color \\
+\hline
+\end{DoxyParams}
+\index{Text@{Text}!set\+Length@{set\+Length}}
+\index{set\+Length@{set\+Length}!Text@{Text}}
+\subsubsection[{\texorpdfstring{set\+Length(int l)}{setLength(int l)}}]{\setlength{\rightskip}{0pt plus 5cm}void Text\+::set\+Length (
+\begin{DoxyParamCaption}
+\item[{int}]{l}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classText_af833cfc1f38ddd0021ac7d1c65f0acb9}{}\label{classText_af833cfc1f38ddd0021ac7d1c65f0acb9}
+
+
+Sets the length of the drawing rectangle. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em l} & length of drawing rectangle \\
+\hline
+\end{DoxyParams}
+\index{Text@{Text}!set\+Text\+Font\+Family@{set\+Text\+Font\+Family}}
+\index{set\+Text\+Font\+Family@{set\+Text\+Font\+Family}!Text@{Text}}
+\subsubsection[{\texorpdfstring{set\+Text\+Font\+Family(\+Q\+String tff)}{setTextFontFamily(QString tff)}}]{\setlength{\rightskip}{0pt plus 5cm}void Text\+::set\+Text\+Font\+Family (
+\begin{DoxyParamCaption}
+\item[{Q\+String}]{tff}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classText_addb9d731d7822aa2d5956d9dc0201500}{}\label{classText_addb9d731d7822aa2d5956d9dc0201500}
+
+
+Sets the font family of the text to the given font family. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tff} & Q\+String of the font family \\
+\hline
+\end{DoxyParams}
+\index{Text@{Text}!set\+Text\+Font\+Style@{set\+Text\+Font\+Style}}
+\index{set\+Text\+Font\+Style@{set\+Text\+Font\+Style}!Text@{Text}}
+\subsubsection[{\texorpdfstring{set\+Text\+Font\+Style(\+Q\+Font\+::\+Style tfs)}{setTextFontStyle(QFont::Style tfs)}}]{\setlength{\rightskip}{0pt plus 5cm}void Text\+::set\+Text\+Font\+Style (
+\begin{DoxyParamCaption}
+\item[{Q\+Font\+::\+Style}]{tfs}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classText_acd45f77b52ddeeeeec895fb06997784f}{}\label{classText_acd45f77b52ddeeeeec895fb06997784f}
+
+
+Sets the font style of the text to the given font style. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tfs} & Q\+Font\+::\+Style \\
+\hline
+\end{DoxyParams}
+\index{Text@{Text}!set\+Text\+Font\+Weight@{set\+Text\+Font\+Weight}}
+\index{set\+Text\+Font\+Weight@{set\+Text\+Font\+Weight}!Text@{Text}}
+\subsubsection[{\texorpdfstring{set\+Text\+Font\+Weight(\+Q\+Font\+::\+Weight tfw)}{setTextFontWeight(QFont::Weight tfw)}}]{\setlength{\rightskip}{0pt plus 5cm}void Text\+::set\+Text\+Font\+Weight (
+\begin{DoxyParamCaption}
+\item[{Q\+Font\+::\+Weight}]{tfw}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classText_afc544d4b1e989b7386026c39f9413228}{}\label{classText_afc544d4b1e989b7386026c39f9413228}
+
+
+Sets the Font Weight of the text to the given Font Weight. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tfw} & Q\+Font\+::\+Weight \\
+\hline
+\end{DoxyParams}
+\index{Text@{Text}!set\+Text\+Point\+Size@{set\+Text\+Point\+Size}}
+\index{set\+Text\+Point\+Size@{set\+Text\+Point\+Size}!Text@{Text}}
+\subsubsection[{\texorpdfstring{set\+Text\+Point\+Size(int ts)}{setTextPointSize(int ts)}}]{\setlength{\rightskip}{0pt plus 5cm}void Text\+::set\+Text\+Point\+Size (
+\begin{DoxyParamCaption}
+\item[{int}]{ts}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classText_ad1e9aabbb6fc0aebc94b3855e32eea78}{}\label{classText_ad1e9aabbb6fc0aebc94b3855e32eea78}
+
+
+Sets the point size to the given point size. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ts} & int Point size \\
+\hline
+\end{DoxyParams}
+\index{Text@{Text}!set\+Text\+String@{set\+Text\+String}}
+\index{set\+Text\+String@{set\+Text\+String}!Text@{Text}}
+\subsubsection[{\texorpdfstring{set\+Text\+String(\+Q\+String ts)}{setTextString(QString ts)}}]{\setlength{\rightskip}{0pt plus 5cm}void Text\+::set\+Text\+String (
+\begin{DoxyParamCaption}
+\item[{Q\+String}]{ts}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classText_a84348cf4792c9c9b31c50db0ff776784}{}\label{classText_a84348cf4792c9c9b31c50db0ff776784}
+
+
+Sets the string of text to be drawn. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ts} & Q\+String of the text \\
+\hline
+\end{DoxyParams}
+\index{Text@{Text}!set\+Width@{set\+Width}}
+\index{set\+Width@{set\+Width}!Text@{Text}}
+\subsubsection[{\texorpdfstring{set\+Width(int w)}{setWidth(int w)}}]{\setlength{\rightskip}{0pt plus 5cm}void Text\+::set\+Width (
+\begin{DoxyParamCaption}
+\item[{int}]{w}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classText_adb7d8d7de01f5ee0d4de99092e728db6}{}\label{classText_adb7d8d7de01f5ee0d4de99092e728db6}
+
+
+Sets the width of the drawing rectangle to the given width. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em w} & width of drawing rectangle \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Group Project/\+Scrum\+Of\+The\+Earth/\hyperlink{text_8h}{text.\+h}\item 
+Group Project/\+Scrum\+Of\+The\+Earth/\hyperlink{text_8cpp}{text.\+cpp}\end{DoxyCompactItemize}

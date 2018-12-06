@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="circle_8cpp" kind="file" language="C++">
+    <compoundname>circle.cpp</compoundname>
+    <includes refid="circle_8h" local="yes">circle.h</includes>
+    <includes local="no">string</includes>
+    <incdepgraph>
+      <node id="884">
+        <label>Group Project/ScrumOfTheEarth/circle.cpp</label>
+        <link refid="circle.cpp"/>
+        <childnode refid="885" relation="include">
+        </childnode>
+        <childnode refid="891" relation="include">
+        </childnode>
+      </node>
+      <node id="888">
+        <label>QObject</label>
+      </node>
+      <node id="886">
+        <label>shape.h</label>
+        <link refid="shape_8h"/>
+        <childnode refid="887" relation="include">
+        </childnode>
+        <childnode refid="888" relation="include">
+        </childnode>
+        <childnode refid="889" relation="include">
+        </childnode>
+      </node>
+      <node id="889">
+        <label>vector.h</label>
+        <link refid="vector_8h"/>
+        <childnode refid="890" relation="include">
+        </childnode>
+      </node>
+      <node id="891">
+        <label>string</label>
+      </node>
+      <node id="885">
+        <label>circle.h</label>
+        <link refid="circle_8h"/>
+        <childnode refid="886" relation="include">
+        </childnode>
+      </node>
+      <node id="887">
+        <label>QPainter</label>
+      </node>
+      <node id="890">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="circle_8h" kindref="compound">circle.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><ref refid="classCircle_1a40e653e2eecf4335d2125c97700dff3c" kindref="member">Circle::Circle</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r,<sp/>Qt::GlobalColor<sp/>pc,<sp/>Qt::GlobalColor<sp/>bc,<sp/>Qt::PenStyle<sp/>ps,<sp/><ref refid="shape__input__file__specs_8txt_1a622efdcfef6789d4367974d2fe79019e" kindref="member">Qt::PenCapStyle</ref><sp/>pcs,<sp/><ref refid="shape__input__file__specs_8txt_1a007db2043c6063881de2043c05c9c4a9" kindref="member">Qt::PenJoinStyle</ref><sp/>pjs,<sp/><ref refid="shape__input__file__specs_8txt_1ad07f6fe6c28dcb0b3bdc324a72d0051f" kindref="member">Qt::BrushStyle</ref><sp/>bs,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pw):</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classShape" kindref="compound">Shape</ref>(i),<sp/>point(x,y),<sp/>radius(r),penColor(pc),<sp/>brushColor(bc),penStyle(ps),penCapStyle(pcs),penJoinStyle(pjs),brushStyle(bs),penWidth(pw){}</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCircle_1aebc2ff1cc810905bc557d54e76aef936" kindref="member">Circle::draw</ref>(QPainter<sp/>&amp;<sp/>paint,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Id)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>QBrush<sp/>b(brushColor,brushStyle);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>QBrush<sp/>p(penColor);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>QPen<sp/>pen(p,qreal(penWidth),penStyle,penCapStyle,penJoinStyle);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>paint.setPen(pen);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>paint.setBrush(b);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>paint.drawEllipse(point,radius,radius);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Id)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>paint.drawText(point.x()<sp/>+<sp/>(radius/4<sp/>-<sp/>3<sp/>*<sp/>(std::to_string(getShapeId()).size())),<sp/>point.y()-(radius)-penWidth,QString::fromStdString(std::to_string(getShapeId())));</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Group Project/ScrumOfTheEarth/circle.cpp"/>
+  </compounddef>
+</doxygen>
