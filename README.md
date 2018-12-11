@@ -1,5 +1,8 @@
 # ScrumOfTheEarth
 All steps for the deliverables are at this level with the name step at the end of its name
+
+All line numbers are in the FillingRequirements.txt
+
 1) GitHub URLStep1.txt
 2) ScrumOfTheEarthStep2.zip
 3) ScrumOfTheEarthStep3.zip
