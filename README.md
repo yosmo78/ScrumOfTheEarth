@@ -1,4 +1,9 @@
-# ScrumOfTheEarth
+## ScrumOfTheEarth
+
+# Saddleback school project for Professor Kath's class
+
+A practice following software engineering principles
+
 All steps for the deliverables are at this level with the name step at the end of its name
 
 All line numbers are in the FillingRequirements.txt
