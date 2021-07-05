@@ -1,6 +1,6 @@
-## ScrumOfTheEarth
+# ScrumOfTheEarth
 
-# Saddleback school project for Professor Kath's class
+## Saddleback school project for Professor Kath's class
 
 A practice following software engineering principles
 
