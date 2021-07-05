@@ -2,7 +2,7 @@
 
 ## Saddleback school project for Professor Kath's class
 
-A practice following software engineering principles
+A practice following software engineering principles (really made in 2 6hr sessions)
 
 All steps for the deliverables are at this level with the name step at the end of its name
 
